@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleOracleDatabaseCloudVmClusterConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleOracleDatabaseCloudVmClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the backup OdbSubnet associated with the VM Cluster.
   * Format:
@@ -46,7 +46,7 @@ export interface GoogleOracleDatabaseCloudVmClusterConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#deletion_protection GoogleOracleDatabaseCloudVmCluster#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * User friendly name for this resource.
   *
@@ -131,55 +131,55 @@ export interface GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataColl
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#diagnostics_events_enabled GoogleOracleDatabaseCloudVmCluster#diagnostics_events_enabled}
   */
-  readonly diagnosticsEventsEnabled?: boolean | cdktf.IResolvable;
+  readonly diagnosticsEventsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether health monitoring is enabled for the VM cluster
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#health_monitoring_enabled GoogleOracleDatabaseCloudVmCluster#health_monitoring_enabled}
   */
-  readonly healthMonitoringEnabled?: boolean | cdktf.IResolvable;
+  readonly healthMonitoringEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether incident logs and trace collection are enabled for the VM
   * cluster
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#incident_logs_enabled GoogleOracleDatabaseCloudVmCluster#incident_logs_enabled}
   */
-  readonly incidentLogsEnabled?: boolean | cdktf.IResolvable;
+  readonly incidentLogsEnabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsToTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference | GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    diagnostics_events_enabled: cdktf.booleanToTerraform(struct!.diagnosticsEventsEnabled),
-    health_monitoring_enabled: cdktf.booleanToTerraform(struct!.healthMonitoringEnabled),
-    incident_logs_enabled: cdktf.booleanToTerraform(struct!.incidentLogsEnabled),
+    diagnostics_events_enabled: cdktn.booleanToTerraform(struct!.diagnosticsEventsEnabled),
+    health_monitoring_enabled: cdktn.booleanToTerraform(struct!.healthMonitoringEnabled),
+    incident_logs_enabled: cdktn.booleanToTerraform(struct!.incidentLogsEnabled),
   }
 }
 
 
 export function googleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsToHclTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference | GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     diagnostics_events_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.diagnosticsEventsEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.diagnosticsEventsEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     health_monitoring_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.healthMonitoringEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.healthMonitoringEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     incident_logs_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.incidentLogsEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.incidentLogsEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -190,14 +190,14 @@ export function googleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataColle
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -235,11 +235,11 @@ export class GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollecti
   }
 
   // diagnostics_events_enabled - computed: false, optional: true, required: false
-  private _diagnosticsEventsEnabled?: boolean | cdktf.IResolvable; 
+  private _diagnosticsEventsEnabled?: boolean | cdktn.IResolvable; 
   public get diagnosticsEventsEnabled() {
     return this.getBooleanAttribute('diagnostics_events_enabled');
   }
-  public set diagnosticsEventsEnabled(value: boolean | cdktf.IResolvable) {
+  public set diagnosticsEventsEnabled(value: boolean | cdktn.IResolvable) {
     this._diagnosticsEventsEnabled = value;
   }
   public resetDiagnosticsEventsEnabled() {
@@ -251,11 +251,11 @@ export class GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollecti
   }
 
   // health_monitoring_enabled - computed: false, optional: true, required: false
-  private _healthMonitoringEnabled?: boolean | cdktf.IResolvable; 
+  private _healthMonitoringEnabled?: boolean | cdktn.IResolvable; 
   public get healthMonitoringEnabled() {
     return this.getBooleanAttribute('health_monitoring_enabled');
   }
-  public set healthMonitoringEnabled(value: boolean | cdktf.IResolvable) {
+  public set healthMonitoringEnabled(value: boolean | cdktn.IResolvable) {
     this._healthMonitoringEnabled = value;
   }
   public resetHealthMonitoringEnabled() {
@@ -267,11 +267,11 @@ export class GoogleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollecti
   }
 
   // incident_logs_enabled - computed: false, optional: true, required: false
-  private _incidentLogsEnabled?: boolean | cdktf.IResolvable; 
+  private _incidentLogsEnabled?: boolean | cdktn.IResolvable; 
   public get incidentLogsEnabled() {
     return this.getBooleanAttribute('incident_logs_enabled');
   }
-  public set incidentLogsEnabled(value: boolean | cdktf.IResolvable) {
+  public set incidentLogsEnabled(value: boolean | cdktn.IResolvable) {
     this._incidentLogsEnabled = value;
   }
   public resetIncidentLogsEnabled() {
@@ -295,24 +295,24 @@ export interface GoogleOracleDatabaseCloudVmClusterPropertiesTimeZone {
 }
 
 export function googleOracleDatabaseCloudVmClusterPropertiesTimeZoneToTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference | GoogleOracleDatabaseCloudVmClusterPropertiesTimeZone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
+    id: cdktn.stringToTerraform(struct!.id),
   }
 }
 
 
 export function googleOracleDatabaseCloudVmClusterPropertiesTimeZoneToHclTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference | GoogleOracleDatabaseCloudVmClusterPropertiesTimeZone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -323,14 +323,14 @@ export function googleOracleDatabaseCloudVmClusterPropertiesTimeZoneToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference extends cdktf.ComplexObject {
+export class GoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -439,7 +439,7 @@ export interface GoogleOracleDatabaseCloudVmClusterProperties {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#local_backup_enabled GoogleOracleDatabaseCloudVmCluster#local_backup_enabled}
   */
-  readonly localBackupEnabled?: boolean | cdktf.IResolvable;
+  readonly localBackupEnabled?: boolean | cdktn.IResolvable;
   /**
   * Memory allocated in GBs.
   *
@@ -463,7 +463,7 @@ export interface GoogleOracleDatabaseCloudVmClusterProperties {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#sparse_diskgroup_enabled GoogleOracleDatabaseCloudVmCluster#sparse_diskgroup_enabled}
   */
-  readonly sparseDiskgroupEnabled?: boolean | cdktf.IResolvable;
+  readonly sparseDiskgroupEnabled?: boolean | cdktn.IResolvable;
   /**
   * SSH public keys to be stored with cluster.
   *
@@ -485,26 +485,26 @@ export interface GoogleOracleDatabaseCloudVmClusterProperties {
 }
 
 export function googleOracleDatabaseCloudVmClusterPropertiesToTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference | GoogleOracleDatabaseCloudVmClusterProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_name: cdktf.stringToTerraform(struct!.clusterName),
-    cpu_core_count: cdktf.numberToTerraform(struct!.cpuCoreCount),
-    data_storage_size_tb: cdktf.numberToTerraform(struct!.dataStorageSizeTb),
-    db_node_storage_size_gb: cdktf.numberToTerraform(struct!.dbNodeStorageSizeGb),
-    db_server_ocids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dbServerOcids),
-    disk_redundancy: cdktf.stringToTerraform(struct!.diskRedundancy),
-    gi_version: cdktf.stringToTerraform(struct!.giVersion),
-    hostname_prefix: cdktf.stringToTerraform(struct!.hostnamePrefix),
-    license_type: cdktf.stringToTerraform(struct!.licenseType),
-    local_backup_enabled: cdktf.booleanToTerraform(struct!.localBackupEnabled),
-    memory_size_gb: cdktf.numberToTerraform(struct!.memorySizeGb),
-    node_count: cdktf.numberToTerraform(struct!.nodeCount),
-    ocpu_count: cdktf.numberToTerraform(struct!.ocpuCount),
-    sparse_diskgroup_enabled: cdktf.booleanToTerraform(struct!.sparseDiskgroupEnabled),
-    ssh_public_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sshPublicKeys),
+    cluster_name: cdktn.stringToTerraform(struct!.clusterName),
+    cpu_core_count: cdktn.numberToTerraform(struct!.cpuCoreCount),
+    data_storage_size_tb: cdktn.numberToTerraform(struct!.dataStorageSizeTb),
+    db_node_storage_size_gb: cdktn.numberToTerraform(struct!.dbNodeStorageSizeGb),
+    db_server_ocids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dbServerOcids),
+    disk_redundancy: cdktn.stringToTerraform(struct!.diskRedundancy),
+    gi_version: cdktn.stringToTerraform(struct!.giVersion),
+    hostname_prefix: cdktn.stringToTerraform(struct!.hostnamePrefix),
+    license_type: cdktn.stringToTerraform(struct!.licenseType),
+    local_backup_enabled: cdktn.booleanToTerraform(struct!.localBackupEnabled),
+    memory_size_gb: cdktn.numberToTerraform(struct!.memorySizeGb),
+    node_count: cdktn.numberToTerraform(struct!.nodeCount),
+    ocpu_count: cdktn.numberToTerraform(struct!.ocpuCount),
+    sparse_diskgroup_enabled: cdktn.booleanToTerraform(struct!.sparseDiskgroupEnabled),
+    ssh_public_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sshPublicKeys),
     diagnostics_data_collection_options: googleOracleDatabaseCloudVmClusterPropertiesDiagnosticsDataCollectionOptionsToTerraform(struct!.diagnosticsDataCollectionOptions),
     time_zone: googleOracleDatabaseCloudVmClusterPropertiesTimeZoneToTerraform(struct!.timeZone),
   }
@@ -512,97 +512,97 @@ export function googleOracleDatabaseCloudVmClusterPropertiesToTerraform(struct?:
 
 
 export function googleOracleDatabaseCloudVmClusterPropertiesToHclTerraform(struct?: GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference | GoogleOracleDatabaseCloudVmClusterProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_name: {
-      value: cdktf.stringToHclTerraform(struct!.clusterName),
+      value: cdktn.stringToHclTerraform(struct!.clusterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cpu_core_count: {
-      value: cdktf.numberToHclTerraform(struct!.cpuCoreCount),
+      value: cdktn.numberToHclTerraform(struct!.cpuCoreCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     data_storage_size_tb: {
-      value: cdktf.numberToHclTerraform(struct!.dataStorageSizeTb),
+      value: cdktn.numberToHclTerraform(struct!.dataStorageSizeTb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     db_node_storage_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.dbNodeStorageSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.dbNodeStorageSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     db_server_ocids: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dbServerOcids),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.dbServerOcids),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     disk_redundancy: {
-      value: cdktf.stringToHclTerraform(struct!.diskRedundancy),
+      value: cdktn.stringToHclTerraform(struct!.diskRedundancy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     gi_version: {
-      value: cdktf.stringToHclTerraform(struct!.giVersion),
+      value: cdktn.stringToHclTerraform(struct!.giVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hostname_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.hostnamePrefix),
+      value: cdktn.stringToHclTerraform(struct!.hostnamePrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     license_type: {
-      value: cdktf.stringToHclTerraform(struct!.licenseType),
+      value: cdktn.stringToHclTerraform(struct!.licenseType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     local_backup_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.localBackupEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.localBackupEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     memory_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.memorySizeGb),
+      value: cdktn.numberToHclTerraform(struct!.memorySizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     node_count: {
-      value: cdktf.numberToHclTerraform(struct!.nodeCount),
+      value: cdktn.numberToHclTerraform(struct!.nodeCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     ocpu_count: {
-      value: cdktf.numberToHclTerraform(struct!.ocpuCount),
+      value: cdktn.numberToHclTerraform(struct!.ocpuCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     sparse_diskgroup_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.sparseDiskgroupEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.sparseDiskgroupEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ssh_public_keys: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sshPublicKeys),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sshPublicKeys),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -625,14 +625,14 @@ export function googleOracleDatabaseCloudVmClusterPropertiesToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference extends cdktf.ComplexObject {
+export class GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -912,11 +912,11 @@ export class GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference extends
   }
 
   // local_backup_enabled - computed: false, optional: true, required: false
-  private _localBackupEnabled?: boolean | cdktf.IResolvable; 
+  private _localBackupEnabled?: boolean | cdktn.IResolvable; 
   public get localBackupEnabled() {
     return this.getBooleanAttribute('local_backup_enabled');
   }
-  public set localBackupEnabled(value: boolean | cdktf.IResolvable) {
+  public set localBackupEnabled(value: boolean | cdktn.IResolvable) {
     this._localBackupEnabled = value;
   }
   public resetLocalBackupEnabled() {
@@ -1016,11 +1016,11 @@ export class GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference extends
   }
 
   // sparse_diskgroup_enabled - computed: true, optional: true, required: false
-  private _sparseDiskgroupEnabled?: boolean | cdktf.IResolvable; 
+  private _sparseDiskgroupEnabled?: boolean | cdktn.IResolvable; 
   public get sparseDiskgroupEnabled() {
     return this.getBooleanAttribute('sparse_diskgroup_enabled');
   }
-  public set sparseDiskgroupEnabled(value: boolean | cdktf.IResolvable) {
+  public set sparseDiskgroupEnabled(value: boolean | cdktn.IResolvable) {
     this._sparseDiskgroupEnabled = value;
   }
   public resetSparseDiskgroupEnabled() {
@@ -1109,39 +1109,39 @@ export interface GoogleOracleDatabaseCloudVmClusterTimeouts {
   readonly update?: string;
 }
 
-export function googleOracleDatabaseCloudVmClusterTimeoutsToTerraform(struct?: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleOracleDatabaseCloudVmClusterTimeoutsToTerraform(struct?: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleOracleDatabaseCloudVmClusterTimeoutsToHclTerraform(struct?: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleOracleDatabaseCloudVmClusterTimeoutsToHclTerraform(struct?: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1152,19 +1152,19 @@ export function googleOracleDatabaseCloudVmClusterTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleOracleDatabaseCloudVmClusterTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleOracleDatabaseCloudVmClusterTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1185,7 +1185,7 @@ export class GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleOracleDatabaseCloudVmClusterTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1193,7 +1193,7 @@ export class GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1258,7 +1258,7 @@ export class GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}
 */
-export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource {
+export class GoogleOracleDatabaseCloudVmCluster extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1269,14 +1269,14 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleOracleDatabaseCloudVmCluster resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleOracleDatabaseCloudVmCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOracleDatabaseCloudVmCluster to import
   * @param importFromId The id of the existing GoogleOracleDatabaseCloudVmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOracleDatabaseCloudVmCluster to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_oracle_database_cloud_vm_cluster", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_oracle_database_cloud_vm_cluster", importId: importFromId, provider });
       }
 
   // ===========
@@ -1395,11 +1395,11 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -1427,7 +1427,7 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1565,7 +1565,7 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1608,20 +1608,20 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      backup_odb_subnet: cdktf.stringToTerraform(this._backupOdbSubnet),
-      backup_subnet_cidr: cdktf.stringToTerraform(this._backupSubnetCidr),
-      cidr: cdktf.stringToTerraform(this._cidr),
-      cloud_vm_cluster_id: cdktf.stringToTerraform(this._cloudVmClusterId),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      exadata_infrastructure: cdktf.stringToTerraform(this._exadataInfrastructure),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      network: cdktf.stringToTerraform(this._network),
-      odb_network: cdktf.stringToTerraform(this._odbNetwork),
-      odb_subnet: cdktf.stringToTerraform(this._odbSubnet),
-      project: cdktf.stringToTerraform(this._project),
+      backup_odb_subnet: cdktn.stringToTerraform(this._backupOdbSubnet),
+      backup_subnet_cidr: cdktn.stringToTerraform(this._backupSubnetCidr),
+      cidr: cdktn.stringToTerraform(this._cidr),
+      cloud_vm_cluster_id: cdktn.stringToTerraform(this._cloudVmClusterId),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      exadata_infrastructure: cdktn.stringToTerraform(this._exadataInfrastructure),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      network: cdktn.stringToTerraform(this._network),
+      odb_network: cdktn.stringToTerraform(this._odbNetwork),
+      odb_subnet: cdktn.stringToTerraform(this._odbSubnet),
+      project: cdktn.stringToTerraform(this._project),
       properties: googleOracleDatabaseCloudVmClusterPropertiesToTerraform(this._properties.internalValue),
       timeouts: googleOracleDatabaseCloudVmClusterTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1630,85 +1630,85 @@ export class GoogleOracleDatabaseCloudVmCluster extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       backup_odb_subnet: {
-        value: cdktf.stringToHclTerraform(this._backupOdbSubnet),
+        value: cdktn.stringToHclTerraform(this._backupOdbSubnet),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       backup_subnet_cidr: {
-        value: cdktf.stringToHclTerraform(this._backupSubnetCidr),
+        value: cdktn.stringToHclTerraform(this._backupSubnetCidr),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       cidr: {
-        value: cdktf.stringToHclTerraform(this._cidr),
+        value: cdktn.stringToHclTerraform(this._cidr),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       cloud_vm_cluster_id: {
-        value: cdktf.stringToHclTerraform(this._cloudVmClusterId),
+        value: cdktn.stringToHclTerraform(this._cloudVmClusterId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       exadata_infrastructure: {
-        value: cdktf.stringToHclTerraform(this._exadataInfrastructure),
+        value: cdktn.stringToHclTerraform(this._exadataInfrastructure),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       odb_network: {
-        value: cdktf.stringToHclTerraform(this._odbNetwork),
+        value: cdktn.stringToHclTerraform(this._odbNetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       odb_subnet: {
-        value: cdktf.stringToHclTerraform(this._odbSubnet),
+        value: cdktn.stringToHclTerraform(this._odbSubnet),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

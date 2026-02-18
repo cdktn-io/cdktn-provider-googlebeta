@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIdentityPlatformOauthIdpConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIdentityPlatformOauthIdpConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * The client id of an OAuth client.
   *
@@ -35,7 +35,7 @@ export interface GoogleIdentityPlatformOauthIdpConfigConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config#enabled GoogleIdentityPlatformOauthIdpConfig#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config#id GoogleIdentityPlatformOauthIdpConfig#id}
   *
@@ -78,41 +78,41 @@ export interface GoogleIdentityPlatformOauthIdpConfigResponseType {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config#code GoogleIdentityPlatformOauthIdpConfig#code}
   */
-  readonly code?: boolean | cdktf.IResolvable;
+  readonly code?: boolean | cdktn.IResolvable;
   /**
   * If true, ID token is returned from IdP's authorization endpoint.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config#id_token GoogleIdentityPlatformOauthIdpConfig#id_token}
   */
-  readonly idToken?: boolean | cdktf.IResolvable;
+  readonly idToken?: boolean | cdktn.IResolvable;
 }
 
 export function googleIdentityPlatformOauthIdpConfigResponseTypeToTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference | GoogleIdentityPlatformOauthIdpConfigResponseType): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    code: cdktf.booleanToTerraform(struct!.code),
-    id_token: cdktf.booleanToTerraform(struct!.idToken),
+    code: cdktn.booleanToTerraform(struct!.code),
+    id_token: cdktn.booleanToTerraform(struct!.idToken),
   }
 }
 
 
 export function googleIdentityPlatformOauthIdpConfigResponseTypeToHclTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference | GoogleIdentityPlatformOauthIdpConfigResponseType): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     code: {
-      value: cdktf.booleanToHclTerraform(struct!.code),
+      value: cdktn.booleanToHclTerraform(struct!.code),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     id_token: {
-      value: cdktf.booleanToHclTerraform(struct!.idToken),
+      value: cdktn.booleanToHclTerraform(struct!.idToken),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -123,14 +123,14 @@ export function googleIdentityPlatformOauthIdpConfigResponseTypeToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -162,11 +162,11 @@ export class GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference ext
   }
 
   // code - computed: false, optional: true, required: false
-  private _code?: boolean | cdktf.IResolvable; 
+  private _code?: boolean | cdktn.IResolvable; 
   public get code() {
     return this.getBooleanAttribute('code');
   }
-  public set code(value: boolean | cdktf.IResolvable) {
+  public set code(value: boolean | cdktn.IResolvable) {
     this._code = value;
   }
   public resetCode() {
@@ -178,11 +178,11 @@ export class GoogleIdentityPlatformOauthIdpConfigResponseTypeOutputReference ext
   }
 
   // id_token - computed: false, optional: true, required: false
-  private _idToken?: boolean | cdktf.IResolvable; 
+  private _idToken?: boolean | cdktn.IResolvable; 
   public get idToken() {
     return this.getBooleanAttribute('id_token');
   }
-  public set idToken(value: boolean | cdktf.IResolvable) {
+  public set idToken(value: boolean | cdktn.IResolvable) {
     this._idToken = value;
   }
   public resetIdToken() {
@@ -208,39 +208,39 @@ export interface GoogleIdentityPlatformOauthIdpConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleIdentityPlatformOauthIdpConfigTimeoutsToTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformOauthIdpConfigTimeoutsToTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIdentityPlatformOauthIdpConfigTimeoutsToHclTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformOauthIdpConfigTimeoutsToHclTerraform(struct?: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -251,19 +251,19 @@ export function googleIdentityPlatformOauthIdpConfigTimeoutsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformOauthIdpConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformOauthIdpConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -284,7 +284,7 @@ export class GoogleIdentityPlatformOauthIdpConfigTimeoutsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIdentityPlatformOauthIdpConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -292,7 +292,7 @@ export class GoogleIdentityPlatformOauthIdpConfigTimeoutsOutputReference extends
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -357,7 +357,7 @@ export class GoogleIdentityPlatformOauthIdpConfigTimeoutsOutputReference extends
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config}
 */
-export class GoogleIdentityPlatformOauthIdpConfig extends cdktf.TerraformResource {
+export class GoogleIdentityPlatformOauthIdpConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -368,14 +368,14 @@ export class GoogleIdentityPlatformOauthIdpConfig extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIdentityPlatformOauthIdpConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIdentityPlatformOauthIdpConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIdentityPlatformOauthIdpConfig to import
   * @param importFromId The id of the existing GoogleIdentityPlatformOauthIdpConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_oauth_idp_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIdentityPlatformOauthIdpConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_identity_platform_oauth_idp_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_identity_platform_oauth_idp_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -467,11 +467,11 @@ export class GoogleIdentityPlatformOauthIdpConfig extends cdktf.TerraformResourc
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -578,14 +578,14 @@ export class GoogleIdentityPlatformOauthIdpConfig extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      client_id: cdktf.stringToTerraform(this._clientId),
-      client_secret: cdktf.stringToTerraform(this._clientSecret),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enabled: cdktf.booleanToTerraform(this._enabled),
-      id: cdktf.stringToTerraform(this._id),
-      issuer: cdktf.stringToTerraform(this._issuer),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      client_id: cdktn.stringToTerraform(this._clientId),
+      client_secret: cdktn.stringToTerraform(this._clientSecret),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enabled: cdktn.booleanToTerraform(this._enabled),
+      id: cdktn.stringToTerraform(this._id),
+      issuer: cdktn.stringToTerraform(this._issuer),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       response_type: googleIdentityPlatformOauthIdpConfigResponseTypeToTerraform(this._responseType.internalValue),
       timeouts: googleIdentityPlatformOauthIdpConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -594,49 +594,49 @@ export class GoogleIdentityPlatformOauthIdpConfig extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       client_id: {
-        value: cdktf.stringToHclTerraform(this._clientId),
+        value: cdktn.stringToHclTerraform(this._clientId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       client_secret: {
-        value: cdktf.stringToHclTerraform(this._clientSecret),
+        value: cdktn.stringToHclTerraform(this._clientSecret),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled: {
-        value: cdktf.booleanToHclTerraform(this._enabled),
+        value: cdktn.booleanToHclTerraform(this._enabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       issuer: {
-        value: cdktf.stringToHclTerraform(this._issuer),
+        value: cdktn.stringToHclTerraform(this._issuer),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

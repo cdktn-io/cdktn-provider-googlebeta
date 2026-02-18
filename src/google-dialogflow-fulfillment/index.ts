@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDialogflowFulfillmentConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDialogflowFulfillmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * The human-readable name of the fulfillment, unique within the agent.
   *
@@ -23,7 +23,7 @@ export interface GoogleDialogflowFulfillmentConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_fulfillment#enabled GoogleDialogflowFulfillment#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_fulfillment#id GoogleDialogflowFulfillment#id}
   *
@@ -40,7 +40,7 @@ export interface GoogleDialogflowFulfillmentConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_fulfillment#features GoogleDialogflowFulfillment#features}
   */
-  readonly features?: GoogleDialogflowFulfillmentFeatures[] | cdktf.IResolvable;
+  readonly features?: GoogleDialogflowFulfillmentFeatures[] | cdktn.IResolvable;
   /**
   * generic_web_service block
   *
@@ -64,25 +64,25 @@ export interface GoogleDialogflowFulfillmentFeatures {
   readonly type: string;
 }
 
-export function googleDialogflowFulfillmentFeaturesToTerraform(struct?: GoogleDialogflowFulfillmentFeatures | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDialogflowFulfillmentFeaturesToTerraform(struct?: GoogleDialogflowFulfillmentFeatures | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    type: cdktf.stringToTerraform(struct!.type),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleDialogflowFulfillmentFeaturesToHclTerraform(struct?: GoogleDialogflowFulfillmentFeatures | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDialogflowFulfillmentFeaturesToHclTerraform(struct?: GoogleDialogflowFulfillmentFeatures | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -93,9 +93,9 @@ export function googleDialogflowFulfillmentFeaturesToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDialogflowFulfillmentFeaturesOutputReference extends cdktf.ComplexObject {
+export class GoogleDialogflowFulfillmentFeaturesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -103,11 +103,11 @@ export class GoogleDialogflowFulfillmentFeaturesOutputReference extends cdktf.Co
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDialogflowFulfillmentFeatures | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDialogflowFulfillmentFeatures | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -120,13 +120,13 @@ export class GoogleDialogflowFulfillmentFeaturesOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDialogflowFulfillmentFeatures | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDialogflowFulfillmentFeatures | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -151,15 +151,15 @@ export class GoogleDialogflowFulfillmentFeaturesOutputReference extends cdktf.Co
   }
 }
 
-export class GoogleDialogflowFulfillmentFeaturesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDialogflowFulfillmentFeatures[] | cdktf.IResolvable
+export class GoogleDialogflowFulfillmentFeaturesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDialogflowFulfillmentFeatures[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -198,45 +198,45 @@ export interface GoogleDialogflowFulfillmentGenericWebService {
 }
 
 export function googleDialogflowFulfillmentGenericWebServiceToTerraform(struct?: GoogleDialogflowFulfillmentGenericWebServiceOutputReference | GoogleDialogflowFulfillmentGenericWebService): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    password: cdktf.stringToTerraform(struct!.password),
-    request_headers: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.requestHeaders),
-    uri: cdktf.stringToTerraform(struct!.uri),
-    username: cdktf.stringToTerraform(struct!.username),
+    password: cdktn.stringToTerraform(struct!.password),
+    request_headers: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.requestHeaders),
+    uri: cdktn.stringToTerraform(struct!.uri),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
 export function googleDialogflowFulfillmentGenericWebServiceToHclTerraform(struct?: GoogleDialogflowFulfillmentGenericWebServiceOutputReference | GoogleDialogflowFulfillmentGenericWebService): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
+      value: cdktn.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_headers: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.requestHeaders),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.requestHeaders),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -247,14 +247,14 @@ export function googleDialogflowFulfillmentGenericWebServiceToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDialogflowFulfillmentGenericWebServiceOutputReference extends cdktf.ComplexObject {
+export class GoogleDialogflowFulfillmentGenericWebServiceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -373,39 +373,39 @@ export interface GoogleDialogflowFulfillmentTimeouts {
   readonly update?: string;
 }
 
-export function googleDialogflowFulfillmentTimeoutsToTerraform(struct?: GoogleDialogflowFulfillmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDialogflowFulfillmentTimeoutsToTerraform(struct?: GoogleDialogflowFulfillmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDialogflowFulfillmentTimeoutsToHclTerraform(struct?: GoogleDialogflowFulfillmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDialogflowFulfillmentTimeoutsToHclTerraform(struct?: GoogleDialogflowFulfillmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -416,19 +416,19 @@ export function googleDialogflowFulfillmentTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDialogflowFulfillmentTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDialogflowFulfillmentTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDialogflowFulfillmentTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDialogflowFulfillmentTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -449,7 +449,7 @@ export class GoogleDialogflowFulfillmentTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDialogflowFulfillmentTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDialogflowFulfillmentTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -457,7 +457,7 @@ export class GoogleDialogflowFulfillmentTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -522,7 +522,7 @@ export class GoogleDialogflowFulfillmentTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_fulfillment google_dialogflow_fulfillment}
 */
-export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
+export class GoogleDialogflowFulfillment extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -533,14 +533,14 @@ export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDialogflowFulfillment resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDialogflowFulfillment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowFulfillment to import
   * @param importFromId The id of the existing GoogleDialogflowFulfillment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_fulfillment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowFulfillment to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dialogflow_fulfillment", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dialogflow_fulfillment", importId: importFromId, provider });
       }
 
   // ===========
@@ -597,11 +597,11 @@ export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -654,7 +654,7 @@ export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
   public get features() {
     return this._features;
   }
-  public putFeatures(value: GoogleDialogflowFulfillmentFeatures[] | cdktf.IResolvable) {
+  public putFeatures(value: GoogleDialogflowFulfillmentFeatures[] | cdktn.IResolvable) {
     this._features.internalValue = value;
   }
   public resetFeatures() {
@@ -703,11 +703,11 @@ export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enabled: cdktf.booleanToTerraform(this._enabled),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      features: cdktf.listMapper(googleDialogflowFulfillmentFeaturesToTerraform, true)(this._features.internalValue),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enabled: cdktn.booleanToTerraform(this._enabled),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      features: cdktn.listMapper(googleDialogflowFulfillmentFeaturesToTerraform, true)(this._features.internalValue),
       generic_web_service: googleDialogflowFulfillmentGenericWebServiceToTerraform(this._genericWebService.internalValue),
       timeouts: googleDialogflowFulfillmentTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -716,31 +716,31 @@ export class GoogleDialogflowFulfillment extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled: {
-        value: cdktf.booleanToHclTerraform(this._enabled),
+        value: cdktn.booleanToHclTerraform(this._enabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       features: {
-        value: cdktf.listMapperHcl(googleDialogflowFulfillmentFeaturesToHclTerraform, true)(this._features.internalValue),
+        value: cdktn.listMapperHcl(googleDialogflowFulfillmentFeaturesToHclTerraform, true)(this._features.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDialogflowFulfillmentFeaturesList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleMlEngineModelConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleMlEngineModelConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description specified for the model when it was created.
   *
@@ -45,13 +45,13 @@ export interface GoogleMlEngineModelConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model#online_prediction_console_logging GoogleMlEngineModel#online_prediction_console_logging}
   */
-  readonly onlinePredictionConsoleLogging?: boolean | cdktf.IResolvable;
+  readonly onlinePredictionConsoleLogging?: boolean | cdktn.IResolvable;
   /**
   * If true, online prediction access logs are sent to StackDriver Logging.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model#online_prediction_logging GoogleMlEngineModel#online_prediction_logging}
   */
-  readonly onlinePredictionLogging?: boolean | cdktf.IResolvable;
+  readonly onlinePredictionLogging?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model#project GoogleMlEngineModel#project}
   */
@@ -86,24 +86,24 @@ export interface GoogleMlEngineModelDefaultVersion {
 }
 
 export function googleMlEngineModelDefaultVersionToTerraform(struct?: GoogleMlEngineModelDefaultVersionOutputReference | GoogleMlEngineModelDefaultVersion): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
 export function googleMlEngineModelDefaultVersionToHclTerraform(struct?: GoogleMlEngineModelDefaultVersionOutputReference | GoogleMlEngineModelDefaultVersion): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -114,14 +114,14 @@ export function googleMlEngineModelDefaultVersionToHclTerraform(struct?: GoogleM
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMlEngineModelDefaultVersionOutputReference extends cdktf.ComplexObject {
+export class GoogleMlEngineModelDefaultVersionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -174,39 +174,39 @@ export interface GoogleMlEngineModelTimeouts {
   readonly update?: string;
 }
 
-export function googleMlEngineModelTimeoutsToTerraform(struct?: GoogleMlEngineModelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMlEngineModelTimeoutsToTerraform(struct?: GoogleMlEngineModelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleMlEngineModelTimeoutsToHclTerraform(struct?: GoogleMlEngineModelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMlEngineModelTimeoutsToHclTerraform(struct?: GoogleMlEngineModelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -217,19 +217,19 @@ export function googleMlEngineModelTimeoutsToHclTerraform(struct?: GoogleMlEngin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMlEngineModelTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleMlEngineModelTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleMlEngineModelTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMlEngineModelTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -250,7 +250,7 @@ export class GoogleMlEngineModelTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMlEngineModelTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMlEngineModelTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -258,7 +258,7 @@ export class GoogleMlEngineModelTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -323,7 +323,7 @@ export class GoogleMlEngineModelTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model google_ml_engine_model}
 */
-export class GoogleMlEngineModel extends cdktf.TerraformResource {
+export class GoogleMlEngineModel extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -334,14 +334,14 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleMlEngineModel resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleMlEngineModel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMlEngineModel to import
   * @param importFromId The id of the existing GoogleMlEngineModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMlEngineModel to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_ml_engine_model", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_ml_engine_model", importId: importFromId, provider });
       }
 
   // ===========
@@ -404,7 +404,7 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -455,11 +455,11 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   }
 
   // online_prediction_console_logging - computed: false, optional: true, required: false
-  private _onlinePredictionConsoleLogging?: boolean | cdktf.IResolvable; 
+  private _onlinePredictionConsoleLogging?: boolean | cdktn.IResolvable; 
   public get onlinePredictionConsoleLogging() {
     return this.getBooleanAttribute('online_prediction_console_logging');
   }
-  public set onlinePredictionConsoleLogging(value: boolean | cdktf.IResolvable) {
+  public set onlinePredictionConsoleLogging(value: boolean | cdktn.IResolvable) {
     this._onlinePredictionConsoleLogging = value;
   }
   public resetOnlinePredictionConsoleLogging() {
@@ -471,11 +471,11 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   }
 
   // online_prediction_logging - computed: false, optional: true, required: false
-  private _onlinePredictionLogging?: boolean | cdktf.IResolvable; 
+  private _onlinePredictionLogging?: boolean | cdktn.IResolvable; 
   public get onlinePredictionLogging() {
     return this.getBooleanAttribute('online_prediction_logging');
   }
-  public set onlinePredictionLogging(value: boolean | cdktf.IResolvable) {
+  public set onlinePredictionLogging(value: boolean | cdktn.IResolvable) {
     this._onlinePredictionLogging = value;
   }
   public resetOnlinePredictionLogging() {
@@ -519,7 +519,7 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -562,14 +562,14 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      online_prediction_console_logging: cdktf.booleanToTerraform(this._onlinePredictionConsoleLogging),
-      online_prediction_logging: cdktf.booleanToTerraform(this._onlinePredictionLogging),
-      project: cdktf.stringToTerraform(this._project),
-      regions: cdktf.listMapper(cdktf.stringToTerraform, false)(this._regions),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      online_prediction_console_logging: cdktn.booleanToTerraform(this._onlinePredictionConsoleLogging),
+      online_prediction_logging: cdktn.booleanToTerraform(this._onlinePredictionLogging),
+      project: cdktn.stringToTerraform(this._project),
+      regions: cdktn.listMapper(cdktn.stringToTerraform, false)(this._regions),
       default_version: googleMlEngineModelDefaultVersionToTerraform(this._defaultVersion.internalValue),
       timeouts: googleMlEngineModelTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -578,49 +578,49 @@ export class GoogleMlEngineModel extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       online_prediction_console_logging: {
-        value: cdktf.booleanToHclTerraform(this._onlinePredictionConsoleLogging),
+        value: cdktn.booleanToHclTerraform(this._onlinePredictionConsoleLogging),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       online_prediction_logging: {
-        value: cdktf.booleanToHclTerraform(this._onlinePredictionLogging),
+        value: cdktn.booleanToHclTerraform(this._onlinePredictionLogging),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       regions: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._regions),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._regions),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",

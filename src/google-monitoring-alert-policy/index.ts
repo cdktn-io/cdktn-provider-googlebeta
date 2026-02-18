@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleMonitoringAlertPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleMonitoringAlertPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * How to combine the results of multiple conditions to
   * determine if an incident should be opened. Possible values: ["AND", "OR", "AND_WITH_MATCHING_RESOURCE"]
@@ -33,7 +33,7 @@ export interface GoogleMonitoringAlertPolicyConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#enabled GoogleMonitoringAlertPolicy#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#id GoogleMonitoringAlertPolicy#id}
   *
@@ -86,7 +86,7 @@ export interface GoogleMonitoringAlertPolicyConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#conditions GoogleMonitoringAlertPolicy#conditions}
   */
-  readonly conditions: GoogleMonitoringAlertPolicyConditions[] | cdktf.IResolvable;
+  readonly conditions: GoogleMonitoringAlertPolicyConditions[] | cdktn.IResolvable;
   /**
   * documentation block
   *
@@ -104,8 +104,8 @@ export interface GoogleMonitoringAlertPolicyCreationRecord {
 }
 
 export function googleMonitoringAlertPolicyCreationRecordToTerraform(struct?: GoogleMonitoringAlertPolicyCreationRecord): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -114,8 +114,8 @@ export function googleMonitoringAlertPolicyCreationRecordToTerraform(struct?: Go
 
 
 export function googleMonitoringAlertPolicyCreationRecordToHclTerraform(struct?: GoogleMonitoringAlertPolicyCreationRecord): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -123,7 +123,7 @@ export function googleMonitoringAlertPolicyCreationRecordToHclTerraform(struct?:
   return attrs;
 }
 
-export class GoogleMonitoringAlertPolicyCreationRecordOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyCreationRecordOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -132,7 +132,7 @@ export class GoogleMonitoringAlertPolicyCreationRecordOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -162,14 +162,14 @@ export class GoogleMonitoringAlertPolicyCreationRecordOutputReference extends cd
   }
 }
 
-export class GoogleMonitoringAlertPolicyCreationRecordList extends cdktf.ComplexList {
+export class GoogleMonitoringAlertPolicyCreationRecordList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -198,32 +198,32 @@ export interface GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStra
   readonly renotifyInterval?: string;
 }
 
-export function googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    notification_channel_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.notificationChannelNames),
-    renotify_interval: cdktf.stringToTerraform(struct!.renotifyInterval),
+    notification_channel_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.notificationChannelNames),
+    renotify_interval: cdktn.stringToTerraform(struct!.renotifyInterval),
   }
 }
 
 
-export function googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToHclTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToHclTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     notification_channel_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.notificationChannelNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.notificationChannelNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     renotify_interval: {
-      value: cdktf.stringToHclTerraform(struct!.renotifyInterval),
+      value: cdktn.stringToHclTerraform(struct!.renotifyInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -234,9 +234,9 @@ export function googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrat
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -244,11 +244,11 @@ export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -265,14 +265,14 @@ export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._notificationChannelNames = undefined;
       this._renotifyInterval = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -317,15 +317,15 @@ export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy
   }
 }
 
-export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -347,24 +347,24 @@ export interface GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimit {
 }
 
 export function googleMonitoringAlertPolicyAlertStrategyNotificationRateLimitToTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimitOutputReference | GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    period: cdktf.stringToTerraform(struct!.period),
+    period: cdktn.stringToTerraform(struct!.period),
   }
 }
 
 
 export function googleMonitoringAlertPolicyAlertStrategyNotificationRateLimitToHclTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimitOutputReference | GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     period: {
-      value: cdktf.stringToHclTerraform(struct!.period),
+      value: cdktn.stringToHclTerraform(struct!.period),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -375,14 +375,14 @@ export function googleMonitoringAlertPolicyAlertStrategyNotificationRateLimitToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimitOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyAlertStrategyNotificationRateLimitOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -441,7 +441,7 @@ export interface GoogleMonitoringAlertPolicyAlertStrategy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#notification_channel_strategy GoogleMonitoringAlertPolicy#notification_channel_strategy}
   */
-  readonly notificationChannelStrategy?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktf.IResolvable;
+  readonly notificationChannelStrategy?: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktn.IResolvable;
   /**
   * notification_rate_limit block
   *
@@ -451,39 +451,39 @@ export interface GoogleMonitoringAlertPolicyAlertStrategy {
 }
 
 export function googleMonitoringAlertPolicyAlertStrategyToTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyOutputReference | GoogleMonitoringAlertPolicyAlertStrategy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    auto_close: cdktf.stringToTerraform(struct!.autoClose),
-    notification_prompts: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.notificationPrompts),
-    notification_channel_strategy: cdktf.listMapper(googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToTerraform, true)(struct!.notificationChannelStrategy),
+    auto_close: cdktn.stringToTerraform(struct!.autoClose),
+    notification_prompts: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.notificationPrompts),
+    notification_channel_strategy: cdktn.listMapper(googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToTerraform, true)(struct!.notificationChannelStrategy),
     notification_rate_limit: googleMonitoringAlertPolicyAlertStrategyNotificationRateLimitToTerraform(struct!.notificationRateLimit),
   }
 }
 
 
 export function googleMonitoringAlertPolicyAlertStrategyToHclTerraform(struct?: GoogleMonitoringAlertPolicyAlertStrategyOutputReference | GoogleMonitoringAlertPolicyAlertStrategy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     auto_close: {
-      value: cdktf.stringToHclTerraform(struct!.autoClose),
+      value: cdktn.stringToHclTerraform(struct!.autoClose),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     notification_prompts: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.notificationPrompts),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.notificationPrompts),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     notification_channel_strategy: {
-      value: cdktf.listMapperHcl(googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToHclTerraform, true)(struct!.notificationChannelStrategy),
+      value: cdktn.listMapperHcl(googleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyToHclTerraform, true)(struct!.notificationChannelStrategy),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategyList",
@@ -500,14 +500,14 @@ export function googleMonitoringAlertPolicyAlertStrategyToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyAlertStrategyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyAlertStrategyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -587,7 +587,7 @@ export class GoogleMonitoringAlertPolicyAlertStrategyOutputReference extends cdk
   public get notificationChannelStrategy() {
     return this._notificationChannelStrategy;
   }
-  public putNotificationChannelStrategy(value: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktf.IResolvable) {
+  public putNotificationChannelStrategy(value: GoogleMonitoringAlertPolicyAlertStrategyNotificationChannelStrategy[] | cdktn.IResolvable) {
     this._notificationChannelStrategy.internalValue = value;
   }
   public resetNotificationChannelStrategy() {
@@ -710,46 +710,46 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregation
   readonly perSeriesAligner?: string;
 }
 
-export function googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    alignment_period: cdktf.stringToTerraform(struct!.alignmentPeriod),
-    cross_series_reducer: cdktf.stringToTerraform(struct!.crossSeriesReducer),
-    group_by_fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.groupByFields),
-    per_series_aligner: cdktf.stringToTerraform(struct!.perSeriesAligner),
+    alignment_period: cdktn.stringToTerraform(struct!.alignmentPeriod),
+    cross_series_reducer: cdktn.stringToTerraform(struct!.crossSeriesReducer),
+    group_by_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.groupByFields),
+    per_series_aligner: cdktn.stringToTerraform(struct!.perSeriesAligner),
   }
 }
 
 
-export function googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     alignment_period: {
-      value: cdktf.stringToHclTerraform(struct!.alignmentPeriod),
+      value: cdktn.stringToHclTerraform(struct!.alignmentPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_series_reducer: {
-      value: cdktf.stringToHclTerraform(struct!.crossSeriesReducer),
+      value: cdktn.stringToHclTerraform(struct!.crossSeriesReducer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     group_by_fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.groupByFields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.groupByFields),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     per_series_aligner: {
-      value: cdktf.stringToHclTerraform(struct!.perSeriesAligner),
+      value: cdktn.stringToHclTerraform(struct!.perSeriesAligner),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -760,9 +760,9 @@ export function googleMonitoringAlertPolicyConditionsConditionAbsentAggregations
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -770,11 +770,11 @@ export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOut
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -799,7 +799,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOut
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -808,7 +808,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOut
       this._groupByFields = undefined;
       this._perSeriesAligner = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -887,15 +887,15 @@ export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsOut
   }
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -926,31 +926,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionAbsentTrigger {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionAbsentTriggerToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionAbsentTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    percent: cdktf.numberToTerraform(struct!.percent),
+    count: cdktn.numberToTerraform(struct!.count),
+    percent: cdktn.numberToTerraform(struct!.percent),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionAbsentTriggerToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionAbsentTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percent: {
-      value: cdktf.numberToHclTerraform(struct!.percent),
+      value: cdktn.numberToHclTerraform(struct!.percent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -961,14 +961,14 @@ export function googleMonitoringAlertPolicyConditionsConditionAbsentTriggerToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionAbsentTriggerOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionAbsentTriggerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1064,7 +1064,7 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionAbsent {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#aggregations GoogleMonitoringAlertPolicy#aggregations}
   */
-  readonly aggregations?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktf.IResolvable;
+  readonly aggregations?: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktn.IResolvable;
   /**
   * trigger block
   *
@@ -1074,39 +1074,39 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionAbsent {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionAbsentToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentOutputReference | GoogleMonitoringAlertPolicyConditionsConditionAbsent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    filter: cdktf.stringToTerraform(struct!.filter),
-    aggregations: cdktf.listMapper(googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToTerraform, true)(struct!.aggregations),
+    duration: cdktn.stringToTerraform(struct!.duration),
+    filter: cdktn.stringToTerraform(struct!.filter),
+    aggregations: cdktn.listMapper(googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToTerraform, true)(struct!.aggregations),
     trigger: googleMonitoringAlertPolicyConditionsConditionAbsentTriggerToTerraform(struct!.trigger),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionAbsentToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionAbsentOutputReference | GoogleMonitoringAlertPolicyConditionsConditionAbsent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
+      value: cdktn.stringToHclTerraform(struct!.duration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     aggregations: {
-      value: cdktf.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToHclTerraform, true)(struct!.aggregations),
+      value: cdktn.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionAbsentAggregationsToHclTerraform, true)(struct!.aggregations),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregationsList",
@@ -1123,14 +1123,14 @@ export function googleMonitoringAlertPolicyConditionsConditionAbsentToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionAbsentOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionAbsentOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1207,7 +1207,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionAbsentOutputReference
   public get aggregations() {
     return this._aggregations;
   }
-  public putAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktf.IResolvable) {
+  public putAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionAbsentAggregations[] | cdktn.IResolvable) {
     this._aggregations.internalValue = value;
   }
   public resetAggregations() {
@@ -1256,31 +1256,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionMatchedLog {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionMatchedLogToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMatchedLogOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMatchedLog): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    filter: cdktf.stringToTerraform(struct!.filter),
-    label_extractors: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labelExtractors),
+    filter: cdktn.stringToTerraform(struct!.filter),
+    label_extractors: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labelExtractors),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionMatchedLogToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMatchedLogOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMatchedLog): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     label_extractors: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labelExtractors),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labelExtractors),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1291,14 +1291,14 @@ export function googleMonitoringAlertPolicyConditionsConditionMatchedLogToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionMatchedLogOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionMatchedLogOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1378,31 +1378,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLa
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    percent: cdktf.numberToTerraform(struct!.percent),
+    count: cdktn.numberToTerraform(struct!.count),
+    percent: cdktn.numberToTerraform(struct!.percent),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percent: {
-      value: cdktf.numberToHclTerraform(struct!.percent),
+      value: cdktn.numberToHclTerraform(struct!.percent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1413,14 +1413,14 @@ export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLan
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1527,39 +1527,39 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLa
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    evaluation_missing_data: cdktf.stringToTerraform(struct!.evaluationMissingData),
-    query: cdktf.stringToTerraform(struct!.query),
+    duration: cdktn.stringToTerraform(struct!.duration),
+    evaluation_missing_data: cdktn.stringToTerraform(struct!.evaluationMissingData),
+    query: cdktn.stringToTerraform(struct!.query),
     trigger: googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageTriggerToTerraform(struct!.trigger),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageOutputReference | GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
+      value: cdktn.stringToHclTerraform(struct!.duration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     evaluation_missing_data: {
-      value: cdktf.stringToHclTerraform(struct!.evaluationMissingData),
+      value: cdktn.stringToHclTerraform(struct!.evaluationMissingData),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     query: {
-      value: cdktf.stringToHclTerraform(struct!.query),
+      value: cdktn.stringToHclTerraform(struct!.query),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1576,14 +1576,14 @@ export function googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLan
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1713,7 +1713,7 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLa
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#disable_metric_validation GoogleMonitoringAlertPolicy#disable_metric_validation}
   */
-  readonly disableMetricValidation?: boolean | cdktf.IResolvable;
+  readonly disableMetricValidation?: boolean | cdktn.IResolvable;
   /**
   * Alerts are considered firing once their PromQL expression evaluated
   * to be "true" for this long. Alerts whose PromQL expression was not
@@ -1770,66 +1770,66 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLa
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageOutputReference | GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    alert_rule: cdktf.stringToTerraform(struct!.alertRule),
-    disable_metric_validation: cdktf.booleanToTerraform(struct!.disableMetricValidation),
-    duration: cdktf.stringToTerraform(struct!.duration),
-    evaluation_interval: cdktf.stringToTerraform(struct!.evaluationInterval),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    query: cdktf.stringToTerraform(struct!.query),
-    rule_group: cdktf.stringToTerraform(struct!.ruleGroup),
+    alert_rule: cdktn.stringToTerraform(struct!.alertRule),
+    disable_metric_validation: cdktn.booleanToTerraform(struct!.disableMetricValidation),
+    duration: cdktn.stringToTerraform(struct!.duration),
+    evaluation_interval: cdktn.stringToTerraform(struct!.evaluationInterval),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    query: cdktn.stringToTerraform(struct!.query),
+    rule_group: cdktn.stringToTerraform(struct!.ruleGroup),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageOutputReference | GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     alert_rule: {
-      value: cdktf.stringToHclTerraform(struct!.alertRule),
+      value: cdktn.stringToHclTerraform(struct!.alertRule),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disable_metric_validation: {
-      value: cdktf.booleanToHclTerraform(struct!.disableMetricValidation),
+      value: cdktn.booleanToHclTerraform(struct!.disableMetricValidation),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
+      value: cdktn.stringToHclTerraform(struct!.duration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     evaluation_interval: {
-      value: cdktf.stringToHclTerraform(struct!.evaluationInterval),
+      value: cdktn.stringToHclTerraform(struct!.evaluationInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     query: {
-      value: cdktf.stringToHclTerraform(struct!.query),
+      value: cdktn.stringToHclTerraform(struct!.query),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     rule_group: {
-      value: cdktf.stringToHclTerraform(struct!.ruleGroup),
+      value: cdktn.stringToHclTerraform(struct!.ruleGroup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1840,14 +1840,14 @@ export function googleMonitoringAlertPolicyConditionsConditionPrometheusQueryLan
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLanguageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1925,11 +1925,11 @@ export class GoogleMonitoringAlertPolicyConditionsConditionPrometheusQueryLangua
   }
 
   // disable_metric_validation - computed: false, optional: true, required: false
-  private _disableMetricValidation?: boolean | cdktf.IResolvable; 
+  private _disableMetricValidation?: boolean | cdktn.IResolvable; 
   public get disableMetricValidation() {
     return this.getBooleanAttribute('disable_metric_validation');
   }
-  public set disableMetricValidation(value: boolean | cdktf.IResolvable) {
+  public set disableMetricValidation(value: boolean | cdktn.IResolvable) {
     this._disableMetricValidation = value;
   }
   public resetDisableMetricValidation() {
@@ -2028,24 +2028,24 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTest {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlBooleanTestToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTestOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
+    column: cdktn.stringToTerraform(struct!.column),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlBooleanTestToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTestOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2056,14 +2056,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlBooleanTestToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTestOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlBooleanTestOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2136,45 +2136,45 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecution
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hours: cdktf.numberToTerraform(struct!.hours),
-    minutes: cdktf.numberToTerraform(struct!.minutes),
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.numberToTerraform(struct!.seconds),
+    hours: cdktn.numberToTerraform(struct!.hours),
+    minutes: cdktn.numberToTerraform(struct!.minutes),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.numberToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hours: {
-      value: cdktf.numberToHclTerraform(struct!.hours),
+      value: cdktn.numberToHclTerraform(struct!.hours),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minutes: {
-      value: cdktf.numberToHclTerraform(struct!.minutes),
+      value: cdktn.numberToHclTerraform(struct!.minutes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.numberToHclTerraform(struct!.seconds),
+      value: cdktn.numberToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2185,14 +2185,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2316,25 +2316,25 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlDaily {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlDailyToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlDailyOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlDaily): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    periodicity: cdktf.numberToTerraform(struct!.periodicity),
+    periodicity: cdktn.numberToTerraform(struct!.periodicity),
     execution_time: googleMonitoringAlertPolicyConditionsConditionSqlDailyExecutionTimeToTerraform(struct!.executionTime),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlDailyToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlDailyOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlDaily): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     periodicity: {
-      value: cdktf.numberToHclTerraform(struct!.periodicity),
+      value: cdktn.numberToHclTerraform(struct!.periodicity),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2351,14 +2351,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlDailyToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlDailyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlDailyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2437,31 +2437,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlHourly {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlHourlyToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlHourlyOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlHourly): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    minute_offset: cdktf.numberToTerraform(struct!.minuteOffset),
-    periodicity: cdktf.numberToTerraform(struct!.periodicity),
+    minute_offset: cdktn.numberToTerraform(struct!.minuteOffset),
+    periodicity: cdktn.numberToTerraform(struct!.periodicity),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlHourlyToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlHourlyOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlHourly): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     minute_offset: {
-      value: cdktf.numberToHclTerraform(struct!.minuteOffset),
+      value: cdktn.numberToHclTerraform(struct!.minuteOffset),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     periodicity: {
-      value: cdktf.numberToHclTerraform(struct!.periodicity),
+      value: cdktn.numberToHclTerraform(struct!.periodicity),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2472,14 +2472,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlHourlyToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlHourlyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlHourlyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2550,24 +2550,24 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlMinutes {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlMinutesToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlMinutesOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlMinutes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    periodicity: cdktf.numberToTerraform(struct!.periodicity),
+    periodicity: cdktn.numberToTerraform(struct!.periodicity),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlMinutesToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlMinutesOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlMinutes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     periodicity: {
-      value: cdktf.numberToHclTerraform(struct!.periodicity),
+      value: cdktn.numberToHclTerraform(struct!.periodicity),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2578,14 +2578,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlMinutesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlMinutesOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlMinutesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2646,31 +2646,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTest {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlRowCountTestToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTestOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    comparison: cdktf.stringToTerraform(struct!.comparison),
-    threshold: cdktf.numberToTerraform(struct!.threshold),
+    comparison: cdktn.stringToTerraform(struct!.comparison),
+    threshold: cdktn.numberToTerraform(struct!.threshold),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlRowCountTestToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTestOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     comparison: {
-      value: cdktf.stringToHclTerraform(struct!.comparison),
+      value: cdktn.stringToHclTerraform(struct!.comparison),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     threshold: {
-      value: cdktf.numberToHclTerraform(struct!.threshold),
+      value: cdktn.numberToHclTerraform(struct!.threshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2681,14 +2681,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlRowCountTestToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTestOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlRowCountTestOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2789,12 +2789,12 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionSql {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSql): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    query: cdktf.stringToTerraform(struct!.query),
+    query: cdktn.stringToTerraform(struct!.query),
     boolean_test: googleMonitoringAlertPolicyConditionsConditionSqlBooleanTestToTerraform(struct!.booleanTest),
     daily: googleMonitoringAlertPolicyConditionsConditionSqlDailyToTerraform(struct!.daily),
     hourly: googleMonitoringAlertPolicyConditionsConditionSqlHourlyToTerraform(struct!.hourly),
@@ -2805,13 +2805,13 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlToTerraform(str
 
 
 export function googleMonitoringAlertPolicyConditionsConditionSqlToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionSqlOutputReference | GoogleMonitoringAlertPolicyConditionsConditionSql): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     query: {
-      value: cdktf.stringToHclTerraform(struct!.query),
+      value: cdktn.stringToHclTerraform(struct!.query),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2852,14 +2852,14 @@ export function googleMonitoringAlertPolicyConditionsConditionSqlToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionSqlOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionSqlOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3103,46 +3103,46 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregat
   readonly perSeriesAligner?: string;
 }
 
-export function googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    alignment_period: cdktf.stringToTerraform(struct!.alignmentPeriod),
-    cross_series_reducer: cdktf.stringToTerraform(struct!.crossSeriesReducer),
-    group_by_fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.groupByFields),
-    per_series_aligner: cdktf.stringToTerraform(struct!.perSeriesAligner),
+    alignment_period: cdktn.stringToTerraform(struct!.alignmentPeriod),
+    cross_series_reducer: cdktn.stringToTerraform(struct!.crossSeriesReducer),
+    group_by_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.groupByFields),
+    per_series_aligner: cdktn.stringToTerraform(struct!.perSeriesAligner),
   }
 }
 
 
-export function googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     alignment_period: {
-      value: cdktf.stringToHclTerraform(struct!.alignmentPeriod),
+      value: cdktn.stringToHclTerraform(struct!.alignmentPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_series_reducer: {
-      value: cdktf.stringToHclTerraform(struct!.crossSeriesReducer),
+      value: cdktn.stringToHclTerraform(struct!.crossSeriesReducer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     group_by_fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.groupByFields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.groupByFields),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     per_series_aligner: {
-      value: cdktf.stringToHclTerraform(struct!.perSeriesAligner),
+      value: cdktn.stringToHclTerraform(struct!.perSeriesAligner),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3153,9 +3153,9 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdAggregati
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregationsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3163,11 +3163,11 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3192,7 +3192,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3201,7 +3201,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations
       this._groupByFields = undefined;
       this._perSeriesAligner = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3280,15 +3280,15 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations
   }
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3395,46 +3395,46 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThresholdDenomina
   readonly perSeriesAligner?: string;
 }
 
-export function googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    alignment_period: cdktf.stringToTerraform(struct!.alignmentPeriod),
-    cross_series_reducer: cdktf.stringToTerraform(struct!.crossSeriesReducer),
-    group_by_fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.groupByFields),
-    per_series_aligner: cdktf.stringToTerraform(struct!.perSeriesAligner),
+    alignment_period: cdktn.stringToTerraform(struct!.alignmentPeriod),
+    cross_series_reducer: cdktn.stringToTerraform(struct!.crossSeriesReducer),
+    group_by_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.groupByFields),
+    per_series_aligner: cdktn.stringToTerraform(struct!.perSeriesAligner),
   }
 }
 
 
-export function googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     alignment_period: {
-      value: cdktf.stringToHclTerraform(struct!.alignmentPeriod),
+      value: cdktn.stringToHclTerraform(struct!.alignmentPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_series_reducer: {
-      value: cdktf.stringToHclTerraform(struct!.crossSeriesReducer),
+      value: cdktn.stringToHclTerraform(struct!.crossSeriesReducer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     group_by_fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.groupByFields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.groupByFields),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     per_series_aligner: {
-      value: cdktf.stringToHclTerraform(struct!.perSeriesAligner),
+      value: cdktn.stringToHclTerraform(struct!.perSeriesAligner),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3445,9 +3445,9 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdDenominat
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3455,11 +3455,11 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorA
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3484,7 +3484,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorA
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3493,7 +3493,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorA
       this._groupByFields = undefined;
       this._perSeriesAligner = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3572,15 +3572,15 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorA
   }
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3606,24 +3606,24 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThresholdForecast
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    forecast_horizon: cdktf.stringToTerraform(struct!.forecastHorizon),
+    forecast_horizon: cdktn.stringToTerraform(struct!.forecastHorizon),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     forecast_horizon: {
-      value: cdktf.stringToHclTerraform(struct!.forecastHorizon),
+      value: cdktn.stringToHclTerraform(struct!.forecastHorizon),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3634,14 +3634,14 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdForecastO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3699,31 +3699,31 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThresholdTrigger 
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdTriggerToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThresholdTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    percent: cdktf.numberToTerraform(struct!.percent),
+    count: cdktn.numberToTerraform(struct!.count),
+    percent: cdktn.numberToTerraform(struct!.percent),
   }
 }
 
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdTriggerToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdTriggerOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThresholdTrigger): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percent: {
-      value: cdktf.numberToHclTerraform(struct!.percent),
+      value: cdktn.numberToHclTerraform(struct!.percent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3734,14 +3734,14 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdTriggerTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdTriggerOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdTriggerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3895,13 +3895,13 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThreshold {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#aggregations GoogleMonitoringAlertPolicy#aggregations}
   */
-  readonly aggregations?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktf.IResolvable;
+  readonly aggregations?: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktn.IResolvable;
   /**
   * denominator_aggregations block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#denominator_aggregations GoogleMonitoringAlertPolicy#denominator_aggregations}
   */
-  readonly denominatorAggregations?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktf.IResolvable;
+  readonly denominatorAggregations?: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktn.IResolvable;
   /**
   * forecast_options block
   *
@@ -3917,19 +3917,19 @@ export interface GoogleMonitoringAlertPolicyConditionsConditionThreshold {
 }
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdToTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    comparison: cdktf.stringToTerraform(struct!.comparison),
-    denominator_filter: cdktf.stringToTerraform(struct!.denominatorFilter),
-    duration: cdktf.stringToTerraform(struct!.duration),
-    evaluation_missing_data: cdktf.stringToTerraform(struct!.evaluationMissingData),
-    filter: cdktf.stringToTerraform(struct!.filter),
-    threshold_value: cdktf.numberToTerraform(struct!.thresholdValue),
-    aggregations: cdktf.listMapper(googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToTerraform, true)(struct!.aggregations),
-    denominator_aggregations: cdktf.listMapper(googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToTerraform, true)(struct!.denominatorAggregations),
+    comparison: cdktn.stringToTerraform(struct!.comparison),
+    denominator_filter: cdktn.stringToTerraform(struct!.denominatorFilter),
+    duration: cdktn.stringToTerraform(struct!.duration),
+    evaluation_missing_data: cdktn.stringToTerraform(struct!.evaluationMissingData),
+    filter: cdktn.stringToTerraform(struct!.filter),
+    threshold_value: cdktn.numberToTerraform(struct!.thresholdValue),
+    aggregations: cdktn.listMapper(googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToTerraform, true)(struct!.aggregations),
+    denominator_aggregations: cdktn.listMapper(googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToTerraform, true)(struct!.denominatorAggregations),
     forecast_options: googleMonitoringAlertPolicyConditionsConditionThresholdForecastOptionsToTerraform(struct!.forecastOptions),
     trigger: googleMonitoringAlertPolicyConditionsConditionThresholdTriggerToTerraform(struct!.trigger),
   }
@@ -3937,55 +3937,55 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdToTerrafo
 
 
 export function googleMonitoringAlertPolicyConditionsConditionThresholdToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputReference | GoogleMonitoringAlertPolicyConditionsConditionThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     comparison: {
-      value: cdktf.stringToHclTerraform(struct!.comparison),
+      value: cdktn.stringToHclTerraform(struct!.comparison),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     denominator_filter: {
-      value: cdktf.stringToHclTerraform(struct!.denominatorFilter),
+      value: cdktn.stringToHclTerraform(struct!.denominatorFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
+      value: cdktn.stringToHclTerraform(struct!.duration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     evaluation_missing_data: {
-      value: cdktf.stringToHclTerraform(struct!.evaluationMissingData),
+      value: cdktn.stringToHclTerraform(struct!.evaluationMissingData),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     threshold_value: {
-      value: cdktf.numberToHclTerraform(struct!.thresholdValue),
+      value: cdktn.numberToHclTerraform(struct!.thresholdValue),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     aggregations: {
-      value: cdktf.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToHclTerraform, true)(struct!.aggregations),
+      value: cdktn.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionThresholdAggregationsToHclTerraform, true)(struct!.aggregations),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregationsList",
     },
     denominator_aggregations: {
-      value: cdktf.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToHclTerraform, true)(struct!.denominatorAggregations),
+      value: cdktn.listMapperHcl(googleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsToHclTerraform, true)(struct!.denominatorAggregations),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregationsList",
@@ -4008,14 +4008,14 @@ export function googleMonitoringAlertPolicyConditionsConditionThresholdToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4189,7 +4189,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputRefere
   public get aggregations() {
     return this._aggregations;
   }
-  public putAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktf.IResolvable) {
+  public putAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdAggregations[] | cdktn.IResolvable) {
     this._aggregations.internalValue = value;
   }
   public resetAggregations() {
@@ -4205,7 +4205,7 @@ export class GoogleMonitoringAlertPolicyConditionsConditionThresholdOutputRefere
   public get denominatorAggregations() {
     return this._denominatorAggregations;
   }
-  public putDenominatorAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktf.IResolvable) {
+  public putDenominatorAggregations(value: GoogleMonitoringAlertPolicyConditionsConditionThresholdDenominatorAggregations[] | cdktn.IResolvable) {
     this._denominatorAggregations.internalValue = value;
   }
   public resetDenominatorAggregations() {
@@ -4297,13 +4297,13 @@ export interface GoogleMonitoringAlertPolicyConditions {
   readonly conditionThreshold?: GoogleMonitoringAlertPolicyConditionsConditionThreshold;
 }
 
-export function googleMonitoringAlertPolicyConditionsToTerraform(struct?: GoogleMonitoringAlertPolicyConditions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsToTerraform(struct?: GoogleMonitoringAlertPolicyConditions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    display_name: cdktf.stringToTerraform(struct!.displayName),
+    display_name: cdktn.stringToTerraform(struct!.displayName),
     condition_absent: googleMonitoringAlertPolicyConditionsConditionAbsentToTerraform(struct!.conditionAbsent),
     condition_matched_log: googleMonitoringAlertPolicyConditionsConditionMatchedLogToTerraform(struct!.conditionMatchedLog),
     condition_monitoring_query_language: googleMonitoringAlertPolicyConditionsConditionMonitoringQueryLanguageToTerraform(struct!.conditionMonitoringQueryLanguage),
@@ -4314,14 +4314,14 @@ export function googleMonitoringAlertPolicyConditionsToTerraform(struct?: Google
 }
 
 
-export function googleMonitoringAlertPolicyConditionsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyConditionsToHclTerraform(struct?: GoogleMonitoringAlertPolicyConditions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     display_name: {
-      value: cdktf.stringToHclTerraform(struct!.displayName),
+      value: cdktn.stringToHclTerraform(struct!.displayName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4368,9 +4368,9 @@ export function googleMonitoringAlertPolicyConditionsToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4378,11 +4378,11 @@ export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyConditions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyConditions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4419,7 +4419,7 @@ export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyConditions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyConditions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4431,7 +4431,7 @@ export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktf.
       this._conditionSql.internalValue = undefined;
       this._conditionThreshold.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4563,15 +4563,15 @@ export class GoogleMonitoringAlertPolicyConditionsOutputReference extends cdktf.
   }
 }
 
-export class GoogleMonitoringAlertPolicyConditionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyConditions[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyConditionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyConditions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4597,32 +4597,32 @@ export interface GoogleMonitoringAlertPolicyDocumentationLinks {
   readonly url?: string;
 }
 
-export function googleMonitoringAlertPolicyDocumentationLinksToTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationLinks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyDocumentationLinksToTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationLinks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    display_name: cdktf.stringToTerraform(struct!.displayName),
-    url: cdktf.stringToTerraform(struct!.url),
+    display_name: cdktn.stringToTerraform(struct!.displayName),
+    url: cdktn.stringToTerraform(struct!.url),
   }
 }
 
 
-export function googleMonitoringAlertPolicyDocumentationLinksToHclTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationLinks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyDocumentationLinksToHclTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationLinks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     display_name: {
-      value: cdktf.stringToHclTerraform(struct!.displayName),
+      value: cdktn.stringToHclTerraform(struct!.displayName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url: {
-      value: cdktf.stringToHclTerraform(struct!.url),
+      value: cdktn.stringToHclTerraform(struct!.url),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4633,9 +4633,9 @@ export function googleMonitoringAlertPolicyDocumentationLinksToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyDocumentationLinksOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyDocumentationLinksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4643,11 +4643,11 @@ export class GoogleMonitoringAlertPolicyDocumentationLinksOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyDocumentationLinks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyDocumentationLinks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4664,14 +4664,14 @@ export class GoogleMonitoringAlertPolicyDocumentationLinksOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyDocumentationLinks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyDocumentationLinks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._displayName = undefined;
       this._url = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4716,15 +4716,15 @@ export class GoogleMonitoringAlertPolicyDocumentationLinksOutputReference extend
   }
 }
 
-export class GoogleMonitoringAlertPolicyDocumentationLinksList extends cdktf.ComplexList {
-  public internalValue? : GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktf.IResolvable
+export class GoogleMonitoringAlertPolicyDocumentationLinksList extends cdktn.ComplexList {
+  public internalValue? : GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4766,49 +4766,49 @@ export interface GoogleMonitoringAlertPolicyDocumentation {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#links GoogleMonitoringAlertPolicy#links}
   */
-  readonly links?: GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktf.IResolvable;
+  readonly links?: GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktn.IResolvable;
 }
 
 export function googleMonitoringAlertPolicyDocumentationToTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationOutputReference | GoogleMonitoringAlertPolicyDocumentation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content: cdktf.stringToTerraform(struct!.content),
-    mime_type: cdktf.stringToTerraform(struct!.mimeType),
-    subject: cdktf.stringToTerraform(struct!.subject),
-    links: cdktf.listMapper(googleMonitoringAlertPolicyDocumentationLinksToTerraform, true)(struct!.links),
+    content: cdktn.stringToTerraform(struct!.content),
+    mime_type: cdktn.stringToTerraform(struct!.mimeType),
+    subject: cdktn.stringToTerraform(struct!.subject),
+    links: cdktn.listMapper(googleMonitoringAlertPolicyDocumentationLinksToTerraform, true)(struct!.links),
   }
 }
 
 
 export function googleMonitoringAlertPolicyDocumentationToHclTerraform(struct?: GoogleMonitoringAlertPolicyDocumentationOutputReference | GoogleMonitoringAlertPolicyDocumentation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content: {
-      value: cdktf.stringToHclTerraform(struct!.content),
+      value: cdktn.stringToHclTerraform(struct!.content),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mime_type: {
-      value: cdktf.stringToHclTerraform(struct!.mimeType),
+      value: cdktn.stringToHclTerraform(struct!.mimeType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     subject: {
-      value: cdktf.stringToHclTerraform(struct!.subject),
+      value: cdktn.stringToHclTerraform(struct!.subject),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     links: {
-      value: cdktf.listMapperHcl(googleMonitoringAlertPolicyDocumentationLinksToHclTerraform, true)(struct!.links),
+      value: cdktn.listMapperHcl(googleMonitoringAlertPolicyDocumentationLinksToHclTerraform, true)(struct!.links),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMonitoringAlertPolicyDocumentationLinksList",
@@ -4819,14 +4819,14 @@ export function googleMonitoringAlertPolicyDocumentationToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyDocumentationOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyDocumentationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4922,7 +4922,7 @@ export class GoogleMonitoringAlertPolicyDocumentationOutputReference extends cdk
   public get links() {
     return this._links;
   }
-  public putLinks(value: GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktf.IResolvable) {
+  public putLinks(value: GoogleMonitoringAlertPolicyDocumentationLinks[] | cdktn.IResolvable) {
     this._links.internalValue = value;
   }
   public resetLinks() {
@@ -4948,39 +4948,39 @@ export interface GoogleMonitoringAlertPolicyTimeouts {
   readonly update?: string;
 }
 
-export function googleMonitoringAlertPolicyTimeoutsToTerraform(struct?: GoogleMonitoringAlertPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyTimeoutsToTerraform(struct?: GoogleMonitoringAlertPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleMonitoringAlertPolicyTimeoutsToHclTerraform(struct?: GoogleMonitoringAlertPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringAlertPolicyTimeoutsToHclTerraform(struct?: GoogleMonitoringAlertPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4991,19 +4991,19 @@ export function googleMonitoringAlertPolicyTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringAlertPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringAlertPolicyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleMonitoringAlertPolicyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringAlertPolicyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5024,7 +5024,7 @@ export class GoogleMonitoringAlertPolicyTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringAlertPolicyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringAlertPolicyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -5032,7 +5032,7 @@ export class GoogleMonitoringAlertPolicyTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5097,7 +5097,7 @@ export class GoogleMonitoringAlertPolicyTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy}
 */
-export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
+export class GoogleMonitoringAlertPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -5108,14 +5108,14 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleMonitoringAlertPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleMonitoringAlertPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMonitoringAlertPolicy to import
   * @param importFromId The id of the existing GoogleMonitoringAlertPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMonitoringAlertPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_monitoring_alert_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_monitoring_alert_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -5196,11 +5196,11 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -5317,7 +5317,7 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
   public get conditions() {
     return this._conditions;
   }
-  public putConditions(value: GoogleMonitoringAlertPolicyConditions[] | cdktf.IResolvable) {
+  public putConditions(value: GoogleMonitoringAlertPolicyConditions[] | cdktn.IResolvable) {
     this._conditions.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -5363,16 +5363,16 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      combiner: cdktf.stringToTerraform(this._combiner),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enabled: cdktf.booleanToTerraform(this._enabled),
-      id: cdktf.stringToTerraform(this._id),
-      notification_channels: cdktf.listMapper(cdktf.stringToTerraform, false)(this._notificationChannels),
-      project: cdktf.stringToTerraform(this._project),
-      severity: cdktf.stringToTerraform(this._severity),
-      user_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._userLabels),
+      combiner: cdktn.stringToTerraform(this._combiner),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enabled: cdktn.booleanToTerraform(this._enabled),
+      id: cdktn.stringToTerraform(this._id),
+      notification_channels: cdktn.listMapper(cdktn.stringToTerraform, false)(this._notificationChannels),
+      project: cdktn.stringToTerraform(this._project),
+      severity: cdktn.stringToTerraform(this._severity),
+      user_labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._userLabels),
       alert_strategy: googleMonitoringAlertPolicyAlertStrategyToTerraform(this._alertStrategy.internalValue),
-      conditions: cdktf.listMapper(googleMonitoringAlertPolicyConditionsToTerraform, true)(this._conditions.internalValue),
+      conditions: cdktn.listMapper(googleMonitoringAlertPolicyConditionsToTerraform, true)(this._conditions.internalValue),
       documentation: googleMonitoringAlertPolicyDocumentationToTerraform(this._documentation.internalValue),
       timeouts: googleMonitoringAlertPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -5381,49 +5381,49 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       combiner: {
-        value: cdktf.stringToHclTerraform(this._combiner),
+        value: cdktn.stringToHclTerraform(this._combiner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled: {
-        value: cdktf.booleanToHclTerraform(this._enabled),
+        value: cdktn.booleanToHclTerraform(this._enabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       notification_channels: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._notificationChannels),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._notificationChannels),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       severity: {
-        value: cdktf.stringToHclTerraform(this._severity),
+        value: cdktn.stringToHclTerraform(this._severity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       user_labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._userLabels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._userLabels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
@@ -5435,7 +5435,7 @@ export class GoogleMonitoringAlertPolicy extends cdktf.TerraformResource {
         storageClassType: "GoogleMonitoringAlertPolicyAlertStrategyList",
       },
       conditions: {
-        value: cdktf.listMapperHcl(googleMonitoringAlertPolicyConditionsToHclTerraform, true)(this._conditions.internalValue),
+        value: cdktn.listMapperHcl(googleMonitoringAlertPolicyConditionsToHclTerraform, true)(this._conditions.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleMonitoringAlertPolicyConditionsList",

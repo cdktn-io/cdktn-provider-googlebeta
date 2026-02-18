@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleVmwareengineExternalAccessRuleConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleVmwareengineExternalAccessRuleConfig extends cdktn.TerraformMetaArguments {
   /**
   * The action that the external access rule performs. Possible values: ["ALLOW", "DENY"]
   *
@@ -74,13 +74,13 @@ export interface GoogleVmwareengineExternalAccessRuleConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule#destination_ip_ranges GoogleVmwareengineExternalAccessRule#destination_ip_ranges}
   */
-  readonly destinationIpRanges: GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktf.IResolvable;
+  readonly destinationIpRanges: GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktn.IResolvable;
   /**
   * source_ip_ranges block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule#source_ip_ranges GoogleVmwareengineExternalAccessRule#source_ip_ranges}
   */
-  readonly sourceIpRanges: GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktf.IResolvable;
+  readonly sourceIpRanges: GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -103,32 +103,32 @@ export interface GoogleVmwareengineExternalAccessRuleDestinationIpRanges {
   readonly ipAddressRange?: string;
 }
 
-export function googleVmwareengineExternalAccessRuleDestinationIpRangesToTerraform(struct?: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleDestinationIpRangesToTerraform(struct?: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    external_address: cdktf.stringToTerraform(struct!.externalAddress),
-    ip_address_range: cdktf.stringToTerraform(struct!.ipAddressRange),
+    external_address: cdktn.stringToTerraform(struct!.externalAddress),
+    ip_address_range: cdktn.stringToTerraform(struct!.ipAddressRange),
   }
 }
 
 
-export function googleVmwareengineExternalAccessRuleDestinationIpRangesToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleDestinationIpRangesToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     external_address: {
-      value: cdktf.stringToHclTerraform(struct!.externalAddress),
+      value: cdktn.stringToHclTerraform(struct!.externalAddress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ip_address_range: {
-      value: cdktf.stringToHclTerraform(struct!.ipAddressRange),
+      value: cdktn.stringToHclTerraform(struct!.ipAddressRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -139,9 +139,9 @@ export function googleVmwareengineExternalAccessRuleDestinationIpRangesToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -149,11 +149,11 @@ export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -170,14 +170,14 @@ export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareengineExternalAccessRuleDestinationIpRanges | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._externalAddress = undefined;
       this._ipAddressRange = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -222,15 +222,15 @@ export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesOutputRefere
   }
 }
 
-export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesList extends cdktf.ComplexList {
-  public internalValue? : GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktf.IResolvable
+export class GoogleVmwareengineExternalAccessRuleDestinationIpRangesList extends cdktn.ComplexList {
+  public internalValue? : GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -256,32 +256,32 @@ export interface GoogleVmwareengineExternalAccessRuleSourceIpRanges {
   readonly ipAddressRange?: string;
 }
 
-export function googleVmwareengineExternalAccessRuleSourceIpRangesToTerraform(struct?: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleSourceIpRangesToTerraform(struct?: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
-    ip_address_range: cdktf.stringToTerraform(struct!.ipAddressRange),
+    ip_address: cdktn.stringToTerraform(struct!.ipAddress),
+    ip_address_range: cdktn.stringToTerraform(struct!.ipAddressRange),
   }
 }
 
 
-export function googleVmwareengineExternalAccessRuleSourceIpRangesToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleSourceIpRangesToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ip_address: {
-      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      value: cdktn.stringToHclTerraform(struct!.ipAddress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ip_address_range: {
-      value: cdktf.stringToHclTerraform(struct!.ipAddressRange),
+      value: cdktn.stringToHclTerraform(struct!.ipAddressRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -292,9 +292,9 @@ export function googleVmwareengineExternalAccessRuleSourceIpRangesToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareengineExternalAccessRuleSourceIpRangesOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareengineExternalAccessRuleSourceIpRangesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -302,11 +302,11 @@ export class GoogleVmwareengineExternalAccessRuleSourceIpRangesOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -323,14 +323,14 @@ export class GoogleVmwareengineExternalAccessRuleSourceIpRangesOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareengineExternalAccessRuleSourceIpRanges | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._ipAddress = undefined;
       this._ipAddressRange = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -375,15 +375,15 @@ export class GoogleVmwareengineExternalAccessRuleSourceIpRangesOutputReference e
   }
 }
 
-export class GoogleVmwareengineExternalAccessRuleSourceIpRangesList extends cdktf.ComplexList {
-  public internalValue? : GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktf.IResolvable
+export class GoogleVmwareengineExternalAccessRuleSourceIpRangesList extends cdktn.ComplexList {
+  public internalValue? : GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -409,39 +409,39 @@ export interface GoogleVmwareengineExternalAccessRuleTimeouts {
   readonly update?: string;
 }
 
-export function googleVmwareengineExternalAccessRuleTimeoutsToTerraform(struct?: GoogleVmwareengineExternalAccessRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleTimeoutsToTerraform(struct?: GoogleVmwareengineExternalAccessRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleVmwareengineExternalAccessRuleTimeoutsToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareengineExternalAccessRuleTimeoutsToHclTerraform(struct?: GoogleVmwareengineExternalAccessRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -452,19 +452,19 @@ export function googleVmwareengineExternalAccessRuleTimeoutsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareengineExternalAccessRuleTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareengineExternalAccessRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleVmwareengineExternalAccessRuleTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareengineExternalAccessRuleTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -485,7 +485,7 @@ export class GoogleVmwareengineExternalAccessRuleTimeoutsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareengineExternalAccessRuleTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareengineExternalAccessRuleTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -493,7 +493,7 @@ export class GoogleVmwareengineExternalAccessRuleTimeoutsOutputReference extends
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -558,7 +558,7 @@ export class GoogleVmwareengineExternalAccessRuleTimeoutsOutputReference extends
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule}
 */
-export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResource {
+export class GoogleVmwareengineExternalAccessRule extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -569,14 +569,14 @@ export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleVmwareengineExternalAccessRule resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleVmwareengineExternalAccessRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVmwareengineExternalAccessRule to import
   * @param importFromId The id of the existing GoogleVmwareengineExternalAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVmwareengineExternalAccessRule to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_vmwareengine_external_access_rule", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_vmwareengine_external_access_rule", importId: importFromId, provider });
       }
 
   // ===========
@@ -772,7 +772,7 @@ export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResourc
   public get destinationIpRanges() {
     return this._destinationIpRanges;
   }
-  public putDestinationIpRanges(value: GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktf.IResolvable) {
+  public putDestinationIpRanges(value: GoogleVmwareengineExternalAccessRuleDestinationIpRanges[] | cdktn.IResolvable) {
     this._destinationIpRanges.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -785,7 +785,7 @@ export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResourc
   public get sourceIpRanges() {
     return this._sourceIpRanges;
   }
-  public putSourceIpRanges(value: GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktf.IResolvable) {
+  public putSourceIpRanges(value: GoogleVmwareengineExternalAccessRuleSourceIpRanges[] | cdktn.IResolvable) {
     this._sourceIpRanges.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -815,17 +815,17 @@ export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      action: cdktf.stringToTerraform(this._action),
-      description: cdktf.stringToTerraform(this._description),
-      destination_ports: cdktf.listMapper(cdktf.stringToTerraform, false)(this._destinationPorts),
-      id: cdktf.stringToTerraform(this._id),
-      ip_protocol: cdktf.stringToTerraform(this._ipProtocol),
-      name: cdktf.stringToTerraform(this._name),
-      parent: cdktf.stringToTerraform(this._parent),
-      priority: cdktf.numberToTerraform(this._priority),
-      source_ports: cdktf.listMapper(cdktf.stringToTerraform, false)(this._sourcePorts),
-      destination_ip_ranges: cdktf.listMapper(googleVmwareengineExternalAccessRuleDestinationIpRangesToTerraform, true)(this._destinationIpRanges.internalValue),
-      source_ip_ranges: cdktf.listMapper(googleVmwareengineExternalAccessRuleSourceIpRangesToTerraform, true)(this._sourceIpRanges.internalValue),
+      action: cdktn.stringToTerraform(this._action),
+      description: cdktn.stringToTerraform(this._description),
+      destination_ports: cdktn.listMapper(cdktn.stringToTerraform, false)(this._destinationPorts),
+      id: cdktn.stringToTerraform(this._id),
+      ip_protocol: cdktn.stringToTerraform(this._ipProtocol),
+      name: cdktn.stringToTerraform(this._name),
+      parent: cdktn.stringToTerraform(this._parent),
+      priority: cdktn.numberToTerraform(this._priority),
+      source_ports: cdktn.listMapper(cdktn.stringToTerraform, false)(this._sourcePorts),
+      destination_ip_ranges: cdktn.listMapper(googleVmwareengineExternalAccessRuleDestinationIpRangesToTerraform, true)(this._destinationIpRanges.internalValue),
+      source_ip_ranges: cdktn.listMapper(googleVmwareengineExternalAccessRuleSourceIpRangesToTerraform, true)(this._sourceIpRanges.internalValue),
       timeouts: googleVmwareengineExternalAccessRuleTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -833,67 +833,67 @@ export class GoogleVmwareengineExternalAccessRule extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       action: {
-        value: cdktf.stringToHclTerraform(this._action),
+        value: cdktn.stringToHclTerraform(this._action),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       destination_ports: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._destinationPorts),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._destinationPorts),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ip_protocol: {
-        value: cdktf.stringToHclTerraform(this._ipProtocol),
+        value: cdktn.stringToHclTerraform(this._ipProtocol),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent: {
-        value: cdktf.stringToHclTerraform(this._parent),
+        value: cdktn.stringToHclTerraform(this._parent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       priority: {
-        value: cdktf.numberToHclTerraform(this._priority),
+        value: cdktn.numberToHclTerraform(this._priority),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       source_ports: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sourcePorts),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._sourcePorts),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       destination_ip_ranges: {
-        value: cdktf.listMapperHcl(googleVmwareengineExternalAccessRuleDestinationIpRangesToHclTerraform, true)(this._destinationIpRanges.internalValue),
+        value: cdktn.listMapperHcl(googleVmwareengineExternalAccessRuleDestinationIpRangesToHclTerraform, true)(this._destinationIpRanges.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleVmwareengineExternalAccessRuleDestinationIpRangesList",
       },
       source_ip_ranges: {
-        value: cdktf.listMapperHcl(googleVmwareengineExternalAccessRuleSourceIpRangesToHclTerraform, true)(this._sourceIpRanges.internalValue),
+        value: cdktn.listMapperHcl(googleVmwareengineExternalAccessRuleSourceIpRangesToHclTerraform, true)(this._sourceIpRanges.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleVmwareengineExternalAccessRuleSourceIpRangesList",

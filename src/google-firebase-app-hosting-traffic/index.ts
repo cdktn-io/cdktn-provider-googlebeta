@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaseAppHostingTrafficConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaseAppHostingTrafficConfig extends cdktn.TerraformMetaArguments {
   /**
   * Id of the backend that this Traffic config applies to
   *
@@ -58,8 +58,8 @@ export interface GoogleFirebaseAppHostingTrafficCurrentSplits {
 }
 
 export function googleFirebaseAppHostingTrafficCurrentSplitsToTerraform(struct?: GoogleFirebaseAppHostingTrafficCurrentSplits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -68,8 +68,8 @@ export function googleFirebaseAppHostingTrafficCurrentSplitsToTerraform(struct?:
 
 
 export function googleFirebaseAppHostingTrafficCurrentSplitsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficCurrentSplits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -77,7 +77,7 @@ export function googleFirebaseAppHostingTrafficCurrentSplitsToHclTerraform(struc
   return attrs;
 }
 
-export class GoogleFirebaseAppHostingTrafficCurrentSplitsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficCurrentSplitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -86,7 +86,7 @@ export class GoogleFirebaseAppHostingTrafficCurrentSplitsOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -116,14 +116,14 @@ export class GoogleFirebaseAppHostingTrafficCurrentSplitsOutputReference extends
   }
 }
 
-export class GoogleFirebaseAppHostingTrafficCurrentSplitsList extends cdktf.ComplexList {
+export class GoogleFirebaseAppHostingTrafficCurrentSplitsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -138,8 +138,8 @@ export interface GoogleFirebaseAppHostingTrafficCurrent {
 }
 
 export function googleFirebaseAppHostingTrafficCurrentToTerraform(struct?: GoogleFirebaseAppHostingTrafficCurrent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -148,8 +148,8 @@ export function googleFirebaseAppHostingTrafficCurrentToTerraform(struct?: Googl
 
 
 export function googleFirebaseAppHostingTrafficCurrentToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficCurrent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -157,7 +157,7 @@ export function googleFirebaseAppHostingTrafficCurrentToHclTerraform(struct?: Go
   return attrs;
 }
 
-export class GoogleFirebaseAppHostingTrafficCurrentOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficCurrentOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -166,7 +166,7 @@ export class GoogleFirebaseAppHostingTrafficCurrentOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -192,14 +192,14 @@ export class GoogleFirebaseAppHostingTrafficCurrentOutputReference extends cdktf
   }
 }
 
-export class GoogleFirebaseAppHostingTrafficCurrentList extends cdktf.ComplexList {
+export class GoogleFirebaseAppHostingTrafficCurrentList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -223,35 +223,35 @@ export interface GoogleFirebaseAppHostingTrafficRolloutPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_hosting_traffic#disabled GoogleFirebaseAppHostingTraffic#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleFirebaseAppHostingTrafficRolloutPolicyToTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference | GoogleFirebaseAppHostingTrafficRolloutPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    codebase_branch: cdktf.stringToTerraform(struct!.codebaseBranch),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
+    codebase_branch: cdktn.stringToTerraform(struct!.codebaseBranch),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
   }
 }
 
 
 export function googleFirebaseAppHostingTrafficRolloutPolicyToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference | GoogleFirebaseAppHostingTrafficRolloutPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     codebase_branch: {
-      value: cdktf.stringToHclTerraform(struct!.codebaseBranch),
+      value: cdktn.stringToHclTerraform(struct!.codebaseBranch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -262,14 +262,14 @@ export function googleFirebaseAppHostingTrafficRolloutPolicyToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -317,11 +317,11 @@ export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -352,32 +352,32 @@ export interface GoogleFirebaseAppHostingTrafficTargetSplits {
   readonly percent: number;
 }
 
-export function googleFirebaseAppHostingTrafficTargetSplitsToTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetSplits | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppHostingTrafficTargetSplitsToTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetSplits | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    build: cdktf.stringToTerraform(struct!.buildAttribute),
-    percent: cdktf.numberToTerraform(struct!.percent),
+    build: cdktn.stringToTerraform(struct!.buildAttribute),
+    percent: cdktn.numberToTerraform(struct!.percent),
   }
 }
 
 
-export function googleFirebaseAppHostingTrafficTargetSplitsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetSplits | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppHostingTrafficTargetSplitsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetSplits | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     build: {
-      value: cdktf.stringToHclTerraform(struct!.buildAttribute),
+      value: cdktn.stringToHclTerraform(struct!.buildAttribute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     percent: {
-      value: cdktf.numberToHclTerraform(struct!.percent),
+      value: cdktn.numberToHclTerraform(struct!.percent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -388,9 +388,9 @@ export function googleFirebaseAppHostingTrafficTargetSplitsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseAppHostingTrafficTargetSplitsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficTargetSplitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -398,11 +398,11 @@ export class GoogleFirebaseAppHostingTrafficTargetSplitsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirebaseAppHostingTrafficTargetSplits | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseAppHostingTrafficTargetSplits | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -419,14 +419,14 @@ export class GoogleFirebaseAppHostingTrafficTargetSplitsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseAppHostingTrafficTargetSplits | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseAppHostingTrafficTargetSplits | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._build = undefined;
       this._percent = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -465,15 +465,15 @@ export class GoogleFirebaseAppHostingTrafficTargetSplitsOutputReference extends 
   }
 }
 
-export class GoogleFirebaseAppHostingTrafficTargetSplitsList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktf.IResolvable
+export class GoogleFirebaseAppHostingTrafficTargetSplitsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -490,28 +490,28 @@ export interface GoogleFirebaseAppHostingTrafficTarget {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_hosting_traffic#splits GoogleFirebaseAppHostingTraffic#splits}
   */
-  readonly splits: GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktf.IResolvable;
+  readonly splits: GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktn.IResolvable;
 }
 
 export function googleFirebaseAppHostingTrafficTargetToTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetOutputReference | GoogleFirebaseAppHostingTrafficTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    splits: cdktf.listMapper(googleFirebaseAppHostingTrafficTargetSplitsToTerraform, true)(struct!.splits),
+    splits: cdktn.listMapper(googleFirebaseAppHostingTrafficTargetSplitsToTerraform, true)(struct!.splits),
   }
 }
 
 
 export function googleFirebaseAppHostingTrafficTargetToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficTargetOutputReference | GoogleFirebaseAppHostingTrafficTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     splits: {
-      value: cdktf.listMapperHcl(googleFirebaseAppHostingTrafficTargetSplitsToHclTerraform, true)(struct!.splits),
+      value: cdktn.listMapperHcl(googleFirebaseAppHostingTrafficTargetSplitsToHclTerraform, true)(struct!.splits),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFirebaseAppHostingTrafficTargetSplitsList",
@@ -522,14 +522,14 @@ export function googleFirebaseAppHostingTrafficTargetToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseAppHostingTrafficTargetOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficTargetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -559,7 +559,7 @@ export class GoogleFirebaseAppHostingTrafficTargetOutputReference extends cdktf.
   public get splits() {
     return this._splits;
   }
-  public putSplits(value: GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktf.IResolvable) {
+  public putSplits(value: GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktn.IResolvable) {
     this._splits.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -582,39 +582,39 @@ export interface GoogleFirebaseAppHostingTrafficTimeouts {
   readonly update?: string;
 }
 
-export function googleFirebaseAppHostingTrafficTimeoutsToTerraform(struct?: GoogleFirebaseAppHostingTrafficTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppHostingTrafficTimeoutsToTerraform(struct?: GoogleFirebaseAppHostingTrafficTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFirebaseAppHostingTrafficTimeoutsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppHostingTrafficTimeoutsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -625,19 +625,19 @@ export function googleFirebaseAppHostingTrafficTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaseAppHostingTrafficTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseAppHostingTrafficTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -658,7 +658,7 @@ export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseAppHostingTrafficTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseAppHostingTrafficTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -666,7 +666,7 @@ export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdkt
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -731,7 +731,7 @@ export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_hosting_traffic google_firebase_app_hosting_traffic}
 */
-export class GoogleFirebaseAppHostingTraffic extends cdktf.TerraformResource {
+export class GoogleFirebaseAppHostingTraffic extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -742,14 +742,14 @@ export class GoogleFirebaseAppHostingTraffic extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaseAppHostingTraffic resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaseAppHostingTraffic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseAppHostingTraffic to import
   * @param importFromId The id of the existing GoogleFirebaseAppHostingTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_hosting_traffic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseAppHostingTraffic to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_app_hosting_traffic", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_app_hosting_traffic", importId: importFromId, provider });
       }
 
   // ===========
@@ -940,10 +940,10 @@ export class GoogleFirebaseAppHostingTraffic extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      backend: cdktf.stringToTerraform(this._backend),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      backend: cdktn.stringToTerraform(this._backend),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       rollout_policy: googleFirebaseAppHostingTrafficRolloutPolicyToTerraform(this._rolloutPolicy.internalValue),
       target: googleFirebaseAppHostingTrafficTargetToTerraform(this._target.internalValue),
       timeouts: googleFirebaseAppHostingTrafficTimeoutsToTerraform(this._timeouts.internalValue),
@@ -953,25 +953,25 @@ export class GoogleFirebaseAppHostingTraffic extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       backend: {
-        value: cdktf.stringToHclTerraform(this._backend),
+        value: cdktn.stringToHclTerraform(this._backend),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

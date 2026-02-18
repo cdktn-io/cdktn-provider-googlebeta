@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSccProjectNotificationConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSccProjectNotificationConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * This must be unique within the organization.
   *
@@ -89,24 +89,24 @@ export interface GoogleSccProjectNotificationConfigStreamingConfig {
 }
 
 export function googleSccProjectNotificationConfigStreamingConfigToTerraform(struct?: GoogleSccProjectNotificationConfigStreamingConfigOutputReference | GoogleSccProjectNotificationConfigStreamingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    filter: cdktf.stringToTerraform(struct!.filter),
+    filter: cdktn.stringToTerraform(struct!.filter),
   }
 }
 
 
 export function googleSccProjectNotificationConfigStreamingConfigToHclTerraform(struct?: GoogleSccProjectNotificationConfigStreamingConfigOutputReference | GoogleSccProjectNotificationConfigStreamingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -117,14 +117,14 @@ export function googleSccProjectNotificationConfigStreamingConfigToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSccProjectNotificationConfigStreamingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSccProjectNotificationConfigStreamingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -177,39 +177,39 @@ export interface GoogleSccProjectNotificationConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleSccProjectNotificationConfigTimeoutsToTerraform(struct?: GoogleSccProjectNotificationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccProjectNotificationConfigTimeoutsToTerraform(struct?: GoogleSccProjectNotificationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSccProjectNotificationConfigTimeoutsToHclTerraform(struct?: GoogleSccProjectNotificationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccProjectNotificationConfigTimeoutsToHclTerraform(struct?: GoogleSccProjectNotificationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -220,19 +220,19 @@ export function googleSccProjectNotificationConfigTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSccProjectNotificationConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSccProjectNotificationConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSccProjectNotificationConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSccProjectNotificationConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -253,7 +253,7 @@ export class GoogleSccProjectNotificationConfigTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSccProjectNotificationConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSccProjectNotificationConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -261,7 +261,7 @@ export class GoogleSccProjectNotificationConfigTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -326,7 +326,7 @@ export class GoogleSccProjectNotificationConfigTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_notification_config google_scc_project_notification_config}
 */
-export class GoogleSccProjectNotificationConfig extends cdktf.TerraformResource {
+export class GoogleSccProjectNotificationConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -337,14 +337,14 @@ export class GoogleSccProjectNotificationConfig extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSccProjectNotificationConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSccProjectNotificationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSccProjectNotificationConfig to import
   * @param importFromId The id of the existing GoogleSccProjectNotificationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_notification_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSccProjectNotificationConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_project_notification_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_project_notification_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -506,11 +506,11 @@ export class GoogleSccProjectNotificationConfig extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      config_id: cdktf.stringToTerraform(this._configId),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      pubsub_topic: cdktf.stringToTerraform(this._pubsubTopic),
+      config_id: cdktn.stringToTerraform(this._configId),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      pubsub_topic: cdktn.stringToTerraform(this._pubsubTopic),
       streaming_config: googleSccProjectNotificationConfigStreamingConfigToTerraform(this._streamingConfig.internalValue),
       timeouts: googleSccProjectNotificationConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -519,31 +519,31 @@ export class GoogleSccProjectNotificationConfig extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       config_id: {
-        value: cdktf.stringToHclTerraform(this._configId),
+        value: cdktn.stringToHclTerraform(this._configId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       pubsub_topic: {
-        value: cdktf.stringToHclTerraform(this._pubsubTopic),
+        value: cdktn.stringToHclTerraform(this._pubsubTopic),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

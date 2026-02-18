@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktn.TerraformMetaArguments {
   /**
   * Client-specified annotations. This is distinct from labels.
   * 
@@ -26,7 +26,7 @@ export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#disable_tcp_connections GoogleWorkstationsWorkstationConfigA#disable_tcp_connections}
   */
-  readonly disableTcpConnections?: boolean | cdktf.IResolvable;
+  readonly disableTcpConnections?: boolean | cdktn.IResolvable;
   /**
   * Human-readable name for this resource.
   *
@@ -38,7 +38,7 @@ export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_audit_agent GoogleWorkstationsWorkstationConfigA#enable_audit_agent}
   */
-  readonly enableAuditAgent?: boolean | cdktf.IResolvable;
+  readonly enableAuditAgent?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#id GoogleWorkstationsWorkstationConfigA#id}
   *
@@ -109,7 +109,7 @@ export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#allowed_ports GoogleWorkstationsWorkstationConfigA#allowed_ports}
   */
-  readonly allowedPorts?: GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktf.IResolvable;
+  readonly allowedPorts?: GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktn.IResolvable;
   /**
   * container block
   *
@@ -127,7 +127,7 @@ export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#ephemeral_directories GoogleWorkstationsWorkstationConfigA#ephemeral_directories}
   */
-  readonly ephemeralDirectories?: GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktf.IResolvable;
+  readonly ephemeralDirectories?: GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktn.IResolvable;
   /**
   * host block
   *
@@ -139,13 +139,13 @@ export interface GoogleWorkstationsWorkstationConfigAConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#persistent_directories GoogleWorkstationsWorkstationConfigA#persistent_directories}
   */
-  readonly persistentDirectories?: GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktf.IResolvable;
+  readonly persistentDirectories?: GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktn.IResolvable;
   /**
   * readiness_checks block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#readiness_checks GoogleWorkstationsWorkstationConfigA#readiness_checks}
   */
-  readonly readinessChecks?: GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktf.IResolvable;
+  readonly readinessChecks?: GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -157,8 +157,8 @@ export interface GoogleWorkstationsWorkstationConfigConditions {
 }
 
 export function googleWorkstationsWorkstationConfigConditionsToTerraform(struct?: GoogleWorkstationsWorkstationConfigConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -167,8 +167,8 @@ export function googleWorkstationsWorkstationConfigConditionsToTerraform(struct?
 
 
 export function googleWorkstationsWorkstationConfigConditionsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -176,7 +176,7 @@ export function googleWorkstationsWorkstationConfigConditionsToHclTerraform(stru
   return attrs;
 }
 
-export class GoogleWorkstationsWorkstationConfigConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -185,7 +185,7 @@ export class GoogleWorkstationsWorkstationConfigConditionsOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -210,7 +210,7 @@ export class GoogleWorkstationsWorkstationConfigConditionsOutputReference extend
   }
 
   // details - computed: true, optional: false, required: false
-  private _details = new cdktf.StringMapList(this, "details", false);
+  private _details = new cdktn.StringMapList(this, "details", false);
   public get details() {
     return this._details;
   }
@@ -221,14 +221,14 @@ export class GoogleWorkstationsWorkstationConfigConditionsOutputReference extend
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigConditionsList extends cdktf.ComplexList {
+export class GoogleWorkstationsWorkstationConfigConditionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -254,32 +254,32 @@ export interface GoogleWorkstationsWorkstationConfigAllowedPorts {
   readonly last?: number;
 }
 
-export function googleWorkstationsWorkstationConfigAllowedPortsToTerraform(struct?: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigAllowedPortsToTerraform(struct?: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    first: cdktf.numberToTerraform(struct!.first),
-    last: cdktf.numberToTerraform(struct!.last),
+    first: cdktn.numberToTerraform(struct!.first),
+    last: cdktn.numberToTerraform(struct!.last),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigAllowedPortsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigAllowedPortsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     first: {
-      value: cdktf.numberToHclTerraform(struct!.first),
+      value: cdktn.numberToHclTerraform(struct!.first),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     last: {
-      value: cdktf.numberToHclTerraform(struct!.last),
+      value: cdktn.numberToHclTerraform(struct!.last),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -290,9 +290,9 @@ export function googleWorkstationsWorkstationConfigAllowedPortsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigAllowedPortsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigAllowedPortsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -300,11 +300,11 @@ export class GoogleWorkstationsWorkstationConfigAllowedPortsOutputReference exte
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigAllowedPorts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigAllowedPorts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -321,14 +321,14 @@ export class GoogleWorkstationsWorkstationConfigAllowedPortsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigAllowedPorts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._first = undefined;
       this._last = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -373,15 +373,15 @@ export class GoogleWorkstationsWorkstationConfigAllowedPortsOutputReference exte
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigAllowedPortsList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigAllowedPortsList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -433,59 +433,59 @@ export interface GoogleWorkstationsWorkstationConfigContainer {
 }
 
 export function googleWorkstationsWorkstationConfigContainerToTerraform(struct?: GoogleWorkstationsWorkstationConfigContainerOutputReference | GoogleWorkstationsWorkstationConfigContainer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    command: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.command),
-    env: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.env),
-    image: cdktf.stringToTerraform(struct!.image),
-    run_as_user: cdktf.numberToTerraform(struct!.runAsUser),
-    working_dir: cdktf.stringToTerraform(struct!.workingDir),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    command: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.command),
+    env: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.env),
+    image: cdktn.stringToTerraform(struct!.image),
+    run_as_user: cdktn.numberToTerraform(struct!.runAsUser),
+    working_dir: cdktn.stringToTerraform(struct!.workingDir),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigContainerToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigContainerOutputReference | GoogleWorkstationsWorkstationConfigContainer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     command: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.command),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.command),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     env: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.env),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.env),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     image: {
-      value: cdktf.stringToHclTerraform(struct!.image),
+      value: cdktn.stringToHclTerraform(struct!.image),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     run_as_user: {
-      value: cdktf.numberToHclTerraform(struct!.runAsUser),
+      value: cdktn.numberToHclTerraform(struct!.runAsUser),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     working_dir: {
-      value: cdktf.stringToHclTerraform(struct!.workingDir),
+      value: cdktn.stringToHclTerraform(struct!.workingDir),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -496,14 +496,14 @@ export function googleWorkstationsWorkstationConfigContainerToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigContainerOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigContainerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -670,31 +670,31 @@ export interface GoogleWorkstationsWorkstationConfigEncryptionKey {
 }
 
 export function googleWorkstationsWorkstationConfigEncryptionKeyToTerraform(struct?: GoogleWorkstationsWorkstationConfigEncryptionKeyOutputReference | GoogleWorkstationsWorkstationConfigEncryptionKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
-    kms_key_service_account: cdktf.stringToTerraform(struct!.kmsKeyServiceAccount),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
+    kms_key_service_account: cdktn.stringToTerraform(struct!.kmsKeyServiceAccount),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigEncryptionKeyToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigEncryptionKeyOutputReference | GoogleWorkstationsWorkstationConfigEncryptionKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key_service_account: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyServiceAccount),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyServiceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -705,14 +705,14 @@ export function googleWorkstationsWorkstationConfigEncryptionKeyToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigEncryptionKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigEncryptionKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -781,7 +781,7 @@ export interface GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePd {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#read_only GoogleWorkstationsWorkstationConfigA#read_only}
   */
-  readonly readOnly?: boolean | cdktf.IResolvable;
+  readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * Name of the disk image to use as the source for the disk.
   * 
@@ -804,45 +804,45 @@ export interface GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePd {
 }
 
 export function googleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdToTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference | GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    disk_type: cdktf.stringToTerraform(struct!.diskType),
-    read_only: cdktf.booleanToTerraform(struct!.readOnly),
-    source_image: cdktf.stringToTerraform(struct!.sourceImage),
-    source_snapshot: cdktf.stringToTerraform(struct!.sourceSnapshot),
+    disk_type: cdktn.stringToTerraform(struct!.diskType),
+    read_only: cdktn.booleanToTerraform(struct!.readOnly),
+    source_image: cdktn.stringToTerraform(struct!.sourceImage),
+    source_snapshot: cdktn.stringToTerraform(struct!.sourceSnapshot),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference | GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.diskType),
+      value: cdktn.stringToHclTerraform(struct!.diskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.readOnly),
+      value: cdktn.booleanToHclTerraform(struct!.readOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     source_image: {
-      value: cdktf.stringToHclTerraform(struct!.sourceImage),
+      value: cdktn.stringToHclTerraform(struct!.sourceImage),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_snapshot: {
-      value: cdktf.stringToHclTerraform(struct!.sourceSnapshot),
+      value: cdktn.stringToHclTerraform(struct!.sourceSnapshot),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -853,14 +853,14 @@ export function googleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -920,11 +920,11 @@ export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputR
   }
 
   // read_only - computed: false, optional: true, required: false
-  private _readOnly?: boolean | cdktf.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
-  public set readOnly(value: boolean | cdktf.IResolvable) {
+  public set readOnly(value: boolean | cdktn.IResolvable) {
     this._readOnly = value;
   }
   public resetReadOnly() {
@@ -982,26 +982,26 @@ export interface GoogleWorkstationsWorkstationConfigEphemeralDirectories {
   readonly gcePd?: GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePd;
 }
 
-export function googleWorkstationsWorkstationConfigEphemeralDirectoriesToTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigEphemeralDirectoriesToTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
     gce_pd: googleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdToTerraform(struct!.gcePd),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigEphemeralDirectoriesToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigEphemeralDirectoriesToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mount_path: {
-      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1018,9 +1018,9 @@ export function googleWorkstationsWorkstationConfigEphemeralDirectoriesToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1028,11 +1028,11 @@ export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1049,14 +1049,14 @@ export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesOutputRefere
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigEphemeralDirectories | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._mountPath = undefined;
       this._gcePd.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1101,15 +1101,15 @@ export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesOutputRefere
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1135,32 +1135,32 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators 
   readonly type: string;
 }
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    type: cdktf.stringToTerraform(struct!.type),
+    count: cdktn.numberToTerraform(struct!.count),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1171,9 +1171,9 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1181,11 +1181,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1202,14 +1202,14 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._count = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1248,15 +1248,15 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsOutpu
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1282,32 +1282,32 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsA
   readonly type: string;
 }
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    type: cdktf.stringToTerraform(struct!.type),
+    count: cdktn.numberToTerraform(struct!.count),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1318,9 +1318,9 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1328,11 +1328,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccel
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1349,14 +1349,14 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccel
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._count = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1395,15 +1395,15 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccel
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1428,7 +1428,7 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_nested_virtualization GoogleWorkstationsWorkstationConfigA#enable_nested_virtualization}
   */
-  readonly enableNestedVirtualization?: boolean | cdktf.IResolvable;
+  readonly enableNestedVirtualization?: boolean | cdktn.IResolvable;
   /**
   * The id to be used for the boost config.
   *
@@ -1455,63 +1455,63 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#accelerators GoogleWorkstationsWorkstationConfigA#accelerators}
   */
-  readonly accelerators?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktn.IResolvable;
 }
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    boot_disk_size_gb: cdktf.numberToTerraform(struct!.bootDiskSizeGb),
-    enable_nested_virtualization: cdktf.booleanToTerraform(struct!.enableNestedVirtualization),
-    id: cdktf.stringToTerraform(struct!.id),
-    machine_type: cdktf.stringToTerraform(struct!.machineType),
-    pool_size: cdktf.numberToTerraform(struct!.poolSize),
-    accelerators: cdktf.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToTerraform, true)(struct!.accelerators),
+    boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
+    enable_nested_virtualization: cdktn.booleanToTerraform(struct!.enableNestedVirtualization),
+    id: cdktn.stringToTerraform(struct!.id),
+    machine_type: cdktn.stringToTerraform(struct!.machineType),
+    pool_size: cdktn.numberToTerraform(struct!.poolSize),
+    accelerators: cdktn.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToTerraform, true)(struct!.accelerators),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     boot_disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.bootDiskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     enable_nested_virtualization: {
-      value: cdktf.booleanToHclTerraform(struct!.enableNestedVirtualization),
+      value: cdktn.booleanToHclTerraform(struct!.enableNestedVirtualization),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     machine_type: {
-      value: cdktf.stringToHclTerraform(struct!.machineType),
+      value: cdktn.stringToHclTerraform(struct!.machineType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pool_size: {
-      value: cdktf.numberToHclTerraform(struct!.poolSize),
+      value: cdktn.numberToHclTerraform(struct!.poolSize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     accelerators: {
-      value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsToHclTerraform, true)(struct!.accelerators),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAcceleratorsList",
@@ -1522,9 +1522,9 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1532,11 +1532,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1569,7 +1569,7 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1580,7 +1580,7 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
       this._poolSize = undefined;
       this._accelerators.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1613,11 +1613,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
   }
 
   // enable_nested_virtualization - computed: true, optional: true, required: false
-  private _enableNestedVirtualization?: boolean | cdktf.IResolvable; 
+  private _enableNestedVirtualization?: boolean | cdktn.IResolvable; 
   public get enableNestedVirtualization() {
     return this.getBooleanAttribute('enable_nested_virtualization');
   }
-  public set enableNestedVirtualization(value: boolean | cdktf.IResolvable) {
+  public set enableNestedVirtualization(value: boolean | cdktn.IResolvable) {
     this._enableNestedVirtualization = value;
   }
   public resetEnableNestedVirtualization() {
@@ -1678,7 +1678,7 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -1690,15 +1690,15 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsOutpu
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1715,28 +1715,28 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialI
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_confidential_compute GoogleWorkstationsWorkstationConfigA#enable_confidential_compute}
   */
-  readonly enableConfidentialCompute?: boolean | cdktf.IResolvable;
+  readonly enableConfidentialCompute?: boolean | cdktn.IResolvable;
 }
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_confidential_compute: cdktf.booleanToTerraform(struct!.enableConfidentialCompute),
+    enable_confidential_compute: cdktn.booleanToTerraform(struct!.enableConfidentialCompute),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_confidential_compute: {
-      value: cdktf.booleanToHclTerraform(struct!.enableConfidentialCompute),
+      value: cdktn.booleanToHclTerraform(struct!.enableConfidentialCompute),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1747,14 +1747,14 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceConfidentialIn
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1780,11 +1780,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceConfidentialInsta
   }
 
   // enable_confidential_compute - computed: false, optional: true, required: false
-  private _enableConfidentialCompute?: boolean | cdktf.IResolvable; 
+  private _enableConfidentialCompute?: boolean | cdktn.IResolvable; 
   public get enableConfidentialCompute() {
     return this.getBooleanAttribute('enable_confidential_compute');
   }
-  public set enableConfidentialCompute(value: boolean | cdktf.IResolvable) {
+  public set enableConfidentialCompute(value: boolean | cdktn.IResolvable) {
     this._enableConfidentialCompute = value;
   }
   public resetEnableConfidentialCompute() {
@@ -1801,54 +1801,54 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInsta
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_integrity_monitoring GoogleWorkstationsWorkstationConfigA#enable_integrity_monitoring}
   */
-  readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
+  readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Whether the instance has Secure Boot enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_secure_boot GoogleWorkstationsWorkstationConfigA#enable_secure_boot}
   */
-  readonly enableSecureBoot?: boolean | cdktf.IResolvable;
+  readonly enableSecureBoot?: boolean | cdktn.IResolvable;
   /**
   * Whether the instance has the vTPM enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_vtpm GoogleWorkstationsWorkstationConfigA#enable_vtpm}
   */
-  readonly enableVtpm?: boolean | cdktf.IResolvable;
+  readonly enableVtpm?: boolean | cdktn.IResolvable;
 }
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_integrity_monitoring: cdktf.booleanToTerraform(struct!.enableIntegrityMonitoring),
-    enable_secure_boot: cdktf.booleanToTerraform(struct!.enableSecureBoot),
-    enable_vtpm: cdktf.booleanToTerraform(struct!.enableVtpm),
+    enable_integrity_monitoring: cdktn.booleanToTerraform(struct!.enableIntegrityMonitoring),
+    enable_secure_boot: cdktn.booleanToTerraform(struct!.enableSecureBoot),
+    enable_vtpm: cdktn.booleanToTerraform(struct!.enableVtpm),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_integrity_monitoring: {
-      value: cdktf.booleanToHclTerraform(struct!.enableIntegrityMonitoring),
+      value: cdktn.booleanToHclTerraform(struct!.enableIntegrityMonitoring),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_secure_boot: {
-      value: cdktf.booleanToHclTerraform(struct!.enableSecureBoot),
+      value: cdktn.booleanToHclTerraform(struct!.enableSecureBoot),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_vtpm: {
-      value: cdktf.booleanToHclTerraform(struct!.enableVtpm),
+      value: cdktn.booleanToHclTerraform(struct!.enableVtpm),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1859,14 +1859,14 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceShieldedInstan
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1904,11 +1904,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceC
   }
 
   // enable_integrity_monitoring - computed: false, optional: true, required: false
-  private _enableIntegrityMonitoring?: boolean | cdktf.IResolvable; 
+  private _enableIntegrityMonitoring?: boolean | cdktn.IResolvable; 
   public get enableIntegrityMonitoring() {
     return this.getBooleanAttribute('enable_integrity_monitoring');
   }
-  public set enableIntegrityMonitoring(value: boolean | cdktf.IResolvable) {
+  public set enableIntegrityMonitoring(value: boolean | cdktn.IResolvable) {
     this._enableIntegrityMonitoring = value;
   }
   public resetEnableIntegrityMonitoring() {
@@ -1920,11 +1920,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceC
   }
 
   // enable_secure_boot - computed: false, optional: true, required: false
-  private _enableSecureBoot?: boolean | cdktf.IResolvable; 
+  private _enableSecureBoot?: boolean | cdktn.IResolvable; 
   public get enableSecureBoot() {
     return this.getBooleanAttribute('enable_secure_boot');
   }
-  public set enableSecureBoot(value: boolean | cdktf.IResolvable) {
+  public set enableSecureBoot(value: boolean | cdktn.IResolvable) {
     this._enableSecureBoot = value;
   }
   public resetEnableSecureBoot() {
@@ -1936,11 +1936,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceC
   }
 
   // enable_vtpm - computed: false, optional: true, required: false
-  private _enableVtpm?: boolean | cdktf.IResolvable; 
+  private _enableVtpm?: boolean | cdktn.IResolvable; 
   public get enableVtpm() {
     return this.getBooleanAttribute('enable_vtpm');
   }
-  public set enableVtpm(value: boolean | cdktf.IResolvable) {
+  public set enableVtpm(value: boolean | cdktn.IResolvable) {
     this._enableVtpm = value;
   }
   public resetEnableVtpm() {
@@ -1963,13 +1963,13 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstance {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#disable_public_ip_addresses GoogleWorkstationsWorkstationConfigA#disable_public_ip_addresses}
   */
-  readonly disablePublicIpAddresses?: boolean | cdktf.IResolvable;
+  readonly disablePublicIpAddresses?: boolean | cdktn.IResolvable;
   /**
   * Whether to disable SSH access to the VM.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#disable_ssh GoogleWorkstationsWorkstationConfigA#disable_ssh}
   */
-  readonly disableSsh?: boolean | cdktf.IResolvable;
+  readonly disableSsh?: boolean | cdktn.IResolvable;
   /**
   * Whether to enable nested virtualization on the Compute Engine VMs backing the Workstations.
   * 
@@ -1977,7 +1977,7 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstance {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#enable_nested_virtualization GoogleWorkstationsWorkstationConfigA#enable_nested_virtualization}
   */
-  readonly enableNestedVirtualization?: boolean | cdktf.IResolvable;
+  readonly enableNestedVirtualization?: boolean | cdktn.IResolvable;
   /**
   * The name of a Compute Engine machine type.
   *
@@ -2023,13 +2023,13 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstance {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#accelerators GoogleWorkstationsWorkstationConfigA#accelerators}
   */
-  readonly accelerators?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktn.IResolvable;
   /**
   * boost_configs block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#boost_configs GoogleWorkstationsWorkstationConfigA#boost_configs}
   */
-  readonly boostConfigs?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktf.IResolvable;
+  readonly boostConfigs?: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktn.IResolvable;
   /**
   * confidential_instance_config block
   *
@@ -2045,23 +2045,23 @@ export interface GoogleWorkstationsWorkstationConfigHostGceInstance {
 }
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    boot_disk_size_gb: cdktf.numberToTerraform(struct!.bootDiskSizeGb),
-    disable_public_ip_addresses: cdktf.booleanToTerraform(struct!.disablePublicIpAddresses),
-    disable_ssh: cdktf.booleanToTerraform(struct!.disableSsh),
-    enable_nested_virtualization: cdktf.booleanToTerraform(struct!.enableNestedVirtualization),
-    machine_type: cdktf.stringToTerraform(struct!.machineType),
-    pool_size: cdktf.numberToTerraform(struct!.poolSize),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
-    service_account_scopes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.serviceAccountScopes),
-    tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.tags),
-    vm_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.vmTags),
-    accelerators: cdktf.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToTerraform, true)(struct!.accelerators),
-    boost_configs: cdktf.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToTerraform, true)(struct!.boostConfigs),
+    boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
+    disable_public_ip_addresses: cdktn.booleanToTerraform(struct!.disablePublicIpAddresses),
+    disable_ssh: cdktn.booleanToTerraform(struct!.disableSsh),
+    enable_nested_virtualization: cdktn.booleanToTerraform(struct!.enableNestedVirtualization),
+    machine_type: cdktn.stringToTerraform(struct!.machineType),
+    pool_size: cdktn.numberToTerraform(struct!.poolSize),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+    service_account_scopes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.serviceAccountScopes),
+    tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.tags),
+    vm_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.vmTags),
+    accelerators: cdktn.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToTerraform, true)(struct!.accelerators),
+    boost_configs: cdktn.listMapper(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToTerraform, true)(struct!.boostConfigs),
     confidential_instance_config: googleWorkstationsWorkstationConfigHostGceInstanceConfidentialInstanceConfigToTerraform(struct!.confidentialInstanceConfig),
     shielded_instance_config: googleWorkstationsWorkstationConfigHostGceInstanceShieldedInstanceConfigToTerraform(struct!.shieldedInstanceConfig),
   }
@@ -2069,79 +2069,79 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceToTerraform(st
 
 
 export function googleWorkstationsWorkstationConfigHostGceInstanceToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference | GoogleWorkstationsWorkstationConfigHostGceInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     boot_disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.bootDiskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     disable_public_ip_addresses: {
-      value: cdktf.booleanToHclTerraform(struct!.disablePublicIpAddresses),
+      value: cdktn.booleanToHclTerraform(struct!.disablePublicIpAddresses),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     disable_ssh: {
-      value: cdktf.booleanToHclTerraform(struct!.disableSsh),
+      value: cdktn.booleanToHclTerraform(struct!.disableSsh),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_nested_virtualization: {
-      value: cdktf.booleanToHclTerraform(struct!.enableNestedVirtualization),
+      value: cdktn.booleanToHclTerraform(struct!.enableNestedVirtualization),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     machine_type: {
-      value: cdktf.stringToHclTerraform(struct!.machineType),
+      value: cdktn.stringToHclTerraform(struct!.machineType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pool_size: {
-      value: cdktf.numberToHclTerraform(struct!.poolSize),
+      value: cdktn.numberToHclTerraform(struct!.poolSize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_scopes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.serviceAccountScopes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.serviceAccountScopes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.tags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.tags),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     vm_tags: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.vmTags),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.vmTags),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     accelerators: {
-      value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsToHclTerraform, true)(struct!.accelerators),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleWorkstationsWorkstationConfigHostGceInstanceAcceleratorsList",
     },
     boost_configs: {
-      value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToHclTerraform, true)(struct!.boostConfigs),
+      value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsToHclTerraform, true)(struct!.boostConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigsList",
@@ -2164,14 +2164,14 @@ export function googleWorkstationsWorkstationConfigHostGceInstanceToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2291,11 +2291,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference e
   }
 
   // disable_public_ip_addresses - computed: false, optional: true, required: false
-  private _disablePublicIpAddresses?: boolean | cdktf.IResolvable; 
+  private _disablePublicIpAddresses?: boolean | cdktn.IResolvable; 
   public get disablePublicIpAddresses() {
     return this.getBooleanAttribute('disable_public_ip_addresses');
   }
-  public set disablePublicIpAddresses(value: boolean | cdktf.IResolvable) {
+  public set disablePublicIpAddresses(value: boolean | cdktn.IResolvable) {
     this._disablePublicIpAddresses = value;
   }
   public resetDisablePublicIpAddresses() {
@@ -2307,11 +2307,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference e
   }
 
   // disable_ssh - computed: false, optional: true, required: false
-  private _disableSsh?: boolean | cdktf.IResolvable; 
+  private _disableSsh?: boolean | cdktn.IResolvable; 
   public get disableSsh() {
     return this.getBooleanAttribute('disable_ssh');
   }
-  public set disableSsh(value: boolean | cdktf.IResolvable) {
+  public set disableSsh(value: boolean | cdktn.IResolvable) {
     this._disableSsh = value;
   }
   public resetDisableSsh() {
@@ -2323,11 +2323,11 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference e
   }
 
   // enable_nested_virtualization - computed: false, optional: true, required: false
-  private _enableNestedVirtualization?: boolean | cdktf.IResolvable; 
+  private _enableNestedVirtualization?: boolean | cdktn.IResolvable; 
   public get enableNestedVirtualization() {
     return this.getBooleanAttribute('enable_nested_virtualization');
   }
-  public set enableNestedVirtualization(value: boolean | cdktf.IResolvable) {
+  public set enableNestedVirtualization(value: boolean | cdktn.IResolvable) {
     this._enableNestedVirtualization = value;
   }
   public resetEnableNestedVirtualization() {
@@ -2439,7 +2439,7 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference e
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleWorkstationsWorkstationConfigHostGceInstanceAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -2455,7 +2455,7 @@ export class GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference e
   public get boostConfigs() {
     return this._boostConfigs;
   }
-  public putBoostConfigs(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktf.IResolvable) {
+  public putBoostConfigs(value: GoogleWorkstationsWorkstationConfigHostGceInstanceBoostConfigs[] | cdktn.IResolvable) {
     this._boostConfigs.internalValue = value;
   }
   public resetBoostConfigs() {
@@ -2508,8 +2508,8 @@ export interface GoogleWorkstationsWorkstationConfigHost {
 }
 
 export function googleWorkstationsWorkstationConfigHostToTerraform(struct?: GoogleWorkstationsWorkstationConfigHostOutputReference | GoogleWorkstationsWorkstationConfigHost): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2519,8 +2519,8 @@ export function googleWorkstationsWorkstationConfigHostToTerraform(struct?: Goog
 
 
 export function googleWorkstationsWorkstationConfigHostToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigHostOutputReference | GoogleWorkstationsWorkstationConfigHost): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2536,14 +2536,14 @@ export function googleWorkstationsWorkstationConfigHostToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigHostOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigHostOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2619,52 +2619,52 @@ export interface GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd {
 }
 
 export function googleWorkstationsWorkstationConfigPersistentDirectoriesGcePdToTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference | GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    disk_type: cdktf.stringToTerraform(struct!.diskType),
-    fs_type: cdktf.stringToTerraform(struct!.fsType),
-    reclaim_policy: cdktf.stringToTerraform(struct!.reclaimPolicy),
-    size_gb: cdktf.numberToTerraform(struct!.sizeGb),
-    source_snapshot: cdktf.stringToTerraform(struct!.sourceSnapshot),
+    disk_type: cdktn.stringToTerraform(struct!.diskType),
+    fs_type: cdktn.stringToTerraform(struct!.fsType),
+    reclaim_policy: cdktn.stringToTerraform(struct!.reclaimPolicy),
+    size_gb: cdktn.numberToTerraform(struct!.sizeGb),
+    source_snapshot: cdktn.stringToTerraform(struct!.sourceSnapshot),
   }
 }
 
 
 export function googleWorkstationsWorkstationConfigPersistentDirectoriesGcePdToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference | GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.diskType),
+      value: cdktn.stringToHclTerraform(struct!.diskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fs_type: {
-      value: cdktf.stringToHclTerraform(struct!.fsType),
+      value: cdktn.stringToHclTerraform(struct!.fsType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     reclaim_policy: {
-      value: cdktf.stringToHclTerraform(struct!.reclaimPolicy),
+      value: cdktn.stringToHclTerraform(struct!.reclaimPolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.sizeGb),
+      value: cdktn.numberToHclTerraform(struct!.sizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     source_snapshot: {
-      value: cdktf.stringToHclTerraform(struct!.sourceSnapshot),
+      value: cdktn.stringToHclTerraform(struct!.sourceSnapshot),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2675,14 +2675,14 @@ export function googleWorkstationsWorkstationConfigPersistentDirectoriesGcePdToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2826,26 +2826,26 @@ export interface GoogleWorkstationsWorkstationConfigPersistentDirectories {
   readonly gcePd?: GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd;
 }
 
-export function googleWorkstationsWorkstationConfigPersistentDirectoriesToTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigPersistentDirectoriesToTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
     gce_pd: googleWorkstationsWorkstationConfigPersistentDirectoriesGcePdToTerraform(struct!.gcePd),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigPersistentDirectoriesToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigPersistentDirectoriesToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mount_path: {
-      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2862,9 +2862,9 @@ export function googleWorkstationsWorkstationConfigPersistentDirectoriesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2872,11 +2872,11 @@ export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputRefer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2893,14 +2893,14 @@ export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputRefer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigPersistentDirectories | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._mountPath = undefined;
       this._gcePd.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2945,15 +2945,15 @@ export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputRefer
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigPersistentDirectoriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2979,32 +2979,32 @@ export interface GoogleWorkstationsWorkstationConfigReadinessChecks {
   readonly port: number;
 }
 
-export function googleWorkstationsWorkstationConfigReadinessChecksToTerraform(struct?: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigReadinessChecksToTerraform(struct?: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    path: cdktf.stringToTerraform(struct!.path),
-    port: cdktf.numberToTerraform(struct!.port),
+    path: cdktn.stringToTerraform(struct!.path),
+    port: cdktn.numberToTerraform(struct!.port),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigReadinessChecksToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigReadinessChecksToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3015,9 +3015,9 @@ export function googleWorkstationsWorkstationConfigReadinessChecksToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigReadinessChecksOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigReadinessChecksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3025,11 +3025,11 @@ export class GoogleWorkstationsWorkstationConfigReadinessChecksOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigReadinessChecks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigReadinessChecks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3046,14 +3046,14 @@ export class GoogleWorkstationsWorkstationConfigReadinessChecksOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigReadinessChecks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._path = undefined;
       this._port = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3092,15 +3092,15 @@ export class GoogleWorkstationsWorkstationConfigReadinessChecksOutputReference e
   }
 }
 
-export class GoogleWorkstationsWorkstationConfigReadinessChecksList extends cdktf.ComplexList {
-  public internalValue? : GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktf.IResolvable
+export class GoogleWorkstationsWorkstationConfigReadinessChecksList extends cdktn.ComplexList {
+  public internalValue? : GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3126,39 +3126,39 @@ export interface GoogleWorkstationsWorkstationConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleWorkstationsWorkstationConfigTimeoutsToTerraform(struct?: GoogleWorkstationsWorkstationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigTimeoutsToTerraform(struct?: GoogleWorkstationsWorkstationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleWorkstationsWorkstationConfigTimeoutsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleWorkstationsWorkstationConfigTimeoutsToHclTerraform(struct?: GoogleWorkstationsWorkstationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3169,19 +3169,19 @@ export function googleWorkstationsWorkstationConfigTimeoutsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleWorkstationsWorkstationConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleWorkstationsWorkstationConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleWorkstationsWorkstationConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleWorkstationsWorkstationConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3202,7 +3202,7 @@ export class GoogleWorkstationsWorkstationConfigTimeoutsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleWorkstationsWorkstationConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleWorkstationsWorkstationConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3210,7 +3210,7 @@ export class GoogleWorkstationsWorkstationConfigTimeoutsOutputReference extends 
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3275,7 +3275,7 @@ export class GoogleWorkstationsWorkstationConfigTimeoutsOutputReference extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config google_workstations_workstation_config}
 */
-export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResource {
+export class GoogleWorkstationsWorkstationConfigA extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -3286,14 +3286,14 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleWorkstationsWorkstationConfigA resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleWorkstationsWorkstationConfigA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleWorkstationsWorkstationConfigA to import
   * @param importFromId The id of the existing GoogleWorkstationsWorkstationConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleWorkstationsWorkstationConfigA to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_workstations_workstation_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_workstations_workstation_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -3384,11 +3384,11 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   }
 
   // disable_tcp_connections - computed: false, optional: true, required: false
-  private _disableTcpConnections?: boolean | cdktf.IResolvable; 
+  private _disableTcpConnections?: boolean | cdktn.IResolvable; 
   public get disableTcpConnections() {
     return this.getBooleanAttribute('disable_tcp_connections');
   }
-  public set disableTcpConnections(value: boolean | cdktf.IResolvable) {
+  public set disableTcpConnections(value: boolean | cdktn.IResolvable) {
     this._disableTcpConnections = value;
   }
   public resetDisableTcpConnections() {
@@ -3416,23 +3416,23 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_audit_agent - computed: false, optional: true, required: false
-  private _enableAuditAgent?: boolean | cdktf.IResolvable; 
+  private _enableAuditAgent?: boolean | cdktn.IResolvable; 
   public get enableAuditAgent() {
     return this.getBooleanAttribute('enable_audit_agent');
   }
-  public set enableAuditAgent(value: boolean | cdktf.IResolvable) {
+  public set enableAuditAgent(value: boolean | cdktn.IResolvable) {
     this._enableAuditAgent = value;
   }
   public resetEnableAuditAgent() {
@@ -3579,7 +3579,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -3620,7 +3620,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   public get allowedPorts() {
     return this._allowedPorts;
   }
-  public putAllowedPorts(value: GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktf.IResolvable) {
+  public putAllowedPorts(value: GoogleWorkstationsWorkstationConfigAllowedPorts[] | cdktn.IResolvable) {
     this._allowedPorts.internalValue = value;
   }
   public resetAllowedPorts() {
@@ -3668,7 +3668,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   public get ephemeralDirectories() {
     return this._ephemeralDirectories;
   }
-  public putEphemeralDirectories(value: GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktf.IResolvable) {
+  public putEphemeralDirectories(value: GoogleWorkstationsWorkstationConfigEphemeralDirectories[] | cdktn.IResolvable) {
     this._ephemeralDirectories.internalValue = value;
   }
   public resetEphemeralDirectories() {
@@ -3700,7 +3700,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   public get persistentDirectories() {
     return this._persistentDirectories;
   }
-  public putPersistentDirectories(value: GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktf.IResolvable) {
+  public putPersistentDirectories(value: GoogleWorkstationsWorkstationConfigPersistentDirectories[] | cdktn.IResolvable) {
     this._persistentDirectories.internalValue = value;
   }
   public resetPersistentDirectories() {
@@ -3716,7 +3716,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   public get readinessChecks() {
     return this._readinessChecks;
   }
-  public putReadinessChecks(value: GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktf.IResolvable) {
+  public putReadinessChecks(value: GoogleWorkstationsWorkstationConfigReadinessChecks[] | cdktn.IResolvable) {
     this._readinessChecks.internalValue = value;
   }
   public resetReadinessChecks() {
@@ -3749,27 +3749,27 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      disable_tcp_connections: cdktf.booleanToTerraform(this._disableTcpConnections),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enable_audit_agent: cdktf.booleanToTerraform(this._enableAuditAgent),
-      id: cdktf.stringToTerraform(this._id),
-      idle_timeout: cdktf.stringToTerraform(this._idleTimeout),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      max_usable_workstations: cdktf.numberToTerraform(this._maxUsableWorkstations),
-      project: cdktf.stringToTerraform(this._project),
-      replica_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._replicaZones),
-      running_timeout: cdktf.stringToTerraform(this._runningTimeout),
-      workstation_cluster_id: cdktf.stringToTerraform(this._workstationClusterId),
-      workstation_config_id: cdktf.stringToTerraform(this._workstationConfigId),
-      allowed_ports: cdktf.listMapper(googleWorkstationsWorkstationConfigAllowedPortsToTerraform, true)(this._allowedPorts.internalValue),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      disable_tcp_connections: cdktn.booleanToTerraform(this._disableTcpConnections),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enable_audit_agent: cdktn.booleanToTerraform(this._enableAuditAgent),
+      id: cdktn.stringToTerraform(this._id),
+      idle_timeout: cdktn.stringToTerraform(this._idleTimeout),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      max_usable_workstations: cdktn.numberToTerraform(this._maxUsableWorkstations),
+      project: cdktn.stringToTerraform(this._project),
+      replica_zones: cdktn.listMapper(cdktn.stringToTerraform, false)(this._replicaZones),
+      running_timeout: cdktn.stringToTerraform(this._runningTimeout),
+      workstation_cluster_id: cdktn.stringToTerraform(this._workstationClusterId),
+      workstation_config_id: cdktn.stringToTerraform(this._workstationConfigId),
+      allowed_ports: cdktn.listMapper(googleWorkstationsWorkstationConfigAllowedPortsToTerraform, true)(this._allowedPorts.internalValue),
       container: googleWorkstationsWorkstationConfigContainerToTerraform(this._container.internalValue),
       encryption_key: googleWorkstationsWorkstationConfigEncryptionKeyToTerraform(this._encryptionKey.internalValue),
-      ephemeral_directories: cdktf.listMapper(googleWorkstationsWorkstationConfigEphemeralDirectoriesToTerraform, true)(this._ephemeralDirectories.internalValue),
+      ephemeral_directories: cdktn.listMapper(googleWorkstationsWorkstationConfigEphemeralDirectoriesToTerraform, true)(this._ephemeralDirectories.internalValue),
       host: googleWorkstationsWorkstationConfigHostToTerraform(this._host.internalValue),
-      persistent_directories: cdktf.listMapper(googleWorkstationsWorkstationConfigPersistentDirectoriesToTerraform, true)(this._persistentDirectories.internalValue),
-      readiness_checks: cdktf.listMapper(googleWorkstationsWorkstationConfigReadinessChecksToTerraform, true)(this._readinessChecks.internalValue),
+      persistent_directories: cdktn.listMapper(googleWorkstationsWorkstationConfigPersistentDirectoriesToTerraform, true)(this._persistentDirectories.internalValue),
+      readiness_checks: cdktn.listMapper(googleWorkstationsWorkstationConfigReadinessChecksToTerraform, true)(this._readinessChecks.internalValue),
       timeouts: googleWorkstationsWorkstationConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -3777,91 +3777,91 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       disable_tcp_connections: {
-        value: cdktf.booleanToHclTerraform(this._disableTcpConnections),
+        value: cdktn.booleanToHclTerraform(this._disableTcpConnections),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_audit_agent: {
-        value: cdktf.booleanToHclTerraform(this._enableAuditAgent),
+        value: cdktn.booleanToHclTerraform(this._enableAuditAgent),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       idle_timeout: {
-        value: cdktf.stringToHclTerraform(this._idleTimeout),
+        value: cdktn.stringToHclTerraform(this._idleTimeout),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       max_usable_workstations: {
-        value: cdktf.numberToHclTerraform(this._maxUsableWorkstations),
+        value: cdktn.numberToHclTerraform(this._maxUsableWorkstations),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       replica_zones: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._replicaZones),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._replicaZones),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       running_timeout: {
-        value: cdktf.stringToHclTerraform(this._runningTimeout),
+        value: cdktn.stringToHclTerraform(this._runningTimeout),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workstation_cluster_id: {
-        value: cdktf.stringToHclTerraform(this._workstationClusterId),
+        value: cdktn.stringToHclTerraform(this._workstationClusterId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workstation_config_id: {
-        value: cdktf.stringToHclTerraform(this._workstationConfigId),
+        value: cdktn.stringToHclTerraform(this._workstationConfigId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       allowed_ports: {
-        value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigAllowedPortsToHclTerraform, true)(this._allowedPorts.internalValue),
+        value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigAllowedPortsToHclTerraform, true)(this._allowedPorts.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleWorkstationsWorkstationConfigAllowedPortsList",
@@ -3879,7 +3879,7 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
         storageClassType: "GoogleWorkstationsWorkstationConfigEncryptionKeyList",
       },
       ephemeral_directories: {
-        value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigEphemeralDirectoriesToHclTerraform, true)(this._ephemeralDirectories.internalValue),
+        value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigEphemeralDirectoriesToHclTerraform, true)(this._ephemeralDirectories.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList",
@@ -3891,13 +3891,13 @@ export class GoogleWorkstationsWorkstationConfigA extends cdktf.TerraformResourc
         storageClassType: "GoogleWorkstationsWorkstationConfigHostList",
       },
       persistent_directories: {
-        value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigPersistentDirectoriesToHclTerraform, true)(this._persistentDirectories.internalValue),
+        value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigPersistentDirectoriesToHclTerraform, true)(this._persistentDirectories.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleWorkstationsWorkstationConfigPersistentDirectoriesList",
       },
       readiness_checks: {
-        value: cdktf.listMapperHcl(googleWorkstationsWorkstationConfigReadinessChecksToHclTerraform, true)(this._readinessChecks.internalValue),
+        value: cdktn.listMapperHcl(googleWorkstationsWorkstationConfigReadinessChecksToHclTerraform, true)(this._readinessChecks.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleWorkstationsWorkstationConfigReadinessChecksList",

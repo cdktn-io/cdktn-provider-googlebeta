@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBigtableMaterializedViewConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBigtableMaterializedViewConfig extends cdktn.TerraformMetaArguments {
   /**
   * Set to true to make the MaterializedView protected against deletion.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_materialized_view#deletion_protection GoogleBigtableMaterializedView#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_materialized_view#id GoogleBigtableMaterializedView#id}
   *
@@ -69,39 +69,39 @@ export interface GoogleBigtableMaterializedViewTimeouts {
   readonly update?: string;
 }
 
-export function googleBigtableMaterializedViewTimeoutsToTerraform(struct?: GoogleBigtableMaterializedViewTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableMaterializedViewTimeoutsToTerraform(struct?: GoogleBigtableMaterializedViewTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBigtableMaterializedViewTimeoutsToHclTerraform(struct?: GoogleBigtableMaterializedViewTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableMaterializedViewTimeoutsToHclTerraform(struct?: GoogleBigtableMaterializedViewTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -112,19 +112,19 @@ export function googleBigtableMaterializedViewTimeoutsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableMaterializedViewTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableMaterializedViewTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBigtableMaterializedViewTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigtableMaterializedViewTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -145,7 +145,7 @@ export class GoogleBigtableMaterializedViewTimeoutsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigtableMaterializedViewTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigtableMaterializedViewTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -153,7 +153,7 @@ export class GoogleBigtableMaterializedViewTimeoutsOutputReference extends cdktf
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -218,7 +218,7 @@ export class GoogleBigtableMaterializedViewTimeoutsOutputReference extends cdktf
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view}
 */
-export class GoogleBigtableMaterializedView extends cdktf.TerraformResource {
+export class GoogleBigtableMaterializedView extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -229,14 +229,14 @@ export class GoogleBigtableMaterializedView extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBigtableMaterializedView resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBigtableMaterializedView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBigtableMaterializedView to import
   * @param importFromId The id of the existing GoogleBigtableMaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_materialized_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBigtableMaterializedView to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_materialized_view", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_materialized_view", importId: importFromId, provider });
       }
 
   // ===========
@@ -280,11 +280,11 @@ export class GoogleBigtableMaterializedView extends cdktf.TerraformResource {
   // ==========
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -396,12 +396,12 @@ export class GoogleBigtableMaterializedView extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
-      instance: cdktf.stringToTerraform(this._instance),
-      materialized_view_id: cdktf.stringToTerraform(this._materializedViewId),
-      project: cdktf.stringToTerraform(this._project),
-      query: cdktf.stringToTerraform(this._query),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      id: cdktn.stringToTerraform(this._id),
+      instance: cdktn.stringToTerraform(this._instance),
+      materialized_view_id: cdktn.stringToTerraform(this._materializedViewId),
+      project: cdktn.stringToTerraform(this._project),
+      query: cdktn.stringToTerraform(this._query),
       timeouts: googleBigtableMaterializedViewTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -409,37 +409,37 @@ export class GoogleBigtableMaterializedView extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance: {
-        value: cdktf.stringToHclTerraform(this._instance),
+        value: cdktn.stringToHclTerraform(this._instance),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       materialized_view_id: {
-        value: cdktf.stringToHclTerraform(this._materializedViewId),
+        value: cdktn.stringToHclTerraform(this._materializedViewId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       query: {
-        value: cdktf.stringToHclTerraform(this._query),
+        value: cdktn.stringToHclTerraform(this._query),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

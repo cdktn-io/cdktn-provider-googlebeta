@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSqlDatabaseInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSqlDatabaseInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The MySQL, PostgreSQL or SQL Server (beta) version to use. Supported values include MYSQL_5_6, MYSQL_5_7, MYSQL_8_0, MYSQL_8_4, POSTGRES_9_6, POSTGRES_10, POSTGRES_11, POSTGRES_12, POSTGRES_13, POSTGRES_14, POSTGRES_15, POSTGRES_16, POSTGRES_17, SQLSERVER_2017_STANDARD, SQLSERVER_2017_ENTERPRISE, SQLSERVER_2017_EXPRESS, SQLSERVER_2017_WEB. Database Version Policies includes an up-to-date reference of supported versions.
   *
@@ -23,7 +23,7 @@ export interface GoogleSqlDatabaseInstanceConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection GoogleSqlDatabaseInstance#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}
   */
@@ -130,8 +130,8 @@ export interface GoogleSqlDatabaseInstanceDnsNames {
 }
 
 export function googleSqlDatabaseInstanceDnsNamesToTerraform(struct?: GoogleSqlDatabaseInstanceDnsNames): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -140,8 +140,8 @@ export function googleSqlDatabaseInstanceDnsNamesToTerraform(struct?: GoogleSqlD
 
 
 export function googleSqlDatabaseInstanceDnsNamesToHclTerraform(struct?: GoogleSqlDatabaseInstanceDnsNames): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -149,7 +149,7 @@ export function googleSqlDatabaseInstanceDnsNamesToHclTerraform(struct?: GoogleS
   return attrs;
 }
 
-export class GoogleSqlDatabaseInstanceDnsNamesOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceDnsNamesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -158,7 +158,7 @@ export class GoogleSqlDatabaseInstanceDnsNamesOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -193,14 +193,14 @@ export class GoogleSqlDatabaseInstanceDnsNamesOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleSqlDatabaseInstanceDnsNamesList extends cdktf.ComplexList {
+export class GoogleSqlDatabaseInstanceDnsNamesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -215,8 +215,8 @@ export interface GoogleSqlDatabaseInstanceIpAddress {
 }
 
 export function googleSqlDatabaseInstanceIpAddressToTerraform(struct?: GoogleSqlDatabaseInstanceIpAddress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -225,8 +225,8 @@ export function googleSqlDatabaseInstanceIpAddressToTerraform(struct?: GoogleSql
 
 
 export function googleSqlDatabaseInstanceIpAddressToHclTerraform(struct?: GoogleSqlDatabaseInstanceIpAddress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -234,7 +234,7 @@ export function googleSqlDatabaseInstanceIpAddressToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleSqlDatabaseInstanceIpAddressOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceIpAddressOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -243,7 +243,7 @@ export class GoogleSqlDatabaseInstanceIpAddressOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -278,14 +278,14 @@ export class GoogleSqlDatabaseInstanceIpAddressOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleSqlDatabaseInstanceIpAddressList extends cdktf.ComplexList {
+export class GoogleSqlDatabaseInstanceIpAddressList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -300,8 +300,8 @@ export interface GoogleSqlDatabaseInstanceServerCaCert {
 }
 
 export function googleSqlDatabaseInstanceServerCaCertToTerraform(struct?: GoogleSqlDatabaseInstanceServerCaCert): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -310,8 +310,8 @@ export function googleSqlDatabaseInstanceServerCaCertToTerraform(struct?: Google
 
 
 export function googleSqlDatabaseInstanceServerCaCertToHclTerraform(struct?: GoogleSqlDatabaseInstanceServerCaCert): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -319,7 +319,7 @@ export function googleSqlDatabaseInstanceServerCaCertToHclTerraform(struct?: Goo
   return attrs;
 }
 
-export class GoogleSqlDatabaseInstanceServerCaCertOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceServerCaCertOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -328,7 +328,7 @@ export class GoogleSqlDatabaseInstanceServerCaCertOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -373,14 +373,14 @@ export class GoogleSqlDatabaseInstanceServerCaCertOutputReference extends cdktf.
   }
 }
 
-export class GoogleSqlDatabaseInstanceServerCaCertList extends cdktf.ComplexList {
+export class GoogleSqlDatabaseInstanceServerCaCertList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -425,52 +425,52 @@ export interface GoogleSqlDatabaseInstanceClone {
 }
 
 export function googleSqlDatabaseInstanceCloneToTerraform(struct?: GoogleSqlDatabaseInstanceCloneOutputReference | GoogleSqlDatabaseInstanceClone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allocated_ip_range: cdktf.stringToTerraform(struct!.allocatedIpRange),
-    database_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.databaseNames),
-    point_in_time: cdktf.stringToTerraform(struct!.pointInTime),
-    preferred_zone: cdktf.stringToTerraform(struct!.preferredZone),
-    source_instance_name: cdktf.stringToTerraform(struct!.sourceInstanceName),
+    allocated_ip_range: cdktn.stringToTerraform(struct!.allocatedIpRange),
+    database_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.databaseNames),
+    point_in_time: cdktn.stringToTerraform(struct!.pointInTime),
+    preferred_zone: cdktn.stringToTerraform(struct!.preferredZone),
+    source_instance_name: cdktn.stringToTerraform(struct!.sourceInstanceName),
   }
 }
 
 
 export function googleSqlDatabaseInstanceCloneToHclTerraform(struct?: GoogleSqlDatabaseInstanceCloneOutputReference | GoogleSqlDatabaseInstanceClone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allocated_ip_range: {
-      value: cdktf.stringToHclTerraform(struct!.allocatedIpRange),
+      value: cdktn.stringToHclTerraform(struct!.allocatedIpRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     database_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.databaseNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.databaseNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     point_in_time: {
-      value: cdktf.stringToHclTerraform(struct!.pointInTime),
+      value: cdktn.stringToHclTerraform(struct!.pointInTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     preferred_zone: {
-      value: cdktf.stringToHclTerraform(struct!.preferredZone),
+      value: cdktn.stringToHclTerraform(struct!.preferredZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_instance_name: {
-      value: cdktf.stringToHclTerraform(struct!.sourceInstanceName),
+      value: cdktn.stringToHclTerraform(struct!.sourceInstanceName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -481,14 +481,14 @@ export function googleSqlDatabaseInstanceCloneToHclTerraform(struct?: GoogleSqlD
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceCloneOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceCloneOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -626,7 +626,7 @@ export interface GoogleSqlDatabaseInstanceReplicaConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#cascadable_replica GoogleSqlDatabaseInstance#cascadable_replica}
   */
-  readonly cascadableReplica?: boolean | cdktf.IResolvable;
+  readonly cascadableReplica?: boolean | cdktn.IResolvable;
   /**
   * PEM representation of the replica's x509 certificate.
   *
@@ -656,7 +656,7 @@ export interface GoogleSqlDatabaseInstanceReplicaConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#failover_target GoogleSqlDatabaseInstance#failover_target}
   */
-  readonly failoverTarget?: boolean | cdktf.IResolvable;
+  readonly failoverTarget?: boolean | cdktn.IResolvable;
   /**
   * Time in ms between replication heartbeats.
   *
@@ -686,105 +686,105 @@ export interface GoogleSqlDatabaseInstanceReplicaConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#verify_server_certificate GoogleSqlDatabaseInstance#verify_server_certificate}
   */
-  readonly verifyServerCertificate?: boolean | cdktf.IResolvable;
+  readonly verifyServerCertificate?: boolean | cdktn.IResolvable;
 }
 
 export function googleSqlDatabaseInstanceReplicaConfigurationToTerraform(struct?: GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference | GoogleSqlDatabaseInstanceReplicaConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ca_certificate: cdktf.stringToTerraform(struct!.caCertificate),
-    cascadable_replica: cdktf.booleanToTerraform(struct!.cascadableReplica),
-    client_certificate: cdktf.stringToTerraform(struct!.clientCertificate),
-    client_key: cdktf.stringToTerraform(struct!.clientKey),
-    connect_retry_interval: cdktf.numberToTerraform(struct!.connectRetryInterval),
-    dump_file_path: cdktf.stringToTerraform(struct!.dumpFilePath),
-    failover_target: cdktf.booleanToTerraform(struct!.failoverTarget),
-    master_heartbeat_period: cdktf.numberToTerraform(struct!.masterHeartbeatPeriod),
-    password: cdktf.stringToTerraform(struct!.password),
-    ssl_cipher: cdktf.stringToTerraform(struct!.sslCipher),
-    username: cdktf.stringToTerraform(struct!.username),
-    verify_server_certificate: cdktf.booleanToTerraform(struct!.verifyServerCertificate),
+    ca_certificate: cdktn.stringToTerraform(struct!.caCertificate),
+    cascadable_replica: cdktn.booleanToTerraform(struct!.cascadableReplica),
+    client_certificate: cdktn.stringToTerraform(struct!.clientCertificate),
+    client_key: cdktn.stringToTerraform(struct!.clientKey),
+    connect_retry_interval: cdktn.numberToTerraform(struct!.connectRetryInterval),
+    dump_file_path: cdktn.stringToTerraform(struct!.dumpFilePath),
+    failover_target: cdktn.booleanToTerraform(struct!.failoverTarget),
+    master_heartbeat_period: cdktn.numberToTerraform(struct!.masterHeartbeatPeriod),
+    password: cdktn.stringToTerraform(struct!.password),
+    ssl_cipher: cdktn.stringToTerraform(struct!.sslCipher),
+    username: cdktn.stringToTerraform(struct!.username),
+    verify_server_certificate: cdktn.booleanToTerraform(struct!.verifyServerCertificate),
   }
 }
 
 
 export function googleSqlDatabaseInstanceReplicaConfigurationToHclTerraform(struct?: GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference | GoogleSqlDatabaseInstanceReplicaConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ca_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.caCertificate),
+      value: cdktn.stringToHclTerraform(struct!.caCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cascadable_replica: {
-      value: cdktf.booleanToHclTerraform(struct!.cascadableReplica),
+      value: cdktn.booleanToHclTerraform(struct!.cascadableReplica),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     client_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.clientCertificate),
+      value: cdktn.stringToHclTerraform(struct!.clientCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     client_key: {
-      value: cdktf.stringToHclTerraform(struct!.clientKey),
+      value: cdktn.stringToHclTerraform(struct!.clientKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     connect_retry_interval: {
-      value: cdktf.numberToHclTerraform(struct!.connectRetryInterval),
+      value: cdktn.numberToHclTerraform(struct!.connectRetryInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     dump_file_path: {
-      value: cdktf.stringToHclTerraform(struct!.dumpFilePath),
+      value: cdktn.stringToHclTerraform(struct!.dumpFilePath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     failover_target: {
-      value: cdktf.booleanToHclTerraform(struct!.failoverTarget),
+      value: cdktn.booleanToHclTerraform(struct!.failoverTarget),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     master_heartbeat_period: {
-      value: cdktf.numberToHclTerraform(struct!.masterHeartbeatPeriod),
+      value: cdktn.numberToHclTerraform(struct!.masterHeartbeatPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
+      value: cdktn.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_cipher: {
-      value: cdktf.stringToHclTerraform(struct!.sslCipher),
+      value: cdktn.stringToHclTerraform(struct!.sslCipher),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     verify_server_certificate: {
-      value: cdktf.booleanToHclTerraform(struct!.verifyServerCertificate),
+      value: cdktn.booleanToHclTerraform(struct!.verifyServerCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -795,14 +795,14 @@ export function googleSqlDatabaseInstanceReplicaConfigurationToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -910,11 +910,11 @@ export class GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference extend
   }
 
   // cascadable_replica - computed: false, optional: true, required: false
-  private _cascadableReplica?: boolean | cdktf.IResolvable; 
+  private _cascadableReplica?: boolean | cdktn.IResolvable; 
   public get cascadableReplica() {
     return this.getBooleanAttribute('cascadable_replica');
   }
-  public set cascadableReplica(value: boolean | cdktf.IResolvable) {
+  public set cascadableReplica(value: boolean | cdktn.IResolvable) {
     this._cascadableReplica = value;
   }
   public resetCascadableReplica() {
@@ -990,11 +990,11 @@ export class GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference extend
   }
 
   // failover_target - computed: false, optional: true, required: false
-  private _failoverTarget?: boolean | cdktf.IResolvable; 
+  private _failoverTarget?: boolean | cdktn.IResolvable; 
   public get failoverTarget() {
     return this.getBooleanAttribute('failover_target');
   }
-  public set failoverTarget(value: boolean | cdktf.IResolvable) {
+  public set failoverTarget(value: boolean | cdktn.IResolvable) {
     this._failoverTarget = value;
   }
   public resetFailoverTarget() {
@@ -1070,11 +1070,11 @@ export class GoogleSqlDatabaseInstanceReplicaConfigurationOutputReference extend
   }
 
   // verify_server_certificate - computed: false, optional: true, required: false
-  private _verifyServerCertificate?: boolean | cdktf.IResolvable; 
+  private _verifyServerCertificate?: boolean | cdktn.IResolvable; 
   public get verifyServerCertificate() {
     return this.getBooleanAttribute('verify_server_certificate');
   }
-  public set verifyServerCertificate(value: boolean | cdktf.IResolvable) {
+  public set verifyServerCertificate(value: boolean | cdktn.IResolvable) {
     this._verifyServerCertificate = value;
   }
   public resetVerifyServerCertificate() {
@@ -1101,31 +1101,31 @@ export interface GoogleSqlDatabaseInstanceReplicationCluster {
 }
 
 export function googleSqlDatabaseInstanceReplicationClusterToTerraform(struct?: GoogleSqlDatabaseInstanceReplicationClusterOutputReference | GoogleSqlDatabaseInstanceReplicationCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    failover_dr_replica_name: cdktf.stringToTerraform(struct!.failoverDrReplicaName),
-    psa_write_endpoint: cdktf.stringToTerraform(struct!.psaWriteEndpoint),
+    failover_dr_replica_name: cdktn.stringToTerraform(struct!.failoverDrReplicaName),
+    psa_write_endpoint: cdktn.stringToTerraform(struct!.psaWriteEndpoint),
   }
 }
 
 
 export function googleSqlDatabaseInstanceReplicationClusterToHclTerraform(struct?: GoogleSqlDatabaseInstanceReplicationClusterOutputReference | GoogleSqlDatabaseInstanceReplicationCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     failover_dr_replica_name: {
-      value: cdktf.stringToHclTerraform(struct!.failoverDrReplicaName),
+      value: cdktn.stringToHclTerraform(struct!.failoverDrReplicaName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     psa_write_endpoint: {
-      value: cdktf.stringToHclTerraform(struct!.psaWriteEndpoint),
+      value: cdktn.stringToHclTerraform(struct!.psaWriteEndpoint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1136,14 +1136,14 @@ export function googleSqlDatabaseInstanceReplicationClusterToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceReplicationClusterOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceReplicationClusterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1233,38 +1233,38 @@ export interface GoogleSqlDatabaseInstanceRestoreBackupContext {
 }
 
 export function googleSqlDatabaseInstanceRestoreBackupContextToTerraform(struct?: GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference | GoogleSqlDatabaseInstanceRestoreBackupContext): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backup_run_id: cdktf.numberToTerraform(struct!.backupRunId),
-    instance_id: cdktf.stringToTerraform(struct!.instanceId),
-    project: cdktf.stringToTerraform(struct!.project),
+    backup_run_id: cdktn.numberToTerraform(struct!.backupRunId),
+    instance_id: cdktn.stringToTerraform(struct!.instanceId),
+    project: cdktn.stringToTerraform(struct!.project),
   }
 }
 
 
 export function googleSqlDatabaseInstanceRestoreBackupContextToHclTerraform(struct?: GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference | GoogleSqlDatabaseInstanceRestoreBackupContext): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backup_run_id: {
-      value: cdktf.numberToHclTerraform(struct!.backupRunId),
+      value: cdktn.numberToHclTerraform(struct!.backupRunId),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     instance_id: {
-      value: cdktf.stringToHclTerraform(struct!.instanceId),
+      value: cdktn.stringToHclTerraform(struct!.instanceId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project: {
-      value: cdktf.stringToHclTerraform(struct!.project),
+      value: cdktn.stringToHclTerraform(struct!.project),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1275,14 +1275,14 @@ export function googleSqlDatabaseInstanceRestoreBackupContextToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1374,24 +1374,24 @@ export interface GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig {
 }
 
 export function googleSqlDatabaseInstanceSettingsActiveDirectoryConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference | GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    domain: cdktf.stringToTerraform(struct!.domain),
+    domain: cdktn.stringToTerraform(struct!.domain),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsActiveDirectoryConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference | GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     domain: {
-      value: cdktf.stringToHclTerraform(struct!.domain),
+      value: cdktn.stringToHclTerraform(struct!.domain),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1402,14 +1402,14 @@ export function googleSqlDatabaseInstanceSettingsActiveDirectoryConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1457,24 +1457,24 @@ export interface GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures {
 }
 
 export function googleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference | GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    threads_per_core: cdktf.numberToTerraform(struct!.threadsPerCore),
+    threads_per_core: cdktn.numberToTerraform(struct!.threadsPerCore),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference | GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     threads_per_core: {
-      value: cdktf.numberToHclTerraform(struct!.threadsPerCore),
+      value: cdktn.numberToHclTerraform(struct!.threadsPerCore),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1485,14 +1485,14 @@ export function googleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1549,31 +1549,31 @@ export interface GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupReten
 }
 
 export function googleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference | GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    retained_backups: cdktf.numberToTerraform(struct!.retainedBackups),
-    retention_unit: cdktf.stringToTerraform(struct!.retentionUnit),
+    retained_backups: cdktn.numberToTerraform(struct!.retainedBackups),
+    retention_unit: cdktn.stringToTerraform(struct!.retentionUnit),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference | GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     retained_backups: {
-      value: cdktf.numberToHclTerraform(struct!.retainedBackups),
+      value: cdktn.numberToHclTerraform(struct!.retainedBackups),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     retention_unit: {
-      value: cdktf.stringToHclTerraform(struct!.retentionUnit),
+      value: cdktn.stringToHclTerraform(struct!.retentionUnit),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1584,14 +1584,14 @@ export function googleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetent
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1657,13 +1657,13 @@ export interface GoogleSqlDatabaseInstanceSettingsBackupConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#binary_log_enabled GoogleSqlDatabaseInstance#binary_log_enabled}
   */
-  readonly binaryLogEnabled?: boolean | cdktf.IResolvable;
+  readonly binaryLogEnabled?: boolean | cdktn.IResolvable;
   /**
   * True if backup configuration is enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Location of the backup configuration.
   *
@@ -1675,7 +1675,7 @@ export interface GoogleSqlDatabaseInstanceSettingsBackupConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#point_in_time_recovery_enabled GoogleSqlDatabaseInstance#point_in_time_recovery_enabled}
   */
-  readonly pointInTimeRecoveryEnabled?: boolean | cdktf.IResolvable;
+  readonly pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
   /**
   * HH:MM format time indicating when backup configuration starts.
   *
@@ -1697,60 +1697,60 @@ export interface GoogleSqlDatabaseInstanceSettingsBackupConfiguration {
 }
 
 export function googleSqlDatabaseInstanceSettingsBackupConfigurationToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference | GoogleSqlDatabaseInstanceSettingsBackupConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    binary_log_enabled: cdktf.booleanToTerraform(struct!.binaryLogEnabled),
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
-    location: cdktf.stringToTerraform(struct!.location),
-    point_in_time_recovery_enabled: cdktf.booleanToTerraform(struct!.pointInTimeRecoveryEnabled),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    transaction_log_retention_days: cdktf.numberToTerraform(struct!.transactionLogRetentionDays),
+    binary_log_enabled: cdktn.booleanToTerraform(struct!.binaryLogEnabled),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    location: cdktn.stringToTerraform(struct!.location),
+    point_in_time_recovery_enabled: cdktn.booleanToTerraform(struct!.pointInTimeRecoveryEnabled),
+    start_time: cdktn.stringToTerraform(struct!.startTime),
+    transaction_log_retention_days: cdktn.numberToTerraform(struct!.transactionLogRetentionDays),
     backup_retention_settings: googleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsToTerraform(struct!.backupRetentionSettings),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsBackupConfigurationToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference | GoogleSqlDatabaseInstanceSettingsBackupConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     binary_log_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.binaryLogEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.binaryLogEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     point_in_time_recovery_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.pointInTimeRecoveryEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.pointInTimeRecoveryEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
+      value: cdktn.stringToHclTerraform(struct!.startTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     transaction_log_retention_days: {
-      value: cdktf.numberToHclTerraform(struct!.transactionLogRetentionDays),
+      value: cdktn.numberToHclTerraform(struct!.transactionLogRetentionDays),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1767,14 +1767,14 @@ export function googleSqlDatabaseInstanceSettingsBackupConfigurationToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1836,11 +1836,11 @@ export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference
   }
 
   // binary_log_enabled - computed: false, optional: true, required: false
-  private _binaryLogEnabled?: boolean | cdktf.IResolvable; 
+  private _binaryLogEnabled?: boolean | cdktn.IResolvable; 
   public get binaryLogEnabled() {
     return this.getBooleanAttribute('binary_log_enabled');
   }
-  public set binaryLogEnabled(value: boolean | cdktf.IResolvable) {
+  public set binaryLogEnabled(value: boolean | cdktn.IResolvable) {
     this._binaryLogEnabled = value;
   }
   public resetBinaryLogEnabled() {
@@ -1852,11 +1852,11 @@ export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -1884,11 +1884,11 @@ export class GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference
   }
 
   // point_in_time_recovery_enabled - computed: false, optional: true, required: false
-  private _pointInTimeRecoveryEnabled?: boolean | cdktf.IResolvable; 
+  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable; 
   public get pointInTimeRecoveryEnabled() {
     return this.getBooleanAttribute('point_in_time_recovery_enabled');
   }
-  public set pointInTimeRecoveryEnabled(value: boolean | cdktf.IResolvable) {
+  public set pointInTimeRecoveryEnabled(value: boolean | cdktn.IResolvable) {
     this._pointInTimeRecoveryEnabled = value;
   }
   public resetPointInTimeRecoveryEnabled() {
@@ -1962,32 +1962,32 @@ export interface GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags {
   readonly value: string;
 }
 
-export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1998,9 +1998,9 @@ export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2008,11 +2008,11 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2029,14 +2029,14 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2075,15 +2075,15 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputRef
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2100,41 +2100,41 @@ export interface GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connection_pooling_enabled GoogleSqlDatabaseInstance#connection_pooling_enabled}
   */
-  readonly connectionPoolingEnabled?: boolean | cdktf.IResolvable;
+  readonly connectionPoolingEnabled?: boolean | cdktn.IResolvable;
   /**
   * flags block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#flags GoogleSqlDatabaseInstance#flags}
   */
-  readonly flags?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktf.IResolvable;
+  readonly flags?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktn.IResolvable;
 }
 
-export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    connection_pooling_enabled: cdktf.booleanToTerraform(struct!.connectionPoolingEnabled),
-    flags: cdktf.listMapper(googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToTerraform, true)(struct!.flags),
+    connection_pooling_enabled: cdktn.booleanToTerraform(struct!.connectionPoolingEnabled),
+    flags: cdktn.listMapper(googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToTerraform, true)(struct!.flags),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     connection_pooling_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.connectionPoolingEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.connectionPoolingEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     flags: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToHclTerraform, true)(struct!.flags),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsToHclTerraform, true)(struct!.flags),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsList",
@@ -2145,9 +2145,9 @@ export function googleSqlDatabaseInstanceSettingsConnectionPoolConfigToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2155,11 +2155,11 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2176,14 +2176,14 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._connectionPoolingEnabled = undefined;
       this._flags.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2196,11 +2196,11 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
   }
 
   // connection_pooling_enabled - computed: false, optional: true, required: false
-  private _connectionPoolingEnabled?: boolean | cdktf.IResolvable; 
+  private _connectionPoolingEnabled?: boolean | cdktn.IResolvable; 
   public get connectionPoolingEnabled() {
     return this.getBooleanAttribute('connection_pooling_enabled');
   }
-  public set connectionPoolingEnabled(value: boolean | cdktf.IResolvable) {
+  public set connectionPoolingEnabled(value: boolean | cdktn.IResolvable) {
     this._connectionPoolingEnabled = value;
   }
   public resetConnectionPoolingEnabled() {
@@ -2216,7 +2216,7 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
   public get flags() {
     return this._flags;
   }
-  public putFlags(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktf.IResolvable) {
+  public putFlags(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlags[] | cdktn.IResolvable) {
     this._flags.internalValue = value;
   }
   public resetFlags() {
@@ -2228,15 +2228,15 @@ export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigOutputReferenc
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2253,28 +2253,28 @@ export interface GoogleSqlDatabaseInstanceSettingsDataCacheConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_cache_enabled GoogleSqlDatabaseInstance#data_cache_enabled}
   */
-  readonly dataCacheEnabled?: boolean | cdktf.IResolvable;
+  readonly dataCacheEnabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleSqlDatabaseInstanceSettingsDataCacheConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference | GoogleSqlDatabaseInstanceSettingsDataCacheConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    data_cache_enabled: cdktf.booleanToTerraform(struct!.dataCacheEnabled),
+    data_cache_enabled: cdktn.booleanToTerraform(struct!.dataCacheEnabled),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsDataCacheConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference | GoogleSqlDatabaseInstanceSettingsDataCacheConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     data_cache_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.dataCacheEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.dataCacheEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2285,14 +2285,14 @@ export function googleSqlDatabaseInstanceSettingsDataCacheConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2318,11 +2318,11 @@ export class GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference ext
   }
 
   // data_cache_enabled - computed: false, optional: true, required: false
-  private _dataCacheEnabled?: boolean | cdktf.IResolvable; 
+  private _dataCacheEnabled?: boolean | cdktn.IResolvable; 
   public get dataCacheEnabled() {
     return this.getBooleanAttribute('data_cache_enabled');
   }
-  public set dataCacheEnabled(value: boolean | cdktf.IResolvable) {
+  public set dataCacheEnabled(value: boolean | cdktn.IResolvable) {
     this._dataCacheEnabled = value;
   }
   public resetDataCacheEnabled() {
@@ -2348,32 +2348,32 @@ export interface GoogleSqlDatabaseInstanceSettingsDatabaseFlags {
   readonly value: string;
 }
 
-export function googleSqlDatabaseInstanceSettingsDatabaseFlagsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsDatabaseFlagsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsDatabaseFlagsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsDatabaseFlagsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2384,9 +2384,9 @@ export function googleSqlDatabaseInstanceSettingsDatabaseFlagsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2394,11 +2394,11 @@ export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsOutputReference exten
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2415,14 +2415,14 @@ export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsDatabaseFlags | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2461,15 +2461,15 @@ export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsOutputReference exten
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsDatabaseFlagsList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2502,38 +2502,38 @@ export interface GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriod {
 }
 
 export function googleSqlDatabaseInstanceSettingsDenyMaintenancePeriodToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference | GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriod): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    end_date: cdktf.stringToTerraform(struct!.endDate),
-    start_date: cdktf.stringToTerraform(struct!.startDate),
-    time: cdktf.stringToTerraform(struct!.time),
+    end_date: cdktn.stringToTerraform(struct!.endDate),
+    start_date: cdktn.stringToTerraform(struct!.startDate),
+    time: cdktn.stringToTerraform(struct!.time),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsDenyMaintenancePeriodToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference | GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriod): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     end_date: {
-      value: cdktf.stringToHclTerraform(struct!.endDate),
+      value: cdktn.stringToHclTerraform(struct!.endDate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     start_date: {
-      value: cdktf.stringToHclTerraform(struct!.startDate),
+      value: cdktn.stringToHclTerraform(struct!.startDate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time: {
-      value: cdktf.stringToHclTerraform(struct!.time),
+      value: cdktn.stringToHclTerraform(struct!.time),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2544,14 +2544,14 @@ export function googleSqlDatabaseInstanceSettingsDenyMaintenancePeriodToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2633,7 +2633,7 @@ export interface GoogleSqlDatabaseInstanceSettingsInsightsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_insights_enabled GoogleSqlDatabaseInstance#query_insights_enabled}
   */
-  readonly queryInsightsEnabled?: boolean | cdktf.IResolvable;
+  readonly queryInsightsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Number of query execution plans captured by Insights per minute for all queries combined. Between 0 and 20. Default to 5. For Enterprise Plus instances, from 0 to 200.
   *
@@ -2651,62 +2651,62 @@ export interface GoogleSqlDatabaseInstanceSettingsInsightsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_application_tags GoogleSqlDatabaseInstance#record_application_tags}
   */
-  readonly recordApplicationTags?: boolean | cdktf.IResolvable;
+  readonly recordApplicationTags?: boolean | cdktn.IResolvable;
   /**
   * True if Query Insights will record client address when enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_client_address GoogleSqlDatabaseInstance#record_client_address}
   */
-  readonly recordClientAddress?: boolean | cdktf.IResolvable;
+  readonly recordClientAddress?: boolean | cdktn.IResolvable;
 }
 
 export function googleSqlDatabaseInstanceSettingsInsightsConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference | GoogleSqlDatabaseInstanceSettingsInsightsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    query_insights_enabled: cdktf.booleanToTerraform(struct!.queryInsightsEnabled),
-    query_plans_per_minute: cdktf.numberToTerraform(struct!.queryPlansPerMinute),
-    query_string_length: cdktf.numberToTerraform(struct!.queryStringLength),
-    record_application_tags: cdktf.booleanToTerraform(struct!.recordApplicationTags),
-    record_client_address: cdktf.booleanToTerraform(struct!.recordClientAddress),
+    query_insights_enabled: cdktn.booleanToTerraform(struct!.queryInsightsEnabled),
+    query_plans_per_minute: cdktn.numberToTerraform(struct!.queryPlansPerMinute),
+    query_string_length: cdktn.numberToTerraform(struct!.queryStringLength),
+    record_application_tags: cdktn.booleanToTerraform(struct!.recordApplicationTags),
+    record_client_address: cdktn.booleanToTerraform(struct!.recordClientAddress),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsInsightsConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference | GoogleSqlDatabaseInstanceSettingsInsightsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     query_insights_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.queryInsightsEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.queryInsightsEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     query_plans_per_minute: {
-      value: cdktf.numberToHclTerraform(struct!.queryPlansPerMinute),
+      value: cdktn.numberToHclTerraform(struct!.queryPlansPerMinute),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     query_string_length: {
-      value: cdktf.numberToHclTerraform(struct!.queryStringLength),
+      value: cdktn.numberToHclTerraform(struct!.queryStringLength),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     record_application_tags: {
-      value: cdktf.booleanToHclTerraform(struct!.recordApplicationTags),
+      value: cdktn.booleanToHclTerraform(struct!.recordApplicationTags),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     record_client_address: {
-      value: cdktf.booleanToHclTerraform(struct!.recordClientAddress),
+      value: cdktn.booleanToHclTerraform(struct!.recordClientAddress),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2717,14 +2717,14 @@ export function googleSqlDatabaseInstanceSettingsInsightsConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2774,11 +2774,11 @@ export class GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference exte
   }
 
   // query_insights_enabled - computed: false, optional: true, required: false
-  private _queryInsightsEnabled?: boolean | cdktf.IResolvable; 
+  private _queryInsightsEnabled?: boolean | cdktn.IResolvable; 
   public get queryInsightsEnabled() {
     return this.getBooleanAttribute('query_insights_enabled');
   }
-  public set queryInsightsEnabled(value: boolean | cdktf.IResolvable) {
+  public set queryInsightsEnabled(value: boolean | cdktn.IResolvable) {
     this._queryInsightsEnabled = value;
   }
   public resetQueryInsightsEnabled() {
@@ -2822,11 +2822,11 @@ export class GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference exte
   }
 
   // record_application_tags - computed: false, optional: true, required: false
-  private _recordApplicationTags?: boolean | cdktf.IResolvable; 
+  private _recordApplicationTags?: boolean | cdktn.IResolvable; 
   public get recordApplicationTags() {
     return this.getBooleanAttribute('record_application_tags');
   }
-  public set recordApplicationTags(value: boolean | cdktf.IResolvable) {
+  public set recordApplicationTags(value: boolean | cdktn.IResolvable) {
     this._recordApplicationTags = value;
   }
   public resetRecordApplicationTags() {
@@ -2838,11 +2838,11 @@ export class GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference exte
   }
 
   // record_client_address - computed: false, optional: true, required: false
-  private _recordClientAddress?: boolean | cdktf.IResolvable; 
+  private _recordClientAddress?: boolean | cdktn.IResolvable; 
   public get recordClientAddress() {
     return this.getBooleanAttribute('record_client_address');
   }
-  public set recordClientAddress(value: boolean | cdktf.IResolvable) {
+  public set recordClientAddress(value: boolean | cdktn.IResolvable) {
     this._recordClientAddress = value;
   }
   public resetRecordClientAddress() {
@@ -2868,39 +2868,39 @@ export interface GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetwo
   readonly value: string;
 }
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    expiration_time: cdktf.stringToTerraform(struct!.expirationTime),
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    expiration_time: cdktn.stringToTerraform(struct!.expirationTime),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     expiration_time: {
-      value: cdktf.stringToHclTerraform(struct!.expirationTime),
+      value: cdktn.stringToHclTerraform(struct!.expirationTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2911,9 +2911,9 @@ export function googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetwor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2921,11 +2921,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2946,7 +2946,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2954,7 +2954,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksO
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3013,15 +3013,15 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksO
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3047,32 +3047,32 @@ export interface GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAut
   readonly consumerServiceProjectId?: string;
 }
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    consumer_network: cdktf.stringToTerraform(struct!.consumerNetwork),
-    consumer_service_project_id: cdktf.stringToTerraform(struct!.consumerServiceProjectId),
+    consumer_network: cdktn.stringToTerraform(struct!.consumerNetwork),
+    consumer_service_project_id: cdktn.stringToTerraform(struct!.consumerServiceProjectId),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     consumer_network: {
-      value: cdktf.stringToHclTerraform(struct!.consumerNetwork),
+      value: cdktn.stringToHclTerraform(struct!.consumerNetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     consumer_service_project_id: {
-      value: cdktf.stringToHclTerraform(struct!.consumerServiceProjectId),
+      value: cdktn.stringToHclTerraform(struct!.consumerServiceProjectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3083,9 +3083,9 @@ export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAuto
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3093,11 +3093,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoCon
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3114,14 +3114,14 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoCon
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._consumerNetwork = undefined;
       this._consumerServiceProjectId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3163,15 +3163,15 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoCon
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3200,55 +3200,55 @@ export interface GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_enabled GoogleSqlDatabaseInstance#psc_enabled}
   */
-  readonly pscEnabled?: boolean | cdktf.IResolvable;
+  readonly pscEnabled?: boolean | cdktn.IResolvable;
   /**
   * psc_auto_connections block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_auto_connections GoogleSqlDatabaseInstance#psc_auto_connections}
   */
-  readonly pscAutoConnections?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktf.IResolvable;
+  readonly pscAutoConnections?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktn.IResolvable;
 }
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_consumer_projects: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedConsumerProjects),
-    network_attachment_uri: cdktf.stringToTerraform(struct!.networkAttachmentUri),
-    psc_enabled: cdktf.booleanToTerraform(struct!.pscEnabled),
-    psc_auto_connections: cdktf.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToTerraform, true)(struct!.pscAutoConnections),
+    allowed_consumer_projects: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedConsumerProjects),
+    network_attachment_uri: cdktn.stringToTerraform(struct!.networkAttachmentUri),
+    psc_enabled: cdktn.booleanToTerraform(struct!.pscEnabled),
+    psc_auto_connections: cdktn.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToTerraform, true)(struct!.pscAutoConnections),
   }
 }
 
 
-export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_consumer_projects: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedConsumerProjects),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedConsumerProjects),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     network_attachment_uri: {
-      value: cdktf.stringToHclTerraform(struct!.networkAttachmentUri),
+      value: cdktn.stringToHclTerraform(struct!.networkAttachmentUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     psc_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.pscEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.pscEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     psc_auto_connections: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToHclTerraform, true)(struct!.pscAutoConnections),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsToHclTerraform, true)(struct!.pscAutoConnections),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList",
@@ -3259,9 +3259,9 @@ export function googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3269,11 +3269,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3298,7 +3298,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3307,7 +3307,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
       this._pscEnabled = undefined;
       this._pscAutoConnections.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3324,7 +3324,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
   // allowed_consumer_projects - computed: false, optional: true, required: false
   private _allowedConsumerProjects?: string[]; 
   public get allowedConsumerProjects() {
-    return cdktf.Fn.tolist(this.getListAttribute('allowed_consumer_projects'));
+    return cdktn.Fn.tolist(this.getListAttribute('allowed_consumer_projects'));
   }
   public set allowedConsumerProjects(value: string[]) {
     this._allowedConsumerProjects = value;
@@ -3354,11 +3354,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
   }
 
   // psc_enabled - computed: false, optional: true, required: false
-  private _pscEnabled?: boolean | cdktf.IResolvable; 
+  private _pscEnabled?: boolean | cdktn.IResolvable; 
   public get pscEnabled() {
     return this.getBooleanAttribute('psc_enabled');
   }
-  public set pscEnabled(value: boolean | cdktf.IResolvable) {
+  public set pscEnabled(value: boolean | cdktn.IResolvable) {
     this._pscEnabled = value;
   }
   public resetPscEnabled() {
@@ -3374,7 +3374,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
   public get pscAutoConnections() {
     return this._pscAutoConnections;
   }
-  public putPscAutoConnections(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktf.IResolvable) {
+  public putPscAutoConnections(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections[] | cdktn.IResolvable) {
     this._pscAutoConnections.internalValue = value;
   }
   public resetPscAutoConnections() {
@@ -3386,15 +3386,15 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
   }
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigList extends cdktf.ComplexList {
-  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktf.IResolvable
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigList extends cdktn.ComplexList {
+  public internalValue? : GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3423,13 +3423,13 @@ export interface GoogleSqlDatabaseInstanceSettingsIpConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_private_path_for_google_cloud_services GoogleSqlDatabaseInstance#enable_private_path_for_google_cloud_services}
   */
-  readonly enablePrivatePathForGoogleCloudServices?: boolean | cdktf.IResolvable;
+  readonly enablePrivatePathForGoogleCloudServices?: boolean | cdktn.IResolvable;
   /**
   * Whether this Cloud SQL instance should be assigned a public IPV4 address. At least ipv4_enabled must be enabled or a private_network must be configured.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ipv4_enabled GoogleSqlDatabaseInstance#ipv4_enabled}
   */
-  readonly ipv4Enabled?: boolean | cdktf.IResolvable;
+  readonly ipv4Enabled?: boolean | cdktn.IResolvable;
   /**
   * The VPC network from which the Cloud SQL instance is accessible for private IP. For example, projects/myProject/global/networks/default. Specifying a network enables private IP. At least ipv4_enabled must be enabled or a private_network must be configured. This setting can be updated, but it cannot be removed after it is set.
   *
@@ -3459,97 +3459,97 @@ export interface GoogleSqlDatabaseInstanceSettingsIpConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#authorized_networks GoogleSqlDatabaseInstance#authorized_networks}
   */
-  readonly authorizedNetworks?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktf.IResolvable;
+  readonly authorizedNetworks?: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktn.IResolvable;
   /**
   * psc_config block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_config GoogleSqlDatabaseInstance#psc_config}
   */
-  readonly pscConfig?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktf.IResolvable;
+  readonly pscConfig?: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktn.IResolvable;
 }
 
 export function googleSqlDatabaseInstanceSettingsIpConfigurationToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference | GoogleSqlDatabaseInstanceSettingsIpConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allocated_ip_range: cdktf.stringToTerraform(struct!.allocatedIpRange),
-    custom_subject_alternative_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.customSubjectAlternativeNames),
-    enable_private_path_for_google_cloud_services: cdktf.booleanToTerraform(struct!.enablePrivatePathForGoogleCloudServices),
-    ipv4_enabled: cdktf.booleanToTerraform(struct!.ipv4Enabled),
-    private_network: cdktf.stringToTerraform(struct!.privateNetwork),
-    server_ca_mode: cdktf.stringToTerraform(struct!.serverCaMode),
-    server_ca_pool: cdktf.stringToTerraform(struct!.serverCaPool),
-    ssl_mode: cdktf.stringToTerraform(struct!.sslMode),
-    authorized_networks: cdktf.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToTerraform, true)(struct!.authorizedNetworks),
-    psc_config: cdktf.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToTerraform, true)(struct!.pscConfig),
+    allocated_ip_range: cdktn.stringToTerraform(struct!.allocatedIpRange),
+    custom_subject_alternative_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.customSubjectAlternativeNames),
+    enable_private_path_for_google_cloud_services: cdktn.booleanToTerraform(struct!.enablePrivatePathForGoogleCloudServices),
+    ipv4_enabled: cdktn.booleanToTerraform(struct!.ipv4Enabled),
+    private_network: cdktn.stringToTerraform(struct!.privateNetwork),
+    server_ca_mode: cdktn.stringToTerraform(struct!.serverCaMode),
+    server_ca_pool: cdktn.stringToTerraform(struct!.serverCaPool),
+    ssl_mode: cdktn.stringToTerraform(struct!.sslMode),
+    authorized_networks: cdktn.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToTerraform, true)(struct!.authorizedNetworks),
+    psc_config: cdktn.listMapper(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToTerraform, true)(struct!.pscConfig),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsIpConfigurationToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference | GoogleSqlDatabaseInstanceSettingsIpConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allocated_ip_range: {
-      value: cdktf.stringToHclTerraform(struct!.allocatedIpRange),
+      value: cdktn.stringToHclTerraform(struct!.allocatedIpRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     custom_subject_alternative_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.customSubjectAlternativeNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.customSubjectAlternativeNames),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     enable_private_path_for_google_cloud_services: {
-      value: cdktf.booleanToHclTerraform(struct!.enablePrivatePathForGoogleCloudServices),
+      value: cdktn.booleanToHclTerraform(struct!.enablePrivatePathForGoogleCloudServices),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ipv4_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.ipv4Enabled),
+      value: cdktn.booleanToHclTerraform(struct!.ipv4Enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     private_network: {
-      value: cdktf.stringToHclTerraform(struct!.privateNetwork),
+      value: cdktn.stringToHclTerraform(struct!.privateNetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     server_ca_mode: {
-      value: cdktf.stringToHclTerraform(struct!.serverCaMode),
+      value: cdktn.stringToHclTerraform(struct!.serverCaMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     server_ca_pool: {
-      value: cdktf.stringToHclTerraform(struct!.serverCaPool),
+      value: cdktn.stringToHclTerraform(struct!.serverCaPool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_mode: {
-      value: cdktf.stringToHclTerraform(struct!.sslMode),
+      value: cdktn.stringToHclTerraform(struct!.sslMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     authorized_networks: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToHclTerraform, true)(struct!.authorizedNetworks),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksToHclTerraform, true)(struct!.authorizedNetworks),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworksList",
     },
     psc_config: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToHclTerraform, true)(struct!.pscConfig),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsIpConfigurationPscConfigToHclTerraform, true)(struct!.pscConfig),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigList",
@@ -3560,14 +3560,14 @@ export function googleSqlDatabaseInstanceSettingsIpConfigurationToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3665,7 +3665,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference ext
   // custom_subject_alternative_names - computed: false, optional: true, required: false
   private _customSubjectAlternativeNames?: string[]; 
   public get customSubjectAlternativeNames() {
-    return cdktf.Fn.tolist(this.getListAttribute('custom_subject_alternative_names'));
+    return cdktn.Fn.tolist(this.getListAttribute('custom_subject_alternative_names'));
   }
   public set customSubjectAlternativeNames(value: string[]) {
     this._customSubjectAlternativeNames = value;
@@ -3679,11 +3679,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference ext
   }
 
   // enable_private_path_for_google_cloud_services - computed: false, optional: true, required: false
-  private _enablePrivatePathForGoogleCloudServices?: boolean | cdktf.IResolvable; 
+  private _enablePrivatePathForGoogleCloudServices?: boolean | cdktn.IResolvable; 
   public get enablePrivatePathForGoogleCloudServices() {
     return this.getBooleanAttribute('enable_private_path_for_google_cloud_services');
   }
-  public set enablePrivatePathForGoogleCloudServices(value: boolean | cdktf.IResolvable) {
+  public set enablePrivatePathForGoogleCloudServices(value: boolean | cdktn.IResolvable) {
     this._enablePrivatePathForGoogleCloudServices = value;
   }
   public resetEnablePrivatePathForGoogleCloudServices() {
@@ -3695,11 +3695,11 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference ext
   }
 
   // ipv4_enabled - computed: false, optional: true, required: false
-  private _ipv4Enabled?: boolean | cdktf.IResolvable; 
+  private _ipv4Enabled?: boolean | cdktn.IResolvable; 
   public get ipv4Enabled() {
     return this.getBooleanAttribute('ipv4_enabled');
   }
-  public set ipv4Enabled(value: boolean | cdktf.IResolvable) {
+  public set ipv4Enabled(value: boolean | cdktn.IResolvable) {
     this._ipv4Enabled = value;
   }
   public resetIpv4Enabled() {
@@ -3779,7 +3779,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference ext
   public get authorizedNetworks() {
     return this._authorizedNetworks;
   }
-  public putAuthorizedNetworks(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktf.IResolvable) {
+  public putAuthorizedNetworks(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks[] | cdktn.IResolvable) {
     this._authorizedNetworks.internalValue = value;
   }
   public resetAuthorizedNetworks() {
@@ -3795,7 +3795,7 @@ export class GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference ext
   public get pscConfig() {
     return this._pscConfig;
   }
-  public putPscConfig(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktf.IResolvable) {
+  public putPscConfig(value: GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig[] | cdktn.IResolvable) {
     this._pscConfig.internalValue = value;
   }
   public resetPscConfig() {
@@ -3828,38 +3828,38 @@ export interface GoogleSqlDatabaseInstanceSettingsLocationPreference {
 }
 
 export function googleSqlDatabaseInstanceSettingsLocationPreferenceToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference | GoogleSqlDatabaseInstanceSettingsLocationPreference): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    follow_gae_application: cdktf.stringToTerraform(struct!.followGaeApplication),
-    secondary_zone: cdktf.stringToTerraform(struct!.secondaryZone),
-    zone: cdktf.stringToTerraform(struct!.zone),
+    follow_gae_application: cdktn.stringToTerraform(struct!.followGaeApplication),
+    secondary_zone: cdktn.stringToTerraform(struct!.secondaryZone),
+    zone: cdktn.stringToTerraform(struct!.zone),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsLocationPreferenceToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference | GoogleSqlDatabaseInstanceSettingsLocationPreference): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     follow_gae_application: {
-      value: cdktf.stringToHclTerraform(struct!.followGaeApplication),
+      value: cdktn.stringToHclTerraform(struct!.followGaeApplication),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secondary_zone: {
-      value: cdktf.stringToHclTerraform(struct!.secondaryZone),
+      value: cdktn.stringToHclTerraform(struct!.secondaryZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     zone: {
-      value: cdktf.stringToHclTerraform(struct!.zone),
+      value: cdktn.stringToHclTerraform(struct!.zone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3870,14 +3870,14 @@ export function googleSqlDatabaseInstanceSettingsLocationPreferenceToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3984,38 +3984,38 @@ export interface GoogleSqlDatabaseInstanceSettingsMaintenanceWindow {
 }
 
 export function googleSqlDatabaseInstanceSettingsMaintenanceWindowToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference | GoogleSqlDatabaseInstanceSettingsMaintenanceWindow): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day: cdktf.numberToTerraform(struct!.day),
-    hour: cdktf.numberToTerraform(struct!.hour),
-    update_track: cdktf.stringToTerraform(struct!.updateTrack),
+    day: cdktn.numberToTerraform(struct!.day),
+    hour: cdktn.numberToTerraform(struct!.hour),
+    update_track: cdktn.stringToTerraform(struct!.updateTrack),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsMaintenanceWindowToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference | GoogleSqlDatabaseInstanceSettingsMaintenanceWindow): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day: {
-      value: cdktf.numberToHclTerraform(struct!.day),
+      value: cdktn.numberToHclTerraform(struct!.day),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     hour: {
-      value: cdktf.numberToHclTerraform(struct!.hour),
+      value: cdktn.numberToHclTerraform(struct!.hour),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     update_track: {
-      value: cdktf.stringToHclTerraform(struct!.updateTrack),
+      value: cdktn.stringToHclTerraform(struct!.updateTrack),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4026,14 +4026,14 @@ export function googleSqlDatabaseInstanceSettingsMaintenanceWindowToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4130,13 +4130,13 @@ export interface GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disallow_username_substring GoogleSqlDatabaseInstance#disallow_username_substring}
   */
-  readonly disallowUsernameSubstring?: boolean | cdktf.IResolvable;
+  readonly disallowUsernameSubstring?: boolean | cdktn.IResolvable;
   /**
   * Whether the password policy is enabled or not.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_password_policy GoogleSqlDatabaseInstance#enable_password_policy}
   */
-  readonly enablePasswordPolicy: boolean | cdktf.IResolvable;
+  readonly enablePasswordPolicy: boolean | cdktn.IResolvable;
   /**
   * Minimum number of characters allowed.
   *
@@ -4158,59 +4158,59 @@ export interface GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy {
 }
 
 export function googleSqlDatabaseInstanceSettingsPasswordValidationPolicyToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference | GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    complexity: cdktf.stringToTerraform(struct!.complexity),
-    disallow_username_substring: cdktf.booleanToTerraform(struct!.disallowUsernameSubstring),
-    enable_password_policy: cdktf.booleanToTerraform(struct!.enablePasswordPolicy),
-    min_length: cdktf.numberToTerraform(struct!.minLength),
-    password_change_interval: cdktf.stringToTerraform(struct!.passwordChangeInterval),
-    reuse_interval: cdktf.numberToTerraform(struct!.reuseInterval),
+    complexity: cdktn.stringToTerraform(struct!.complexity),
+    disallow_username_substring: cdktn.booleanToTerraform(struct!.disallowUsernameSubstring),
+    enable_password_policy: cdktn.booleanToTerraform(struct!.enablePasswordPolicy),
+    min_length: cdktn.numberToTerraform(struct!.minLength),
+    password_change_interval: cdktn.stringToTerraform(struct!.passwordChangeInterval),
+    reuse_interval: cdktn.numberToTerraform(struct!.reuseInterval),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsPasswordValidationPolicyToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference | GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     complexity: {
-      value: cdktf.stringToHclTerraform(struct!.complexity),
+      value: cdktn.stringToHclTerraform(struct!.complexity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disallow_username_substring: {
-      value: cdktf.booleanToHclTerraform(struct!.disallowUsernameSubstring),
+      value: cdktn.booleanToHclTerraform(struct!.disallowUsernameSubstring),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_password_policy: {
-      value: cdktf.booleanToHclTerraform(struct!.enablePasswordPolicy),
+      value: cdktn.booleanToHclTerraform(struct!.enablePasswordPolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     min_length: {
-      value: cdktf.numberToHclTerraform(struct!.minLength),
+      value: cdktn.numberToHclTerraform(struct!.minLength),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     password_change_interval: {
-      value: cdktf.stringToHclTerraform(struct!.passwordChangeInterval),
+      value: cdktn.stringToHclTerraform(struct!.passwordChangeInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     reuse_interval: {
-      value: cdktf.numberToHclTerraform(struct!.reuseInterval),
+      value: cdktn.numberToHclTerraform(struct!.reuseInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4221,14 +4221,14 @@ export function googleSqlDatabaseInstanceSettingsPasswordValidationPolicyToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4300,11 +4300,11 @@ export class GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputRefe
   }
 
   // disallow_username_substring - computed: false, optional: true, required: false
-  private _disallowUsernameSubstring?: boolean | cdktf.IResolvable; 
+  private _disallowUsernameSubstring?: boolean | cdktn.IResolvable; 
   public get disallowUsernameSubstring() {
     return this.getBooleanAttribute('disallow_username_substring');
   }
-  public set disallowUsernameSubstring(value: boolean | cdktf.IResolvable) {
+  public set disallowUsernameSubstring(value: boolean | cdktn.IResolvable) {
     this._disallowUsernameSubstring = value;
   }
   public resetDisallowUsernameSubstring() {
@@ -4316,11 +4316,11 @@ export class GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputRefe
   }
 
   // enable_password_policy - computed: false, optional: false, required: true
-  private _enablePasswordPolicy?: boolean | cdktf.IResolvable; 
+  private _enablePasswordPolicy?: boolean | cdktn.IResolvable; 
   public get enablePasswordPolicy() {
     return this.getBooleanAttribute('enable_password_policy');
   }
-  public set enablePasswordPolicy(value: boolean | cdktf.IResolvable) {
+  public set enablePasswordPolicy(value: boolean | cdktn.IResolvable) {
     this._enablePasswordPolicy = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -4398,38 +4398,38 @@ export interface GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig {
 }
 
 export function googleSqlDatabaseInstanceSettingsSqlServerAuditConfigToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference | GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket: cdktf.stringToTerraform(struct!.bucket),
-    retention_interval: cdktf.stringToTerraform(struct!.retentionInterval),
-    upload_interval: cdktf.stringToTerraform(struct!.uploadInterval),
+    bucket: cdktn.stringToTerraform(struct!.bucket),
+    retention_interval: cdktn.stringToTerraform(struct!.retentionInterval),
+    upload_interval: cdktn.stringToTerraform(struct!.uploadInterval),
   }
 }
 
 
 export function googleSqlDatabaseInstanceSettingsSqlServerAuditConfigToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference | GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket: {
-      value: cdktf.stringToHclTerraform(struct!.bucket),
+      value: cdktn.stringToHclTerraform(struct!.bucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     retention_interval: {
-      value: cdktf.stringToHclTerraform(struct!.retentionInterval),
+      value: cdktn.stringToHclTerraform(struct!.retentionInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     upload_interval: {
-      value: cdktf.stringToHclTerraform(struct!.uploadInterval),
+      value: cdktn.stringToHclTerraform(struct!.uploadInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4440,14 +4440,14 @@ export function googleSqlDatabaseInstanceSettingsSqlServerAuditConfigToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4581,13 +4581,13 @@ export interface GoogleSqlDatabaseInstanceSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection_enabled GoogleSqlDatabaseInstance#deletion_protection_enabled}
   */
-  readonly deletionProtectionEnabled?: boolean | cdktf.IResolvable;
+  readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Enables auto-resizing of the storage size. Defaults to true.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_autoresize GoogleSqlDatabaseInstance#disk_autoresize}
   */
-  readonly diskAutoresize?: boolean | cdktf.IResolvable;
+  readonly diskAutoresize?: boolean | cdktn.IResolvable;
   /**
   * The maximum size, in GB, to which storage capacity can be automatically increased. The default value is 0, which specifies that there is no limit.
   *
@@ -4617,13 +4617,13 @@ export interface GoogleSqlDatabaseInstanceSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_dataplex_integration GoogleSqlDatabaseInstance#enable_dataplex_integration}
   */
-  readonly enableDataplexIntegration?: boolean | cdktf.IResolvable;
+  readonly enableDataplexIntegration?: boolean | cdktn.IResolvable;
   /**
   * Enables Vertex AI Integration.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_google_ml_integration GoogleSqlDatabaseInstance#enable_google_ml_integration}
   */
-  readonly enableGoogleMlIntegration?: boolean | cdktf.IResolvable;
+  readonly enableGoogleMlIntegration?: boolean | cdktn.IResolvable;
   /**
   * Pricing plan for this instance, can only be PER_USE.
   *
@@ -4635,7 +4635,7 @@ export interface GoogleSqlDatabaseInstanceSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retain_backups_on_delete GoogleSqlDatabaseInstance#retain_backups_on_delete}
   */
-  readonly retainBackupsOnDelete?: boolean | cdktf.IResolvable;
+  readonly retainBackupsOnDelete?: boolean | cdktn.IResolvable;
   /**
   * The machine type to use. See tiers for more details and supported versions. Postgres supports only shared-core machine types, and custom machine types such as db-custom-2-13312. See the Custom Machine Type Documentation to learn about specifying custom machine types.
   *
@@ -4677,7 +4677,7 @@ export interface GoogleSqlDatabaseInstanceSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connection_pool_config GoogleSqlDatabaseInstance#connection_pool_config}
   */
-  readonly connectionPoolConfig?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktf.IResolvable;
+  readonly connectionPoolConfig?: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktn.IResolvable;
   /**
   * data_cache_config block
   *
@@ -4689,7 +4689,7 @@ export interface GoogleSqlDatabaseInstanceSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_flags GoogleSqlDatabaseInstance#database_flags}
   */
-  readonly databaseFlags?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktf.IResolvable;
+  readonly databaseFlags?: GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktn.IResolvable;
   /**
   * deny_maintenance_period block
   *
@@ -4735,36 +4735,36 @@ export interface GoogleSqlDatabaseInstanceSettings {
 }
 
 export function googleSqlDatabaseInstanceSettingsToTerraform(struct?: GoogleSqlDatabaseInstanceSettingsOutputReference | GoogleSqlDatabaseInstanceSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    activation_policy: cdktf.stringToTerraform(struct!.activationPolicy),
-    availability_type: cdktf.stringToTerraform(struct!.availabilityType),
-    collation: cdktf.stringToTerraform(struct!.collation),
-    connector_enforcement: cdktf.stringToTerraform(struct!.connectorEnforcement),
-    data_disk_provisioned_iops: cdktf.numberToTerraform(struct!.dataDiskProvisionedIops),
-    data_disk_provisioned_throughput: cdktf.numberToTerraform(struct!.dataDiskProvisionedThroughput),
-    deletion_protection_enabled: cdktf.booleanToTerraform(struct!.deletionProtectionEnabled),
-    disk_autoresize: cdktf.booleanToTerraform(struct!.diskAutoresize),
-    disk_autoresize_limit: cdktf.numberToTerraform(struct!.diskAutoresizeLimit),
-    disk_size: cdktf.numberToTerraform(struct!.diskSize),
-    disk_type: cdktf.stringToTerraform(struct!.diskType),
-    edition: cdktf.stringToTerraform(struct!.edition),
-    enable_dataplex_integration: cdktf.booleanToTerraform(struct!.enableDataplexIntegration),
-    enable_google_ml_integration: cdktf.booleanToTerraform(struct!.enableGoogleMlIntegration),
-    pricing_plan: cdktf.stringToTerraform(struct!.pricingPlan),
-    retain_backups_on_delete: cdktf.booleanToTerraform(struct!.retainBackupsOnDelete),
-    tier: cdktf.stringToTerraform(struct!.tier),
-    time_zone: cdktf.stringToTerraform(struct!.timeZone),
-    user_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.userLabels),
+    activation_policy: cdktn.stringToTerraform(struct!.activationPolicy),
+    availability_type: cdktn.stringToTerraform(struct!.availabilityType),
+    collation: cdktn.stringToTerraform(struct!.collation),
+    connector_enforcement: cdktn.stringToTerraform(struct!.connectorEnforcement),
+    data_disk_provisioned_iops: cdktn.numberToTerraform(struct!.dataDiskProvisionedIops),
+    data_disk_provisioned_throughput: cdktn.numberToTerraform(struct!.dataDiskProvisionedThroughput),
+    deletion_protection_enabled: cdktn.booleanToTerraform(struct!.deletionProtectionEnabled),
+    disk_autoresize: cdktn.booleanToTerraform(struct!.diskAutoresize),
+    disk_autoresize_limit: cdktn.numberToTerraform(struct!.diskAutoresizeLimit),
+    disk_size: cdktn.numberToTerraform(struct!.diskSize),
+    disk_type: cdktn.stringToTerraform(struct!.diskType),
+    edition: cdktn.stringToTerraform(struct!.edition),
+    enable_dataplex_integration: cdktn.booleanToTerraform(struct!.enableDataplexIntegration),
+    enable_google_ml_integration: cdktn.booleanToTerraform(struct!.enableGoogleMlIntegration),
+    pricing_plan: cdktn.stringToTerraform(struct!.pricingPlan),
+    retain_backups_on_delete: cdktn.booleanToTerraform(struct!.retainBackupsOnDelete),
+    tier: cdktn.stringToTerraform(struct!.tier),
+    time_zone: cdktn.stringToTerraform(struct!.timeZone),
+    user_labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.userLabels),
     active_directory_config: googleSqlDatabaseInstanceSettingsActiveDirectoryConfigToTerraform(struct!.activeDirectoryConfig),
     advanced_machine_features: googleSqlDatabaseInstanceSettingsAdvancedMachineFeaturesToTerraform(struct!.advancedMachineFeatures),
     backup_configuration: googleSqlDatabaseInstanceSettingsBackupConfigurationToTerraform(struct!.backupConfiguration),
-    connection_pool_config: cdktf.listMapper(googleSqlDatabaseInstanceSettingsConnectionPoolConfigToTerraform, true)(struct!.connectionPoolConfig),
+    connection_pool_config: cdktn.listMapper(googleSqlDatabaseInstanceSettingsConnectionPoolConfigToTerraform, true)(struct!.connectionPoolConfig),
     data_cache_config: googleSqlDatabaseInstanceSettingsDataCacheConfigToTerraform(struct!.dataCacheConfig),
-    database_flags: cdktf.listMapper(googleSqlDatabaseInstanceSettingsDatabaseFlagsToTerraform, true)(struct!.databaseFlags),
+    database_flags: cdktn.listMapper(googleSqlDatabaseInstanceSettingsDatabaseFlagsToTerraform, true)(struct!.databaseFlags),
     deny_maintenance_period: googleSqlDatabaseInstanceSettingsDenyMaintenancePeriodToTerraform(struct!.denyMaintenancePeriod),
     insights_config: googleSqlDatabaseInstanceSettingsInsightsConfigToTerraform(struct!.insightsConfig),
     ip_configuration: googleSqlDatabaseInstanceSettingsIpConfigurationToTerraform(struct!.ipConfiguration),
@@ -4777,121 +4777,121 @@ export function googleSqlDatabaseInstanceSettingsToTerraform(struct?: GoogleSqlD
 
 
 export function googleSqlDatabaseInstanceSettingsToHclTerraform(struct?: GoogleSqlDatabaseInstanceSettingsOutputReference | GoogleSqlDatabaseInstanceSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     activation_policy: {
-      value: cdktf.stringToHclTerraform(struct!.activationPolicy),
+      value: cdktn.stringToHclTerraform(struct!.activationPolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     availability_type: {
-      value: cdktf.stringToHclTerraform(struct!.availabilityType),
+      value: cdktn.stringToHclTerraform(struct!.availabilityType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     collation: {
-      value: cdktf.stringToHclTerraform(struct!.collation),
+      value: cdktn.stringToHclTerraform(struct!.collation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     connector_enforcement: {
-      value: cdktf.stringToHclTerraform(struct!.connectorEnforcement),
+      value: cdktn.stringToHclTerraform(struct!.connectorEnforcement),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_disk_provisioned_iops: {
-      value: cdktf.numberToHclTerraform(struct!.dataDiskProvisionedIops),
+      value: cdktn.numberToHclTerraform(struct!.dataDiskProvisionedIops),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     data_disk_provisioned_throughput: {
-      value: cdktf.numberToHclTerraform(struct!.dataDiskProvisionedThroughput),
+      value: cdktn.numberToHclTerraform(struct!.dataDiskProvisionedThroughput),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     deletion_protection_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.deletionProtectionEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.deletionProtectionEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     disk_autoresize: {
-      value: cdktf.booleanToHclTerraform(struct!.diskAutoresize),
+      value: cdktn.booleanToHclTerraform(struct!.diskAutoresize),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     disk_autoresize_limit: {
-      value: cdktf.numberToHclTerraform(struct!.diskAutoresizeLimit),
+      value: cdktn.numberToHclTerraform(struct!.diskAutoresizeLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     disk_size: {
-      value: cdktf.numberToHclTerraform(struct!.diskSize),
+      value: cdktn.numberToHclTerraform(struct!.diskSize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.diskType),
+      value: cdktn.stringToHclTerraform(struct!.diskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     edition: {
-      value: cdktf.stringToHclTerraform(struct!.edition),
+      value: cdktn.stringToHclTerraform(struct!.edition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enable_dataplex_integration: {
-      value: cdktf.booleanToHclTerraform(struct!.enableDataplexIntegration),
+      value: cdktn.booleanToHclTerraform(struct!.enableDataplexIntegration),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_google_ml_integration: {
-      value: cdktf.booleanToHclTerraform(struct!.enableGoogleMlIntegration),
+      value: cdktn.booleanToHclTerraform(struct!.enableGoogleMlIntegration),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     pricing_plan: {
-      value: cdktf.stringToHclTerraform(struct!.pricingPlan),
+      value: cdktn.stringToHclTerraform(struct!.pricingPlan),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     retain_backups_on_delete: {
-      value: cdktf.booleanToHclTerraform(struct!.retainBackupsOnDelete),
+      value: cdktn.booleanToHclTerraform(struct!.retainBackupsOnDelete),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     tier: {
-      value: cdktf.stringToHclTerraform(struct!.tier),
+      value: cdktn.stringToHclTerraform(struct!.tier),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time_zone: {
-      value: cdktf.stringToHclTerraform(struct!.timeZone),
+      value: cdktn.stringToHclTerraform(struct!.timeZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     user_labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.userLabels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.userLabels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -4915,7 +4915,7 @@ export function googleSqlDatabaseInstanceSettingsToHclTerraform(struct?: GoogleS
       storageClassType: "GoogleSqlDatabaseInstanceSettingsBackupConfigurationList",
     },
     connection_pool_config: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsConnectionPoolConfigToHclTerraform, true)(struct!.connectionPoolConfig),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsConnectionPoolConfigToHclTerraform, true)(struct!.connectionPoolConfig),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigList",
@@ -4927,7 +4927,7 @@ export function googleSqlDatabaseInstanceSettingsToHclTerraform(struct?: GoogleS
       storageClassType: "GoogleSqlDatabaseInstanceSettingsDataCacheConfigList",
     },
     database_flags: {
-      value: cdktf.listMapperHcl(googleSqlDatabaseInstanceSettingsDatabaseFlagsToHclTerraform, true)(struct!.databaseFlags),
+      value: cdktn.listMapperHcl(googleSqlDatabaseInstanceSettingsDatabaseFlagsToHclTerraform, true)(struct!.databaseFlags),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleSqlDatabaseInstanceSettingsDatabaseFlagsList",
@@ -4980,14 +4980,14 @@ export function googleSqlDatabaseInstanceSettingsToHclTerraform(struct?: GoogleS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5295,11 +5295,11 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   }
 
   // deletion_protection_enabled - computed: false, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktf.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
-  public set deletionProtectionEnabled(value: boolean | cdktf.IResolvable) {
+  public set deletionProtectionEnabled(value: boolean | cdktn.IResolvable) {
     this._deletionProtectionEnabled = value;
   }
   public resetDeletionProtectionEnabled() {
@@ -5311,11 +5311,11 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   }
 
   // disk_autoresize - computed: false, optional: true, required: false
-  private _diskAutoresize?: boolean | cdktf.IResolvable; 
+  private _diskAutoresize?: boolean | cdktn.IResolvable; 
   public get diskAutoresize() {
     return this.getBooleanAttribute('disk_autoresize');
   }
-  public set diskAutoresize(value: boolean | cdktf.IResolvable) {
+  public set diskAutoresize(value: boolean | cdktn.IResolvable) {
     this._diskAutoresize = value;
   }
   public resetDiskAutoresize() {
@@ -5396,11 +5396,11 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   }
 
   // enable_dataplex_integration - computed: false, optional: true, required: false
-  private _enableDataplexIntegration?: boolean | cdktf.IResolvable; 
+  private _enableDataplexIntegration?: boolean | cdktn.IResolvable; 
   public get enableDataplexIntegration() {
     return this.getBooleanAttribute('enable_dataplex_integration');
   }
-  public set enableDataplexIntegration(value: boolean | cdktf.IResolvable) {
+  public set enableDataplexIntegration(value: boolean | cdktn.IResolvable) {
     this._enableDataplexIntegration = value;
   }
   public resetEnableDataplexIntegration() {
@@ -5412,11 +5412,11 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   }
 
   // enable_google_ml_integration - computed: false, optional: true, required: false
-  private _enableGoogleMlIntegration?: boolean | cdktf.IResolvable; 
+  private _enableGoogleMlIntegration?: boolean | cdktn.IResolvable; 
   public get enableGoogleMlIntegration() {
     return this.getBooleanAttribute('enable_google_ml_integration');
   }
-  public set enableGoogleMlIntegration(value: boolean | cdktf.IResolvable) {
+  public set enableGoogleMlIntegration(value: boolean | cdktn.IResolvable) {
     this._enableGoogleMlIntegration = value;
   }
   public resetEnableGoogleMlIntegration() {
@@ -5444,11 +5444,11 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   }
 
   // retain_backups_on_delete - computed: false, optional: true, required: false
-  private _retainBackupsOnDelete?: boolean | cdktf.IResolvable; 
+  private _retainBackupsOnDelete?: boolean | cdktn.IResolvable; 
   public get retainBackupsOnDelete() {
     return this.getBooleanAttribute('retain_backups_on_delete');
   }
-  public set retainBackupsOnDelete(value: boolean | cdktf.IResolvable) {
+  public set retainBackupsOnDelete(value: boolean | cdktn.IResolvable) {
     this._retainBackupsOnDelete = value;
   }
   public resetRetainBackupsOnDelete() {
@@ -5562,7 +5562,7 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   public get connectionPoolConfig() {
     return this._connectionPoolConfig;
   }
-  public putConnectionPoolConfig(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktf.IResolvable) {
+  public putConnectionPoolConfig(value: GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig[] | cdktn.IResolvable) {
     this._connectionPoolConfig.internalValue = value;
   }
   public resetConnectionPoolConfig() {
@@ -5594,7 +5594,7 @@ export class GoogleSqlDatabaseInstanceSettingsOutputReference extends cdktf.Comp
   public get databaseFlags() {
     return this._databaseFlags;
   }
-  public putDatabaseFlags(value: GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktf.IResolvable) {
+  public putDatabaseFlags(value: GoogleSqlDatabaseInstanceSettingsDatabaseFlags[] | cdktn.IResolvable) {
     this._databaseFlags.internalValue = value;
   }
   public resetDatabaseFlags() {
@@ -5732,39 +5732,39 @@ export interface GoogleSqlDatabaseInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleSqlDatabaseInstanceTimeoutsToTerraform(struct?: GoogleSqlDatabaseInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceTimeoutsToTerraform(struct?: GoogleSqlDatabaseInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSqlDatabaseInstanceTimeoutsToHclTerraform(struct?: GoogleSqlDatabaseInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSqlDatabaseInstanceTimeoutsToHclTerraform(struct?: GoogleSqlDatabaseInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5775,19 +5775,19 @@ export function googleSqlDatabaseInstanceTimeoutsToHclTerraform(struct?: GoogleS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSqlDatabaseInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSqlDatabaseInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSqlDatabaseInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSqlDatabaseInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5808,7 +5808,7 @@ export class GoogleSqlDatabaseInstanceTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSqlDatabaseInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSqlDatabaseInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -5816,7 +5816,7 @@ export class GoogleSqlDatabaseInstanceTimeoutsOutputReference extends cdktf.Comp
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5881,7 +5881,7 @@ export class GoogleSqlDatabaseInstanceTimeoutsOutputReference extends cdktf.Comp
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance google_sql_database_instance}
 */
-export class GoogleSqlDatabaseInstance extends cdktf.TerraformResource {
+export class GoogleSqlDatabaseInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -5892,14 +5892,14 @@ export class GoogleSqlDatabaseInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSqlDatabaseInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSqlDatabaseInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSqlDatabaseInstance to import
   * @param importFromId The id of the existing GoogleSqlDatabaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSqlDatabaseInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_sql_database_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_sql_database_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -5978,11 +5978,11 @@ export class GoogleSqlDatabaseInstance extends cdktf.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -6324,19 +6324,19 @@ export class GoogleSqlDatabaseInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      database_version: cdktf.stringToTerraform(this._databaseVersion),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      encryption_key_name: cdktf.stringToTerraform(this._encryptionKeyName),
-      id: cdktf.stringToTerraform(this._id),
-      instance_type: cdktf.stringToTerraform(this._instanceType),
-      maintenance_version: cdktf.stringToTerraform(this._maintenanceVersion),
-      master_instance_name: cdktf.stringToTerraform(this._masterInstanceName),
-      name: cdktf.stringToTerraform(this._name),
-      node_count: cdktf.numberToTerraform(this._nodeCount),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      replica_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._replicaNames),
-      root_password: cdktf.stringToTerraform(this._rootPassword),
+      database_version: cdktn.stringToTerraform(this._databaseVersion),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      encryption_key_name: cdktn.stringToTerraform(this._encryptionKeyName),
+      id: cdktn.stringToTerraform(this._id),
+      instance_type: cdktn.stringToTerraform(this._instanceType),
+      maintenance_version: cdktn.stringToTerraform(this._maintenanceVersion),
+      master_instance_name: cdktn.stringToTerraform(this._masterInstanceName),
+      name: cdktn.stringToTerraform(this._name),
+      node_count: cdktn.numberToTerraform(this._nodeCount),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      replica_names: cdktn.listMapper(cdktn.stringToTerraform, false)(this._replicaNames),
+      root_password: cdktn.stringToTerraform(this._rootPassword),
       clone: googleSqlDatabaseInstanceCloneToTerraform(this._clone.internalValue),
       replica_configuration: googleSqlDatabaseInstanceReplicaConfigurationToTerraform(this._replicaConfiguration.internalValue),
       replication_cluster: googleSqlDatabaseInstanceReplicationClusterToTerraform(this._replicationCluster.internalValue),
@@ -6349,79 +6349,79 @@ export class GoogleSqlDatabaseInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       database_version: {
-        value: cdktf.stringToHclTerraform(this._databaseVersion),
+        value: cdktn.stringToHclTerraform(this._databaseVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       encryption_key_name: {
-        value: cdktf.stringToHclTerraform(this._encryptionKeyName),
+        value: cdktn.stringToHclTerraform(this._encryptionKeyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_type: {
-        value: cdktf.stringToHclTerraform(this._instanceType),
+        value: cdktn.stringToHclTerraform(this._instanceType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       maintenance_version: {
-        value: cdktf.stringToHclTerraform(this._maintenanceVersion),
+        value: cdktn.stringToHclTerraform(this._maintenanceVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       master_instance_name: {
-        value: cdktf.stringToHclTerraform(this._masterInstanceName),
+        value: cdktn.stringToHclTerraform(this._masterInstanceName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       node_count: {
-        value: cdktf.numberToHclTerraform(this._nodeCount),
+        value: cdktn.numberToHclTerraform(this._nodeCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       replica_names: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._replicaNames),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._replicaNames),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       root_password: {
-        value: cdktf.stringToHclTerraform(this._rootPassword),
+        value: cdktn.stringToHclTerraform(this._rootPassword),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

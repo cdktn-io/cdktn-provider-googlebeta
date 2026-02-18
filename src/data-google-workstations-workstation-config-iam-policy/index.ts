@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleWorkstationsWorkstationConfigIamPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleWorkstationsWorkstationConfigIamPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_workstations_workstation_config_iam_policy#id DataGoogleWorkstationsWorkstationConfigIamPolicy#id}
   *
@@ -40,7 +40,7 @@ export interface DataGoogleWorkstationsWorkstationConfigIamPolicyConfig extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_workstations_workstation_config_iam_policy google_workstations_workstation_config_iam_policy}
 */
-export class DataGoogleWorkstationsWorkstationConfigIamPolicy extends cdktf.TerraformDataSource {
+export class DataGoogleWorkstationsWorkstationConfigIamPolicy extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -51,14 +51,14 @@ export class DataGoogleWorkstationsWorkstationConfigIamPolicy extends cdktf.Terr
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleWorkstationsWorkstationConfigIamPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleWorkstationsWorkstationConfigIamPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleWorkstationsWorkstationConfigIamPolicy to import
   * @param importFromId The id of the existing DataGoogleWorkstationsWorkstationConfigIamPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_workstations_workstation_config_iam_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleWorkstationsWorkstationConfigIamPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_workstations_workstation_config_iam_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_workstations_workstation_config_iam_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -189,42 +189,42 @@ export class DataGoogleWorkstationsWorkstationConfigIamPolicy extends cdktf.Terr
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
-      workstation_cluster_id: cdktf.stringToTerraform(this._workstationClusterId),
-      workstation_config_id: cdktf.stringToTerraform(this._workstationConfigId),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
+      workstation_cluster_id: cdktn.stringToTerraform(this._workstationClusterId),
+      workstation_config_id: cdktn.stringToTerraform(this._workstationConfigId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workstation_cluster_id: {
-        value: cdktf.stringToHclTerraform(this._workstationClusterId),
+        value: cdktn.stringToHclTerraform(this._workstationClusterId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workstation_config_id: {
-        value: cdktf.stringToHclTerraform(this._workstationConfigId),
+        value: cdktn.stringToHclTerraform(this._workstationConfigId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

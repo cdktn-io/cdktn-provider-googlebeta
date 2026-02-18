@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleKmsEkmConnectionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleKmsEkmConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Identifies the EKM Crypto Space that this EkmConnection maps to. Note: This field is required if KeyManagementMode is CLOUD_KMS.
   *
@@ -59,7 +59,7 @@ export interface GoogleKmsEkmConnectionConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_ekm_connection#service_resolvers GoogleKmsEkmConnection#service_resolvers}
   */
-  readonly serviceResolvers: GoogleKmsEkmConnectionServiceResolvers[] | cdktf.IResolvable;
+  readonly serviceResolvers: GoogleKmsEkmConnectionServiceResolvers[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -82,32 +82,32 @@ export interface GoogleKmsEkmConnectionServiceResolversServerCertificates {
   readonly subjectAlternativeDnsNames?: string[];
 }
 
-export function googleKmsEkmConnectionServiceResolversServerCertificatesToTerraform(struct?: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionServiceResolversServerCertificatesToTerraform(struct?: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    raw_der: cdktf.stringToTerraform(struct!.rawDer),
-    subject_alternative_dns_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subjectAlternativeDnsNames),
+    raw_der: cdktn.stringToTerraform(struct!.rawDer),
+    subject_alternative_dns_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.subjectAlternativeDnsNames),
   }
 }
 
 
-export function googleKmsEkmConnectionServiceResolversServerCertificatesToHclTerraform(struct?: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionServiceResolversServerCertificatesToHclTerraform(struct?: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     raw_der: {
-      value: cdktf.stringToHclTerraform(struct!.rawDer),
+      value: cdktn.stringToHclTerraform(struct!.rawDer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     subject_alternative_dns_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subjectAlternativeDnsNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.subjectAlternativeDnsNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -118,9 +118,9 @@ export function googleKmsEkmConnectionServiceResolversServerCertificatesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputReference extends cdktf.ComplexObject {
+export class GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -128,11 +128,11 @@ export class GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputRefer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -149,14 +149,14 @@ export class GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputRefer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleKmsEkmConnectionServiceResolversServerCertificates | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._rawDer = undefined;
       this._subjectAlternativeDnsNames = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -233,15 +233,15 @@ export class GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputRefer
   }
 }
 
-export class GoogleKmsEkmConnectionServiceResolversServerCertificatesList extends cdktf.ComplexList {
-  public internalValue? : GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktf.IResolvable
+export class GoogleKmsEkmConnectionServiceResolversServerCertificatesList extends cdktn.ComplexList {
+  public internalValue? : GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -278,49 +278,49 @@ export interface GoogleKmsEkmConnectionServiceResolvers {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_ekm_connection#server_certificates GoogleKmsEkmConnection#server_certificates}
   */
-  readonly serverCertificates: GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktf.IResolvable;
+  readonly serverCertificates: GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktn.IResolvable;
 }
 
-export function googleKmsEkmConnectionServiceResolversToTerraform(struct?: GoogleKmsEkmConnectionServiceResolvers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionServiceResolversToTerraform(struct?: GoogleKmsEkmConnectionServiceResolvers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    endpoint_filter: cdktf.stringToTerraform(struct!.endpointFilter),
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    service_directory_service: cdktf.stringToTerraform(struct!.serviceDirectoryService),
-    server_certificates: cdktf.listMapper(googleKmsEkmConnectionServiceResolversServerCertificatesToTerraform, true)(struct!.serverCertificates),
+    endpoint_filter: cdktn.stringToTerraform(struct!.endpointFilter),
+    hostname: cdktn.stringToTerraform(struct!.hostname),
+    service_directory_service: cdktn.stringToTerraform(struct!.serviceDirectoryService),
+    server_certificates: cdktn.listMapper(googleKmsEkmConnectionServiceResolversServerCertificatesToTerraform, true)(struct!.serverCertificates),
   }
 }
 
 
-export function googleKmsEkmConnectionServiceResolversToHclTerraform(struct?: GoogleKmsEkmConnectionServiceResolvers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionServiceResolversToHclTerraform(struct?: GoogleKmsEkmConnectionServiceResolvers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     endpoint_filter: {
-      value: cdktf.stringToHclTerraform(struct!.endpointFilter),
+      value: cdktn.stringToHclTerraform(struct!.endpointFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
+      value: cdktn.stringToHclTerraform(struct!.hostname),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_directory_service: {
-      value: cdktf.stringToHclTerraform(struct!.serviceDirectoryService),
+      value: cdktn.stringToHclTerraform(struct!.serviceDirectoryService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     server_certificates: {
-      value: cdktf.listMapperHcl(googleKmsEkmConnectionServiceResolversServerCertificatesToHclTerraform, true)(struct!.serverCertificates),
+      value: cdktn.listMapperHcl(googleKmsEkmConnectionServiceResolversServerCertificatesToHclTerraform, true)(struct!.serverCertificates),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleKmsEkmConnectionServiceResolversServerCertificatesList",
@@ -331,9 +331,9 @@ export function googleKmsEkmConnectionServiceResolversToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf.ComplexObject {
+export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -341,11 +341,11 @@ export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleKmsEkmConnectionServiceResolvers | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleKmsEkmConnectionServiceResolvers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -370,7 +370,7 @@ export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleKmsEkmConnectionServiceResolvers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleKmsEkmConnectionServiceResolvers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -379,7 +379,7 @@ export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf
       this._serviceDirectoryService = undefined;
       this._serverCertificates.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -440,7 +440,7 @@ export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf
   public get serverCertificates() {
     return this._serverCertificates;
   }
-  public putServerCertificates(value: GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktf.IResolvable) {
+  public putServerCertificates(value: GoogleKmsEkmConnectionServiceResolversServerCertificates[] | cdktn.IResolvable) {
     this._serverCertificates.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -449,15 +449,15 @@ export class GoogleKmsEkmConnectionServiceResolversOutputReference extends cdktf
   }
 }
 
-export class GoogleKmsEkmConnectionServiceResolversList extends cdktf.ComplexList {
-  public internalValue? : GoogleKmsEkmConnectionServiceResolvers[] | cdktf.IResolvable
+export class GoogleKmsEkmConnectionServiceResolversList extends cdktn.ComplexList {
+  public internalValue? : GoogleKmsEkmConnectionServiceResolvers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -483,39 +483,39 @@ export interface GoogleKmsEkmConnectionTimeouts {
   readonly update?: string;
 }
 
-export function googleKmsEkmConnectionTimeoutsToTerraform(struct?: GoogleKmsEkmConnectionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionTimeoutsToTerraform(struct?: GoogleKmsEkmConnectionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleKmsEkmConnectionTimeoutsToHclTerraform(struct?: GoogleKmsEkmConnectionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleKmsEkmConnectionTimeoutsToHclTerraform(struct?: GoogleKmsEkmConnectionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -526,19 +526,19 @@ export function googleKmsEkmConnectionTimeoutsToHclTerraform(struct?: GoogleKmsE
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleKmsEkmConnectionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleKmsEkmConnectionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleKmsEkmConnectionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleKmsEkmConnectionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -559,7 +559,7 @@ export class GoogleKmsEkmConnectionTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleKmsEkmConnectionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleKmsEkmConnectionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -567,7 +567,7 @@ export class GoogleKmsEkmConnectionTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -632,7 +632,7 @@ export class GoogleKmsEkmConnectionTimeoutsOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection}
 */
-export class GoogleKmsEkmConnection extends cdktf.TerraformResource {
+export class GoogleKmsEkmConnection extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -643,14 +643,14 @@ export class GoogleKmsEkmConnection extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleKmsEkmConnection resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleKmsEkmConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleKmsEkmConnection to import
   * @param importFromId The id of the existing GoogleKmsEkmConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_ekm_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleKmsEkmConnection to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_kms_ekm_connection", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_kms_ekm_connection", importId: importFromId, provider });
       }
 
   // ===========
@@ -811,7 +811,7 @@ export class GoogleKmsEkmConnection extends cdktf.TerraformResource {
   public get serviceResolvers() {
     return this._serviceResolvers;
   }
-  public putServiceResolvers(value: GoogleKmsEkmConnectionServiceResolvers[] | cdktf.IResolvable) {
+  public putServiceResolvers(value: GoogleKmsEkmConnectionServiceResolvers[] | cdktn.IResolvable) {
     this._serviceResolvers.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -841,14 +841,14 @@ export class GoogleKmsEkmConnection extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      crypto_space_path: cdktf.stringToTerraform(this._cryptoSpacePath),
-      etag: cdktf.stringToTerraform(this._etag),
-      id: cdktf.stringToTerraform(this._id),
-      key_management_mode: cdktf.stringToTerraform(this._keyManagementMode),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      service_resolvers: cdktf.listMapper(googleKmsEkmConnectionServiceResolversToTerraform, true)(this._serviceResolvers.internalValue),
+      crypto_space_path: cdktn.stringToTerraform(this._cryptoSpacePath),
+      etag: cdktn.stringToTerraform(this._etag),
+      id: cdktn.stringToTerraform(this._id),
+      key_management_mode: cdktn.stringToTerraform(this._keyManagementMode),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      service_resolvers: cdktn.listMapper(googleKmsEkmConnectionServiceResolversToTerraform, true)(this._serviceResolvers.internalValue),
       timeouts: googleKmsEkmConnectionTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -856,49 +856,49 @@ export class GoogleKmsEkmConnection extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       crypto_space_path: {
-        value: cdktf.stringToHclTerraform(this._cryptoSpacePath),
+        value: cdktn.stringToHclTerraform(this._cryptoSpacePath),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       etag: {
-        value: cdktf.stringToHclTerraform(this._etag),
+        value: cdktn.stringToHclTerraform(this._etag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key_management_mode: {
-        value: cdktf.stringToHclTerraform(this._keyManagementMode),
+        value: cdktn.stringToHclTerraform(this._keyManagementMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_resolvers: {
-        value: cdktf.listMapperHcl(googleKmsEkmConnectionServiceResolversToHclTerraform, true)(this._serviceResolvers.internalValue),
+        value: cdktn.listMapperHcl(googleKmsEkmConnectionServiceResolversToHclTerraform, true)(this._serviceResolvers.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleKmsEkmConnectionServiceResolversList",

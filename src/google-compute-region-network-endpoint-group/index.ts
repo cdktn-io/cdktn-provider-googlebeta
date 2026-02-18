@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeRegionNetworkEndpointGroupConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeRegionNetworkEndpointGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource. Provide this property when
   * you create the resource.
@@ -150,38 +150,38 @@ export interface GoogleComputeRegionNetworkEndpointGroupAppEngine {
 }
 
 export function googleComputeRegionNetworkEndpointGroupAppEngineToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference | GoogleComputeRegionNetworkEndpointGroupAppEngine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    service: cdktf.stringToTerraform(struct!.service),
-    url_mask: cdktf.stringToTerraform(struct!.urlMask),
-    version: cdktf.stringToTerraform(struct!.version),
+    service: cdktn.stringToTerraform(struct!.service),
+    url_mask: cdktn.stringToTerraform(struct!.urlMask),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleComputeRegionNetworkEndpointGroupAppEngineToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference | GoogleComputeRegionNetworkEndpointGroupAppEngine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url_mask: {
-      value: cdktf.stringToHclTerraform(struct!.urlMask),
+      value: cdktn.stringToHclTerraform(struct!.urlMask),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -192,14 +192,14 @@ export function googleComputeRegionNetworkEndpointGroupAppEngineToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -308,31 +308,31 @@ export interface GoogleComputeRegionNetworkEndpointGroupCloudFunction {
 }
 
 export function googleComputeRegionNetworkEndpointGroupCloudFunctionToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupCloudFunctionOutputReference | GoogleComputeRegionNetworkEndpointGroupCloudFunction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    function: cdktf.stringToTerraform(struct!.function),
-    url_mask: cdktf.stringToTerraform(struct!.urlMask),
+    function: cdktn.stringToTerraform(struct!.function),
+    url_mask: cdktn.stringToTerraform(struct!.urlMask),
   }
 }
 
 
 export function googleComputeRegionNetworkEndpointGroupCloudFunctionToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupCloudFunctionOutputReference | GoogleComputeRegionNetworkEndpointGroupCloudFunction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     function: {
-      value: cdktf.stringToHclTerraform(struct!.function),
+      value: cdktn.stringToHclTerraform(struct!.function),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url_mask: {
-      value: cdktf.stringToHclTerraform(struct!.urlMask),
+      value: cdktn.stringToHclTerraform(struct!.urlMask),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -343,14 +343,14 @@ export function googleComputeRegionNetworkEndpointGroupCloudFunctionToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupCloudFunctionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupCloudFunctionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -447,38 +447,38 @@ export interface GoogleComputeRegionNetworkEndpointGroupCloudRun {
 }
 
 export function googleComputeRegionNetworkEndpointGroupCloudRunToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupCloudRunOutputReference | GoogleComputeRegionNetworkEndpointGroupCloudRun): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    service: cdktf.stringToTerraform(struct!.service),
-    tag: cdktf.stringToTerraform(struct!.tag),
-    url_mask: cdktf.stringToTerraform(struct!.urlMask),
+    service: cdktn.stringToTerraform(struct!.service),
+    tag: cdktn.stringToTerraform(struct!.tag),
+    url_mask: cdktn.stringToTerraform(struct!.urlMask),
   }
 }
 
 
 export function googleComputeRegionNetworkEndpointGroupCloudRunToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupCloudRunOutputReference | GoogleComputeRegionNetworkEndpointGroupCloudRun): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tag: {
-      value: cdktf.stringToHclTerraform(struct!.tag),
+      value: cdktn.stringToHclTerraform(struct!.tag),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url_mask: {
-      value: cdktf.stringToHclTerraform(struct!.urlMask),
+      value: cdktn.stringToHclTerraform(struct!.urlMask),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -489,14 +489,14 @@ export function googleComputeRegionNetworkEndpointGroupCloudRunToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupCloudRunOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupCloudRunOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -594,24 +594,24 @@ export interface GoogleComputeRegionNetworkEndpointGroupPscData {
 }
 
 export function googleComputeRegionNetworkEndpointGroupPscDataToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupPscDataOutputReference | GoogleComputeRegionNetworkEndpointGroupPscData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    producer_port: cdktf.stringToTerraform(struct!.producerPort),
+    producer_port: cdktn.stringToTerraform(struct!.producerPort),
   }
 }
 
 
 export function googleComputeRegionNetworkEndpointGroupPscDataToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupPscDataOutputReference | GoogleComputeRegionNetworkEndpointGroupPscData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     producer_port: {
-      value: cdktf.stringToHclTerraform(struct!.producerPort),
+      value: cdktn.stringToHclTerraform(struct!.producerPort),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -622,14 +622,14 @@ export function googleComputeRegionNetworkEndpointGroupPscDataToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupPscDataOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupPscDataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -705,45 +705,45 @@ export interface GoogleComputeRegionNetworkEndpointGroupServerlessDeployment {
 }
 
 export function googleComputeRegionNetworkEndpointGroupServerlessDeploymentToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference | GoogleComputeRegionNetworkEndpointGroupServerlessDeployment): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    platform: cdktf.stringToTerraform(struct!.platform),
-    resource: cdktf.stringToTerraform(struct!.resource),
-    url_mask: cdktf.stringToTerraform(struct!.urlMask),
-    version: cdktf.stringToTerraform(struct!.version),
+    platform: cdktn.stringToTerraform(struct!.platform),
+    resource: cdktn.stringToTerraform(struct!.resource),
+    url_mask: cdktn.stringToTerraform(struct!.urlMask),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleComputeRegionNetworkEndpointGroupServerlessDeploymentToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference | GoogleComputeRegionNetworkEndpointGroupServerlessDeployment): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     platform: {
-      value: cdktf.stringToHclTerraform(struct!.platform),
+      value: cdktn.stringToHclTerraform(struct!.platform),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     resource: {
-      value: cdktf.stringToHclTerraform(struct!.resource),
+      value: cdktn.stringToHclTerraform(struct!.resource),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url_mask: {
-      value: cdktf.stringToHclTerraform(struct!.urlMask),
+      value: cdktn.stringToHclTerraform(struct!.urlMask),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -754,14 +754,14 @@ export function googleComputeRegionNetworkEndpointGroupServerlessDeploymentToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -876,32 +876,32 @@ export interface GoogleComputeRegionNetworkEndpointGroupTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeRegionNetworkEndpointGroupTimeoutsToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionNetworkEndpointGroupTimeoutsToTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeRegionNetworkEndpointGroupTimeoutsToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionNetworkEndpointGroupTimeoutsToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -912,19 +912,19 @@ export function googleComputeRegionNetworkEndpointGroupTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointGroupTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -941,14 +941,14 @@ export class GoogleComputeRegionNetworkEndpointGroupTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRegionNetworkEndpointGroupTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -996,7 +996,7 @@ export class GoogleComputeRegionNetworkEndpointGroupTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_endpoint_group google_compute_region_network_endpoint_group}
 */
-export class GoogleComputeRegionNetworkEndpointGroup extends cdktf.TerraformResource {
+export class GoogleComputeRegionNetworkEndpointGroup extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1007,14 +1007,14 @@ export class GoogleComputeRegionNetworkEndpointGroup extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeRegionNetworkEndpointGroup resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeRegionNetworkEndpointGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionNetworkEndpointGroup to import
   * @param importFromId The id of the existing GoogleComputeRegionNetworkEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_endpoint_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionNetworkEndpointGroup to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_network_endpoint_group", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_network_endpoint_group", importId: importFromId, provider });
       }
 
   // ===========
@@ -1310,15 +1310,15 @@ export class GoogleComputeRegionNetworkEndpointGroup extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      network_endpoint_type: cdktf.stringToTerraform(this._networkEndpointType),
-      project: cdktf.stringToTerraform(this._project),
-      psc_target_service: cdktf.stringToTerraform(this._pscTargetService),
-      region: cdktf.stringToTerraform(this._region),
-      subnetwork: cdktf.stringToTerraform(this._subnetwork),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      network_endpoint_type: cdktn.stringToTerraform(this._networkEndpointType),
+      project: cdktn.stringToTerraform(this._project),
+      psc_target_service: cdktn.stringToTerraform(this._pscTargetService),
+      region: cdktn.stringToTerraform(this._region),
+      subnetwork: cdktn.stringToTerraform(this._subnetwork),
       app_engine: googleComputeRegionNetworkEndpointGroupAppEngineToTerraform(this._appEngine.internalValue),
       cloud_function: googleComputeRegionNetworkEndpointGroupCloudFunctionToTerraform(this._cloudFunction.internalValue),
       cloud_run: googleComputeRegionNetworkEndpointGroupCloudRunToTerraform(this._cloudRun.internalValue),
@@ -1331,55 +1331,55 @@ export class GoogleComputeRegionNetworkEndpointGroup extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network_endpoint_type: {
-        value: cdktf.stringToHclTerraform(this._networkEndpointType),
+        value: cdktn.stringToHclTerraform(this._networkEndpointType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       psc_target_service: {
-        value: cdktf.stringToHclTerraform(this._pscTargetService),
+        value: cdktn.stringToHclTerraform(this._pscTargetService),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       subnetwork: {
-        value: cdktf.stringToHclTerraform(this._subnetwork),
+        value: cdktn.stringToHclTerraform(this._subnetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

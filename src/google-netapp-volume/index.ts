@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetappVolumeConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetappVolumeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Capacity of the volume (in GiB).
   *
@@ -45,7 +45,7 @@ export interface GoogleNetappVolumeConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos_enabled GoogleNetappVolume#kerberos_enabled}
   */
-  readonly kerberosEnabled?: boolean | cdktf.IResolvable;
+  readonly kerberosEnabled?: boolean | cdktn.IResolvable;
   /**
   * Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'.
   * 
@@ -61,7 +61,7 @@ export interface GoogleNetappVolumeConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#large_capacity GoogleNetappVolume#large_capacity}
   */
-  readonly largeCapacity?: boolean | cdktf.IResolvable;
+  readonly largeCapacity?: boolean | cdktn.IResolvable;
   /**
   * Name of the pool location. Usually a region name, expect for some STANDARD service level pools which require a zone name.
   *
@@ -74,7 +74,7 @@ export interface GoogleNetappVolumeConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#multiple_endpoints GoogleNetappVolume#multiple_endpoints}
   */
-  readonly multipleEndpoints?: boolean | cdktf.IResolvable;
+  readonly multipleEndpoints?: boolean | cdktn.IResolvable;
   /**
   * The name of the volume. Needs to be unique per location.
   *
@@ -121,7 +121,7 @@ export interface GoogleNetappVolumeConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#snapshot_directory GoogleNetappVolume#snapshot_directory}
   */
-  readonly snapshotDirectory?: boolean | cdktf.IResolvable;
+  readonly snapshotDirectory?: boolean | cdktn.IResolvable;
   /**
   * Name of the storage pool to create the volume in. Pool needs enough spare capacity to accommodate the volume.
   *
@@ -181,8 +181,8 @@ export interface GoogleNetappVolumeMountOptions {
 }
 
 export function googleNetappVolumeMountOptionsToTerraform(struct?: GoogleNetappVolumeMountOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -191,8 +191,8 @@ export function googleNetappVolumeMountOptionsToTerraform(struct?: GoogleNetappV
 
 
 export function googleNetappVolumeMountOptionsToHclTerraform(struct?: GoogleNetappVolumeMountOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -200,7 +200,7 @@ export function googleNetappVolumeMountOptionsToHclTerraform(struct?: GoogleNeta
   return attrs;
 }
 
-export class GoogleNetappVolumeMountOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeMountOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -209,7 +209,7 @@ export class GoogleNetappVolumeMountOptionsOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -249,14 +249,14 @@ export class GoogleNetappVolumeMountOptionsOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleNetappVolumeMountOptionsList extends cdktf.ComplexList {
+export class GoogleNetappVolumeMountOptionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -286,42 +286,42 @@ export interface GoogleNetappVolumeBackupConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#scheduled_backup_enabled GoogleNetappVolume#scheduled_backup_enabled}
   */
-  readonly scheduledBackupEnabled?: boolean | cdktf.IResolvable;
+  readonly scheduledBackupEnabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleNetappVolumeBackupConfigToTerraform(struct?: GoogleNetappVolumeBackupConfigOutputReference | GoogleNetappVolumeBackupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backup_policies: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.backupPolicies),
-    backup_vault: cdktf.stringToTerraform(struct!.backupVault),
-    scheduled_backup_enabled: cdktf.booleanToTerraform(struct!.scheduledBackupEnabled),
+    backup_policies: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.backupPolicies),
+    backup_vault: cdktn.stringToTerraform(struct!.backupVault),
+    scheduled_backup_enabled: cdktn.booleanToTerraform(struct!.scheduledBackupEnabled),
   }
 }
 
 
 export function googleNetappVolumeBackupConfigToHclTerraform(struct?: GoogleNetappVolumeBackupConfigOutputReference | GoogleNetappVolumeBackupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backup_policies: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.backupPolicies),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.backupPolicies),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     backup_vault: {
-      value: cdktf.stringToHclTerraform(struct!.backupVault),
+      value: cdktn.stringToHclTerraform(struct!.backupVault),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scheduled_backup_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.scheduledBackupEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.scheduledBackupEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -332,14 +332,14 @@ export function googleNetappVolumeBackupConfigToHclTerraform(struct?: GoogleNeta
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeBackupConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeBackupConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -409,11 +409,11 @@ export class GoogleNetappVolumeBackupConfigOutputReference extends cdktf.Complex
   }
 
   // scheduled_backup_enabled - computed: false, optional: true, required: false
-  private _scheduledBackupEnabled?: boolean | cdktf.IResolvable; 
+  private _scheduledBackupEnabled?: boolean | cdktn.IResolvable; 
   public get scheduledBackupEnabled() {
     return this.getBooleanAttribute('scheduled_backup_enabled');
   }
-  public set scheduledBackupEnabled(value: boolean | cdktf.IResolvable) {
+  public set scheduledBackupEnabled(value: boolean | cdktn.IResolvable) {
     this._scheduledBackupEnabled = value;
   }
   public resetScheduledBackupEnabled() {
@@ -448,140 +448,140 @@ export interface GoogleNetappVolumeExportPolicyRules {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_only GoogleNetappVolume#kerberos5_read_only}
   */
-  readonly kerberos5ReadOnly?: boolean | cdktf.IResolvable;
+  readonly kerberos5ReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'authentication' kerberos security mode. The 'kerberos5ReadOnly' value is ignored if this is enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5_read_write GoogleNetappVolume#kerberos5_read_write}
   */
-  readonly kerberos5ReadWrite?: boolean | cdktf.IResolvable;
+  readonly kerberos5ReadWrite?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'integrity' kerberos security mode.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_only GoogleNetappVolume#kerberos5i_read_only}
   */
-  readonly kerberos5IReadOnly?: boolean | cdktf.IResolvable;
+  readonly kerberos5IReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'integrity' kerberos security mode. The 'kerberos5iReadOnly' value is ignored if this is enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5i_read_write GoogleNetappVolume#kerberos5i_read_write}
   */
-  readonly kerberos5IReadWrite?: boolean | cdktf.IResolvable;
+  readonly kerberos5IReadWrite?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines a read only access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'privacy' kerberos security mode.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_only GoogleNetappVolume#kerberos5p_read_only}
   */
-  readonly kerberos5PReadOnly?: boolean | cdktf.IResolvable;
+  readonly kerberos5PReadOnly?: boolean | cdktn.IResolvable;
   /**
   * If enabled (true) the rule defines read and write access for clients matching the 'allowedClients' specification. It enables nfs clients to mount using 'privacy' kerberos security mode. The 'kerberos5pReadOnly' value is ignored if this is enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#kerberos5p_read_write GoogleNetappVolume#kerberos5p_read_write}
   */
-  readonly kerberos5PReadWrite?: boolean | cdktf.IResolvable;
+  readonly kerberos5PReadWrite?: boolean | cdktn.IResolvable;
   /**
   * Enable to apply the export rule to NFSV3 clients.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv3 GoogleNetappVolume#nfsv3}
   */
-  readonly nfsv3?: boolean | cdktf.IResolvable;
+  readonly nfsv3?: boolean | cdktn.IResolvable;
   /**
   * Enable to apply the export rule to NFSV4.1 clients.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#nfsv4 GoogleNetappVolume#nfsv4}
   */
-  readonly nfsv4?: boolean | cdktf.IResolvable;
+  readonly nfsv4?: boolean | cdktn.IResolvable;
 }
 
-export function googleNetappVolumeExportPolicyRulesToTerraform(struct?: GoogleNetappVolumeExportPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappVolumeExportPolicyRulesToTerraform(struct?: GoogleNetappVolumeExportPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    access_type: cdktf.stringToTerraform(struct!.accessType),
-    allowed_clients: cdktf.stringToTerraform(struct!.allowedClients),
-    has_root_access: cdktf.stringToTerraform(struct!.hasRootAccess),
-    kerberos5_read_only: cdktf.booleanToTerraform(struct!.kerberos5ReadOnly),
-    kerberos5_read_write: cdktf.booleanToTerraform(struct!.kerberos5ReadWrite),
-    kerberos5i_read_only: cdktf.booleanToTerraform(struct!.kerberos5IReadOnly),
-    kerberos5i_read_write: cdktf.booleanToTerraform(struct!.kerberos5IReadWrite),
-    kerberos5p_read_only: cdktf.booleanToTerraform(struct!.kerberos5PReadOnly),
-    kerberos5p_read_write: cdktf.booleanToTerraform(struct!.kerberos5PReadWrite),
-    nfsv3: cdktf.booleanToTerraform(struct!.nfsv3),
-    nfsv4: cdktf.booleanToTerraform(struct!.nfsv4),
+    access_type: cdktn.stringToTerraform(struct!.accessType),
+    allowed_clients: cdktn.stringToTerraform(struct!.allowedClients),
+    has_root_access: cdktn.stringToTerraform(struct!.hasRootAccess),
+    kerberos5_read_only: cdktn.booleanToTerraform(struct!.kerberos5ReadOnly),
+    kerberos5_read_write: cdktn.booleanToTerraform(struct!.kerberos5ReadWrite),
+    kerberos5i_read_only: cdktn.booleanToTerraform(struct!.kerberos5IReadOnly),
+    kerberos5i_read_write: cdktn.booleanToTerraform(struct!.kerberos5IReadWrite),
+    kerberos5p_read_only: cdktn.booleanToTerraform(struct!.kerberos5PReadOnly),
+    kerberos5p_read_write: cdktn.booleanToTerraform(struct!.kerberos5PReadWrite),
+    nfsv3: cdktn.booleanToTerraform(struct!.nfsv3),
+    nfsv4: cdktn.booleanToTerraform(struct!.nfsv4),
   }
 }
 
 
-export function googleNetappVolumeExportPolicyRulesToHclTerraform(struct?: GoogleNetappVolumeExportPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappVolumeExportPolicyRulesToHclTerraform(struct?: GoogleNetappVolumeExportPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     access_type: {
-      value: cdktf.stringToHclTerraform(struct!.accessType),
+      value: cdktn.stringToHclTerraform(struct!.accessType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     allowed_clients: {
-      value: cdktf.stringToHclTerraform(struct!.allowedClients),
+      value: cdktn.stringToHclTerraform(struct!.allowedClients),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     has_root_access: {
-      value: cdktf.stringToHclTerraform(struct!.hasRootAccess),
+      value: cdktn.stringToHclTerraform(struct!.hasRootAccess),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kerberos5_read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5ReadOnly),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5ReadOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kerberos5_read_write: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5ReadWrite),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5ReadWrite),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kerberos5i_read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5IReadOnly),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5IReadOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kerberos5i_read_write: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5IReadWrite),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5IReadWrite),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kerberos5p_read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5PReadOnly),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5PReadOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kerberos5p_read_write: {
-      value: cdktf.booleanToHclTerraform(struct!.kerberos5PReadWrite),
+      value: cdktn.booleanToHclTerraform(struct!.kerberos5PReadWrite),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     nfsv3: {
-      value: cdktf.booleanToHclTerraform(struct!.nfsv3),
+      value: cdktn.booleanToHclTerraform(struct!.nfsv3),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     nfsv4: {
-      value: cdktf.booleanToHclTerraform(struct!.nfsv4),
+      value: cdktn.booleanToHclTerraform(struct!.nfsv4),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -592,9 +592,9 @@ export function googleNetappVolumeExportPolicyRulesToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -602,11 +602,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleNetappVolumeExportPolicyRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetappVolumeExportPolicyRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -659,7 +659,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetappVolumeExportPolicyRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetappVolumeExportPolicyRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -675,7 +675,7 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
       this._nfsv3 = undefined;
       this._nfsv4 = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -745,11 +745,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5_read_only - computed: false, optional: true, required: false
-  private _kerberos5ReadOnly?: boolean | cdktf.IResolvable; 
+  private _kerberos5ReadOnly?: boolean | cdktn.IResolvable; 
   public get kerberos5ReadOnly() {
     return this.getBooleanAttribute('kerberos5_read_only');
   }
-  public set kerberos5ReadOnly(value: boolean | cdktf.IResolvable) {
+  public set kerberos5ReadOnly(value: boolean | cdktn.IResolvable) {
     this._kerberos5ReadOnly = value;
   }
   public resetKerberos5ReadOnly() {
@@ -761,11 +761,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5_read_write - computed: false, optional: true, required: false
-  private _kerberos5ReadWrite?: boolean | cdktf.IResolvable; 
+  private _kerberos5ReadWrite?: boolean | cdktn.IResolvable; 
   public get kerberos5ReadWrite() {
     return this.getBooleanAttribute('kerberos5_read_write');
   }
-  public set kerberos5ReadWrite(value: boolean | cdktf.IResolvable) {
+  public set kerberos5ReadWrite(value: boolean | cdktn.IResolvable) {
     this._kerberos5ReadWrite = value;
   }
   public resetKerberos5ReadWrite() {
@@ -777,11 +777,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5i_read_only - computed: false, optional: true, required: false
-  private _kerberos5IReadOnly?: boolean | cdktf.IResolvable; 
+  private _kerberos5IReadOnly?: boolean | cdktn.IResolvable; 
   public get kerberos5IReadOnly() {
     return this.getBooleanAttribute('kerberos5i_read_only');
   }
-  public set kerberos5IReadOnly(value: boolean | cdktf.IResolvable) {
+  public set kerberos5IReadOnly(value: boolean | cdktn.IResolvable) {
     this._kerberos5IReadOnly = value;
   }
   public resetKerberos5IReadOnly() {
@@ -793,11 +793,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5i_read_write - computed: false, optional: true, required: false
-  private _kerberos5IReadWrite?: boolean | cdktf.IResolvable; 
+  private _kerberos5IReadWrite?: boolean | cdktn.IResolvable; 
   public get kerberos5IReadWrite() {
     return this.getBooleanAttribute('kerberos5i_read_write');
   }
-  public set kerberos5IReadWrite(value: boolean | cdktf.IResolvable) {
+  public set kerberos5IReadWrite(value: boolean | cdktn.IResolvable) {
     this._kerberos5IReadWrite = value;
   }
   public resetKerberos5IReadWrite() {
@@ -809,11 +809,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5p_read_only - computed: false, optional: true, required: false
-  private _kerberos5PReadOnly?: boolean | cdktf.IResolvable; 
+  private _kerberos5PReadOnly?: boolean | cdktn.IResolvable; 
   public get kerberos5PReadOnly() {
     return this.getBooleanAttribute('kerberos5p_read_only');
   }
-  public set kerberos5PReadOnly(value: boolean | cdktf.IResolvable) {
+  public set kerberos5PReadOnly(value: boolean | cdktn.IResolvable) {
     this._kerberos5PReadOnly = value;
   }
   public resetKerberos5PReadOnly() {
@@ -825,11 +825,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // kerberos5p_read_write - computed: false, optional: true, required: false
-  private _kerberos5PReadWrite?: boolean | cdktf.IResolvable; 
+  private _kerberos5PReadWrite?: boolean | cdktn.IResolvable; 
   public get kerberos5PReadWrite() {
     return this.getBooleanAttribute('kerberos5p_read_write');
   }
-  public set kerberos5PReadWrite(value: boolean | cdktf.IResolvable) {
+  public set kerberos5PReadWrite(value: boolean | cdktn.IResolvable) {
     this._kerberos5PReadWrite = value;
   }
   public resetKerberos5PReadWrite() {
@@ -841,11 +841,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // nfsv3 - computed: false, optional: true, required: false
-  private _nfsv3?: boolean | cdktf.IResolvable; 
+  private _nfsv3?: boolean | cdktn.IResolvable; 
   public get nfsv3() {
     return this.getBooleanAttribute('nfsv3');
   }
-  public set nfsv3(value: boolean | cdktf.IResolvable) {
+  public set nfsv3(value: boolean | cdktn.IResolvable) {
     this._nfsv3 = value;
   }
   public resetNfsv3() {
@@ -857,11 +857,11 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 
   // nfsv4 - computed: false, optional: true, required: false
-  private _nfsv4?: boolean | cdktf.IResolvable; 
+  private _nfsv4?: boolean | cdktn.IResolvable; 
   public get nfsv4() {
     return this.getBooleanAttribute('nfsv4');
   }
-  public set nfsv4(value: boolean | cdktf.IResolvable) {
+  public set nfsv4(value: boolean | cdktn.IResolvable) {
     this._nfsv4 = value;
   }
   public resetNfsv4() {
@@ -873,15 +873,15 @@ export class GoogleNetappVolumeExportPolicyRulesOutputReference extends cdktf.Co
   }
 }
 
-export class GoogleNetappVolumeExportPolicyRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleNetappVolumeExportPolicyRules[] | cdktf.IResolvable
+export class GoogleNetappVolumeExportPolicyRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetappVolumeExportPolicyRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -898,28 +898,28 @@ export interface GoogleNetappVolumeExportPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#rules GoogleNetappVolume#rules}
   */
-  readonly rules: GoogleNetappVolumeExportPolicyRules[] | cdktf.IResolvable;
+  readonly rules: GoogleNetappVolumeExportPolicyRules[] | cdktn.IResolvable;
 }
 
 export function googleNetappVolumeExportPolicyToTerraform(struct?: GoogleNetappVolumeExportPolicyOutputReference | GoogleNetappVolumeExportPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    rules: cdktf.listMapper(googleNetappVolumeExportPolicyRulesToTerraform, true)(struct!.rules),
+    rules: cdktn.listMapper(googleNetappVolumeExportPolicyRulesToTerraform, true)(struct!.rules),
   }
 }
 
 
 export function googleNetappVolumeExportPolicyToHclTerraform(struct?: GoogleNetappVolumeExportPolicyOutputReference | GoogleNetappVolumeExportPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     rules: {
-      value: cdktf.listMapperHcl(googleNetappVolumeExportPolicyRulesToHclTerraform, true)(struct!.rules),
+      value: cdktn.listMapperHcl(googleNetappVolumeExportPolicyRulesToHclTerraform, true)(struct!.rules),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleNetappVolumeExportPolicyRulesList",
@@ -930,14 +930,14 @@ export function googleNetappVolumeExportPolicyToHclTerraform(struct?: GoogleNeta
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeExportPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeExportPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -967,7 +967,7 @@ export class GoogleNetappVolumeExportPolicyOutputReference extends cdktf.Complex
   public get rules() {
     return this._rules;
   }
-  public putRules(value: GoogleNetappVolumeExportPolicyRules[] | cdktf.IResolvable) {
+  public putRules(value: GoogleNetappVolumeExportPolicyRules[] | cdktn.IResolvable) {
     this._rules.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1028,73 +1028,73 @@ export interface GoogleNetappVolumeHybridReplicationParameters {
 }
 
 export function googleNetappVolumeHybridReplicationParametersToTerraform(struct?: GoogleNetappVolumeHybridReplicationParametersOutputReference | GoogleNetappVolumeHybridReplicationParameters): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_location: cdktf.stringToTerraform(struct!.clusterLocation),
-    description: cdktf.stringToTerraform(struct!.description),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    peer_cluster_name: cdktf.stringToTerraform(struct!.peerClusterName),
-    peer_ip_addresses: cdktf.stringToTerraform(struct!.peerIpAddresses),
-    peer_svm_name: cdktf.stringToTerraform(struct!.peerSvmName),
-    peer_volume_name: cdktf.stringToTerraform(struct!.peerVolumeName),
-    replication: cdktf.stringToTerraform(struct!.replication),
+    cluster_location: cdktn.stringToTerraform(struct!.clusterLocation),
+    description: cdktn.stringToTerraform(struct!.description),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    peer_cluster_name: cdktn.stringToTerraform(struct!.peerClusterName),
+    peer_ip_addresses: cdktn.stringToTerraform(struct!.peerIpAddresses),
+    peer_svm_name: cdktn.stringToTerraform(struct!.peerSvmName),
+    peer_volume_name: cdktn.stringToTerraform(struct!.peerVolumeName),
+    replication: cdktn.stringToTerraform(struct!.replication),
   }
 }
 
 
 export function googleNetappVolumeHybridReplicationParametersToHclTerraform(struct?: GoogleNetappVolumeHybridReplicationParametersOutputReference | GoogleNetappVolumeHybridReplicationParameters): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_location: {
-      value: cdktf.stringToHclTerraform(struct!.clusterLocation),
+      value: cdktn.stringToHclTerraform(struct!.clusterLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     peer_cluster_name: {
-      value: cdktf.stringToHclTerraform(struct!.peerClusterName),
+      value: cdktn.stringToHclTerraform(struct!.peerClusterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     peer_ip_addresses: {
-      value: cdktf.stringToHclTerraform(struct!.peerIpAddresses),
+      value: cdktn.stringToHclTerraform(struct!.peerIpAddresses),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     peer_svm_name: {
-      value: cdktf.stringToHclTerraform(struct!.peerSvmName),
+      value: cdktn.stringToHclTerraform(struct!.peerSvmName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     peer_volume_name: {
-      value: cdktf.stringToHclTerraform(struct!.peerVolumeName),
+      value: cdktn.stringToHclTerraform(struct!.peerVolumeName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replication: {
-      value: cdktf.stringToHclTerraform(struct!.replication),
+      value: cdktn.stringToHclTerraform(struct!.replication),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1105,14 +1105,14 @@ export function googleNetappVolumeHybridReplicationParametersToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeHybridReplicationParametersOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeHybridReplicationParametersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1327,31 +1327,31 @@ export interface GoogleNetappVolumeRestoreParameters {
 }
 
 export function googleNetappVolumeRestoreParametersToTerraform(struct?: GoogleNetappVolumeRestoreParametersOutputReference | GoogleNetappVolumeRestoreParameters): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    source_backup: cdktf.stringToTerraform(struct!.sourceBackup),
-    source_snapshot: cdktf.stringToTerraform(struct!.sourceSnapshot),
+    source_backup: cdktn.stringToTerraform(struct!.sourceBackup),
+    source_snapshot: cdktn.stringToTerraform(struct!.sourceSnapshot),
   }
 }
 
 
 export function googleNetappVolumeRestoreParametersToHclTerraform(struct?: GoogleNetappVolumeRestoreParametersOutputReference | GoogleNetappVolumeRestoreParameters): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     source_backup: {
-      value: cdktf.stringToHclTerraform(struct!.sourceBackup),
+      value: cdktn.stringToHclTerraform(struct!.sourceBackup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_snapshot: {
-      value: cdktf.stringToHclTerraform(struct!.sourceSnapshot),
+      value: cdktn.stringToHclTerraform(struct!.sourceSnapshot),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1362,14 +1362,14 @@ export function googleNetappVolumeRestoreParametersToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeRestoreParametersOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeRestoreParametersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1454,38 +1454,38 @@ export interface GoogleNetappVolumeSnapshotPolicyDailySchedule {
 }
 
 export function googleNetappVolumeSnapshotPolicyDailyScheduleToTerraform(struct?: GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyDailySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hour: cdktf.numberToTerraform(struct!.hour),
-    minute: cdktf.numberToTerraform(struct!.minute),
-    snapshots_to_keep: cdktf.numberToTerraform(struct!.snapshotsToKeep),
+    hour: cdktn.numberToTerraform(struct!.hour),
+    minute: cdktn.numberToTerraform(struct!.minute),
+    snapshots_to_keep: cdktn.numberToTerraform(struct!.snapshotsToKeep),
   }
 }
 
 
 export function googleNetappVolumeSnapshotPolicyDailyScheduleToHclTerraform(struct?: GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyDailySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hour: {
-      value: cdktf.numberToHclTerraform(struct!.hour),
+      value: cdktn.numberToHclTerraform(struct!.hour),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minute: {
-      value: cdktf.numberToHclTerraform(struct!.minute),
+      value: cdktn.numberToHclTerraform(struct!.minute),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     snapshots_to_keep: {
-      value: cdktf.numberToHclTerraform(struct!.snapshotsToKeep),
+      value: cdktn.numberToHclTerraform(struct!.snapshotsToKeep),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1496,14 +1496,14 @@ export function googleNetappVolumeSnapshotPolicyDailyScheduleToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1601,31 +1601,31 @@ export interface GoogleNetappVolumeSnapshotPolicyHourlySchedule {
 }
 
 export function googleNetappVolumeSnapshotPolicyHourlyScheduleToTerraform(struct?: GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyHourlySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    minute: cdktf.numberToTerraform(struct!.minute),
-    snapshots_to_keep: cdktf.numberToTerraform(struct!.snapshotsToKeep),
+    minute: cdktn.numberToTerraform(struct!.minute),
+    snapshots_to_keep: cdktn.numberToTerraform(struct!.snapshotsToKeep),
   }
 }
 
 
 export function googleNetappVolumeSnapshotPolicyHourlyScheduleToHclTerraform(struct?: GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyHourlySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     minute: {
-      value: cdktf.numberToHclTerraform(struct!.minute),
+      value: cdktn.numberToHclTerraform(struct!.minute),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     snapshots_to_keep: {
-      value: cdktf.numberToHclTerraform(struct!.snapshotsToKeep),
+      value: cdktn.numberToHclTerraform(struct!.snapshotsToKeep),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1636,14 +1636,14 @@ export function googleNetappVolumeSnapshotPolicyHourlyScheduleToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1731,45 +1731,45 @@ export interface GoogleNetappVolumeSnapshotPolicyMonthlySchedule {
 }
 
 export function googleNetappVolumeSnapshotPolicyMonthlyScheduleToTerraform(struct?: GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyMonthlySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    days_of_month: cdktf.stringToTerraform(struct!.daysOfMonth),
-    hour: cdktf.numberToTerraform(struct!.hour),
-    minute: cdktf.numberToTerraform(struct!.minute),
-    snapshots_to_keep: cdktf.numberToTerraform(struct!.snapshotsToKeep),
+    days_of_month: cdktn.stringToTerraform(struct!.daysOfMonth),
+    hour: cdktn.numberToTerraform(struct!.hour),
+    minute: cdktn.numberToTerraform(struct!.minute),
+    snapshots_to_keep: cdktn.numberToTerraform(struct!.snapshotsToKeep),
   }
 }
 
 
 export function googleNetappVolumeSnapshotPolicyMonthlyScheduleToHclTerraform(struct?: GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyMonthlySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     days_of_month: {
-      value: cdktf.stringToHclTerraform(struct!.daysOfMonth),
+      value: cdktn.stringToHclTerraform(struct!.daysOfMonth),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hour: {
-      value: cdktf.numberToHclTerraform(struct!.hour),
+      value: cdktn.numberToHclTerraform(struct!.hour),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minute: {
-      value: cdktf.numberToHclTerraform(struct!.minute),
+      value: cdktn.numberToHclTerraform(struct!.minute),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     snapshots_to_keep: {
-      value: cdktf.numberToHclTerraform(struct!.snapshotsToKeep),
+      value: cdktn.numberToHclTerraform(struct!.snapshotsToKeep),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1780,14 +1780,14 @@ export function googleNetappVolumeSnapshotPolicyMonthlyScheduleToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1919,45 +1919,45 @@ export interface GoogleNetappVolumeSnapshotPolicyWeeklySchedule {
 }
 
 export function googleNetappVolumeSnapshotPolicyWeeklyScheduleToTerraform(struct?: GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyWeeklySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day: cdktf.stringToTerraform(struct!.day),
-    hour: cdktf.numberToTerraform(struct!.hour),
-    minute: cdktf.numberToTerraform(struct!.minute),
-    snapshots_to_keep: cdktf.numberToTerraform(struct!.snapshotsToKeep),
+    day: cdktn.stringToTerraform(struct!.day),
+    hour: cdktn.numberToTerraform(struct!.hour),
+    minute: cdktn.numberToTerraform(struct!.minute),
+    snapshots_to_keep: cdktn.numberToTerraform(struct!.snapshotsToKeep),
   }
 }
 
 
 export function googleNetappVolumeSnapshotPolicyWeeklyScheduleToHclTerraform(struct?: GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference | GoogleNetappVolumeSnapshotPolicyWeeklySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day: {
-      value: cdktf.stringToHclTerraform(struct!.day),
+      value: cdktn.stringToHclTerraform(struct!.day),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hour: {
-      value: cdktf.numberToHclTerraform(struct!.hour),
+      value: cdktn.numberToHclTerraform(struct!.hour),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minute: {
-      value: cdktf.numberToHclTerraform(struct!.minute),
+      value: cdktn.numberToHclTerraform(struct!.minute),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     snapshots_to_keep: {
-      value: cdktf.numberToHclTerraform(struct!.snapshotsToKeep),
+      value: cdktn.numberToHclTerraform(struct!.snapshotsToKeep),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1968,14 +1968,14 @@ export function googleNetappVolumeSnapshotPolicyWeeklyScheduleToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2086,7 +2086,7 @@ export interface GoogleNetappVolumeSnapshotPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#enabled GoogleNetappVolume#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * daily_schedule block
   *
@@ -2114,12 +2114,12 @@ export interface GoogleNetappVolumeSnapshotPolicy {
 }
 
 export function googleNetappVolumeSnapshotPolicyToTerraform(struct?: GoogleNetappVolumeSnapshotPolicyOutputReference | GoogleNetappVolumeSnapshotPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
     daily_schedule: googleNetappVolumeSnapshotPolicyDailyScheduleToTerraform(struct!.dailySchedule),
     hourly_schedule: googleNetappVolumeSnapshotPolicyHourlyScheduleToTerraform(struct!.hourlySchedule),
     monthly_schedule: googleNetappVolumeSnapshotPolicyMonthlyScheduleToTerraform(struct!.monthlySchedule),
@@ -2129,13 +2129,13 @@ export function googleNetappVolumeSnapshotPolicyToTerraform(struct?: GoogleNetap
 
 
 export function googleNetappVolumeSnapshotPolicyToHclTerraform(struct?: GoogleNetappVolumeSnapshotPolicyOutputReference | GoogleNetappVolumeSnapshotPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2170,14 +2170,14 @@ export function googleNetappVolumeSnapshotPolicyToHclTerraform(struct?: GoogleNe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeSnapshotPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeSnapshotPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2227,11 +2227,11 @@ export class GoogleNetappVolumeSnapshotPolicyOutputReference extends cdktf.Compl
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -2320,7 +2320,7 @@ export interface GoogleNetappVolumeTieringPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#hot_tier_bypass_mode_enabled GoogleNetappVolume#hot_tier_bypass_mode_enabled}
   */
-  readonly hotTierBypassModeEnabled?: boolean | cdktf.IResolvable;
+  readonly hotTierBypassModeEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. Flag indicating if the volume has tiering policy enable/pause. Default is PAUSED. Default value: "PAUSED" Possible values: ["ENABLED", "PAUSED"]
   *
@@ -2330,38 +2330,38 @@ export interface GoogleNetappVolumeTieringPolicy {
 }
 
 export function googleNetappVolumeTieringPolicyToTerraform(struct?: GoogleNetappVolumeTieringPolicyOutputReference | GoogleNetappVolumeTieringPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cooling_threshold_days: cdktf.numberToTerraform(struct!.coolingThresholdDays),
-    hot_tier_bypass_mode_enabled: cdktf.booleanToTerraform(struct!.hotTierBypassModeEnabled),
-    tier_action: cdktf.stringToTerraform(struct!.tierAction),
+    cooling_threshold_days: cdktn.numberToTerraform(struct!.coolingThresholdDays),
+    hot_tier_bypass_mode_enabled: cdktn.booleanToTerraform(struct!.hotTierBypassModeEnabled),
+    tier_action: cdktn.stringToTerraform(struct!.tierAction),
   }
 }
 
 
 export function googleNetappVolumeTieringPolicyToHclTerraform(struct?: GoogleNetappVolumeTieringPolicyOutputReference | GoogleNetappVolumeTieringPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cooling_threshold_days: {
-      value: cdktf.numberToHclTerraform(struct!.coolingThresholdDays),
+      value: cdktn.numberToHclTerraform(struct!.coolingThresholdDays),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     hot_tier_bypass_mode_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.hotTierBypassModeEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.hotTierBypassModeEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     tier_action: {
-      value: cdktf.stringToHclTerraform(struct!.tierAction),
+      value: cdktn.stringToHclTerraform(struct!.tierAction),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2372,14 +2372,14 @@ export function googleNetappVolumeTieringPolicyToHclTerraform(struct?: GoogleNet
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeTieringPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeTieringPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2433,11 +2433,11 @@ export class GoogleNetappVolumeTieringPolicyOutputReference extends cdktf.Comple
   }
 
   // hot_tier_bypass_mode_enabled - computed: false, optional: true, required: false
-  private _hotTierBypassModeEnabled?: boolean | cdktf.IResolvable; 
+  private _hotTierBypassModeEnabled?: boolean | cdktn.IResolvable; 
   public get hotTierBypassModeEnabled() {
     return this.getBooleanAttribute('hot_tier_bypass_mode_enabled');
   }
-  public set hotTierBypassModeEnabled(value: boolean | cdktf.IResolvable) {
+  public set hotTierBypassModeEnabled(value: boolean | cdktn.IResolvable) {
     this._hotTierBypassModeEnabled = value;
   }
   public resetHotTierBypassModeEnabled() {
@@ -2479,39 +2479,39 @@ export interface GoogleNetappVolumeTimeouts {
   readonly update?: string;
 }
 
-export function googleNetappVolumeTimeoutsToTerraform(struct?: GoogleNetappVolumeTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappVolumeTimeoutsToTerraform(struct?: GoogleNetappVolumeTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetappVolumeTimeoutsToHclTerraform(struct?: GoogleNetappVolumeTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappVolumeTimeoutsToHclTerraform(struct?: GoogleNetappVolumeTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2522,19 +2522,19 @@ export function googleNetappVolumeTimeoutsToHclTerraform(struct?: GoogleNetappVo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappVolumeTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetappVolumeTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetappVolumeTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2555,7 +2555,7 @@ export class GoogleNetappVolumeTimeoutsOutputReference extends cdktf.ComplexObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetappVolumeTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetappVolumeTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2563,7 +2563,7 @@ export class GoogleNetappVolumeTimeoutsOutputReference extends cdktf.ComplexObje
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2628,7 +2628,7 @@ export class GoogleNetappVolumeTimeoutsOutputReference extends cdktf.ComplexObje
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume google_netapp_volume}
 */
-export class GoogleNetappVolume extends cdktf.TerraformResource {
+export class GoogleNetappVolume extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2639,14 +2639,14 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetappVolume resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetappVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetappVolume to import
   * @param importFromId The id of the existing GoogleNetappVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetappVolume to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_netapp_volume", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_netapp_volume", importId: importFromId, provider });
       }
 
   // ===========
@@ -2769,7 +2769,7 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -2801,11 +2801,11 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // kerberos_enabled - computed: false, optional: true, required: false
-  private _kerberosEnabled?: boolean | cdktf.IResolvable; 
+  private _kerberosEnabled?: boolean | cdktn.IResolvable; 
   public get kerberosEnabled() {
     return this.getBooleanAttribute('kerberos_enabled');
   }
-  public set kerberosEnabled(value: boolean | cdktf.IResolvable) {
+  public set kerberosEnabled(value: boolean | cdktn.IResolvable) {
     this._kerberosEnabled = value;
   }
   public resetKerberosEnabled() {
@@ -2838,11 +2838,11 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // large_capacity - computed: false, optional: true, required: false
-  private _largeCapacity?: boolean | cdktf.IResolvable; 
+  private _largeCapacity?: boolean | cdktn.IResolvable; 
   public get largeCapacity() {
     return this.getBooleanAttribute('large_capacity');
   }
-  public set largeCapacity(value: boolean | cdktf.IResolvable) {
+  public set largeCapacity(value: boolean | cdktn.IResolvable) {
     this._largeCapacity = value;
   }
   public resetLargeCapacity() {
@@ -2878,11 +2878,11 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // multiple_endpoints - computed: false, optional: true, required: false
-  private _multipleEndpoints?: boolean | cdktf.IResolvable; 
+  private _multipleEndpoints?: boolean | cdktn.IResolvable; 
   public get multipleEndpoints() {
     return this.getBooleanAttribute('multiple_endpoints');
   }
-  public set multipleEndpoints(value: boolean | cdktf.IResolvable) {
+  public set multipleEndpoints(value: boolean | cdktn.IResolvable) {
     this._multipleEndpoints = value;
   }
   public resetMultipleEndpoints() {
@@ -3017,11 +3017,11 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // snapshot_directory - computed: false, optional: true, required: false
-  private _snapshotDirectory?: boolean | cdktf.IResolvable; 
+  private _snapshotDirectory?: boolean | cdktn.IResolvable; 
   public get snapshotDirectory() {
     return this.getBooleanAttribute('snapshot_directory');
   }
-  public set snapshotDirectory(value: boolean | cdktf.IResolvable) {
+  public set snapshotDirectory(value: boolean | cdktn.IResolvable) {
     this._snapshotDirectory = value;
   }
   public resetSnapshotDirectory() {
@@ -3056,7 +3056,7 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -3205,25 +3205,25 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      capacity_gib: cdktf.stringToTerraform(this._capacityGib),
-      deletion_policy: cdktf.stringToTerraform(this._deletionPolicy),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      kerberos_enabled: cdktf.booleanToTerraform(this._kerberosEnabled),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      large_capacity: cdktf.booleanToTerraform(this._largeCapacity),
-      location: cdktf.stringToTerraform(this._location),
-      multiple_endpoints: cdktf.booleanToTerraform(this._multipleEndpoints),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      protocols: cdktf.listMapper(cdktf.stringToTerraform, false)(this._protocols),
-      restricted_actions: cdktf.listMapper(cdktf.stringToTerraform, false)(this._restrictedActions),
-      security_style: cdktf.stringToTerraform(this._securityStyle),
-      share_name: cdktf.stringToTerraform(this._shareName),
-      smb_settings: cdktf.listMapper(cdktf.stringToTerraform, false)(this._smbSettings),
-      snapshot_directory: cdktf.booleanToTerraform(this._snapshotDirectory),
-      storage_pool: cdktf.stringToTerraform(this._storagePool),
-      unix_permissions: cdktf.stringToTerraform(this._unixPermissions),
+      capacity_gib: cdktn.stringToTerraform(this._capacityGib),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      kerberos_enabled: cdktn.booleanToTerraform(this._kerberosEnabled),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      large_capacity: cdktn.booleanToTerraform(this._largeCapacity),
+      location: cdktn.stringToTerraform(this._location),
+      multiple_endpoints: cdktn.booleanToTerraform(this._multipleEndpoints),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      protocols: cdktn.listMapper(cdktn.stringToTerraform, false)(this._protocols),
+      restricted_actions: cdktn.listMapper(cdktn.stringToTerraform, false)(this._restrictedActions),
+      security_style: cdktn.stringToTerraform(this._securityStyle),
+      share_name: cdktn.stringToTerraform(this._shareName),
+      smb_settings: cdktn.listMapper(cdktn.stringToTerraform, false)(this._smbSettings),
+      snapshot_directory: cdktn.booleanToTerraform(this._snapshotDirectory),
+      storage_pool: cdktn.stringToTerraform(this._storagePool),
+      unix_permissions: cdktn.stringToTerraform(this._unixPermissions),
       backup_config: googleNetappVolumeBackupConfigToTerraform(this._backupConfig.internalValue),
       export_policy: googleNetappVolumeExportPolicyToTerraform(this._exportPolicy.internalValue),
       hybrid_replication_parameters: googleNetappVolumeHybridReplicationParametersToTerraform(this._hybridReplicationParameters.internalValue),
@@ -3237,115 +3237,115 @@ export class GoogleNetappVolume extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       capacity_gib: {
-        value: cdktf.stringToHclTerraform(this._capacityGib),
+        value: cdktn.stringToHclTerraform(this._capacityGib),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_policy: {
-        value: cdktf.stringToHclTerraform(this._deletionPolicy),
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kerberos_enabled: {
-        value: cdktf.booleanToHclTerraform(this._kerberosEnabled),
+        value: cdktn.booleanToHclTerraform(this._kerberosEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       large_capacity: {
-        value: cdktf.booleanToHclTerraform(this._largeCapacity),
+        value: cdktn.booleanToHclTerraform(this._largeCapacity),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       multiple_endpoints: {
-        value: cdktf.booleanToHclTerraform(this._multipleEndpoints),
+        value: cdktn.booleanToHclTerraform(this._multipleEndpoints),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       protocols: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._protocols),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._protocols),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       restricted_actions: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._restrictedActions),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._restrictedActions),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       security_style: {
-        value: cdktf.stringToHclTerraform(this._securityStyle),
+        value: cdktn.stringToHclTerraform(this._securityStyle),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       share_name: {
-        value: cdktf.stringToHclTerraform(this._shareName),
+        value: cdktn.stringToHclTerraform(this._shareName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       smb_settings: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._smbSettings),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._smbSettings),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       snapshot_directory: {
-        value: cdktf.booleanToHclTerraform(this._snapshotDirectory),
+        value: cdktn.booleanToHclTerraform(this._snapshotDirectory),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       storage_pool: {
-        value: cdktf.stringToHclTerraform(this._storagePool),
+        value: cdktn.stringToHclTerraform(this._storagePool),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       unix_permissions: {
-        value: cdktf.stringToHclTerraform(this._unixPermissions),
+        value: cdktn.stringToHclTerraform(this._unixPermissions),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

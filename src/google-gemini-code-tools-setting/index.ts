@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleGeminiCodeToolsSettingConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleGeminiCodeToolsSettingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Id of the Code Tools Setting.
   *
@@ -49,7 +49,7 @@ export interface GoogleGeminiCodeToolsSettingConfig extends cdktf.TerraformMetaA
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting#enabled_tool GoogleGeminiCodeToolsSetting#enabled_tool}
   */
-  readonly enabledTool: GoogleGeminiCodeToolsSettingEnabledTool[] | cdktf.IResolvable;
+  readonly enabledTool: GoogleGeminiCodeToolsSettingEnabledTool[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -72,32 +72,32 @@ export interface GoogleGeminiCodeToolsSettingEnabledToolConfig {
   readonly value: string;
 }
 
-export function googleGeminiCodeToolsSettingEnabledToolConfigToTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingEnabledToolConfigToTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key: cdktf.stringToTerraform(struct!.key),
-    value: cdktf.stringToTerraform(struct!.value),
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleGeminiCodeToolsSettingEnabledToolConfigToHclTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingEnabledToolConfigToHclTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -108,9 +108,9 @@ export function googleGeminiCodeToolsSettingEnabledToolConfigToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGeminiCodeToolsSettingEnabledToolConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGeminiCodeToolsSettingEnabledToolConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -118,11 +118,11 @@ export class GoogleGeminiCodeToolsSettingEnabledToolConfigOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -139,14 +139,14 @@ export class GoogleGeminiCodeToolsSettingEnabledToolConfigOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGeminiCodeToolsSettingEnabledToolConfig | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._key = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -185,15 +185,15 @@ export class GoogleGeminiCodeToolsSettingEnabledToolConfigOutputReference extend
   }
 }
 
-export class GoogleGeminiCodeToolsSettingEnabledToolConfigList extends cdktf.ComplexList {
-  public internalValue? : GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktf.IResolvable
+export class GoogleGeminiCodeToolsSettingEnabledToolConfigList extends cdktn.ComplexList {
+  public internalValue? : GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -235,56 +235,56 @@ export interface GoogleGeminiCodeToolsSettingEnabledTool {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting#config GoogleGeminiCodeToolsSetting#config}
   */
-  readonly config?: GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktf.IResolvable;
+  readonly config?: GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktn.IResolvable;
 }
 
-export function googleGeminiCodeToolsSettingEnabledToolToTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledTool | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingEnabledToolToTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledTool | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    account_connector: cdktf.stringToTerraform(struct!.accountConnector),
-    handle: cdktf.stringToTerraform(struct!.handle),
-    tool: cdktf.stringToTerraform(struct!.tool),
-    uri_override: cdktf.stringToTerraform(struct!.uriOverride),
-    config: cdktf.listMapper(googleGeminiCodeToolsSettingEnabledToolConfigToTerraform, true)(struct!.config),
+    account_connector: cdktn.stringToTerraform(struct!.accountConnector),
+    handle: cdktn.stringToTerraform(struct!.handle),
+    tool: cdktn.stringToTerraform(struct!.tool),
+    uri_override: cdktn.stringToTerraform(struct!.uriOverride),
+    config: cdktn.listMapper(googleGeminiCodeToolsSettingEnabledToolConfigToTerraform, true)(struct!.config),
   }
 }
 
 
-export function googleGeminiCodeToolsSettingEnabledToolToHclTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledTool | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingEnabledToolToHclTerraform(struct?: GoogleGeminiCodeToolsSettingEnabledTool | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     account_connector: {
-      value: cdktf.stringToHclTerraform(struct!.accountConnector),
+      value: cdktn.stringToHclTerraform(struct!.accountConnector),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     handle: {
-      value: cdktf.stringToHclTerraform(struct!.handle),
+      value: cdktn.stringToHclTerraform(struct!.handle),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tool: {
-      value: cdktf.stringToHclTerraform(struct!.tool),
+      value: cdktn.stringToHclTerraform(struct!.tool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri_override: {
-      value: cdktf.stringToHclTerraform(struct!.uriOverride),
+      value: cdktn.stringToHclTerraform(struct!.uriOverride),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     config: {
-      value: cdktf.listMapperHcl(googleGeminiCodeToolsSettingEnabledToolConfigToHclTerraform, true)(struct!.config),
+      value: cdktn.listMapperHcl(googleGeminiCodeToolsSettingEnabledToolConfigToHclTerraform, true)(struct!.config),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGeminiCodeToolsSettingEnabledToolConfigList",
@@ -295,9 +295,9 @@ export function googleGeminiCodeToolsSettingEnabledToolToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdktf.ComplexObject {
+export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -305,11 +305,11 @@ export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGeminiCodeToolsSettingEnabledTool | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGeminiCodeToolsSettingEnabledTool | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -338,7 +338,7 @@ export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGeminiCodeToolsSettingEnabledTool | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGeminiCodeToolsSettingEnabledTool | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -348,7 +348,7 @@ export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdkt
       this._uriOverride = undefined;
       this._config.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -426,7 +426,7 @@ export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdkt
   public get config() {
     return this._config;
   }
-  public putConfig(value: GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktf.IResolvable) {
+  public putConfig(value: GoogleGeminiCodeToolsSettingEnabledToolConfig[] | cdktn.IResolvable) {
     this._config.internalValue = value;
   }
   public resetConfig() {
@@ -438,15 +438,15 @@ export class GoogleGeminiCodeToolsSettingEnabledToolOutputReference extends cdkt
   }
 }
 
-export class GoogleGeminiCodeToolsSettingEnabledToolList extends cdktf.ComplexList {
-  public internalValue? : GoogleGeminiCodeToolsSettingEnabledTool[] | cdktf.IResolvable
+export class GoogleGeminiCodeToolsSettingEnabledToolList extends cdktn.ComplexList {
+  public internalValue? : GoogleGeminiCodeToolsSettingEnabledTool[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -472,39 +472,39 @@ export interface GoogleGeminiCodeToolsSettingTimeouts {
   readonly update?: string;
 }
 
-export function googleGeminiCodeToolsSettingTimeoutsToTerraform(struct?: GoogleGeminiCodeToolsSettingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingTimeoutsToTerraform(struct?: GoogleGeminiCodeToolsSettingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleGeminiCodeToolsSettingTimeoutsToHclTerraform(struct?: GoogleGeminiCodeToolsSettingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiCodeToolsSettingTimeoutsToHclTerraform(struct?: GoogleGeminiCodeToolsSettingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -515,19 +515,19 @@ export function googleGeminiCodeToolsSettingTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGeminiCodeToolsSettingTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleGeminiCodeToolsSettingTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleGeminiCodeToolsSettingTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGeminiCodeToolsSettingTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -548,7 +548,7 @@ export class GoogleGeminiCodeToolsSettingTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGeminiCodeToolsSettingTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGeminiCodeToolsSettingTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -556,7 +556,7 @@ export class GoogleGeminiCodeToolsSettingTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -621,7 +621,7 @@ export class GoogleGeminiCodeToolsSettingTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting}
 */
-export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
+export class GoogleGeminiCodeToolsSetting extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -632,14 +632,14 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleGeminiCodeToolsSetting resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleGeminiCodeToolsSetting resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGeminiCodeToolsSetting to import
   * @param importFromId The id of the existing GoogleGeminiCodeToolsSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_tools_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGeminiCodeToolsSetting to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_gemini_code_tools_setting", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_gemini_code_tools_setting", importId: importFromId, provider });
       }
 
   // ===========
@@ -701,7 +701,7 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -776,7 +776,7 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -791,7 +791,7 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
   public get enabledTool() {
     return this._enabledTool;
   }
-  public putEnabledTool(value: GoogleGeminiCodeToolsSettingEnabledTool[] | cdktf.IResolvable) {
+  public putEnabledTool(value: GoogleGeminiCodeToolsSettingEnabledTool[] | cdktn.IResolvable) {
     this._enabledTool.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -821,12 +821,12 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      code_tools_setting_id: cdktf.stringToTerraform(this._codeToolsSettingId),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
-      enabled_tool: cdktf.listMapper(googleGeminiCodeToolsSettingEnabledToolToTerraform, true)(this._enabledTool.internalValue),
+      code_tools_setting_id: cdktn.stringToTerraform(this._codeToolsSettingId),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
+      enabled_tool: cdktn.listMapper(googleGeminiCodeToolsSettingEnabledToolToTerraform, true)(this._enabledTool.internalValue),
       timeouts: googleGeminiCodeToolsSettingTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -834,37 +834,37 @@ export class GoogleGeminiCodeToolsSetting extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       code_tools_setting_id: {
-        value: cdktf.stringToHclTerraform(this._codeToolsSettingId),
+        value: cdktn.stringToHclTerraform(this._codeToolsSettingId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled_tool: {
-        value: cdktf.listMapperHcl(googleGeminiCodeToolsSettingEnabledToolToHclTerraform, true)(this._enabledTool.internalValue),
+        value: cdktn.listMapperHcl(googleGeminiCodeToolsSettingEnabledToolToHclTerraform, true)(this._enabledTool.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleGeminiCodeToolsSettingEnabledToolList",

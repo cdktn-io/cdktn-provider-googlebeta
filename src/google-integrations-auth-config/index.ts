@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIntegrationsAuthConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIntegrationsAuthConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the auth config.
   *
@@ -105,38 +105,38 @@ export interface GoogleIntegrationsAuthConfigClientCertificate {
 }
 
 export function googleIntegrationsAuthConfigClientCertificateToTerraform(struct?: GoogleIntegrationsAuthConfigClientCertificateOutputReference | GoogleIntegrationsAuthConfigClientCertificate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    encrypted_private_key: cdktf.stringToTerraform(struct!.encryptedPrivateKey),
-    passphrase: cdktf.stringToTerraform(struct!.passphrase),
-    ssl_certificate: cdktf.stringToTerraform(struct!.sslCertificate),
+    encrypted_private_key: cdktn.stringToTerraform(struct!.encryptedPrivateKey),
+    passphrase: cdktn.stringToTerraform(struct!.passphrase),
+    ssl_certificate: cdktn.stringToTerraform(struct!.sslCertificate),
   }
 }
 
 
 export function googleIntegrationsAuthConfigClientCertificateToHclTerraform(struct?: GoogleIntegrationsAuthConfigClientCertificateOutputReference | GoogleIntegrationsAuthConfigClientCertificate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     encrypted_private_key: {
-      value: cdktf.stringToHclTerraform(struct!.encryptedPrivateKey),
+      value: cdktn.stringToHclTerraform(struct!.encryptedPrivateKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     passphrase: {
-      value: cdktf.stringToHclTerraform(struct!.passphrase),
+      value: cdktn.stringToHclTerraform(struct!.passphrase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.sslCertificate),
+      value: cdktn.stringToHclTerraform(struct!.sslCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -147,14 +147,14 @@ export function googleIntegrationsAuthConfigClientCertificateToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigClientCertificateOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigClientCertificateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -249,31 +249,31 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken {
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialAuthTokenToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    token: cdktf.stringToTerraform(struct!.token),
-    type: cdktf.stringToTerraform(struct!.type),
+    token: cdktn.stringToTerraform(struct!.token),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialAuthTokenToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     token: {
-      value: cdktf.stringToHclTerraform(struct!.token),
+      value: cdktn.stringToHclTerraform(struct!.token),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -284,14 +284,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialAuthTokenToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialAuthTokenOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -376,38 +376,38 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialJwt {
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialJwtToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialJwt): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    jwt_header: cdktf.stringToTerraform(struct!.jwtHeader),
-    jwt_payload: cdktf.stringToTerraform(struct!.jwtPayload),
-    secret: cdktf.stringToTerraform(struct!.secret),
+    jwt_header: cdktn.stringToTerraform(struct!.jwtHeader),
+    jwt_payload: cdktn.stringToTerraform(struct!.jwtPayload),
+    secret: cdktn.stringToTerraform(struct!.secret),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialJwtToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialJwt): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     jwt_header: {
-      value: cdktf.stringToHclTerraform(struct!.jwtHeader),
+      value: cdktn.stringToHclTerraform(struct!.jwtHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     jwt_payload: {
-      value: cdktf.stringToHclTerraform(struct!.jwtPayload),
+      value: cdktn.stringToHclTerraform(struct!.jwtPayload),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secret: {
-      value: cdktf.stringToHclTerraform(struct!.secret),
+      value: cdktn.stringToHclTerraform(struct!.secret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -418,14 +418,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialJwtToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -549,52 +549,52 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizat
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    auth_endpoint: cdktf.stringToTerraform(struct!.authEndpoint),
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    client_secret: cdktf.stringToTerraform(struct!.clientSecret),
-    scope: cdktf.stringToTerraform(struct!.scope),
-    token_endpoint: cdktf.stringToTerraform(struct!.tokenEndpoint),
+    auth_endpoint: cdktn.stringToTerraform(struct!.authEndpoint),
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    client_secret: cdktn.stringToTerraform(struct!.clientSecret),
+    scope: cdktn.stringToTerraform(struct!.scope),
+    token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     auth_endpoint: {
-      value: cdktf.stringToHclTerraform(struct!.authEndpoint),
+      value: cdktn.stringToHclTerraform(struct!.authEndpoint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
+      value: cdktn.stringToHclTerraform(struct!.clientId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     client_secret: {
-      value: cdktf.stringToHclTerraform(struct!.clientSecret),
+      value: cdktn.stringToHclTerraform(struct!.clientSecret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scope: {
-      value: cdktf.stringToHclTerraform(struct!.scope),
+      value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     token_endpoint: {
-      value: cdktf.stringToHclTerraform(struct!.tokenEndpoint),
+      value: cdktn.stringToHclTerraform(struct!.tokenEndpoint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -605,14 +605,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizati
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -751,24 +751,24 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    string_value: cdktf.stringToTerraform(struct!.stringValue),
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     string_value: {
-      value: cdktf.stringToHclTerraform(struct!.stringValue),
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -779,14 +779,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValueOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -837,8 +837,8 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -848,8 +848,8 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -865,14 +865,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -923,24 +923,24 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    string_value: cdktf.stringToTerraform(struct!.stringValue),
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     string_value: {
-      value: cdktf.stringToHclTerraform(struct!.stringValue),
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -951,14 +951,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValueOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1009,8 +1009,8 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1020,8 +1020,8 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1037,14 +1037,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1100,9 +1100,9 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   readonly value?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue;
 }
 
-export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1112,9 +1112,9 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
 }
 
 
-export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1136,9 +1136,9 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1146,11 +1146,11 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1167,14 +1167,14 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._key.internalValue = undefined;
       this._value.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1219,15 +1219,15 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
   }
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList extends cdktf.ComplexList {
-  public internalValue? : GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktf.IResolvable
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1244,28 +1244,28 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
   */
-  readonly entries?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktf.IResolvable;
+  readonly entries?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktn.IResolvable;
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    entries: cdktf.listMapper(googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToTerraform, true)(struct!.entries),
+    entries: cdktn.listMapper(googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToTerraform, true)(struct!.entries),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     entries: {
-      value: cdktf.listMapperHcl(googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToHclTerraform, true)(struct!.entries),
+      value: cdktn.listMapperHcl(googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesToHclTerraform, true)(struct!.entries),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesList",
@@ -1276,14 +1276,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1313,7 +1313,7 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredenti
   public get entries() {
     return this._entries;
   }
-  public putEntries(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktf.IResolvable) {
+  public putEntries(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktn.IResolvable) {
     this._entries.internalValue = value;
   }
   public resetEntries() {
@@ -1364,53 +1364,53 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    client_secret: cdktf.stringToTerraform(struct!.clientSecret),
-    request_type: cdktf.stringToTerraform(struct!.requestType),
-    scope: cdktf.stringToTerraform(struct!.scope),
-    token_endpoint: cdktf.stringToTerraform(struct!.tokenEndpoint),
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    client_secret: cdktn.stringToTerraform(struct!.clientSecret),
+    request_type: cdktn.stringToTerraform(struct!.requestType),
+    scope: cdktn.stringToTerraform(struct!.scope),
+    token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
     token_params: googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsToTerraform(struct!.tokenParams),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
+      value: cdktn.stringToHclTerraform(struct!.clientId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     client_secret: {
-      value: cdktf.stringToHclTerraform(struct!.clientSecret),
+      value: cdktn.stringToHclTerraform(struct!.clientSecret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_type: {
-      value: cdktf.stringToHclTerraform(struct!.requestType),
+      value: cdktn.stringToHclTerraform(struct!.requestType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scope: {
-      value: cdktf.stringToHclTerraform(struct!.scope),
+      value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     token_endpoint: {
-      value: cdktf.stringToHclTerraform(struct!.tokenEndpoint),
+      value: cdktn.stringToHclTerraform(struct!.tokenEndpoint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1427,14 +1427,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCrede
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1601,31 +1601,31 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken {
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOidcTokenToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    audience: cdktf.stringToTerraform(struct!.audience),
-    service_account_email: cdktf.stringToTerraform(struct!.serviceAccountEmail),
+    audience: cdktn.stringToTerraform(struct!.audience),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOidcTokenToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     audience: {
-      value: cdktf.stringToHclTerraform(struct!.audience),
+      value: cdktn.stringToHclTerraform(struct!.audience),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1636,14 +1636,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOidcTokenToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOidcTokenOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1732,31 +1732,31 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCr
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scope: cdktf.stringToTerraform(struct!.scope),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
+    scope: cdktn.stringToTerraform(struct!.scope),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scope: {
-      value: cdktf.stringToHclTerraform(struct!.scope),
+      value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1767,14 +1767,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialServiceAccountCre
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1853,31 +1853,31 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassw
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    password: cdktf.stringToTerraform(struct!.password),
-    username: cdktf.stringToTerraform(struct!.username),
+    password: cdktn.stringToTerraform(struct!.password),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
+      value: cdktn.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1888,14 +1888,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPasswordOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2010,12 +2010,12 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredential {
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference | GoogleIntegrationsAuthConfigDecryptedCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    credential_type: cdktf.stringToTerraform(struct!.credentialType),
+    credential_type: cdktn.stringToTerraform(struct!.credentialType),
     auth_token: googleIntegrationsAuthConfigDecryptedCredentialAuthTokenToTerraform(struct!.authToken),
     jwt: googleIntegrationsAuthConfigDecryptedCredentialJwtToTerraform(struct!.jwt),
     oauth2_authorization_code: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeToTerraform(struct!.oauth2AuthorizationCode),
@@ -2028,13 +2028,13 @@ export function googleIntegrationsAuthConfigDecryptedCredentialToTerraform(struc
 
 
 export function googleIntegrationsAuthConfigDecryptedCredentialToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference | GoogleIntegrationsAuthConfigDecryptedCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     credential_type: {
-      value: cdktf.stringToHclTerraform(struct!.credentialType),
+      value: cdktn.stringToHclTerraform(struct!.credentialType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2087,14 +2087,14 @@ export function googleIntegrationsAuthConfigDecryptedCredentialToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2301,39 +2301,39 @@ export interface GoogleIntegrationsAuthConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleIntegrationsAuthConfigTimeoutsToTerraform(struct?: GoogleIntegrationsAuthConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIntegrationsAuthConfigTimeoutsToTerraform(struct?: GoogleIntegrationsAuthConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIntegrationsAuthConfigTimeoutsToHclTerraform(struct?: GoogleIntegrationsAuthConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIntegrationsAuthConfigTimeoutsToHclTerraform(struct?: GoogleIntegrationsAuthConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2344,19 +2344,19 @@ export function googleIntegrationsAuthConfigTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIntegrationsAuthConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIntegrationsAuthConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2377,7 +2377,7 @@ export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIntegrationsAuthConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIntegrationsAuthConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2385,7 +2385,7 @@ export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2450,7 +2450,7 @@ export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}
 */
-export class GoogleIntegrationsAuthConfig extends cdktf.TerraformResource {
+export class GoogleIntegrationsAuthConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2461,14 +2461,14 @@ export class GoogleIntegrationsAuthConfig extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIntegrationsAuthConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIntegrationsAuthConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIntegrationsAuthConfig to import
   * @param importFromId The id of the existing GoogleIntegrationsAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_integrations_auth_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIntegrationsAuthConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_integrations_auth_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_integrations_auth_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -2746,14 +2746,14 @@ export class GoogleIntegrationsAuthConfig extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      expiry_notification_duration: cdktf.listMapper(cdktf.stringToTerraform, false)(this._expiryNotificationDuration),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      override_valid_time: cdktf.stringToTerraform(this._overrideValidTime),
-      project: cdktf.stringToTerraform(this._project),
-      visibility: cdktf.stringToTerraform(this._visibility),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      expiry_notification_duration: cdktn.listMapper(cdktn.stringToTerraform, false)(this._expiryNotificationDuration),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      override_valid_time: cdktn.stringToTerraform(this._overrideValidTime),
+      project: cdktn.stringToTerraform(this._project),
+      visibility: cdktn.stringToTerraform(this._visibility),
       client_certificate: googleIntegrationsAuthConfigClientCertificateToTerraform(this._clientCertificate.internalValue),
       decrypted_credential: googleIntegrationsAuthConfigDecryptedCredentialToTerraform(this._decryptedCredential.internalValue),
       timeouts: googleIntegrationsAuthConfigTimeoutsToTerraform(this._timeouts.internalValue),
@@ -2763,49 +2763,49 @@ export class GoogleIntegrationsAuthConfig extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       expiry_notification_duration: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._expiryNotificationDuration),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._expiryNotificationDuration),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       override_valid_time: {
-        value: cdktf.stringToHclTerraform(this._overrideValidTime),
+        value: cdktn.stringToHclTerraform(this._overrideValidTime),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       visibility: {
-        value: cdktf.stringToHclTerraform(this._visibility),
+        value: cdktn.stringToHclTerraform(this._visibility),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GooglePrivatecaCertificateTemplateConfig extends cdktf.TerraformMetaArguments {
+export interface GooglePrivatecaCertificateTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. A human-readable description of scenarios this template is intended for.
   *
@@ -111,45 +111,45 @@ export interface GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpress
 }
 
 export function googlePrivatecaCertificateTemplateIdentityConstraintsCelExpressionToTerraform(struct?: GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpressionOutputReference | GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpression): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    expression: cdktf.stringToTerraform(struct!.expression),
-    location: cdktf.stringToTerraform(struct!.location),
-    title: cdktf.stringToTerraform(struct!.title),
+    description: cdktn.stringToTerraform(struct!.description),
+    expression: cdktn.stringToTerraform(struct!.expression),
+    location: cdktn.stringToTerraform(struct!.location),
+    title: cdktn.stringToTerraform(struct!.title),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplateIdentityConstraintsCelExpressionToHclTerraform(struct?: GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpressionOutputReference | GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpression): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expression: {
-      value: cdktf.stringToHclTerraform(struct!.expression),
+      value: cdktn.stringToHclTerraform(struct!.expression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     title: {
-      value: cdktf.stringToHclTerraform(struct!.title),
+      value: cdktn.stringToHclTerraform(struct!.title),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -160,14 +160,14 @@ export function googlePrivatecaCertificateTemplateIdentityConstraintsCelExpressi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpressionOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplateIdentityConstraintsCelExpressionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -280,13 +280,13 @@ export interface GooglePrivatecaCertificateTemplateIdentityConstraints {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#allow_subject_alt_names_passthrough GooglePrivatecaCertificateTemplate#allow_subject_alt_names_passthrough}
   */
-  readonly allowSubjectAltNamesPassthrough: boolean | cdktf.IResolvable;
+  readonly allowSubjectAltNamesPassthrough: boolean | cdktn.IResolvable;
   /**
   * Required. If this is true, the Subject field may be copied from a certificate request into the signed certificate. Otherwise, the requested Subject will be discarded.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#allow_subject_passthrough GooglePrivatecaCertificateTemplate#allow_subject_passthrough}
   */
-  readonly allowSubjectPassthrough: boolean | cdktf.IResolvable;
+  readonly allowSubjectPassthrough: boolean | cdktn.IResolvable;
   /**
   * cel_expression block
   *
@@ -296,32 +296,32 @@ export interface GooglePrivatecaCertificateTemplateIdentityConstraints {
 }
 
 export function googlePrivatecaCertificateTemplateIdentityConstraintsToTerraform(struct?: GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReference | GooglePrivatecaCertificateTemplateIdentityConstraints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_subject_alt_names_passthrough: cdktf.booleanToTerraform(struct!.allowSubjectAltNamesPassthrough),
-    allow_subject_passthrough: cdktf.booleanToTerraform(struct!.allowSubjectPassthrough),
+    allow_subject_alt_names_passthrough: cdktn.booleanToTerraform(struct!.allowSubjectAltNamesPassthrough),
+    allow_subject_passthrough: cdktn.booleanToTerraform(struct!.allowSubjectPassthrough),
     cel_expression: googlePrivatecaCertificateTemplateIdentityConstraintsCelExpressionToTerraform(struct!.celExpression),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplateIdentityConstraintsToHclTerraform(struct?: GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReference | GooglePrivatecaCertificateTemplateIdentityConstraints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_subject_alt_names_passthrough: {
-      value: cdktf.booleanToHclTerraform(struct!.allowSubjectAltNamesPassthrough),
+      value: cdktn.booleanToHclTerraform(struct!.allowSubjectAltNamesPassthrough),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_subject_passthrough: {
-      value: cdktf.booleanToHclTerraform(struct!.allowSubjectPassthrough),
+      value: cdktn.booleanToHclTerraform(struct!.allowSubjectPassthrough),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -338,14 +338,14 @@ export function googlePrivatecaCertificateTemplateIdentityConstraintsToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -383,11 +383,11 @@ export class GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReferenc
   }
 
   // allow_subject_alt_names_passthrough - computed: false, optional: false, required: true
-  private _allowSubjectAltNamesPassthrough?: boolean | cdktf.IResolvable; 
+  private _allowSubjectAltNamesPassthrough?: boolean | cdktn.IResolvable; 
   public get allowSubjectAltNamesPassthrough() {
     return this.getBooleanAttribute('allow_subject_alt_names_passthrough');
   }
-  public set allowSubjectAltNamesPassthrough(value: boolean | cdktf.IResolvable) {
+  public set allowSubjectAltNamesPassthrough(value: boolean | cdktn.IResolvable) {
     this._allowSubjectAltNamesPassthrough = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -396,11 +396,11 @@ export class GooglePrivatecaCertificateTemplateIdentityConstraintsOutputReferenc
   }
 
   // allow_subject_passthrough - computed: false, optional: false, required: true
-  private _allowSubjectPassthrough?: boolean | cdktf.IResolvable; 
+  private _allowSubjectPassthrough?: boolean | cdktn.IResolvable; 
   public get allowSubjectPassthrough() {
     return this.getBooleanAttribute('allow_subject_passthrough');
   }
-  public set allowSubjectPassthrough(value: boolean | cdktf.IResolvable) {
+  public set allowSubjectPassthrough(value: boolean | cdktn.IResolvable) {
     this._allowSubjectPassthrough = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -433,25 +433,25 @@ export interface GooglePrivatecaCertificateTemplatePassthroughExtensionsAddition
   readonly objectIdPath: number[];
 }
 
-export function googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_id_path: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.objectIdPath),
+    object_id_path: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.objectIdPath),
   }
 }
 
 
-export function googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_id_path: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.objectIdPath),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.objectIdPath),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -462,9 +462,9 @@ export function googlePrivatecaCertificateTemplatePassthroughExtensionsAdditiona
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -472,11 +472,11 @@ export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalEx
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -489,13 +489,13 @@ export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalEx
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectIdPath = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -520,15 +520,15 @@ export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalEx
   }
 }
 
-export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsList extends cdktf.ComplexList {
-  public internalValue? : GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktf.IResolvable
+export class GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsList extends cdktn.ComplexList {
+  public internalValue? : GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -551,35 +551,35 @@ export interface GooglePrivatecaCertificateTemplatePassthroughExtensions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#additional_extensions GooglePrivatecaCertificateTemplate#additional_extensions}
   */
-  readonly additionalExtensions?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktf.IResolvable;
+  readonly additionalExtensions?: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePassthroughExtensionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsOutputReference | GooglePrivatecaCertificateTemplatePassthroughExtensions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    known_extensions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.knownExtensions),
-    additional_extensions: cdktf.listMapper(googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToTerraform, true)(struct!.additionalExtensions),
+    known_extensions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.knownExtensions),
+    additional_extensions: cdktn.listMapper(googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToTerraform, true)(struct!.additionalExtensions),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePassthroughExtensionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePassthroughExtensionsOutputReference | GooglePrivatecaCertificateTemplatePassthroughExtensions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     known_extensions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.knownExtensions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.knownExtensions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     additional_extensions: {
-      value: cdktf.listMapperHcl(googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToHclTerraform, true)(struct!.additionalExtensions),
+      value: cdktn.listMapperHcl(googlePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsToHclTerraform, true)(struct!.additionalExtensions),
       isBlock: true,
       type: "list",
       storageClassType: "GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensionsList",
@@ -590,14 +590,14 @@ export function googlePrivatecaCertificateTemplatePassthroughExtensionsToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePassthroughExtensionsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePassthroughExtensionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -649,7 +649,7 @@ export class GooglePrivatecaCertificateTemplatePassthroughExtensionsOutputRefere
   public get additionalExtensions() {
     return this._additionalExtensions;
   }
-  public putAdditionalExtensions(value: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktf.IResolvable) {
+  public putAdditionalExtensions(value: GooglePrivatecaCertificateTemplatePassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable) {
     this._additionalExtensions.internalValue = value;
   }
   public resetAdditionalExtensions() {
@@ -670,24 +670,24 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExt
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectId): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_id_path: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.objectIdPath),
+    object_id_path: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.objectIdPath),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectId): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_id_path: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.objectIdPath),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.objectIdPath),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -698,14 +698,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExte
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -749,7 +749,7 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExt
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#critical GooglePrivatecaCertificateTemplate#critical}
   */
-  readonly critical?: boolean | cdktf.IResolvable;
+  readonly critical?: boolean | cdktn.IResolvable;
   /**
   * Required. The value of this X.509 extension.
   *
@@ -764,33 +764,33 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExt
   readonly objectId: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectId;
 }
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    critical: cdktf.booleanToTerraform(struct!.critical),
-    value: cdktf.stringToTerraform(struct!.value),
+    critical: cdktn.booleanToTerraform(struct!.critical),
+    value: cdktn.stringToTerraform(struct!.value),
     object_id: googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsObjectIdToTerraform(struct!.objectId),
   }
 }
 
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     critical: {
-      value: cdktf.booleanToHclTerraform(struct!.critical),
+      value: cdktn.booleanToHclTerraform(struct!.critical),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -807,9 +807,9 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExte
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -817,11 +817,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -842,7 +842,7 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -850,7 +850,7 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
       this._value = undefined;
       this._objectId.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -864,11 +864,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
   }
 
   // critical - computed: false, optional: true, required: false
-  private _critical?: boolean | cdktf.IResolvable; 
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
-  public set critical(value: boolean | cdktf.IResolvable) {
+  public set critical(value: boolean | cdktn.IResolvable) {
     this._critical = value;
   }
   public resetCritical() {
@@ -906,15 +906,15 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensi
   }
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList extends cdktf.ComplexList {
-  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktf.IResolvable
+export class GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList extends cdktn.ComplexList {
+  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -931,7 +931,7 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesCaOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#is_ca GooglePrivatecaCertificateTemplate#is_ca}
   */
-  readonly isCa?: boolean | cdktf.IResolvable;
+  readonly isCa?: boolean | cdktn.IResolvable;
   /**
   * Optional. Refers to the "path length constraint" in Basic Constraints extension. For a CA certificate, this value describes the depth of
   * subordinate CA certificates that are allowed. If this value is less than 0, the request will fail.
@@ -946,7 +946,7 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesCaOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#null_ca GooglePrivatecaCertificateTemplate#null_ca}
   */
-  readonly nullCa?: boolean | cdktf.IResolvable;
+  readonly nullCa?: boolean | cdktn.IResolvable;
   /**
   * Optional. When true, the "path length constraint" in Basic Constraints extension will be set to 0.
   * if both 'max_issuer_path_length' and 'zero_max_issuer_path_length' are unset,
@@ -954,49 +954,49 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesCaOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#zero_max_issuer_path_length GooglePrivatecaCertificateTemplate#zero_max_issuer_path_length}
   */
-  readonly zeroMaxIssuerPathLength?: boolean | cdktf.IResolvable;
+  readonly zeroMaxIssuerPathLength?: boolean | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesCaOptionsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesCaOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    is_ca: cdktf.booleanToTerraform(struct!.isCa),
-    max_issuer_path_length: cdktf.numberToTerraform(struct!.maxIssuerPathLength),
-    null_ca: cdktf.booleanToTerraform(struct!.nullCa),
-    zero_max_issuer_path_length: cdktf.booleanToTerraform(struct!.zeroMaxIssuerPathLength),
+    is_ca: cdktn.booleanToTerraform(struct!.isCa),
+    max_issuer_path_length: cdktn.numberToTerraform(struct!.maxIssuerPathLength),
+    null_ca: cdktn.booleanToTerraform(struct!.nullCa),
+    zero_max_issuer_path_length: cdktn.booleanToTerraform(struct!.zeroMaxIssuerPathLength),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesCaOptionsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesCaOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     is_ca: {
-      value: cdktf.booleanToHclTerraform(struct!.isCa),
+      value: cdktn.booleanToHclTerraform(struct!.isCa),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     max_issuer_path_length: {
-      value: cdktf.numberToHclTerraform(struct!.maxIssuerPathLength),
+      value: cdktn.numberToHclTerraform(struct!.maxIssuerPathLength),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     null_ca: {
-      value: cdktf.booleanToHclTerraform(struct!.nullCa),
+      value: cdktn.booleanToHclTerraform(struct!.nullCa),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     zero_max_issuer_path_length: {
-      value: cdktf.booleanToHclTerraform(struct!.zeroMaxIssuerPathLength),
+      value: cdktn.booleanToHclTerraform(struct!.zeroMaxIssuerPathLength),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1007,14 +1007,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesCaOptionsToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1058,11 +1058,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputRe
   }
 
   // is_ca - computed: false, optional: true, required: false
-  private _isCa?: boolean | cdktf.IResolvable; 
+  private _isCa?: boolean | cdktn.IResolvable; 
   public get isCa() {
     return this.getBooleanAttribute('is_ca');
   }
-  public set isCa(value: boolean | cdktf.IResolvable) {
+  public set isCa(value: boolean | cdktn.IResolvable) {
     this._isCa = value;
   }
   public resetIsCa() {
@@ -1090,11 +1090,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputRe
   }
 
   // null_ca - computed: false, optional: true, required: false
-  private _nullCa?: boolean | cdktf.IResolvable; 
+  private _nullCa?: boolean | cdktn.IResolvable; 
   public get nullCa() {
     return this.getBooleanAttribute('null_ca');
   }
-  public set nullCa(value: boolean | cdktf.IResolvable) {
+  public set nullCa(value: boolean | cdktn.IResolvable) {
     this._nullCa = value;
   }
   public resetNullCa() {
@@ -1106,11 +1106,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesCaOptionsOutputRe
   }
 
   // zero_max_issuer_path_length - computed: false, optional: true, required: false
-  private _zeroMaxIssuerPathLength?: boolean | cdktf.IResolvable; 
+  private _zeroMaxIssuerPathLength?: boolean | cdktn.IResolvable; 
   public get zeroMaxIssuerPathLength() {
     return this.getBooleanAttribute('zero_max_issuer_path_length');
   }
-  public set zeroMaxIssuerPathLength(value: boolean | cdktf.IResolvable) {
+  public set zeroMaxIssuerPathLength(value: boolean | cdktn.IResolvable) {
     this._zeroMaxIssuerPathLength = value;
   }
   public resetZeroMaxIssuerPathLength() {
@@ -1127,132 +1127,132 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseK
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#cert_sign GooglePrivatecaCertificateTemplate#cert_sign}
   */
-  readonly certSign?: boolean | cdktf.IResolvable;
+  readonly certSign?: boolean | cdktn.IResolvable;
   /**
   * The key may be used for cryptographic commitments. Note that this may also be referred to as "non-repudiation".
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#content_commitment GooglePrivatecaCertificateTemplate#content_commitment}
   */
-  readonly contentCommitment?: boolean | cdktf.IResolvable;
+  readonly contentCommitment?: boolean | cdktn.IResolvable;
   /**
   * The key may be used sign certificate revocation lists.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#crl_sign GooglePrivatecaCertificateTemplate#crl_sign}
   */
-  readonly crlSign?: boolean | cdktf.IResolvable;
+  readonly crlSign?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher data.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#data_encipherment GooglePrivatecaCertificateTemplate#data_encipherment}
   */
-  readonly dataEncipherment?: boolean | cdktf.IResolvable;
+  readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to decipher only.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#decipher_only GooglePrivatecaCertificateTemplate#decipher_only}
   */
-  readonly decipherOnly?: boolean | cdktf.IResolvable;
+  readonly decipherOnly?: boolean | cdktn.IResolvable;
   /**
   * The key may be used for digital signatures.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#digital_signature GooglePrivatecaCertificateTemplate#digital_signature}
   */
-  readonly digitalSignature?: boolean | cdktf.IResolvable;
+  readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher only.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#encipher_only GooglePrivatecaCertificateTemplate#encipher_only}
   */
-  readonly encipherOnly?: boolean | cdktf.IResolvable;
+  readonly encipherOnly?: boolean | cdktn.IResolvable;
   /**
   * The key may be used in a key agreement protocol.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#key_agreement GooglePrivatecaCertificateTemplate#key_agreement}
   */
-  readonly keyAgreement?: boolean | cdktf.IResolvable;
+  readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher other keys.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#key_encipherment GooglePrivatecaCertificateTemplate#key_encipherment}
   */
-  readonly keyEncipherment?: boolean | cdktf.IResolvable;
+  readonly keyEncipherment?: boolean | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cert_sign: cdktf.booleanToTerraform(struct!.certSign),
-    content_commitment: cdktf.booleanToTerraform(struct!.contentCommitment),
-    crl_sign: cdktf.booleanToTerraform(struct!.crlSign),
-    data_encipherment: cdktf.booleanToTerraform(struct!.dataEncipherment),
-    decipher_only: cdktf.booleanToTerraform(struct!.decipherOnly),
-    digital_signature: cdktf.booleanToTerraform(struct!.digitalSignature),
-    encipher_only: cdktf.booleanToTerraform(struct!.encipherOnly),
-    key_agreement: cdktf.booleanToTerraform(struct!.keyAgreement),
-    key_encipherment: cdktf.booleanToTerraform(struct!.keyEncipherment),
+    cert_sign: cdktn.booleanToTerraform(struct!.certSign),
+    content_commitment: cdktn.booleanToTerraform(struct!.contentCommitment),
+    crl_sign: cdktn.booleanToTerraform(struct!.crlSign),
+    data_encipherment: cdktn.booleanToTerraform(struct!.dataEncipherment),
+    decipher_only: cdktn.booleanToTerraform(struct!.decipherOnly),
+    digital_signature: cdktn.booleanToTerraform(struct!.digitalSignature),
+    encipher_only: cdktn.booleanToTerraform(struct!.encipherOnly),
+    key_agreement: cdktn.booleanToTerraform(struct!.keyAgreement),
+    key_encipherment: cdktn.booleanToTerraform(struct!.keyEncipherment),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cert_sign: {
-      value: cdktf.booleanToHclTerraform(struct!.certSign),
+      value: cdktn.booleanToHclTerraform(struct!.certSign),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     content_commitment: {
-      value: cdktf.booleanToHclTerraform(struct!.contentCommitment),
+      value: cdktn.booleanToHclTerraform(struct!.contentCommitment),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     crl_sign: {
-      value: cdktf.booleanToHclTerraform(struct!.crlSign),
+      value: cdktn.booleanToHclTerraform(struct!.crlSign),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     data_encipherment: {
-      value: cdktf.booleanToHclTerraform(struct!.dataEncipherment),
+      value: cdktn.booleanToHclTerraform(struct!.dataEncipherment),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     decipher_only: {
-      value: cdktf.booleanToHclTerraform(struct!.decipherOnly),
+      value: cdktn.booleanToHclTerraform(struct!.decipherOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     digital_signature: {
-      value: cdktf.booleanToHclTerraform(struct!.digitalSignature),
+      value: cdktn.booleanToHclTerraform(struct!.digitalSignature),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     encipher_only: {
-      value: cdktf.booleanToHclTerraform(struct!.encipherOnly),
+      value: cdktn.booleanToHclTerraform(struct!.encipherOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     key_agreement: {
-      value: cdktf.booleanToHclTerraform(struct!.keyAgreement),
+      value: cdktn.booleanToHclTerraform(struct!.keyAgreement),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     key_encipherment: {
-      value: cdktf.booleanToHclTerraform(struct!.keyEncipherment),
+      value: cdktn.booleanToHclTerraform(struct!.keyEncipherment),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1263,14 +1263,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1344,11 +1344,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // cert_sign - computed: false, optional: true, required: false
-  private _certSign?: boolean | cdktf.IResolvable; 
+  private _certSign?: boolean | cdktn.IResolvable; 
   public get certSign() {
     return this.getBooleanAttribute('cert_sign');
   }
-  public set certSign(value: boolean | cdktf.IResolvable) {
+  public set certSign(value: boolean | cdktn.IResolvable) {
     this._certSign = value;
   }
   public resetCertSign() {
@@ -1360,11 +1360,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // content_commitment - computed: false, optional: true, required: false
-  private _contentCommitment?: boolean | cdktf.IResolvable; 
+  private _contentCommitment?: boolean | cdktn.IResolvable; 
   public get contentCommitment() {
     return this.getBooleanAttribute('content_commitment');
   }
-  public set contentCommitment(value: boolean | cdktf.IResolvable) {
+  public set contentCommitment(value: boolean | cdktn.IResolvable) {
     this._contentCommitment = value;
   }
   public resetContentCommitment() {
@@ -1376,11 +1376,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // crl_sign - computed: false, optional: true, required: false
-  private _crlSign?: boolean | cdktf.IResolvable; 
+  private _crlSign?: boolean | cdktn.IResolvable; 
   public get crlSign() {
     return this.getBooleanAttribute('crl_sign');
   }
-  public set crlSign(value: boolean | cdktf.IResolvable) {
+  public set crlSign(value: boolean | cdktn.IResolvable) {
     this._crlSign = value;
   }
   public resetCrlSign() {
@@ -1392,11 +1392,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // data_encipherment - computed: false, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktf.IResolvable; 
+  private _dataEncipherment?: boolean | cdktn.IResolvable; 
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
-  public set dataEncipherment(value: boolean | cdktf.IResolvable) {
+  public set dataEncipherment(value: boolean | cdktn.IResolvable) {
     this._dataEncipherment = value;
   }
   public resetDataEncipherment() {
@@ -1408,11 +1408,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // decipher_only - computed: false, optional: true, required: false
-  private _decipherOnly?: boolean | cdktf.IResolvable; 
+  private _decipherOnly?: boolean | cdktn.IResolvable; 
   public get decipherOnly() {
     return this.getBooleanAttribute('decipher_only');
   }
-  public set decipherOnly(value: boolean | cdktf.IResolvable) {
+  public set decipherOnly(value: boolean | cdktn.IResolvable) {
     this._decipherOnly = value;
   }
   public resetDecipherOnly() {
@@ -1424,11 +1424,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // digital_signature - computed: false, optional: true, required: false
-  private _digitalSignature?: boolean | cdktf.IResolvable; 
+  private _digitalSignature?: boolean | cdktn.IResolvable; 
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
-  public set digitalSignature(value: boolean | cdktf.IResolvable) {
+  public set digitalSignature(value: boolean | cdktn.IResolvable) {
     this._digitalSignature = value;
   }
   public resetDigitalSignature() {
@@ -1440,11 +1440,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // encipher_only - computed: false, optional: true, required: false
-  private _encipherOnly?: boolean | cdktf.IResolvable; 
+  private _encipherOnly?: boolean | cdktn.IResolvable; 
   public get encipherOnly() {
     return this.getBooleanAttribute('encipher_only');
   }
-  public set encipherOnly(value: boolean | cdktf.IResolvable) {
+  public set encipherOnly(value: boolean | cdktn.IResolvable) {
     this._encipherOnly = value;
   }
   public resetEncipherOnly() {
@@ -1456,11 +1456,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // key_agreement - computed: false, optional: true, required: false
-  private _keyAgreement?: boolean | cdktf.IResolvable; 
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
-  public set keyAgreement(value: boolean | cdktf.IResolvable) {
+  public set keyAgreement(value: boolean | cdktn.IResolvable) {
     this._keyAgreement = value;
   }
   public resetKeyAgreement() {
@@ -1472,11 +1472,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUs
   }
 
   // key_encipherment - computed: false, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktf.IResolvable; 
+  private _keyEncipherment?: boolean | cdktn.IResolvable; 
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
-  public set keyEncipherment(value: boolean | cdktf.IResolvable) {
+  public set keyEncipherment(value: boolean | cdktn.IResolvable) {
     this._keyEncipherment = value;
   }
   public resetKeyEncipherment() {
@@ -1493,93 +1493,93 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExten
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#client_auth GooglePrivatecaCertificateTemplate#client_auth}
   */
-  readonly clientAuth?: boolean | cdktf.IResolvable;
+  readonly clientAuth?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.3. Officially described as "Signing of downloadable executable code client authentication".
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#code_signing GooglePrivatecaCertificateTemplate#code_signing}
   */
-  readonly codeSigning?: boolean | cdktf.IResolvable;
+  readonly codeSigning?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.4. Officially described as "Email protection".
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#email_protection GooglePrivatecaCertificateTemplate#email_protection}
   */
-  readonly emailProtection?: boolean | cdktf.IResolvable;
+  readonly emailProtection?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.9. Officially described as "Signing OCSP responses".
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#ocsp_signing GooglePrivatecaCertificateTemplate#ocsp_signing}
   */
-  readonly ocspSigning?: boolean | cdktf.IResolvable;
+  readonly ocspSigning?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.1. Officially described as "TLS WWW server authentication", though regularly used for non-WWW TLS.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#server_auth GooglePrivatecaCertificateTemplate#server_auth}
   */
-  readonly serverAuth?: boolean | cdktf.IResolvable;
+  readonly serverAuth?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.8. Officially described as "Binding the hash of an object to a time".
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#time_stamping GooglePrivatecaCertificateTemplate#time_stamping}
   */
-  readonly timeStamping?: boolean | cdktf.IResolvable;
+  readonly timeStamping?: boolean | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    client_auth: cdktf.booleanToTerraform(struct!.clientAuth),
-    code_signing: cdktf.booleanToTerraform(struct!.codeSigning),
-    email_protection: cdktf.booleanToTerraform(struct!.emailProtection),
-    ocsp_signing: cdktf.booleanToTerraform(struct!.ocspSigning),
-    server_auth: cdktf.booleanToTerraform(struct!.serverAuth),
-    time_stamping: cdktf.booleanToTerraform(struct!.timeStamping),
+    client_auth: cdktn.booleanToTerraform(struct!.clientAuth),
+    code_signing: cdktn.booleanToTerraform(struct!.codeSigning),
+    email_protection: cdktn.booleanToTerraform(struct!.emailProtection),
+    ocsp_signing: cdktn.booleanToTerraform(struct!.ocspSigning),
+    server_auth: cdktn.booleanToTerraform(struct!.serverAuth),
+    time_stamping: cdktn.booleanToTerraform(struct!.timeStamping),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     client_auth: {
-      value: cdktf.booleanToHclTerraform(struct!.clientAuth),
+      value: cdktn.booleanToHclTerraform(struct!.clientAuth),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     code_signing: {
-      value: cdktf.booleanToHclTerraform(struct!.codeSigning),
+      value: cdktn.booleanToHclTerraform(struct!.codeSigning),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     email_protection: {
-      value: cdktf.booleanToHclTerraform(struct!.emailProtection),
+      value: cdktn.booleanToHclTerraform(struct!.emailProtection),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ocsp_signing: {
-      value: cdktf.booleanToHclTerraform(struct!.ocspSigning),
+      value: cdktn.booleanToHclTerraform(struct!.ocspSigning),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     server_auth: {
-      value: cdktf.booleanToHclTerraform(struct!.serverAuth),
+      value: cdktn.booleanToHclTerraform(struct!.serverAuth),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     time_stamping: {
-      value: cdktf.booleanToHclTerraform(struct!.timeStamping),
+      value: cdktn.booleanToHclTerraform(struct!.timeStamping),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1590,14 +1590,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtend
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1653,11 +1653,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // client_auth - computed: false, optional: true, required: false
-  private _clientAuth?: boolean | cdktf.IResolvable; 
+  private _clientAuth?: boolean | cdktn.IResolvable; 
   public get clientAuth() {
     return this.getBooleanAttribute('client_auth');
   }
-  public set clientAuth(value: boolean | cdktf.IResolvable) {
+  public set clientAuth(value: boolean | cdktn.IResolvable) {
     this._clientAuth = value;
   }
   public resetClientAuth() {
@@ -1669,11 +1669,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // code_signing - computed: false, optional: true, required: false
-  private _codeSigning?: boolean | cdktf.IResolvable; 
+  private _codeSigning?: boolean | cdktn.IResolvable; 
   public get codeSigning() {
     return this.getBooleanAttribute('code_signing');
   }
-  public set codeSigning(value: boolean | cdktf.IResolvable) {
+  public set codeSigning(value: boolean | cdktn.IResolvable) {
     this._codeSigning = value;
   }
   public resetCodeSigning() {
@@ -1685,11 +1685,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // email_protection - computed: false, optional: true, required: false
-  private _emailProtection?: boolean | cdktf.IResolvable; 
+  private _emailProtection?: boolean | cdktn.IResolvable; 
   public get emailProtection() {
     return this.getBooleanAttribute('email_protection');
   }
-  public set emailProtection(value: boolean | cdktf.IResolvable) {
+  public set emailProtection(value: boolean | cdktn.IResolvable) {
     this._emailProtection = value;
   }
   public resetEmailProtection() {
@@ -1701,11 +1701,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // ocsp_signing - computed: false, optional: true, required: false
-  private _ocspSigning?: boolean | cdktf.IResolvable; 
+  private _ocspSigning?: boolean | cdktn.IResolvable; 
   public get ocspSigning() {
     return this.getBooleanAttribute('ocsp_signing');
   }
-  public set ocspSigning(value: boolean | cdktf.IResolvable) {
+  public set ocspSigning(value: boolean | cdktn.IResolvable) {
     this._ocspSigning = value;
   }
   public resetOcspSigning() {
@@ -1717,11 +1717,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // server_auth - computed: false, optional: true, required: false
-  private _serverAuth?: boolean | cdktf.IResolvable; 
+  private _serverAuth?: boolean | cdktn.IResolvable; 
   public get serverAuth() {
     return this.getBooleanAttribute('server_auth');
   }
-  public set serverAuth(value: boolean | cdktf.IResolvable) {
+  public set serverAuth(value: boolean | cdktn.IResolvable) {
     this._serverAuth = value;
   }
   public resetServerAuth() {
@@ -1733,11 +1733,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedK
   }
 
   // time_stamping - computed: false, optional: true, required: false
-  private _timeStamping?: boolean | cdktf.IResolvable; 
+  private _timeStamping?: boolean | cdktn.IResolvable; 
   public get timeStamping() {
     return this.getBooleanAttribute('time_stamping');
   }
-  public set timeStamping(value: boolean | cdktf.IResolvable) {
+  public set timeStamping(value: boolean | cdktn.IResolvable) {
     this._timeStamping = value;
   }
   public resetTimeStamping() {
@@ -1757,25 +1757,25 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnkno
   readonly objectIdPath: number[];
 }
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_id_path: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.objectIdPath),
+    object_id_path: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.objectIdPath),
   }
 }
 
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_id_path: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.objectIdPath),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.objectIdPath),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -1786,9 +1786,9 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknow
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1796,11 +1796,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownEx
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1813,13 +1813,13 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownEx
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectIdPath = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1844,15 +1844,15 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownEx
   }
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesList extends cdktf.ComplexList {
-  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktf.IResolvable
+export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesList extends cdktn.ComplexList {
+  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1881,25 +1881,25 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsage {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#unknown_extended_key_usages GooglePrivatecaCertificateTemplate#unknown_extended_key_usages}
   */
-  readonly unknownExtendedKeyUsages?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktf.IResolvable;
+  readonly unknownExtendedKeyUsages?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     base_key_usage: googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageBaseKeyUsageToTerraform(struct!.baseKeyUsage),
     extended_key_usage: googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageToTerraform(struct!.extendedKeyUsage),
-    unknown_extended_key_usages: cdktf.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToTerraform, true)(struct!.unknownExtendedKeyUsages),
+    unknown_extended_key_usages: cdktn.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToTerraform, true)(struct!.unknownExtendedKeyUsages),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1916,7 +1916,7 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageToHclT
       storageClassType: "GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageExtendedKeyUsageList",
     },
     unknown_extended_key_usages: {
-      value: cdktf.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToHclTerraform, true)(struct!.unknownExtendedKeyUsages),
+      value: cdktn.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesToHclTerraform, true)(struct!.unknownExtendedKeyUsages),
       isBlock: true,
       type: "list",
       storageClassType: "GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsagesList",
@@ -1927,14 +1927,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2008,7 +2008,7 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageOutputRef
   public get unknownExtendedKeyUsages() {
     return this._unknownExtendedKeyUsages;
   }
-  public putUnknownExtendedKeyUsages(value: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktf.IResolvable) {
+  public putUnknownExtendedKeyUsages(value: GooglePrivatecaCertificateTemplatePredefinedValuesKeyUsageUnknownExtendedKeyUsages[] | cdktn.IResolvable) {
     this._unknownExtendedKeyUsages.internalValue = value;
   }
   public resetUnknownExtendedKeyUsages() {
@@ -2025,7 +2025,7 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesNameConstrain
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#critical GooglePrivatecaCertificateTemplate#critical}
   */
-  readonly critical: boolean | cdktf.IResolvable;
+  readonly critical: boolean | cdktn.IResolvable;
   /**
   * Contains excluded DNS names. Any DNS name that can be
   * constructed by simply adding zero or more labels to
@@ -2101,80 +2101,80 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesNameConstrain
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesNameConstraintsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    critical: cdktf.booleanToTerraform(struct!.critical),
-    excluded_dns_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedDnsNames),
-    excluded_email_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedEmailAddresses),
-    excluded_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedIpRanges),
-    excluded_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedUris),
-    permitted_dns_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.permittedDnsNames),
-    permitted_email_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.permittedEmailAddresses),
-    permitted_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.permittedIpRanges),
-    permitted_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.permittedUris),
+    critical: cdktn.booleanToTerraform(struct!.critical),
+    excluded_dns_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedDnsNames),
+    excluded_email_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedEmailAddresses),
+    excluded_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedIpRanges),
+    excluded_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedUris),
+    permitted_dns_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.permittedDnsNames),
+    permitted_email_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.permittedEmailAddresses),
+    permitted_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.permittedIpRanges),
+    permitted_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.permittedUris),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesNameConstraintsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsOutputReference | GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     critical: {
-      value: cdktf.booleanToHclTerraform(struct!.critical),
+      value: cdktn.booleanToHclTerraform(struct!.critical),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     excluded_dns_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedDnsNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludedDnsNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     excluded_email_addresses: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedEmailAddresses),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludedEmailAddresses),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     excluded_ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedIpRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludedIpRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     excluded_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludedUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     permitted_dns_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.permittedDnsNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.permittedDnsNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     permitted_email_addresses: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.permittedEmailAddresses),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.permittedEmailAddresses),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     permitted_ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.permittedIpRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.permittedIpRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     permitted_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.permittedUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.permittedUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2185,14 +2185,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesNameConstraint
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2266,11 +2266,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsOu
   }
 
   // critical - computed: false, optional: false, required: true
-  private _critical?: boolean | cdktf.IResolvable; 
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
-  public set critical(value: boolean | cdktf.IResolvable) {
+  public set critical(value: boolean | cdktn.IResolvable) {
     this._critical = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2415,25 +2415,25 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds {
   readonly objectIdPath: number[];
 }
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_id_path: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.objectIdPath),
+    object_id_path: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.objectIdPath),
   }
 }
 
 
-export function googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_id_path: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.objectIdPath),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.objectIdPath),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -2444,9 +2444,9 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2454,11 +2454,11 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsOutputRe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2471,13 +2471,13 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsOutputRe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectIdPath = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2502,15 +2502,15 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsOutputRe
   }
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsList extends cdktf.ComplexList {
-  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktf.IResolvable
+export class GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsList extends cdktn.ComplexList {
+  public internalValue? : GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2533,7 +2533,7 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValues {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#additional_extensions GooglePrivatecaCertificateTemplate#additional_extensions}
   */
-  readonly additionalExtensions?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktf.IResolvable;
+  readonly additionalExtensions?: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktn.IResolvable;
   /**
   * ca_options block
   *
@@ -2557,39 +2557,39 @@ export interface GooglePrivatecaCertificateTemplatePredefinedValues {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#policy_ids GooglePrivatecaCertificateTemplate#policy_ids}
   */
-  readonly policyIds?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktf.IResolvable;
+  readonly policyIds?: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktn.IResolvable;
 }
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesToTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference | GooglePrivatecaCertificateTemplatePredefinedValues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    aia_ocsp_servers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.aiaOcspServers),
-    additional_extensions: cdktf.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToTerraform, true)(struct!.additionalExtensions),
+    aia_ocsp_servers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.aiaOcspServers),
+    additional_extensions: cdktn.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToTerraform, true)(struct!.additionalExtensions),
     ca_options: googlePrivatecaCertificateTemplatePredefinedValuesCaOptionsToTerraform(struct!.caOptions),
     key_usage: googlePrivatecaCertificateTemplatePredefinedValuesKeyUsageToTerraform(struct!.keyUsage),
     name_constraints: googlePrivatecaCertificateTemplatePredefinedValuesNameConstraintsToTerraform(struct!.nameConstraints),
-    policy_ids: cdktf.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToTerraform, true)(struct!.policyIds),
+    policy_ids: cdktn.listMapper(googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToTerraform, true)(struct!.policyIds),
   }
 }
 
 
 export function googlePrivatecaCertificateTemplatePredefinedValuesToHclTerraform(struct?: GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference | GooglePrivatecaCertificateTemplatePredefinedValues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     aia_ocsp_servers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.aiaOcspServers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.aiaOcspServers),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     additional_extensions: {
-      value: cdktf.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToHclTerraform, true)(struct!.additionalExtensions),
+      value: cdktn.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsToHclTerraform, true)(struct!.additionalExtensions),
       isBlock: true,
       type: "list",
       storageClassType: "GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensionsList",
@@ -2613,7 +2613,7 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesToHclTerraform
       storageClassType: "GooglePrivatecaCertificateTemplatePredefinedValuesNameConstraintsList",
     },
     policy_ids: {
-      value: cdktf.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToHclTerraform, true)(struct!.policyIds),
+      value: cdktn.listMapperHcl(googlePrivatecaCertificateTemplatePredefinedValuesPolicyIdsToHclTerraform, true)(struct!.policyIds),
       isBlock: true,
       type: "list",
       storageClassType: "GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIdsList",
@@ -2624,14 +2624,14 @@ export function googlePrivatecaCertificateTemplatePredefinedValuesToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2707,7 +2707,7 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference e
   public get additionalExtensions() {
     return this._additionalExtensions;
   }
-  public putAdditionalExtensions(value: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktf.IResolvable) {
+  public putAdditionalExtensions(value: GooglePrivatecaCertificateTemplatePredefinedValuesAdditionalExtensions[] | cdktn.IResolvable) {
     this._additionalExtensions.internalValue = value;
   }
   public resetAdditionalExtensions() {
@@ -2771,7 +2771,7 @@ export class GooglePrivatecaCertificateTemplatePredefinedValuesOutputReference e
   public get policyIds() {
     return this._policyIds;
   }
-  public putPolicyIds(value: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktf.IResolvable) {
+  public putPolicyIds(value: GooglePrivatecaCertificateTemplatePredefinedValuesPolicyIds[] | cdktn.IResolvable) {
     this._policyIds.internalValue = value;
   }
   public resetPolicyIds() {
@@ -2797,39 +2797,39 @@ export interface GooglePrivatecaCertificateTemplateTimeouts {
   readonly update?: string;
 }
 
-export function googlePrivatecaCertificateTemplateTimeoutsToTerraform(struct?: GooglePrivatecaCertificateTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplateTimeoutsToTerraform(struct?: GooglePrivatecaCertificateTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googlePrivatecaCertificateTemplateTimeoutsToHclTerraform(struct?: GooglePrivatecaCertificateTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePrivatecaCertificateTemplateTimeoutsToHclTerraform(struct?: GooglePrivatecaCertificateTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2840,19 +2840,19 @@ export function googlePrivatecaCertificateTemplateTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePrivatecaCertificateTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GooglePrivatecaCertificateTemplateTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GooglePrivatecaCertificateTemplateTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePrivatecaCertificateTemplateTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2873,7 +2873,7 @@ export class GooglePrivatecaCertificateTemplateTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePrivatecaCertificateTemplateTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePrivatecaCertificateTemplateTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2881,7 +2881,7 @@ export class GooglePrivatecaCertificateTemplateTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2946,7 +2946,7 @@ export class GooglePrivatecaCertificateTemplateTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template}
 */
-export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource {
+export class GooglePrivatecaCertificateTemplate extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2957,14 +2957,14 @@ export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GooglePrivatecaCertificateTemplate resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GooglePrivatecaCertificateTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePrivatecaCertificateTemplate to import
   * @param importFromId The id of the existing GooglePrivatecaCertificateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePrivatecaCertificateTemplate to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_privateca_certificate_template", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_privateca_certificate_template", importId: importFromId, provider });
       }
 
   // ===========
@@ -3033,7 +3033,7 @@ export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource 
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -3129,7 +3129,7 @@ export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource 
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -3209,13 +3209,13 @@ export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      maximum_lifetime: cdktf.stringToTerraform(this._maximumLifetime),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      maximum_lifetime: cdktn.stringToTerraform(this._maximumLifetime),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       identity_constraints: googlePrivatecaCertificateTemplateIdentityConstraintsToTerraform(this._identityConstraints.internalValue),
       passthrough_extensions: googlePrivatecaCertificateTemplatePassthroughExtensionsToTerraform(this._passthroughExtensions.internalValue),
       predefined_values: googlePrivatecaCertificateTemplatePredefinedValuesToTerraform(this._predefinedValues.internalValue),
@@ -3226,43 +3226,43 @@ export class GooglePrivatecaCertificateTemplate extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       maximum_lifetime: {
-        value: cdktf.stringToHclTerraform(this._maximumLifetime),
+        value: cdktn.stringToHclTerraform(this._maximumLifetime),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

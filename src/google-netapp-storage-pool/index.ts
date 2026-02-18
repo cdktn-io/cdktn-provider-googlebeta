@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetappStoragePoolConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetappStoragePoolConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies the Active Directory policy to be used. Format: 'projects/{{project}}/locations/{{location}}/activeDirectories/{{name}}'.
   * The policy needs to be in the same location as the storage pool.
@@ -25,7 +25,7 @@ export interface GoogleNetappStoragePoolConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#allow_auto_tiering GoogleNetappStoragePool#allow_auto_tiering}
   */
-  readonly allowAutoTiering?: boolean | cdktf.IResolvable;
+  readonly allowAutoTiering?: boolean | cdktn.IResolvable;
   /**
   * Capacity of the storage pool (in GiB).
   *
@@ -37,7 +37,7 @@ export interface GoogleNetappStoragePoolConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#custom_performance_enabled GoogleNetappStoragePool#custom_performance_enabled}
   */
-  readonly customPerformanceEnabled?: boolean | cdktf.IResolvable;
+  readonly customPerformanceEnabled?: boolean | cdktn.IResolvable;
   /**
   * An optional description of this resource.
   *
@@ -50,7 +50,7 @@ export interface GoogleNetappStoragePoolConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#enable_hot_tier_auto_resize GoogleNetappStoragePool#enable_hot_tier_auto_resize}
   */
-  readonly enableHotTierAutoResize?: boolean | cdktf.IResolvable;
+  readonly enableHotTierAutoResize?: boolean | cdktn.IResolvable;
   /**
   * Total hot tier capacity for the Storage Pool. It is applicable only to Flex service level.
   * It should be less than the minimum storage pool size and cannot be more than the current storage pool size. It cannot be decreased once set.
@@ -88,7 +88,7 @@ export interface GoogleNetappStoragePoolConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#ldap_enabled GoogleNetappStoragePool#ldap_enabled}
   */
-  readonly ldapEnabled?: boolean | cdktf.IResolvable;
+  readonly ldapEnabled?: boolean | cdktn.IResolvable;
   /**
   * Name of the location. For zonal Flex pools specify a zone name, in all other cases a region name.
   *
@@ -166,39 +166,39 @@ export interface GoogleNetappStoragePoolTimeouts {
   readonly update?: string;
 }
 
-export function googleNetappStoragePoolTimeoutsToTerraform(struct?: GoogleNetappStoragePoolTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappStoragePoolTimeoutsToTerraform(struct?: GoogleNetappStoragePoolTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetappStoragePoolTimeoutsToHclTerraform(struct?: GoogleNetappStoragePoolTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetappStoragePoolTimeoutsToHclTerraform(struct?: GoogleNetappStoragePoolTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -209,19 +209,19 @@ export function googleNetappStoragePoolTimeoutsToHclTerraform(struct?: GoogleNet
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetappStoragePoolTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetappStoragePoolTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetappStoragePoolTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetappStoragePoolTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -242,7 +242,7 @@ export class GoogleNetappStoragePoolTimeoutsOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetappStoragePoolTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetappStoragePoolTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -250,7 +250,7 @@ export class GoogleNetappStoragePoolTimeoutsOutputReference extends cdktf.Comple
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -315,7 +315,7 @@ export class GoogleNetappStoragePoolTimeoutsOutputReference extends cdktf.Comple
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}
 */
-export class GoogleNetappStoragePool extends cdktf.TerraformResource {
+export class GoogleNetappStoragePool extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -326,14 +326,14 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetappStoragePool resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetappStoragePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetappStoragePool to import
   * @param importFromId The id of the existing GoogleNetappStoragePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetappStoragePool to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_netapp_storage_pool", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_netapp_storage_pool", importId: importFromId, provider });
       }
 
   // ===========
@@ -407,11 +407,11 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   }
 
   // allow_auto_tiering - computed: false, optional: true, required: false
-  private _allowAutoTiering?: boolean | cdktf.IResolvable; 
+  private _allowAutoTiering?: boolean | cdktn.IResolvable; 
   public get allowAutoTiering() {
     return this.getBooleanAttribute('allow_auto_tiering');
   }
-  public set allowAutoTiering(value: boolean | cdktf.IResolvable) {
+  public set allowAutoTiering(value: boolean | cdktn.IResolvable) {
     this._allowAutoTiering = value;
   }
   public resetAllowAutoTiering() {
@@ -436,11 +436,11 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   }
 
   // custom_performance_enabled - computed: false, optional: true, required: false
-  private _customPerformanceEnabled?: boolean | cdktf.IResolvable; 
+  private _customPerformanceEnabled?: boolean | cdktn.IResolvable; 
   public get customPerformanceEnabled() {
     return this.getBooleanAttribute('custom_performance_enabled');
   }
-  public set customPerformanceEnabled(value: boolean | cdktf.IResolvable) {
+  public set customPerformanceEnabled(value: boolean | cdktn.IResolvable) {
     this._customPerformanceEnabled = value;
   }
   public resetCustomPerformanceEnabled() {
@@ -468,17 +468,17 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_hot_tier_auto_resize - computed: false, optional: true, required: false
-  private _enableHotTierAutoResize?: boolean | cdktf.IResolvable; 
+  private _enableHotTierAutoResize?: boolean | cdktn.IResolvable; 
   public get enableHotTierAutoResize() {
     return this.getBooleanAttribute('enable_hot_tier_auto_resize');
   }
-  public set enableHotTierAutoResize(value: boolean | cdktf.IResolvable) {
+  public set enableHotTierAutoResize(value: boolean | cdktn.IResolvable) {
     this._enableHotTierAutoResize = value;
   }
   public resetEnableHotTierAutoResize() {
@@ -559,11 +559,11 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   }
 
   // ldap_enabled - computed: false, optional: true, required: false
-  private _ldapEnabled?: boolean | cdktf.IResolvable; 
+  private _ldapEnabled?: boolean | cdktn.IResolvable; 
   public get ldapEnabled() {
     return this.getBooleanAttribute('ldap_enabled');
   }
-  public set ldapEnabled(value: boolean | cdktf.IResolvable) {
+  public set ldapEnabled(value: boolean | cdktn.IResolvable) {
     this._ldapEnabled = value;
   }
   public resetLdapEnabled() {
@@ -659,7 +659,7 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -744,26 +744,26 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      active_directory: cdktf.stringToTerraform(this._activeDirectory),
-      allow_auto_tiering: cdktf.booleanToTerraform(this._allowAutoTiering),
-      capacity_gib: cdktf.stringToTerraform(this._capacityGib),
-      custom_performance_enabled: cdktf.booleanToTerraform(this._customPerformanceEnabled),
-      description: cdktf.stringToTerraform(this._description),
-      enable_hot_tier_auto_resize: cdktf.booleanToTerraform(this._enableHotTierAutoResize),
-      hot_tier_size_gib: cdktf.stringToTerraform(this._hotTierSizeGib),
-      id: cdktf.stringToTerraform(this._id),
-      kms_config: cdktf.stringToTerraform(this._kmsConfig),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      ldap_enabled: cdktf.booleanToTerraform(this._ldapEnabled),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      project: cdktf.stringToTerraform(this._project),
-      replica_zone: cdktf.stringToTerraform(this._replicaZone),
-      service_level: cdktf.stringToTerraform(this._serviceLevel),
-      total_iops: cdktf.stringToTerraform(this._totalIops),
-      total_throughput_mibps: cdktf.stringToTerraform(this._totalThroughputMibps),
-      zone: cdktf.stringToTerraform(this._zone),
+      active_directory: cdktn.stringToTerraform(this._activeDirectory),
+      allow_auto_tiering: cdktn.booleanToTerraform(this._allowAutoTiering),
+      capacity_gib: cdktn.stringToTerraform(this._capacityGib),
+      custom_performance_enabled: cdktn.booleanToTerraform(this._customPerformanceEnabled),
+      description: cdktn.stringToTerraform(this._description),
+      enable_hot_tier_auto_resize: cdktn.booleanToTerraform(this._enableHotTierAutoResize),
+      hot_tier_size_gib: cdktn.stringToTerraform(this._hotTierSizeGib),
+      id: cdktn.stringToTerraform(this._id),
+      kms_config: cdktn.stringToTerraform(this._kmsConfig),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      ldap_enabled: cdktn.booleanToTerraform(this._ldapEnabled),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      project: cdktn.stringToTerraform(this._project),
+      replica_zone: cdktn.stringToTerraform(this._replicaZone),
+      service_level: cdktn.stringToTerraform(this._serviceLevel),
+      total_iops: cdktn.stringToTerraform(this._totalIops),
+      total_throughput_mibps: cdktn.stringToTerraform(this._totalThroughputMibps),
+      zone: cdktn.stringToTerraform(this._zone),
       timeouts: googleNetappStoragePoolTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -771,121 +771,121 @@ export class GoogleNetappStoragePool extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       active_directory: {
-        value: cdktf.stringToHclTerraform(this._activeDirectory),
+        value: cdktn.stringToHclTerraform(this._activeDirectory),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       allow_auto_tiering: {
-        value: cdktf.booleanToHclTerraform(this._allowAutoTiering),
+        value: cdktn.booleanToHclTerraform(this._allowAutoTiering),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       capacity_gib: {
-        value: cdktf.stringToHclTerraform(this._capacityGib),
+        value: cdktn.stringToHclTerraform(this._capacityGib),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       custom_performance_enabled: {
-        value: cdktf.booleanToHclTerraform(this._customPerformanceEnabled),
+        value: cdktn.booleanToHclTerraform(this._customPerformanceEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_hot_tier_auto_resize: {
-        value: cdktf.booleanToHclTerraform(this._enableHotTierAutoResize),
+        value: cdktn.booleanToHclTerraform(this._enableHotTierAutoResize),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       hot_tier_size_gib: {
-        value: cdktf.stringToHclTerraform(this._hotTierSizeGib),
+        value: cdktn.stringToHclTerraform(this._hotTierSizeGib),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kms_config: {
-        value: cdktf.stringToHclTerraform(this._kmsConfig),
+        value: cdktn.stringToHclTerraform(this._kmsConfig),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       ldap_enabled: {
-        value: cdktf.booleanToHclTerraform(this._ldapEnabled),
+        value: cdktn.booleanToHclTerraform(this._ldapEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       replica_zone: {
-        value: cdktf.stringToHclTerraform(this._replicaZone),
+        value: cdktn.stringToHclTerraform(this._replicaZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_level: {
-        value: cdktf.stringToHclTerraform(this._serviceLevel),
+        value: cdktn.stringToHclTerraform(this._serviceLevel),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       total_iops: {
-        value: cdktf.stringToHclTerraform(this._totalIops),
+        value: cdktn.stringToHclTerraform(this._totalIops),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       total_throughput_mibps: {
-        value: cdktf.stringToHclTerraform(this._totalThroughputMibps),
+        value: cdktn.stringToHclTerraform(this._totalThroughputMibps),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

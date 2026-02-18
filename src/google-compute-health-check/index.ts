@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeHealthCheckConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeHealthCheckConfig extends cdktn.TerraformMetaArguments {
   /**
   * How often (in seconds) to send a health check. The default value is 5
   * seconds.
@@ -196,45 +196,45 @@ export interface GoogleComputeHealthCheckGrpcHealthCheck {
 }
 
 export function googleComputeHealthCheckGrpcHealthCheckToTerraform(struct?: GoogleComputeHealthCheckGrpcHealthCheckOutputReference | GoogleComputeHealthCheckGrpcHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    grpc_service_name: cdktf.stringToTerraform(struct!.grpcServiceName),
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
+    grpc_service_name: cdktn.stringToTerraform(struct!.grpcServiceName),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
   }
 }
 
 
 export function googleComputeHealthCheckGrpcHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckGrpcHealthCheckOutputReference | GoogleComputeHealthCheckGrpcHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     grpc_service_name: {
-      value: cdktf.stringToHclTerraform(struct!.grpcServiceName),
+      value: cdktn.stringToHclTerraform(struct!.grpcServiceName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -245,14 +245,14 @@ export function googleComputeHealthCheckGrpcHealthCheckToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckGrpcHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckGrpcHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -398,38 +398,38 @@ export interface GoogleComputeHealthCheckGrpcTlsHealthCheck {
 }
 
 export function googleComputeHealthCheckGrpcTlsHealthCheckToTerraform(struct?: GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference | GoogleComputeHealthCheckGrpcTlsHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    grpc_service_name: cdktf.stringToTerraform(struct!.grpcServiceName),
-    port: cdktf.numberToTerraform(struct!.port),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
+    grpc_service_name: cdktn.stringToTerraform(struct!.grpcServiceName),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
   }
 }
 
 
 export function googleComputeHealthCheckGrpcTlsHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference | GoogleComputeHealthCheckGrpcTlsHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     grpc_service_name: {
-      value: cdktf.stringToHclTerraform(struct!.grpcServiceName),
+      value: cdktn.stringToHclTerraform(struct!.grpcServiceName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -440,14 +440,14 @@ export function googleComputeHealthCheckGrpcTlsHealthCheckToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -599,66 +599,66 @@ export interface GoogleComputeHealthCheckHttp2HealthCheck {
 }
 
 export function googleComputeHealthCheckHttp2HealthCheckToTerraform(struct?: GoogleComputeHealthCheckHttp2HealthCheckOutputReference | GoogleComputeHealthCheckHttp2HealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host: cdktf.stringToTerraform(struct!.host),
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
-    proxy_header: cdktf.stringToTerraform(struct!.proxyHeader),
-    request_path: cdktf.stringToTerraform(struct!.requestPath),
-    response: cdktf.stringToTerraform(struct!.response),
+    host: cdktn.stringToTerraform(struct!.host),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
+    proxy_header: cdktn.stringToTerraform(struct!.proxyHeader),
+    request_path: cdktn.stringToTerraform(struct!.requestPath),
+    response: cdktn.stringToTerraform(struct!.response),
   }
 }
 
 
 export function googleComputeHealthCheckHttp2HealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckHttp2HealthCheckOutputReference | GoogleComputeHealthCheckHttp2HealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
+      value: cdktn.stringToHclTerraform(struct!.host),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     proxy_header: {
-      value: cdktf.stringToHclTerraform(struct!.proxyHeader),
+      value: cdktn.stringToHclTerraform(struct!.proxyHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_path: {
-      value: cdktf.stringToHclTerraform(struct!.requestPath),
+      value: cdktn.stringToHclTerraform(struct!.requestPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     response: {
-      value: cdktf.stringToHclTerraform(struct!.response),
+      value: cdktn.stringToHclTerraform(struct!.response),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -669,14 +669,14 @@ export function googleComputeHealthCheckHttp2HealthCheckToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckHttp2HealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckHttp2HealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -916,66 +916,66 @@ export interface GoogleComputeHealthCheckHttpHealthCheck {
 }
 
 export function googleComputeHealthCheckHttpHealthCheckToTerraform(struct?: GoogleComputeHealthCheckHttpHealthCheckOutputReference | GoogleComputeHealthCheckHttpHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host: cdktf.stringToTerraform(struct!.host),
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
-    proxy_header: cdktf.stringToTerraform(struct!.proxyHeader),
-    request_path: cdktf.stringToTerraform(struct!.requestPath),
-    response: cdktf.stringToTerraform(struct!.response),
+    host: cdktn.stringToTerraform(struct!.host),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
+    proxy_header: cdktn.stringToTerraform(struct!.proxyHeader),
+    request_path: cdktn.stringToTerraform(struct!.requestPath),
+    response: cdktn.stringToTerraform(struct!.response),
   }
 }
 
 
 export function googleComputeHealthCheckHttpHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckHttpHealthCheckOutputReference | GoogleComputeHealthCheckHttpHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
+      value: cdktn.stringToHclTerraform(struct!.host),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     proxy_header: {
-      value: cdktf.stringToHclTerraform(struct!.proxyHeader),
+      value: cdktn.stringToHclTerraform(struct!.proxyHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_path: {
-      value: cdktf.stringToHclTerraform(struct!.requestPath),
+      value: cdktn.stringToHclTerraform(struct!.requestPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     response: {
-      value: cdktf.stringToHclTerraform(struct!.response),
+      value: cdktn.stringToHclTerraform(struct!.response),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -986,14 +986,14 @@ export function googleComputeHealthCheckHttpHealthCheckToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckHttpHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckHttpHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1233,66 +1233,66 @@ export interface GoogleComputeHealthCheckHttpsHealthCheck {
 }
 
 export function googleComputeHealthCheckHttpsHealthCheckToTerraform(struct?: GoogleComputeHealthCheckHttpsHealthCheckOutputReference | GoogleComputeHealthCheckHttpsHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host: cdktf.stringToTerraform(struct!.host),
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
-    proxy_header: cdktf.stringToTerraform(struct!.proxyHeader),
-    request_path: cdktf.stringToTerraform(struct!.requestPath),
-    response: cdktf.stringToTerraform(struct!.response),
+    host: cdktn.stringToTerraform(struct!.host),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
+    proxy_header: cdktn.stringToTerraform(struct!.proxyHeader),
+    request_path: cdktn.stringToTerraform(struct!.requestPath),
+    response: cdktn.stringToTerraform(struct!.response),
   }
 }
 
 
 export function googleComputeHealthCheckHttpsHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckHttpsHealthCheckOutputReference | GoogleComputeHealthCheckHttpsHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
+      value: cdktn.stringToHclTerraform(struct!.host),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     proxy_header: {
-      value: cdktf.stringToHclTerraform(struct!.proxyHeader),
+      value: cdktn.stringToHclTerraform(struct!.proxyHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_path: {
-      value: cdktf.stringToHclTerraform(struct!.requestPath),
+      value: cdktn.stringToHclTerraform(struct!.requestPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     response: {
-      value: cdktf.stringToHclTerraform(struct!.response),
+      value: cdktn.stringToHclTerraform(struct!.response),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1303,14 +1303,14 @@ export function googleComputeHealthCheckHttpsHealthCheckToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckHttpsHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckHttpsHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1490,28 +1490,28 @@ export interface GoogleComputeHealthCheckLogConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check#enable GoogleComputeHealthCheck#enable}
   */
-  readonly enable?: boolean | cdktf.IResolvable;
+  readonly enable?: boolean | cdktn.IResolvable;
 }
 
 export function googleComputeHealthCheckLogConfigToTerraform(struct?: GoogleComputeHealthCheckLogConfigOutputReference | GoogleComputeHealthCheckLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable: cdktf.booleanToTerraform(struct!.enable),
+    enable: cdktn.booleanToTerraform(struct!.enable),
   }
 }
 
 
 export function googleComputeHealthCheckLogConfigToHclTerraform(struct?: GoogleComputeHealthCheckLogConfigOutputReference | GoogleComputeHealthCheckLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable: {
-      value: cdktf.booleanToHclTerraform(struct!.enable),
+      value: cdktn.booleanToHclTerraform(struct!.enable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1522,14 +1522,14 @@ export function googleComputeHealthCheckLogConfigToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckLogConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckLogConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1555,11 +1555,11 @@ export class GoogleComputeHealthCheckLogConfigOutputReference extends cdktf.Comp
   }
 
   // enable - computed: false, optional: true, required: false
-  private _enable?: boolean | cdktf.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
-  public set enable(value: boolean | cdktf.IResolvable) {
+  public set enable(value: boolean | cdktn.IResolvable) {
     this._enable = value;
   }
   public resetEnable() {
@@ -1631,59 +1631,59 @@ export interface GoogleComputeHealthCheckSslHealthCheck {
 }
 
 export function googleComputeHealthCheckSslHealthCheckToTerraform(struct?: GoogleComputeHealthCheckSslHealthCheckOutputReference | GoogleComputeHealthCheckSslHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
-    proxy_header: cdktf.stringToTerraform(struct!.proxyHeader),
-    request: cdktf.stringToTerraform(struct!.request),
-    response: cdktf.stringToTerraform(struct!.response),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
+    proxy_header: cdktn.stringToTerraform(struct!.proxyHeader),
+    request: cdktn.stringToTerraform(struct!.request),
+    response: cdktn.stringToTerraform(struct!.response),
   }
 }
 
 
 export function googleComputeHealthCheckSslHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckSslHealthCheckOutputReference | GoogleComputeHealthCheckSslHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     proxy_header: {
-      value: cdktf.stringToHclTerraform(struct!.proxyHeader),
+      value: cdktn.stringToHclTerraform(struct!.proxyHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request: {
-      value: cdktf.stringToHclTerraform(struct!.request),
+      value: cdktn.stringToHclTerraform(struct!.request),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     response: {
-      value: cdktf.stringToHclTerraform(struct!.response),
+      value: cdktn.stringToHclTerraform(struct!.response),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1694,14 +1694,14 @@ export function googleComputeHealthCheckSslHealthCheckToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckSslHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckSslHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1913,59 +1913,59 @@ export interface GoogleComputeHealthCheckTcpHealthCheck {
 }
 
 export function googleComputeHealthCheckTcpHealthCheckToTerraform(struct?: GoogleComputeHealthCheckTcpHealthCheckOutputReference | GoogleComputeHealthCheckTcpHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    port: cdktf.numberToTerraform(struct!.port),
-    port_name: cdktf.stringToTerraform(struct!.portName),
-    port_specification: cdktf.stringToTerraform(struct!.portSpecification),
-    proxy_header: cdktf.stringToTerraform(struct!.proxyHeader),
-    request: cdktf.stringToTerraform(struct!.request),
-    response: cdktf.stringToTerraform(struct!.response),
+    port: cdktn.numberToTerraform(struct!.port),
+    port_name: cdktn.stringToTerraform(struct!.portName),
+    port_specification: cdktn.stringToTerraform(struct!.portSpecification),
+    proxy_header: cdktn.stringToTerraform(struct!.proxyHeader),
+    request: cdktn.stringToTerraform(struct!.request),
+    response: cdktn.stringToTerraform(struct!.response),
   }
 }
 
 
 export function googleComputeHealthCheckTcpHealthCheckToHclTerraform(struct?: GoogleComputeHealthCheckTcpHealthCheckOutputReference | GoogleComputeHealthCheckTcpHealthCheck): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     port_name: {
-      value: cdktf.stringToHclTerraform(struct!.portName),
+      value: cdktn.stringToHclTerraform(struct!.portName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port_specification: {
-      value: cdktf.stringToHclTerraform(struct!.portSpecification),
+      value: cdktn.stringToHclTerraform(struct!.portSpecification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     proxy_header: {
-      value: cdktf.stringToHclTerraform(struct!.proxyHeader),
+      value: cdktn.stringToHclTerraform(struct!.proxyHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request: {
-      value: cdktf.stringToHclTerraform(struct!.request),
+      value: cdktn.stringToHclTerraform(struct!.request),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     response: {
-      value: cdktf.stringToHclTerraform(struct!.response),
+      value: cdktn.stringToHclTerraform(struct!.response),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1976,14 +1976,14 @@ export function googleComputeHealthCheckTcpHealthCheckToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckTcpHealthCheckOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckTcpHealthCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2149,39 +2149,39 @@ export interface GoogleComputeHealthCheckTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeHealthCheckTimeoutsToTerraform(struct?: GoogleComputeHealthCheckTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeHealthCheckTimeoutsToTerraform(struct?: GoogleComputeHealthCheckTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeHealthCheckTimeoutsToHclTerraform(struct?: GoogleComputeHealthCheckTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeHealthCheckTimeoutsToHclTerraform(struct?: GoogleComputeHealthCheckTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2192,19 +2192,19 @@ export function googleComputeHealthCheckTimeoutsToHclTerraform(struct?: GoogleCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeHealthCheckTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeHealthCheckTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeHealthCheckTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeHealthCheckTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2225,7 +2225,7 @@ export class GoogleComputeHealthCheckTimeoutsOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeHealthCheckTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeHealthCheckTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2233,7 +2233,7 @@ export class GoogleComputeHealthCheckTimeoutsOutputReference extends cdktf.Compl
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2298,7 +2298,7 @@ export class GoogleComputeHealthCheckTimeoutsOutputReference extends cdktf.Compl
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check google_compute_health_check}
 */
-export class GoogleComputeHealthCheck extends cdktf.TerraformResource {
+export class GoogleComputeHealthCheck extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2309,14 +2309,14 @@ export class GoogleComputeHealthCheck extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeHealthCheck resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeHealthCheck resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeHealthCheck to import
   * @param importFromId The id of the existing GoogleComputeHealthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeHealthCheck to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_health_check", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_health_check", importId: importFromId, provider });
       }
 
   // ===========
@@ -2676,15 +2676,15 @@ export class GoogleComputeHealthCheck extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      check_interval_sec: cdktf.numberToTerraform(this._checkIntervalSec),
-      description: cdktf.stringToTerraform(this._description),
-      healthy_threshold: cdktf.numberToTerraform(this._healthyThreshold),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      source_regions: cdktf.listMapper(cdktf.stringToTerraform, false)(this._sourceRegions),
-      timeout_sec: cdktf.numberToTerraform(this._timeoutSec),
-      unhealthy_threshold: cdktf.numberToTerraform(this._unhealthyThreshold),
+      check_interval_sec: cdktn.numberToTerraform(this._checkIntervalSec),
+      description: cdktn.stringToTerraform(this._description),
+      healthy_threshold: cdktn.numberToTerraform(this._healthyThreshold),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      source_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(this._sourceRegions),
+      timeout_sec: cdktn.numberToTerraform(this._timeoutSec),
+      unhealthy_threshold: cdktn.numberToTerraform(this._unhealthyThreshold),
       grpc_health_check: googleComputeHealthCheckGrpcHealthCheckToTerraform(this._grpcHealthCheck.internalValue),
       grpc_tls_health_check: googleComputeHealthCheckGrpcTlsHealthCheckToTerraform(this._grpcTlsHealthCheck.internalValue),
       http2_health_check: googleComputeHealthCheckHttp2HealthCheckToTerraform(this._http2HealthCheck.internalValue),
@@ -2700,55 +2700,55 @@ export class GoogleComputeHealthCheck extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       check_interval_sec: {
-        value: cdktf.numberToHclTerraform(this._checkIntervalSec),
+        value: cdktn.numberToHclTerraform(this._checkIntervalSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       healthy_threshold: {
-        value: cdktf.numberToHclTerraform(this._healthyThreshold),
+        value: cdktn.numberToHclTerraform(this._healthyThreshold),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       source_regions: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sourceRegions),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._sourceRegions),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._timeoutSec),
+        value: cdktn.numberToHclTerraform(this._timeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       unhealthy_threshold: {
-        value: cdktf.numberToHclTerraform(this._unhealthyThreshold),
+        value: cdktn.numberToHclTerraform(this._unhealthyThreshold),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

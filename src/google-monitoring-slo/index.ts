@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleMonitoringSloConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleMonitoringSloConfig extends cdktn.TerraformMetaArguments {
   /**
   * A calendar period, semantically "since the start of the current
   * <calendarPeriod>". Possible values: ["DAY", "WEEK", "FORTNIGHT", "MONTH"]
@@ -103,28 +103,28 @@ export interface GoogleMonitoringSloBasicSliAvailability {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_slo#enabled GoogleMonitoringSlo#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleMonitoringSloBasicSliAvailabilityToTerraform(struct?: GoogleMonitoringSloBasicSliAvailabilityOutputReference | GoogleMonitoringSloBasicSliAvailability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
   }
 }
 
 
 export function googleMonitoringSloBasicSliAvailabilityToHclTerraform(struct?: GoogleMonitoringSloBasicSliAvailabilityOutputReference | GoogleMonitoringSloBasicSliAvailability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -135,14 +135,14 @@ export function googleMonitoringSloBasicSliAvailabilityToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloBasicSliAvailabilityOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloBasicSliAvailabilityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -168,11 +168,11 @@ export class GoogleMonitoringSloBasicSliAvailabilityOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -195,24 +195,24 @@ export interface GoogleMonitoringSloBasicSliLatency {
 }
 
 export function googleMonitoringSloBasicSliLatencyToTerraform(struct?: GoogleMonitoringSloBasicSliLatencyOutputReference | GoogleMonitoringSloBasicSliLatency): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    threshold: cdktf.stringToTerraform(struct!.threshold),
+    threshold: cdktn.stringToTerraform(struct!.threshold),
   }
 }
 
 
 export function googleMonitoringSloBasicSliLatencyToHclTerraform(struct?: GoogleMonitoringSloBasicSliLatencyOutputReference | GoogleMonitoringSloBasicSliLatency): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     threshold: {
-      value: cdktf.stringToHclTerraform(struct!.threshold),
+      value: cdktn.stringToHclTerraform(struct!.threshold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -223,14 +223,14 @@ export function googleMonitoringSloBasicSliLatencyToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloBasicSliLatencyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloBasicSliLatencyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -317,14 +317,14 @@ export interface GoogleMonitoringSloBasicSli {
 }
 
 export function googleMonitoringSloBasicSliToTerraform(struct?: GoogleMonitoringSloBasicSliOutputReference | GoogleMonitoringSloBasicSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    location: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.location),
-    method: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.method),
-    version: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.version),
+    location: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.location),
+    method: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.method),
+    version: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.version),
     availability: googleMonitoringSloBasicSliAvailabilityToTerraform(struct!.availability),
     latency: googleMonitoringSloBasicSliLatencyToTerraform(struct!.latency),
   }
@@ -332,25 +332,25 @@ export function googleMonitoringSloBasicSliToTerraform(struct?: GoogleMonitoring
 
 
 export function googleMonitoringSloBasicSliToHclTerraform(struct?: GoogleMonitoringSloBasicSliOutputReference | GoogleMonitoringSloBasicSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     location: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.location),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.location),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     method: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.method),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.method),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     version: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.version),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.version),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -373,14 +373,14 @@ export function googleMonitoringSloBasicSliToHclTerraform(struct?: GoogleMonitor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloBasicSliOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloBasicSliOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -432,7 +432,7 @@ export class GoogleMonitoringSloBasicSliOutputReference extends cdktf.ComplexObj
   // location - computed: false, optional: true, required: false
   private _location?: string[]; 
   public get location() {
-    return cdktf.Fn.tolist(this.getListAttribute('location'));
+    return cdktn.Fn.tolist(this.getListAttribute('location'));
   }
   public set location(value: string[]) {
     this._location = value;
@@ -448,7 +448,7 @@ export class GoogleMonitoringSloBasicSliOutputReference extends cdktf.ComplexObj
   // method - computed: false, optional: true, required: false
   private _method?: string[]; 
   public get method() {
-    return cdktf.Fn.tolist(this.getListAttribute('method'));
+    return cdktn.Fn.tolist(this.getListAttribute('method'));
   }
   public set method(value: string[]) {
     this._method = value;
@@ -464,7 +464,7 @@ export class GoogleMonitoringSloBasicSliOutputReference extends cdktf.ComplexObj
   // version - computed: false, optional: true, required: false
   private _version?: string[]; 
   public get version() {
-    return cdktf.Fn.tolist(this.getListAttribute('version'));
+    return cdktn.Fn.tolist(this.getListAttribute('version'));
   }
   public set version(value: string[]) {
     this._version = value;
@@ -527,31 +527,31 @@ export interface GoogleMonitoringSloRequestBasedSliDistributionCutRange {
 }
 
 export function googleMonitoringSloRequestBasedSliDistributionCutRangeToTerraform(struct?: GoogleMonitoringSloRequestBasedSliDistributionCutRangeOutputReference | GoogleMonitoringSloRequestBasedSliDistributionCutRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max: cdktf.numberToTerraform(struct!.max),
-    min: cdktf.numberToTerraform(struct!.min),
+    max: cdktn.numberToTerraform(struct!.max),
+    min: cdktn.numberToTerraform(struct!.min),
   }
 }
 
 
 export function googleMonitoringSloRequestBasedSliDistributionCutRangeToHclTerraform(struct?: GoogleMonitoringSloRequestBasedSliDistributionCutRangeOutputReference | GoogleMonitoringSloRequestBasedSliDistributionCutRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max: {
-      value: cdktf.numberToHclTerraform(struct!.max),
+      value: cdktn.numberToHclTerraform(struct!.max),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min: {
-      value: cdktf.numberToHclTerraform(struct!.min),
+      value: cdktn.numberToHclTerraform(struct!.min),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -562,14 +562,14 @@ export function googleMonitoringSloRequestBasedSliDistributionCutRangeToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloRequestBasedSliDistributionCutRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloRequestBasedSliDistributionCutRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -652,25 +652,25 @@ export interface GoogleMonitoringSloRequestBasedSliDistributionCut {
 }
 
 export function googleMonitoringSloRequestBasedSliDistributionCutToTerraform(struct?: GoogleMonitoringSloRequestBasedSliDistributionCutOutputReference | GoogleMonitoringSloRequestBasedSliDistributionCut): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    distribution_filter: cdktf.stringToTerraform(struct!.distributionFilter),
+    distribution_filter: cdktn.stringToTerraform(struct!.distributionFilter),
     range: googleMonitoringSloRequestBasedSliDistributionCutRangeToTerraform(struct!.range),
   }
 }
 
 
 export function googleMonitoringSloRequestBasedSliDistributionCutToHclTerraform(struct?: GoogleMonitoringSloRequestBasedSliDistributionCutOutputReference | GoogleMonitoringSloRequestBasedSliDistributionCut): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     distribution_filter: {
-      value: cdktf.stringToHclTerraform(struct!.distributionFilter),
+      value: cdktn.stringToHclTerraform(struct!.distributionFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -687,14 +687,14 @@ export function googleMonitoringSloRequestBasedSliDistributionCutToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloRequestBasedSliDistributionCutOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloRequestBasedSliDistributionCutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -795,38 +795,38 @@ export interface GoogleMonitoringSloRequestBasedSliGoodTotalRatio {
 }
 
 export function googleMonitoringSloRequestBasedSliGoodTotalRatioToTerraform(struct?: GoogleMonitoringSloRequestBasedSliGoodTotalRatioOutputReference | GoogleMonitoringSloRequestBasedSliGoodTotalRatio): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bad_service_filter: cdktf.stringToTerraform(struct!.badServiceFilter),
-    good_service_filter: cdktf.stringToTerraform(struct!.goodServiceFilter),
-    total_service_filter: cdktf.stringToTerraform(struct!.totalServiceFilter),
+    bad_service_filter: cdktn.stringToTerraform(struct!.badServiceFilter),
+    good_service_filter: cdktn.stringToTerraform(struct!.goodServiceFilter),
+    total_service_filter: cdktn.stringToTerraform(struct!.totalServiceFilter),
   }
 }
 
 
 export function googleMonitoringSloRequestBasedSliGoodTotalRatioToHclTerraform(struct?: GoogleMonitoringSloRequestBasedSliGoodTotalRatioOutputReference | GoogleMonitoringSloRequestBasedSliGoodTotalRatio): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bad_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.badServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.badServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     good_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.goodServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.goodServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     total_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.totalServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.totalServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -837,14 +837,14 @@ export function googleMonitoringSloRequestBasedSliGoodTotalRatioToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloRequestBasedSliGoodTotalRatioOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloRequestBasedSliGoodTotalRatioOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -945,8 +945,8 @@ export interface GoogleMonitoringSloRequestBasedSli {
 }
 
 export function googleMonitoringSloRequestBasedSliToTerraform(struct?: GoogleMonitoringSloRequestBasedSliOutputReference | GoogleMonitoringSloRequestBasedSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -957,8 +957,8 @@ export function googleMonitoringSloRequestBasedSliToTerraform(struct?: GoogleMon
 
 
 export function googleMonitoringSloRequestBasedSliToHclTerraform(struct?: GoogleMonitoringSloRequestBasedSliOutputReference | GoogleMonitoringSloRequestBasedSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -980,14 +980,14 @@ export function googleMonitoringSloRequestBasedSliToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloRequestBasedSliOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloRequestBasedSliOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1065,39 +1065,39 @@ export interface GoogleMonitoringSloTimeouts {
   readonly update?: string;
 }
 
-export function googleMonitoringSloTimeoutsToTerraform(struct?: GoogleMonitoringSloTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringSloTimeoutsToTerraform(struct?: GoogleMonitoringSloTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleMonitoringSloTimeoutsToHclTerraform(struct?: GoogleMonitoringSloTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMonitoringSloTimeoutsToHclTerraform(struct?: GoogleMonitoringSloTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1108,19 +1108,19 @@ export function googleMonitoringSloTimeoutsToHclTerraform(struct?: GoogleMonitor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleMonitoringSloTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMonitoringSloTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1141,7 +1141,7 @@ export class GoogleMonitoringSloTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMonitoringSloTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMonitoringSloTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1149,7 +1149,7 @@ export class GoogleMonitoringSloTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1216,28 +1216,28 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicS
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_slo#enabled GoogleMonitoringSlo#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1248,14 +1248,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1281,11 +1281,11 @@ export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -1308,24 +1308,24 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicS
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatency): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    threshold: cdktf.stringToTerraform(struct!.threshold),
+    threshold: cdktn.stringToTerraform(struct!.threshold),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatency): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     threshold: {
-      value: cdktf.stringToHclTerraform(struct!.threshold),
+      value: cdktn.stringToHclTerraform(struct!.threshold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1336,14 +1336,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1430,14 +1430,14 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicS
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    location: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.location),
-    method: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.method),
-    version: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.version),
+    location: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.location),
+    method: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.method),
+    version: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.version),
     availability: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceAvailabilityToTerraform(struct!.availability),
     latency: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceLatencyToTerraform(struct!.latency),
   }
@@ -1445,25 +1445,25 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSl
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     location: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.location),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.location),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     method: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.method),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.method),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     version: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.version),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.version),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -1486,14 +1486,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1545,7 +1545,7 @@ export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
   // location - computed: false, optional: true, required: false
   private _location?: string[]; 
   public get location() {
-    return cdktf.Fn.tolist(this.getListAttribute('location'));
+    return cdktn.Fn.tolist(this.getListAttribute('location'));
   }
   public set location(value: string[]) {
     this._location = value;
@@ -1561,7 +1561,7 @@ export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
   // method - computed: false, optional: true, required: false
   private _method?: string[]; 
   public get method() {
-    return cdktf.Fn.tolist(this.getListAttribute('method'));
+    return cdktn.Fn.tolist(this.getListAttribute('method'));
   }
   public set method(value: string[]) {
     this._method = value;
@@ -1577,7 +1577,7 @@ export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPe
   // version - computed: false, optional: true, required: false
   private _version?: string[]; 
   public get version() {
-    return cdktf.Fn.tolist(this.getListAttribute('version'));
+    return cdktn.Fn.tolist(this.getListAttribute('version'));
   }
   public set version(value: string[]) {
     this._version = value;
@@ -1640,31 +1640,31 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerfor
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max: cdktf.numberToTerraform(struct!.max),
-    min: cdktf.numberToTerraform(struct!.min),
+    max: cdktn.numberToTerraform(struct!.max),
+    min: cdktn.numberToTerraform(struct!.min),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max: {
-      value: cdktf.numberToHclTerraform(struct!.max),
+      value: cdktn.numberToHclTerraform(struct!.max),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min: {
-      value: cdktf.numberToHclTerraform(struct!.min),
+      value: cdktn.numberToHclTerraform(struct!.min),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1675,14 +1675,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1765,25 +1765,25 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerfor
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCut): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    distribution_filter: cdktf.stringToTerraform(struct!.distributionFilter),
+    distribution_filter: cdktn.stringToTerraform(struct!.distributionFilter),
     range: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutRangeToTerraform(struct!.range),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCut): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     distribution_filter: {
-      value: cdktf.stringToHclTerraform(struct!.distributionFilter),
+      value: cdktn.stringToHclTerraform(struct!.distributionFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1800,14 +1800,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceDistributionCutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1906,38 +1906,38 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerfor
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatio): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bad_service_filter: cdktf.stringToTerraform(struct!.badServiceFilter),
-    good_service_filter: cdktf.stringToTerraform(struct!.goodServiceFilter),
-    total_service_filter: cdktf.stringToTerraform(struct!.totalServiceFilter),
+    bad_service_filter: cdktn.stringToTerraform(struct!.badServiceFilter),
+    good_service_filter: cdktn.stringToTerraform(struct!.goodServiceFilter),
+    total_service_filter: cdktn.stringToTerraform(struct!.totalServiceFilter),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatio): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bad_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.badServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.badServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     good_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.goodServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.goodServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     total_service_filter: {
-      value: cdktf.stringToHclTerraform(struct!.totalServiceFilter),
+      value: cdktn.stringToHclTerraform(struct!.totalServiceFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1948,14 +1948,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceGoodTotalRatioOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2056,8 +2056,8 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerfor
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2068,8 +2068,8 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerform
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2091,14 +2091,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2184,12 +2184,12 @@ export interface GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThreshold {
 }
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    threshold: cdktf.numberToTerraform(struct!.threshold),
+    threshold: cdktn.numberToTerraform(struct!.threshold),
     basic_sli_performance: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdBasicSliPerformanceToTerraform(struct!.basicSliPerformance),
     performance: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdPerformanceToTerraform(struct!.performance),
   }
@@ -2197,13 +2197,13 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdToTerra
 
 
 export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdOutputReference | GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     threshold: {
-      value: cdktf.numberToHclTerraform(struct!.threshold),
+      value: cdktn.numberToHclTerraform(struct!.threshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2226,14 +2226,14 @@ export function googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2338,31 +2338,31 @@ export interface GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRange {
 }
 
 export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max: cdktf.numberToTerraform(struct!.max),
-    min: cdktf.numberToTerraform(struct!.min),
+    max: cdktn.numberToTerraform(struct!.max),
+    min: cdktn.numberToTerraform(struct!.min),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max: {
-      value: cdktf.numberToHclTerraform(struct!.max),
+      value: cdktn.numberToHclTerraform(struct!.max),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min: {
-      value: cdktf.numberToHclTerraform(struct!.min),
+      value: cdktn.numberToHclTerraform(struct!.min),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2373,14 +2373,14 @@ export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2464,25 +2464,25 @@ export interface GoogleMonitoringSloWindowsBasedSliMetricMeanInRange {
 }
 
 export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricMeanInRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    time_series: cdktf.stringToTerraform(struct!.timeSeries),
+    time_series: cdktn.stringToTerraform(struct!.timeSeries),
     range: googleMonitoringSloWindowsBasedSliMetricMeanInRangeRangeToTerraform(struct!.range),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricMeanInRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     time_series: {
-      value: cdktf.stringToHclTerraform(struct!.timeSeries),
+      value: cdktn.stringToHclTerraform(struct!.timeSeries),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2499,14 +2499,14 @@ export function googleMonitoringSloWindowsBasedSliMetricMeanInRangeToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliMetricMeanInRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2583,31 +2583,31 @@ export interface GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRange {
 }
 
 export function googleMonitoringSloWindowsBasedSliMetricSumInRangeRangeToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max: cdktf.numberToTerraform(struct!.max),
-    min: cdktf.numberToTerraform(struct!.min),
+    max: cdktn.numberToTerraform(struct!.max),
+    min: cdktn.numberToTerraform(struct!.min),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliMetricSumInRangeRangeToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max: {
-      value: cdktf.numberToHclTerraform(struct!.max),
+      value: cdktn.numberToHclTerraform(struct!.max),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min: {
-      value: cdktf.numberToHclTerraform(struct!.min),
+      value: cdktn.numberToHclTerraform(struct!.min),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2618,14 +2618,14 @@ export function googleMonitoringSloWindowsBasedSliMetricSumInRangeRangeToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliMetricSumInRangeRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2711,25 +2711,25 @@ export interface GoogleMonitoringSloWindowsBasedSliMetricSumInRange {
 }
 
 export function googleMonitoringSloWindowsBasedSliMetricSumInRangeToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricSumInRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricSumInRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    time_series: cdktf.stringToTerraform(struct!.timeSeries),
+    time_series: cdktn.stringToTerraform(struct!.timeSeries),
     range: googleMonitoringSloWindowsBasedSliMetricSumInRangeRangeToTerraform(struct!.range),
   }
 }
 
 
 export function googleMonitoringSloWindowsBasedSliMetricSumInRangeToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliMetricSumInRangeOutputReference | GoogleMonitoringSloWindowsBasedSliMetricSumInRange): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     time_series: {
-      value: cdktf.stringToHclTerraform(struct!.timeSeries),
+      value: cdktn.stringToHclTerraform(struct!.timeSeries),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2746,14 +2746,14 @@ export function googleMonitoringSloWindowsBasedSliMetricSumInRangeToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliMetricSumInRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliMetricSumInRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2850,13 +2850,13 @@ export interface GoogleMonitoringSloWindowsBasedSli {
 }
 
 export function googleMonitoringSloWindowsBasedSliToTerraform(struct?: GoogleMonitoringSloWindowsBasedSliOutputReference | GoogleMonitoringSloWindowsBasedSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    good_bad_metric_filter: cdktf.stringToTerraform(struct!.goodBadMetricFilter),
-    window_period: cdktf.stringToTerraform(struct!.windowPeriod),
+    good_bad_metric_filter: cdktn.stringToTerraform(struct!.goodBadMetricFilter),
+    window_period: cdktn.stringToTerraform(struct!.windowPeriod),
     good_total_ratio_threshold: googleMonitoringSloWindowsBasedSliGoodTotalRatioThresholdToTerraform(struct!.goodTotalRatioThreshold),
     metric_mean_in_range: googleMonitoringSloWindowsBasedSliMetricMeanInRangeToTerraform(struct!.metricMeanInRange),
     metric_sum_in_range: googleMonitoringSloWindowsBasedSliMetricSumInRangeToTerraform(struct!.metricSumInRange),
@@ -2865,19 +2865,19 @@ export function googleMonitoringSloWindowsBasedSliToTerraform(struct?: GoogleMon
 
 
 export function googleMonitoringSloWindowsBasedSliToHclTerraform(struct?: GoogleMonitoringSloWindowsBasedSliOutputReference | GoogleMonitoringSloWindowsBasedSli): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     good_bad_metric_filter: {
-      value: cdktf.stringToHclTerraform(struct!.goodBadMetricFilter),
+      value: cdktn.stringToHclTerraform(struct!.goodBadMetricFilter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     window_period: {
-      value: cdktf.stringToHclTerraform(struct!.windowPeriod),
+      value: cdktn.stringToHclTerraform(struct!.windowPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2906,14 +2906,14 @@ export function googleMonitoringSloWindowsBasedSliToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMonitoringSloWindowsBasedSliOutputReference extends cdktf.ComplexObject {
+export class GoogleMonitoringSloWindowsBasedSliOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3046,7 +3046,7 @@ export class GoogleMonitoringSloWindowsBasedSliOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_slo google_monitoring_slo}
 */
-export class GoogleMonitoringSlo extends cdktf.TerraformResource {
+export class GoogleMonitoringSlo extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -3057,14 +3057,14 @@ export class GoogleMonitoringSlo extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleMonitoringSlo resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleMonitoringSlo resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMonitoringSlo to import
   * @param importFromId The id of the existing GoogleMonitoringSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMonitoringSlo to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_monitoring_slo", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_monitoring_slo", importId: importFromId, provider });
       }
 
   // ===========
@@ -3326,15 +3326,15 @@ export class GoogleMonitoringSlo extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      calendar_period: cdktf.stringToTerraform(this._calendarPeriod),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      goal: cdktf.numberToTerraform(this._goal),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      rolling_period_days: cdktf.numberToTerraform(this._rollingPeriodDays),
-      service: cdktf.stringToTerraform(this._service),
-      slo_id: cdktf.stringToTerraform(this._sloId),
-      user_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._userLabels),
+      calendar_period: cdktn.stringToTerraform(this._calendarPeriod),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      goal: cdktn.numberToTerraform(this._goal),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      rolling_period_days: cdktn.numberToTerraform(this._rollingPeriodDays),
+      service: cdktn.stringToTerraform(this._service),
+      slo_id: cdktn.stringToTerraform(this._sloId),
+      user_labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._userLabels),
       basic_sli: googleMonitoringSloBasicSliToTerraform(this._basicSli.internalValue),
       request_based_sli: googleMonitoringSloRequestBasedSliToTerraform(this._requestBasedSli.internalValue),
       timeouts: googleMonitoringSloTimeoutsToTerraform(this._timeouts.internalValue),
@@ -3345,55 +3345,55 @@ export class GoogleMonitoringSlo extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       calendar_period: {
-        value: cdktf.stringToHclTerraform(this._calendarPeriod),
+        value: cdktn.stringToHclTerraform(this._calendarPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       goal: {
-        value: cdktf.numberToHclTerraform(this._goal),
+        value: cdktn.numberToHclTerraform(this._goal),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rolling_period_days: {
-        value: cdktf.numberToHclTerraform(this._rollingPeriodDays),
+        value: cdktn.numberToHclTerraform(this._rollingPeriodDays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       slo_id: {
-        value: cdktf.stringToHclTerraform(this._sloId),
+        value: cdktn.stringToHclTerraform(this._sloId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       user_labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._userLabels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._userLabels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",

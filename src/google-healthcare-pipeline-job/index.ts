@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleHealthcarePipelineJobConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleHealthcarePipelineJobConfig extends cdktn.TerraformMetaArguments {
   /**
   * Healthcare Dataset under which the Pipeline Job is to run
   *
@@ -23,7 +23,7 @@ export interface GoogleHealthcarePipelineJobConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_pipeline_job#disable_lineage GoogleHealthcarePipelineJob#disable_lineage}
   */
-  readonly disableLineage?: boolean | cdktf.IResolvable;
+  readonly disableLineage?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_pipeline_job#id GoogleHealthcarePipelineJob#id}
   *
@@ -98,24 +98,24 @@ export interface GoogleHealthcarePipelineJobBackfillPipelineJob {
 }
 
 export function googleHealthcarePipelineJobBackfillPipelineJobToTerraform(struct?: GoogleHealthcarePipelineJobBackfillPipelineJobOutputReference | GoogleHealthcarePipelineJobBackfillPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mapping_pipeline_job: cdktf.stringToTerraform(struct!.mappingPipelineJob),
+    mapping_pipeline_job: cdktn.stringToTerraform(struct!.mappingPipelineJob),
   }
 }
 
 
 export function googleHealthcarePipelineJobBackfillPipelineJobToHclTerraform(struct?: GoogleHealthcarePipelineJobBackfillPipelineJobOutputReference | GoogleHealthcarePipelineJobBackfillPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mapping_pipeline_job: {
-      value: cdktf.stringToHclTerraform(struct!.mappingPipelineJob),
+      value: cdktn.stringToHclTerraform(struct!.mappingPipelineJob),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -126,14 +126,14 @@ export function googleHealthcarePipelineJobBackfillPipelineJobToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobBackfillPipelineJobOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobBackfillPipelineJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -190,31 +190,31 @@ export interface GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourc
 }
 
 export function googleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceToTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    fhir_store: cdktf.stringToTerraform(struct!.fhirStore),
+    description: cdktn.stringToTerraform(struct!.description),
+    fhir_store: cdktn.stringToTerraform(struct!.fhirStore),
   }
 }
 
 
 export function googleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceToHclTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fhir_store: {
-      value: cdktf.stringToHclTerraform(struct!.fhirStore),
+      value: cdktn.stringToHclTerraform(struct!.fhirStore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -225,14 +225,14 @@ export function googleHealthcarePipelineJobMappingPipelineJobFhirStreamingSource
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -310,31 +310,31 @@ export interface GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhist
 }
 
 export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceToTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    import_uri_prefix: cdktf.stringToTerraform(struct!.importUriPrefix),
-    uri: cdktf.stringToTerraform(struct!.uri),
+    import_uri_prefix: cdktn.stringToTerraform(struct!.importUriPrefix),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceToHclTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     import_uri_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.importUriPrefix),
+      value: cdktn.stringToHclTerraform(struct!.importUriPrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -345,14 +345,14 @@ export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -425,25 +425,25 @@ export interface GoogleHealthcarePipelineJobMappingPipelineJobMappingConfig {
 }
 
 export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigToTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobMappingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
+    description: cdktn.stringToTerraform(struct!.description),
     whistle_config_source: googleHealthcarePipelineJobMappingPipelineJobMappingConfigWhistleConfigSourceToTerraform(struct!.whistleConfigSource),
   }
 }
 
 
 export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigToHclTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference | GoogleHealthcarePipelineJobMappingPipelineJobMappingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -460,14 +460,14 @@ export function googleHealthcarePipelineJobMappingPipelineJobMappingConfigToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobMappingPipelineJobMappingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -553,7 +553,7 @@ export interface GoogleHealthcarePipelineJobMappingPipelineJob {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_pipeline_job#reconciliation_destination GoogleHealthcarePipelineJob#reconciliation_destination}
   */
-  readonly reconciliationDestination?: boolean | cdktf.IResolvable;
+  readonly reconciliationDestination?: boolean | cdktn.IResolvable;
   /**
   * fhir_streaming_source block
   *
@@ -569,13 +569,13 @@ export interface GoogleHealthcarePipelineJobMappingPipelineJob {
 }
 
 export function googleHealthcarePipelineJobMappingPipelineJobToTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobOutputReference | GoogleHealthcarePipelineJobMappingPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    fhir_store_destination: cdktf.stringToTerraform(struct!.fhirStoreDestination),
-    reconciliation_destination: cdktf.booleanToTerraform(struct!.reconciliationDestination),
+    fhir_store_destination: cdktn.stringToTerraform(struct!.fhirStoreDestination),
+    reconciliation_destination: cdktn.booleanToTerraform(struct!.reconciliationDestination),
     fhir_streaming_source: googleHealthcarePipelineJobMappingPipelineJobFhirStreamingSourceToTerraform(struct!.fhirStreamingSource),
     mapping_config: googleHealthcarePipelineJobMappingPipelineJobMappingConfigToTerraform(struct!.mappingConfig),
   }
@@ -583,19 +583,19 @@ export function googleHealthcarePipelineJobMappingPipelineJobToTerraform(struct?
 
 
 export function googleHealthcarePipelineJobMappingPipelineJobToHclTerraform(struct?: GoogleHealthcarePipelineJobMappingPipelineJobOutputReference | GoogleHealthcarePipelineJobMappingPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     fhir_store_destination: {
-      value: cdktf.stringToHclTerraform(struct!.fhirStoreDestination),
+      value: cdktn.stringToHclTerraform(struct!.fhirStoreDestination),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     reconciliation_destination: {
-      value: cdktf.booleanToHclTerraform(struct!.reconciliationDestination),
+      value: cdktn.booleanToHclTerraform(struct!.reconciliationDestination),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -618,14 +618,14 @@ export function googleHealthcarePipelineJobMappingPipelineJobToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobMappingPipelineJobOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobMappingPipelineJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -685,11 +685,11 @@ export class GoogleHealthcarePipelineJobMappingPipelineJobOutputReference extend
   }
 
   // reconciliation_destination - computed: false, optional: true, required: false
-  private _reconciliationDestination?: boolean | cdktf.IResolvable; 
+  private _reconciliationDestination?: boolean | cdktn.IResolvable; 
   public get reconciliationDestination() {
     return this.getBooleanAttribute('reconciliation_destination');
   }
-  public set reconciliationDestination(value: boolean | cdktf.IResolvable) {
+  public set reconciliationDestination(value: boolean | cdktn.IResolvable) {
     this._reconciliationDestination = value;
   }
   public resetReconciliationDestination() {
@@ -747,31 +747,31 @@ export interface GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfig
 }
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceToTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    import_uri_prefix: cdktf.stringToTerraform(struct!.importUriPrefix),
-    uri: cdktf.stringToTerraform(struct!.uri),
+    import_uri_prefix: cdktn.stringToTerraform(struct!.importUriPrefix),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceToHclTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     import_uri_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.importUriPrefix),
+      value: cdktn.stringToHclTerraform(struct!.importUriPrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -782,14 +782,14 @@ export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigW
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -862,25 +862,25 @@ export interface GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfig
 }
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigToTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
+    description: cdktn.stringToTerraform(struct!.description),
     whistle_config_source: googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigWhistleConfigSourceToTerraform(struct!.whistleConfigSource),
   }
 }
 
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigToHclTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -897,14 +897,14 @@ export function googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobReconciliationPipelineJobMergeConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -990,32 +990,32 @@ export interface GoogleHealthcarePipelineJobReconciliationPipelineJob {
 }
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobToTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    fhir_store_destination: cdktf.stringToTerraform(struct!.fhirStoreDestination),
-    matching_uri_prefix: cdktf.stringToTerraform(struct!.matchingUriPrefix),
+    fhir_store_destination: cdktn.stringToTerraform(struct!.fhirStoreDestination),
+    matching_uri_prefix: cdktn.stringToTerraform(struct!.matchingUriPrefix),
     merge_config: googleHealthcarePipelineJobReconciliationPipelineJobMergeConfigToTerraform(struct!.mergeConfig),
   }
 }
 
 
 export function googleHealthcarePipelineJobReconciliationPipelineJobToHclTerraform(struct?: GoogleHealthcarePipelineJobReconciliationPipelineJobOutputReference | GoogleHealthcarePipelineJobReconciliationPipelineJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     fhir_store_destination: {
-      value: cdktf.stringToHclTerraform(struct!.fhirStoreDestination),
+      value: cdktn.stringToHclTerraform(struct!.fhirStoreDestination),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     matching_uri_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.matchingUriPrefix),
+      value: cdktn.stringToHclTerraform(struct!.matchingUriPrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1032,14 +1032,14 @@ export function googleHealthcarePipelineJobReconciliationPipelineJobToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobReconciliationPipelineJobOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobReconciliationPipelineJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1133,39 +1133,39 @@ export interface GoogleHealthcarePipelineJobTimeouts {
   readonly update?: string;
 }
 
-export function googleHealthcarePipelineJobTimeoutsToTerraform(struct?: GoogleHealthcarePipelineJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcarePipelineJobTimeoutsToTerraform(struct?: GoogleHealthcarePipelineJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleHealthcarePipelineJobTimeoutsToHclTerraform(struct?: GoogleHealthcarePipelineJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcarePipelineJobTimeoutsToHclTerraform(struct?: GoogleHealthcarePipelineJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1176,19 +1176,19 @@ export function googleHealthcarePipelineJobTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcarePipelineJobTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcarePipelineJobTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleHealthcarePipelineJobTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleHealthcarePipelineJobTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1209,7 +1209,7 @@ export class GoogleHealthcarePipelineJobTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleHealthcarePipelineJobTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleHealthcarePipelineJobTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1217,7 +1217,7 @@ export class GoogleHealthcarePipelineJobTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1282,7 +1282,7 @@ export class GoogleHealthcarePipelineJobTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_pipeline_job google_healthcare_pipeline_job}
 */
-export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
+export class GoogleHealthcarePipelineJob extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1293,14 +1293,14 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleHealthcarePipelineJob resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleHealthcarePipelineJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleHealthcarePipelineJob to import
   * @param importFromId The id of the existing GoogleHealthcarePipelineJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_pipeline_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleHealthcarePipelineJob to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_pipeline_job", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_pipeline_job", importId: importFromId, provider });
       }
 
   // ===========
@@ -1360,11 +1360,11 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
   }
 
   // disable_lineage - computed: false, optional: true, required: false
-  private _disableLineage?: boolean | cdktf.IResolvable; 
+  private _disableLineage?: boolean | cdktn.IResolvable; 
   public get disableLineage() {
     return this.getBooleanAttribute('disable_lineage');
   }
-  public set disableLineage(value: boolean | cdktf.IResolvable) {
+  public set disableLineage(value: boolean | cdktn.IResolvable) {
     this._disableLineage = value;
   }
   public resetDisableLineage() {
@@ -1376,7 +1376,7 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1445,7 +1445,7 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1520,12 +1520,12 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataset: cdktf.stringToTerraform(this._dataset),
-      disable_lineage: cdktf.booleanToTerraform(this._disableLineage),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
+      dataset: cdktn.stringToTerraform(this._dataset),
+      disable_lineage: cdktn.booleanToTerraform(this._disableLineage),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
       backfill_pipeline_job: googleHealthcarePipelineJobBackfillPipelineJobToTerraform(this._backfillPipelineJob.internalValue),
       mapping_pipeline_job: googleHealthcarePipelineJobMappingPipelineJobToTerraform(this._mappingPipelineJob.internalValue),
       reconciliation_pipeline_job: googleHealthcarePipelineJobReconciliationPipelineJobToTerraform(this._reconciliationPipelineJob.internalValue),
@@ -1536,37 +1536,37 @@ export class GoogleHealthcarePipelineJob extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataset: {
-        value: cdktf.stringToHclTerraform(this._dataset),
+        value: cdktn.stringToHclTerraform(this._dataset),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disable_lineage: {
-        value: cdktf.booleanToHclTerraform(this._disableLineage),
+        value: cdktn.booleanToHclTerraform(this._disableLineage),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

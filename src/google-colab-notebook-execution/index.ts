@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleColabNotebookExecutionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleColabNotebookExecutionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Required. The display name of the Notebook Execution.
   *
@@ -112,31 +112,31 @@ export interface GoogleColabNotebookExecutionDataformRepositorySource {
 }
 
 export function googleColabNotebookExecutionDataformRepositorySourceToTerraform(struct?: GoogleColabNotebookExecutionDataformRepositorySourceOutputReference | GoogleColabNotebookExecutionDataformRepositorySource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    commit_sha: cdktf.stringToTerraform(struct!.commitSha),
-    dataform_repository_resource_name: cdktf.stringToTerraform(struct!.dataformRepositoryResourceName),
+    commit_sha: cdktn.stringToTerraform(struct!.commitSha),
+    dataform_repository_resource_name: cdktn.stringToTerraform(struct!.dataformRepositoryResourceName),
   }
 }
 
 
 export function googleColabNotebookExecutionDataformRepositorySourceToHclTerraform(struct?: GoogleColabNotebookExecutionDataformRepositorySourceOutputReference | GoogleColabNotebookExecutionDataformRepositorySource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     commit_sha: {
-      value: cdktf.stringToHclTerraform(struct!.commitSha),
+      value: cdktn.stringToHclTerraform(struct!.commitSha),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     dataform_repository_resource_name: {
-      value: cdktf.stringToHclTerraform(struct!.dataformRepositoryResourceName),
+      value: cdktn.stringToHclTerraform(struct!.dataformRepositoryResourceName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -147,14 +147,14 @@ export function googleColabNotebookExecutionDataformRepositorySourceToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleColabNotebookExecutionDataformRepositorySourceOutputReference extends cdktf.ComplexObject {
+export class GoogleColabNotebookExecutionDataformRepositorySourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -224,24 +224,24 @@ export interface GoogleColabNotebookExecutionDirectNotebookSource {
 }
 
 export function googleColabNotebookExecutionDirectNotebookSourceToTerraform(struct?: GoogleColabNotebookExecutionDirectNotebookSourceOutputReference | GoogleColabNotebookExecutionDirectNotebookSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content: cdktf.stringToTerraform(struct!.content),
+    content: cdktn.stringToTerraform(struct!.content),
   }
 }
 
 
 export function googleColabNotebookExecutionDirectNotebookSourceToHclTerraform(struct?: GoogleColabNotebookExecutionDirectNotebookSourceOutputReference | GoogleColabNotebookExecutionDirectNotebookSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content: {
-      value: cdktf.stringToHclTerraform(struct!.content),
+      value: cdktn.stringToHclTerraform(struct!.content),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -252,14 +252,14 @@ export function googleColabNotebookExecutionDirectNotebookSourceToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleColabNotebookExecutionDirectNotebookSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleColabNotebookExecutionDirectNotebookSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -313,31 +313,31 @@ export interface GoogleColabNotebookExecutionGcsNotebookSource {
 }
 
 export function googleColabNotebookExecutionGcsNotebookSourceToTerraform(struct?: GoogleColabNotebookExecutionGcsNotebookSourceOutputReference | GoogleColabNotebookExecutionGcsNotebookSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    generation: cdktf.stringToTerraform(struct!.generation),
-    uri: cdktf.stringToTerraform(struct!.uri),
+    generation: cdktn.stringToTerraform(struct!.generation),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleColabNotebookExecutionGcsNotebookSourceToHclTerraform(struct?: GoogleColabNotebookExecutionGcsNotebookSourceOutputReference | GoogleColabNotebookExecutionGcsNotebookSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     generation: {
-      value: cdktf.stringToHclTerraform(struct!.generation),
+      value: cdktn.stringToHclTerraform(struct!.generation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -348,14 +348,14 @@ export function googleColabNotebookExecutionGcsNotebookSourceToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleColabNotebookExecutionGcsNotebookSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleColabNotebookExecutionGcsNotebookSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -426,32 +426,32 @@ export interface GoogleColabNotebookExecutionTimeouts {
   readonly delete?: string;
 }
 
-export function googleColabNotebookExecutionTimeoutsToTerraform(struct?: GoogleColabNotebookExecutionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleColabNotebookExecutionTimeoutsToTerraform(struct?: GoogleColabNotebookExecutionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleColabNotebookExecutionTimeoutsToHclTerraform(struct?: GoogleColabNotebookExecutionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleColabNotebookExecutionTimeoutsToHclTerraform(struct?: GoogleColabNotebookExecutionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -462,19 +462,19 @@ export function googleColabNotebookExecutionTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleColabNotebookExecutionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleColabNotebookExecutionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleColabNotebookExecutionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleColabNotebookExecutionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -491,14 +491,14 @@ export class GoogleColabNotebookExecutionTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleColabNotebookExecutionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleColabNotebookExecutionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -546,7 +546,7 @@ export class GoogleColabNotebookExecutionTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}
 */
-export class GoogleColabNotebookExecution extends cdktf.TerraformResource {
+export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -557,14 +557,14 @@ export class GoogleColabNotebookExecution extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleColabNotebookExecution resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleColabNotebookExecution resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleColabNotebookExecution to import
   * @param importFromId The id of the existing GoogleColabNotebookExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_notebook_execution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleColabNotebookExecution to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_colab_notebook_execution", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_colab_notebook_execution", importId: importFromId, provider });
       }
 
   // ===========
@@ -835,16 +835,16 @@ export class GoogleColabNotebookExecution extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      execution_timeout: cdktf.stringToTerraform(this._executionTimeout),
-      execution_user: cdktf.stringToTerraform(this._executionUser),
-      gcs_output_uri: cdktf.stringToTerraform(this._gcsOutputUri),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      notebook_execution_job_id: cdktf.stringToTerraform(this._notebookExecutionJobId),
-      notebook_runtime_template_resource_name: cdktf.stringToTerraform(this._notebookRuntimeTemplateResourceName),
-      project: cdktf.stringToTerraform(this._project),
-      service_account: cdktf.stringToTerraform(this._serviceAccount),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      execution_timeout: cdktn.stringToTerraform(this._executionTimeout),
+      execution_user: cdktn.stringToTerraform(this._executionUser),
+      gcs_output_uri: cdktn.stringToTerraform(this._gcsOutputUri),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      notebook_execution_job_id: cdktn.stringToTerraform(this._notebookExecutionJobId),
+      notebook_runtime_template_resource_name: cdktn.stringToTerraform(this._notebookRuntimeTemplateResourceName),
+      project: cdktn.stringToTerraform(this._project),
+      service_account: cdktn.stringToTerraform(this._serviceAccount),
       dataform_repository_source: googleColabNotebookExecutionDataformRepositorySourceToTerraform(this._dataformRepositorySource.internalValue),
       direct_notebook_source: googleColabNotebookExecutionDirectNotebookSourceToTerraform(this._directNotebookSource.internalValue),
       gcs_notebook_source: googleColabNotebookExecutionGcsNotebookSourceToTerraform(this._gcsNotebookSource.internalValue),
@@ -855,61 +855,61 @@ export class GoogleColabNotebookExecution extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       execution_timeout: {
-        value: cdktf.stringToHclTerraform(this._executionTimeout),
+        value: cdktn.stringToHclTerraform(this._executionTimeout),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       execution_user: {
-        value: cdktf.stringToHclTerraform(this._executionUser),
+        value: cdktn.stringToHclTerraform(this._executionUser),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       gcs_output_uri: {
-        value: cdktf.stringToHclTerraform(this._gcsOutputUri),
+        value: cdktn.stringToHclTerraform(this._gcsOutputUri),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       notebook_execution_job_id: {
-        value: cdktf.stringToHclTerraform(this._notebookExecutionJobId),
+        value: cdktn.stringToHclTerraform(this._notebookExecutionJobId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       notebook_runtime_template_resource_name: {
-        value: cdktf.stringToHclTerraform(this._notebookRuntimeTemplateResourceName),
+        value: cdktn.stringToHclTerraform(this._notebookRuntimeTemplateResourceName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_account: {
-        value: cdktf.stringToHclTerraform(this._serviceAccount),
+        value: cdktn.stringToHclTerraform(this._serviceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

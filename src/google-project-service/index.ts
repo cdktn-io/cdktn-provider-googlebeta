@@ -7,23 +7,23 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleProjectServiceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleProjectServiceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}
   */
-  readonly checkIfServiceHasUsageOnDestroy?: boolean | cdktf.IResolvable;
+  readonly checkIfServiceHasUsageOnDestroy?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}
   */
-  readonly disableDependentServices?: boolean | cdktf.IResolvable;
+  readonly disableDependentServices?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}
   */
-  readonly disableOnDestroy?: boolean | cdktf.IResolvable;
+  readonly disableOnDestroy?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service#id GoogleProjectService#id}
   *
@@ -65,46 +65,46 @@ export interface GoogleProjectServiceTimeouts {
   readonly update?: string;
 }
 
-export function googleProjectServiceTimeoutsToTerraform(struct?: GoogleProjectServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleProjectServiceTimeoutsToTerraform(struct?: GoogleProjectServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    read: cdktf.stringToTerraform(struct!.read),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    read: cdktn.stringToTerraform(struct!.read),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleProjectServiceTimeoutsToHclTerraform(struct?: GoogleProjectServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleProjectServiceTimeoutsToHclTerraform(struct?: GoogleProjectServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     read: {
-      value: cdktf.stringToHclTerraform(struct!.read),
+      value: cdktn.stringToHclTerraform(struct!.read),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -115,19 +115,19 @@ export function googleProjectServiceTimeoutsToHclTerraform(struct?: GoogleProjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleProjectServiceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleProjectServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleProjectServiceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleProjectServiceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -152,7 +152,7 @@ export class GoogleProjectServiceTimeoutsOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleProjectServiceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleProjectServiceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -161,7 +161,7 @@ export class GoogleProjectServiceTimeoutsOutputReference extends cdktf.ComplexOb
       this._read = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -243,7 +243,7 @@ export class GoogleProjectServiceTimeoutsOutputReference extends cdktf.ComplexOb
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service google_project_service}
 */
-export class GoogleProjectService extends cdktf.TerraformResource {
+export class GoogleProjectService extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -254,14 +254,14 @@ export class GoogleProjectService extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleProjectService resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleProjectService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleProjectService to import
   * @param importFromId The id of the existing GoogleProjectService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleProjectService to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_project_service", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_project_service", importId: importFromId, provider });
       }
 
   // ===========
@@ -305,11 +305,11 @@ export class GoogleProjectService extends cdktf.TerraformResource {
   // ==========
 
   // check_if_service_has_usage_on_destroy - computed: false, optional: true, required: false
-  private _checkIfServiceHasUsageOnDestroy?: boolean | cdktf.IResolvable; 
+  private _checkIfServiceHasUsageOnDestroy?: boolean | cdktn.IResolvable; 
   public get checkIfServiceHasUsageOnDestroy() {
     return this.getBooleanAttribute('check_if_service_has_usage_on_destroy');
   }
-  public set checkIfServiceHasUsageOnDestroy(value: boolean | cdktf.IResolvable) {
+  public set checkIfServiceHasUsageOnDestroy(value: boolean | cdktn.IResolvable) {
     this._checkIfServiceHasUsageOnDestroy = value;
   }
   public resetCheckIfServiceHasUsageOnDestroy() {
@@ -321,11 +321,11 @@ export class GoogleProjectService extends cdktf.TerraformResource {
   }
 
   // disable_dependent_services - computed: false, optional: true, required: false
-  private _disableDependentServices?: boolean | cdktf.IResolvable; 
+  private _disableDependentServices?: boolean | cdktn.IResolvable; 
   public get disableDependentServices() {
     return this.getBooleanAttribute('disable_dependent_services');
   }
-  public set disableDependentServices(value: boolean | cdktf.IResolvable) {
+  public set disableDependentServices(value: boolean | cdktn.IResolvable) {
     this._disableDependentServices = value;
   }
   public resetDisableDependentServices() {
@@ -337,11 +337,11 @@ export class GoogleProjectService extends cdktf.TerraformResource {
   }
 
   // disable_on_destroy - computed: false, optional: true, required: false
-  private _disableOnDestroy?: boolean | cdktf.IResolvable; 
+  private _disableOnDestroy?: boolean | cdktn.IResolvable; 
   public get disableOnDestroy() {
     return this.getBooleanAttribute('disable_on_destroy');
   }
-  public set disableOnDestroy(value: boolean | cdktf.IResolvable) {
+  public set disableOnDestroy(value: boolean | cdktn.IResolvable) {
     this._disableOnDestroy = value;
   }
   public resetDisableOnDestroy() {
@@ -419,12 +419,12 @@ export class GoogleProjectService extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      check_if_service_has_usage_on_destroy: cdktf.booleanToTerraform(this._checkIfServiceHasUsageOnDestroy),
-      disable_dependent_services: cdktf.booleanToTerraform(this._disableDependentServices),
-      disable_on_destroy: cdktf.booleanToTerraform(this._disableOnDestroy),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      service: cdktf.stringToTerraform(this._service),
+      check_if_service_has_usage_on_destroy: cdktn.booleanToTerraform(this._checkIfServiceHasUsageOnDestroy),
+      disable_dependent_services: cdktn.booleanToTerraform(this._disableDependentServices),
+      disable_on_destroy: cdktn.booleanToTerraform(this._disableOnDestroy),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      service: cdktn.stringToTerraform(this._service),
       timeouts: googleProjectServiceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -432,37 +432,37 @@ export class GoogleProjectService extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       check_if_service_has_usage_on_destroy: {
-        value: cdktf.booleanToHclTerraform(this._checkIfServiceHasUsageOnDestroy),
+        value: cdktn.booleanToHclTerraform(this._checkIfServiceHasUsageOnDestroy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       disable_dependent_services: {
-        value: cdktf.booleanToHclTerraform(this._disableDependentServices),
+        value: cdktn.booleanToHclTerraform(this._disableDependentServices),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       disable_on_destroy: {
-        value: cdktf.booleanToHclTerraform(this._disableOnDestroy),
+        value: cdktn.booleanToHclTerraform(this._disableOnDestroy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

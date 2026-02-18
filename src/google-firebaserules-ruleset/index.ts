@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaserulesRulesetConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaserulesRulesetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebaserules_ruleset#id GoogleFirebaserulesRuleset#id}
   *
@@ -42,8 +42,8 @@ export interface GoogleFirebaserulesRulesetMetadata {
 }
 
 export function googleFirebaserulesRulesetMetadataToTerraform(struct?: GoogleFirebaserulesRulesetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -52,8 +52,8 @@ export function googleFirebaserulesRulesetMetadataToTerraform(struct?: GoogleFir
 
 
 export function googleFirebaserulesRulesetMetadataToHclTerraform(struct?: GoogleFirebaserulesRulesetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -61,7 +61,7 @@ export function googleFirebaserulesRulesetMetadataToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleFirebaserulesRulesetMetadataOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaserulesRulesetMetadataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -70,7 +70,7 @@ export class GoogleFirebaserulesRulesetMetadataOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -95,14 +95,14 @@ export class GoogleFirebaserulesRulesetMetadataOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleFirebaserulesRulesetMetadataList extends cdktf.ComplexList {
+export class GoogleFirebaserulesRulesetMetadataList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -134,39 +134,39 @@ export interface GoogleFirebaserulesRulesetSourceFiles {
   readonly name: string;
 }
 
-export function googleFirebaserulesRulesetSourceFilesToTerraform(struct?: GoogleFirebaserulesRulesetSourceFiles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaserulesRulesetSourceFilesToTerraform(struct?: GoogleFirebaserulesRulesetSourceFiles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content: cdktf.stringToTerraform(struct!.content),
-    fingerprint: cdktf.stringToTerraform(struct!.fingerprint),
-    name: cdktf.stringToTerraform(struct!.name),
+    content: cdktn.stringToTerraform(struct!.content),
+    fingerprint: cdktn.stringToTerraform(struct!.fingerprint),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleFirebaserulesRulesetSourceFilesToHclTerraform(struct?: GoogleFirebaserulesRulesetSourceFiles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaserulesRulesetSourceFilesToHclTerraform(struct?: GoogleFirebaserulesRulesetSourceFiles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content: {
-      value: cdktf.stringToHclTerraform(struct!.content),
+      value: cdktn.stringToHclTerraform(struct!.content),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fingerprint: {
-      value: cdktf.stringToHclTerraform(struct!.fingerprint),
+      value: cdktn.stringToHclTerraform(struct!.fingerprint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -177,9 +177,9 @@ export function googleFirebaserulesRulesetSourceFilesToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -187,11 +187,11 @@ export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirebaserulesRulesetSourceFiles | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaserulesRulesetSourceFiles | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -212,7 +212,7 @@ export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaserulesRulesetSourceFiles | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaserulesRulesetSourceFiles | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -220,7 +220,7 @@ export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktf.
       this._fingerprint = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -276,15 +276,15 @@ export class GoogleFirebaserulesRulesetSourceFilesOutputReference extends cdktf.
   }
 }
 
-export class GoogleFirebaserulesRulesetSourceFilesList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirebaserulesRulesetSourceFiles[] | cdktf.IResolvable
+export class GoogleFirebaserulesRulesetSourceFilesList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaserulesRulesetSourceFiles[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -307,35 +307,35 @@ export interface GoogleFirebaserulesRulesetSource {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebaserules_ruleset#files GoogleFirebaserulesRuleset#files}
   */
-  readonly files: GoogleFirebaserulesRulesetSourceFiles[] | cdktf.IResolvable;
+  readonly files: GoogleFirebaserulesRulesetSourceFiles[] | cdktn.IResolvable;
 }
 
 export function googleFirebaserulesRulesetSourceToTerraform(struct?: GoogleFirebaserulesRulesetSourceOutputReference | GoogleFirebaserulesRulesetSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    language: cdktf.stringToTerraform(struct!.language),
-    files: cdktf.listMapper(googleFirebaserulesRulesetSourceFilesToTerraform, true)(struct!.files),
+    language: cdktn.stringToTerraform(struct!.language),
+    files: cdktn.listMapper(googleFirebaserulesRulesetSourceFilesToTerraform, true)(struct!.files),
   }
 }
 
 
 export function googleFirebaserulesRulesetSourceToHclTerraform(struct?: GoogleFirebaserulesRulesetSourceOutputReference | GoogleFirebaserulesRulesetSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     language: {
-      value: cdktf.stringToHclTerraform(struct!.language),
+      value: cdktn.stringToHclTerraform(struct!.language),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     files: {
-      value: cdktf.listMapperHcl(googleFirebaserulesRulesetSourceFilesToHclTerraform, true)(struct!.files),
+      value: cdktn.listMapperHcl(googleFirebaserulesRulesetSourceFilesToHclTerraform, true)(struct!.files),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFirebaserulesRulesetSourceFilesList",
@@ -346,14 +346,14 @@ export function googleFirebaserulesRulesetSourceToHclTerraform(struct?: GoogleFi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaserulesRulesetSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaserulesRulesetSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -405,7 +405,7 @@ export class GoogleFirebaserulesRulesetSourceOutputReference extends cdktf.Compl
   public get files() {
     return this._files;
   }
-  public putFiles(value: GoogleFirebaserulesRulesetSourceFiles[] | cdktf.IResolvable) {
+  public putFiles(value: GoogleFirebaserulesRulesetSourceFiles[] | cdktn.IResolvable) {
     this._files.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -424,32 +424,32 @@ export interface GoogleFirebaserulesRulesetTimeouts {
   readonly delete?: string;
 }
 
-export function googleFirebaserulesRulesetTimeoutsToTerraform(struct?: GoogleFirebaserulesRulesetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaserulesRulesetTimeoutsToTerraform(struct?: GoogleFirebaserulesRulesetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleFirebaserulesRulesetTimeoutsToHclTerraform(struct?: GoogleFirebaserulesRulesetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaserulesRulesetTimeoutsToHclTerraform(struct?: GoogleFirebaserulesRulesetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -460,19 +460,19 @@ export function googleFirebaserulesRulesetTimeoutsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaserulesRulesetTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaserulesRulesetTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaserulesRulesetTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaserulesRulesetTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -489,14 +489,14 @@ export class GoogleFirebaserulesRulesetTimeoutsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaserulesRulesetTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaserulesRulesetTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -544,7 +544,7 @@ export class GoogleFirebaserulesRulesetTimeoutsOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebaserules_ruleset google_firebaserules_ruleset}
 */
-export class GoogleFirebaserulesRuleset extends cdktf.TerraformResource {
+export class GoogleFirebaserulesRuleset extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -555,14 +555,14 @@ export class GoogleFirebaserulesRuleset extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaserulesRuleset resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaserulesRuleset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaserulesRuleset to import
   * @param importFromId The id of the existing GoogleFirebaserulesRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebaserules_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaserulesRuleset to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebaserules_ruleset", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebaserules_ruleset", importId: importFromId, provider });
       }
 
   // ===========
@@ -685,8 +685,8 @@ export class GoogleFirebaserulesRuleset extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
       source: googleFirebaserulesRulesetSourceToTerraform(this._source.internalValue),
       timeouts: googleFirebaserulesRulesetTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -695,13 +695,13 @@ export class GoogleFirebaserulesRuleset extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

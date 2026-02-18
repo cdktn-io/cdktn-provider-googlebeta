@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSecurityScannerScanConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSecurityScannerScanConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * The blacklist URL patterns as described in
   * https://cloud.google.com/security-scanner/docs/excluded-urls
@@ -109,38 +109,38 @@ export interface GoogleSecurityScannerScanConfigAuthenticationCustomAccount {
 }
 
 export function googleSecurityScannerScanConfigAuthenticationCustomAccountToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationCustomAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    login_url: cdktf.stringToTerraform(struct!.loginUrl),
-    password: cdktf.stringToTerraform(struct!.password),
-    username: cdktf.stringToTerraform(struct!.username),
+    login_url: cdktn.stringToTerraform(struct!.loginUrl),
+    password: cdktn.stringToTerraform(struct!.password),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
 export function googleSecurityScannerScanConfigAuthenticationCustomAccountToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationCustomAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     login_url: {
-      value: cdktf.stringToHclTerraform(struct!.loginUrl),
+      value: cdktn.stringToHclTerraform(struct!.loginUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
+      value: cdktn.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -151,14 +151,14 @@ export function googleSecurityScannerScanConfigAuthenticationCustomAccountToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference extends cdktf.ComplexObject {
+export class GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -251,31 +251,31 @@ export interface GoogleSecurityScannerScanConfigAuthenticationGoogleAccount {
 }
 
 export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationGoogleAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    password: cdktf.stringToTerraform(struct!.password),
-    username: cdktf.stringToTerraform(struct!.username),
+    password: cdktn.stringToTerraform(struct!.password),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
 export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationGoogleAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     password: {
-      value: cdktf.stringToHclTerraform(struct!.password),
+      value: cdktn.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -286,14 +286,14 @@ export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference extends cdktf.ComplexObject {
+export class GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -366,8 +366,8 @@ export interface GoogleSecurityScannerScanConfigAuthentication {
 }
 
 export function googleSecurityScannerScanConfigAuthenticationToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationOutputReference | GoogleSecurityScannerScanConfigAuthentication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -378,8 +378,8 @@ export function googleSecurityScannerScanConfigAuthenticationToTerraform(struct?
 
 
 export function googleSecurityScannerScanConfigAuthenticationToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationOutputReference | GoogleSecurityScannerScanConfigAuthentication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -401,14 +401,14 @@ export function googleSecurityScannerScanConfigAuthenticationToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecurityScannerScanConfigAuthenticationOutputReference extends cdktf.ComplexObject {
+export class GoogleSecurityScannerScanConfigAuthenticationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -489,31 +489,31 @@ export interface GoogleSecurityScannerScanConfigSchedule {
 }
 
 export function googleSecurityScannerScanConfigScheduleToTerraform(struct?: GoogleSecurityScannerScanConfigScheduleOutputReference | GoogleSecurityScannerScanConfigSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    interval_duration_days: cdktf.numberToTerraform(struct!.intervalDurationDays),
-    schedule_time: cdktf.stringToTerraform(struct!.scheduleTime),
+    interval_duration_days: cdktn.numberToTerraform(struct!.intervalDurationDays),
+    schedule_time: cdktn.stringToTerraform(struct!.scheduleTime),
   }
 }
 
 
 export function googleSecurityScannerScanConfigScheduleToHclTerraform(struct?: GoogleSecurityScannerScanConfigScheduleOutputReference | GoogleSecurityScannerScanConfigSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     interval_duration_days: {
-      value: cdktf.numberToHclTerraform(struct!.intervalDurationDays),
+      value: cdktn.numberToHclTerraform(struct!.intervalDurationDays),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     schedule_time: {
-      value: cdktf.stringToHclTerraform(struct!.scheduleTime),
+      value: cdktn.stringToHclTerraform(struct!.scheduleTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -524,14 +524,14 @@ export function googleSecurityScannerScanConfigScheduleToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecurityScannerScanConfigScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleSecurityScannerScanConfigScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -606,39 +606,39 @@ export interface GoogleSecurityScannerScanConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleSecurityScannerScanConfigTimeoutsToTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSecurityScannerScanConfigTimeoutsToTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSecurityScannerScanConfigTimeoutsToHclTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSecurityScannerScanConfigTimeoutsToHclTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -649,19 +649,19 @@ export function googleSecurityScannerScanConfigTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSecurityScannerScanConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -682,7 +682,7 @@ export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSecurityScannerScanConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -690,7 +690,7 @@ export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdkt
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -755,7 +755,7 @@ export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}
 */
-export class GoogleSecurityScannerScanConfig extends cdktf.TerraformResource {
+export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -766,14 +766,14 @@ export class GoogleSecurityScannerScanConfig extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSecurityScannerScanConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSecurityScannerScanConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecurityScannerScanConfig to import
   * @param importFromId The id of the existing GoogleSecurityScannerScanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_security_scanner_scan_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecurityScannerScanConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_security_scanner_scan_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_security_scanner_scan_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -1018,15 +1018,15 @@ export class GoogleSecurityScannerScanConfig extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      blacklist_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(this._blacklistPatterns),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      export_to_security_command_center: cdktf.stringToTerraform(this._exportToSecurityCommandCenter),
-      id: cdktf.stringToTerraform(this._id),
-      max_qps: cdktf.numberToTerraform(this._maxQps),
-      project: cdktf.stringToTerraform(this._project),
-      starting_urls: cdktf.listMapper(cdktf.stringToTerraform, false)(this._startingUrls),
-      target_platforms: cdktf.listMapper(cdktf.stringToTerraform, false)(this._targetPlatforms),
-      user_agent: cdktf.stringToTerraform(this._userAgent),
+      blacklist_patterns: cdktn.listMapper(cdktn.stringToTerraform, false)(this._blacklistPatterns),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      export_to_security_command_center: cdktn.stringToTerraform(this._exportToSecurityCommandCenter),
+      id: cdktn.stringToTerraform(this._id),
+      max_qps: cdktn.numberToTerraform(this._maxQps),
+      project: cdktn.stringToTerraform(this._project),
+      starting_urls: cdktn.listMapper(cdktn.stringToTerraform, false)(this._startingUrls),
+      target_platforms: cdktn.listMapper(cdktn.stringToTerraform, false)(this._targetPlatforms),
+      user_agent: cdktn.stringToTerraform(this._userAgent),
       authentication: googleSecurityScannerScanConfigAuthenticationToTerraform(this._authentication.internalValue),
       schedule: googleSecurityScannerScanConfigScheduleToTerraform(this._schedule.internalValue),
       timeouts: googleSecurityScannerScanConfigTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1036,55 +1036,55 @@ export class GoogleSecurityScannerScanConfig extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       blacklist_patterns: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._blacklistPatterns),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._blacklistPatterns),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       export_to_security_command_center: {
-        value: cdktf.stringToHclTerraform(this._exportToSecurityCommandCenter),
+        value: cdktn.stringToHclTerraform(this._exportToSecurityCommandCenter),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       max_qps: {
-        value: cdktf.numberToHclTerraform(this._maxQps),
+        value: cdktn.numberToHclTerraform(this._maxQps),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       starting_urls: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._startingUrls),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._startingUrls),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       target_platforms: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._targetPlatforms),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._targetPlatforms),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       user_agent: {
-        value: cdktf.stringToHclTerraform(this._userAgent),
+        value: cdktn.stringToHclTerraform(this._userAgent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

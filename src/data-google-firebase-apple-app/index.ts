@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleFirebaseAppleAppConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleFirebaseAppleAppConfig extends cdktn.TerraformMetaArguments {
   /**
   * The globally unique, Firebase-assigned identifier of the App.
   * This identifier should be treated as an opaque token, as the data format is not specified.
@@ -35,7 +35,7 @@ export interface DataGoogleFirebaseAppleAppConfig extends cdktf.TerraformMetaArg
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app}
 */
-export class DataGoogleFirebaseAppleApp extends cdktf.TerraformDataSource {
+export class DataGoogleFirebaseAppleApp extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -46,14 +46,14 @@ export class DataGoogleFirebaseAppleApp extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleFirebaseAppleApp resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleFirebaseAppleApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleFirebaseAppleApp to import
   * @param importFromId The id of the existing DataGoogleFirebaseAppleApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_apple_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleFirebaseAppleApp to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_apple_app", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_apple_app", importId: importFromId, provider });
       }
 
   // ===========
@@ -178,28 +178,28 @@ export class DataGoogleFirebaseAppleApp extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      app_id: cdktf.stringToTerraform(this._appId),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
+      app_id: cdktn.stringToTerraform(this._appId),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       app_id: {
-        value: cdktf.stringToHclTerraform(this._appId),
+        value: cdktn.stringToHclTerraform(this._appId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

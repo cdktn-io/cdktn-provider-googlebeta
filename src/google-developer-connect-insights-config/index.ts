@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * User specified annotations. See https://google.aip.dev/148#annotations
   * for more details such as format and size limitations.
@@ -67,7 +67,7 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_insights_config#artifact_configs GoogleDeveloperConnectInsightsConfig#artifact_configs}
   */
-  readonly artifactConfigs?: GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktf.IResolvable;
+  readonly artifactConfigs?: GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -79,8 +79,8 @@ export interface GoogleDeveloperConnectInsightsConfigErrorsDetails {
 }
 
 export function googleDeveloperConnectInsightsConfigErrorsDetailsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigErrorsDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -89,8 +89,8 @@ export function googleDeveloperConnectInsightsConfigErrorsDetailsToTerraform(str
 
 
 export function googleDeveloperConnectInsightsConfigErrorsDetailsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigErrorsDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -98,7 +98,7 @@ export function googleDeveloperConnectInsightsConfigErrorsDetailsToHclTerraform(
   return attrs;
 }
 
-export class GoogleDeveloperConnectInsightsConfigErrorsDetailsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigErrorsDetailsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -107,7 +107,7 @@ export class GoogleDeveloperConnectInsightsConfigErrorsDetailsOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -132,14 +132,14 @@ export class GoogleDeveloperConnectInsightsConfigErrorsDetailsOutputReference ex
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigErrorsDetailsList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectInsightsConfigErrorsDetailsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -154,8 +154,8 @@ export interface GoogleDeveloperConnectInsightsConfigErrors {
 }
 
 export function googleDeveloperConnectInsightsConfigErrorsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigErrors): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -164,8 +164,8 @@ export function googleDeveloperConnectInsightsConfigErrorsToTerraform(struct?: G
 
 
 export function googleDeveloperConnectInsightsConfigErrorsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigErrors): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -173,7 +173,7 @@ export function googleDeveloperConnectInsightsConfigErrorsToHclTerraform(struct?
   return attrs;
 }
 
-export class GoogleDeveloperConnectInsightsConfigErrorsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigErrorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -182,7 +182,7 @@ export class GoogleDeveloperConnectInsightsConfigErrorsOutputReference extends c
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -218,14 +218,14 @@ export class GoogleDeveloperConnectInsightsConfigErrorsOutputReference extends c
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigErrorsList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectInsightsConfigErrorsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -240,8 +240,8 @@ export interface GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloa
 }
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadToTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkload): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -250,8 +250,8 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkload
 
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkload): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -259,7 +259,7 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkload
   return attrs;
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -268,7 +268,7 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadOut
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -303,14 +303,14 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadOut
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsAppHubWorkloadList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -325,8 +325,8 @@ export interface GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkload {
 }
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadToTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkload): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -335,8 +335,8 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadToT
 
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkload): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -344,7 +344,7 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadToH
   return attrs;
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -353,7 +353,7 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -383,14 +383,14 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadOutput
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsGkeWorkloadList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -405,8 +405,8 @@ export interface GoogleDeveloperConnectInsightsConfigRuntimeConfigs {
 }
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -415,8 +415,8 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsToTerraform(st
 
 
 export function googleDeveloperConnectInsightsConfigRuntimeConfigsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigRuntimeConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -424,7 +424,7 @@ export function googleDeveloperConnectInsightsConfigRuntimeConfigsToHclTerraform
   return attrs;
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -433,7 +433,7 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -475,14 +475,14 @@ export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsOutputReference e
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectInsightsConfigRuntimeConfigsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -503,24 +503,24 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifa
 }
 
 export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisToTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisOutputReference | GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysis): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
 export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisOutputReference | GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysis): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -531,14 +531,14 @@ export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifac
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -592,31 +592,31 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifa
 }
 
 export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryToTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryOutputReference | GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistry): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    artifact_registry_package: cdktf.stringToTerraform(struct!.artifactRegistryPackage),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    artifact_registry_package: cdktn.stringToTerraform(struct!.artifactRegistryPackage),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
 export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryOutputReference | GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistry): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     artifact_registry_package: {
-      value: cdktf.stringToHclTerraform(struct!.artifactRegistryPackage),
+      value: cdktn.stringToHclTerraform(struct!.artifactRegistryPackage),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -627,14 +627,14 @@ export function googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifac
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -715,27 +715,27 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigs {
   readonly googleArtifactRegistry?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistry;
 }
 
-export function googleDeveloperConnectInsightsConfigArtifactConfigsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectInsightsConfigArtifactConfigsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    uri: cdktf.stringToTerraform(struct!.uri),
+    uri: cdktn.stringToTerraform(struct!.uri),
     google_artifact_analysis: googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysisToTerraform(struct!.googleArtifactAnalysis),
     google_artifact_registry: googleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistryToTerraform(struct!.googleArtifactRegistry),
   }
 }
 
 
-export function googleDeveloperConnectInsightsConfigArtifactConfigsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectInsightsConfigArtifactConfigsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -758,9 +758,9 @@ export function googleDeveloperConnectInsightsConfigArtifactConfigsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -768,11 +768,11 @@ export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -793,7 +793,7 @@ export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDeveloperConnectInsightsConfigArtifactConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -801,7 +801,7 @@ export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference 
       this._googleArtifactAnalysis.internalValue = undefined;
       this._googleArtifactRegistry.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -863,15 +863,15 @@ export class GoogleDeveloperConnectInsightsConfigArtifactConfigsOutputReference 
   }
 }
 
-export class GoogleDeveloperConnectInsightsConfigArtifactConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktf.IResolvable
+export class GoogleDeveloperConnectInsightsConfigArtifactConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -897,39 +897,39 @@ export interface GoogleDeveloperConnectInsightsConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleDeveloperConnectInsightsConfigTimeoutsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectInsightsConfigTimeoutsToTerraform(struct?: GoogleDeveloperConnectInsightsConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDeveloperConnectInsightsConfigTimeoutsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectInsightsConfigTimeoutsToHclTerraform(struct?: GoogleDeveloperConnectInsightsConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -940,19 +940,19 @@ export function googleDeveloperConnectInsightsConfigTimeoutsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDeveloperConnectInsightsConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDeveloperConnectInsightsConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -973,7 +973,7 @@ export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDeveloperConnectInsightsConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDeveloperConnectInsightsConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -981,7 +981,7 @@ export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1046,7 +1046,7 @@ export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config}
 */
-export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResource {
+export class GoogleDeveloperConnectInsightsConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1057,14 +1057,14 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDeveloperConnectInsightsConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDeveloperConnectInsightsConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDeveloperConnectInsightsConfig to import
   * @param importFromId The id of the existing GoogleDeveloperConnectInsightsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_insights_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDeveloperConnectInsightsConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_developer_connect_insights_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_developer_connect_insights_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -1144,13 +1144,13 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1257,7 +1257,7 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1272,7 +1272,7 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
   public get artifactConfigs() {
     return this._artifactConfigs;
   }
-  public putArtifactConfigs(value: GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktf.IResolvable) {
+  public putArtifactConfigs(value: GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktn.IResolvable) {
     this._artifactConfigs.internalValue = value;
   }
   public resetArtifactConfigs() {
@@ -1305,14 +1305,14 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      app_hub_application: cdktf.stringToTerraform(this._appHubApplication),
-      id: cdktf.stringToTerraform(this._id),
-      insights_config_id: cdktf.stringToTerraform(this._insightsConfigId),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
-      artifact_configs: cdktf.listMapper(googleDeveloperConnectInsightsConfigArtifactConfigsToTerraform, true)(this._artifactConfigs.internalValue),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      app_hub_application: cdktn.stringToTerraform(this._appHubApplication),
+      id: cdktn.stringToTerraform(this._id),
+      insights_config_id: cdktn.stringToTerraform(this._insightsConfigId),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
+      artifact_configs: cdktn.listMapper(googleDeveloperConnectInsightsConfigArtifactConfigsToTerraform, true)(this._artifactConfigs.internalValue),
       timeouts: googleDeveloperConnectInsightsConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1320,49 +1320,49 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       app_hub_application: {
-        value: cdktf.stringToHclTerraform(this._appHubApplication),
+        value: cdktn.stringToHclTerraform(this._appHubApplication),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       insights_config_id: {
-        value: cdktf.stringToHclTerraform(this._insightsConfigId),
+        value: cdktn.stringToHclTerraform(this._insightsConfigId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       artifact_configs: {
-        value: cdktf.listMapperHcl(googleDeveloperConnectInsightsConfigArtifactConfigsToHclTerraform, true)(this._artifactConfigs.internalValue),
+        value: cdktn.listMapperHcl(googleDeveloperConnectInsightsConfigArtifactConfigsToHclTerraform, true)(this._artifactConfigs.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDeveloperConnectInsightsConfigArtifactConfigsList",

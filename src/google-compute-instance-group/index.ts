@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeInstanceGroupConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeInstanceGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional textual description of the instance group.
   *
@@ -60,7 +60,7 @@ export interface GoogleComputeInstanceGroupConfig extends cdktf.TerraformMetaArg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group#named_port GoogleComputeInstanceGroup#named_port}
   */
-  readonly namedPort?: GoogleComputeInstanceGroupNamedPort[] | cdktf.IResolvable;
+  readonly namedPort?: GoogleComputeInstanceGroupNamedPort[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -83,32 +83,32 @@ export interface GoogleComputeInstanceGroupNamedPort {
   readonly port: number;
 }
 
-export function googleComputeInstanceGroupNamedPortToTerraform(struct?: GoogleComputeInstanceGroupNamedPort | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInstanceGroupNamedPortToTerraform(struct?: GoogleComputeInstanceGroupNamedPort | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    port: cdktf.numberToTerraform(struct!.port),
+    name: cdktn.stringToTerraform(struct!.name),
+    port: cdktn.numberToTerraform(struct!.port),
   }
 }
 
 
-export function googleComputeInstanceGroupNamedPortToHclTerraform(struct?: GoogleComputeInstanceGroupNamedPort | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInstanceGroupNamedPortToHclTerraform(struct?: GoogleComputeInstanceGroupNamedPort | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -119,9 +119,9 @@ export function googleComputeInstanceGroupNamedPortToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInstanceGroupNamedPortOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInstanceGroupNamedPortOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -129,11 +129,11 @@ export class GoogleComputeInstanceGroupNamedPortOutputReference extends cdktf.Co
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeInstanceGroupNamedPort | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInstanceGroupNamedPort | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -150,14 +150,14 @@ export class GoogleComputeInstanceGroupNamedPortOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInstanceGroupNamedPort | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInstanceGroupNamedPort | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._port = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -196,15 +196,15 @@ export class GoogleComputeInstanceGroupNamedPortOutputReference extends cdktf.Co
   }
 }
 
-export class GoogleComputeInstanceGroupNamedPortList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeInstanceGroupNamedPort[] | cdktf.IResolvable
+export class GoogleComputeInstanceGroupNamedPortList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeInstanceGroupNamedPort[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -230,39 +230,39 @@ export interface GoogleComputeInstanceGroupTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeInstanceGroupTimeoutsToTerraform(struct?: GoogleComputeInstanceGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInstanceGroupTimeoutsToTerraform(struct?: GoogleComputeInstanceGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeInstanceGroupTimeoutsToHclTerraform(struct?: GoogleComputeInstanceGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInstanceGroupTimeoutsToHclTerraform(struct?: GoogleComputeInstanceGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -273,19 +273,19 @@ export function googleComputeInstanceGroupTimeoutsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInstanceGroupTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInstanceGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeInstanceGroupTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInstanceGroupTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -306,7 +306,7 @@ export class GoogleComputeInstanceGroupTimeoutsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInstanceGroupTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInstanceGroupTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -314,7 +314,7 @@ export class GoogleComputeInstanceGroupTimeoutsOutputReference extends cdktf.Com
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -379,7 +379,7 @@ export class GoogleComputeInstanceGroupTimeoutsOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group google_compute_instance_group}
 */
-export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
+export class GoogleComputeInstanceGroup extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -390,14 +390,14 @@ export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeInstanceGroup resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeInstanceGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInstanceGroup to import
   * @param importFromId The id of the existing GoogleComputeInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInstanceGroup to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_instance_group", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_instance_group", importId: importFromId, provider });
       }
 
   // ===========
@@ -477,7 +477,7 @@ export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
   // instances - computed: true, optional: true, required: false
   private _instances?: string[]; 
   public get instances() {
-    return cdktf.Fn.tolist(this.getListAttribute('instances'));
+    return cdktn.Fn.tolist(this.getListAttribute('instances'));
   }
   public set instances(value: string[]) {
     this._instances = value;
@@ -566,7 +566,7 @@ export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
   public get namedPort() {
     return this._namedPort;
   }
-  public putNamedPort(value: GoogleComputeInstanceGroupNamedPort[] | cdktf.IResolvable) {
+  public putNamedPort(value: GoogleComputeInstanceGroupNamedPort[] | cdktn.IResolvable) {
     this._namedPort.internalValue = value;
   }
   public resetNamedPort() {
@@ -599,14 +599,14 @@ export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      instances: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instances),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      project: cdktf.stringToTerraform(this._project),
-      zone: cdktf.stringToTerraform(this._zone),
-      named_port: cdktf.listMapper(googleComputeInstanceGroupNamedPortToTerraform, true)(this._namedPort.internalValue),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      instances: cdktn.listMapper(cdktn.stringToTerraform, false)(this._instances),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      project: cdktn.stringToTerraform(this._project),
+      zone: cdktn.stringToTerraform(this._zone),
+      named_port: cdktn.listMapper(googleComputeInstanceGroupNamedPortToTerraform, true)(this._namedPort.internalValue),
       timeouts: googleComputeInstanceGroupTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -614,49 +614,49 @@ export class GoogleComputeInstanceGroup extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instances: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._instances),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._instances),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       named_port: {
-        value: cdktf.listMapperHcl(googleComputeInstanceGroupNamedPortToHclTerraform, true)(this._namedPort.internalValue),
+        value: cdktn.listMapperHcl(googleComputeInstanceGroupNamedPortToHclTerraform, true)(this._namedPort.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeInstanceGroupNamedPortList",

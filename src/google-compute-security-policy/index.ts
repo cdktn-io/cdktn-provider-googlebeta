@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeSecurityPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeSecurityPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this security policy. Max size is 2048.
   *
@@ -66,7 +66,7 @@ export interface GoogleComputeSecurityPolicyConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#rule GoogleComputeSecurityPolicy#rule}
   */
-  readonly rule?: GoogleComputeSecurityPolicyRule[] | cdktf.IResolvable;
+  readonly rule?: GoogleComputeSecurityPolicyRule[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -102,45 +102,45 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployCo
 }
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    confidence_threshold: cdktf.numberToTerraform(struct!.confidenceThreshold),
-    expiration_sec: cdktf.numberToTerraform(struct!.expirationSec),
-    impacted_baseline_threshold: cdktf.numberToTerraform(struct!.impactedBaselineThreshold),
-    load_threshold: cdktf.numberToTerraform(struct!.loadThreshold),
+    confidence_threshold: cdktn.numberToTerraform(struct!.confidenceThreshold),
+    expiration_sec: cdktn.numberToTerraform(struct!.expirationSec),
+    impacted_baseline_threshold: cdktn.numberToTerraform(struct!.impactedBaselineThreshold),
+    load_threshold: cdktn.numberToTerraform(struct!.loadThreshold),
   }
 }
 
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     confidence_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.confidenceThreshold),
+      value: cdktn.numberToHclTerraform(struct!.confidenceThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     expiration_sec: {
-      value: cdktf.numberToHclTerraform(struct!.expirationSec),
+      value: cdktn.numberToHclTerraform(struct!.expirationSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     impacted_baseline_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.impactedBaselineThreshold),
+      value: cdktn.numberToHclTerraform(struct!.impactedBaselineThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     load_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.loadThreshold),
+      value: cdktn.numberToHclTerraform(struct!.loadThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -151,14 +151,14 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigAutoDeployConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -271,7 +271,7 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#enable_each_unique_value GoogleComputeSecurityPolicy#enable_each_unique_value}
   */
-  readonly enableEachUniqueValue?: boolean | cdktf.IResolvable;
+  readonly enableEachUniqueValue?: boolean | cdktn.IResolvable;
   /**
   * Type of this configuration.
   *
@@ -286,39 +286,39 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDe
   readonly value?: string;
 }
 
-export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_each_unique_value: cdktf.booleanToTerraform(struct!.enableEachUniqueValue),
-    type: cdktf.stringToTerraform(struct!.type),
-    value: cdktf.stringToTerraform(struct!.value),
+    enable_each_unique_value: cdktn.booleanToTerraform(struct!.enableEachUniqueValue),
+    type: cdktn.stringToTerraform(struct!.type),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_each_unique_value: {
-      value: cdktf.booleanToHclTerraform(struct!.enableEachUniqueValue),
+      value: cdktn.booleanToHclTerraform(struct!.enableEachUniqueValue),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -329,9 +329,9 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDef
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -339,11 +339,11 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -364,7 +364,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -372,7 +372,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
       this._type = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -386,11 +386,11 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   }
 
   // enable_each_unique_value - computed: false, optional: true, required: false
-  private _enableEachUniqueValue?: boolean | cdktf.IResolvable; 
+  private _enableEachUniqueValue?: boolean | cdktn.IResolvable; 
   public get enableEachUniqueValue() {
     return this.getBooleanAttribute('enable_each_unique_value');
   }
-  public set enableEachUniqueValue(value: boolean | cdktf.IResolvable) {
+  public set enableEachUniqueValue(value: boolean | cdktn.IResolvable) {
     this._enableEachUniqueValue = value;
   }
   public resetEnableEachUniqueValue() {
@@ -431,15 +431,15 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   }
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -490,84 +490,84 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#traffic_granularity_configs GoogleComputeSecurityPolicy#traffic_granularity_configs}
   */
-  readonly trafficGranularityConfigs?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktf.IResolvable;
+  readonly trafficGranularityConfigs?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktn.IResolvable;
 }
 
-export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    auto_deploy_confidence_threshold: cdktf.numberToTerraform(struct!.autoDeployConfidenceThreshold),
-    auto_deploy_expiration_sec: cdktf.numberToTerraform(struct!.autoDeployExpirationSec),
-    auto_deploy_impacted_baseline_threshold: cdktf.numberToTerraform(struct!.autoDeployImpactedBaselineThreshold),
-    auto_deploy_load_threshold: cdktf.numberToTerraform(struct!.autoDeployLoadThreshold),
-    detection_absolute_qps: cdktf.numberToTerraform(struct!.detectionAbsoluteQps),
-    detection_load_threshold: cdktf.numberToTerraform(struct!.detectionLoadThreshold),
-    detection_relative_to_baseline_qps: cdktf.numberToTerraform(struct!.detectionRelativeToBaselineQps),
-    name: cdktf.stringToTerraform(struct!.name),
-    traffic_granularity_configs: cdktf.listMapper(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToTerraform, true)(struct!.trafficGranularityConfigs),
+    auto_deploy_confidence_threshold: cdktn.numberToTerraform(struct!.autoDeployConfidenceThreshold),
+    auto_deploy_expiration_sec: cdktn.numberToTerraform(struct!.autoDeployExpirationSec),
+    auto_deploy_impacted_baseline_threshold: cdktn.numberToTerraform(struct!.autoDeployImpactedBaselineThreshold),
+    auto_deploy_load_threshold: cdktn.numberToTerraform(struct!.autoDeployLoadThreshold),
+    detection_absolute_qps: cdktn.numberToTerraform(struct!.detectionAbsoluteQps),
+    detection_load_threshold: cdktn.numberToTerraform(struct!.detectionLoadThreshold),
+    detection_relative_to_baseline_qps: cdktn.numberToTerraform(struct!.detectionRelativeToBaselineQps),
+    name: cdktn.stringToTerraform(struct!.name),
+    traffic_granularity_configs: cdktn.listMapper(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToTerraform, true)(struct!.trafficGranularityConfigs),
   }
 }
 
 
-export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     auto_deploy_confidence_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.autoDeployConfidenceThreshold),
+      value: cdktn.numberToHclTerraform(struct!.autoDeployConfidenceThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     auto_deploy_expiration_sec: {
-      value: cdktf.numberToHclTerraform(struct!.autoDeployExpirationSec),
+      value: cdktn.numberToHclTerraform(struct!.autoDeployExpirationSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     auto_deploy_impacted_baseline_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.autoDeployImpactedBaselineThreshold),
+      value: cdktn.numberToHclTerraform(struct!.autoDeployImpactedBaselineThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     auto_deploy_load_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.autoDeployLoadThreshold),
+      value: cdktn.numberToHclTerraform(struct!.autoDeployLoadThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     detection_absolute_qps: {
-      value: cdktf.numberToHclTerraform(struct!.detectionAbsoluteQps),
+      value: cdktn.numberToHclTerraform(struct!.detectionAbsoluteQps),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     detection_load_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.detectionLoadThreshold),
+      value: cdktn.numberToHclTerraform(struct!.detectionLoadThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     detection_relative_to_baseline_qps: {
-      value: cdktf.numberToHclTerraform(struct!.detectionRelativeToBaselineQps),
+      value: cdktn.numberToHclTerraform(struct!.detectionRelativeToBaselineQps),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     traffic_granularity_configs: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToHclTerraform, true)(struct!.trafficGranularityConfigs),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsToHclTerraform, true)(struct!.trafficGranularityConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigsList",
@@ -578,9 +578,9 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDef
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -588,11 +588,11 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -637,7 +637,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -651,7 +651,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
       this._name = undefined;
       this._trafficGranularityConfigs.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -800,7 +800,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   public get trafficGranularityConfigs() {
     return this._trafficGranularityConfigs;
   }
-  public putTrafficGranularityConfigs(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktf.IResolvable) {
+  public putTrafficGranularityConfigs(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsTrafficGranularityConfigs[] | cdktn.IResolvable) {
     this._trafficGranularityConfigs.internalValue = value;
   }
   public resetTrafficGranularityConfigs() {
@@ -812,15 +812,15 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   }
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -837,7 +837,7 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#enable GoogleComputeSecurityPolicy#enable}
   */
-  readonly enable?: boolean | cdktf.IResolvable;
+  readonly enable?: boolean | cdktn.IResolvable;
   /**
   * Rule visibility. Supported values include: "STANDARD", "PREMIUM".
   *
@@ -849,42 +849,42 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#threshold_configs GoogleComputeSecurityPolicy#threshold_configs}
   */
-  readonly thresholdConfigs?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktf.IResolvable;
+  readonly thresholdConfigs?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktn.IResolvable;
 }
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable: cdktf.booleanToTerraform(struct!.enable),
-    rule_visibility: cdktf.stringToTerraform(struct!.ruleVisibility),
-    threshold_configs: cdktf.listMapper(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToTerraform, true)(struct!.thresholdConfigs),
+    enable: cdktn.booleanToTerraform(struct!.enable),
+    rule_visibility: cdktn.stringToTerraform(struct!.ruleVisibility),
+    threshold_configs: cdktn.listMapper(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToTerraform, true)(struct!.thresholdConfigs),
   }
 }
 
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable: {
-      value: cdktf.booleanToHclTerraform(struct!.enable),
+      value: cdktn.booleanToHclTerraform(struct!.enable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     rule_visibility: {
-      value: cdktf.stringToHclTerraform(struct!.ruleVisibility),
+      value: cdktn.stringToHclTerraform(struct!.ruleVisibility),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     threshold_configs: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToHclTerraform, true)(struct!.thresholdConfigs),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsToHclTerraform, true)(struct!.thresholdConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigsList",
@@ -895,14 +895,14 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDef
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -940,11 +940,11 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   }
 
   // enable - computed: false, optional: true, required: false
-  private _enable?: boolean | cdktf.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
-  public set enable(value: boolean | cdktf.IResolvable) {
+  public set enable(value: boolean | cdktn.IResolvable) {
     this._enable = value;
   }
   public resetEnable() {
@@ -976,7 +976,7 @@ export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefens
   public get thresholdConfigs() {
     return this._thresholdConfigs;
   }
-  public putThresholdConfigs(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktf.IResolvable) {
+  public putThresholdConfigs(value: GoogleComputeSecurityPolicyAdaptiveProtectionConfigLayer7DdosDefenseConfigThresholdConfigs[] | cdktn.IResolvable) {
     this._thresholdConfigs.internalValue = value;
   }
   public resetThresholdConfigs() {
@@ -1003,8 +1003,8 @@ export interface GoogleComputeSecurityPolicyAdaptiveProtectionConfig {
 }
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigToTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1015,8 +1015,8 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigToTerraform(s
 
 
 export function googleComputeSecurityPolicyAdaptiveProtectionConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyAdaptiveProtectionConfigOutputReference | GoogleComputeSecurityPolicyAdaptiveProtectionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1038,14 +1038,14 @@ export function googleComputeSecurityPolicyAdaptiveProtectionConfigToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdaptiveProtectionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1118,24 +1118,24 @@ export interface GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfi
 }
 
 export function googleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigToTerraform(struct?: GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference | GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.contentTypes),
+    content_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.contentTypes),
   }
 }
 
 
 export function googleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference | GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content_types: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.contentTypes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.contentTypes),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -1146,14 +1146,14 @@ export function googleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1181,7 +1181,7 @@ export class GoogleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOut
   // content_types - computed: false, optional: false, required: true
   private _contentTypes?: string[]; 
   public get contentTypes() {
-    return cdktf.Fn.tolist(this.getListAttribute('content_types'));
+    return cdktn.Fn.tolist(this.getListAttribute('content_types'));
   }
   public set contentTypes(value: string[]) {
     this._contentTypes = value;
@@ -1225,46 +1225,46 @@ export interface GoogleComputeSecurityPolicyAdvancedOptionsConfig {
 }
 
 export function googleComputeSecurityPolicyAdvancedOptionsConfigToTerraform(struct?: GoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference | GoogleComputeSecurityPolicyAdvancedOptionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    json_parsing: cdktf.stringToTerraform(struct!.jsonParsing),
-    log_level: cdktf.stringToTerraform(struct!.logLevel),
-    request_body_inspection_size: cdktf.stringToTerraform(struct!.requestBodyInspectionSize),
-    user_ip_request_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.userIpRequestHeaders),
+    json_parsing: cdktn.stringToTerraform(struct!.jsonParsing),
+    log_level: cdktn.stringToTerraform(struct!.logLevel),
+    request_body_inspection_size: cdktn.stringToTerraform(struct!.requestBodyInspectionSize),
+    user_ip_request_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.userIpRequestHeaders),
     json_custom_config: googleComputeSecurityPolicyAdvancedOptionsConfigJsonCustomConfigToTerraform(struct!.jsonCustomConfig),
   }
 }
 
 
 export function googleComputeSecurityPolicyAdvancedOptionsConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference | GoogleComputeSecurityPolicyAdvancedOptionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     json_parsing: {
-      value: cdktf.stringToHclTerraform(struct!.jsonParsing),
+      value: cdktn.stringToHclTerraform(struct!.jsonParsing),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     log_level: {
-      value: cdktf.stringToHclTerraform(struct!.logLevel),
+      value: cdktn.stringToHclTerraform(struct!.logLevel),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_body_inspection_size: {
-      value: cdktf.stringToHclTerraform(struct!.requestBodyInspectionSize),
+      value: cdktn.stringToHclTerraform(struct!.requestBodyInspectionSize),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     user_ip_request_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.userIpRequestHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.userIpRequestHeaders),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -1281,14 +1281,14 @@ export function googleComputeSecurityPolicyAdvancedOptionsConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1388,7 +1388,7 @@ export class GoogleComputeSecurityPolicyAdvancedOptionsConfigOutputReference ext
   // user_ip_request_headers - computed: false, optional: true, required: false
   private _userIpRequestHeaders?: string[]; 
   public get userIpRequestHeaders() {
-    return cdktf.Fn.tolist(this.getListAttribute('user_ip_request_headers'));
+    return cdktn.Fn.tolist(this.getListAttribute('user_ip_request_headers'));
   }
   public set userIpRequestHeaders(value: string[]) {
     this._userIpRequestHeaders = value;
@@ -1427,24 +1427,24 @@ export interface GoogleComputeSecurityPolicyRecaptchaOptionsConfig {
 }
 
 export function googleComputeSecurityPolicyRecaptchaOptionsConfigToTerraform(struct?: GoogleComputeSecurityPolicyRecaptchaOptionsConfigOutputReference | GoogleComputeSecurityPolicyRecaptchaOptionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    redirect_site_key: cdktf.stringToTerraform(struct!.redirectSiteKey),
+    redirect_site_key: cdktn.stringToTerraform(struct!.redirectSiteKey),
   }
 }
 
 
 export function googleComputeSecurityPolicyRecaptchaOptionsConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyRecaptchaOptionsConfigOutputReference | GoogleComputeSecurityPolicyRecaptchaOptionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     redirect_site_key: {
-      value: cdktf.stringToHclTerraform(struct!.redirectSiteKey),
+      value: cdktn.stringToHclTerraform(struct!.redirectSiteKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1455,14 +1455,14 @@ export function googleComputeSecurityPolicyRecaptchaOptionsConfigToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRecaptchaOptionsConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRecaptchaOptionsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1515,32 +1515,32 @@ export interface GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds
   readonly headerValue?: string;
 }
 
-export function googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
   }
 }
 
 
-export function googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1551,9 +1551,9 @@ export function googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1561,11 +1561,11 @@ export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsOutp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1582,14 +1582,14 @@ export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsOutp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._headerName = undefined;
       this._headerValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1631,15 +1631,15 @@ export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsOutp
   }
 }
 
-export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1656,28 +1656,28 @@ export interface GoogleComputeSecurityPolicyRuleHeaderAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#request_headers_to_adds GoogleComputeSecurityPolicy#request_headers_to_adds}
   */
-  readonly requestHeadersToAdds: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktf.IResolvable;
+  readonly requestHeadersToAdds: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktn.IResolvable;
 }
 
 export function googleComputeSecurityPolicyRuleHeaderActionToTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionOutputReference | GoogleComputeSecurityPolicyRuleHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_adds: cdktf.listMapper(googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToTerraform, true)(struct!.requestHeadersToAdds),
+    request_headers_to_adds: cdktn.listMapper(googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToTerraform, true)(struct!.requestHeadersToAdds),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleHeaderActionToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleHeaderActionOutputReference | GoogleComputeSecurityPolicyRuleHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_adds: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToHclTerraform, true)(struct!.requestHeadersToAdds),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsToHclTerraform, true)(struct!.requestHeadersToAdds),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAddsList",
@@ -1688,14 +1688,14 @@ export function googleComputeSecurityPolicyRuleHeaderActionToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1725,7 +1725,7 @@ export class GoogleComputeSecurityPolicyRuleHeaderActionOutputReference extends 
   public get requestHeadersToAdds() {
     return this._requestHeadersToAdds;
   }
-  public putRequestHeadersToAdds(value: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdds(value: GoogleComputeSecurityPolicyRuleHeaderActionRequestHeadersToAdds[] | cdktn.IResolvable) {
     this._requestHeadersToAdds.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1743,24 +1743,24 @@ export interface GoogleComputeSecurityPolicyRuleMatchConfig {
 }
 
 export function googleComputeSecurityPolicyRuleMatchConfigToTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchConfigOutputReference | GoogleComputeSecurityPolicyRuleMatchConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    src_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcIpRanges),
+    src_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcIpRanges),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleMatchConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchConfigOutputReference | GoogleComputeSecurityPolicyRuleMatchConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     src_ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcIpRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcIpRanges),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -1771,14 +1771,14 @@ export function googleComputeSecurityPolicyRuleMatchConfigToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleMatchConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleMatchConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1806,7 +1806,7 @@ export class GoogleComputeSecurityPolicyRuleMatchConfigOutputReference extends c
   // src_ip_ranges - computed: false, optional: false, required: true
   private _srcIpRanges?: string[]; 
   public get srcIpRanges() {
-    return cdktf.Fn.tolist(this.getListAttribute('src_ip_ranges'));
+    return cdktn.Fn.tolist(this.getListAttribute('src_ip_ranges'));
   }
   public set srcIpRanges(value: string[]) {
     this._srcIpRanges = value;
@@ -1826,24 +1826,24 @@ export interface GoogleComputeSecurityPolicyRuleMatchExpr {
 }
 
 export function googleComputeSecurityPolicyRuleMatchExprToTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOutputReference | GoogleComputeSecurityPolicyRuleMatchExpr): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    expression: cdktf.stringToTerraform(struct!.expression),
+    expression: cdktn.stringToTerraform(struct!.expression),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleMatchExprToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOutputReference | GoogleComputeSecurityPolicyRuleMatchExpr): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     expression: {
-      value: cdktf.stringToHclTerraform(struct!.expression),
+      value: cdktn.stringToHclTerraform(struct!.expression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1854,14 +1854,14 @@ export function googleComputeSecurityPolicyRuleMatchExprToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleMatchExprOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleMatchExprOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1915,31 +1915,31 @@ export interface GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptions
 }
 
 export function googleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsToTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference | GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action_token_site_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.actionTokenSiteKeys),
-    session_token_site_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sessionTokenSiteKeys),
+    action_token_site_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.actionTokenSiteKeys),
+    session_token_site_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sessionTokenSiteKeys),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference | GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action_token_site_keys: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.actionTokenSiteKeys),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.actionTokenSiteKeys),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     session_token_site_keys: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sessionTokenSiteKeys),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sessionTokenSiteKeys),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1950,14 +1950,14 @@ export function googleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleMatchExprOptionsRecaptchaOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2030,8 +2030,8 @@ export interface GoogleComputeSecurityPolicyRuleMatchExprOptions {
 }
 
 export function googleComputeSecurityPolicyRuleMatchExprOptionsToTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOptionsOutputReference | GoogleComputeSecurityPolicyRuleMatchExprOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2041,8 +2041,8 @@ export function googleComputeSecurityPolicyRuleMatchExprOptionsToTerraform(struc
 
 
 export function googleComputeSecurityPolicyRuleMatchExprOptionsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchExprOptionsOutputReference | GoogleComputeSecurityPolicyRuleMatchExprOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2058,14 +2058,14 @@ export function googleComputeSecurityPolicyRuleMatchExprOptionsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleMatchExprOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleMatchExprOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2131,12 +2131,12 @@ export interface GoogleComputeSecurityPolicyRuleMatch {
 }
 
 export function googleComputeSecurityPolicyRuleMatchToTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchOutputReference | GoogleComputeSecurityPolicyRuleMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    versioned_expr: cdktf.stringToTerraform(struct!.versionedExpr),
+    versioned_expr: cdktn.stringToTerraform(struct!.versionedExpr),
     config: googleComputeSecurityPolicyRuleMatchConfigToTerraform(struct!.config),
     expr: googleComputeSecurityPolicyRuleMatchExprToTerraform(struct!.expr),
     expr_options: googleComputeSecurityPolicyRuleMatchExprOptionsToTerraform(struct!.exprOptions),
@@ -2145,13 +2145,13 @@ export function googleComputeSecurityPolicyRuleMatchToTerraform(struct?: GoogleC
 
 
 export function googleComputeSecurityPolicyRuleMatchToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleMatchOutputReference | GoogleComputeSecurityPolicyRuleMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     versioned_expr: {
-      value: cdktf.stringToHclTerraform(struct!.versionedExpr),
+      value: cdktn.stringToHclTerraform(struct!.versionedExpr),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2180,14 +2180,14 @@ export function googleComputeSecurityPolicyRuleMatchToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleMatchOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleMatchOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2309,32 +2309,32 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionR
   readonly value?: string;
 }
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2345,9 +2345,9 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2355,11 +2355,11 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2376,14 +2376,14 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._operator = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2425,15 +2425,15 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   }
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2459,32 +2459,32 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionR
   readonly value?: string;
 }
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2495,9 +2495,9 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2505,11 +2505,11 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2526,14 +2526,14 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._operator = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2575,15 +2575,15 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   }
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2609,32 +2609,32 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionR
   readonly value?: string;
 }
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2645,9 +2645,9 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2655,11 +2655,11 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2676,14 +2676,14 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._operator = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2725,15 +2725,15 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   }
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2759,32 +2759,32 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionR
   readonly value?: string;
 }
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2795,9 +2795,9 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2805,11 +2805,11 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2826,14 +2826,14 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._operator = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2875,15 +2875,15 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionReque
   }
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2912,81 +2912,81 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#request_cookie GoogleComputeSecurityPolicy#request_cookie}
   */
-  readonly requestCookie?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktf.IResolvable;
+  readonly requestCookie?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktn.IResolvable;
   /**
   * request_header block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#request_header GoogleComputeSecurityPolicy#request_header}
   */
-  readonly requestHeader?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktf.IResolvable;
+  readonly requestHeader?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktn.IResolvable;
   /**
   * request_query_param block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#request_query_param GoogleComputeSecurityPolicy#request_query_param}
   */
-  readonly requestQueryParam?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktf.IResolvable;
+  readonly requestQueryParam?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktn.IResolvable;
   /**
   * request_uri block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#request_uri GoogleComputeSecurityPolicy#request_uri}
   */
-  readonly requestUri?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktf.IResolvable;
+  readonly requestUri?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktn.IResolvable;
 }
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target_rule_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.targetRuleIds),
-    target_rule_set: cdktf.stringToTerraform(struct!.targetRuleSet),
-    request_cookie: cdktf.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToTerraform, true)(struct!.requestCookie),
-    request_header: cdktf.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToTerraform, true)(struct!.requestHeader),
-    request_query_param: cdktf.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToTerraform, true)(struct!.requestQueryParam),
-    request_uri: cdktf.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToTerraform, true)(struct!.requestUri),
+    target_rule_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.targetRuleIds),
+    target_rule_set: cdktn.stringToTerraform(struct!.targetRuleSet),
+    request_cookie: cdktn.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToTerraform, true)(struct!.requestCookie),
+    request_header: cdktn.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToTerraform, true)(struct!.requestHeader),
+    request_query_param: cdktn.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToTerraform, true)(struct!.requestQueryParam),
+    request_uri: cdktn.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToTerraform, true)(struct!.requestUri),
   }
 }
 
 
-export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target_rule_ids: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.targetRuleIds),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.targetRuleIds),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     target_rule_set: {
-      value: cdktf.stringToHclTerraform(struct!.targetRuleSet),
+      value: cdktn.stringToHclTerraform(struct!.targetRuleSet),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     request_cookie: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToHclTerraform, true)(struct!.requestCookie),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieToHclTerraform, true)(struct!.requestCookie),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieList",
     },
     request_header: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToHclTerraform, true)(struct!.requestHeader),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderToHclTerraform, true)(struct!.requestHeader),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderList",
     },
     request_query_param: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToHclTerraform, true)(struct!.requestQueryParam),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamToHclTerraform, true)(struct!.requestQueryParam),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParamList",
     },
     request_uri: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToHclTerraform, true)(struct!.requestUri),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriToHclTerraform, true)(struct!.requestUri),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUriList",
@@ -2997,9 +2997,9 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3007,11 +3007,11 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3044,7 +3044,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3055,7 +3055,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
       this._requestQueryParam.internalValue = undefined;
       this._requestUri.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3074,7 +3074,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   // target_rule_ids - computed: false, optional: true, required: false
   private _targetRuleIds?: string[]; 
   public get targetRuleIds() {
-    return cdktf.Fn.tolist(this.getListAttribute('target_rule_ids'));
+    return cdktn.Fn.tolist(this.getListAttribute('target_rule_ids'));
   }
   public set targetRuleIds(value: string[]) {
     this._targetRuleIds = value;
@@ -3105,7 +3105,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   public get requestCookie() {
     return this._requestCookie;
   }
-  public putRequestCookie(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktf.IResolvable) {
+  public putRequestCookie(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookie[] | cdktn.IResolvable) {
     this._requestCookie.internalValue = value;
   }
   public resetRequestCookie() {
@@ -3121,7 +3121,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   public get requestHeader() {
     return this._requestHeader;
   }
-  public putRequestHeader(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktf.IResolvable) {
+  public putRequestHeader(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeader[] | cdktn.IResolvable) {
     this._requestHeader.internalValue = value;
   }
   public resetRequestHeader() {
@@ -3137,7 +3137,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   public get requestQueryParam() {
     return this._requestQueryParam;
   }
-  public putRequestQueryParam(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktf.IResolvable) {
+  public putRequestQueryParam(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestQueryParam[] | cdktn.IResolvable) {
     this._requestQueryParam.internalValue = value;
   }
   public resetRequestQueryParam() {
@@ -3153,7 +3153,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   public get requestUri() {
     return this._requestUri;
   }
-  public putRequestUri(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktf.IResolvable) {
+  public putRequestUri(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestUri[] | cdktn.IResolvable) {
     this._requestUri.internalValue = value;
   }
   public resetRequestUri() {
@@ -3165,15 +3165,15 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionOutpu
   }
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3190,28 +3190,28 @@ export interface GoogleComputeSecurityPolicyRulePreconfiguredWafConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#exclusion GoogleComputeSecurityPolicy#exclusion}
   */
-  readonly exclusion?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktf.IResolvable;
+  readonly exclusion?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktn.IResolvable;
 }
 
 export function googleComputeSecurityPolicyRulePreconfiguredWafConfigToTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference | GoogleComputeSecurityPolicyRulePreconfiguredWafConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exclusion: cdktf.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToTerraform, true)(struct!.exclusion),
+    exclusion: cdktn.listMapper(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToTerraform, true)(struct!.exclusion),
   }
 }
 
 
 export function googleComputeSecurityPolicyRulePreconfiguredWafConfigToHclTerraform(struct?: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference | GoogleComputeSecurityPolicyRulePreconfiguredWafConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exclusion: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToHclTerraform, true)(struct!.exclusion),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionToHclTerraform, true)(struct!.exclusion),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionList",
@@ -3222,14 +3222,14 @@ export function googleComputeSecurityPolicyRulePreconfiguredWafConfigToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3259,7 +3259,7 @@ export class GoogleComputeSecurityPolicyRulePreconfiguredWafConfigOutputReferenc
   public get exclusion() {
     return this._exclusion;
   }
-  public putExclusion(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktf.IResolvable) {
+  public putExclusion(value: GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusion[] | cdktn.IResolvable) {
     this._exclusion.internalValue = value;
   }
   public resetExclusion() {
@@ -3286,31 +3286,31 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThreshold {
 }
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    interval_sec: cdktf.numberToTerraform(struct!.intervalSec),
+    count: cdktn.numberToTerraform(struct!.count),
+    interval_sec: cdktn.numberToTerraform(struct!.intervalSec),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     interval_sec: {
-      value: cdktf.numberToHclTerraform(struct!.intervalSec),
+      value: cdktn.numberToHclTerraform(struct!.intervalSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3321,14 +3321,14 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3400,32 +3400,32 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConf
   readonly enforceOnKeyType?: string;
 }
 
-export function googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enforce_on_key_name: cdktf.stringToTerraform(struct!.enforceOnKeyName),
-    enforce_on_key_type: cdktf.stringToTerraform(struct!.enforceOnKeyType),
+    enforce_on_key_name: cdktn.stringToTerraform(struct!.enforceOnKeyName),
+    enforce_on_key_type: cdktn.stringToTerraform(struct!.enforceOnKeyType),
   }
 }
 
 
-export function googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enforce_on_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.enforceOnKeyName),
+      value: cdktn.stringToHclTerraform(struct!.enforceOnKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enforce_on_key_type: {
-      value: cdktf.stringToHclTerraform(struct!.enforceOnKeyType),
+      value: cdktn.stringToHclTerraform(struct!.enforceOnKeyType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3436,9 +3436,9 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3446,11 +3446,11 @@ export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3467,14 +3467,14 @@ export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._enforceOnKeyName = undefined;
       this._enforceOnKeyType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3519,15 +3519,15 @@ export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsO
   }
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3554,31 +3554,31 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOp
 }
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target: cdktf.stringToTerraform(struct!.target),
-    type: cdktf.stringToTerraform(struct!.type),
+    target: cdktn.stringToTerraform(struct!.target),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target: {
-      value: cdktf.stringToHclTerraform(struct!.target),
+      value: cdktn.stringToHclTerraform(struct!.target),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3589,14 +3589,14 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOpt
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3672,31 +3672,31 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresho
 }
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
-    interval_sec: cdktf.numberToTerraform(struct!.intervalSec),
+    count: cdktn.numberToTerraform(struct!.count),
+    interval_sec: cdktn.numberToTerraform(struct!.intervalSec),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThreshold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     interval_sec: {
-      value: cdktf.numberToHclTerraform(struct!.intervalSec),
+      value: cdktn.numberToHclTerraform(struct!.intervalSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3707,14 +3707,14 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThreshol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3813,7 +3813,7 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#enforce_on_key_configs GoogleComputeSecurityPolicy#enforce_on_key_configs}
   */
-  readonly enforceOnKeyConfigs?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktf.IResolvable;
+  readonly enforceOnKeyConfigs?: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktn.IResolvable;
   /**
   * exceed_redirect_options block
   *
@@ -3829,18 +3829,18 @@ export interface GoogleComputeSecurityPolicyRuleRateLimitOptions {
 }
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsToTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ban_duration_sec: cdktf.numberToTerraform(struct!.banDurationSec),
-    conform_action: cdktf.stringToTerraform(struct!.conformAction),
-    enforce_on_key: cdktf.stringToTerraform(struct!.enforceOnKey),
-    enforce_on_key_name: cdktf.stringToTerraform(struct!.enforceOnKeyName),
-    exceed_action: cdktf.stringToTerraform(struct!.exceedAction),
+    ban_duration_sec: cdktn.numberToTerraform(struct!.banDurationSec),
+    conform_action: cdktn.stringToTerraform(struct!.conformAction),
+    enforce_on_key: cdktn.stringToTerraform(struct!.enforceOnKey),
+    enforce_on_key_name: cdktn.stringToTerraform(struct!.enforceOnKeyName),
+    exceed_action: cdktn.stringToTerraform(struct!.exceedAction),
     ban_threshold: googleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdToTerraform(struct!.banThreshold),
-    enforce_on_key_configs: cdktf.listMapper(googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToTerraform, true)(struct!.enforceOnKeyConfigs),
+    enforce_on_key_configs: cdktn.listMapper(googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToTerraform, true)(struct!.enforceOnKeyConfigs),
     exceed_redirect_options: googleComputeSecurityPolicyRuleRateLimitOptionsExceedRedirectOptionsToTerraform(struct!.exceedRedirectOptions),
     rate_limit_threshold: googleComputeSecurityPolicyRuleRateLimitOptionsRateLimitThresholdToTerraform(struct!.rateLimitThreshold),
   }
@@ -3848,37 +3848,37 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsToTerraform(struc
 
 
 export function googleComputeSecurityPolicyRuleRateLimitOptionsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRateLimitOptionsOutputReference | GoogleComputeSecurityPolicyRuleRateLimitOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ban_duration_sec: {
-      value: cdktf.numberToHclTerraform(struct!.banDurationSec),
+      value: cdktn.numberToHclTerraform(struct!.banDurationSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     conform_action: {
-      value: cdktf.stringToHclTerraform(struct!.conformAction),
+      value: cdktn.stringToHclTerraform(struct!.conformAction),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enforce_on_key: {
-      value: cdktf.stringToHclTerraform(struct!.enforceOnKey),
+      value: cdktn.stringToHclTerraform(struct!.enforceOnKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enforce_on_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.enforceOnKeyName),
+      value: cdktn.stringToHclTerraform(struct!.enforceOnKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     exceed_action: {
-      value: cdktf.stringToHclTerraform(struct!.exceedAction),
+      value: cdktn.stringToHclTerraform(struct!.exceedAction),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3890,7 +3890,7 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsToHclTerraform(st
       storageClassType: "GoogleComputeSecurityPolicyRuleRateLimitOptionsBanThresholdList",
     },
     enforce_on_key_configs: {
-      value: cdktf.listMapperHcl(googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToHclTerraform, true)(struct!.enforceOnKeyConfigs),
+      value: cdktn.listMapperHcl(googleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsToHclTerraform, true)(struct!.enforceOnKeyConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigsList",
@@ -3913,14 +3913,14 @@ export function googleComputeSecurityPolicyRuleRateLimitOptionsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRateLimitOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRateLimitOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4088,7 +4088,7 @@ export class GoogleComputeSecurityPolicyRuleRateLimitOptionsOutputReference exte
   public get enforceOnKeyConfigs() {
     return this._enforceOnKeyConfigs;
   }
-  public putEnforceOnKeyConfigs(value: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktf.IResolvable) {
+  public putEnforceOnKeyConfigs(value: GoogleComputeSecurityPolicyRuleRateLimitOptionsEnforceOnKeyConfigs[] | cdktn.IResolvable) {
     this._enforceOnKeyConfigs.internalValue = value;
   }
   public resetEnforceOnKeyConfigs() {
@@ -4144,31 +4144,31 @@ export interface GoogleComputeSecurityPolicyRuleRedirectOptions {
 }
 
 export function googleComputeSecurityPolicyRuleRedirectOptionsToTerraform(struct?: GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference | GoogleComputeSecurityPolicyRuleRedirectOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target: cdktf.stringToTerraform(struct!.target),
-    type: cdktf.stringToTerraform(struct!.type),
+    target: cdktn.stringToTerraform(struct!.target),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleComputeSecurityPolicyRuleRedirectOptionsToHclTerraform(struct?: GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference | GoogleComputeSecurityPolicyRuleRedirectOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target: {
-      value: cdktf.stringToHclTerraform(struct!.target),
+      value: cdktn.stringToHclTerraform(struct!.target),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4179,14 +4179,14 @@ export function googleComputeSecurityPolicyRuleRedirectOptionsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4264,7 +4264,7 @@ export interface GoogleComputeSecurityPolicyRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#preview GoogleComputeSecurityPolicy#preview}
   */
-  readonly preview?: boolean | cdktf.IResolvable;
+  readonly preview?: boolean | cdktn.IResolvable;
   /**
   * An unique positive integer indicating the priority of evaluation for a rule. Rules are evaluated from highest priority (lowest numerically) to lowest priority (highest numerically) in order.
   *
@@ -4303,16 +4303,16 @@ export interface GoogleComputeSecurityPolicyRule {
   readonly redirectOptions?: GoogleComputeSecurityPolicyRuleRedirectOptions;
 }
 
-export function googleComputeSecurityPolicyRuleToTerraform(struct?: GoogleComputeSecurityPolicyRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleToTerraform(struct?: GoogleComputeSecurityPolicyRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action: cdktf.stringToTerraform(struct!.action),
-    description: cdktf.stringToTerraform(struct!.description),
-    preview: cdktf.booleanToTerraform(struct!.preview),
-    priority: cdktf.numberToTerraform(struct!.priority),
+    action: cdktn.stringToTerraform(struct!.action),
+    description: cdktn.stringToTerraform(struct!.description),
+    preview: cdktn.booleanToTerraform(struct!.preview),
+    priority: cdktn.numberToTerraform(struct!.priority),
     header_action: googleComputeSecurityPolicyRuleHeaderActionToTerraform(struct!.headerAction),
     match: googleComputeSecurityPolicyRuleMatchToTerraform(struct!.match),
     preconfigured_waf_config: googleComputeSecurityPolicyRulePreconfiguredWafConfigToTerraform(struct!.preconfiguredWafConfig),
@@ -4322,32 +4322,32 @@ export function googleComputeSecurityPolicyRuleToTerraform(struct?: GoogleComput
 }
 
 
-export function googleComputeSecurityPolicyRuleToHclTerraform(struct?: GoogleComputeSecurityPolicyRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyRuleToHclTerraform(struct?: GoogleComputeSecurityPolicyRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action: {
-      value: cdktf.stringToHclTerraform(struct!.action),
+      value: cdktn.stringToHclTerraform(struct!.action),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     preview: {
-      value: cdktf.booleanToHclTerraform(struct!.preview),
+      value: cdktn.booleanToHclTerraform(struct!.preview),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     priority: {
-      value: cdktf.numberToHclTerraform(struct!.priority),
+      value: cdktn.numberToHclTerraform(struct!.priority),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4388,9 +4388,9 @@ export function googleComputeSecurityPolicyRuleToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4398,11 +4398,11 @@ export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.Comple
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4447,7 +4447,7 @@ export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4461,7 +4461,7 @@ export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.Comple
       this._rateLimitOptions.internalValue = undefined;
       this._redirectOptions.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4510,11 +4510,11 @@ export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.Comple
   }
 
   // preview - computed: true, optional: true, required: false
-  private _preview?: boolean | cdktf.IResolvable; 
+  private _preview?: boolean | cdktn.IResolvable; 
   public get preview() {
     return this.getBooleanAttribute('preview');
   }
-  public set preview(value: boolean | cdktf.IResolvable) {
+  public set preview(value: boolean | cdktn.IResolvable) {
     this._preview = value;
   }
   public resetPreview() {
@@ -4616,15 +4616,15 @@ export class GoogleComputeSecurityPolicyRuleOutputReference extends cdktf.Comple
   }
 }
 
-export class GoogleComputeSecurityPolicyRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSecurityPolicyRule[] | cdktf.IResolvable
+export class GoogleComputeSecurityPolicyRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSecurityPolicyRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4650,39 +4650,39 @@ export interface GoogleComputeSecurityPolicyTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeSecurityPolicyTimeoutsToTerraform(struct?: GoogleComputeSecurityPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyTimeoutsToTerraform(struct?: GoogleComputeSecurityPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeSecurityPolicyTimeoutsToHclTerraform(struct?: GoogleComputeSecurityPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSecurityPolicyTimeoutsToHclTerraform(struct?: GoogleComputeSecurityPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4693,19 +4693,19 @@ export function googleComputeSecurityPolicyTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSecurityPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSecurityPolicyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeSecurityPolicyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSecurityPolicyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4726,7 +4726,7 @@ export class GoogleComputeSecurityPolicyTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSecurityPolicyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSecurityPolicyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4734,7 +4734,7 @@ export class GoogleComputeSecurityPolicyTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4799,7 +4799,7 @@ export class GoogleComputeSecurityPolicyTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy google_compute_security_policy}
 */
-export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
+export class GoogleComputeSecurityPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -4810,14 +4810,14 @@ export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeSecurityPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeSecurityPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeSecurityPolicy to import
   * @param importFromId The id of the existing GoogleComputeSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeSecurityPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_security_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_security_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -5003,7 +5003,7 @@ export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
   public get rule() {
     return this._rule;
   }
-  public putRule(value: GoogleComputeSecurityPolicyRule[] | cdktf.IResolvable) {
+  public putRule(value: GoogleComputeSecurityPolicyRule[] | cdktn.IResolvable) {
     this._rule.internalValue = value;
   }
   public resetRule() {
@@ -5036,15 +5036,15 @@ export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      type: cdktf.stringToTerraform(this._type),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      type: cdktn.stringToTerraform(this._type),
       adaptive_protection_config: googleComputeSecurityPolicyAdaptiveProtectionConfigToTerraform(this._adaptiveProtectionConfig.internalValue),
       advanced_options_config: googleComputeSecurityPolicyAdvancedOptionsConfigToTerraform(this._advancedOptionsConfig.internalValue),
       recaptcha_options_config: googleComputeSecurityPolicyRecaptchaOptionsConfigToTerraform(this._recaptchaOptionsConfig.internalValue),
-      rule: cdktf.listMapper(googleComputeSecurityPolicyRuleToTerraform, true)(this._rule.internalValue),
+      rule: cdktn.listMapper(googleComputeSecurityPolicyRuleToTerraform, true)(this._rule.internalValue),
       timeouts: googleComputeSecurityPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -5052,31 +5052,31 @@ export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -5100,7 +5100,7 @@ export class GoogleComputeSecurityPolicy extends cdktf.TerraformResource {
         storageClassType: "GoogleComputeSecurityPolicyRecaptchaOptionsConfigList",
       },
       rule: {
-        value: cdktf.listMapperHcl(googleComputeSecurityPolicyRuleToHclTerraform, true)(this._rule.internalValue),
+        value: cdktn.listMapperHcl(googleComputeSecurityPolicyRuleToHclTerraform, true)(this._rule.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeSecurityPolicyRuleList",

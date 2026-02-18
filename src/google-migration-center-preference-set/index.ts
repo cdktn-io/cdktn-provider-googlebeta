@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleMigrationCenterPreferenceSetConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleMigrationCenterPreferenceSetConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the preference set.
   *
@@ -75,39 +75,39 @@ export interface GoogleMigrationCenterPreferenceSetTimeouts {
   readonly update?: string;
 }
 
-export function googleMigrationCenterPreferenceSetTimeoutsToTerraform(struct?: GoogleMigrationCenterPreferenceSetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetTimeoutsToTerraform(struct?: GoogleMigrationCenterPreferenceSetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleMigrationCenterPreferenceSetTimeoutsToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetTimeoutsToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -118,19 +118,19 @@ export function googleMigrationCenterPreferenceSetTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleMigrationCenterPreferenceSetTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMigrationCenterPreferenceSetTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -151,7 +151,7 @@ export class GoogleMigrationCenterPreferenceSetTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMigrationCenterPreferenceSetTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMigrationCenterPreferenceSetTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -159,7 +159,7 @@ export class GoogleMigrationCenterPreferenceSetTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -229,25 +229,25 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComp
   readonly code?: string;
 }
 
-export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    code: cdktf.stringToTerraform(struct!.code),
+    code: cdktn.stringToTerraform(struct!.code),
   }
 }
 
 
-export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     code: {
-      value: cdktf.stringToHclTerraform(struct!.code),
+      value: cdktn.stringToHclTerraform(struct!.code),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -258,9 +258,9 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesCompu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -268,11 +268,11 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeE
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -285,13 +285,13 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeE
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._code = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -319,15 +319,15 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeE
   }
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList extends cdktf.ComplexList {
-  public internalValue? : GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktf.IResolvable
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -344,28 +344,28 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComp
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_preference_set#allowed_machine_series GoogleMigrationCenterPreferenceSet#allowed_machine_series}
   */
-  readonly allowedMachineSeries?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktf.IResolvable;
+  readonly allowedMachineSeries?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktn.IResolvable;
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_machine_series: cdktf.listMapper(googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToTerraform, true)(struct!.allowedMachineSeries),
+    allowed_machine_series: cdktn.listMapper(googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToTerraform, true)(struct!.allowedMachineSeries),
   }
 }
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_machine_series: {
-      value: cdktf.listMapperHcl(googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToHclTerraform, true)(struct!.allowedMachineSeries),
+      value: cdktn.listMapperHcl(googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesToHclTerraform, true)(struct!.allowedMachineSeries),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList",
@@ -376,14 +376,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesCompu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -413,7 +413,7 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeE
   public get allowedMachineSeries() {
     return this._allowedMachineSeries;
   }
-  public putAllowedMachineSeries(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktf.IResolvable) {
+  public putAllowedMachineSeries(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries[] | cdktn.IResolvable) {
     this._allowedMachineSeries.internalValue = value;
   }
   public resetAllowedMachineSeries() {
@@ -440,25 +440,25 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComp
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    license_type: cdktf.stringToTerraform(struct!.licenseType),
+    license_type: cdktn.stringToTerraform(struct!.licenseType),
     machine_preferences: googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesToTerraform(struct!.machinePreferences),
   }
 }
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     license_type: {
-      value: cdktf.stringToHclTerraform(struct!.licenseType),
+      value: cdktn.stringToHclTerraform(struct!.licenseType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -475,14 +475,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesCompu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -555,24 +555,24 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegi
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    preferred_regions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.preferredRegions),
+    preferred_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.preferredRegions),
   }
 }
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     preferred_regions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.preferredRegions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.preferredRegions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -583,14 +583,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesRegio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -640,25 +640,25 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSole
   readonly nodeName?: string;
 }
 
-export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    node_name: cdktf.stringToTerraform(struct!.nodeName),
+    node_name: cdktn.stringToTerraform(struct!.nodeName),
   }
 }
 
 
-export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     node_name: {
-      value: cdktf.stringToHclTerraform(struct!.nodeName),
+      value: cdktn.stringToHclTerraform(struct!.nodeName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -669,9 +669,9 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -679,11 +679,11 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -696,13 +696,13 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._nodeName = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -730,15 +730,15 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
   }
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList extends cdktf.ComplexList {
-  public internalValue? : GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktf.IResolvable
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList extends cdktn.ComplexList {
+  public internalValue? : GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -773,49 +773,49 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSole
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_preference_set#node_types GoogleMigrationCenterPreferenceSet#node_types}
   */
-  readonly nodeTypes?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktf.IResolvable;
+  readonly nodeTypes?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktn.IResolvable;
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    commitment_plan: cdktf.stringToTerraform(struct!.commitmentPlan),
-    cpu_overcommit_ratio: cdktf.numberToTerraform(struct!.cpuOvercommitRatio),
-    host_maintenance_policy: cdktf.stringToTerraform(struct!.hostMaintenancePolicy),
-    node_types: cdktf.listMapper(googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToTerraform, true)(struct!.nodeTypes),
+    commitment_plan: cdktn.stringToTerraform(struct!.commitmentPlan),
+    cpu_overcommit_ratio: cdktn.numberToTerraform(struct!.cpuOvercommitRatio),
+    host_maintenance_policy: cdktn.stringToTerraform(struct!.hostMaintenancePolicy),
+    node_types: cdktn.listMapper(googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToTerraform, true)(struct!.nodeTypes),
   }
 }
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     commitment_plan: {
-      value: cdktf.stringToHclTerraform(struct!.commitmentPlan),
+      value: cdktn.stringToHclTerraform(struct!.commitmentPlan),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cpu_overcommit_ratio: {
-      value: cdktf.numberToHclTerraform(struct!.cpuOvercommitRatio),
+      value: cdktn.numberToHclTerraform(struct!.cpuOvercommitRatio),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     host_maintenance_policy: {
-      value: cdktf.stringToHclTerraform(struct!.hostMaintenancePolicy),
+      value: cdktn.stringToHclTerraform(struct!.hostMaintenancePolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     node_types: {
-      value: cdktf.listMapperHcl(googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToHclTerraform, true)(struct!.nodeTypes),
+      value: cdktn.listMapperHcl(googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesToHclTerraform, true)(struct!.nodeTypes),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList",
@@ -826,14 +826,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -929,7 +929,7 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTena
   public get nodeTypes() {
     return this._nodeTypes;
   }
-  public putNodeTypes(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktf.IResolvable) {
+  public putNodeTypes(value: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes[] | cdktn.IResolvable) {
     this._nodeTypes.internalValue = value;
   }
   public resetNodeTypes() {
@@ -968,45 +968,45 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwa
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    commitment_plan: cdktf.stringToTerraform(struct!.commitmentPlan),
-    cpu_overcommit_ratio: cdktf.numberToTerraform(struct!.cpuOvercommitRatio),
-    memory_overcommit_ratio: cdktf.numberToTerraform(struct!.memoryOvercommitRatio),
-    storage_deduplication_compression_ratio: cdktf.numberToTerraform(struct!.storageDeduplicationCompressionRatio),
+    commitment_plan: cdktn.stringToTerraform(struct!.commitmentPlan),
+    cpu_overcommit_ratio: cdktn.numberToTerraform(struct!.cpuOvercommitRatio),
+    memory_overcommit_ratio: cdktn.numberToTerraform(struct!.memoryOvercommitRatio),
+    storage_deduplication_compression_ratio: cdktn.numberToTerraform(struct!.storageDeduplicationCompressionRatio),
   }
 }
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     commitment_plan: {
-      value: cdktf.stringToHclTerraform(struct!.commitmentPlan),
+      value: cdktn.stringToHclTerraform(struct!.commitmentPlan),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cpu_overcommit_ratio: {
-      value: cdktf.numberToHclTerraform(struct!.cpuOvercommitRatio),
+      value: cdktn.numberToHclTerraform(struct!.cpuOvercommitRatio),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     memory_overcommit_ratio: {
-      value: cdktf.numberToHclTerraform(struct!.memoryOvercommitRatio),
+      value: cdktn.numberToHclTerraform(struct!.memoryOvercommitRatio),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     storage_deduplication_compression_ratio: {
-      value: cdktf.numberToHclTerraform(struct!.storageDeduplicationCompressionRatio),
+      value: cdktn.numberToHclTerraform(struct!.storageDeduplicationCompressionRatio),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1017,14 +1017,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwar
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1177,14 +1177,14 @@ export interface GoogleMigrationCenterPreferenceSetVirtualMachinePreferences {
 }
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesToTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    commitment_plan: cdktf.stringToTerraform(struct!.commitmentPlan),
-    sizing_optimization_strategy: cdktf.stringToTerraform(struct!.sizingOptimizationStrategy),
-    target_product: cdktf.stringToTerraform(struct!.targetProduct),
+    commitment_plan: cdktn.stringToTerraform(struct!.commitmentPlan),
+    sizing_optimization_strategy: cdktn.stringToTerraform(struct!.sizingOptimizationStrategy),
+    target_product: cdktn.stringToTerraform(struct!.targetProduct),
     compute_engine_preferences: googleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesToTerraform(struct!.computeEnginePreferences),
     region_preferences: googleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesToTerraform(struct!.regionPreferences),
     sole_tenancy_preferences: googleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesToTerraform(struct!.soleTenancyPreferences),
@@ -1194,25 +1194,25 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesToTer
 
 
 export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesToHclTerraform(struct?: GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference | GoogleMigrationCenterPreferenceSetVirtualMachinePreferences): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     commitment_plan: {
-      value: cdktf.stringToHclTerraform(struct!.commitmentPlan),
+      value: cdktn.stringToHclTerraform(struct!.commitmentPlan),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sizing_optimization_strategy: {
-      value: cdktf.stringToHclTerraform(struct!.sizingOptimizationStrategy),
+      value: cdktn.stringToHclTerraform(struct!.sizingOptimizationStrategy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     target_product: {
-      value: cdktf.stringToHclTerraform(struct!.targetProduct),
+      value: cdktn.stringToHclTerraform(struct!.targetProduct),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1247,14 +1247,14 @@ export function googleMigrationCenterPreferenceSetVirtualMachinePreferencesToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference extends cdktf.ComplexObject {
+export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1431,7 +1431,7 @@ export class GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputRe
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_preference_set google_migration_center_preference_set}
 */
-export class GoogleMigrationCenterPreferenceSet extends cdktf.TerraformResource {
+export class GoogleMigrationCenterPreferenceSet extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1442,14 +1442,14 @@ export class GoogleMigrationCenterPreferenceSet extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleMigrationCenterPreferenceSet resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleMigrationCenterPreferenceSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMigrationCenterPreferenceSet to import
   * @param importFromId The id of the existing GoogleMigrationCenterPreferenceSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_preference_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMigrationCenterPreferenceSet to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_migration_center_preference_set", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_migration_center_preference_set", importId: importFromId, provider });
       }
 
   // ===========
@@ -1636,12 +1636,12 @@ export class GoogleMigrationCenterPreferenceSet extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      preference_set_id: cdktf.stringToTerraform(this._preferenceSetId),
-      project: cdktf.stringToTerraform(this._project),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      preference_set_id: cdktn.stringToTerraform(this._preferenceSetId),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleMigrationCenterPreferenceSetTimeoutsToTerraform(this._timeouts.internalValue),
       virtual_machine_preferences: googleMigrationCenterPreferenceSetVirtualMachinePreferencesToTerraform(this._virtualMachinePreferences.internalValue),
     };
@@ -1650,37 +1650,37 @@ export class GoogleMigrationCenterPreferenceSet extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       preference_set_id: {
-        value: cdktf.stringToHclTerraform(this._preferenceSetId),
+        value: cdktn.stringToHclTerraform(this._preferenceSetId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleAccessContextManagerGcpUserAccessBindingConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleAccessContextManagerGcpUserAccessBindingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Access level that a user must have to be granted access. Only one access level is supported, not multiple. This repeated field must have exactly one element. Example: "accessPolicies/9522/accessLevels/device_trusted"
   *
@@ -42,7 +42,7 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingConfig extends cd
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#scoped_access_settings GoogleAccessContextManagerGcpUserAccessBinding#scoped_access_settings}
   */
-  readonly scopedAccessSettings?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktf.IResolvable;
+  readonly scopedAccessSettings?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktn.IResolvable;
   /**
   * session_settings block
   *
@@ -74,7 +74,7 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
   */
-  readonly sessionLengthEnabled?: boolean | cdktf.IResolvable;
+  readonly sessionLengthEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. The session challenges proposed to users when the Google Cloud session length is up. Possible values: ["LOGIN", "SECURITY_KEY", "PASSWORD"]
   *
@@ -86,56 +86,56 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
   */
-  readonly useOidcMaxAge?: boolean | cdktf.IResolvable;
+  readonly useOidcMaxAge?: boolean | cdktn.IResolvable;
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_inactivity: cdktf.stringToTerraform(struct!.maxInactivity),
-    session_length: cdktf.stringToTerraform(struct!.sessionLength),
-    session_length_enabled: cdktf.booleanToTerraform(struct!.sessionLengthEnabled),
-    session_reauth_method: cdktf.stringToTerraform(struct!.sessionReauthMethod),
-    use_oidc_max_age: cdktf.booleanToTerraform(struct!.useOidcMaxAge),
+    max_inactivity: cdktn.stringToTerraform(struct!.maxInactivity),
+    session_length: cdktn.stringToTerraform(struct!.sessionLength),
+    session_length_enabled: cdktn.booleanToTerraform(struct!.sessionLengthEnabled),
+    session_reauth_method: cdktn.stringToTerraform(struct!.sessionReauthMethod),
+    use_oidc_max_age: cdktn.booleanToTerraform(struct!.useOidcMaxAge),
   }
 }
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_inactivity: {
-      value: cdktf.stringToHclTerraform(struct!.maxInactivity),
+      value: cdktn.stringToHclTerraform(struct!.maxInactivity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     session_length: {
-      value: cdktf.stringToHclTerraform(struct!.sessionLength),
+      value: cdktn.stringToHclTerraform(struct!.sessionLength),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     session_length_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.sessionLengthEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.sessionLengthEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     session_reauth_method: {
-      value: cdktf.stringToHclTerraform(struct!.sessionReauthMethod),
+      value: cdktn.stringToHclTerraform(struct!.sessionReauthMethod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     use_oidc_max_age: {
-      value: cdktf.booleanToHclTerraform(struct!.useOidcMaxAge),
+      value: cdktn.booleanToHclTerraform(struct!.useOidcMaxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -146,14 +146,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -235,11 +235,11 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsA
   }
 
   // session_length_enabled - computed: false, optional: true, required: false
-  private _sessionLengthEnabled?: boolean | cdktf.IResolvable; 
+  private _sessionLengthEnabled?: boolean | cdktn.IResolvable; 
   public get sessionLengthEnabled() {
     return this.getBooleanAttribute('session_length_enabled');
   }
-  public set sessionLengthEnabled(value: boolean | cdktf.IResolvable) {
+  public set sessionLengthEnabled(value: boolean | cdktn.IResolvable) {
     this._sessionLengthEnabled = value;
   }
   public resetSessionLengthEnabled() {
@@ -267,11 +267,11 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsA
   }
 
   // use_oidc_max_age - computed: false, optional: true, required: false
-  private _useOidcMaxAge?: boolean | cdktf.IResolvable; 
+  private _useOidcMaxAge?: boolean | cdktn.IResolvable; 
   public get useOidcMaxAge() {
     return this.getBooleanAttribute('use_oidc_max_age');
   }
-  public set useOidcMaxAge(value: boolean | cdktf.IResolvable) {
+  public set useOidcMaxAge(value: boolean | cdktn.IResolvable) {
     this._useOidcMaxAge = value;
   }
   public resetUseOidcMaxAge() {
@@ -298,25 +298,25 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    access_levels: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.accessLevels),
+    access_levels: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.accessLevels),
     session_settings: googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsSessionSettingsToTerraform(struct!.sessionSettings),
   }
 }
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     access_levels: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.accessLevels),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.accessLevels),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -333,14 +333,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsActiveSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -413,24 +413,24 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    access_levels: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.accessLevels),
+    access_levels: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.accessLevels),
   }
 }
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     access_levels: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.accessLevels),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.accessLevels),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -441,14 +441,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsDryRunSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -505,31 +505,31 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    name: cdktf.stringToTerraform(struct!.name),
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
+      value: cdktn.stringToHclTerraform(struct!.clientId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -540,14 +540,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -620,8 +620,8 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -631,8 +631,8 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -648,14 +648,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -706,8 +706,8 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -717,8 +717,8 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
 
 
 export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference | GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -734,14 +734,14 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -803,9 +803,9 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSetti
   readonly scope?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsScope;
 }
 
-export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -816,9 +816,9 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
 }
 
 
-export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -846,9 +846,9 @@ export function googleAccessContextManagerGcpUserAccessBindingScopedAccessSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -856,11 +856,11 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -881,7 +881,7 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -889,7 +889,7 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
       this._dryRunSettings.internalValue = undefined;
       this._scope.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -951,15 +951,15 @@ export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsO
   }
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList extends cdktf.ComplexList {
-  public internalValue? : GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktf.IResolvable
+export class GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList extends cdktn.ComplexList {
+  public internalValue? : GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -988,7 +988,7 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingSessionSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#session_length_enabled GoogleAccessContextManagerGcpUserAccessBinding#session_length_enabled}
   */
-  readonly sessionLengthEnabled?: boolean | cdktf.IResolvable;
+  readonly sessionLengthEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. The session challenges proposed to users when the Google Cloud session length is up. Possible values: ["LOGIN", "SECURITY_KEY", "PASSWORD"]
   *
@@ -1000,56 +1000,56 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingSessionSettings {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#use_oidc_max_age GoogleAccessContextManagerGcpUserAccessBinding#use_oidc_max_age}
   */
-  readonly useOidcMaxAge?: boolean | cdktf.IResolvable;
+  readonly useOidcMaxAge?: boolean | cdktn.IResolvable;
 }
 
 export function googleAccessContextManagerGcpUserAccessBindingSessionSettingsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingSessionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_inactivity: cdktf.stringToTerraform(struct!.maxInactivity),
-    session_length: cdktf.stringToTerraform(struct!.sessionLength),
-    session_length_enabled: cdktf.booleanToTerraform(struct!.sessionLengthEnabled),
-    session_reauth_method: cdktf.stringToTerraform(struct!.sessionReauthMethod),
-    use_oidc_max_age: cdktf.booleanToTerraform(struct!.useOidcMaxAge),
+    max_inactivity: cdktn.stringToTerraform(struct!.maxInactivity),
+    session_length: cdktn.stringToTerraform(struct!.sessionLength),
+    session_length_enabled: cdktn.booleanToTerraform(struct!.sessionLengthEnabled),
+    session_reauth_method: cdktn.stringToTerraform(struct!.sessionReauthMethod),
+    use_oidc_max_age: cdktn.booleanToTerraform(struct!.useOidcMaxAge),
   }
 }
 
 
 export function googleAccessContextManagerGcpUserAccessBindingSessionSettingsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference | GoogleAccessContextManagerGcpUserAccessBindingSessionSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_inactivity: {
-      value: cdktf.stringToHclTerraform(struct!.maxInactivity),
+      value: cdktn.stringToHclTerraform(struct!.maxInactivity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     session_length: {
-      value: cdktf.stringToHclTerraform(struct!.sessionLength),
+      value: cdktn.stringToHclTerraform(struct!.sessionLength),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     session_length_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.sessionLengthEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.sessionLengthEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     session_reauth_method: {
-      value: cdktf.stringToHclTerraform(struct!.sessionReauthMethod),
+      value: cdktn.stringToHclTerraform(struct!.sessionReauthMethod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     use_oidc_max_age: {
-      value: cdktf.booleanToHclTerraform(struct!.useOidcMaxAge),
+      value: cdktn.booleanToHclTerraform(struct!.useOidcMaxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1060,14 +1060,14 @@ export function googleAccessContextManagerGcpUserAccessBindingSessionSettingsToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1149,11 +1149,11 @@ export class GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutput
   }
 
   // session_length_enabled - computed: false, optional: true, required: false
-  private _sessionLengthEnabled?: boolean | cdktf.IResolvable; 
+  private _sessionLengthEnabled?: boolean | cdktn.IResolvable; 
   public get sessionLengthEnabled() {
     return this.getBooleanAttribute('session_length_enabled');
   }
-  public set sessionLengthEnabled(value: boolean | cdktf.IResolvable) {
+  public set sessionLengthEnabled(value: boolean | cdktn.IResolvable) {
     this._sessionLengthEnabled = value;
   }
   public resetSessionLengthEnabled() {
@@ -1181,11 +1181,11 @@ export class GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutput
   }
 
   // use_oidc_max_age - computed: false, optional: true, required: false
-  private _useOidcMaxAge?: boolean | cdktf.IResolvable; 
+  private _useOidcMaxAge?: boolean | cdktn.IResolvable; 
   public get useOidcMaxAge() {
     return this.getBooleanAttribute('use_oidc_max_age');
   }
-  public set useOidcMaxAge(value: boolean | cdktf.IResolvable) {
+  public set useOidcMaxAge(value: boolean | cdktn.IResolvable) {
     this._useOidcMaxAge = value;
   }
   public resetUseOidcMaxAge() {
@@ -1211,39 +1211,39 @@ export interface GoogleAccessContextManagerGcpUserAccessBindingTimeouts {
   readonly update?: string;
 }
 
-export function googleAccessContextManagerGcpUserAccessBindingTimeoutsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAccessContextManagerGcpUserAccessBindingTimeoutsToTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleAccessContextManagerGcpUserAccessBindingTimeoutsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAccessContextManagerGcpUserAccessBindingTimeoutsToHclTerraform(struct?: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1254,19 +1254,19 @@ export function googleAccessContextManagerGcpUserAccessBindingTimeoutsToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1287,7 +1287,7 @@ export class GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReferen
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleAccessContextManagerGcpUserAccessBindingTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1295,7 +1295,7 @@ export class GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReferen
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1360,7 +1360,7 @@ export class GoogleAccessContextManagerGcpUserAccessBindingTimeoutsOutputReferen
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}
 */
-export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktf.TerraformResource {
+export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1371,14 +1371,14 @@ export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktf.Terraf
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleAccessContextManagerGcpUserAccessBinding resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleAccessContextManagerGcpUserAccessBinding resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAccessContextManagerGcpUserAccessBinding to import
   * @param importFromId The id of the existing GoogleAccessContextManagerGcpUserAccessBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_gcp_user_access_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAccessContextManagerGcpUserAccessBinding to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_access_context_manager_gcp_user_access_binding", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_access_context_manager_gcp_user_access_binding", importId: importFromId, provider });
       }
 
   // ===========
@@ -1489,7 +1489,7 @@ export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktf.Terraf
   public get scopedAccessSettings() {
     return this._scopedAccessSettings;
   }
-  public putScopedAccessSettings(value: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktf.IResolvable) {
+  public putScopedAccessSettings(value: GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettings[] | cdktn.IResolvable) {
     this._scopedAccessSettings.internalValue = value;
   }
   public resetScopedAccessSettings() {
@@ -1538,11 +1538,11 @@ export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktf.Terraf
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      access_levels: cdktf.listMapper(cdktf.stringToTerraform, false)(this._accessLevels),
-      group_key: cdktf.stringToTerraform(this._groupKey),
-      id: cdktf.stringToTerraform(this._id),
-      organization_id: cdktf.stringToTerraform(this._organizationId),
-      scoped_access_settings: cdktf.listMapper(googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToTerraform, true)(this._scopedAccessSettings.internalValue),
+      access_levels: cdktn.listMapper(cdktn.stringToTerraform, false)(this._accessLevels),
+      group_key: cdktn.stringToTerraform(this._groupKey),
+      id: cdktn.stringToTerraform(this._id),
+      organization_id: cdktn.stringToTerraform(this._organizationId),
+      scoped_access_settings: cdktn.listMapper(googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToTerraform, true)(this._scopedAccessSettings.internalValue),
       session_settings: googleAccessContextManagerGcpUserAccessBindingSessionSettingsToTerraform(this._sessionSettings.internalValue),
       timeouts: googleAccessContextManagerGcpUserAccessBindingTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1551,31 +1551,31 @@ export class GoogleAccessContextManagerGcpUserAccessBinding extends cdktf.Terraf
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       access_levels: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._accessLevels),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._accessLevels),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       group_key: {
-        value: cdktf.stringToHclTerraform(this._groupKey),
+        value: cdktn.stringToHclTerraform(this._groupKey),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization_id: {
-        value: cdktf.stringToHclTerraform(this._organizationId),
+        value: cdktn.stringToHclTerraform(this._organizationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       scoped_access_settings: {
-        value: cdktf.listMapperHcl(googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToHclTerraform, true)(this._scopedAccessSettings.internalValue),
+        value: cdktn.listMapperHcl(googleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsToHclTerraform, true)(this._scopedAccessSettings.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleAccessContextManagerGcpUserAccessBindingScopedAccessSettingsList",

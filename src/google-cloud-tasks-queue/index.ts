@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleCloudTasksQueueConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleCloudTasksQueueConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_tasks_queue#id GoogleCloudTasksQueue#id}
   *
@@ -100,38 +100,38 @@ export interface GoogleCloudTasksQueueAppEngineRoutingOverride {
 }
 
 export function googleCloudTasksQueueAppEngineRoutingOverrideToTerraform(struct?: GoogleCloudTasksQueueAppEngineRoutingOverrideOutputReference | GoogleCloudTasksQueueAppEngineRoutingOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instance: cdktf.stringToTerraform(struct!.instance),
-    service: cdktf.stringToTerraform(struct!.service),
-    version: cdktf.stringToTerraform(struct!.version),
+    instance: cdktn.stringToTerraform(struct!.instance),
+    service: cdktn.stringToTerraform(struct!.service),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleCloudTasksQueueAppEngineRoutingOverrideToHclTerraform(struct?: GoogleCloudTasksQueueAppEngineRoutingOverrideOutputReference | GoogleCloudTasksQueueAppEngineRoutingOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instance: {
-      value: cdktf.stringToHclTerraform(struct!.instance),
+      value: cdktn.stringToHclTerraform(struct!.instance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -142,14 +142,14 @@ export function googleCloudTasksQueueAppEngineRoutingOverrideToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueAppEngineRoutingOverrideOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueAppEngineRoutingOverrideOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -255,31 +255,31 @@ export interface GoogleCloudTasksQueueHttpTargetHeaderOverridesHeader {
 }
 
 export function googleCloudTasksQueueHttpTargetHeaderOverridesHeaderToTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference | GoogleCloudTasksQueueHttpTargetHeaderOverridesHeader): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key: cdktf.stringToTerraform(struct!.key),
-    value: cdktf.stringToTerraform(struct!.value),
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
 export function googleCloudTasksQueueHttpTargetHeaderOverridesHeaderToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference | GoogleCloudTasksQueueHttpTargetHeaderOverridesHeader): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -290,14 +290,14 @@ export function googleCloudTasksQueueHttpTargetHeaderOverridesHeaderToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetHeaderOverridesHeaderOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -363,9 +363,9 @@ export interface GoogleCloudTasksQueueHttpTargetHeaderOverrides {
   readonly header: GoogleCloudTasksQueueHttpTargetHeaderOverridesHeader;
 }
 
-export function googleCloudTasksQueueHttpTargetHeaderOverridesToTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudTasksQueueHttpTargetHeaderOverridesToTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -374,9 +374,9 @@ export function googleCloudTasksQueueHttpTargetHeaderOverridesToTerraform(struct
 }
 
 
-export function googleCloudTasksQueueHttpTargetHeaderOverridesToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudTasksQueueHttpTargetHeaderOverridesToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -392,9 +392,9 @@ export function googleCloudTasksQueueHttpTargetHeaderOverridesToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -402,11 +402,11 @@ export class GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference exten
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -419,13 +419,13 @@ export class GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudTasksQueueHttpTargetHeaderOverrides | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._header.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -450,15 +450,15 @@ export class GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference exten
   }
 }
 
-export class GoogleCloudTasksQueueHttpTargetHeaderOverridesList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktf.IResolvable
+export class GoogleCloudTasksQueueHttpTargetHeaderOverridesList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -488,31 +488,31 @@ export interface GoogleCloudTasksQueueHttpTargetOauthToken {
 }
 
 export function googleCloudTasksQueueHttpTargetOauthTokenToTerraform(struct?: GoogleCloudTasksQueueHttpTargetOauthTokenOutputReference | GoogleCloudTasksQueueHttpTargetOauthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scope: cdktf.stringToTerraform(struct!.scope),
-    service_account_email: cdktf.stringToTerraform(struct!.serviceAccountEmail),
+    scope: cdktn.stringToTerraform(struct!.scope),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
   }
 }
 
 
 export function googleCloudTasksQueueHttpTargetOauthTokenToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetOauthTokenOutputReference | GoogleCloudTasksQueueHttpTargetOauthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scope: {
-      value: cdktf.stringToHclTerraform(struct!.scope),
+      value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -523,14 +523,14 @@ export function googleCloudTasksQueueHttpTargetOauthTokenToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetOauthTokenOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetOauthTokenOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -608,31 +608,31 @@ export interface GoogleCloudTasksQueueHttpTargetOidcToken {
 }
 
 export function googleCloudTasksQueueHttpTargetOidcTokenToTerraform(struct?: GoogleCloudTasksQueueHttpTargetOidcTokenOutputReference | GoogleCloudTasksQueueHttpTargetOidcToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    audience: cdktf.stringToTerraform(struct!.audience),
-    service_account_email: cdktf.stringToTerraform(struct!.serviceAccountEmail),
+    audience: cdktn.stringToTerraform(struct!.audience),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
   }
 }
 
 
 export function googleCloudTasksQueueHttpTargetOidcTokenToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetOidcTokenOutputReference | GoogleCloudTasksQueueHttpTargetOidcToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     audience: {
-      value: cdktf.stringToHclTerraform(struct!.audience),
+      value: cdktn.stringToHclTerraform(struct!.audience),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -643,14 +643,14 @@ export function googleCloudTasksQueueHttpTargetOidcTokenToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetOidcTokenOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetOidcTokenOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -720,24 +720,24 @@ export interface GoogleCloudTasksQueueHttpTargetUriOverridePathOverride {
 }
 
 export function googleCloudTasksQueueHttpTargetUriOverridePathOverrideToTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverridePathOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverridePathOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    path: cdktf.stringToTerraform(struct!.path),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleCloudTasksQueueHttpTargetUriOverridePathOverrideToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverridePathOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverridePathOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -748,14 +748,14 @@ export function googleCloudTasksQueueHttpTargetUriOverridePathOverrideToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetUriOverridePathOverrideOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetUriOverridePathOverrideOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -806,24 +806,24 @@ export interface GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverride {
 }
 
 export function googleCloudTasksQueueHttpTargetUriOverrideQueryOverrideToTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    query_params: cdktf.stringToTerraform(struct!.queryParams),
+    query_params: cdktn.stringToTerraform(struct!.queryParams),
   }
 }
 
 
 export function googleCloudTasksQueueHttpTargetUriOverrideQueryOverrideToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     query_params: {
-      value: cdktf.stringToHclTerraform(struct!.queryParams),
+      value: cdktn.stringToHclTerraform(struct!.queryParams),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -834,14 +834,14 @@ export function googleCloudTasksQueueHttpTargetUriOverrideQueryOverrideToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetUriOverrideQueryOverrideOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -936,15 +936,15 @@ export interface GoogleCloudTasksQueueHttpTargetUriOverride {
 }
 
 export function googleCloudTasksQueueHttpTargetUriOverrideToTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host: cdktf.stringToTerraform(struct!.host),
-    port: cdktf.stringToTerraform(struct!.port),
-    scheme: cdktf.stringToTerraform(struct!.scheme),
-    uri_override_enforce_mode: cdktf.stringToTerraform(struct!.uriOverrideEnforceMode),
+    host: cdktn.stringToTerraform(struct!.host),
+    port: cdktn.stringToTerraform(struct!.port),
+    scheme: cdktn.stringToTerraform(struct!.scheme),
+    uri_override_enforce_mode: cdktn.stringToTerraform(struct!.uriOverrideEnforceMode),
     path_override: googleCloudTasksQueueHttpTargetUriOverridePathOverrideToTerraform(struct!.pathOverride),
     query_override: googleCloudTasksQueueHttpTargetUriOverrideQueryOverrideToTerraform(struct!.queryOverride),
   }
@@ -952,31 +952,31 @@ export function googleCloudTasksQueueHttpTargetUriOverrideToTerraform(struct?: G
 
 
 export function googleCloudTasksQueueHttpTargetUriOverrideToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetUriOverrideOutputReference | GoogleCloudTasksQueueHttpTargetUriOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
+      value: cdktn.stringToHclTerraform(struct!.host),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.stringToHclTerraform(struct!.port),
+      value: cdktn.stringToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scheme: {
-      value: cdktf.stringToHclTerraform(struct!.scheme),
+      value: cdktn.stringToHclTerraform(struct!.scheme),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri_override_enforce_mode: {
-      value: cdktf.stringToHclTerraform(struct!.uriOverrideEnforceMode),
+      value: cdktn.stringToHclTerraform(struct!.uriOverrideEnforceMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -999,14 +999,14 @@ export function googleCloudTasksQueueHttpTargetUriOverrideToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetUriOverrideOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetUriOverrideOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1172,7 +1172,7 @@ export interface GoogleCloudTasksQueueHttpTarget {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_tasks_queue#header_overrides GoogleCloudTasksQueue#header_overrides}
   */
-  readonly headerOverrides?: GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktf.IResolvable;
+  readonly headerOverrides?: GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktn.IResolvable;
   /**
   * oauth_token block
   *
@@ -1194,13 +1194,13 @@ export interface GoogleCloudTasksQueueHttpTarget {
 }
 
 export function googleCloudTasksQueueHttpTargetToTerraform(struct?: GoogleCloudTasksQueueHttpTargetOutputReference | GoogleCloudTasksQueueHttpTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    http_method: cdktf.stringToTerraform(struct!.httpMethod),
-    header_overrides: cdktf.listMapper(googleCloudTasksQueueHttpTargetHeaderOverridesToTerraform, true)(struct!.headerOverrides),
+    http_method: cdktn.stringToTerraform(struct!.httpMethod),
+    header_overrides: cdktn.listMapper(googleCloudTasksQueueHttpTargetHeaderOverridesToTerraform, true)(struct!.headerOverrides),
     oauth_token: googleCloudTasksQueueHttpTargetOauthTokenToTerraform(struct!.oauthToken),
     oidc_token: googleCloudTasksQueueHttpTargetOidcTokenToTerraform(struct!.oidcToken),
     uri_override: googleCloudTasksQueueHttpTargetUriOverrideToTerraform(struct!.uriOverride),
@@ -1209,19 +1209,19 @@ export function googleCloudTasksQueueHttpTargetToTerraform(struct?: GoogleCloudT
 
 
 export function googleCloudTasksQueueHttpTargetToHclTerraform(struct?: GoogleCloudTasksQueueHttpTargetOutputReference | GoogleCloudTasksQueueHttpTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     http_method: {
-      value: cdktf.stringToHclTerraform(struct!.httpMethod),
+      value: cdktn.stringToHclTerraform(struct!.httpMethod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_overrides: {
-      value: cdktf.listMapperHcl(googleCloudTasksQueueHttpTargetHeaderOverridesToHclTerraform, true)(struct!.headerOverrides),
+      value: cdktn.listMapperHcl(googleCloudTasksQueueHttpTargetHeaderOverridesToHclTerraform, true)(struct!.headerOverrides),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudTasksQueueHttpTargetHeaderOverridesList",
@@ -1250,14 +1250,14 @@ export function googleCloudTasksQueueHttpTargetToHclTerraform(struct?: GoogleClo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueHttpTargetOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueHttpTargetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1327,7 +1327,7 @@ export class GoogleCloudTasksQueueHttpTargetOutputReference extends cdktf.Comple
   public get headerOverrides() {
     return this._headerOverrides;
   }
-  public putHeaderOverrides(value: GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktf.IResolvable) {
+  public putHeaderOverrides(value: GoogleCloudTasksQueueHttpTargetHeaderOverrides[] | cdktn.IResolvable) {
     this._headerOverrides.internalValue = value;
   }
   public resetHeaderOverrides() {
@@ -1407,31 +1407,31 @@ export interface GoogleCloudTasksQueueRateLimits {
 }
 
 export function googleCloudTasksQueueRateLimitsToTerraform(struct?: GoogleCloudTasksQueueRateLimitsOutputReference | GoogleCloudTasksQueueRateLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_concurrent_dispatches: cdktf.numberToTerraform(struct!.maxConcurrentDispatches),
-    max_dispatches_per_second: cdktf.numberToTerraform(struct!.maxDispatchesPerSecond),
+    max_concurrent_dispatches: cdktn.numberToTerraform(struct!.maxConcurrentDispatches),
+    max_dispatches_per_second: cdktn.numberToTerraform(struct!.maxDispatchesPerSecond),
   }
 }
 
 
 export function googleCloudTasksQueueRateLimitsToHclTerraform(struct?: GoogleCloudTasksQueueRateLimitsOutputReference | GoogleCloudTasksQueueRateLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_concurrent_dispatches: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentDispatches),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentDispatches),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_dispatches_per_second: {
-      value: cdktf.numberToHclTerraform(struct!.maxDispatchesPerSecond),
+      value: cdktn.numberToHclTerraform(struct!.maxDispatchesPerSecond),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1442,14 +1442,14 @@ export function googleCloudTasksQueueRateLimitsToHclTerraform(struct?: GoogleClo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueRateLimitsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueRateLimitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1574,52 +1574,52 @@ export interface GoogleCloudTasksQueueRetryConfig {
 }
 
 export function googleCloudTasksQueueRetryConfigToTerraform(struct?: GoogleCloudTasksQueueRetryConfigOutputReference | GoogleCloudTasksQueueRetryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_attempts: cdktf.numberToTerraform(struct!.maxAttempts),
-    max_backoff: cdktf.stringToTerraform(struct!.maxBackoff),
-    max_doublings: cdktf.numberToTerraform(struct!.maxDoublings),
-    max_retry_duration: cdktf.stringToTerraform(struct!.maxRetryDuration),
-    min_backoff: cdktf.stringToTerraform(struct!.minBackoff),
+    max_attempts: cdktn.numberToTerraform(struct!.maxAttempts),
+    max_backoff: cdktn.stringToTerraform(struct!.maxBackoff),
+    max_doublings: cdktn.numberToTerraform(struct!.maxDoublings),
+    max_retry_duration: cdktn.stringToTerraform(struct!.maxRetryDuration),
+    min_backoff: cdktn.stringToTerraform(struct!.minBackoff),
   }
 }
 
 
 export function googleCloudTasksQueueRetryConfigToHclTerraform(struct?: GoogleCloudTasksQueueRetryConfigOutputReference | GoogleCloudTasksQueueRetryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_attempts: {
-      value: cdktf.numberToHclTerraform(struct!.maxAttempts),
+      value: cdktn.numberToHclTerraform(struct!.maxAttempts),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_backoff: {
-      value: cdktf.stringToHclTerraform(struct!.maxBackoff),
+      value: cdktn.stringToHclTerraform(struct!.maxBackoff),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_doublings: {
-      value: cdktf.numberToHclTerraform(struct!.maxDoublings),
+      value: cdktn.numberToHclTerraform(struct!.maxDoublings),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_retry_duration: {
-      value: cdktf.stringToHclTerraform(struct!.maxRetryDuration),
+      value: cdktn.stringToHclTerraform(struct!.maxRetryDuration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_backoff: {
-      value: cdktf.stringToHclTerraform(struct!.minBackoff),
+      value: cdktn.stringToHclTerraform(struct!.minBackoff),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1630,14 +1630,14 @@ export function googleCloudTasksQueueRetryConfigToHclTerraform(struct?: GoogleCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueRetryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueRetryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1778,24 +1778,24 @@ export interface GoogleCloudTasksQueueStackdriverLoggingConfig {
 }
 
 export function googleCloudTasksQueueStackdriverLoggingConfigToTerraform(struct?: GoogleCloudTasksQueueStackdriverLoggingConfigOutputReference | GoogleCloudTasksQueueStackdriverLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    sampling_ratio: cdktf.numberToTerraform(struct!.samplingRatio),
+    sampling_ratio: cdktn.numberToTerraform(struct!.samplingRatio),
   }
 }
 
 
 export function googleCloudTasksQueueStackdriverLoggingConfigToHclTerraform(struct?: GoogleCloudTasksQueueStackdriverLoggingConfigOutputReference | GoogleCloudTasksQueueStackdriverLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     sampling_ratio: {
-      value: cdktf.numberToHclTerraform(struct!.samplingRatio),
+      value: cdktn.numberToHclTerraform(struct!.samplingRatio),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1806,14 +1806,14 @@ export function googleCloudTasksQueueStackdriverLoggingConfigToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueStackdriverLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueStackdriverLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1866,39 +1866,39 @@ export interface GoogleCloudTasksQueueTimeouts {
   readonly update?: string;
 }
 
-export function googleCloudTasksQueueTimeoutsToTerraform(struct?: GoogleCloudTasksQueueTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudTasksQueueTimeoutsToTerraform(struct?: GoogleCloudTasksQueueTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleCloudTasksQueueTimeoutsToHclTerraform(struct?: GoogleCloudTasksQueueTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudTasksQueueTimeoutsToHclTerraform(struct?: GoogleCloudTasksQueueTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1909,19 +1909,19 @@ export function googleCloudTasksQueueTimeoutsToHclTerraform(struct?: GoogleCloud
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudTasksQueueTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudTasksQueueTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleCloudTasksQueueTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudTasksQueueTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1942,7 +1942,7 @@ export class GoogleCloudTasksQueueTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudTasksQueueTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudTasksQueueTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1950,7 +1950,7 @@ export class GoogleCloudTasksQueueTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2015,7 +2015,7 @@ export class GoogleCloudTasksQueueTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue}
 */
-export class GoogleCloudTasksQueue extends cdktf.TerraformResource {
+export class GoogleCloudTasksQueue extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2026,14 +2026,14 @@ export class GoogleCloudTasksQueue extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleCloudTasksQueue resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleCloudTasksQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudTasksQueue to import
   * @param importFromId The id of the existing GoogleCloudTasksQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_tasks_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudTasksQueue to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_tasks_queue", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_tasks_queue", importId: importFromId, provider });
       }
 
   // ===========
@@ -2239,10 +2239,10 @@ export class GoogleCloudTasksQueue extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       app_engine_routing_override: googleCloudTasksQueueAppEngineRoutingOverrideToTerraform(this._appEngineRoutingOverride.internalValue),
       http_target: googleCloudTasksQueueHttpTargetToTerraform(this._httpTarget.internalValue),
       rate_limits: googleCloudTasksQueueRateLimitsToTerraform(this._rateLimits.internalValue),
@@ -2255,25 +2255,25 @@ export class GoogleCloudTasksQueue extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

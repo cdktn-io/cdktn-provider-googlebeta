@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIamDenyPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIamDenyPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The display name of the rule.
   *
@@ -42,7 +42,7 @@ export interface GoogleIamDenyPolicyConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_deny_policy#rules GoogleIamDenyPolicy#rules}
   */
-  readonly rules: GoogleIamDenyPolicyRules[] | cdktf.IResolvable;
+  readonly rules: GoogleIamDenyPolicyRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -81,45 +81,45 @@ export interface GoogleIamDenyPolicyRulesDenyRuleDenialCondition {
 }
 
 export function googleIamDenyPolicyRulesDenyRuleDenialConditionToTerraform(struct?: GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference | GoogleIamDenyPolicyRulesDenyRuleDenialCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    expression: cdktf.stringToTerraform(struct!.expression),
-    location: cdktf.stringToTerraform(struct!.location),
-    title: cdktf.stringToTerraform(struct!.title),
+    description: cdktn.stringToTerraform(struct!.description),
+    expression: cdktn.stringToTerraform(struct!.expression),
+    location: cdktn.stringToTerraform(struct!.location),
+    title: cdktn.stringToTerraform(struct!.title),
   }
 }
 
 
 export function googleIamDenyPolicyRulesDenyRuleDenialConditionToHclTerraform(struct?: GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference | GoogleIamDenyPolicyRulesDenyRuleDenialCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expression: {
-      value: cdktf.stringToHclTerraform(struct!.expression),
+      value: cdktn.stringToHclTerraform(struct!.expression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     title: {
-      value: cdktf.stringToHclTerraform(struct!.title),
+      value: cdktn.stringToHclTerraform(struct!.title),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -130,14 +130,14 @@ export function googleIamDenyPolicyRulesDenyRuleDenialConditionToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference extends cdktf.ComplexObject {
+export class GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -279,46 +279,46 @@ export interface GoogleIamDenyPolicyRulesDenyRule {
 }
 
 export function googleIamDenyPolicyRulesDenyRuleToTerraform(struct?: GoogleIamDenyPolicyRulesDenyRuleOutputReference | GoogleIamDenyPolicyRulesDenyRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    denied_permissions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.deniedPermissions),
-    denied_principals: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.deniedPrincipals),
-    exception_permissions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exceptionPermissions),
-    exception_principals: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exceptionPrincipals),
+    denied_permissions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.deniedPermissions),
+    denied_principals: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.deniedPrincipals),
+    exception_permissions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exceptionPermissions),
+    exception_principals: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exceptionPrincipals),
     denial_condition: googleIamDenyPolicyRulesDenyRuleDenialConditionToTerraform(struct!.denialCondition),
   }
 }
 
 
 export function googleIamDenyPolicyRulesDenyRuleToHclTerraform(struct?: GoogleIamDenyPolicyRulesDenyRuleOutputReference | GoogleIamDenyPolicyRulesDenyRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     denied_permissions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.deniedPermissions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.deniedPermissions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     denied_principals: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.deniedPrincipals),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.deniedPrincipals),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     exception_permissions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exceptionPermissions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exceptionPermissions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     exception_principals: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exceptionPrincipals),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exceptionPrincipals),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -335,14 +335,14 @@ export function googleIamDenyPolicyRulesDenyRuleToHclTerraform(struct?: GoogleIa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamDenyPolicyRulesDenyRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleIamDenyPolicyRulesDenyRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -486,26 +486,26 @@ export interface GoogleIamDenyPolicyRules {
   readonly denyRule?: GoogleIamDenyPolicyRulesDenyRule;
 }
 
-export function googleIamDenyPolicyRulesToTerraform(struct?: GoogleIamDenyPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamDenyPolicyRulesToTerraform(struct?: GoogleIamDenyPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
+    description: cdktn.stringToTerraform(struct!.description),
     deny_rule: googleIamDenyPolicyRulesDenyRuleToTerraform(struct!.denyRule),
   }
 }
 
 
-export function googleIamDenyPolicyRulesToHclTerraform(struct?: GoogleIamDenyPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamDenyPolicyRulesToHclTerraform(struct?: GoogleIamDenyPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -522,9 +522,9 @@ export function googleIamDenyPolicyRulesToHclTerraform(struct?: GoogleIamDenyPol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamDenyPolicyRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleIamDenyPolicyRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -532,11 +532,11 @@ export class GoogleIamDenyPolicyRulesOutputReference extends cdktf.ComplexObject
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleIamDenyPolicyRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamDenyPolicyRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -553,14 +553,14 @@ export class GoogleIamDenyPolicyRulesOutputReference extends cdktf.ComplexObject
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamDenyPolicyRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamDenyPolicyRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._description = undefined;
       this._denyRule.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -605,15 +605,15 @@ export class GoogleIamDenyPolicyRulesOutputReference extends cdktf.ComplexObject
   }
 }
 
-export class GoogleIamDenyPolicyRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleIamDenyPolicyRules[] | cdktf.IResolvable
+export class GoogleIamDenyPolicyRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIamDenyPolicyRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -639,39 +639,39 @@ export interface GoogleIamDenyPolicyTimeouts {
   readonly update?: string;
 }
 
-export function googleIamDenyPolicyTimeoutsToTerraform(struct?: GoogleIamDenyPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamDenyPolicyTimeoutsToTerraform(struct?: GoogleIamDenyPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIamDenyPolicyTimeoutsToHclTerraform(struct?: GoogleIamDenyPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamDenyPolicyTimeoutsToHclTerraform(struct?: GoogleIamDenyPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -682,19 +682,19 @@ export function googleIamDenyPolicyTimeoutsToHclTerraform(struct?: GoogleIamDeny
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamDenyPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIamDenyPolicyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIamDenyPolicyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamDenyPolicyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -715,7 +715,7 @@ export class GoogleIamDenyPolicyTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamDenyPolicyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamDenyPolicyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -723,7 +723,7 @@ export class GoogleIamDenyPolicyTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -788,7 +788,7 @@ export class GoogleIamDenyPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_deny_policy google_iam_deny_policy}
 */
-export class GoogleIamDenyPolicy extends cdktf.TerraformResource {
+export class GoogleIamDenyPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -799,14 +799,14 @@ export class GoogleIamDenyPolicy extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIamDenyPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIamDenyPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamDenyPolicy to import
   * @param importFromId The id of the existing GoogleIamDenyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_deny_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamDenyPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_deny_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_deny_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -916,7 +916,7 @@ export class GoogleIamDenyPolicy extends cdktf.TerraformResource {
   public get rules() {
     return this._rules;
   }
-  public putRules(value: GoogleIamDenyPolicyRules[] | cdktf.IResolvable) {
+  public putRules(value: GoogleIamDenyPolicyRules[] | cdktn.IResolvable) {
     this._rules.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -946,11 +946,11 @@ export class GoogleIamDenyPolicy extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      parent: cdktf.stringToTerraform(this._parent),
-      rules: cdktf.listMapper(googleIamDenyPolicyRulesToTerraform, true)(this._rules.internalValue),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      parent: cdktn.stringToTerraform(this._parent),
+      rules: cdktn.listMapper(googleIamDenyPolicyRulesToTerraform, true)(this._rules.internalValue),
       timeouts: googleIamDenyPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -958,31 +958,31 @@ export class GoogleIamDenyPolicy extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent: {
-        value: cdktf.stringToHclTerraform(this._parent),
+        value: cdktn.stringToHclTerraform(this._parent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rules: {
-        value: cdktf.listMapperHcl(googleIamDenyPolicyRulesToHclTerraform, true)(this._rules.internalValue),
+        value: cdktn.listMapperHcl(googleIamDenyPolicyRulesToHclTerraform, true)(this._rules.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleIamDenyPolicyRulesList",

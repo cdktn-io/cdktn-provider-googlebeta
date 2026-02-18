@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDatastreamStreamConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDatastreamStreamConfig extends cdktn.TerraformMetaArguments {
   /**
   * Create the stream without validating it.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#create_without_validation GoogleDatastreamStream#create_without_validation}
   */
-  readonly createWithoutValidation?: boolean | cdktf.IResolvable;
+  readonly createWithoutValidation?: boolean | cdktn.IResolvable;
   /**
   * A reference to a KMS encryption key. If provided, it will be used to encrypt the data. If left blank, data
   * will be encrypted using an internal Stream-specific encryption key provisioned through KMS.
@@ -128,7 +128,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -140,63 +140,63 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    collation: cdktf.stringToTerraform(struct!.collation),
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    collation: cdktn.stringToTerraform(struct!.collation),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     collation: {
-      value: cdktf.stringToHclTerraform(struct!.collation),
+      value: cdktn.stringToHclTerraform(struct!.collation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -207,9 +207,9 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -217,11 +217,11 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -254,7 +254,7 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -265,7 +265,7 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -335,11 +335,11 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -367,11 +367,11 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -383,15 +383,15 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -414,35 +414,35 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
-  readonly mysqlColumns?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable;
+  readonly mysqlColumns?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    mysql_columns: cdktf.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    mysql_columns: cdktn.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsList",
@@ -453,9 +453,9 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -463,11 +463,11 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -484,14 +484,14 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._mysqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -521,7 +521,7 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   public get mysqlColumns() {
     return this._mysqlColumns;
   }
-  public putMysqlColumns(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable) {
+  public putMysqlColumns(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable) {
     this._mysqlColumns.internalValue = value;
   }
   public resetMysqlColumns() {
@@ -533,15 +533,15 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -564,35 +564,35 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
-  readonly mysqlTables?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable;
+  readonly mysqlTables?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    database: cdktf.stringToTerraform(struct!.database),
-    mysql_tables: cdktf.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
+    database: cdktn.stringToTerraform(struct!.database),
+    mysql_tables: cdktn.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     database: {
-      value: cdktf.stringToHclTerraform(struct!.database),
+      value: cdktn.stringToHclTerraform(struct!.database),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesList",
@@ -603,9 +603,9 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -613,11 +613,11 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -634,14 +634,14 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._database = undefined;
       this._mysqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -671,7 +671,7 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   public get mysqlTables() {
     return this._mysqlTables;
   }
-  public putMysqlTables(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable) {
+  public putMysqlTables(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable) {
     this._mysqlTables.internalValue = value;
   }
   public resetMysqlTables() {
@@ -683,15 +683,15 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -708,28 +708,28 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjects {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
-  readonly mysqlDatabases: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktf.IResolvable;
+  readonly mysqlDatabases: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMysqlExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mysql_databases: cdktf.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
+    mysql_databases: cdktn.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
   }
 }
 
 
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMysqlExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mysql_databases: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesList",
@@ -740,14 +740,14 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -777,7 +777,7 @@ export class GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReferenc
   public get mysqlDatabases() {
     return this._mysqlDatabases;
   }
-  public putMysqlDatabases(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktf.IResolvable) {
+  public putMysqlDatabases(value: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktn.IResolvable) {
     this._mysqlDatabases.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -801,32 +801,32 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -837,9 +837,9 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -847,11 +847,11 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -868,14 +868,14 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -955,15 +955,15 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -986,35 +986,35 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
-  readonly oracleColumns?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable;
+  readonly oracleColumns?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    oracle_columns: cdktf.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    oracle_columns: cdktn.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsList",
@@ -1025,9 +1025,9 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1035,11 +1035,11 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1056,14 +1056,14 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._oracleColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1093,7 +1093,7 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   public get oracleColumns() {
     return this._oracleColumns;
   }
-  public putOracleColumns(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable) {
+  public putOracleColumns(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable) {
     this._oracleColumns.internalValue = value;
   }
   public resetOracleColumns() {
@@ -1105,15 +1105,15 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1136,35 +1136,35 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
-  readonly oracleTables?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktf.IResolvable;
+  readonly oracleTables?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    oracle_tables: cdktf.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    oracle_tables: cdktn.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesList",
@@ -1175,9 +1175,9 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1185,11 +1185,11 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1206,14 +1206,14 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._oracleTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1243,7 +1243,7 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   public get oracleTables() {
     return this._oracleTables;
   }
-  public putOracleTables(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktf.IResolvable) {
+  public putOracleTables(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktn.IResolvable) {
     this._oracleTables.internalValue = value;
   }
   public resetOracleTables() {
@@ -1255,15 +1255,15 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1280,28 +1280,28 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjects {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
-  readonly oracleSchemas: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktf.IResolvable;
+  readonly oracleSchemas: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllOracleExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    oracle_schemas: cdktf.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
+    oracle_schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
   }
 }
 
 
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllOracleExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     oracle_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList",
@@ -1312,14 +1312,14 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1349,7 +1349,7 @@ export class GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReferen
   public get oracleSchemas() {
     return this._oracleSchemas;
   }
-  public putOracleSchemas(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktf.IResolvable) {
+  public putOracleSchemas(value: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktn.IResolvable) {
     this._oracleSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1376,7 +1376,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -1388,56 +1388,56 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1448,9 +1448,9 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1458,11 +1458,11 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1491,7 +1491,7 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1501,7 +1501,7 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1554,11 +1554,11 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -1591,11 +1591,11 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -1612,15 +1612,15 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1643,35 +1643,35 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
-  readonly postgresqlColumns?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable;
+  readonly postgresqlColumns?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    postgresql_columns: cdktf.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    postgresql_columns: cdktn.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList",
@@ -1682,9 +1682,9 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1692,11 +1692,11 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1713,14 +1713,14 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._postgresqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1750,7 +1750,7 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   public get postgresqlColumns() {
     return this._postgresqlColumns;
   }
-  public putPostgresqlColumns(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable) {
+  public putPostgresqlColumns(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable) {
     this._postgresqlColumns.internalValue = value;
   }
   public resetPostgresqlColumns() {
@@ -1762,15 +1762,15 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1793,35 +1793,35 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
-  readonly postgresqlTables?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable;
+  readonly postgresqlTables?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    postgresql_tables: cdktf.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    postgresql_tables: cdktn.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesList",
@@ -1832,9 +1832,9 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1842,11 +1842,11 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1863,14 +1863,14 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._postgresqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1900,7 +1900,7 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   public get postgresqlTables() {
     return this._postgresqlTables;
   }
-  public putPostgresqlTables(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable) {
+  public putPostgresqlTables(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable) {
     this._postgresqlTables.internalValue = value;
   }
   public resetPostgresqlTables() {
@@ -1912,15 +1912,15 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresq
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1937,28 +1937,28 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
-  readonly postgresqlSchemas: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktf.IResolvable;
+  readonly postgresqlSchemas: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    postgresql_schemas: cdktf.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
+    postgresql_schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
   }
 }
 
 
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     postgresql_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasList",
@@ -1969,14 +1969,14 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2006,7 +2006,7 @@ export class GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputRef
   public get postgresqlSchemas() {
     return this._postgresqlSchemas;
   }
-  public putPostgresqlSchemas(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktf.IResolvable) {
+  public putPostgresqlSchemas(value: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktn.IResolvable) {
     this._postgresqlSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2023,25 +2023,25 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
   readonly name?: string;
 }
 
-export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2052,9 +2052,9 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2062,11 +2062,11 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFi
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2079,13 +2079,13 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2113,15 +2113,15 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFi
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2144,35 +2144,35 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
-  readonly fields?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktf.IResolvable;
+  readonly fields?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_name: cdktf.stringToTerraform(struct!.objectName),
-    fields: cdktf.listMapper(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToTerraform, true)(struct!.fields),
+    object_name: cdktn.stringToTerraform(struct!.objectName),
+    fields: cdktn.listMapper(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToTerraform, true)(struct!.fields),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_name: {
-      value: cdktf.stringToHclTerraform(struct!.objectName),
+      value: cdktn.stringToHclTerraform(struct!.objectName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fields: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsList",
@@ -2183,9 +2183,9 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2193,11 +2193,11 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2214,14 +2214,14 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectName = undefined;
       this._fields.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2254,7 +2254,7 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOu
   public get fields() {
     return this._fields;
   }
-  public putFields(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktf.IResolvable) {
+  public putFields(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktn.IResolvable) {
     this._fields.internalValue = value;
   }
   public resetFields() {
@@ -2266,15 +2266,15 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsOu
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2291,28 +2291,28 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
-  readonly objects: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktf.IResolvable;
+  readonly objects: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    objects: cdktf.listMapper(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform, true)(struct!.objects),
+    objects: cdktn.listMapper(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform, true)(struct!.objects),
   }
 }
 
 
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     objects: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToHclTerraform, true)(struct!.objects),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToHclTerraform, true)(struct!.objects),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList",
@@ -2323,14 +2323,14 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2360,7 +2360,7 @@ export class GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputRef
   public get objects() {
     return this._objects;
   }
-  public putObjects(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktf.IResolvable) {
+  public putObjects(value: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktn.IResolvable) {
     this._objects.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2384,32 +2384,32 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2420,9 +2420,9 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2430,11 +2430,11 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2451,14 +2451,14 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2533,15 +2533,15 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2564,35 +2564,35 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
-  readonly columns?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktf.IResolvable;
+  readonly columns?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    columns: cdktf.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
+    table: cdktn.stringToTerraform(struct!.table),
+    columns: cdktn.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsList",
@@ -2603,9 +2603,9 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2613,11 +2613,11 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2634,14 +2634,14 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._columns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2671,7 +2671,7 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
   public get columns() {
     return this._columns;
   }
-  public putColumns(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktf.IResolvable) {
+  public putColumns(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktn.IResolvable) {
     this._columns.internalValue = value;
   }
   public resetColumns() {
@@ -2683,15 +2683,15 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTab
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2714,35 +2714,35 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
-  readonly tables?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktf.IResolvable;
+  readonly tables?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    tables: cdktf.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToTerraform, true)(struct!.tables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    tables: cdktn.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToTerraform, true)(struct!.tables),
   }
 }
 
 
-export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesList",
@@ -2753,9 +2753,9 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2763,11 +2763,11 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOut
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2784,14 +2784,14 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOut
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._tables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2821,7 +2821,7 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOut
   public get tables() {
     return this._tables;
   }
-  public putTables(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktf.IResolvable) {
+  public putTables(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktn.IResolvable) {
     this._tables.internalValue = value;
   }
   public resetTables() {
@@ -2833,15 +2833,15 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasOut
   }
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2858,28 +2858,28 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
-  readonly schemas: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktf.IResolvable;
+  readonly schemas: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schemas: cdktf.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform, true)(struct!.schemas),
+    schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform, true)(struct!.schemas),
   }
 }
 
 
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToHclTerraform, true)(struct!.schemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToHclTerraform, true)(struct!.schemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasList",
@@ -2890,14 +2890,14 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2927,7 +2927,7 @@ export class GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputRefe
   public get schemas() {
     return this._schemas;
   }
-  public putSchemas(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktf.IResolvable) {
+  public putSchemas(value: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktn.IResolvable) {
     this._schemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2969,8 +2969,8 @@ export interface GoogleDatastreamStreamBackfillAll {
 }
 
 export function googleDatastreamStreamBackfillAllToTerraform(struct?: GoogleDatastreamStreamBackfillAllOutputReference | GoogleDatastreamStreamBackfillAll): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2984,8 +2984,8 @@ export function googleDatastreamStreamBackfillAllToTerraform(struct?: GoogleData
 
 
 export function googleDatastreamStreamBackfillAllToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOutputReference | GoogleDatastreamStreamBackfillAll): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3025,14 +3025,14 @@ export function googleDatastreamStreamBackfillAllToHclTerraform(struct?: GoogleD
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamBackfillAllOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillAllOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3165,8 +3165,8 @@ export interface GoogleDatastreamStreamBackfillNone {
 }
 
 export function googleDatastreamStreamBackfillNoneToTerraform(struct?: GoogleDatastreamStreamBackfillNoneOutputReference | GoogleDatastreamStreamBackfillNone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3175,8 +3175,8 @@ export function googleDatastreamStreamBackfillNoneToTerraform(struct?: GoogleDat
 
 
 export function googleDatastreamStreamBackfillNoneToHclTerraform(struct?: GoogleDatastreamStreamBackfillNoneOutputReference | GoogleDatastreamStreamBackfillNone): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3184,14 +3184,14 @@ export function googleDatastreamStreamBackfillNoneToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleDatastreamStreamBackfillNoneOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamBackfillNoneOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3214,8 +3214,8 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3224,8 +3224,8 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3233,14 +3233,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return attrs;
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3293,52 +3293,52 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket: cdktf.stringToTerraform(struct!.bucket),
-    connection_name: cdktf.stringToTerraform(struct!.connectionName),
-    file_format: cdktf.stringToTerraform(struct!.fileFormat),
-    root_path: cdktf.stringToTerraform(struct!.rootPath),
-    table_format: cdktf.stringToTerraform(struct!.tableFormat),
+    bucket: cdktn.stringToTerraform(struct!.bucket),
+    connection_name: cdktn.stringToTerraform(struct!.connectionName),
+    file_format: cdktn.stringToTerraform(struct!.fileFormat),
+    root_path: cdktn.stringToTerraform(struct!.rootPath),
+    table_format: cdktn.stringToTerraform(struct!.tableFormat),
   }
 }
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket: {
-      value: cdktf.stringToHclTerraform(struct!.bucket),
+      value: cdktn.stringToHclTerraform(struct!.bucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     connection_name: {
-      value: cdktf.stringToHclTerraform(struct!.connectionName),
+      value: cdktn.stringToHclTerraform(struct!.connectionName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     file_format: {
-      value: cdktf.stringToHclTerraform(struct!.fileFormat),
+      value: cdktn.stringToHclTerraform(struct!.fileFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     root_path: {
-      value: cdktf.stringToHclTerraform(struct!.rootPath),
+      value: cdktn.stringToHclTerraform(struct!.rootPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_format: {
-      value: cdktf.stringToHclTerraform(struct!.tableFormat),
+      value: cdktn.stringToHclTerraform(struct!.tableFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3349,14 +3349,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3477,8 +3477,8 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3487,8 +3487,8 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3496,14 +3496,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return attrs;
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3533,24 +3533,24 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
   }
 }
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3561,14 +3561,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3633,38 +3633,38 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id_prefix: cdktf.stringToTerraform(struct!.datasetIdPrefix),
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
-    location: cdktf.stringToTerraform(struct!.location),
+    dataset_id_prefix: cdktn.stringToTerraform(struct!.datasetIdPrefix),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
+    location: cdktn.stringToTerraform(struct!.location),
   }
 }
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.datasetIdPrefix),
+      value: cdktn.stringToHclTerraform(struct!.datasetIdPrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3675,14 +3675,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3774,8 +3774,8 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3785,8 +3785,8 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3802,14 +3802,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3890,12 +3890,12 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 }
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    data_freshness: cdktf.stringToTerraform(struct!.dataFreshness),
+    data_freshness: cdktn.stringToTerraform(struct!.dataFreshness),
     append_only: googleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyToTerraform(struct!.appendOnly),
     blmt_config: googleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigToTerraform(struct!.blmtConfig),
     merge: googleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeToTerraform(struct!.merge),
@@ -3906,13 +3906,13 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 
 
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     data_freshness: {
-      value: cdktf.stringToHclTerraform(struct!.dataFreshness),
+      value: cdktn.stringToHclTerraform(struct!.dataFreshness),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3953,14 +3953,14 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4115,8 +4115,8 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvro
 }
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4125,8 +4125,8 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroF
 
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4134,14 +4134,14 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroF
   return attrs;
 }
 
-export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4176,31 +4176,31 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJson
 }
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    compression: cdktf.stringToTerraform(struct!.compression),
-    schema_file_format: cdktf.stringToTerraform(struct!.schemaFileFormat),
+    compression: cdktn.stringToTerraform(struct!.compression),
+    schema_file_format: cdktn.stringToTerraform(struct!.schemaFileFormat),
   }
 }
 
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     compression: {
-      value: cdktf.stringToHclTerraform(struct!.compression),
+      value: cdktn.stringToHclTerraform(struct!.compression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema_file_format: {
-      value: cdktf.stringToHclTerraform(struct!.schemaFileFormat),
+      value: cdktn.stringToHclTerraform(struct!.schemaFileFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4211,14 +4211,14 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonF
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4316,14 +4316,14 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfig {
 }
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    file_rotation_interval: cdktf.stringToTerraform(struct!.fileRotationInterval),
-    file_rotation_mb: cdktf.numberToTerraform(struct!.fileRotationMb),
-    path: cdktf.stringToTerraform(struct!.path),
+    file_rotation_interval: cdktn.stringToTerraform(struct!.fileRotationInterval),
+    file_rotation_mb: cdktn.numberToTerraform(struct!.fileRotationMb),
+    path: cdktn.stringToTerraform(struct!.path),
     avro_file_format: googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatToTerraform(struct!.avroFileFormat),
     json_file_format: googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatToTerraform(struct!.jsonFileFormat),
   }
@@ -4331,25 +4331,25 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToTer
 
 
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     file_rotation_interval: {
-      value: cdktf.stringToHclTerraform(struct!.fileRotationInterval),
+      value: cdktn.stringToHclTerraform(struct!.fileRotationInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     file_rotation_mb: {
-      value: cdktf.numberToHclTerraform(struct!.fileRotationMb),
+      value: cdktn.numberToHclTerraform(struct!.fileRotationMb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4372,14 +4372,14 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4530,12 +4530,12 @@ export interface GoogleDatastreamStreamDestinationConfig {
 }
 
 export function googleDatastreamStreamDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    destination_connection_profile: cdktf.stringToTerraform(struct!.destinationConnectionProfile),
+    destination_connection_profile: cdktn.stringToTerraform(struct!.destinationConnectionProfile),
     bigquery_destination_config: googleDatastreamStreamDestinationConfigBigqueryDestinationConfigToTerraform(struct!.bigqueryDestinationConfig),
     gcs_destination_config: googleDatastreamStreamDestinationConfigGcsDestinationConfigToTerraform(struct!.gcsDestinationConfig),
   }
@@ -4543,13 +4543,13 @@ export function googleDatastreamStreamDestinationConfigToTerraform(struct?: Goog
 
 
 export function googleDatastreamStreamDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     destination_connection_profile: {
-      value: cdktf.stringToHclTerraform(struct!.destinationConnectionProfile),
+      value: cdktn.stringToHclTerraform(struct!.destinationConnectionProfile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4572,14 +4572,14 @@ export function googleDatastreamStreamDestinationConfigToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamDestinationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamDestinationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4665,8 +4665,8 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPos
 }
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4675,8 +4675,8 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosi
 
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4684,14 +4684,14 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosi
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4735,7 +4735,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -4747,63 +4747,63 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    collation: cdktf.stringToTerraform(struct!.collation),
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    collation: cdktn.stringToTerraform(struct!.collation),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     collation: {
-      value: cdktf.stringToHclTerraform(struct!.collation),
+      value: cdktn.stringToHclTerraform(struct!.collation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4814,9 +4814,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4824,11 +4824,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4861,7 +4861,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4872,7 +4872,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4942,11 +4942,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -4974,11 +4974,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -4990,15 +4990,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5021,35 +5021,35 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
-  readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable;
+  readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    mysql_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    mysql_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList",
@@ -5060,9 +5060,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5070,11 +5070,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5091,14 +5091,14 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._mysqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5128,7 +5128,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   public get mysqlColumns() {
     return this._mysqlColumns;
   }
-  public putMysqlColumns(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable) {
+  public putMysqlColumns(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable) {
     this._mysqlColumns.internalValue = value;
   }
   public resetMysqlColumns() {
@@ -5140,15 +5140,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5171,35 +5171,35 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
-  readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable;
+  readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    database: cdktf.stringToTerraform(struct!.database),
-    mysql_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
+    database: cdktn.stringToTerraform(struct!.database),
+    mysql_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     database: {
-      value: cdktf.stringToHclTerraform(struct!.database),
+      value: cdktn.stringToHclTerraform(struct!.database),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesList",
@@ -5210,9 +5210,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5220,11 +5220,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5241,14 +5241,14 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._database = undefined;
       this._mysqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5278,7 +5278,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   public get mysqlTables() {
     return this._mysqlTables;
   }
-  public putMysqlTables(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable) {
+  public putMysqlTables(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable) {
     this._mysqlTables.internalValue = value;
   }
   public resetMysqlTables() {
@@ -5290,15 +5290,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5315,28 +5315,28 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
-  readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktf.IResolvable;
+  readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mysql_databases: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
+    mysql_databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mysql_databases: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesList",
@@ -5347,14 +5347,14 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5384,7 +5384,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOu
   public get mysqlDatabases() {
     return this._mysqlDatabases;
   }
-  public putMysqlDatabases(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktf.IResolvable) {
+  public putMysqlDatabases(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktn.IResolvable) {
     this._mysqlDatabases.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -5396,8 +5396,8 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid {
 }
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -5406,8 +5406,8 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToTerrafo
 
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -5415,14 +5415,14 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToHclTerr
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5466,7 +5466,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -5478,63 +5478,63 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    collation: cdktf.stringToTerraform(struct!.collation),
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    collation: cdktn.stringToTerraform(struct!.collation),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     collation: {
-      value: cdktf.stringToHclTerraform(struct!.collation),
+      value: cdktn.stringToHclTerraform(struct!.collation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5545,9 +5545,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5555,11 +5555,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5592,7 +5592,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -5603,7 +5603,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5673,11 +5673,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -5705,11 +5705,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -5721,15 +5721,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5752,35 +5752,35 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
-  readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable;
+  readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    mysql_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    mysql_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform, true)(struct!.mysqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform, true)(struct!.mysqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsList",
@@ -5791,9 +5791,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5801,11 +5801,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5822,14 +5822,14 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._mysqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5859,7 +5859,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   public get mysqlColumns() {
     return this._mysqlColumns;
   }
-  public putMysqlColumns(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktf.IResolvable) {
+  public putMysqlColumns(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable) {
     this._mysqlColumns.internalValue = value;
   }
   public resetMysqlColumns() {
@@ -5871,15 +5871,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5902,35 +5902,35 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
-  readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable;
+  readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    database: cdktf.stringToTerraform(struct!.database),
-    mysql_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
+    database: cdktn.stringToTerraform(struct!.database),
+    mysql_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToTerraform, true)(struct!.mysqlTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     database: {
-      value: cdktf.stringToHclTerraform(struct!.database),
+      value: cdktn.stringToHclTerraform(struct!.database),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mysql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToHclTerraform, true)(struct!.mysqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesList",
@@ -5941,9 +5941,9 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5951,11 +5951,11 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -5972,14 +5972,14 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._database = undefined;
       this._mysqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6009,7 +6009,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   public get mysqlTables() {
     return this._mysqlTables;
   }
-  public putMysqlTables(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktf.IResolvable) {
+  public putMysqlTables(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable) {
     this._mysqlTables.internalValue = value;
   }
   public resetMysqlTables() {
@@ -6021,15 +6021,15 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMy
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6046,28 +6046,28 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
-  readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktf.IResolvable;
+  readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mysql_databases: cdktf.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
+    mysql_databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mysql_databases: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToHclTerraform, true)(struct!.mysqlDatabases),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesList",
@@ -6078,14 +6078,14 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6115,7 +6115,7 @@ export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOu
   public get mysqlDatabases() {
     return this._mysqlDatabases;
   }
-  public putMysqlDatabases(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktf.IResolvable) {
+  public putMysqlDatabases(value: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktn.IResolvable) {
     this._mysqlDatabases.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -6165,13 +6165,13 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_concurrent_backfill_tasks: cdktf.numberToTerraform(struct!.maxConcurrentBackfillTasks),
-    max_concurrent_cdc_tasks: cdktf.numberToTerraform(struct!.maxConcurrentCdcTasks),
+    max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
+    max_concurrent_cdc_tasks: cdktn.numberToTerraform(struct!.maxConcurrentCdcTasks),
     binary_log_position: googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionToTerraform(struct!.binaryLogPosition),
     exclude_objects: googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsToTerraform(struct!.excludeObjects),
     gtid: googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToTerraform(struct!.gtid),
@@ -6181,19 +6181,19 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigToTerraform(s
 
 
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_concurrent_cdc_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -6228,14 +6228,14 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6390,8 +6390,8 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeOb
 }
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -6400,8 +6400,8 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObj
 
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -6409,14 +6409,14 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObj
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6451,32 +6451,32 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6487,9 +6487,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6497,11 +6497,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6518,14 +6518,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6605,15 +6605,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6636,35 +6636,35 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
-  readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable;
+  readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    oracle_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    oracle_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsList",
@@ -6675,9 +6675,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6685,11 +6685,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6706,14 +6706,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._oracleColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6743,7 +6743,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   public get oracleColumns() {
     return this._oracleColumns;
   }
-  public putOracleColumns(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable) {
+  public putOracleColumns(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable) {
     this._oracleColumns.internalValue = value;
   }
   public resetOracleColumns() {
@@ -6755,15 +6755,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6786,35 +6786,35 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
-  readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable;
+  readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    oracle_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    oracle_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesList",
@@ -6825,9 +6825,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6835,11 +6835,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6856,14 +6856,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._oracleTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6893,7 +6893,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   public get oracleTables() {
     return this._oracleTables;
   }
-  public putOracleTables(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable) {
+  public putOracleTables(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable) {
     this._oracleTables.internalValue = value;
   }
   public resetOracleTables() {
@@ -6905,15 +6905,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6930,28 +6930,28 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
-  readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktf.IResolvable;
+  readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    oracle_schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
+    oracle_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     oracle_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasList",
@@ -6962,14 +6962,14 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6999,7 +6999,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsO
   public get oracleSchemas() {
     return this._oracleSchemas;
   }
-  public putOracleSchemas(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktf.IResolvable) {
+  public putOracleSchemas(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktn.IResolvable) {
     this._oracleSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7023,32 +7023,32 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -7059,9 +7059,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7069,11 +7069,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7090,14 +7090,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7177,15 +7177,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7208,35 +7208,35 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
-  readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable;
+  readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    oracle_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    oracle_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform, true)(struct!.oracleColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform, true)(struct!.oracleColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsList",
@@ -7247,9 +7247,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7257,11 +7257,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7278,14 +7278,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._oracleColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7315,7 +7315,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   public get oracleColumns() {
     return this._oracleColumns;
   }
-  public putOracleColumns(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktf.IResolvable) {
+  public putOracleColumns(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable) {
     this._oracleColumns.internalValue = value;
   }
   public resetOracleColumns() {
@@ -7327,15 +7327,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7358,35 +7358,35 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
-  readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable;
+  readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    oracle_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    oracle_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToTerraform, true)(struct!.oracleTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     oracle_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToHclTerraform, true)(struct!.oracleTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesList",
@@ -7397,9 +7397,9 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7407,11 +7407,11 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7428,14 +7428,14 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._oracleTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7465,7 +7465,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   public get oracleTables() {
     return this._oracleTables;
   }
-  public putOracleTables(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktf.IResolvable) {
+  public putOracleTables(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable) {
     this._oracleTables.internalValue = value;
   }
   public resetOracleTables() {
@@ -7477,15 +7477,15 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7502,28 +7502,28 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
-  readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktf.IResolvable;
+  readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    oracle_schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
+    oracle_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     oracle_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToHclTerraform, true)(struct!.oracleSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasList",
@@ -7534,14 +7534,14 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7571,7 +7571,7 @@ export class GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsO
   public get oracleSchemas() {
     return this._oracleSchemas;
   }
-  public putOracleSchemas(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktf.IResolvable) {
+  public putOracleSchemas(value: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktn.IResolvable) {
     this._oracleSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7583,8 +7583,8 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLarge
 }
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -7593,8 +7593,8 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeO
 
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -7602,14 +7602,14 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeO
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7670,13 +7670,13 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_concurrent_backfill_tasks: cdktf.numberToTerraform(struct!.maxConcurrentBackfillTasks),
-    max_concurrent_cdc_tasks: cdktf.numberToTerraform(struct!.maxConcurrentCdcTasks),
+    max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
+    max_concurrent_cdc_tasks: cdktn.numberToTerraform(struct!.maxConcurrentCdcTasks),
     drop_large_objects: googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsToTerraform(struct!.dropLargeObjects),
     exclude_objects: googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsToTerraform(struct!.excludeObjects),
     include_objects: googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsToTerraform(struct!.includeObjects),
@@ -7686,19 +7686,19 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigToTerraform(
 
 
 export function googleDatastreamStreamSourceConfigOracleSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_concurrent_cdc_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -7733,14 +7733,14 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7910,7 +7910,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -7922,56 +7922,56 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7982,9 +7982,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7992,11 +7992,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8025,7 +8025,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -8035,7 +8035,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8088,11 +8088,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -8125,11 +8125,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -8146,15 +8146,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8177,35 +8177,35 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
-  readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable;
+  readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    postgresql_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    postgresql_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList",
@@ -8216,9 +8216,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8226,11 +8226,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8247,14 +8247,14 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._postgresqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8284,7 +8284,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   public get postgresqlColumns() {
     return this._postgresqlColumns;
   }
-  public putPostgresqlColumns(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable) {
+  public putPostgresqlColumns(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable) {
     this._postgresqlColumns.internalValue = value;
   }
   public resetPostgresqlColumns() {
@@ -8296,15 +8296,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8327,35 +8327,35 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
-  readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable;
+  readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    postgresql_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    postgresql_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesList",
@@ -8366,9 +8366,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8376,11 +8376,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8397,14 +8397,14 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._postgresqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8434,7 +8434,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   public get postgresqlTables() {
     return this._postgresqlTables;
   }
-  public putPostgresqlTables(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable) {
+  public putPostgresqlTables(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable) {
     this._postgresqlTables.internalValue = value;
   }
   public resetPostgresqlTables() {
@@ -8446,15 +8446,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8471,28 +8471,28 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
-  readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktf.IResolvable;
+  readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    postgresql_schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
+    postgresql_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     postgresql_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasList",
@@ -8503,14 +8503,14 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8540,7 +8540,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObje
   public get postgresqlSchemas() {
     return this._postgresqlSchemas;
   }
-  public putPostgresqlSchemas(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktf.IResolvable) {
+  public putPostgresqlSchemas(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktn.IResolvable) {
     this._postgresqlSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -8567,7 +8567,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
-  readonly nullable?: boolean | cdktf.IResolvable;
+  readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
@@ -8579,56 +8579,56 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
-  readonly primaryKey?: boolean | cdktf.IResolvable;
+  readonly primaryKey?: boolean | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
-    nullable: cdktf.booleanToTerraform(struct!.nullable),
-    ordinal_position: cdktf.numberToTerraform(struct!.ordinalPosition),
-    primary_key: cdktf.booleanToTerraform(struct!.primaryKey),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    ordinal_position: cdktn.numberToTerraform(struct!.ordinalPosition),
+    primary_key: cdktn.booleanToTerraform(struct!.primaryKey),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nullable: {
-      value: cdktf.booleanToHclTerraform(struct!.nullable),
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     ordinal_position: {
-      value: cdktf.numberToHclTerraform(struct!.ordinalPosition),
+      value: cdktn.numberToHclTerraform(struct!.ordinalPosition),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.primaryKey),
+      value: cdktn.booleanToHclTerraform(struct!.primaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -8639,9 +8639,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8649,11 +8649,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8682,7 +8682,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -8692,7 +8692,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
       this._ordinalPosition = undefined;
       this._primaryKey = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8745,11 +8745,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   }
 
   // nullable - computed: false, optional: true, required: false
-  private _nullable?: boolean | cdktf.IResolvable; 
+  private _nullable?: boolean | cdktn.IResolvable; 
   public get nullable() {
     return this.getBooleanAttribute('nullable');
   }
-  public set nullable(value: boolean | cdktf.IResolvable) {
+  public set nullable(value: boolean | cdktn.IResolvable) {
     this._nullable = value;
   }
   public resetNullable() {
@@ -8782,11 +8782,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   }
 
   // primary_key - computed: false, optional: true, required: false
-  private _primaryKey?: boolean | cdktf.IResolvable; 
+  private _primaryKey?: boolean | cdktn.IResolvable; 
   public get primaryKey() {
     return this.getBooleanAttribute('primary_key');
   }
-  public set primaryKey(value: boolean | cdktf.IResolvable) {
+  public set primaryKey(value: boolean | cdktn.IResolvable) {
     this._primaryKey = value;
   }
   public resetPrimaryKey() {
@@ -8803,15 +8803,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8834,35 +8834,35 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
-  readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable;
+  readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    postgresql_columns: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
+    table: cdktn.stringToTerraform(struct!.table),
+    postgresql_columns: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform, true)(struct!.postgresqlColumns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform, true)(struct!.postgresqlColumns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsList",
@@ -8873,9 +8873,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8883,11 +8883,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8904,14 +8904,14 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._postgresqlColumns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8941,7 +8941,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   public get postgresqlColumns() {
     return this._postgresqlColumns;
   }
-  public putPostgresqlColumns(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktf.IResolvable) {
+  public putPostgresqlColumns(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable) {
     this._postgresqlColumns.internalValue = value;
   }
   public resetPostgresqlColumns() {
@@ -8953,15 +8953,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8984,35 +8984,35 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
-  readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable;
+  readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    postgresql_tables: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    postgresql_tables: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform, true)(struct!.postgresqlTables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     postgresql_tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform, true)(struct!.postgresqlTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesList",
@@ -9023,9 +9023,9 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -9033,11 +9033,11 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -9054,14 +9054,14 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._postgresqlTables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -9091,7 +9091,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   public get postgresqlTables() {
     return this._postgresqlTables;
   }
-  public putPostgresqlTables(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktf.IResolvable) {
+  public putPostgresqlTables(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable) {
     this._postgresqlTables.internalValue = value;
   }
   public resetPostgresqlTables() {
@@ -9103,15 +9103,15 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -9128,28 +9128,28 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
-  readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktf.IResolvable;
+  readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    postgresql_schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
+    postgresql_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     postgresql_schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToHclTerraform, true)(struct!.postgresqlSchemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasList",
@@ -9160,14 +9160,14 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9197,7 +9197,7 @@ export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObje
   public get postgresqlSchemas() {
     return this._postgresqlSchemas;
   }
-  public putPostgresqlSchemas(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktf.IResolvable) {
+  public putPostgresqlSchemas(value: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktn.IResolvable) {
     this._postgresqlSchemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -9242,14 +9242,14 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_concurrent_backfill_tasks: cdktf.numberToTerraform(struct!.maxConcurrentBackfillTasks),
-    publication: cdktf.stringToTerraform(struct!.publication),
-    replication_slot: cdktf.stringToTerraform(struct!.replicationSlot),
+    max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
+    publication: cdktn.stringToTerraform(struct!.publication),
+    replication_slot: cdktn.stringToTerraform(struct!.replicationSlot),
     exclude_objects: googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsToTerraform(struct!.excludeObjects),
     include_objects: googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsToTerraform(struct!.includeObjects),
   }
@@ -9257,25 +9257,25 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToTerraf
 
 
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     publication: {
-      value: cdktf.stringToHclTerraform(struct!.publication),
+      value: cdktn.stringToHclTerraform(struct!.publication),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replication_slot: {
-      value: cdktf.stringToHclTerraform(struct!.replicationSlot),
+      value: cdktn.stringToHclTerraform(struct!.replicationSlot),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9298,14 +9298,14 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9437,25 +9437,25 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   readonly name?: string;
 }
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9466,9 +9466,9 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -9476,11 +9476,11 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -9493,13 +9493,13 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -9527,15 +9527,15 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -9558,35 +9558,35 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
-  readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktf.IResolvable;
+  readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_name: cdktf.stringToTerraform(struct!.objectName),
-    fields: cdktf.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToTerraform, true)(struct!.fields),
+    object_name: cdktn.stringToTerraform(struct!.objectName),
+    fields: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToTerraform, true)(struct!.fields),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_name: {
-      value: cdktf.stringToHclTerraform(struct!.objectName),
+      value: cdktn.stringToHclTerraform(struct!.objectName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fields: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsList",
@@ -9597,9 +9597,9 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -9607,11 +9607,11 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -9628,14 +9628,14 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectName = undefined;
       this._fields.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -9668,7 +9668,7 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   public get fields() {
     return this._fields;
   }
-  public putFields(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktf.IResolvable) {
+  public putFields(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktn.IResolvable) {
     this._fields.internalValue = value;
   }
   public resetFields() {
@@ -9680,15 +9680,15 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -9705,28 +9705,28 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
-  readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktf.IResolvable;
+  readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    objects: cdktf.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform, true)(struct!.objects),
+    objects: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform, true)(struct!.objects),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     objects: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToHclTerraform, true)(struct!.objects),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToHclTerraform, true)(struct!.objects),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsList",
@@ -9737,14 +9737,14 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9774,7 +9774,7 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObje
   public get objects() {
     return this._objects;
   }
-  public putObjects(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktf.IResolvable) {
+  public putObjects(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktn.IResolvable) {
     this._objects.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -9791,25 +9791,25 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   readonly name?: string;
 }
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9820,9 +9820,9 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -9830,11 +9830,11 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -9847,13 +9847,13 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -9881,15 +9881,15 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -9912,35 +9912,35 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
-  readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktf.IResolvable;
+  readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    object_name: cdktf.stringToTerraform(struct!.objectName),
-    fields: cdktf.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToTerraform, true)(struct!.fields),
+    object_name: cdktn.stringToTerraform(struct!.objectName),
+    fields: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToTerraform, true)(struct!.fields),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     object_name: {
-      value: cdktf.stringToHclTerraform(struct!.objectName),
+      value: cdktn.stringToHclTerraform(struct!.objectName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fields: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToHclTerraform, true)(struct!.fields),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsList",
@@ -9951,9 +9951,9 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -9961,11 +9961,11 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -9982,14 +9982,14 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._objectName = undefined;
       this._fields.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10022,7 +10022,7 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   public get fields() {
     return this._fields;
   }
-  public putFields(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktf.IResolvable) {
+  public putFields(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktn.IResolvable) {
     this._fields.internalValue = value;
   }
   public resetFields() {
@@ -10034,15 +10034,15 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10059,28 +10059,28 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
-  readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktf.IResolvable;
+  readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    objects: cdktf.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform, true)(struct!.objects),
+    objects: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform, true)(struct!.objects),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     objects: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToHclTerraform, true)(struct!.objects),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToHclTerraform, true)(struct!.objects),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsList",
@@ -10091,14 +10091,14 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10128,7 +10128,7 @@ export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObje
   public get objects() {
     return this._objects;
   }
-  public putObjects(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktf.IResolvable) {
+  public putObjects(value: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktn.IResolvable) {
     this._objects.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -10158,12 +10158,12 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    polling_interval: cdktf.stringToTerraform(struct!.pollingInterval),
+    polling_interval: cdktn.stringToTerraform(struct!.pollingInterval),
     exclude_objects: googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsToTerraform(struct!.excludeObjects),
     include_objects: googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsToTerraform(struct!.includeObjects),
   }
@@ -10171,13 +10171,13 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToTerraf
 
 
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     polling_interval: {
-      value: cdktf.stringToHclTerraform(struct!.pollingInterval),
+      value: cdktn.stringToHclTerraform(struct!.pollingInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -10200,14 +10200,14 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10293,8 +10293,8 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTa
 }
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -10303,8 +10303,8 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTab
 
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -10312,14 +10312,14 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTab
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10354,32 +10354,32 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -10390,9 +10390,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10400,11 +10400,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10421,14 +10421,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10503,15 +10503,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10534,35 +10534,35 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
-  readonly columns?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktf.IResolvable;
+  readonly columns?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    columns: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
+    table: cdktn.stringToTerraform(struct!.table),
+    columns: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsList",
@@ -10573,9 +10573,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10583,11 +10583,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10604,14 +10604,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._columns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10641,7 +10641,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   public get columns() {
     return this._columns;
   }
-  public putColumns(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktf.IResolvable) {
+  public putColumns(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktn.IResolvable) {
     this._columns.internalValue = value;
   }
   public resetColumns() {
@@ -10653,15 +10653,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10684,35 +10684,35 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
-  readonly tables?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktf.IResolvable;
+  readonly tables?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    tables: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToTerraform, true)(struct!.tables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    tables: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToTerraform, true)(struct!.tables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesList",
@@ -10723,9 +10723,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10733,11 +10733,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10754,14 +10754,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._tables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10791,7 +10791,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   public get tables() {
     return this._tables;
   }
-  public putTables(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktf.IResolvable) {
+  public putTables(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTables[] | cdktn.IResolvable) {
     this._tables.internalValue = value;
   }
   public resetTables() {
@@ -10803,15 +10803,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10828,28 +10828,28 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
-  readonly schemas: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktf.IResolvable;
+  readonly schemas: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToTerraform, true)(struct!.schemas),
+    schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToTerraform, true)(struct!.schemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToHclTerraform, true)(struct!.schemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasToHclTerraform, true)(struct!.schemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasList",
@@ -10860,14 +10860,14 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10897,7 +10897,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjec
   public get schemas() {
     return this._schemas;
   }
-  public putSchemas(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktf.IResolvable) {
+  public putSchemas(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemas[] | cdktn.IResolvable) {
     this._schemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -10921,32 +10921,32 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeO
   readonly dataType?: string;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    column: cdktf.stringToTerraform(struct!.column),
-    data_type: cdktf.stringToTerraform(struct!.dataType),
+    column: cdktn.stringToTerraform(struct!.column),
+    data_type: cdktn.stringToTerraform(struct!.dataType),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     column: {
-      value: cdktf.stringToHclTerraform(struct!.column),
+      value: cdktn.stringToHclTerraform(struct!.column),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     data_type: {
-      value: cdktf.stringToHclTerraform(struct!.dataType),
+      value: cdktn.stringToHclTerraform(struct!.dataType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -10957,9 +10957,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10967,11 +10967,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10988,14 +10988,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._column = undefined;
       this._dataType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -11070,15 +11070,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -11101,35 +11101,35 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
-  readonly columns?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktf.IResolvable;
+  readonly columns?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table: cdktf.stringToTerraform(struct!.table),
-    columns: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
+    table: cdktn.stringToTerraform(struct!.table),
+    columns: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToTerraform, true)(struct!.columns),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table: {
-      value: cdktf.stringToHclTerraform(struct!.table),
+      value: cdktn.stringToHclTerraform(struct!.table),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     columns: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsToHclTerraform, true)(struct!.columns),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumnsList",
@@ -11140,9 +11140,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -11150,11 +11150,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -11171,14 +11171,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._table = undefined;
       this._columns.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -11208,7 +11208,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   public get columns() {
     return this._columns;
   }
-  public putColumns(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktf.IResolvable) {
+  public putColumns(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktn.IResolvable) {
     this._columns.internalValue = value;
   }
   public resetColumns() {
@@ -11220,15 +11220,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -11251,35 +11251,35 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
-  readonly tables?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktf.IResolvable;
+  readonly tables?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktn.IResolvable;
 }
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema: cdktf.stringToTerraform(struct!.schema),
-    tables: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToTerraform, true)(struct!.tables),
+    schema: cdktn.stringToTerraform(struct!.schema),
+    tables: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToTerraform, true)(struct!.tables),
   }
 }
 
 
-export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tables: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesToHclTerraform, true)(struct!.tables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTablesList",
@@ -11290,9 +11290,9 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -11300,11 +11300,11 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -11321,14 +11321,14 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._schema = undefined;
       this._tables.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -11358,7 +11358,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   public get tables() {
     return this._tables;
   }
-  public putTables(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktf.IResolvable) {
+  public putTables(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasTables[] | cdktn.IResolvable) {
     this._tables.internalValue = value;
   }
   public resetTables() {
@@ -11370,15 +11370,15 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   }
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktf.IResolvable
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -11395,28 +11395,28 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeO
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
-  readonly schemas: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktf.IResolvable;
+  readonly schemas: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktn.IResolvable;
 }
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schemas: cdktf.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToTerraform, true)(struct!.schemas),
+    schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToTerraform, true)(struct!.schemas),
   }
 }
 
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schemas: {
-      value: cdktf.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToHclTerraform, true)(struct!.schemas),
+      value: cdktn.listMapperHcl(googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasToHclTerraform, true)(struct!.schemas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemasList",
@@ -11427,14 +11427,14 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeOb
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11464,7 +11464,7 @@ export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjec
   public get schemas() {
     return this._schemas;
   }
-  public putSchemas(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktf.IResolvable) {
+  public putSchemas(value: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsSchemas[] | cdktn.IResolvable) {
     this._schemas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -11476,8 +11476,8 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransact
 }
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -11486,8 +11486,8 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigTransacti
 
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -11495,14 +11495,14 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigTransacti
   return attrs;
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11561,13 +11561,13 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_concurrent_backfill_tasks: cdktf.numberToTerraform(struct!.maxConcurrentBackfillTasks),
-    max_concurrent_cdc_tasks: cdktf.numberToTerraform(struct!.maxConcurrentCdcTasks),
+    max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
+    max_concurrent_cdc_tasks: cdktn.numberToTerraform(struct!.maxConcurrentCdcTasks),
     change_tables: googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesToTerraform(struct!.changeTables),
     exclude_objects: googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsToTerraform(struct!.excludeObjects),
     include_objects: googleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjectsToTerraform(struct!.includeObjects),
@@ -11577,19 +11577,19 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigToTerrafo
 
 
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentBackfillTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_concurrent_cdc_tasks: {
-      value: cdktf.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
+      value: cdktn.numberToHclTerraform(struct!.maxConcurrentCdcTasks),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -11624,14 +11624,14 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigSqlServerSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11822,12 +11822,12 @@ export interface GoogleDatastreamStreamSourceConfig {
 }
 
 export function googleDatastreamStreamSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigOutputReference | GoogleDatastreamStreamSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    source_connection_profile: cdktf.stringToTerraform(struct!.sourceConnectionProfile),
+    source_connection_profile: cdktn.stringToTerraform(struct!.sourceConnectionProfile),
     mysql_source_config: googleDatastreamStreamSourceConfigMysqlSourceConfigToTerraform(struct!.mysqlSourceConfig),
     oracle_source_config: googleDatastreamStreamSourceConfigOracleSourceConfigToTerraform(struct!.oracleSourceConfig),
     postgresql_source_config: googleDatastreamStreamSourceConfigPostgresqlSourceConfigToTerraform(struct!.postgresqlSourceConfig),
@@ -11838,13 +11838,13 @@ export function googleDatastreamStreamSourceConfigToTerraform(struct?: GoogleDat
 
 
 export function googleDatastreamStreamSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOutputReference | GoogleDatastreamStreamSourceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     source_connection_profile: {
-      value: cdktf.stringToHclTerraform(struct!.sourceConnectionProfile),
+      value: cdktn.stringToHclTerraform(struct!.sourceConnectionProfile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -11885,14 +11885,14 @@ export function googleDatastreamStreamSourceConfigToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamSourceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamSourceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -12055,39 +12055,39 @@ export interface GoogleDatastreamStreamTimeouts {
   readonly update?: string;
 }
 
-export function googleDatastreamStreamTimeoutsToTerraform(struct?: GoogleDatastreamStreamTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamTimeoutsToTerraform(struct?: GoogleDatastreamStreamTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDatastreamStreamTimeoutsToHclTerraform(struct?: GoogleDatastreamStreamTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDatastreamStreamTimeoutsToHclTerraform(struct?: GoogleDatastreamStreamTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12098,19 +12098,19 @@ export function googleDatastreamStreamTimeoutsToHclTerraform(struct?: GoogleData
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDatastreamStreamTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDatastreamStreamTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDatastreamStreamTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDatastreamStreamTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -12131,7 +12131,7 @@ export class GoogleDatastreamStreamTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDatastreamStreamTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDatastreamStreamTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -12139,7 +12139,7 @@ export class GoogleDatastreamStreamTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -12204,7 +12204,7 @@ export class GoogleDatastreamStreamTimeoutsOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream google_datastream_stream}
 */
-export class GoogleDatastreamStream extends cdktf.TerraformResource {
+export class GoogleDatastreamStream extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -12215,14 +12215,14 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDatastreamStream resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDatastreamStream resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDatastreamStream to import
   * @param importFromId The id of the existing GoogleDatastreamStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDatastreamStream to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_datastream_stream", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_datastream_stream", importId: importFromId, provider });
       }
 
   // ===========
@@ -12273,11 +12273,11 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
   // ==========
 
   // create_without_validation - computed: false, optional: true, required: false
-  private _createWithoutValidation?: boolean | cdktf.IResolvable; 
+  private _createWithoutValidation?: boolean | cdktn.IResolvable; 
   public get createWithoutValidation() {
     return this.getBooleanAttribute('create_without_validation');
   }
-  public set createWithoutValidation(value: boolean | cdktf.IResolvable) {
+  public set createWithoutValidation(value: boolean | cdktn.IResolvable) {
     this._createWithoutValidation = value;
   }
   public resetCreateWithoutValidation() {
@@ -12334,7 +12334,7 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -12424,7 +12424,7 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -12509,15 +12509,15 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      create_without_validation: cdktf.booleanToTerraform(this._createWithoutValidation),
-      customer_managed_encryption_key: cdktf.stringToTerraform(this._customerManagedEncryptionKey),
-      desired_state: cdktf.stringToTerraform(this._desiredState),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
-      stream_id: cdktf.stringToTerraform(this._streamId),
+      create_without_validation: cdktn.booleanToTerraform(this._createWithoutValidation),
+      customer_managed_encryption_key: cdktn.stringToTerraform(this._customerManagedEncryptionKey),
+      desired_state: cdktn.stringToTerraform(this._desiredState),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
+      stream_id: cdktn.stringToTerraform(this._streamId),
       backfill_all: googleDatastreamStreamBackfillAllToTerraform(this._backfillAll.internalValue),
       backfill_none: googleDatastreamStreamBackfillNoneToTerraform(this._backfillNone.internalValue),
       destination_config: googleDatastreamStreamDestinationConfigToTerraform(this._destinationConfig.internalValue),
@@ -12529,55 +12529,55 @@ export class GoogleDatastreamStream extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       create_without_validation: {
-        value: cdktf.booleanToHclTerraform(this._createWithoutValidation),
+        value: cdktn.booleanToHclTerraform(this._createWithoutValidation),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       customer_managed_encryption_key: {
-        value: cdktf.stringToHclTerraform(this._customerManagedEncryptionKey),
+        value: cdktn.stringToHclTerraform(this._customerManagedEncryptionKey),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       desired_state: {
-        value: cdktf.stringToHclTerraform(this._desiredState),
+        value: cdktn.stringToHclTerraform(this._desiredState),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       stream_id: {
-        value: cdktf.stringToHclTerraform(this._streamId),
+        value: cdktn.stringToHclTerraform(this._streamId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

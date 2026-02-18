@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeSubnetworkConfig extends cdktn.TerraformMetaArguments {
   /**
   * Typically packets destined to IPs within the subnetwork range that do not match
   * existing resources are dropped and prevented from leaving the VPC.
@@ -20,7 +20,7 @@ export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#allow_subnet_cidr_routes_overlap GoogleComputeSubnetwork#allow_subnet_cidr_routes_overlap}
   */
-  readonly allowSubnetCidrRoutesOverlap?: boolean | cdktf.IResolvable;
+  readonly allowSubnetCidrRoutesOverlap?: boolean | cdktn.IResolvable;
   /**
   * An optional description of this resource. Provide this property when
   * you create the resource. This field can be set only at resource
@@ -37,7 +37,7 @@ export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#enable_flow_logs GoogleComputeSubnetwork#enable_flow_logs}
   */
-  readonly enableFlowLogs?: boolean | cdktf.IResolvable;
+  readonly enableFlowLogs?: boolean | cdktn.IResolvable;
   /**
   * The range of external IPv6 addresses that are owned by this subnetwork.
   *
@@ -108,7 +108,7 @@ export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#private_ip_google_access GoogleComputeSubnetwork#private_ip_google_access}
   */
-  readonly privateIpGoogleAccess?: boolean | cdktf.IResolvable;
+  readonly privateIpGoogleAccess?: boolean | cdktn.IResolvable;
   /**
   * The private IPv6 google access type for the VMs in this subnet.
   *
@@ -165,7 +165,7 @@ export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#send_secondary_ip_range_if_empty GoogleComputeSubnetwork#send_secondary_ip_range_if_empty}
   */
-  readonly sendSecondaryIpRangeIfEmpty?: boolean | cdktf.IResolvable;
+  readonly sendSecondaryIpRangeIfEmpty?: boolean | cdktn.IResolvable;
   /**
   * The stack type for this subnet to identify whether the IPv6 feature is enabled or not.
   * If not specified IPV4_ONLY will be used. Possible values: ["IPV4_ONLY", "IPV4_IPV6", "IPV6_ONLY"]
@@ -190,7 +190,7 @@ export interface GoogleComputeSubnetworkConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#secondary_ip_range GoogleComputeSubnetwork#secondary_ip_range}
   */
-  readonly secondaryIpRange?: GoogleComputeSubnetworkSecondaryIpRange[] | cdktf.IResolvable;
+  readonly secondaryIpRange?: GoogleComputeSubnetworkSecondaryIpRange[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -244,52 +244,52 @@ export interface GoogleComputeSubnetworkLogConfig {
 }
 
 export function googleComputeSubnetworkLogConfigToTerraform(struct?: GoogleComputeSubnetworkLogConfigOutputReference | GoogleComputeSubnetworkLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    aggregation_interval: cdktf.stringToTerraform(struct!.aggregationInterval),
-    filter_expr: cdktf.stringToTerraform(struct!.filterExpr),
-    flow_sampling: cdktf.numberToTerraform(struct!.flowSampling),
-    metadata: cdktf.stringToTerraform(struct!.metadata),
-    metadata_fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.metadataFields),
+    aggregation_interval: cdktn.stringToTerraform(struct!.aggregationInterval),
+    filter_expr: cdktn.stringToTerraform(struct!.filterExpr),
+    flow_sampling: cdktn.numberToTerraform(struct!.flowSampling),
+    metadata: cdktn.stringToTerraform(struct!.metadata),
+    metadata_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.metadataFields),
   }
 }
 
 
 export function googleComputeSubnetworkLogConfigToHclTerraform(struct?: GoogleComputeSubnetworkLogConfigOutputReference | GoogleComputeSubnetworkLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     aggregation_interval: {
-      value: cdktf.stringToHclTerraform(struct!.aggregationInterval),
+      value: cdktn.stringToHclTerraform(struct!.aggregationInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter_expr: {
-      value: cdktf.stringToHclTerraform(struct!.filterExpr),
+      value: cdktn.stringToHclTerraform(struct!.filterExpr),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     flow_sampling: {
-      value: cdktf.numberToHclTerraform(struct!.flowSampling),
+      value: cdktn.numberToHclTerraform(struct!.flowSampling),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     metadata: {
-      value: cdktf.stringToHclTerraform(struct!.metadata),
+      value: cdktn.stringToHclTerraform(struct!.metadata),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     metadata_fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.metadataFields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.metadataFields),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -300,14 +300,14 @@ export function googleComputeSubnetworkLogConfigToHclTerraform(struct?: GoogleCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSubnetworkLogConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSubnetworkLogConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -423,7 +423,7 @@ export class GoogleComputeSubnetworkLogConfigOutputReference extends cdktf.Compl
   // metadata_fields - computed: false, optional: true, required: false
   private _metadataFields?: string[]; 
   public get metadataFields() {
-    return cdktf.Fn.tolist(this.getListAttribute('metadata_fields'));
+    return cdktn.Fn.tolist(this.getListAttribute('metadata_fields'));
   }
   public set metadataFields(value: string[]) {
     this._metadataFields = value;
@@ -451,24 +451,24 @@ export interface GoogleComputeSubnetworkParams {
 }
 
 export function googleComputeSubnetworkParamsToTerraform(struct?: GoogleComputeSubnetworkParamsOutputReference | GoogleComputeSubnetworkParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    resource_manager_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.resourceManagerTags),
+    resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
   }
 }
 
 
 export function googleComputeSubnetworkParamsToHclTerraform(struct?: GoogleComputeSubnetworkParamsOutputReference | GoogleComputeSubnetworkParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     resource_manager_tags: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.resourceManagerTags),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.resourceManagerTags),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -479,14 +479,14 @@ export function googleComputeSubnetworkParamsToHclTerraform(struct?: GoogleCompu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSubnetworkParamsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSubnetworkParamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -556,39 +556,39 @@ export interface GoogleComputeSubnetworkSecondaryIpRange {
   readonly reservedInternalRange?: string;
 }
 
-export function googleComputeSubnetworkSecondaryIpRangeToTerraform(struct?: GoogleComputeSubnetworkSecondaryIpRange | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSubnetworkSecondaryIpRangeToTerraform(struct?: GoogleComputeSubnetworkSecondaryIpRange | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ip_cidr_range: cdktf.stringToTerraform(struct!.ipCidrRange),
-    range_name: cdktf.stringToTerraform(struct!.rangeName),
-    reserved_internal_range: cdktf.stringToTerraform(struct!.reservedInternalRange),
+    ip_cidr_range: cdktn.stringToTerraform(struct!.ipCidrRange),
+    range_name: cdktn.stringToTerraform(struct!.rangeName),
+    reserved_internal_range: cdktn.stringToTerraform(struct!.reservedInternalRange),
   }
 }
 
 
-export function googleComputeSubnetworkSecondaryIpRangeToHclTerraform(struct?: GoogleComputeSubnetworkSecondaryIpRange | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSubnetworkSecondaryIpRangeToHclTerraform(struct?: GoogleComputeSubnetworkSecondaryIpRange | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ip_cidr_range: {
-      value: cdktf.stringToHclTerraform(struct!.ipCidrRange),
+      value: cdktn.stringToHclTerraform(struct!.ipCidrRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     range_name: {
-      value: cdktf.stringToHclTerraform(struct!.rangeName),
+      value: cdktn.stringToHclTerraform(struct!.rangeName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     reserved_internal_range: {
-      value: cdktf.stringToHclTerraform(struct!.reservedInternalRange),
+      value: cdktn.stringToHclTerraform(struct!.reservedInternalRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -599,9 +599,9 @@ export function googleComputeSubnetworkSecondaryIpRangeToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -609,11 +609,11 @@ export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeSubnetworkSecondaryIpRange | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSubnetworkSecondaryIpRange | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -634,7 +634,7 @@ export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSubnetworkSecondaryIpRange | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSubnetworkSecondaryIpRange | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -642,7 +642,7 @@ export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdkt
       this._rangeName = undefined;
       this._reservedInternalRange = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -701,15 +701,15 @@ export class GoogleComputeSubnetworkSecondaryIpRangeOutputReference extends cdkt
   }
 }
 
-export class GoogleComputeSubnetworkSecondaryIpRangeList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeSubnetworkSecondaryIpRange[] | cdktf.IResolvable
+export class GoogleComputeSubnetworkSecondaryIpRangeList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeSubnetworkSecondaryIpRange[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -735,39 +735,39 @@ export interface GoogleComputeSubnetworkTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeSubnetworkTimeoutsToTerraform(struct?: GoogleComputeSubnetworkTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSubnetworkTimeoutsToTerraform(struct?: GoogleComputeSubnetworkTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeSubnetworkTimeoutsToHclTerraform(struct?: GoogleComputeSubnetworkTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeSubnetworkTimeoutsToHclTerraform(struct?: GoogleComputeSubnetworkTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -778,19 +778,19 @@ export function googleComputeSubnetworkTimeoutsToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeSubnetworkTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeSubnetworkTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeSubnetworkTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeSubnetworkTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -811,7 +811,7 @@ export class GoogleComputeSubnetworkTimeoutsOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeSubnetworkTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeSubnetworkTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -819,7 +819,7 @@ export class GoogleComputeSubnetworkTimeoutsOutputReference extends cdktf.Comple
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -884,7 +884,7 @@ export class GoogleComputeSubnetworkTimeoutsOutputReference extends cdktf.Comple
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork google_compute_subnetwork}
 */
-export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
+export class GoogleComputeSubnetwork extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -895,14 +895,14 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeSubnetwork resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeSubnetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeSubnetwork to import
   * @param importFromId The id of the existing GoogleComputeSubnetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeSubnetwork to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_subnetwork", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_subnetwork", importId: importFromId, provider });
       }
 
   // ===========
@@ -962,11 +962,11 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   // ==========
 
   // allow_subnet_cidr_routes_overlap - computed: true, optional: true, required: false
-  private _allowSubnetCidrRoutesOverlap?: boolean | cdktf.IResolvable; 
+  private _allowSubnetCidrRoutesOverlap?: boolean | cdktn.IResolvable; 
   public get allowSubnetCidrRoutesOverlap() {
     return this.getBooleanAttribute('allow_subnet_cidr_routes_overlap');
   }
-  public set allowSubnetCidrRoutesOverlap(value: boolean | cdktf.IResolvable) {
+  public set allowSubnetCidrRoutesOverlap(value: boolean | cdktn.IResolvable) {
     this._allowSubnetCidrRoutesOverlap = value;
   }
   public resetAllowSubnetCidrRoutesOverlap() {
@@ -999,11 +999,11 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   }
 
   // enable_flow_logs - computed: true, optional: true, required: false
-  private _enableFlowLogs?: boolean | cdktf.IResolvable; 
+  private _enableFlowLogs?: boolean | cdktn.IResolvable; 
   public get enableFlowLogs() {
     return this.getBooleanAttribute('enable_flow_logs');
   }
-  public set enableFlowLogs(value: boolean | cdktf.IResolvable) {
+  public set enableFlowLogs(value: boolean | cdktn.IResolvable) {
     this._enableFlowLogs = value;
   }
   public resetEnableFlowLogs() {
@@ -1146,11 +1146,11 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   }
 
   // private_ip_google_access - computed: true, optional: true, required: false
-  private _privateIpGoogleAccess?: boolean | cdktf.IResolvable; 
+  private _privateIpGoogleAccess?: boolean | cdktn.IResolvable; 
   public get privateIpGoogleAccess() {
     return this.getBooleanAttribute('private_ip_google_access');
   }
-  public set privateIpGoogleAccess(value: boolean | cdktf.IResolvable) {
+  public set privateIpGoogleAccess(value: boolean | cdktn.IResolvable) {
     this._privateIpGoogleAccess = value;
   }
   public resetPrivateIpGoogleAccess() {
@@ -1263,11 +1263,11 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   }
 
   // send_secondary_ip_range_if_empty - computed: false, optional: true, required: false
-  private _sendSecondaryIpRangeIfEmpty?: boolean | cdktf.IResolvable; 
+  private _sendSecondaryIpRangeIfEmpty?: boolean | cdktn.IResolvable; 
   public get sendSecondaryIpRangeIfEmpty() {
     return this.getBooleanAttribute('send_secondary_ip_range_if_empty');
   }
-  public set sendSecondaryIpRangeIfEmpty(value: boolean | cdktf.IResolvable) {
+  public set sendSecondaryIpRangeIfEmpty(value: boolean | cdktn.IResolvable) {
     this._sendSecondaryIpRangeIfEmpty = value;
   }
   public resetSendSecondaryIpRangeIfEmpty() {
@@ -1341,7 +1341,7 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   public get secondaryIpRange() {
     return this._secondaryIpRange;
   }
-  public putSecondaryIpRange(value: GoogleComputeSubnetworkSecondaryIpRange[] | cdktf.IResolvable) {
+  public putSecondaryIpRange(value: GoogleComputeSubnetworkSecondaryIpRange[] | cdktn.IResolvable) {
     this._secondaryIpRange.internalValue = value;
   }
   public resetSecondaryIpRange() {
@@ -1374,28 +1374,28 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_subnet_cidr_routes_overlap: cdktf.booleanToTerraform(this._allowSubnetCidrRoutesOverlap),
-      description: cdktf.stringToTerraform(this._description),
-      enable_flow_logs: cdktf.booleanToTerraform(this._enableFlowLogs),
-      external_ipv6_prefix: cdktf.stringToTerraform(this._externalIpv6Prefix),
-      id: cdktf.stringToTerraform(this._id),
-      ip_cidr_range: cdktf.stringToTerraform(this._ipCidrRange),
-      ip_collection: cdktf.stringToTerraform(this._ipCollection),
-      ipv6_access_type: cdktf.stringToTerraform(this._ipv6AccessType),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      private_ip_google_access: cdktf.booleanToTerraform(this._privateIpGoogleAccess),
-      private_ipv6_google_access: cdktf.stringToTerraform(this._privateIpv6GoogleAccess),
-      project: cdktf.stringToTerraform(this._project),
-      purpose: cdktf.stringToTerraform(this._purpose),
-      region: cdktf.stringToTerraform(this._region),
-      reserved_internal_range: cdktf.stringToTerraform(this._reservedInternalRange),
-      role: cdktf.stringToTerraform(this._role),
-      send_secondary_ip_range_if_empty: cdktf.booleanToTerraform(this._sendSecondaryIpRangeIfEmpty),
-      stack_type: cdktf.stringToTerraform(this._stackType),
+      allow_subnet_cidr_routes_overlap: cdktn.booleanToTerraform(this._allowSubnetCidrRoutesOverlap),
+      description: cdktn.stringToTerraform(this._description),
+      enable_flow_logs: cdktn.booleanToTerraform(this._enableFlowLogs),
+      external_ipv6_prefix: cdktn.stringToTerraform(this._externalIpv6Prefix),
+      id: cdktn.stringToTerraform(this._id),
+      ip_cidr_range: cdktn.stringToTerraform(this._ipCidrRange),
+      ip_collection: cdktn.stringToTerraform(this._ipCollection),
+      ipv6_access_type: cdktn.stringToTerraform(this._ipv6AccessType),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      private_ip_google_access: cdktn.booleanToTerraform(this._privateIpGoogleAccess),
+      private_ipv6_google_access: cdktn.stringToTerraform(this._privateIpv6GoogleAccess),
+      project: cdktn.stringToTerraform(this._project),
+      purpose: cdktn.stringToTerraform(this._purpose),
+      region: cdktn.stringToTerraform(this._region),
+      reserved_internal_range: cdktn.stringToTerraform(this._reservedInternalRange),
+      role: cdktn.stringToTerraform(this._role),
+      send_secondary_ip_range_if_empty: cdktn.booleanToTerraform(this._sendSecondaryIpRangeIfEmpty),
+      stack_type: cdktn.stringToTerraform(this._stackType),
       log_config: googleComputeSubnetworkLogConfigToTerraform(this._logConfig.internalValue),
       params: googleComputeSubnetworkParamsToTerraform(this._params.internalValue),
-      secondary_ip_range: cdktf.listMapper(googleComputeSubnetworkSecondaryIpRangeToTerraform, true)(this._secondaryIpRange.internalValue),
+      secondary_ip_range: cdktn.listMapper(googleComputeSubnetworkSecondaryIpRangeToTerraform, true)(this._secondaryIpRange.internalValue),
       timeouts: googleComputeSubnetworkTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1403,115 +1403,115 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_subnet_cidr_routes_overlap: {
-        value: cdktf.booleanToHclTerraform(this._allowSubnetCidrRoutesOverlap),
+        value: cdktn.booleanToHclTerraform(this._allowSubnetCidrRoutesOverlap),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_flow_logs: {
-        value: cdktf.booleanToHclTerraform(this._enableFlowLogs),
+        value: cdktn.booleanToHclTerraform(this._enableFlowLogs),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       external_ipv6_prefix: {
-        value: cdktf.stringToHclTerraform(this._externalIpv6Prefix),
+        value: cdktn.stringToHclTerraform(this._externalIpv6Prefix),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ip_cidr_range: {
-        value: cdktf.stringToHclTerraform(this._ipCidrRange),
+        value: cdktn.stringToHclTerraform(this._ipCidrRange),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ip_collection: {
-        value: cdktf.stringToHclTerraform(this._ipCollection),
+        value: cdktn.stringToHclTerraform(this._ipCollection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ipv6_access_type: {
-        value: cdktf.stringToHclTerraform(this._ipv6AccessType),
+        value: cdktn.stringToHclTerraform(this._ipv6AccessType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       private_ip_google_access: {
-        value: cdktf.booleanToHclTerraform(this._privateIpGoogleAccess),
+        value: cdktn.booleanToHclTerraform(this._privateIpGoogleAccess),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       private_ipv6_google_access: {
-        value: cdktf.stringToHclTerraform(this._privateIpv6GoogleAccess),
+        value: cdktn.stringToHclTerraform(this._privateIpv6GoogleAccess),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       purpose: {
-        value: cdktf.stringToHclTerraform(this._purpose),
+        value: cdktn.stringToHclTerraform(this._purpose),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       reserved_internal_range: {
-        value: cdktf.stringToHclTerraform(this._reservedInternalRange),
+        value: cdktn.stringToHclTerraform(this._reservedInternalRange),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role: {
-        value: cdktf.stringToHclTerraform(this._role),
+        value: cdktn.stringToHclTerraform(this._role),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       send_secondary_ip_range_if_empty: {
-        value: cdktf.booleanToHclTerraform(this._sendSecondaryIpRangeIfEmpty),
+        value: cdktn.booleanToHclTerraform(this._sendSecondaryIpRangeIfEmpty),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       stack_type: {
-        value: cdktf.stringToHclTerraform(this._stackType),
+        value: cdktn.stringToHclTerraform(this._stackType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1529,7 +1529,7 @@ export class GoogleComputeSubnetwork extends cdktf.TerraformResource {
         storageClassType: "GoogleComputeSubnetworkParamsList",
       },
       secondary_ip_range: {
-        value: cdktf.listMapperHcl(googleComputeSubnetworkSecondaryIpRangeToHclTerraform, true)(this._secondaryIpRange.internalValue),
+        value: cdktn.listMapperHcl(googleComputeSubnetworkSecondaryIpRangeToHclTerraform, true)(this._secondaryIpRange.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeSubnetworkSecondaryIpRangeList",

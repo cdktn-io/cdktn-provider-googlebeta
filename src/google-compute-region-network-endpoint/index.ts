@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeRegionNetworkEndpointConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeRegionNetworkEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
   * Client destination port for the 'GCE_VM_IP_PORTMAP' NEG.
   *
@@ -88,32 +88,32 @@ export interface GoogleComputeRegionNetworkEndpointTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeRegionNetworkEndpointTimeoutsToTerraform(struct?: GoogleComputeRegionNetworkEndpointTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionNetworkEndpointTimeoutsToTerraform(struct?: GoogleComputeRegionNetworkEndpointTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeRegionNetworkEndpointTimeoutsToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionNetworkEndpointTimeoutsToHclTerraform(struct?: GoogleComputeRegionNetworkEndpointTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -124,19 +124,19 @@ export function googleComputeRegionNetworkEndpointTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionNetworkEndpointTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionNetworkEndpointTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeRegionNetworkEndpointTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRegionNetworkEndpointTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -153,14 +153,14 @@ export class GoogleComputeRegionNetworkEndpointTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRegionNetworkEndpointTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRegionNetworkEndpointTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -208,7 +208,7 @@ export class GoogleComputeRegionNetworkEndpointTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_endpoint google_compute_region_network_endpoint}
 */
-export class GoogleComputeRegionNetworkEndpoint extends cdktf.TerraformResource {
+export class GoogleComputeRegionNetworkEndpoint extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -219,14 +219,14 @@ export class GoogleComputeRegionNetworkEndpoint extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeRegionNetworkEndpoint resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeRegionNetworkEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionNetworkEndpoint to import
   * @param importFromId The id of the existing GoogleComputeRegionNetworkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionNetworkEndpoint to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_network_endpoint", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_network_endpoint", importId: importFromId, provider });
       }
 
   // ===========
@@ -437,15 +437,15 @@ export class GoogleComputeRegionNetworkEndpoint extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      client_destination_port: cdktf.numberToTerraform(this._clientDestinationPort),
-      fqdn: cdktf.stringToTerraform(this._fqdn),
-      id: cdktf.stringToTerraform(this._id),
-      instance: cdktf.stringToTerraform(this._instance),
-      ip_address: cdktf.stringToTerraform(this._ipAddress),
-      port: cdktf.numberToTerraform(this._port),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      region_network_endpoint_group: cdktf.stringToTerraform(this._regionNetworkEndpointGroup),
+      client_destination_port: cdktn.numberToTerraform(this._clientDestinationPort),
+      fqdn: cdktn.stringToTerraform(this._fqdn),
+      id: cdktn.stringToTerraform(this._id),
+      instance: cdktn.stringToTerraform(this._instance),
+      ip_address: cdktn.stringToTerraform(this._ipAddress),
+      port: cdktn.numberToTerraform(this._port),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      region_network_endpoint_group: cdktn.stringToTerraform(this._regionNetworkEndpointGroup),
       timeouts: googleComputeRegionNetworkEndpointTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -453,55 +453,55 @@ export class GoogleComputeRegionNetworkEndpoint extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       client_destination_port: {
-        value: cdktf.numberToHclTerraform(this._clientDestinationPort),
+        value: cdktn.numberToHclTerraform(this._clientDestinationPort),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       fqdn: {
-        value: cdktf.stringToHclTerraform(this._fqdn),
+        value: cdktn.stringToHclTerraform(this._fqdn),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance: {
-        value: cdktf.stringToHclTerraform(this._instance),
+        value: cdktn.stringToHclTerraform(this._instance),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ip_address: {
-        value: cdktf.stringToHclTerraform(this._ipAddress),
+        value: cdktn.stringToHclTerraform(this._ipAddress),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       port: {
-        value: cdktf.numberToHclTerraform(this._port),
+        value: cdktn.numberToHclTerraform(this._port),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region_network_endpoint_group: {
-        value: cdktf.stringToHclTerraform(this._regionNetworkEndpointGroup),
+        value: cdktn.stringToHclTerraform(this._regionNetworkEndpointGroup),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

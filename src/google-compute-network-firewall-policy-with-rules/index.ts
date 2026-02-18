@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeNetworkFirewallPolicyWithRulesConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeNetworkFirewallPolicyWithRulesConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource.
   *
@@ -53,7 +53,7 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesConfig extends cdktf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#rule GoogleComputeNetworkFirewallPolicyWithRules#rule}
   */
-  readonly rule: GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktf.IResolvable;
+  readonly rule: GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -65,8 +65,8 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -75,8 +75,8 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchL
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -84,7 +84,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchL
   return attrs;
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -93,7 +93,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLaye
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -123,14 +123,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLaye
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList extends cdktf.ComplexList {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -145,8 +145,8 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -155,8 +155,8 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchS
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -164,7 +164,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchS
   return attrs;
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -173,7 +173,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcS
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -203,14 +203,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcS
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList extends cdktf.ComplexList {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -225,8 +225,8 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -235,8 +235,8 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchT
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -244,7 +244,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchT
   return attrs;
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -253,7 +253,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -335,14 +335,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutp
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchList extends cdktf.ComplexList {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -357,8 +357,8 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTarge
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTag): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -367,8 +367,8 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTarget
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTag): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -376,7 +376,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTarget
   return attrs;
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -385,7 +385,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -415,14 +415,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSec
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList extends cdktf.ComplexList {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -437,8 +437,8 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules {
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -447,8 +447,8 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesToTerr
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -456,7 +456,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesPredefinedRulesToHclT
   return attrs;
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -465,7 +465,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -547,14 +547,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputRef
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesList extends cdktf.ComplexList {
+export class GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -589,32 +589,32 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Confi
   readonly ports?: string[];
 }
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ip_protocol: cdktf.stringToTerraform(struct!.ipProtocol),
-    ports: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ports),
+    ip_protocol: cdktn.stringToTerraform(struct!.ipProtocol),
+    ports: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.ports),
   }
 }
 
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ip_protocol: {
-      value: cdktf.stringToHclTerraform(struct!.ipProtocol),
+      value: cdktn.stringToHclTerraform(struct!.ipProtocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ports: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ports),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.ports),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -625,9 +625,9 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -635,11 +635,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOut
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -656,14 +656,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOut
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._ipProtocol = undefined;
       this._ports = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -705,15 +705,15 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOut
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktf.IResolvable
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -734,25 +734,25 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTa
   readonly name?: string;
 }
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -763,9 +763,9 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -773,11 +773,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOut
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -790,13 +790,13 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOut
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -829,15 +829,15 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOut
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktf.IResolvable
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -946,132 +946,132 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#layer4_config GoogleComputeNetworkFirewallPolicyWithRules#layer4_config}
   */
-  readonly layer4Config: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktf.IResolvable;
+  readonly layer4Config: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktn.IResolvable;
   /**
   * src_secure_tag block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#src_secure_tag GoogleComputeNetworkFirewallPolicyWithRules#src_secure_tag}
   */
-  readonly srcSecureTag?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktf.IResolvable;
+  readonly srcSecureTag?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktn.IResolvable;
 }
 
 export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference | GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dest_address_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destAddressGroups),
-    dest_fqdns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destFqdns),
-    dest_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destIpRanges),
-    dest_network_scope: cdktf.stringToTerraform(struct!.destNetworkScope),
-    dest_region_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destRegionCodes),
-    dest_threat_intelligences: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destThreatIntelligences),
-    src_address_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcAddressGroups),
-    src_fqdns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcFqdns),
-    src_ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcIpRanges),
-    src_network_scope: cdktf.stringToTerraform(struct!.srcNetworkScope),
-    src_networks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcNetworks),
-    src_region_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcRegionCodes),
-    src_threat_intelligences: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.srcThreatIntelligences),
-    layer4_config: cdktf.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToTerraform, true)(struct!.layer4Config),
-    src_secure_tag: cdktf.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToTerraform, true)(struct!.srcSecureTag),
+    dest_address_groups: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destAddressGroups),
+    dest_fqdns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destFqdns),
+    dest_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destIpRanges),
+    dest_network_scope: cdktn.stringToTerraform(struct!.destNetworkScope),
+    dest_region_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destRegionCodes),
+    dest_threat_intelligences: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destThreatIntelligences),
+    src_address_groups: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcAddressGroups),
+    src_fqdns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcFqdns),
+    src_ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcIpRanges),
+    src_network_scope: cdktn.stringToTerraform(struct!.srcNetworkScope),
+    src_networks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcNetworks),
+    src_region_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcRegionCodes),
+    src_threat_intelligences: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.srcThreatIntelligences),
+    layer4_config: cdktn.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToTerraform, true)(struct!.layer4Config),
+    src_secure_tag: cdktn.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToTerraform, true)(struct!.srcSecureTag),
   }
 }
 
 
 export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference | GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dest_address_groups: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destAddressGroups),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destAddressGroups),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     dest_fqdns: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destFqdns),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destFqdns),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     dest_ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destIpRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destIpRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     dest_network_scope: {
-      value: cdktf.stringToHclTerraform(struct!.destNetworkScope),
+      value: cdktn.stringToHclTerraform(struct!.destNetworkScope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     dest_region_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destRegionCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destRegionCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     dest_threat_intelligences: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destThreatIntelligences),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destThreatIntelligences),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_address_groups: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcAddressGroups),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcAddressGroups),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_fqdns: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcFqdns),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcFqdns),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcIpRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcIpRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_network_scope: {
-      value: cdktf.stringToHclTerraform(struct!.srcNetworkScope),
+      value: cdktn.stringToHclTerraform(struct!.srcNetworkScope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     src_networks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcNetworks),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcNetworks),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_region_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcRegionCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcRegionCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     src_threat_intelligences: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.srcThreatIntelligences),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.srcThreatIntelligences),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     layer4_config: {
-      value: cdktf.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToHclTerraform, true)(struct!.layer4Config),
+      value: cdktn.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigToHclTerraform, true)(struct!.layer4Config),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList",
     },
     src_secure_tag: {
-      value: cdktf.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToHclTerraform, true)(struct!.srcSecureTag),
+      value: cdktn.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagToHclTerraform, true)(struct!.srcSecureTag),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList",
@@ -1082,14 +1082,14 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleMatchToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1411,7 +1411,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference
   public get layer4Config() {
     return this._layer4Config;
   }
-  public putLayer4Config(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktf.IResolvable) {
+  public putLayer4Config(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config[] | cdktn.IResolvable) {
     this._layer4Config.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1424,7 +1424,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference
   public get srcSecureTag() {
     return this._srcSecureTag;
   }
-  public putSrcSecureTag(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktf.IResolvable) {
+  public putSrcSecureTag(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag[] | cdktn.IResolvable) {
     this._srcSecureTag.internalValue = value;
   }
   public resetSrcSecureTag() {
@@ -1445,25 +1445,25 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag 
   readonly name?: string;
 }
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1474,9 +1474,9 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1484,11 +1484,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1501,13 +1501,13 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1540,15 +1540,15 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutpu
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktf.IResolvable
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1587,7 +1587,7 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#disabled GoogleComputeNetworkFirewallPolicyWithRules#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Denotes whether to enable logging for a particular rule.
   * If logging is enabled, logs will be exported to the
@@ -1595,7 +1595,7 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#enable_logging GoogleComputeNetworkFirewallPolicyWithRules#enable_logging}
   */
-  readonly enableLogging?: boolean | cdktf.IResolvable;
+  readonly enableLogging?: boolean | cdktn.IResolvable;
   /**
   * An integer indicating the priority of a rule in the list. The priority must be a value
   * between 0 and 2147483647. Rules are evaluated from highest to lowest priority where 0 is the
@@ -1633,7 +1633,7 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#tls_inspect GoogleComputeNetworkFirewallPolicyWithRules#tls_inspect}
   */
-  readonly tlsInspect?: boolean | cdktf.IResolvable;
+  readonly tlsInspect?: boolean | cdktn.IResolvable;
   /**
   * match block
   *
@@ -1645,93 +1645,93 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#target_secure_tag GoogleComputeNetworkFirewallPolicyWithRules#target_secure_tag}
   */
-  readonly targetSecureTag?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktf.IResolvable;
+  readonly targetSecureTag?: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktn.IResolvable;
 }
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action: cdktf.stringToTerraform(struct!.action),
-    description: cdktf.stringToTerraform(struct!.description),
-    direction: cdktf.stringToTerraform(struct!.direction),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    enable_logging: cdktf.booleanToTerraform(struct!.enableLogging),
-    priority: cdktf.numberToTerraform(struct!.priority),
-    rule_name: cdktf.stringToTerraform(struct!.ruleName),
-    security_profile_group: cdktf.stringToTerraform(struct!.securityProfileGroup),
-    target_service_accounts: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.targetServiceAccounts),
-    tls_inspect: cdktf.booleanToTerraform(struct!.tlsInspect),
+    action: cdktn.stringToTerraform(struct!.action),
+    description: cdktn.stringToTerraform(struct!.description),
+    direction: cdktn.stringToTerraform(struct!.direction),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    enable_logging: cdktn.booleanToTerraform(struct!.enableLogging),
+    priority: cdktn.numberToTerraform(struct!.priority),
+    rule_name: cdktn.stringToTerraform(struct!.ruleName),
+    security_profile_group: cdktn.stringToTerraform(struct!.securityProfileGroup),
+    target_service_accounts: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.targetServiceAccounts),
+    tls_inspect: cdktn.booleanToTerraform(struct!.tlsInspect),
     match: googleComputeNetworkFirewallPolicyWithRulesRuleMatchToTerraform(struct!.match),
-    target_secure_tag: cdktf.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToTerraform, true)(struct!.targetSecureTag),
+    target_secure_tag: cdktn.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToTerraform, true)(struct!.targetSecureTag),
   }
 }
 
 
-export function googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action: {
-      value: cdktf.stringToHclTerraform(struct!.action),
+      value: cdktn.stringToHclTerraform(struct!.action),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     direction: {
-      value: cdktf.stringToHclTerraform(struct!.direction),
+      value: cdktn.stringToHclTerraform(struct!.direction),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_logging: {
-      value: cdktf.booleanToHclTerraform(struct!.enableLogging),
+      value: cdktn.booleanToHclTerraform(struct!.enableLogging),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     priority: {
-      value: cdktf.numberToHclTerraform(struct!.priority),
+      value: cdktn.numberToHclTerraform(struct!.priority),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     rule_name: {
-      value: cdktf.stringToHclTerraform(struct!.ruleName),
+      value: cdktn.stringToHclTerraform(struct!.ruleName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     security_profile_group: {
-      value: cdktf.stringToHclTerraform(struct!.securityProfileGroup),
+      value: cdktn.stringToHclTerraform(struct!.securityProfileGroup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     target_service_accounts: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.targetServiceAccounts),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.targetServiceAccounts),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     tls_inspect: {
-      value: cdktf.booleanToHclTerraform(struct!.tlsInspect),
+      value: cdktn.booleanToHclTerraform(struct!.tlsInspect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1743,7 +1743,7 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform(st
       storageClassType: "GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchList",
     },
     target_secure_tag: {
-      value: cdktf.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToHclTerraform, true)(struct!.targetSecureTag),
+      value: cdktn.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagToHclTerraform, true)(struct!.targetSecureTag),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList",
@@ -1754,9 +1754,9 @@ export function googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1764,11 +1764,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1825,7 +1825,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1842,7 +1842,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
       this._match.internalValue = undefined;
       this._targetSecureTag.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1910,11 +1910,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -1926,11 +1926,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   }
 
   // enable_logging - computed: false, optional: true, required: false
-  private _enableLogging?: boolean | cdktf.IResolvable; 
+  private _enableLogging?: boolean | cdktn.IResolvable; 
   public get enableLogging() {
     return this.getBooleanAttribute('enable_logging');
   }
-  public set enableLogging(value: boolean | cdktf.IResolvable) {
+  public set enableLogging(value: boolean | cdktn.IResolvable) {
     this._enableLogging = value;
   }
   public resetEnableLogging() {
@@ -2003,11 +2003,11 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   }
 
   // tls_inspect - computed: false, optional: true, required: false
-  private _tlsInspect?: boolean | cdktf.IResolvable; 
+  private _tlsInspect?: boolean | cdktn.IResolvable; 
   public get tlsInspect() {
     return this.getBooleanAttribute('tls_inspect');
   }
-  public set tlsInspect(value: boolean | cdktf.IResolvable) {
+  public set tlsInspect(value: boolean | cdktn.IResolvable) {
     this._tlsInspect = value;
   }
   public resetTlsInspect() {
@@ -2036,7 +2036,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   public get targetSecureTag() {
     return this._targetSecureTag;
   }
-  public putTargetSecureTag(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktf.IResolvable) {
+  public putTargetSecureTag(value: GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag[] | cdktn.IResolvable) {
     this._targetSecureTag.internalValue = value;
   }
   public resetTargetSecureTag() {
@@ -2048,15 +2048,15 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference exte
   }
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktf.IResolvable
+export class GoogleComputeNetworkFirewallPolicyWithRulesRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2082,39 +2082,39 @@ export interface GoogleComputeNetworkFirewallPolicyWithRulesTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeNetworkFirewallPolicyWithRulesTimeoutsToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesTimeoutsToTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeNetworkFirewallPolicyWithRulesTimeoutsToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkFirewallPolicyWithRulesTimeoutsToHclTerraform(struct?: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2125,19 +2125,19 @@ export function googleComputeNetworkFirewallPolicyWithRulesTimeoutsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2158,7 +2158,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkFirewallPolicyWithRulesTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2166,7 +2166,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference 
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2231,7 +2231,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules google_compute_network_firewall_policy_with_rules}
 */
-export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktf.TerraformResource {
+export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2242,14 +2242,14 @@ export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktf.Terraform
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeNetworkFirewallPolicyWithRules resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeNetworkFirewallPolicyWithRules resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNetworkFirewallPolicyWithRules to import
   * @param importFromId The id of the existing GoogleComputeNetworkFirewallPolicyWithRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_firewall_policy_with_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNetworkFirewallPolicyWithRules to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_firewall_policy_with_rules", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_firewall_policy_with_rules", importId: importFromId, provider });
       }
 
   // ===========
@@ -2410,7 +2410,7 @@ export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktf.Terraform
   public get rule() {
     return this._rule;
   }
-  public putRule(value: GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktf.IResolvable) {
+  public putRule(value: GoogleComputeNetworkFirewallPolicyWithRulesRule[] | cdktn.IResolvable) {
     this._rule.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2440,12 +2440,12 @@ export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktf.Terraform
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      policy_type: cdktf.stringToTerraform(this._policyType),
-      project: cdktf.stringToTerraform(this._project),
-      rule: cdktf.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleToTerraform, true)(this._rule.internalValue),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      policy_type: cdktn.stringToTerraform(this._policyType),
+      project: cdktn.stringToTerraform(this._project),
+      rule: cdktn.listMapper(googleComputeNetworkFirewallPolicyWithRulesRuleToTerraform, true)(this._rule.internalValue),
       timeouts: googleComputeNetworkFirewallPolicyWithRulesTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -2453,37 +2453,37 @@ export class GoogleComputeNetworkFirewallPolicyWithRules extends cdktf.Terraform
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       policy_type: {
-        value: cdktf.stringToHclTerraform(this._policyType),
+        value: cdktn.stringToHclTerraform(this._policyType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rule: {
-        value: cdktf.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform, true)(this._rule.internalValue),
+        value: cdktn.listMapperHcl(googleComputeNetworkFirewallPolicyWithRulesRuleToHclTerraform, true)(this._rule.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeNetworkFirewallPolicyWithRulesRuleList",

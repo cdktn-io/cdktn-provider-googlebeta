@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataCatalogPolicyTagConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataCatalogPolicyTagConfig extends cdktn.TerraformMetaArguments {
   /**
   * Description of this policy tag. It must: contain only unicode characters, tabs,
   * newlines, carriage returns and page breaks; and be at most 2000 bytes long when
@@ -72,39 +72,39 @@ export interface GoogleDataCatalogPolicyTagTimeouts {
   readonly update?: string;
 }
 
-export function googleDataCatalogPolicyTagTimeoutsToTerraform(struct?: GoogleDataCatalogPolicyTagTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataCatalogPolicyTagTimeoutsToTerraform(struct?: GoogleDataCatalogPolicyTagTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataCatalogPolicyTagTimeoutsToHclTerraform(struct?: GoogleDataCatalogPolicyTagTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataCatalogPolicyTagTimeoutsToHclTerraform(struct?: GoogleDataCatalogPolicyTagTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -115,19 +115,19 @@ export function googleDataCatalogPolicyTagTimeoutsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataCatalogPolicyTagTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataCatalogPolicyTagTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataCatalogPolicyTagTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataCatalogPolicyTagTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -148,7 +148,7 @@ export class GoogleDataCatalogPolicyTagTimeoutsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataCatalogPolicyTagTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataCatalogPolicyTagTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -156,7 +156,7 @@ export class GoogleDataCatalogPolicyTagTimeoutsOutputReference extends cdktf.Com
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -221,7 +221,7 @@ export class GoogleDataCatalogPolicyTagTimeoutsOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag}
 */
-export class GoogleDataCatalogPolicyTag extends cdktf.TerraformResource {
+export class GoogleDataCatalogPolicyTag extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -232,14 +232,14 @@ export class GoogleDataCatalogPolicyTag extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataCatalogPolicyTag resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataCatalogPolicyTag resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataCatalogPolicyTag to import
   * @param importFromId The id of the existing GoogleDataCatalogPolicyTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_policy_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataCatalogPolicyTag to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_data_catalog_policy_tag", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_data_catalog_policy_tag", importId: importFromId, provider });
       }
 
   // ===========
@@ -387,11 +387,11 @@ export class GoogleDataCatalogPolicyTag extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      parent_policy_tag: cdktf.stringToTerraform(this._parentPolicyTag),
-      taxonomy: cdktf.stringToTerraform(this._taxonomy),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      parent_policy_tag: cdktn.stringToTerraform(this._parentPolicyTag),
+      taxonomy: cdktn.stringToTerraform(this._taxonomy),
       timeouts: googleDataCatalogPolicyTagTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -399,31 +399,31 @@ export class GoogleDataCatalogPolicyTag extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent_policy_tag: {
-        value: cdktf.stringToHclTerraform(this._parentPolicyTag),
+        value: cdktn.stringToHclTerraform(this._parentPolicyTag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       taxonomy: {
-        value: cdktf.stringToHclTerraform(this._taxonomy),
+        value: cdktn.stringToHclTerraform(this._taxonomy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

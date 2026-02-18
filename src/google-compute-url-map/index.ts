@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeUrlMapConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeUrlMapConfig extends cdktn.TerraformMetaArguments {
   /**
   * The backend service or backend bucket to use when none of the given rules match.
   *
@@ -76,19 +76,19 @@ export interface GoogleComputeUrlMapConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#host_rule GoogleComputeUrlMap#host_rule}
   */
-  readonly hostRule?: GoogleComputeUrlMapHostRule[] | cdktf.IResolvable;
+  readonly hostRule?: GoogleComputeUrlMapHostRule[] | cdktn.IResolvable;
   /**
   * path_matcher block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
   */
-  readonly pathMatcher?: GoogleComputeUrlMapPathMatcher[] | cdktf.IResolvable;
+  readonly pathMatcher?: GoogleComputeUrlMapPathMatcher[] | cdktn.IResolvable;
   /**
   * test block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#test GoogleComputeUrlMap#test}
   */
-  readonly test?: GoogleComputeUrlMapTest[] | cdktf.IResolvable;
+  readonly test?: GoogleComputeUrlMapTest[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -125,39 +125,39 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorRespons
   readonly path?: string;
 }
 
-export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    match_response_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.matchResponseCodes),
-    override_response_code: cdktf.numberToTerraform(struct!.overrideResponseCode),
-    path: cdktf.stringToTerraform(struct!.path),
+    match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
+    override_response_code: cdktn.numberToTerraform(struct!.overrideResponseCode),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
-export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     match_response_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.matchResponseCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.matchResponseCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     override_response_code: {
-      value: cdktf.numberToHclTerraform(struct!.overrideResponseCode),
+      value: cdktn.numberToHclTerraform(struct!.overrideResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -168,9 +168,9 @@ export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponse
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -178,11 +178,11 @@ export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRul
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -203,7 +203,7 @@ export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRul
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -211,7 +211,7 @@ export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRul
       this._overrideResponseCode = undefined;
       this._path = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -273,15 +273,15 @@ export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRul
   }
 }
 
-export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -311,35 +311,35 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
-  readonly errorResponseRule?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable;
+  readonly errorResponseRule?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapDefaultCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    error_service: cdktf.stringToTerraform(struct!.errorService),
-    error_response_rule: cdktf.listMapper(googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
+    error_service: cdktn.stringToTerraform(struct!.errorService),
+    error_response_rule: cdktn.listMapper(googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
   }
 }
 
 
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapDefaultCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     error_service: {
-      value: cdktf.stringToHclTerraform(struct!.errorService),
+      value: cdktn.stringToHclTerraform(struct!.errorService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     error_response_rule: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
+      value: cdktn.listMapperHcl(googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleList",
@@ -350,14 +350,14 @@ export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -409,7 +409,7 @@ export class GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference 
   public get errorResponseRule() {
     return this._errorResponseRule;
   }
-  public putErrorResponseRule(value: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable) {
+  public putErrorResponseRule(value: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable) {
     this._errorResponseRule.internalValue = value;
   }
   public resetErrorResponseRule() {
@@ -427,7 +427,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
-  readonly allowCredentials?: boolean | cdktf.IResolvable;
+  readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
@@ -460,7 +460,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
@@ -477,73 +477,73 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
 }
 
 export function googleComputeUrlMapDefaultRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_credentials: cdktf.booleanToTerraform(struct!.allowCredentials),
-    allow_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowHeaders),
-    allow_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowMethods),
-    allow_origin_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegexes),
-    allow_origins: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOrigins),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    expose_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exposeHeaders),
-    max_age: cdktf.numberToTerraform(struct!.maxAge),
+    allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
+    allow_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowHeaders),
+    allow_methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowMethods),
+    allow_origin_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOriginRegexes),
+    allow_origins: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOrigins),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    expose_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exposeHeaders),
+    max_age: cdktn.numberToTerraform(struct!.maxAge),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_credentials: {
-      value: cdktf.booleanToHclTerraform(struct!.allowCredentials),
+      value: cdktn.booleanToHclTerraform(struct!.allowCredentials),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowMethods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowMethods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origin_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOriginRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOriginRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origins: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOrigins),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOrigins),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     expose_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exposeHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exposeHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     max_age: {
-      value: cdktf.numberToHclTerraform(struct!.maxAge),
+      value: cdktn.numberToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -554,14 +554,14 @@ export function googleComputeUrlMapDefaultRouteActionCorsPolicyToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -629,11 +629,11 @@ export class GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference exte
   }
 
   // allow_credentials - computed: false, optional: true, required: false
-  private _allowCredentials?: boolean | cdktf.IResolvable; 
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
-  public set allowCredentials(value: boolean | cdktf.IResolvable) {
+  public set allowCredentials(value: boolean | cdktn.IResolvable) {
     this._allowCredentials = value;
   }
   public resetAllowCredentials() {
@@ -709,11 +709,11 @@ export class GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference exte
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -774,31 +774,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort 
 }
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    http_status: cdktf.numberToTerraform(struct!.httpStatus),
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    http_status: cdktn.numberToTerraform(struct!.httpStatus),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     http_status: {
-      value: cdktf.numberToHclTerraform(struct!.httpStatus),
+      value: cdktn.numberToHclTerraform(struct!.httpStatus),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -809,14 +809,14 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -897,31 +897,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayF
 }
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -932,14 +932,14 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1019,25 +1019,25 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay 
 }
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
     fixed_delay: googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct!.fixedDelay),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1054,14 +1054,14 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1140,8 +1140,8 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy {
 }
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1152,8 +1152,8 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToTerra
 
 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1175,14 +1175,14 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1263,31 +1263,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration {
 }
 
 export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1298,14 +1298,14 @@ export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1382,31 +1382,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy {
 }
 
 export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    mirror_percent: cdktf.numberToTerraform(struct!.mirrorPercent),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    mirror_percent: cdktn.numberToTerraform(struct!.mirrorPercent),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mirror_percent: {
-      value: cdktf.numberToHclTerraform(struct!.mirrorPercent),
+      value: cdktn.numberToHclTerraform(struct!.mirrorPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1417,14 +1417,14 @@ export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1502,31 +1502,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout {
 }
 
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1537,14 +1537,14 @@ export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1644,32 +1644,32 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicy {
 }
 
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    num_retries: cdktf.numberToTerraform(struct!.numRetries),
-    retry_conditions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryConditions),
+    num_retries: cdktn.numberToTerraform(struct!.numRetries),
+    retry_conditions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.retryConditions),
     per_try_timeout: googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct!.perTryTimeout),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     num_retries: {
-      value: cdktf.numberToHclTerraform(struct!.numRetries),
+      value: cdktn.numberToHclTerraform(struct!.numRetries),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     retry_conditions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.retryConditions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.retryConditions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1686,14 +1686,14 @@ export function googleComputeUrlMapDefaultRouteActionRetryPolicyToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1796,31 +1796,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionTimeout {
 }
 
 export function googleComputeUrlMapDefaultRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1831,14 +1831,14 @@ export function googleComputeUrlMapDefaultRouteActionTimeoutToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1923,31 +1923,31 @@ export interface GoogleComputeUrlMapDefaultRouteActionUrlRewrite {
 }
 
 export function googleComputeUrlMapDefaultRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapDefaultRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_rewrite: cdktf.stringToTerraform(struct!.hostRewrite),
-    path_prefix_rewrite: cdktf.stringToTerraform(struct!.pathPrefixRewrite),
+    host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
+    path_prefix_rewrite: cdktn.stringToTerraform(struct!.pathPrefixRewrite),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapDefaultRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.hostRewrite),
+      value: cdktn.stringToHclTerraform(struct!.hostRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path_prefix_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.pathPrefixRewrite),
+      value: cdktn.stringToHclTerraform(struct!.pathPrefixRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1958,14 +1958,14 @@ export function googleComputeUrlMapDefaultRouteActionUrlRewriteToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2047,42 +2047,42 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace?: boolean | cdktf.IResolvable;
+  readonly replace?: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2093,9 +2093,9 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2103,11 +2103,11 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2128,7 +2128,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2136,7 +2136,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2182,11 +2182,11 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   }
 
   // replace - computed: false, optional: true, required: false
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   public resetReplace() {
@@ -2198,15 +2198,15 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   }
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2236,42 +2236,42 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace?: boolean | cdktf.IResolvable;
+  readonly replace?: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2282,9 +2282,9 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2292,11 +2292,11 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2317,7 +2317,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2325,7 +2325,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2371,11 +2371,11 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   }
 
   // replace - computed: false, optional: true, required: false
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   public resetReplace() {
@@ -2387,15 +2387,15 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   }
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2426,55 +2426,55 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList",
@@ -2485,14 +2485,14 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2572,7 +2572,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -2588,7 +2588,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -2629,33 +2629,33 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices {
   readonly headerAction?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction;
 }
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    weight: cdktf.numberToTerraform(struct!.weight),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    weight: cdktn.numberToTerraform(struct!.weight),
     header_action: googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct!.headerAction),
   }
 }
 
 
-export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     weight: {
-      value: cdktf.numberToHclTerraform(struct!.weight),
+      value: cdktn.numberToHclTerraform(struct!.weight),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2672,9 +2672,9 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2682,11 +2682,11 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputR
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2707,7 +2707,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputR
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2715,7 +2715,7 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputR
       this._weight = undefined;
       this._headerAction.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2777,15 +2777,15 @@ export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesOutputR
   }
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable
+export class GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2844,12 +2844,12 @@ export interface GoogleComputeUrlMapDefaultRouteAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
-  readonly weightedBackendServices?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable;
+  readonly weightedBackendServices?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapDefaultRouteActionToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionOutputReference | GoogleComputeUrlMapDefaultRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2860,14 +2860,14 @@ export function googleComputeUrlMapDefaultRouteActionToTerraform(struct?: Google
     retry_policy: googleComputeUrlMapDefaultRouteActionRetryPolicyToTerraform(struct!.retryPolicy),
     timeout: googleComputeUrlMapDefaultRouteActionTimeoutToTerraform(struct!.timeout),
     url_rewrite: googleComputeUrlMapDefaultRouteActionUrlRewriteToTerraform(struct!.urlRewrite),
-    weighted_backend_services: cdktf.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
+    weighted_backend_services: cdktn.listMapper(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
   }
 }
 
 
 export function googleComputeUrlMapDefaultRouteActionToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionOutputReference | GoogleComputeUrlMapDefaultRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2914,7 +2914,7 @@ export function googleComputeUrlMapDefaultRouteActionToHclTerraform(struct?: Goo
       storageClassType: "GoogleComputeUrlMapDefaultRouteActionUrlRewriteList",
     },
     weighted_backend_services: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
+      value: cdktn.listMapperHcl(googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesList",
@@ -2925,14 +2925,14 @@ export function googleComputeUrlMapDefaultRouteActionToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultRouteActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultRouteActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3116,7 +3116,7 @@ export class GoogleComputeUrlMapDefaultRouteActionOutputReference extends cdktf.
   public get weightedBackendServices() {
     return this._weightedBackendServices;
   }
-  public putWeightedBackendServices(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable) {
+  public putWeightedBackendServices(value: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable) {
     this._weightedBackendServices.internalValue = value;
   }
   public resetWeightedBackendServices() {
@@ -3143,7 +3143,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
-  readonly httpsRedirect?: boolean | cdktf.IResolvable;
+  readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
   * The path that will be used in the redirect response instead of the one that was
   * supplied in the request. pathRedirect cannot be supplied together with
@@ -3190,63 +3190,63 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
-  readonly stripQuery: boolean | cdktf.IResolvable;
+  readonly stripQuery: boolean | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapDefaultUrlRedirectToTerraform(struct?: GoogleComputeUrlMapDefaultUrlRedirectOutputReference | GoogleComputeUrlMapDefaultUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_redirect: cdktf.stringToTerraform(struct!.hostRedirect),
-    https_redirect: cdktf.booleanToTerraform(struct!.httpsRedirect),
-    path_redirect: cdktf.stringToTerraform(struct!.pathRedirect),
-    prefix_redirect: cdktf.stringToTerraform(struct!.prefixRedirect),
-    redirect_response_code: cdktf.stringToTerraform(struct!.redirectResponseCode),
-    strip_query: cdktf.booleanToTerraform(struct!.stripQuery),
+    host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
+    https_redirect: cdktn.booleanToTerraform(struct!.httpsRedirect),
+    path_redirect: cdktn.stringToTerraform(struct!.pathRedirect),
+    prefix_redirect: cdktn.stringToTerraform(struct!.prefixRedirect),
+    redirect_response_code: cdktn.stringToTerraform(struct!.redirectResponseCode),
+    strip_query: cdktn.booleanToTerraform(struct!.stripQuery),
   }
 }
 
 
 export function googleComputeUrlMapDefaultUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapDefaultUrlRedirectOutputReference | GoogleComputeUrlMapDefaultUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.hostRedirect),
+      value: cdktn.stringToHclTerraform(struct!.hostRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     https_redirect: {
-      value: cdktf.booleanToHclTerraform(struct!.httpsRedirect),
+      value: cdktn.booleanToHclTerraform(struct!.httpsRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.pathRedirect),
+      value: cdktn.stringToHclTerraform(struct!.pathRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prefix_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.prefixRedirect),
+      value: cdktn.stringToHclTerraform(struct!.prefixRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     redirect_response_code: {
-      value: cdktf.stringToHclTerraform(struct!.redirectResponseCode),
+      value: cdktn.stringToHclTerraform(struct!.redirectResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     strip_query: {
-      value: cdktf.booleanToHclTerraform(struct!.stripQuery),
+      value: cdktn.booleanToHclTerraform(struct!.stripQuery),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3257,14 +3257,14 @@ export function googleComputeUrlMapDefaultUrlRedirectToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapDefaultUrlRedirectOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapDefaultUrlRedirectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3336,11 +3336,11 @@ export class GoogleComputeUrlMapDefaultUrlRedirectOutputReference extends cdktf.
   }
 
   // https_redirect - computed: false, optional: true, required: false
-  private _httpsRedirect?: boolean | cdktf.IResolvable; 
+  private _httpsRedirect?: boolean | cdktn.IResolvable; 
   public get httpsRedirect() {
     return this.getBooleanAttribute('https_redirect');
   }
-  public set httpsRedirect(value: boolean | cdktf.IResolvable) {
+  public set httpsRedirect(value: boolean | cdktn.IResolvable) {
     this._httpsRedirect = value;
   }
   public resetHttpsRedirect() {
@@ -3400,11 +3400,11 @@ export class GoogleComputeUrlMapDefaultUrlRedirectOutputReference extends cdktf.
   }
 
   // strip_query - computed: false, optional: false, required: true
-  private _stripQuery?: boolean | cdktf.IResolvable; 
+  private _stripQuery?: boolean | cdktn.IResolvable; 
   public get stripQuery() {
     return this.getBooleanAttribute('strip_query');
   }
-  public set stripQuery(value: boolean | cdktf.IResolvable) {
+  public set stripQuery(value: boolean | cdktn.IResolvable) {
     this._stripQuery = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -3432,42 +3432,42 @@ export interface GoogleComputeUrlMapHeaderActionRequestHeadersToAdd {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3478,9 +3478,9 @@ export function googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3488,11 +3488,11 @@ export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3513,7 +3513,7 @@ export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3521,7 +3521,7 @@ export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference e
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3561,11 +3561,11 @@ export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference e
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -3574,15 +3574,15 @@ export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddOutputReference e
   }
 }
 
-export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3613,42 +3613,42 @@ export interface GoogleComputeUrlMapHeaderActionResponseHeadersToAdd {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3659,9 +3659,9 @@ export function googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3669,11 +3669,11 @@ export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3694,7 +3694,7 @@ export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3702,7 +3702,7 @@ export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference 
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3742,11 +3742,11 @@ export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference 
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -3755,15 +3755,15 @@ export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddOutputReference 
   }
 }
 
-export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3794,55 +3794,55 @@ export interface GoogleComputeUrlMapHeaderAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapHeaderActionToTerraform(struct?: GoogleComputeUrlMapHeaderActionOutputReference | GoogleComputeUrlMapHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionOutputReference | GoogleComputeUrlMapHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapHeaderActionResponseHeadersToAddList",
@@ -3853,14 +3853,14 @@ export function googleComputeUrlMapHeaderActionToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3940,7 +3940,7 @@ export class GoogleComputeUrlMapHeaderActionOutputReference extends cdktf.Comple
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -3956,7 +3956,7 @@ export class GoogleComputeUrlMapHeaderActionOutputReference extends cdktf.Comple
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -3992,39 +3992,39 @@ export interface GoogleComputeUrlMapHostRule {
   readonly pathMatcher: string;
 }
 
-export function googleComputeUrlMapHostRuleToTerraform(struct?: GoogleComputeUrlMapHostRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHostRuleToTerraform(struct?: GoogleComputeUrlMapHostRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    hosts: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hosts),
-    path_matcher: cdktf.stringToTerraform(struct!.pathMatcher),
+    description: cdktn.stringToTerraform(struct!.description),
+    hosts: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.hosts),
+    path_matcher: cdktn.stringToTerraform(struct!.pathMatcher),
   }
 }
 
 
-export function googleComputeUrlMapHostRuleToHclTerraform(struct?: GoogleComputeUrlMapHostRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapHostRuleToHclTerraform(struct?: GoogleComputeUrlMapHostRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hosts: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.hosts),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.hosts),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     path_matcher: {
-      value: cdktf.stringToHclTerraform(struct!.pathMatcher),
+      value: cdktn.stringToHclTerraform(struct!.pathMatcher),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4035,9 +4035,9 @@ export function googleComputeUrlMapHostRuleToHclTerraform(struct?: GoogleCompute
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapHostRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4045,11 +4045,11 @@ export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapHostRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapHostRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4070,7 +4070,7 @@ export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapHostRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapHostRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4078,7 +4078,7 @@ export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObj
       this._hosts = undefined;
       this._pathMatcher = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4110,7 +4110,7 @@ export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObj
   // hosts - computed: false, optional: false, required: true
   private _hosts?: string[]; 
   public get hosts() {
-    return cdktf.Fn.tolist(this.getListAttribute('hosts'));
+    return cdktn.Fn.tolist(this.getListAttribute('hosts'));
   }
   public set hosts(value: string[]) {
     this._hosts = value;
@@ -4134,15 +4134,15 @@ export class GoogleComputeUrlMapHostRuleOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class GoogleComputeUrlMapHostRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapHostRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapHostRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapHostRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4182,39 +4182,39 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyE
   readonly path?: string;
 }
 
-export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    match_response_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.matchResponseCodes),
-    override_response_code: cdktf.numberToTerraform(struct!.overrideResponseCode),
-    path: cdktf.stringToTerraform(struct!.path),
+    match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
+    override_response_code: cdktn.numberToTerraform(struct!.overrideResponseCode),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     match_response_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.matchResponseCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.matchResponseCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     override_response_code: {
-      value: cdktf.numberToHclTerraform(struct!.overrideResponseCode),
+      value: cdktn.numberToHclTerraform(struct!.overrideResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4225,9 +4225,9 @@ export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyEr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4235,11 +4235,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyError
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4260,7 +4260,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyError
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4268,7 +4268,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyError
       this._overrideResponseCode = undefined;
       this._path = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4330,15 +4330,15 @@ export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyError
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4366,35 +4366,35 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
-  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable;
+  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    error_service: cdktf.stringToTerraform(struct!.errorService),
-    error_response_rule: cdktf.listMapper(googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
+    error_service: cdktn.stringToTerraform(struct!.errorService),
+    error_response_rule: cdktn.listMapper(googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     error_service: {
-      value: cdktf.stringToHclTerraform(struct!.errorService),
+      value: cdktn.stringToHclTerraform(struct!.errorService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     error_response_rule: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleList",
@@ -4405,14 +4405,14 @@ export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4464,7 +4464,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutpu
   public get errorResponseRule() {
     return this._errorResponseRule;
   }
-  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable) {
+  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable) {
     this._errorResponseRule.internalValue = value;
   }
   public resetErrorResponseRule() {
@@ -4482,7 +4482,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
-  readonly allowCredentials?: boolean | cdktf.IResolvable;
+  readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
@@ -4515,7 +4515,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
@@ -4532,73 +4532,73 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_credentials: cdktf.booleanToTerraform(struct!.allowCredentials),
-    allow_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowHeaders),
-    allow_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowMethods),
-    allow_origin_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegexes),
-    allow_origins: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOrigins),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    expose_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exposeHeaders),
-    max_age: cdktf.numberToTerraform(struct!.maxAge),
+    allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
+    allow_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowHeaders),
+    allow_methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowMethods),
+    allow_origin_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOriginRegexes),
+    allow_origins: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOrigins),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    expose_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exposeHeaders),
+    max_age: cdktn.numberToTerraform(struct!.maxAge),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_credentials: {
-      value: cdktf.booleanToHclTerraform(struct!.allowCredentials),
+      value: cdktn.booleanToHclTerraform(struct!.allowCredentials),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowMethods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowMethods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origin_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOriginRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOriginRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origins: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOrigins),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOrigins),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     expose_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exposeHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exposeHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     max_age: {
-      value: cdktf.numberToHclTerraform(struct!.maxAge),
+      value: cdktn.numberToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4609,14 +4609,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4684,11 +4684,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputRef
   }
 
   // allow_credentials - computed: false, optional: true, required: false
-  private _allowCredentials?: boolean | cdktf.IResolvable; 
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
-  public set allowCredentials(value: boolean | cdktf.IResolvable) {
+  public set allowCredentials(value: boolean | cdktn.IResolvable) {
     this._allowCredentials = value;
   }
   public resetAllowCredentials() {
@@ -4764,11 +4764,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputRef
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -4829,31 +4829,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    http_status: cdktf.numberToTerraform(struct!.httpStatus),
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    http_status: cdktn.numberToTerraform(struct!.httpStatus),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     http_status: {
-      value: cdktf.numberToHclTerraform(struct!.httpStatus),
+      value: cdktn.numberToHclTerraform(struct!.httpStatus),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4864,14 +4864,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4952,31 +4952,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4987,14 +4987,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5074,25 +5074,25 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
     fixed_delay: googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct!.fixedDelay),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -5109,14 +5109,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5195,8 +5195,8 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -5207,8 +5207,8 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -5230,14 +5230,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5318,31 +5318,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurati
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5353,14 +5353,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuratio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5437,31 +5437,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPo
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    mirror_percent: cdktf.numberToTerraform(struct!.mirrorPercent),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    mirror_percent: cdktn.numberToTerraform(struct!.mirrorPercent),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mirror_percent: {
-      value: cdktf.numberToHclTerraform(struct!.mirrorPercent),
+      value: cdktn.numberToHclTerraform(struct!.mirrorPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -5472,14 +5472,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5557,31 +5557,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerT
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5592,14 +5592,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5699,32 +5699,32 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy {
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    num_retries: cdktf.numberToTerraform(struct!.numRetries),
-    retry_conditions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryConditions),
+    num_retries: cdktn.numberToTerraform(struct!.numRetries),
+    retry_conditions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.retryConditions),
     per_try_timeout: googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct!.perTryTimeout),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     num_retries: {
-      value: cdktf.numberToHclTerraform(struct!.numRetries),
+      value: cdktn.numberToHclTerraform(struct!.numRetries),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     retry_conditions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.retryConditions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.retryConditions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -5741,14 +5741,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5851,31 +5851,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout {
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5886,14 +5886,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5978,31 +5978,31 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite {
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_rewrite: cdktf.stringToTerraform(struct!.hostRewrite),
-    path_prefix_rewrite: cdktf.stringToTerraform(struct!.pathPrefixRewrite),
+    host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
+    path_prefix_rewrite: cdktn.stringToTerraform(struct!.pathPrefixRewrite),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.hostRewrite),
+      value: cdktn.stringToHclTerraform(struct!.hostRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path_prefix_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.pathPrefixRewrite),
+      value: cdktn.stringToHclTerraform(struct!.pathPrefixRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6013,14 +6013,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6102,42 +6102,42 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace?: boolean | cdktf.IResolvable;
+  readonly replace?: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6148,9 +6148,9 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6158,11 +6158,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6183,7 +6183,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -6191,7 +6191,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6237,11 +6237,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   }
 
   // replace - computed: false, optional: true, required: false
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   public resetReplace() {
@@ -6253,15 +6253,15 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6291,42 +6291,42 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace?: boolean | cdktf.IResolvable;
+  readonly replace?: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6337,9 +6337,9 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6347,11 +6347,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6372,7 +6372,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -6380,7 +6380,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6426,11 +6426,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   }
 
   // replace - computed: false, optional: true, required: false
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   public resetReplace() {
@@ -6442,15 +6442,15 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6481,55 +6481,55 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList",
@@ -6540,14 +6540,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6627,7 +6627,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -6643,7 +6643,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -6684,33 +6684,33 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   readonly headerAction?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction;
 }
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    weight: cdktf.numberToTerraform(struct!.weight),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    weight: cdktn.numberToTerraform(struct!.weight),
     header_action: googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct!.headerAction),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     weight: {
-      value: cdktf.numberToHclTerraform(struct!.weight),
+      value: cdktn.numberToHclTerraform(struct!.weight),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -6727,9 +6727,9 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6737,11 +6737,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6762,7 +6762,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -6770,7 +6770,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
       this._weight = undefined;
       this._headerAction.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6832,15 +6832,15 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6899,12 +6899,12 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
-  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable;
+  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -6915,14 +6915,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionToTerraform(stru
     retry_policy: googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToTerraform(struct!.retryPolicy),
     timeout: googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToTerraform(struct!.timeout),
     url_rewrite: googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToTerraform(struct!.urlRewrite),
-    weighted_backend_services: cdktf.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
+    weighted_backend_services: cdktn.listMapper(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultRouteActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -6969,7 +6969,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionToHclTerraform(s
       storageClassType: "GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteList",
     },
     weighted_backend_services: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesList",
@@ -6980,14 +6980,14 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7171,7 +7171,7 @@ export class GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference ext
   public get weightedBackendServices() {
     return this._weightedBackendServices;
   }
-  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktf.IResolvable) {
+  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable) {
     this._weightedBackendServices.internalValue = value;
   }
   public resetWeightedBackendServices() {
@@ -7198,7 +7198,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
-  readonly httpsRedirect?: boolean | cdktf.IResolvable;
+  readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
   * The path that will be used in the redirect response instead of the one that was
   * supplied in the request. pathRedirect cannot be supplied together with
@@ -7245,63 +7245,63 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
-  readonly stripQuery: boolean | cdktf.IResolvable;
+  readonly stripQuery: boolean | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherDefaultUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_redirect: cdktf.stringToTerraform(struct!.hostRedirect),
-    https_redirect: cdktf.booleanToTerraform(struct!.httpsRedirect),
-    path_redirect: cdktf.stringToTerraform(struct!.pathRedirect),
-    prefix_redirect: cdktf.stringToTerraform(struct!.prefixRedirect),
-    redirect_response_code: cdktf.stringToTerraform(struct!.redirectResponseCode),
-    strip_query: cdktf.booleanToTerraform(struct!.stripQuery),
+    host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
+    https_redirect: cdktn.booleanToTerraform(struct!.httpsRedirect),
+    path_redirect: cdktn.stringToTerraform(struct!.pathRedirect),
+    prefix_redirect: cdktn.stringToTerraform(struct!.prefixRedirect),
+    redirect_response_code: cdktn.stringToTerraform(struct!.redirectResponseCode),
+    strip_query: cdktn.booleanToTerraform(struct!.stripQuery),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherDefaultUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.hostRedirect),
+      value: cdktn.stringToHclTerraform(struct!.hostRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     https_redirect: {
-      value: cdktf.booleanToHclTerraform(struct!.httpsRedirect),
+      value: cdktn.booleanToHclTerraform(struct!.httpsRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.pathRedirect),
+      value: cdktn.stringToHclTerraform(struct!.pathRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prefix_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.prefixRedirect),
+      value: cdktn.stringToHclTerraform(struct!.prefixRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     redirect_response_code: {
-      value: cdktf.stringToHclTerraform(struct!.redirectResponseCode),
+      value: cdktn.stringToHclTerraform(struct!.redirectResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     strip_query: {
-      value: cdktf.booleanToHclTerraform(struct!.stripQuery),
+      value: cdktn.booleanToHclTerraform(struct!.stripQuery),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7312,14 +7312,14 @@ export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7391,11 +7391,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference ext
   }
 
   // https_redirect - computed: false, optional: true, required: false
-  private _httpsRedirect?: boolean | cdktf.IResolvable; 
+  private _httpsRedirect?: boolean | cdktn.IResolvable; 
   public get httpsRedirect() {
     return this.getBooleanAttribute('https_redirect');
   }
-  public set httpsRedirect(value: boolean | cdktf.IResolvable) {
+  public set httpsRedirect(value: boolean | cdktn.IResolvable) {
     this._httpsRedirect = value;
   }
   public resetHttpsRedirect() {
@@ -7455,11 +7455,11 @@ export class GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference ext
   }
 
   // strip_query - computed: false, optional: false, required: true
-  private _stripQuery?: boolean | cdktf.IResolvable; 
+  private _stripQuery?: boolean | cdktn.IResolvable; 
   public get stripQuery() {
     return this.getBooleanAttribute('strip_query');
   }
-  public set stripQuery(value: boolean | cdktf.IResolvable) {
+  public set stripQuery(value: boolean | cdktn.IResolvable) {
     this._stripQuery = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7487,42 +7487,42 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7533,9 +7533,9 @@ export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7543,11 +7543,11 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7568,7 +7568,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutput
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -7576,7 +7576,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutput
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7616,11 +7616,11 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutput
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7629,15 +7629,15 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddOutput
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7668,42 +7668,42 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7714,9 +7714,9 @@ export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7724,11 +7724,11 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7749,7 +7749,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -7757,7 +7757,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutpu
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7797,11 +7797,11 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutpu
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -7810,15 +7810,15 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddOutpu
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7849,55 +7849,55 @@ export interface GoogleComputeUrlMapPathMatcherHeaderAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddList",
@@ -7908,14 +7908,14 @@ export function googleComputeUrlMapPathMatcherHeaderActionToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7995,7 +7995,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionOutputReference extends c
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -8011,7 +8011,7 @@ export class GoogleComputeUrlMapPathMatcherHeaderActionOutputReference extends c
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -8053,39 +8053,39 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
   readonly path?: string;
 }
 
-export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    match_response_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.matchResponseCodes),
-    override_response_code: cdktf.numberToTerraform(struct!.overrideResponseCode),
-    path: cdktf.stringToTerraform(struct!.path),
+    match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
+    override_response_code: cdktn.numberToTerraform(struct!.overrideResponseCode),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     match_response_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.matchResponseCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.matchResponseCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     override_response_code: {
-      value: cdktf.numberToHclTerraform(struct!.overrideResponseCode),
+      value: cdktn.numberToHclTerraform(struct!.overrideResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8096,9 +8096,9 @@ export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyE
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8106,11 +8106,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8131,7 +8131,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -8139,7 +8139,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
       this._overrideResponseCode = undefined;
       this._path = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8201,15 +8201,15 @@ export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErro
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8239,35 +8239,35 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
-  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable;
+  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    error_service: cdktf.stringToTerraform(struct!.errorService),
-    error_response_rule: cdktf.listMapper(googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
+    error_service: cdktn.stringToTerraform(struct!.errorService),
+    error_response_rule: cdktn.listMapper(googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     error_service: {
-      value: cdktf.stringToHclTerraform(struct!.errorService),
+      value: cdktn.stringToHclTerraform(struct!.errorService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     error_response_rule: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleList",
@@ -8278,14 +8278,14 @@ export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8337,7 +8337,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutp
   public get errorResponseRule() {
     return this._errorResponseRule;
   }
-  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable) {
+  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable) {
     this._errorResponseRule.internalValue = value;
   }
   public resetErrorResponseRule() {
@@ -8356,7 +8356,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
-  readonly allowCredentials?: boolean | cdktf.IResolvable;
+  readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
@@ -8389,7 +8389,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
-  readonly disabled: boolean | cdktf.IResolvable;
+  readonly disabled: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
@@ -8406,73 +8406,73 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_credentials: cdktf.booleanToTerraform(struct!.allowCredentials),
-    allow_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowHeaders),
-    allow_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowMethods),
-    allow_origin_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegexes),
-    allow_origins: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOrigins),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    expose_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exposeHeaders),
-    max_age: cdktf.numberToTerraform(struct!.maxAge),
+    allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
+    allow_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowHeaders),
+    allow_methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowMethods),
+    allow_origin_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOriginRegexes),
+    allow_origins: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOrigins),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    expose_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exposeHeaders),
+    max_age: cdktn.numberToTerraform(struct!.maxAge),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_credentials: {
-      value: cdktf.booleanToHclTerraform(struct!.allowCredentials),
+      value: cdktn.booleanToHclTerraform(struct!.allowCredentials),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowMethods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowMethods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origin_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOriginRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOriginRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origins: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOrigins),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOrigins),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     expose_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exposeHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exposeHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     max_age: {
-      value: cdktf.numberToHclTerraform(struct!.maxAge),
+      value: cdktn.numberToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -8483,14 +8483,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8558,11 +8558,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputRe
   }
 
   // allow_credentials - computed: false, optional: true, required: false
-  private _allowCredentials?: boolean | cdktf.IResolvable; 
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
-  public set allowCredentials(value: boolean | cdktf.IResolvable) {
+  public set allowCredentials(value: boolean | cdktn.IResolvable) {
     this._allowCredentials = value;
   }
   public resetAllowCredentials() {
@@ -8638,11 +8638,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputRe
   }
 
   // disabled - computed: false, optional: false, required: true
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -8701,31 +8701,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    http_status: cdktf.numberToTerraform(struct!.httpStatus),
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    http_status: cdktn.numberToTerraform(struct!.httpStatus),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     http_status: {
-      value: cdktf.numberToHclTerraform(struct!.httpStatus),
+      value: cdktn.numberToHclTerraform(struct!.httpStatus),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -8736,14 +8736,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8819,31 +8819,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8854,14 +8854,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8939,25 +8939,25 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
     fixed_delay: googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct!.fixedDelay),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -8974,14 +8974,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9054,8 +9054,8 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -9066,8 +9066,8 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -9089,14 +9089,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9178,31 +9178,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurat
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9213,14 +9213,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurati
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9297,31 +9297,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorP
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    mirror_percent: cdktf.numberToTerraform(struct!.mirrorPercent),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    mirror_percent: cdktn.numberToTerraform(struct!.mirrorPercent),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mirror_percent: {
-      value: cdktf.numberToHclTerraform(struct!.mirrorPercent),
+      value: cdktn.numberToHclTerraform(struct!.mirrorPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -9332,14 +9332,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9418,31 +9418,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPer
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9453,14 +9453,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9563,32 +9563,32 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy {
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    num_retries: cdktf.numberToTerraform(struct!.numRetries),
-    retry_conditions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryConditions),
+    num_retries: cdktn.numberToTerraform(struct!.numRetries),
+    retry_conditions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.retryConditions),
     per_try_timeout: googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutToTerraform(struct!.perTryTimeout),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     num_retries: {
-      value: cdktf.numberToHclTerraform(struct!.numRetries),
+      value: cdktn.numberToHclTerraform(struct!.numRetries),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     retry_conditions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.retryConditions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.retryConditions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -9605,14 +9605,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9716,31 +9716,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout {
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9751,14 +9751,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9838,31 +9838,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite {
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_rewrite: cdktf.stringToTerraform(struct!.hostRewrite),
-    path_prefix_rewrite: cdktf.stringToTerraform(struct!.pathPrefixRewrite),
+    host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
+    path_prefix_rewrite: cdktn.stringToTerraform(struct!.pathPrefixRewrite),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.hostRewrite),
+      value: cdktn.stringToHclTerraform(struct!.hostRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path_prefix_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.pathPrefixRewrite),
+      value: cdktn.stringToHclTerraform(struct!.pathPrefixRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9873,14 +9873,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9963,42 +9963,42 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -10009,9 +10009,9 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10019,11 +10019,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10044,7 +10044,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -10052,7 +10052,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10092,11 +10092,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -10105,15 +10105,15 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10144,42 +10144,42 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -10190,9 +10190,9 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10200,11 +10200,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10225,7 +10225,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -10233,7 +10233,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10273,11 +10273,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -10286,15 +10286,15 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10325,55 +10325,55 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList",
@@ -10384,14 +10384,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10471,7 +10471,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -10487,7 +10487,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -10526,33 +10526,33 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   readonly headerAction?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction;
 }
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    weight: cdktf.numberToTerraform(struct!.weight),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    weight: cdktn.numberToTerraform(struct!.weight),
     header_action: googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionToTerraform(struct!.headerAction),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     weight: {
-      value: cdktf.numberToHclTerraform(struct!.weight),
+      value: cdktn.numberToHclTerraform(struct!.weight),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -10569,9 +10569,9 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -10579,11 +10579,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10604,7 +10604,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -10612,7 +10612,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
       this._weight = undefined;
       this._headerAction.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10668,15 +10668,15 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -10735,12 +10735,12 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
-  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktf.IResolvable;
+  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -10751,14 +10751,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionToTerraform(str
     retry_policy: googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToTerraform(struct!.retryPolicy),
     timeout: googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToTerraform(struct!.timeout),
     url_rewrite: googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToTerraform(struct!.urlRewrite),
-    weighted_backend_services: cdktf.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
+    weighted_backend_services: cdktn.listMapper(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -10805,7 +10805,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionToHclTerraform(
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteList",
     },
     weighted_backend_services: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesList",
@@ -10816,14 +10816,14 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11007,7 +11007,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference ex
   public get weightedBackendServices() {
     return this._weightedBackendServices;
   }
-  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktf.IResolvable) {
+  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktn.IResolvable) {
     this._weightedBackendServices.internalValue = value;
   }
   public resetWeightedBackendServices() {
@@ -11036,7 +11036,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
-  readonly httpsRedirect?: boolean | cdktf.IResolvable;
+  readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
   * The path that will be used in the redirect response instead of the one
   * that was supplied in the request. pathRedirect cannot be supplied
@@ -11084,63 +11084,63 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
-  readonly stripQuery: boolean | cdktf.IResolvable;
+  readonly stripQuery: boolean | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_redirect: cdktf.stringToTerraform(struct!.hostRedirect),
-    https_redirect: cdktf.booleanToTerraform(struct!.httpsRedirect),
-    path_redirect: cdktf.stringToTerraform(struct!.pathRedirect),
-    prefix_redirect: cdktf.stringToTerraform(struct!.prefixRedirect),
-    redirect_response_code: cdktf.stringToTerraform(struct!.redirectResponseCode),
-    strip_query: cdktf.booleanToTerraform(struct!.stripQuery),
+    host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
+    https_redirect: cdktn.booleanToTerraform(struct!.httpsRedirect),
+    path_redirect: cdktn.stringToTerraform(struct!.pathRedirect),
+    prefix_redirect: cdktn.stringToTerraform(struct!.prefixRedirect),
+    redirect_response_code: cdktn.stringToTerraform(struct!.redirectResponseCode),
+    strip_query: cdktn.booleanToTerraform(struct!.stripQuery),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.hostRedirect),
+      value: cdktn.stringToHclTerraform(struct!.hostRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     https_redirect: {
-      value: cdktf.booleanToHclTerraform(struct!.httpsRedirect),
+      value: cdktn.booleanToHclTerraform(struct!.httpsRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.pathRedirect),
+      value: cdktn.stringToHclTerraform(struct!.pathRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prefix_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.prefixRedirect),
+      value: cdktn.stringToHclTerraform(struct!.prefixRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     redirect_response_code: {
-      value: cdktf.stringToHclTerraform(struct!.redirectResponseCode),
+      value: cdktn.stringToHclTerraform(struct!.redirectResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     strip_query: {
-      value: cdktf.booleanToHclTerraform(struct!.stripQuery),
+      value: cdktn.booleanToHclTerraform(struct!.stripQuery),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -11151,14 +11151,14 @@ export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11230,11 +11230,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference ex
   }
 
   // https_redirect - computed: false, optional: true, required: false
-  private _httpsRedirect?: boolean | cdktf.IResolvable; 
+  private _httpsRedirect?: boolean | cdktn.IResolvable; 
   public get httpsRedirect() {
     return this.getBooleanAttribute('https_redirect');
   }
-  public set httpsRedirect(value: boolean | cdktf.IResolvable) {
+  public set httpsRedirect(value: boolean | cdktn.IResolvable) {
     this._httpsRedirect = value;
   }
   public resetHttpsRedirect() {
@@ -11294,11 +11294,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference ex
   }
 
   // strip_query - computed: false, optional: false, required: true
-  private _stripQuery?: boolean | cdktf.IResolvable; 
+  private _stripQuery?: boolean | cdktn.IResolvable; 
   public get stripQuery() {
     return this.getBooleanAttribute('strip_query');
   }
-  public set stripQuery(value: boolean | cdktf.IResolvable) {
+  public set stripQuery(value: boolean | cdktn.IResolvable) {
     this._stripQuery = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -11342,14 +11342,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRule {
   readonly urlRedirect?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect;
 }
 
-export function googleComputeUrlMapPathMatcherPathRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    paths: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.paths),
-    service: cdktf.stringToTerraform(struct!.service),
+    paths: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.paths),
+    service: cdktn.stringToTerraform(struct!.service),
     custom_error_response_policy: googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyToTerraform(struct!.customErrorResponsePolicy),
     route_action: googleComputeUrlMapPathMatcherPathRuleRouteActionToTerraform(struct!.routeAction),
     url_redirect: googleComputeUrlMapPathMatcherPathRuleUrlRedirectToTerraform(struct!.urlRedirect),
@@ -11357,20 +11357,20 @@ export function googleComputeUrlMapPathMatcherPathRuleToTerraform(struct?: Googl
 }
 
 
-export function googleComputeUrlMapPathMatcherPathRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherPathRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     paths: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.paths),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.paths),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -11399,9 +11399,9 @@ export function googleComputeUrlMapPathMatcherPathRuleToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -11409,11 +11409,11 @@ export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -11442,7 +11442,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -11452,7 +11452,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf
       this._routeAction.internalValue = undefined;
       this._urlRedirect.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -11470,7 +11470,7 @@ export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf
   // paths - computed: false, optional: false, required: true
   private _paths?: string[]; 
   public get paths() {
-    return cdktf.Fn.tolist(this.getListAttribute('paths'));
+    return cdktn.Fn.tolist(this.getListAttribute('paths'));
   }
   public set paths(value: string[]) {
     this._paths = value;
@@ -11545,15 +11545,15 @@ export class GoogleComputeUrlMapPathMatcherPathRuleOutputReference extends cdktf
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherPathRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherPathRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherPathRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherPathRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -11595,39 +11595,39 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
   readonly path?: string;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    match_response_codes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.matchResponseCodes),
-    override_response_code: cdktf.numberToTerraform(struct!.overrideResponseCode),
-    path: cdktf.stringToTerraform(struct!.path),
+    match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
+    override_response_code: cdktn.numberToTerraform(struct!.overrideResponseCode),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     match_response_codes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.matchResponseCodes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.matchResponseCodes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     override_response_code: {
-      value: cdktf.numberToHclTerraform(struct!.overrideResponseCode),
+      value: cdktn.numberToHclTerraform(struct!.overrideResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -11638,9 +11638,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -11648,11 +11648,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyEr
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -11673,7 +11673,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyEr
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -11681,7 +11681,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyEr
       this._overrideResponseCode = undefined;
       this._path = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -11743,15 +11743,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyEr
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -11781,35 +11781,35 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
-  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable;
+  readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    error_service: cdktf.stringToTerraform(struct!.errorService),
-    error_response_rule: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
+    error_service: cdktn.stringToTerraform(struct!.errorService),
+    error_response_rule: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToTerraform, true)(struct!.errorResponseRule),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     error_service: {
-      value: cdktf.stringToHclTerraform(struct!.errorService),
+      value: cdktn.stringToHclTerraform(struct!.errorService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     error_response_rule: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToHclTerraform, true)(struct!.errorResponseRule),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleList",
@@ -11820,14 +11820,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -11879,7 +11879,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOu
   public get errorResponseRule() {
     return this._errorResponseRule;
   }
-  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktf.IResolvable) {
+  public putErrorResponseRule(value: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable) {
     this._errorResponseRule.internalValue = value;
   }
   public resetErrorResponseRule() {
@@ -11910,42 +11910,42 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHead
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -11956,9 +11956,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeade
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -11966,11 +11966,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -11991,7 +11991,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -11999,7 +11999,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -12039,11 +12039,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -12052,15 +12052,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersT
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -12091,42 +12091,42 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHea
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -12137,9 +12137,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHead
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -12147,11 +12147,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeaders
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -12172,7 +12172,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeaders
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -12180,7 +12180,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeaders
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -12220,11 +12220,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeaders
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -12233,15 +12233,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeaders
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -12272,55 +12272,55 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddList",
@@ -12331,14 +12331,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -12418,7 +12418,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -12434,7 +12434,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -12469,39 +12469,39 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs {
   readonly filterName?: string;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    config: cdktf.stringToTerraform(struct!.config),
-    config_type_url: cdktf.stringToTerraform(struct!.configTypeUrl),
-    filter_name: cdktf.stringToTerraform(struct!.filterName),
+    config: cdktn.stringToTerraform(struct!.config),
+    config_type_url: cdktn.stringToTerraform(struct!.configTypeUrl),
+    filter_name: cdktn.stringToTerraform(struct!.filterName),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     config: {
-      value: cdktf.stringToHclTerraform(struct!.config),
+      value: cdktn.stringToHclTerraform(struct!.config),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     config_type_url: {
-      value: cdktf.stringToHclTerraform(struct!.configTypeUrl),
+      value: cdktn.stringToHclTerraform(struct!.configTypeUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter_name: {
-      value: cdktf.stringToHclTerraform(struct!.filterName),
+      value: cdktn.stringToHclTerraform(struct!.filterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12512,9 +12512,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -12522,11 +12522,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputRefe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -12547,7 +12547,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -12555,7 +12555,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputRefe
       this._configTypeUrl = undefined;
       this._filterName = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -12617,15 +12617,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsOutputRefe
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -12660,39 +12660,39 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata {
   readonly filterName?: string;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    config: cdktf.stringToTerraform(struct!.config),
-    config_type_url: cdktf.stringToTerraform(struct!.configTypeUrl),
-    filter_name: cdktf.stringToTerraform(struct!.filterName),
+    config: cdktn.stringToTerraform(struct!.config),
+    config_type_url: cdktn.stringToTerraform(struct!.configTypeUrl),
+    filter_name: cdktn.stringToTerraform(struct!.filterName),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     config: {
-      value: cdktf.stringToHclTerraform(struct!.config),
+      value: cdktn.stringToHclTerraform(struct!.config),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     config_type_url: {
-      value: cdktf.stringToHclTerraform(struct!.configTypeUrl),
+      value: cdktn.stringToHclTerraform(struct!.configTypeUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter_name: {
-      value: cdktf.stringToHclTerraform(struct!.filterName),
+      value: cdktn.stringToHclTerraform(struct!.filterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12703,9 +12703,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -12713,11 +12713,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -12738,7 +12738,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -12746,7 +12746,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputRef
       this._configTypeUrl = undefined;
       this._filterName = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -12808,15 +12808,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataOutputRef
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -12843,31 +12843,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    range_end: cdktf.numberToTerraform(struct!.rangeEnd),
-    range_start: cdktf.numberToTerraform(struct!.rangeStart),
+    range_end: cdktn.numberToTerraform(struct!.rangeEnd),
+    range_start: cdktn.numberToTerraform(struct!.rangeStart),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     range_end: {
-      value: cdktf.numberToHclTerraform(struct!.rangeEnd),
+      value: cdktn.numberToHclTerraform(struct!.rangeEnd),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     range_start: {
-      value: cdktf.numberToHclTerraform(struct!.rangeStart),
+      value: cdktn.numberToHclTerraform(struct!.rangeStart),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -12878,14 +12878,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesR
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -12965,7 +12965,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
   */
-  readonly invertMatch?: boolean | cdktf.IResolvable;
+  readonly invertMatch?: boolean | cdktn.IResolvable;
   /**
   * The value of the header must start with the contents of prefixMatch. Only one of
   * exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
@@ -12981,7 +12981,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
   */
-  readonly presentMatch?: boolean | cdktf.IResolvable;
+  readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
   * The value of the header must match the regular expression specified in
   * regexMatch. For regular expression grammar, please see:
@@ -13010,68 +13010,68 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   readonly rangeMatch?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exact_match: cdktf.stringToTerraform(struct!.exactMatch),
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    invert_match: cdktf.booleanToTerraform(struct!.invertMatch),
-    prefix_match: cdktf.stringToTerraform(struct!.prefixMatch),
-    present_match: cdktf.booleanToTerraform(struct!.presentMatch),
-    regex_match: cdktf.stringToTerraform(struct!.regexMatch),
-    suffix_match: cdktf.stringToTerraform(struct!.suffixMatch),
+    exact_match: cdktn.stringToTerraform(struct!.exactMatch),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    invert_match: cdktn.booleanToTerraform(struct!.invertMatch),
+    prefix_match: cdktn.stringToTerraform(struct!.prefixMatch),
+    present_match: cdktn.booleanToTerraform(struct!.presentMatch),
+    regex_match: cdktn.stringToTerraform(struct!.regexMatch),
+    suffix_match: cdktn.stringToTerraform(struct!.suffixMatch),
     range_match: googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchToTerraform(struct!.rangeMatch),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exact_match: {
-      value: cdktf.stringToHclTerraform(struct!.exactMatch),
+      value: cdktn.stringToHclTerraform(struct!.exactMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     invert_match: {
-      value: cdktf.booleanToHclTerraform(struct!.invertMatch),
+      value: cdktn.booleanToHclTerraform(struct!.invertMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     prefix_match: {
-      value: cdktf.stringToHclTerraform(struct!.prefixMatch),
+      value: cdktn.stringToHclTerraform(struct!.prefixMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     present_match: {
-      value: cdktf.booleanToHclTerraform(struct!.presentMatch),
+      value: cdktn.booleanToHclTerraform(struct!.presentMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     regex_match: {
-      value: cdktf.stringToHclTerraform(struct!.regexMatch),
+      value: cdktn.stringToHclTerraform(struct!.regexMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     suffix_match: {
-      value: cdktf.stringToHclTerraform(struct!.suffixMatch),
+      value: cdktn.stringToHclTerraform(struct!.suffixMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -13088,9 +13088,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -13098,11 +13098,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -13143,7 +13143,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -13156,7 +13156,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
       this._suffixMatch = undefined;
       this._rangeMatch.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -13204,11 +13204,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
   }
 
   // invert_match - computed: false, optional: true, required: false
-  private _invertMatch?: boolean | cdktf.IResolvable; 
+  private _invertMatch?: boolean | cdktn.IResolvable; 
   public get invertMatch() {
     return this.getBooleanAttribute('invert_match');
   }
-  public set invertMatch(value: boolean | cdktf.IResolvable) {
+  public set invertMatch(value: boolean | cdktn.IResolvable) {
     this._invertMatch = value;
   }
   public resetInvertMatch() {
@@ -13236,11 +13236,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
   }
 
   // present_match - computed: false, optional: true, required: false
-  private _presentMatch?: boolean | cdktf.IResolvable; 
+  private _presentMatch?: boolean | cdktn.IResolvable; 
   public get presentMatch() {
     return this.getBooleanAttribute('present_match');
   }
-  public set presentMatch(value: boolean | cdktf.IResolvable) {
+  public set presentMatch(value: boolean | cdktn.IResolvable) {
     this._presentMatch = value;
   }
   public resetPresentMatch() {
@@ -13300,15 +13300,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesOutp
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -13336,32 +13336,32 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
   readonly value: string;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -13372,9 +13372,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilter
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -13382,11 +13382,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFi
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -13403,14 +13403,14 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFi
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -13449,15 +13449,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFi
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -13485,35 +13485,35 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
   */
-  readonly filterLabels: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktf.IResolvable;
+  readonly filterLabels: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    filter_match_criteria: cdktf.stringToTerraform(struct!.filterMatchCriteria),
-    filter_labels: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToTerraform, true)(struct!.filterLabels),
+    filter_match_criteria: cdktn.stringToTerraform(struct!.filterMatchCriteria),
+    filter_labels: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToTerraform, true)(struct!.filterLabels),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     filter_match_criteria: {
-      value: cdktf.stringToHclTerraform(struct!.filterMatchCriteria),
+      value: cdktn.stringToHclTerraform(struct!.filterMatchCriteria),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     filter_labels: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToHclTerraform, true)(struct!.filterLabels),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToHclTerraform, true)(struct!.filterLabels),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsList",
@@ -13524,9 +13524,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilter
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -13534,11 +13534,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -13555,14 +13555,14 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._filterMatchCriteria = undefined;
       this._filterLabels.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -13592,7 +13592,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOu
   public get filterLabels() {
     return this._filterLabels;
   }
-  public putFilterLabels(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktf.IResolvable) {
+  public putFilterLabels(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktn.IResolvable) {
     this._filterLabels.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -13601,15 +13601,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersOu
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -13643,7 +13643,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
   */
-  readonly presentMatch?: boolean | cdktf.IResolvable;
+  readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
   * The queryParameterMatch matches if the value of the parameter matches the
   * regular expression specified by regexMatch. For the regular expression grammar,
@@ -13655,46 +13655,46 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
   readonly regexMatch?: string;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exact_match: cdktf.stringToTerraform(struct!.exactMatch),
-    name: cdktf.stringToTerraform(struct!.name),
-    present_match: cdktf.booleanToTerraform(struct!.presentMatch),
-    regex_match: cdktf.stringToTerraform(struct!.regexMatch),
+    exact_match: cdktn.stringToTerraform(struct!.exactMatch),
+    name: cdktn.stringToTerraform(struct!.name),
+    present_match: cdktn.booleanToTerraform(struct!.presentMatch),
+    regex_match: cdktn.stringToTerraform(struct!.regexMatch),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exact_match: {
-      value: cdktf.stringToHclTerraform(struct!.exactMatch),
+      value: cdktn.stringToHclTerraform(struct!.exactMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     present_match: {
-      value: cdktf.booleanToHclTerraform(struct!.presentMatch),
+      value: cdktn.booleanToHclTerraform(struct!.presentMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     regex_match: {
-      value: cdktf.stringToHclTerraform(struct!.regexMatch),
+      value: cdktn.stringToHclTerraform(struct!.regexMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -13705,9 +13705,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameter
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -13715,11 +13715,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMat
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -13744,7 +13744,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMat
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -13753,7 +13753,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMat
       this._presentMatch = undefined;
       this._regexMatch = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -13797,11 +13797,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMat
   }
 
   // present_match - computed: false, optional: true, required: false
-  private _presentMatch?: boolean | cdktf.IResolvable; 
+  private _presentMatch?: boolean | cdktn.IResolvable; 
   public get presentMatch() {
     return this.getBooleanAttribute('present_match');
   }
-  public set presentMatch(value: boolean | cdktf.IResolvable) {
+  public set presentMatch(value: boolean | cdktn.IResolvable) {
     this._presentMatch = value;
   }
   public resetPresentMatch() {
@@ -13829,15 +13829,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMat
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -13865,7 +13865,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
   */
-  readonly ignoreCase?: boolean | cdktf.IResolvable;
+  readonly ignoreCase?: boolean | cdktn.IResolvable;
   /**
   * For satisfying the matchRule condition, the path of the request
   * must match the wildcard pattern specified in pathTemplateMatch
@@ -13904,89 +13904,89 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
   */
-  readonly headerMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktf.IResolvable;
+  readonly headerMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktn.IResolvable;
   /**
   * metadata_filters block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
   */
-  readonly metadataFilters?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktf.IResolvable;
+  readonly metadataFilters?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktn.IResolvable;
   /**
   * query_parameter_matches block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
   */
-  readonly queryParameterMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktf.IResolvable;
+  readonly queryParameterMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    full_path_match: cdktf.stringToTerraform(struct!.fullPathMatch),
-    ignore_case: cdktf.booleanToTerraform(struct!.ignoreCase),
-    path_template_match: cdktf.stringToTerraform(struct!.pathTemplateMatch),
-    prefix_match: cdktf.stringToTerraform(struct!.prefixMatch),
-    regex_match: cdktf.stringToTerraform(struct!.regexMatch),
-    header_matches: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToTerraform, true)(struct!.headerMatches),
-    metadata_filters: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToTerraform, true)(struct!.metadataFilters),
-    query_parameter_matches: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToTerraform, true)(struct!.queryParameterMatches),
+    full_path_match: cdktn.stringToTerraform(struct!.fullPathMatch),
+    ignore_case: cdktn.booleanToTerraform(struct!.ignoreCase),
+    path_template_match: cdktn.stringToTerraform(struct!.pathTemplateMatch),
+    prefix_match: cdktn.stringToTerraform(struct!.prefixMatch),
+    regex_match: cdktn.stringToTerraform(struct!.regexMatch),
+    header_matches: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToTerraform, true)(struct!.headerMatches),
+    metadata_filters: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToTerraform, true)(struct!.metadataFilters),
+    query_parameter_matches: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToTerraform, true)(struct!.queryParameterMatches),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     full_path_match: {
-      value: cdktf.stringToHclTerraform(struct!.fullPathMatch),
+      value: cdktn.stringToHclTerraform(struct!.fullPathMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ignore_case: {
-      value: cdktf.booleanToHclTerraform(struct!.ignoreCase),
+      value: cdktn.booleanToHclTerraform(struct!.ignoreCase),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path_template_match: {
-      value: cdktf.stringToHclTerraform(struct!.pathTemplateMatch),
+      value: cdktn.stringToHclTerraform(struct!.pathTemplateMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prefix_match: {
-      value: cdktf.stringToHclTerraform(struct!.prefixMatch),
+      value: cdktn.stringToHclTerraform(struct!.prefixMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     regex_match: {
-      value: cdktf.stringToHclTerraform(struct!.regexMatch),
+      value: cdktn.stringToHclTerraform(struct!.regexMatch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_matches: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToHclTerraform, true)(struct!.headerMatches),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToHclTerraform, true)(struct!.headerMatches),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesList",
     },
     metadata_filters: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToHclTerraform, true)(struct!.metadataFilters),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToHclTerraform, true)(struct!.metadataFilters),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersList",
     },
     query_parameter_matches: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToHclTerraform, true)(struct!.queryParameterMatches),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToHclTerraform, true)(struct!.queryParameterMatches),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesList",
@@ -13997,9 +13997,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -14007,11 +14007,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -14052,7 +14052,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -14065,7 +14065,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
       this._metadataFilters.internalValue = undefined;
       this._queryParameterMatches.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -14100,11 +14100,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   }
 
   // ignore_case - computed: false, optional: true, required: false
-  private _ignoreCase?: boolean | cdktf.IResolvable; 
+  private _ignoreCase?: boolean | cdktn.IResolvable; 
   public get ignoreCase() {
     return this.getBooleanAttribute('ignore_case');
   }
-  public set ignoreCase(value: boolean | cdktf.IResolvable) {
+  public set ignoreCase(value: boolean | cdktn.IResolvable) {
     this._ignoreCase = value;
   }
   public resetIgnoreCase() {
@@ -14168,7 +14168,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   public get headerMatches() {
     return this._headerMatches;
   }
-  public putHeaderMatches(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktf.IResolvable) {
+  public putHeaderMatches(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktn.IResolvable) {
     this._headerMatches.internalValue = value;
   }
   public resetHeaderMatches() {
@@ -14184,7 +14184,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   public get metadataFilters() {
     return this._metadataFilters;
   }
-  public putMetadataFilters(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktf.IResolvable) {
+  public putMetadataFilters(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktn.IResolvable) {
     this._metadataFilters.internalValue = value;
   }
   public resetMetadataFilters() {
@@ -14200,7 +14200,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   public get queryParameterMatches() {
     return this._queryParameterMatches;
   }
-  public putQueryParameterMatches(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktf.IResolvable) {
+  public putQueryParameterMatches(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktn.IResolvable) {
     this._queryParameterMatches.internalValue = value;
   }
   public resetQueryParameterMatches() {
@@ -14212,15 +14212,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesOutputReference e
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -14239,7 +14239,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
-  readonly allowCredentials?: boolean | cdktf.IResolvable;
+  readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
@@ -14273,7 +14273,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
@@ -14290,73 +14290,73 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_credentials: cdktf.booleanToTerraform(struct!.allowCredentials),
-    allow_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowHeaders),
-    allow_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowMethods),
-    allow_origin_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOriginRegexes),
-    allow_origins: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowOrigins),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    expose_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exposeHeaders),
-    max_age: cdktf.numberToTerraform(struct!.maxAge),
+    allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
+    allow_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowHeaders),
+    allow_methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowMethods),
+    allow_origin_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOriginRegexes),
+    allow_origins: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowOrigins),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    expose_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exposeHeaders),
+    max_age: cdktn.numberToTerraform(struct!.maxAge),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_credentials: {
-      value: cdktf.booleanToHclTerraform(struct!.allowCredentials),
+      value: cdktn.booleanToHclTerraform(struct!.allowCredentials),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowMethods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowMethods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origin_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOriginRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOriginRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     allow_origins: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowOrigins),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowOrigins),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     expose_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exposeHeaders),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exposeHeaders),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     max_age: {
-      value: cdktf.numberToHclTerraform(struct!.maxAge),
+      value: cdktn.numberToHclTerraform(struct!.maxAge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -14367,14 +14367,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -14442,11 +14442,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutput
   }
 
   // allow_credentials - computed: false, optional: true, required: false
-  private _allowCredentials?: boolean | cdktf.IResolvable; 
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
-  public set allowCredentials(value: boolean | cdktf.IResolvable) {
+  public set allowCredentials(value: boolean | cdktn.IResolvable) {
     this._allowCredentials = value;
   }
   public resetAllowCredentials() {
@@ -14522,11 +14522,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutput
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -14588,31 +14588,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    http_status: cdktf.numberToTerraform(struct!.httpStatus),
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    http_status: cdktn.numberToTerraform(struct!.httpStatus),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     http_status: {
-      value: cdktf.numberToHclTerraform(struct!.httpStatus),
+      value: cdktn.numberToHclTerraform(struct!.httpStatus),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -14623,14 +14623,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -14712,31 +14712,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -14747,14 +14747,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -14832,25 +14832,25 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
     fixed_delay: googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct!.fixedDelay),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -14867,14 +14867,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -14953,8 +14953,8 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -14965,8 +14965,8 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -14988,14 +14988,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15077,31 +15077,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDur
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -15112,14 +15112,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDura
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15196,31 +15196,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirro
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    mirror_percent: cdktf.numberToTerraform(struct!.mirrorPercent),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    mirror_percent: cdktn.numberToTerraform(struct!.mirrorPercent),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mirror_percent: {
-      value: cdktf.numberToHclTerraform(struct!.mirrorPercent),
+      value: cdktn.numberToHclTerraform(struct!.mirrorPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -15231,14 +15231,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirror
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15317,31 +15317,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyP
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -15352,14 +15352,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15462,32 +15462,32 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy 
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    num_retries: cdktf.numberToTerraform(struct!.numRetries),
-    retry_conditions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.retryConditions),
+    num_retries: cdktn.numberToTerraform(struct!.numRetries),
+    retry_conditions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.retryConditions),
     per_try_timeout: googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutToTerraform(struct!.perTryTimeout),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     num_retries: {
-      value: cdktf.numberToHclTerraform(struct!.numRetries),
+      value: cdktn.numberToHclTerraform(struct!.numRetries),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     retry_conditions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.retryConditions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.retryConditions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -15504,14 +15504,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15612,31 +15612,31 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout {
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.stringToTerraform(struct!.seconds),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.stringToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.stringToHclTerraform(struct!.seconds),
+      value: cdktn.stringToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -15647,14 +15647,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15753,38 +15753,38 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_rewrite: cdktf.stringToTerraform(struct!.hostRewrite),
-    path_prefix_rewrite: cdktf.stringToTerraform(struct!.pathPrefixRewrite),
-    path_template_rewrite: cdktf.stringToTerraform(struct!.pathTemplateRewrite),
+    host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
+    path_prefix_rewrite: cdktn.stringToTerraform(struct!.pathPrefixRewrite),
+    path_template_rewrite: cdktn.stringToTerraform(struct!.pathTemplateRewrite),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.hostRewrite),
+      value: cdktn.stringToHclTerraform(struct!.hostRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path_prefix_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.pathPrefixRewrite),
+      value: cdktn.stringToHclTerraform(struct!.pathPrefixRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path_template_rewrite: {
-      value: cdktf.stringToHclTerraform(struct!.pathTemplateRewrite),
+      value: cdktn.stringToHclTerraform(struct!.pathTemplateRewrite),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -15795,14 +15795,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -15907,42 +15907,42 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -15953,9 +15953,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBacke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -15963,11 +15963,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -15988,7 +15988,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -15996,7 +15996,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -16036,11 +16036,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -16049,15 +16049,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -16088,42 +16088,42 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
-  readonly replace: boolean | cdktf.IResolvable;
+  readonly replace: boolean | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    header_name: cdktf.stringToTerraform(struct!.headerName),
-    header_value: cdktf.stringToTerraform(struct!.headerValue),
-    replace: cdktf.booleanToTerraform(struct!.replace),
+    header_name: cdktn.stringToTerraform(struct!.headerName),
+    header_value: cdktn.stringToTerraform(struct!.headerValue),
+    replace: cdktn.booleanToTerraform(struct!.replace),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     header_name: {
-      value: cdktf.stringToHclTerraform(struct!.headerName),
+      value: cdktn.stringToHclTerraform(struct!.headerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_value: {
-      value: cdktf.stringToHclTerraform(struct!.headerValue),
+      value: cdktn.stringToHclTerraform(struct!.headerValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replace: {
-      value: cdktf.booleanToHclTerraform(struct!.replace),
+      value: cdktn.booleanToHclTerraform(struct!.replace),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -16134,9 +16134,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBacke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -16144,11 +16144,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -16169,7 +16169,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -16177,7 +16177,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
       this._headerValue = undefined;
       this._replace = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -16217,11 +16217,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   }
 
   // replace - computed: false, optional: false, required: true
-  private _replace?: boolean | cdktf.IResolvable; 
+  private _replace?: boolean | cdktn.IResolvable; 
   public get replace() {
     return this.getBooleanAttribute('replace');
   }
-  public set replace(value: boolean | cdktf.IResolvable) {
+  public set replace(value: boolean | cdktn.IResolvable) {
     this._replace = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -16230,15 +16230,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -16269,55 +16269,55 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
-  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable;
+  readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
-  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable;
+  readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    request_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requestHeadersToRemove),
-    response_headers_to_remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.responseHeadersToRemove),
-    request_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
-    response_headers_to_add: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
+    request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
+    response_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.responseHeadersToRemove),
+    request_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform, true)(struct!.requestHeadersToAdd),
+    response_headers_to_add: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform, true)(struct!.responseHeadersToAdd),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     request_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requestHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     response_headers_to_remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.responseHeadersToRemove),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     request_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform, true)(struct!.requestHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddList",
     },
     response_headers_to_add: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform, true)(struct!.responseHeadersToAdd),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddList",
@@ -16328,14 +16328,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBacke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -16415,7 +16415,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   public get requestHeadersToAdd() {
     return this._requestHeadersToAdd;
   }
-  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktf.IResolvable) {
+  public putRequestHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable) {
     this._requestHeadersToAdd.internalValue = value;
   }
   public resetRequestHeadersToAdd() {
@@ -16431,7 +16431,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   public get responseHeadersToAdd() {
     return this._responseHeadersToAdd;
   }
-  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktf.IResolvable) {
+  public putResponseHeadersToAdd(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable) {
     this._responseHeadersToAdd.internalValue = value;
   }
   public resetResponseHeadersToAdd() {
@@ -16470,33 +16470,33 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   readonly headerAction?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderAction;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_service: cdktf.stringToTerraform(struct!.backendService),
-    weight: cdktf.numberToTerraform(struct!.weight),
+    backend_service: cdktn.stringToTerraform(struct!.backendService),
+    weight: cdktn.numberToTerraform(struct!.weight),
     header_action: googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionToTerraform(struct!.headerAction),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backend_service: {
-      value: cdktf.stringToHclTerraform(struct!.backendService),
+      value: cdktn.stringToHclTerraform(struct!.backendService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     weight: {
-      value: cdktf.numberToHclTerraform(struct!.weight),
+      value: cdktn.numberToHclTerraform(struct!.weight),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -16513,9 +16513,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBacke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -16523,11 +16523,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -16548,7 +16548,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -16556,7 +16556,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
       this._weight = undefined;
       this._headerAction.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -16612,15 +16612,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -16679,12 +16679,12 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteAction {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
-  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktf.IResolvable;
+  readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -16695,14 +16695,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionToTerraform(s
     retry_policy: googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyToTerraform(struct!.retryPolicy),
     timeout: googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToTerraform(struct!.timeout),
     url_rewrite: googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToTerraform(struct!.urlRewrite),
-    weighted_backend_services: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
+    weighted_backend_services: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToTerraform, true)(struct!.weightedBackendServices),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -16749,7 +16749,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionToHclTerrafor
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteList",
     },
     weighted_backend_services: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesToHclTerraform, true)(struct!.weightedBackendServices),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesList",
@@ -16760,14 +16760,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -16951,7 +16951,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference 
   public get weightedBackendServices() {
     return this._weightedBackendServices;
   }
-  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktf.IResolvable) {
+  public putWeightedBackendServices(value: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServices[] | cdktn.IResolvable) {
     this._weightedBackendServices.internalValue = value;
   }
   public resetWeightedBackendServices() {
@@ -16978,7 +16978,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
-  readonly httpsRedirect?: boolean | cdktf.IResolvable;
+  readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
   * The path that will be used in the redirect response instead of the one that was
   * supplied in the request. Only one of pathRedirect or prefixRedirect must be
@@ -17017,63 +17017,63 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
-  readonly stripQuery?: boolean | cdktf.IResolvable;
+  readonly stripQuery?: boolean | cdktn.IResolvable;
 }
 
 export function googleComputeUrlMapPathMatcherRouteRulesUrlRedirectToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_redirect: cdktf.stringToTerraform(struct!.hostRedirect),
-    https_redirect: cdktf.booleanToTerraform(struct!.httpsRedirect),
-    path_redirect: cdktf.stringToTerraform(struct!.pathRedirect),
-    prefix_redirect: cdktf.stringToTerraform(struct!.prefixRedirect),
-    redirect_response_code: cdktf.stringToTerraform(struct!.redirectResponseCode),
-    strip_query: cdktf.booleanToTerraform(struct!.stripQuery),
+    host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
+    https_redirect: cdktn.booleanToTerraform(struct!.httpsRedirect),
+    path_redirect: cdktn.stringToTerraform(struct!.pathRedirect),
+    prefix_redirect: cdktn.stringToTerraform(struct!.prefixRedirect),
+    redirect_response_code: cdktn.stringToTerraform(struct!.redirectResponseCode),
+    strip_query: cdktn.booleanToTerraform(struct!.stripQuery),
   }
 }
 
 
 export function googleComputeUrlMapPathMatcherRouteRulesUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.hostRedirect),
+      value: cdktn.stringToHclTerraform(struct!.hostRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     https_redirect: {
-      value: cdktf.booleanToHclTerraform(struct!.httpsRedirect),
+      value: cdktn.booleanToHclTerraform(struct!.httpsRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.pathRedirect),
+      value: cdktn.stringToHclTerraform(struct!.pathRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prefix_redirect: {
-      value: cdktf.stringToHclTerraform(struct!.prefixRedirect),
+      value: cdktn.stringToHclTerraform(struct!.prefixRedirect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     redirect_response_code: {
-      value: cdktf.stringToHclTerraform(struct!.redirectResponseCode),
+      value: cdktn.stringToHclTerraform(struct!.redirectResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     strip_query: {
-      value: cdktf.booleanToHclTerraform(struct!.stripQuery),
+      value: cdktn.booleanToHclTerraform(struct!.stripQuery),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -17084,14 +17084,14 @@ export function googleComputeUrlMapPathMatcherRouteRulesUrlRedirectToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -17163,11 +17163,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference 
   }
 
   // https_redirect - computed: false, optional: true, required: false
-  private _httpsRedirect?: boolean | cdktf.IResolvable; 
+  private _httpsRedirect?: boolean | cdktn.IResolvable; 
   public get httpsRedirect() {
     return this.getBooleanAttribute('https_redirect');
   }
-  public set httpsRedirect(value: boolean | cdktf.IResolvable) {
+  public set httpsRedirect(value: boolean | cdktn.IResolvable) {
     this._httpsRedirect = value;
   }
   public resetHttpsRedirect() {
@@ -17227,11 +17227,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirectOutputReference 
   }
 
   // strip_query - computed: false, optional: true, required: false
-  private _stripQuery?: boolean | cdktf.IResolvable; 
+  private _stripQuery?: boolean | cdktn.IResolvable; 
   public get stripQuery() {
     return this.getBooleanAttribute('strip_query');
   }
-  public set stripQuery(value: boolean | cdktf.IResolvable) {
+  public set stripQuery(value: boolean | cdktn.IResolvable) {
     this._stripQuery = value;
   }
   public resetStripQuery() {
@@ -17292,19 +17292,19 @@ export interface GoogleComputeUrlMapPathMatcherRouteRules {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#http_filter_configs GoogleComputeUrlMap#http_filter_configs}
   */
-  readonly httpFilterConfigs?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktf.IResolvable;
+  readonly httpFilterConfigs?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktn.IResolvable;
   /**
   * http_filter_metadata block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#http_filter_metadata GoogleComputeUrlMap#http_filter_metadata}
   */
-  readonly httpFilterMetadata?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktf.IResolvable;
+  readonly httpFilterMetadata?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktn.IResolvable;
   /**
   * match_rules block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#match_rules GoogleComputeUrlMap#match_rules}
   */
-  readonly matchRules?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktf.IResolvable;
+  readonly matchRules?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktn.IResolvable;
   /**
   * route_action block
   *
@@ -17319,39 +17319,39 @@ export interface GoogleComputeUrlMapPathMatcherRouteRules {
   readonly urlRedirect?: GoogleComputeUrlMapPathMatcherRouteRulesUrlRedirect;
 }
 
-export function googleComputeUrlMapPathMatcherRouteRulesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    priority: cdktf.numberToTerraform(struct!.priority),
-    service: cdktf.stringToTerraform(struct!.service),
+    priority: cdktn.numberToTerraform(struct!.priority),
+    service: cdktn.stringToTerraform(struct!.service),
     custom_error_response_policy: googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyToTerraform(struct!.customErrorResponsePolicy),
     header_action: googleComputeUrlMapPathMatcherRouteRulesHeaderActionToTerraform(struct!.headerAction),
-    http_filter_configs: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerraform, true)(struct!.httpFilterConfigs),
-    http_filter_metadata: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerraform, true)(struct!.httpFilterMetadata),
-    match_rules: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform, true)(struct!.matchRules),
+    http_filter_configs: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerraform, true)(struct!.httpFilterConfigs),
+    http_filter_metadata: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerraform, true)(struct!.httpFilterMetadata),
+    match_rules: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform, true)(struct!.matchRules),
     route_action: googleComputeUrlMapPathMatcherRouteRulesRouteActionToTerraform(struct!.routeAction),
     url_redirect: googleComputeUrlMapPathMatcherRouteRulesUrlRedirectToTerraform(struct!.urlRedirect),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherRouteRulesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherRouteRulesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     priority: {
-      value: cdktf.numberToHclTerraform(struct!.priority),
+      value: cdktn.numberToHclTerraform(struct!.priority),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -17369,19 +17369,19 @@ export function googleComputeUrlMapPathMatcherRouteRulesToHclTerraform(struct?: 
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionList",
     },
     http_filter_configs: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTerraform, true)(struct!.httpFilterConfigs),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTerraform, true)(struct!.httpFilterConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsList",
     },
     http_filter_metadata: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclTerraform, true)(struct!.httpFilterMetadata),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclTerraform, true)(struct!.httpFilterMetadata),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataList",
     },
     match_rules: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform, true)(struct!.matchRules),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform, true)(struct!.matchRules),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesList",
@@ -17404,9 +17404,9 @@ export function googleComputeUrlMapPathMatcherRouteRulesToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -17414,11 +17414,11 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcherRouteRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -17463,7 +17463,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcherRouteRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -17477,7 +17477,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
       this._routeAction.internalValue = undefined;
       this._urlRedirect.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -17562,7 +17562,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
   public get httpFilterConfigs() {
     return this._httpFilterConfigs;
   }
-  public putHttpFilterConfigs(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktf.IResolvable) {
+  public putHttpFilterConfigs(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs[] | cdktn.IResolvable) {
     this._httpFilterConfigs.internalValue = value;
   }
   public resetHttpFilterConfigs() {
@@ -17578,7 +17578,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
   public get httpFilterMetadata() {
     return this._httpFilterMetadata;
   }
-  public putHttpFilterMetadata(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktf.IResolvable) {
+  public putHttpFilterMetadata(value: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata[] | cdktn.IResolvable) {
     this._httpFilterMetadata.internalValue = value;
   }
   public resetHttpFilterMetadata() {
@@ -17594,7 +17594,7 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
   public get matchRules() {
     return this._matchRules;
   }
-  public putMatchRules(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktf.IResolvable) {
+  public putMatchRules(value: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules[] | cdktn.IResolvable) {
     this._matchRules.internalValue = value;
   }
   public resetMatchRules() {
@@ -17638,15 +17638,15 @@ export class GoogleComputeUrlMapPathMatcherRouteRulesOutputReference extends cdk
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherRouteRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRules[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherRouteRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcherRouteRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -17706,54 +17706,54 @@ export interface GoogleComputeUrlMapPathMatcher {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#path_rule GoogleComputeUrlMap#path_rule}
   */
-  readonly pathRule?: GoogleComputeUrlMapPathMatcherPathRule[] | cdktf.IResolvable;
+  readonly pathRule?: GoogleComputeUrlMapPathMatcherPathRule[] | cdktn.IResolvable;
   /**
   * route_rules block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#route_rules GoogleComputeUrlMap#route_rules}
   */
-  readonly routeRules?: GoogleComputeUrlMapPathMatcherRouteRules[] | cdktf.IResolvable;
+  readonly routeRules?: GoogleComputeUrlMapPathMatcherRouteRules[] | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapPathMatcherToTerraform(struct?: GoogleComputeUrlMapPathMatcher | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherToTerraform(struct?: GoogleComputeUrlMapPathMatcher | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    default_service: cdktf.stringToTerraform(struct!.defaultService),
-    description: cdktf.stringToTerraform(struct!.description),
-    name: cdktf.stringToTerraform(struct!.name),
+    default_service: cdktn.stringToTerraform(struct!.defaultService),
+    description: cdktn.stringToTerraform(struct!.description),
+    name: cdktn.stringToTerraform(struct!.name),
     default_custom_error_response_policy: googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyToTerraform(struct!.defaultCustomErrorResponsePolicy),
     default_route_action: googleComputeUrlMapPathMatcherDefaultRouteActionToTerraform(struct!.defaultRouteAction),
     default_url_redirect: googleComputeUrlMapPathMatcherDefaultUrlRedirectToTerraform(struct!.defaultUrlRedirect),
     header_action: googleComputeUrlMapPathMatcherHeaderActionToTerraform(struct!.headerAction),
-    path_rule: cdktf.listMapper(googleComputeUrlMapPathMatcherPathRuleToTerraform, true)(struct!.pathRule),
-    route_rules: cdktf.listMapper(googleComputeUrlMapPathMatcherRouteRulesToTerraform, true)(struct!.routeRules),
+    path_rule: cdktn.listMapper(googleComputeUrlMapPathMatcherPathRuleToTerraform, true)(struct!.pathRule),
+    route_rules: cdktn.listMapper(googleComputeUrlMapPathMatcherRouteRulesToTerraform, true)(struct!.routeRules),
   }
 }
 
 
-export function googleComputeUrlMapPathMatcherToHclTerraform(struct?: GoogleComputeUrlMapPathMatcher | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapPathMatcherToHclTerraform(struct?: GoogleComputeUrlMapPathMatcher | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     default_service: {
-      value: cdktf.stringToHclTerraform(struct!.defaultService),
+      value: cdktn.stringToHclTerraform(struct!.defaultService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -17783,13 +17783,13 @@ export function googleComputeUrlMapPathMatcherToHclTerraform(struct?: GoogleComp
       storageClassType: "GoogleComputeUrlMapPathMatcherHeaderActionList",
     },
     path_rule: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleToHclTerraform, true)(struct!.pathRule),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherPathRuleToHclTerraform, true)(struct!.pathRule),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherPathRuleList",
     },
     route_rules: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesToHclTerraform, true)(struct!.routeRules),
+      value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherRouteRulesToHclTerraform, true)(struct!.routeRules),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapPathMatcherRouteRulesList",
@@ -17800,9 +17800,9 @@ export function googleComputeUrlMapPathMatcherToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -17810,11 +17810,11 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapPathMatcher | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapPathMatcher | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -17859,7 +17859,7 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapPathMatcher | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapPathMatcher | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -17873,7 +17873,7 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
       this._pathRule.internalValue = undefined;
       this._routeRules.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -18006,7 +18006,7 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
   public get pathRule() {
     return this._pathRule;
   }
-  public putPathRule(value: GoogleComputeUrlMapPathMatcherPathRule[] | cdktf.IResolvable) {
+  public putPathRule(value: GoogleComputeUrlMapPathMatcherPathRule[] | cdktn.IResolvable) {
     this._pathRule.internalValue = value;
   }
   public resetPathRule() {
@@ -18022,7 +18022,7 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
   public get routeRules() {
     return this._routeRules;
   }
-  public putRouteRules(value: GoogleComputeUrlMapPathMatcherRouteRules[] | cdktf.IResolvable) {
+  public putRouteRules(value: GoogleComputeUrlMapPathMatcherRouteRules[] | cdktn.IResolvable) {
     this._routeRules.internalValue = value;
   }
   public resetRouteRules() {
@@ -18034,15 +18034,15 @@ export class GoogleComputeUrlMapPathMatcherOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleComputeUrlMapPathMatcherList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapPathMatcher[] | cdktf.IResolvable
+export class GoogleComputeUrlMapPathMatcherList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapPathMatcher[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -18068,32 +18068,32 @@ export interface GoogleComputeUrlMapTestHeaders {
   readonly value: string;
 }
 
-export function googleComputeUrlMapTestHeadersToTerraform(struct?: GoogleComputeUrlMapTestHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTestHeadersToTerraform(struct?: GoogleComputeUrlMapTestHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleComputeUrlMapTestHeadersToHclTerraform(struct?: GoogleComputeUrlMapTestHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTestHeadersToHclTerraform(struct?: GoogleComputeUrlMapTestHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -18104,9 +18104,9 @@ export function googleComputeUrlMapTestHeadersToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapTestHeadersOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapTestHeadersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -18114,11 +18114,11 @@ export class GoogleComputeUrlMapTestHeadersOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapTestHeaders | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapTestHeaders | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -18135,14 +18135,14 @@ export class GoogleComputeUrlMapTestHeadersOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapTestHeaders | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapTestHeaders | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -18181,15 +18181,15 @@ export class GoogleComputeUrlMapTestHeadersOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleComputeUrlMapTestHeadersList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapTestHeaders[] | cdktf.IResolvable
+export class GoogleComputeUrlMapTestHeadersList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapTestHeaders[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -18250,70 +18250,70 @@ export interface GoogleComputeUrlMapTest {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#headers GoogleComputeUrlMap#headers}
   */
-  readonly headers?: GoogleComputeUrlMapTestHeaders[] | cdktf.IResolvable;
+  readonly headers?: GoogleComputeUrlMapTestHeaders[] | cdktn.IResolvable;
 }
 
-export function googleComputeUrlMapTestToTerraform(struct?: GoogleComputeUrlMapTest | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTestToTerraform(struct?: GoogleComputeUrlMapTest | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    expected_output_url: cdktf.stringToTerraform(struct!.expectedOutputUrl),
-    expected_redirect_response_code: cdktf.numberToTerraform(struct!.expectedRedirectResponseCode),
-    host: cdktf.stringToTerraform(struct!.host),
-    path: cdktf.stringToTerraform(struct!.path),
-    service: cdktf.stringToTerraform(struct!.service),
-    headers: cdktf.listMapper(googleComputeUrlMapTestHeadersToTerraform, true)(struct!.headers),
+    description: cdktn.stringToTerraform(struct!.description),
+    expected_output_url: cdktn.stringToTerraform(struct!.expectedOutputUrl),
+    expected_redirect_response_code: cdktn.numberToTerraform(struct!.expectedRedirectResponseCode),
+    host: cdktn.stringToTerraform(struct!.host),
+    path: cdktn.stringToTerraform(struct!.path),
+    service: cdktn.stringToTerraform(struct!.service),
+    headers: cdktn.listMapper(googleComputeUrlMapTestHeadersToTerraform, true)(struct!.headers),
   }
 }
 
 
-export function googleComputeUrlMapTestToHclTerraform(struct?: GoogleComputeUrlMapTest | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTestToHclTerraform(struct?: GoogleComputeUrlMapTest | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expected_output_url: {
-      value: cdktf.stringToHclTerraform(struct!.expectedOutputUrl),
+      value: cdktn.stringToHclTerraform(struct!.expectedOutputUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expected_redirect_response_code: {
-      value: cdktf.numberToHclTerraform(struct!.expectedRedirectResponseCode),
+      value: cdktn.numberToHclTerraform(struct!.expectedRedirectResponseCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
+      value: cdktn.stringToHclTerraform(struct!.host),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     headers: {
-      value: cdktf.listMapperHcl(googleComputeUrlMapTestHeadersToHclTerraform, true)(struct!.headers),
+      value: cdktn.listMapperHcl(googleComputeUrlMapTestHeadersToHclTerraform, true)(struct!.headers),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeUrlMapTestHeadersList",
@@ -18324,9 +18324,9 @@ export function googleComputeUrlMapTestToHclTerraform(struct?: GoogleComputeUrlM
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapTestOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -18334,11 +18334,11 @@ export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeUrlMapTest | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapTest | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -18375,7 +18375,7 @@ export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapTest | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapTest | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -18387,7 +18387,7 @@ export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject 
       this._service = undefined;
       this._headers.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -18499,7 +18499,7 @@ export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject 
   public get headers() {
     return this._headers;
   }
-  public putHeaders(value: GoogleComputeUrlMapTestHeaders[] | cdktf.IResolvable) {
+  public putHeaders(value: GoogleComputeUrlMapTestHeaders[] | cdktn.IResolvable) {
     this._headers.internalValue = value;
   }
   public resetHeaders() {
@@ -18511,15 +18511,15 @@ export class GoogleComputeUrlMapTestOutputReference extends cdktf.ComplexObject 
   }
 }
 
-export class GoogleComputeUrlMapTestList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeUrlMapTest[] | cdktf.IResolvable
+export class GoogleComputeUrlMapTestList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeUrlMapTest[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -18545,39 +18545,39 @@ export interface GoogleComputeUrlMapTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeUrlMapTimeoutsToTerraform(struct?: GoogleComputeUrlMapTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTimeoutsToTerraform(struct?: GoogleComputeUrlMapTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeUrlMapTimeoutsToHclTerraform(struct?: GoogleComputeUrlMapTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeUrlMapTimeoutsToHclTerraform(struct?: GoogleComputeUrlMapTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -18588,19 +18588,19 @@ export function googleComputeUrlMapTimeoutsToHclTerraform(struct?: GoogleCompute
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeUrlMapTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeUrlMapTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeUrlMapTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeUrlMapTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -18621,7 +18621,7 @@ export class GoogleComputeUrlMapTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeUrlMapTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeUrlMapTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -18629,7 +18629,7 @@ export class GoogleComputeUrlMapTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -18694,7 +18694,7 @@ export class GoogleComputeUrlMapTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map google_compute_url_map}
 */
-export class GoogleComputeUrlMap extends cdktf.TerraformResource {
+export class GoogleComputeUrlMap extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -18705,14 +18705,14 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeUrlMap resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeUrlMap resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeUrlMap to import
   * @param importFromId The id of the existing GoogleComputeUrlMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_url_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeUrlMap to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_url_map", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_url_map", importId: importFromId, provider });
       }
 
   // ===========
@@ -18927,7 +18927,7 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
   public get hostRule() {
     return this._hostRule;
   }
-  public putHostRule(value: GoogleComputeUrlMapHostRule[] | cdktf.IResolvable) {
+  public putHostRule(value: GoogleComputeUrlMapHostRule[] | cdktn.IResolvable) {
     this._hostRule.internalValue = value;
   }
   public resetHostRule() {
@@ -18943,7 +18943,7 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
   public get pathMatcher() {
     return this._pathMatcher;
   }
-  public putPathMatcher(value: GoogleComputeUrlMapPathMatcher[] | cdktf.IResolvable) {
+  public putPathMatcher(value: GoogleComputeUrlMapPathMatcher[] | cdktn.IResolvable) {
     this._pathMatcher.internalValue = value;
   }
   public resetPathMatcher() {
@@ -18959,7 +18959,7 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
   public get test() {
     return this._test;
   }
-  public putTest(value: GoogleComputeUrlMapTest[] | cdktf.IResolvable) {
+  public putTest(value: GoogleComputeUrlMapTest[] | cdktn.IResolvable) {
     this._test.internalValue = value;
   }
   public resetTest() {
@@ -18992,18 +18992,18 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      default_service: cdktf.stringToTerraform(this._defaultService),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      default_service: cdktn.stringToTerraform(this._defaultService),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       default_custom_error_response_policy: googleComputeUrlMapDefaultCustomErrorResponsePolicyToTerraform(this._defaultCustomErrorResponsePolicy.internalValue),
       default_route_action: googleComputeUrlMapDefaultRouteActionToTerraform(this._defaultRouteAction.internalValue),
       default_url_redirect: googleComputeUrlMapDefaultUrlRedirectToTerraform(this._defaultUrlRedirect.internalValue),
       header_action: googleComputeUrlMapHeaderActionToTerraform(this._headerAction.internalValue),
-      host_rule: cdktf.listMapper(googleComputeUrlMapHostRuleToTerraform, true)(this._hostRule.internalValue),
-      path_matcher: cdktf.listMapper(googleComputeUrlMapPathMatcherToTerraform, true)(this._pathMatcher.internalValue),
-      test: cdktf.listMapper(googleComputeUrlMapTestToTerraform, true)(this._test.internalValue),
+      host_rule: cdktn.listMapper(googleComputeUrlMapHostRuleToTerraform, true)(this._hostRule.internalValue),
+      path_matcher: cdktn.listMapper(googleComputeUrlMapPathMatcherToTerraform, true)(this._pathMatcher.internalValue),
+      test: cdktn.listMapper(googleComputeUrlMapTestToTerraform, true)(this._test.internalValue),
       timeouts: googleComputeUrlMapTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -19011,31 +19011,31 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       default_service: {
-        value: cdktf.stringToHclTerraform(this._defaultService),
+        value: cdktn.stringToHclTerraform(this._defaultService),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -19065,19 +19065,19 @@ export class GoogleComputeUrlMap extends cdktf.TerraformResource {
         storageClassType: "GoogleComputeUrlMapHeaderActionList",
       },
       host_rule: {
-        value: cdktf.listMapperHcl(googleComputeUrlMapHostRuleToHclTerraform, true)(this._hostRule.internalValue),
+        value: cdktn.listMapperHcl(googleComputeUrlMapHostRuleToHclTerraform, true)(this._hostRule.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeUrlMapHostRuleList",
       },
       path_matcher: {
-        value: cdktf.listMapperHcl(googleComputeUrlMapPathMatcherToHclTerraform, true)(this._pathMatcher.internalValue),
+        value: cdktn.listMapperHcl(googleComputeUrlMapPathMatcherToHclTerraform, true)(this._pathMatcher.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeUrlMapPathMatcherList",
       },
       test: {
-        value: cdktf.listMapperHcl(googleComputeUrlMapTestToHclTerraform, true)(this._test.internalValue),
+        value: cdktn.listMapperHcl(googleComputeUrlMapTestToHclTerraform, true)(this._test.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeUrlMapTestList",

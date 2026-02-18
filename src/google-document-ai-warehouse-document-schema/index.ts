@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDocumentAiWarehouseDocumentSchemaConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDocumentAiWarehouseDocumentSchemaConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of the schema given by the user.
   *
@@ -23,7 +23,7 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaConfig extends cdktf.Ter
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#document_is_folder GoogleDocumentAiWarehouseDocumentSchema#document_is_folder}
   */
-  readonly documentIsFolder?: boolean | cdktf.IResolvable;
+  readonly documentIsFolder?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#id GoogleDocumentAiWarehouseDocumentSchema#id}
   *
@@ -48,7 +48,7 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaConfig extends cdktf.Ter
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#property_definitions GoogleDocumentAiWarehouseDocumentSchema#property_definitions}
   */
-  readonly propertyDefinitions: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktf.IResolvable;
+  readonly propertyDefinitions: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -60,8 +60,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateT
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -70,8 +70,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTi
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -79,14 +79,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTi
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -117,35 +117,35 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumT
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#validation_check_disabled GoogleDocumentAiWarehouseDocumentSchema#validation_check_disabled}
   */
-  readonly validationCheckDisabled?: boolean | cdktf.IResolvable;
+  readonly validationCheckDisabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    possible_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.possibleValues),
-    validation_check_disabled: cdktf.booleanToTerraform(struct!.validationCheckDisabled),
+    possible_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.possibleValues),
+    validation_check_disabled: cdktn.booleanToTerraform(struct!.validationCheckDisabled),
   }
 }
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     possible_values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.possibleValues),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.possibleValues),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     validation_check_disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.validationCheckDisabled),
+      value: cdktn.booleanToHclTerraform(struct!.validationCheckDisabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -156,14 +156,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTy
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -208,11 +208,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeO
   }
 
   // validation_check_disabled - computed: false, optional: true, required: false
-  private _validationCheckDisabled?: boolean | cdktf.IResolvable; 
+  private _validationCheckDisabled?: boolean | cdktn.IResolvable; 
   public get validationCheckDisabled() {
     return this.getBooleanAttribute('validation_check_disabled');
   }
-  public set validationCheckDisabled(value: boolean | cdktf.IResolvable) {
+  public set validationCheckDisabled(value: boolean | cdktn.IResolvable) {
     this._validationCheckDisabled = value;
   }
   public resetValidationCheckDisabled() {
@@ -227,8 +227,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloat
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -237,8 +237,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatT
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -246,14 +246,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatT
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -276,8 +276,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsInteg
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -286,8 +286,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntege
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -295,14 +295,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntege
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -325,8 +325,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTy
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -335,8 +335,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTyp
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -344,14 +344,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTyp
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -374,8 +374,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -384,8 +384,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -393,14 +393,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -431,35 +431,35 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#validation_check_disabled GoogleDocumentAiWarehouseDocumentSchema#validation_check_disabled}
   */
-  readonly validationCheckDisabled?: boolean | cdktf.IResolvable;
+  readonly validationCheckDisabled?: boolean | cdktn.IResolvable;
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    possible_values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.possibleValues),
-    validation_check_disabled: cdktf.booleanToTerraform(struct!.validationCheckDisabled),
+    possible_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.possibleValues),
+    validation_check_disabled: cdktn.booleanToTerraform(struct!.validationCheckDisabled),
   }
 }
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     possible_values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.possibleValues),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.possibleValues),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     validation_check_disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.validationCheckDisabled),
+      value: cdktn.booleanToHclTerraform(struct!.validationCheckDisabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -470,14 +470,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -522,11 +522,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // validation_check_disabled - computed: false, optional: true, required: false
-  private _validationCheckDisabled?: boolean | cdktf.IResolvable; 
+  private _validationCheckDisabled?: boolean | cdktn.IResolvable; 
   public get validationCheckDisabled() {
     return this.getBooleanAttribute('validation_check_disabled');
   }
-  public set validationCheckDisabled(value: boolean | cdktf.IResolvable) {
+  public set validationCheckDisabled(value: boolean | cdktn.IResolvable) {
     this._validationCheckDisabled = value;
   }
   public resetValidationCheckDisabled() {
@@ -541,8 +541,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -551,8 +551,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -560,14 +560,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -590,8 +590,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -600,8 +600,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -609,14 +609,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -639,8 +639,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -649,8 +649,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -658,14 +658,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -699,32 +699,32 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   readonly processorType?: string;
 }
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    processor_type: cdktf.stringToTerraform(struct!.processorType),
+    name: cdktn.stringToTerraform(struct!.name),
+    processor_type: cdktn.stringToTerraform(struct!.processorType),
   }
 }
 
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     processor_type: {
-      value: cdktf.stringToHclTerraform(struct!.processorType),
+      value: cdktn.stringToHclTerraform(struct!.processorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -735,9 +735,9 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -745,11 +745,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -766,14 +766,14 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._processorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -818,15 +818,15 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktf.IResolvable
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -841,8 +841,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -851,8 +851,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -860,14 +860,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -890,8 +890,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -900,8 +900,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -909,14 +909,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -947,31 +947,31 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_filterable GoogleDocumentAiWarehouseDocumentSchema#is_filterable}
   */
-  readonly isFilterable?: boolean | cdktf.IResolvable;
+  readonly isFilterable?: boolean | cdktn.IResolvable;
   /**
   * Whether the property is user supplied metadata.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_metadata GoogleDocumentAiWarehouseDocumentSchema#is_metadata}
   */
-  readonly isMetadata?: boolean | cdktf.IResolvable;
+  readonly isMetadata?: boolean | cdktn.IResolvable;
   /**
   * Whether the property can have multiple values.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_repeatable GoogleDocumentAiWarehouseDocumentSchema#is_repeatable}
   */
-  readonly isRepeatable?: boolean | cdktf.IResolvable;
+  readonly isRepeatable?: boolean | cdktn.IResolvable;
   /**
   * Whether the property is mandatory.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_required GoogleDocumentAiWarehouseDocumentSchema#is_required}
   */
-  readonly isRequired?: boolean | cdktf.IResolvable;
+  readonly isRequired?: boolean | cdktn.IResolvable;
   /**
   * Indicates that the property should be included in a global search.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_searchable GoogleDocumentAiWarehouseDocumentSchema#is_searchable}
   */
-  readonly isSearchable?: boolean | cdktf.IResolvable;
+  readonly isSearchable?: boolean | cdktn.IResolvable;
   /**
   * The name of the metadata property.
   *
@@ -1019,7 +1019,7 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#schema_sources GoogleDocumentAiWarehouseDocumentSchema#schema_sources}
   */
-  readonly schemaSources?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktf.IResolvable;
+  readonly schemaSources?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktn.IResolvable;
   /**
   * text_type_options block
   *
@@ -1034,82 +1034,82 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   readonly timestampTypeOptions?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptions;
 }
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    display_name: cdktf.stringToTerraform(struct!.displayName),
-    is_filterable: cdktf.booleanToTerraform(struct!.isFilterable),
-    is_metadata: cdktf.booleanToTerraform(struct!.isMetadata),
-    is_repeatable: cdktf.booleanToTerraform(struct!.isRepeatable),
-    is_required: cdktf.booleanToTerraform(struct!.isRequired),
-    is_searchable: cdktf.booleanToTerraform(struct!.isSearchable),
-    name: cdktf.stringToTerraform(struct!.name),
-    retrieval_importance: cdktf.stringToTerraform(struct!.retrievalImportance),
+    display_name: cdktn.stringToTerraform(struct!.displayName),
+    is_filterable: cdktn.booleanToTerraform(struct!.isFilterable),
+    is_metadata: cdktn.booleanToTerraform(struct!.isMetadata),
+    is_repeatable: cdktn.booleanToTerraform(struct!.isRepeatable),
+    is_required: cdktn.booleanToTerraform(struct!.isRequired),
+    is_searchable: cdktn.booleanToTerraform(struct!.isSearchable),
+    name: cdktn.stringToTerraform(struct!.name),
+    retrieval_importance: cdktn.stringToTerraform(struct!.retrievalImportance),
     date_time_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsDateTimeTypeOptionsToTerraform(struct!.dateTimeTypeOptions),
     enum_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsEnumTypeOptionsToTerraform(struct!.enumTypeOptions),
     float_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsFloatTypeOptionsToTerraform(struct!.floatTypeOptions),
     integer_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsIntegerTypeOptionsToTerraform(struct!.integerTypeOptions),
     map_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsToTerraform(struct!.mapTypeOptions),
-    schema_sources: cdktf.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToTerraform, true)(struct!.schemaSources),
+    schema_sources: cdktn.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToTerraform, true)(struct!.schemaSources),
     text_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTextTypeOptionsToTerraform(struct!.textTypeOptions),
     timestamp_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsTimestampTypeOptionsToTerraform(struct!.timestampTypeOptions),
   }
 }
 
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     display_name: {
-      value: cdktf.stringToHclTerraform(struct!.displayName),
+      value: cdktn.stringToHclTerraform(struct!.displayName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     is_filterable: {
-      value: cdktf.booleanToHclTerraform(struct!.isFilterable),
+      value: cdktn.booleanToHclTerraform(struct!.isFilterable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_metadata: {
-      value: cdktf.booleanToHclTerraform(struct!.isMetadata),
+      value: cdktn.booleanToHclTerraform(struct!.isMetadata),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_repeatable: {
-      value: cdktf.booleanToHclTerraform(struct!.isRepeatable),
+      value: cdktn.booleanToHclTerraform(struct!.isRepeatable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_required: {
-      value: cdktf.booleanToHclTerraform(struct!.isRequired),
+      value: cdktn.booleanToHclTerraform(struct!.isRequired),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_searchable: {
-      value: cdktf.booleanToHclTerraform(struct!.isSearchable),
+      value: cdktn.booleanToHclTerraform(struct!.isSearchable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     retrieval_importance: {
-      value: cdktf.stringToHclTerraform(struct!.retrievalImportance),
+      value: cdktn.stringToHclTerraform(struct!.retrievalImportance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1145,7 +1145,7 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
       storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsMapTypeOptionsList",
     },
     schema_sources: {
-      value: cdktf.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToHclTerraform, true)(struct!.schemaSources),
+      value: cdktn.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesToHclTerraform, true)(struct!.schemaSources),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSourcesList",
@@ -1168,9 +1168,9 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1178,11 +1178,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1255,7 +1255,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1276,7 +1276,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
       this._textTypeOptions.internalValue = undefined;
       this._timestampTypeOptions.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1319,11 +1319,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // is_filterable - computed: false, optional: true, required: false
-  private _isFilterable?: boolean | cdktf.IResolvable; 
+  private _isFilterable?: boolean | cdktn.IResolvable; 
   public get isFilterable() {
     return this.getBooleanAttribute('is_filterable');
   }
-  public set isFilterable(value: boolean | cdktf.IResolvable) {
+  public set isFilterable(value: boolean | cdktn.IResolvable) {
     this._isFilterable = value;
   }
   public resetIsFilterable() {
@@ -1335,11 +1335,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // is_metadata - computed: false, optional: true, required: false
-  private _isMetadata?: boolean | cdktf.IResolvable; 
+  private _isMetadata?: boolean | cdktn.IResolvable; 
   public get isMetadata() {
     return this.getBooleanAttribute('is_metadata');
   }
-  public set isMetadata(value: boolean | cdktf.IResolvable) {
+  public set isMetadata(value: boolean | cdktn.IResolvable) {
     this._isMetadata = value;
   }
   public resetIsMetadata() {
@@ -1351,11 +1351,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // is_repeatable - computed: false, optional: true, required: false
-  private _isRepeatable?: boolean | cdktf.IResolvable; 
+  private _isRepeatable?: boolean | cdktn.IResolvable; 
   public get isRepeatable() {
     return this.getBooleanAttribute('is_repeatable');
   }
-  public set isRepeatable(value: boolean | cdktf.IResolvable) {
+  public set isRepeatable(value: boolean | cdktn.IResolvable) {
     this._isRepeatable = value;
   }
   public resetIsRepeatable() {
@@ -1367,11 +1367,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // is_required - computed: false, optional: true, required: false
-  private _isRequired?: boolean | cdktf.IResolvable; 
+  private _isRequired?: boolean | cdktn.IResolvable; 
   public get isRequired() {
     return this.getBooleanAttribute('is_required');
   }
-  public set isRequired(value: boolean | cdktf.IResolvable) {
+  public set isRequired(value: boolean | cdktn.IResolvable) {
     this._isRequired = value;
   }
   public resetIsRequired() {
@@ -1383,11 +1383,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 
   // is_searchable - computed: false, optional: true, required: false
-  private _isSearchable?: boolean | cdktf.IResolvable; 
+  private _isSearchable?: boolean | cdktn.IResolvable; 
   public get isSearchable() {
     return this.getBooleanAttribute('is_searchable');
   }
-  public set isSearchable(value: boolean | cdktf.IResolvable) {
+  public set isSearchable(value: boolean | cdktn.IResolvable) {
     this._isSearchable = value;
   }
   public resetIsSearchable() {
@@ -1512,7 +1512,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   public get schemaSources() {
     return this._schemaSources;
   }
-  public putSchemaSources(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktf.IResolvable) {
+  public putSchemaSources(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsSchemaSources[] | cdktn.IResolvable) {
     this._schemaSources.internalValue = value;
   }
   public resetSchemaSources() {
@@ -1556,15 +1556,15 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   }
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktf.IResolvable
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1581,28 +1581,28 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPrope
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#property_definitions GoogleDocumentAiWarehouseDocumentSchema#property_definitions}
   */
-  readonly propertyDefinitions: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktf.IResolvable;
+  readonly propertyDefinitions: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktn.IResolvable;
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    property_definitions: cdktf.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToTerraform, true)(struct!.propertyDefinitions),
+    property_definitions: cdktn.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToTerraform, true)(struct!.propertyDefinitions),
   }
 }
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     property_definitions: {
-      value: cdktf.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToHclTerraform, true)(struct!.propertyDefinitions),
+      value: cdktn.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsToHclTerraform, true)(struct!.propertyDefinitions),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitionsList",
@@ -1613,14 +1613,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsProper
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1650,7 +1650,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyT
   public get propertyDefinitions() {
     return this._propertyDefinitions;
   }
-  public putPropertyDefinitions(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktf.IResolvable) {
+  public putPropertyDefinitions(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsPropertyDefinitions[] | cdktn.IResolvable) {
     this._propertyDefinitions.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1673,32 +1673,32 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchem
   readonly processorType?: string;
 }
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    processor_type: cdktf.stringToTerraform(struct!.processorType),
+    name: cdktn.stringToTerraform(struct!.name),
+    processor_type: cdktn.stringToTerraform(struct!.processorType),
   }
 }
 
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     processor_type: {
-      value: cdktf.stringToHclTerraform(struct!.processorType),
+      value: cdktn.stringToHclTerraform(struct!.processorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1709,9 +1709,9 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchema
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1719,11 +1719,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSou
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1740,14 +1740,14 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSou
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._processorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1792,15 +1792,15 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSou
   }
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesList extends cdktf.ComplexList {
-  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktf.IResolvable
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1815,8 +1815,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextT
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1825,8 +1825,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTy
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1834,14 +1834,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTy
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1864,8 +1864,8 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimes
 }
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1874,8 +1874,8 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimest
 
 
 export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsOutputReference | GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1883,14 +1883,14 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimest
   return attrs;
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1921,31 +1921,31 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_filterable GoogleDocumentAiWarehouseDocumentSchema#is_filterable}
   */
-  readonly isFilterable?: boolean | cdktf.IResolvable;
+  readonly isFilterable?: boolean | cdktn.IResolvable;
   /**
   * Whether the property is user supplied metadata.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_metadata GoogleDocumentAiWarehouseDocumentSchema#is_metadata}
   */
-  readonly isMetadata?: boolean | cdktf.IResolvable;
+  readonly isMetadata?: boolean | cdktn.IResolvable;
   /**
   * Whether the property can have multiple values.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_repeatable GoogleDocumentAiWarehouseDocumentSchema#is_repeatable}
   */
-  readonly isRepeatable?: boolean | cdktf.IResolvable;
+  readonly isRepeatable?: boolean | cdktn.IResolvable;
   /**
   * Whether the property is mandatory.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_required GoogleDocumentAiWarehouseDocumentSchema#is_required}
   */
-  readonly isRequired?: boolean | cdktf.IResolvable;
+  readonly isRequired?: boolean | cdktn.IResolvable;
   /**
   * Indicates that the property should be included in a global search.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#is_searchable GoogleDocumentAiWarehouseDocumentSchema#is_searchable}
   */
-  readonly isSearchable?: boolean | cdktf.IResolvable;
+  readonly isSearchable?: boolean | cdktn.IResolvable;
   /**
   * The name of the metadata property.
   *
@@ -1999,7 +1999,7 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#schema_sources GoogleDocumentAiWarehouseDocumentSchema#schema_sources}
   */
-  readonly schemaSources?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktf.IResolvable;
+  readonly schemaSources?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktn.IResolvable;
   /**
   * text_type_options block
   *
@@ -2014,83 +2014,83 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions {
   readonly timestampTypeOptions?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptions;
 }
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    display_name: cdktf.stringToTerraform(struct!.displayName),
-    is_filterable: cdktf.booleanToTerraform(struct!.isFilterable),
-    is_metadata: cdktf.booleanToTerraform(struct!.isMetadata),
-    is_repeatable: cdktf.booleanToTerraform(struct!.isRepeatable),
-    is_required: cdktf.booleanToTerraform(struct!.isRequired),
-    is_searchable: cdktf.booleanToTerraform(struct!.isSearchable),
-    name: cdktf.stringToTerraform(struct!.name),
-    retrieval_importance: cdktf.stringToTerraform(struct!.retrievalImportance),
+    display_name: cdktn.stringToTerraform(struct!.displayName),
+    is_filterable: cdktn.booleanToTerraform(struct!.isFilterable),
+    is_metadata: cdktn.booleanToTerraform(struct!.isMetadata),
+    is_repeatable: cdktn.booleanToTerraform(struct!.isRepeatable),
+    is_required: cdktn.booleanToTerraform(struct!.isRequired),
+    is_searchable: cdktn.booleanToTerraform(struct!.isSearchable),
+    name: cdktn.stringToTerraform(struct!.name),
+    retrieval_importance: cdktn.stringToTerraform(struct!.retrievalImportance),
     date_time_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsDateTimeTypeOptionsToTerraform(struct!.dateTimeTypeOptions),
     enum_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsEnumTypeOptionsToTerraform(struct!.enumTypeOptions),
     float_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsFloatTypeOptionsToTerraform(struct!.floatTypeOptions),
     integer_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsIntegerTypeOptionsToTerraform(struct!.integerTypeOptions),
     map_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsMapTypeOptionsToTerraform(struct!.mapTypeOptions),
     property_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsToTerraform(struct!.propertyTypeOptions),
-    schema_sources: cdktf.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToTerraform, true)(struct!.schemaSources),
+    schema_sources: cdktn.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToTerraform, true)(struct!.schemaSources),
     text_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTextTypeOptionsToTerraform(struct!.textTypeOptions),
     timestamp_type_options: googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsTimestampTypeOptionsToTerraform(struct!.timestampTypeOptions),
   }
 }
 
 
-export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     display_name: {
-      value: cdktf.stringToHclTerraform(struct!.displayName),
+      value: cdktn.stringToHclTerraform(struct!.displayName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     is_filterable: {
-      value: cdktf.booleanToHclTerraform(struct!.isFilterable),
+      value: cdktn.booleanToHclTerraform(struct!.isFilterable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_metadata: {
-      value: cdktf.booleanToHclTerraform(struct!.isMetadata),
+      value: cdktn.booleanToHclTerraform(struct!.isMetadata),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_repeatable: {
-      value: cdktf.booleanToHclTerraform(struct!.isRepeatable),
+      value: cdktn.booleanToHclTerraform(struct!.isRepeatable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_required: {
-      value: cdktf.booleanToHclTerraform(struct!.isRequired),
+      value: cdktn.booleanToHclTerraform(struct!.isRequired),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     is_searchable: {
-      value: cdktf.booleanToHclTerraform(struct!.isSearchable),
+      value: cdktn.booleanToHclTerraform(struct!.isSearchable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     retrieval_importance: {
-      value: cdktf.stringToHclTerraform(struct!.retrievalImportance),
+      value: cdktn.stringToHclTerraform(struct!.retrievalImportance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2132,7 +2132,7 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclT
       storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsPropertyTypeOptionsList",
     },
     schema_sources: {
-      value: cdktf.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToHclTerraform, true)(struct!.schemaSources),
+      value: cdktn.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesToHclTerraform, true)(struct!.schemaSources),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSourcesList",
@@ -2155,9 +2155,9 @@ export function googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2165,11 +2165,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2246,7 +2246,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2268,7 +2268,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
       this._textTypeOptions.internalValue = undefined;
       this._timestampTypeOptions.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2312,11 +2312,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 
   // is_filterable - computed: false, optional: true, required: false
-  private _isFilterable?: boolean | cdktf.IResolvable; 
+  private _isFilterable?: boolean | cdktn.IResolvable; 
   public get isFilterable() {
     return this.getBooleanAttribute('is_filterable');
   }
-  public set isFilterable(value: boolean | cdktf.IResolvable) {
+  public set isFilterable(value: boolean | cdktn.IResolvable) {
     this._isFilterable = value;
   }
   public resetIsFilterable() {
@@ -2328,11 +2328,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 
   // is_metadata - computed: false, optional: true, required: false
-  private _isMetadata?: boolean | cdktf.IResolvable; 
+  private _isMetadata?: boolean | cdktn.IResolvable; 
   public get isMetadata() {
     return this.getBooleanAttribute('is_metadata');
   }
-  public set isMetadata(value: boolean | cdktf.IResolvable) {
+  public set isMetadata(value: boolean | cdktn.IResolvable) {
     this._isMetadata = value;
   }
   public resetIsMetadata() {
@@ -2344,11 +2344,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 
   // is_repeatable - computed: false, optional: true, required: false
-  private _isRepeatable?: boolean | cdktf.IResolvable; 
+  private _isRepeatable?: boolean | cdktn.IResolvable; 
   public get isRepeatable() {
     return this.getBooleanAttribute('is_repeatable');
   }
-  public set isRepeatable(value: boolean | cdktf.IResolvable) {
+  public set isRepeatable(value: boolean | cdktn.IResolvable) {
     this._isRepeatable = value;
   }
   public resetIsRepeatable() {
@@ -2360,11 +2360,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 
   // is_required - computed: false, optional: true, required: false
-  private _isRequired?: boolean | cdktf.IResolvable; 
+  private _isRequired?: boolean | cdktn.IResolvable; 
   public get isRequired() {
     return this.getBooleanAttribute('is_required');
   }
-  public set isRequired(value: boolean | cdktf.IResolvable) {
+  public set isRequired(value: boolean | cdktn.IResolvable) {
     this._isRequired = value;
   }
   public resetIsRequired() {
@@ -2376,11 +2376,11 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 
   // is_searchable - computed: false, optional: true, required: false
-  private _isSearchable?: boolean | cdktf.IResolvable; 
+  private _isSearchable?: boolean | cdktn.IResolvable; 
   public get isSearchable() {
     return this.getBooleanAttribute('is_searchable');
   }
-  public set isSearchable(value: boolean | cdktf.IResolvable) {
+  public set isSearchable(value: boolean | cdktn.IResolvable) {
     this._isSearchable = value;
   }
   public resetIsSearchable() {
@@ -2521,7 +2521,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   public get schemaSources() {
     return this._schemaSources;
   }
-  public putSchemaSources(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktf.IResolvable) {
+  public putSchemaSources(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsSchemaSources[] | cdktn.IResolvable) {
     this._schemaSources.internalValue = value;
   }
   public resetSchemaSources() {
@@ -2565,15 +2565,15 @@ export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsOutputRef
   }
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktf.IResolvable
+export class GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2595,32 +2595,32 @@ export interface GoogleDocumentAiWarehouseDocumentSchemaTimeouts {
   readonly delete?: string;
 }
 
-export function googleDocumentAiWarehouseDocumentSchemaTimeoutsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaTimeoutsToTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleDocumentAiWarehouseDocumentSchemaTimeoutsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseDocumentSchemaTimeoutsToHclTerraform(struct?: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2631,19 +2631,19 @@ export function googleDocumentAiWarehouseDocumentSchemaTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseDocumentSchemaTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseDocumentSchemaTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2660,14 +2660,14 @@ export class GoogleDocumentAiWarehouseDocumentSchemaTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseDocumentSchemaTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2715,7 +2715,7 @@ export class GoogleDocumentAiWarehouseDocumentSchemaTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema}
 */
-export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformResource {
+export class GoogleDocumentAiWarehouseDocumentSchema extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2726,14 +2726,14 @@ export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDocumentAiWarehouseDocumentSchema resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDocumentAiWarehouseDocumentSchema resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDocumentAiWarehouseDocumentSchema to import
   * @param importFromId The id of the existing GoogleDocumentAiWarehouseDocumentSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_document_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDocumentAiWarehouseDocumentSchema to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_warehouse_document_schema", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_warehouse_document_schema", importId: importFromId, provider });
       }
 
   // ===========
@@ -2790,11 +2790,11 @@ export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformReso
   }
 
   // document_is_folder - computed: false, optional: true, required: false
-  private _documentIsFolder?: boolean | cdktf.IResolvable; 
+  private _documentIsFolder?: boolean | cdktn.IResolvable; 
   public get documentIsFolder() {
     return this.getBooleanAttribute('document_is_folder');
   }
-  public set documentIsFolder(value: boolean | cdktf.IResolvable) {
+  public set documentIsFolder(value: boolean | cdktn.IResolvable) {
     this._documentIsFolder = value;
   }
   public resetDocumentIsFolder() {
@@ -2857,7 +2857,7 @@ export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformReso
   public get propertyDefinitions() {
     return this._propertyDefinitions;
   }
-  public putPropertyDefinitions(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktf.IResolvable) {
+  public putPropertyDefinitions(value: GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitions[] | cdktn.IResolvable) {
     this._propertyDefinitions.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2887,12 +2887,12 @@ export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      document_is_folder: cdktf.booleanToTerraform(this._documentIsFolder),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      project_number: cdktf.stringToTerraform(this._projectNumber),
-      property_definitions: cdktf.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToTerraform, true)(this._propertyDefinitions.internalValue),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      document_is_folder: cdktn.booleanToTerraform(this._documentIsFolder),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      project_number: cdktn.stringToTerraform(this._projectNumber),
+      property_definitions: cdktn.listMapper(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToTerraform, true)(this._propertyDefinitions.internalValue),
       timeouts: googleDocumentAiWarehouseDocumentSchemaTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -2900,37 +2900,37 @@ export class GoogleDocumentAiWarehouseDocumentSchema extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       document_is_folder: {
-        value: cdktf.booleanToHclTerraform(this._documentIsFolder),
+        value: cdktn.booleanToHclTerraform(this._documentIsFolder),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project_number: {
-        value: cdktf.stringToHclTerraform(this._projectNumber),
+        value: cdktn.stringToHclTerraform(this._projectNumber),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       property_definitions: {
-        value: cdktf.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclTerraform, true)(this._propertyDefinitions.internalValue),
+        value: cdktn.listMapperHcl(googleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsToHclTerraform, true)(this._propertyDefinitions.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDocumentAiWarehouseDocumentSchemaPropertyDefinitionsList",

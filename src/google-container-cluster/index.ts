@@ -199,14 +199,14 @@ googleContainerClusterWorkloadIdentityConfigToHclTerraform,
 GoogleContainerClusterWorkloadIdentityConfigOutputReference} from './index-structs'
 export * from './index-structs'
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
-export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArguments {
+import * as cdktn from 'cdktn';
+export interface GoogleContainerClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Enable NET_ADMIN for this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#allow_net_admin GoogleContainerCluster#allow_net_admin}
   */
-  readonly allowNetAdmin?: boolean | cdktf.IResolvable;
+  readonly allowNetAdmin?: boolean | cdktn.IResolvable;
   /**
   * The IP address range of the Kubernetes pods in this cluster in CIDR notation (e.g. 10.96.0.0/14). Leave blank to have one automatically chosen or specify a /14 block in 10.0.0.0/8. This field will only work for routes-based clusters, where ip_allocation_policy is not defined.
   *
@@ -230,7 +230,7 @@ export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#deletion_protection GoogleContainerCluster#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   *  Description of the cluster.
   *
@@ -242,67 +242,67 @@ export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#disable_l4_lb_firewall_reconciliation GoogleContainerCluster#disable_l4_lb_firewall_reconciliation}
   */
-  readonly disableL4LbFirewallReconciliation?: boolean | cdktf.IResolvable;
+  readonly disableL4LbFirewallReconciliation?: boolean | cdktn.IResolvable;
   /**
   * Enable Autopilot for this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_autopilot GoogleContainerCluster#enable_autopilot}
   */
-  readonly enableAutopilot?: boolean | cdktf.IResolvable;
+  readonly enableAutopilot?: boolean | cdktn.IResolvable;
   /**
   * Whether Cilium cluster-wide network policy is enabled on this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_cilium_clusterwide_network_policy GoogleContainerCluster#enable_cilium_clusterwide_network_policy}
   */
-  readonly enableCiliumClusterwideNetworkPolicy?: boolean | cdktf.IResolvable;
+  readonly enableCiliumClusterwideNetworkPolicy?: boolean | cdktn.IResolvable;
   /**
   * Whether FQDN Network Policy is enabled on this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_fqdn_network_policy GoogleContainerCluster#enable_fqdn_network_policy}
   */
-  readonly enableFqdnNetworkPolicy?: boolean | cdktf.IResolvable;
+  readonly enableFqdnNetworkPolicy?: boolean | cdktn.IResolvable;
   /**
   * Whether Intra-node visibility is enabled for this cluster. This makes same node pod to pod traffic visible for VPC network.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_intranode_visibility GoogleContainerCluster#enable_intranode_visibility}
   */
-  readonly enableIntranodeVisibility?: boolean | cdktf.IResolvable;
+  readonly enableIntranodeVisibility?: boolean | cdktn.IResolvable;
   /**
   * Whether to enable Kubernetes Alpha features for this cluster. Note that when this option is enabled, the cluster cannot be upgraded and will be automatically deleted after 30 days.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_kubernetes_alpha GoogleContainerCluster#enable_kubernetes_alpha}
   */
-  readonly enableKubernetesAlpha?: boolean | cdktf.IResolvable;
+  readonly enableKubernetesAlpha?: boolean | cdktn.IResolvable;
   /**
   * Whether L4ILB Subsetting is enabled for this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_l4_ilb_subsetting GoogleContainerCluster#enable_l4_ilb_subsetting}
   */
-  readonly enableL4IlbSubsetting?: boolean | cdktf.IResolvable;
+  readonly enableL4IlbSubsetting?: boolean | cdktn.IResolvable;
   /**
   * Whether the ABAC authorizer is enabled for this cluster. When enabled, identities in the system, including service accounts, nodes, and controllers, will have statically granted permissions beyond those provided by the RBAC configuration or IAM. Defaults to false.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_legacy_abac GoogleContainerCluster#enable_legacy_abac}
   */
-  readonly enableLegacyAbac?: boolean | cdktf.IResolvable;
+  readonly enableLegacyAbac?: boolean | cdktn.IResolvable;
   /**
   * Whether multi-networking is enabled for this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_multi_networking GoogleContainerCluster#enable_multi_networking}
   */
-  readonly enableMultiNetworking?: boolean | cdktf.IResolvable;
+  readonly enableMultiNetworking?: boolean | cdktn.IResolvable;
   /**
   * Enable Shielded Nodes features on all nodes in this cluster. Defaults to true.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_shielded_nodes GoogleContainerCluster#enable_shielded_nodes}
   */
-  readonly enableShieldedNodes?: boolean | cdktf.IResolvable;
+  readonly enableShieldedNodes?: boolean | cdktn.IResolvable;
   /**
   * Whether to enable Cloud TPU resources in this cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#enable_tpu GoogleContainerCluster#enable_tpu}
   */
-  readonly enableTpu?: boolean | cdktf.IResolvable;
+  readonly enableTpu?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#id GoogleContainerCluster#id}
   *
@@ -393,7 +393,7 @@ export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#remove_default_node_pool GoogleContainerCluster#remove_default_node_pool}
   */
-  readonly removeDefaultNodePool?: boolean | cdktf.IResolvable;
+  readonly removeDefaultNodePool?: boolean | cdktn.IResolvable;
   /**
   * The GCE resource labels (a map of key/value pairs) to be applied to the cluster.
   * 
@@ -582,7 +582,7 @@ export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#node_pool GoogleContainerCluster#node_pool}
   */
-  readonly nodePool?: GoogleContainerClusterNodePool[] | cdktf.IResolvable;
+  readonly nodePool?: GoogleContainerClusterNodePool[] | cdktn.IResolvable;
   /**
   * node_pool_auto_config block
   *
@@ -702,7 +702,7 @@ export interface GoogleContainerClusterConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster google_container_cluster}
 */
-export class GoogleContainerCluster extends cdktf.TerraformResource {
+export class GoogleContainerCluster extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -713,14 +713,14 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleContainerCluster resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleContainerCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContainerCluster to import
   * @param importFromId The id of the existing GoogleContainerCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContainerCluster to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_container_cluster", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_container_cluster", importId: importFromId, provider });
       }
 
   // ===========
@@ -839,11 +839,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   // ==========
 
   // allow_net_admin - computed: false, optional: true, required: false
-  private _allowNetAdmin?: boolean | cdktf.IResolvable; 
+  private _allowNetAdmin?: boolean | cdktn.IResolvable; 
   public get allowNetAdmin() {
     return this.getBooleanAttribute('allow_net_admin');
   }
-  public set allowNetAdmin(value: boolean | cdktf.IResolvable) {
+  public set allowNetAdmin(value: boolean | cdktn.IResolvable) {
     this._allowNetAdmin = value;
   }
   public resetAllowNetAdmin() {
@@ -903,11 +903,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -935,11 +935,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // disable_l4_lb_firewall_reconciliation - computed: false, optional: true, required: false
-  private _disableL4LbFirewallReconciliation?: boolean | cdktf.IResolvable; 
+  private _disableL4LbFirewallReconciliation?: boolean | cdktn.IResolvable; 
   public get disableL4LbFirewallReconciliation() {
     return this.getBooleanAttribute('disable_l4_lb_firewall_reconciliation');
   }
-  public set disableL4LbFirewallReconciliation(value: boolean | cdktf.IResolvable) {
+  public set disableL4LbFirewallReconciliation(value: boolean | cdktn.IResolvable) {
     this._disableL4LbFirewallReconciliation = value;
   }
   public resetDisableL4LbFirewallReconciliation() {
@@ -951,17 +951,17 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_autopilot - computed: false, optional: true, required: false
-  private _enableAutopilot?: boolean | cdktf.IResolvable; 
+  private _enableAutopilot?: boolean | cdktn.IResolvable; 
   public get enableAutopilot() {
     return this.getBooleanAttribute('enable_autopilot');
   }
-  public set enableAutopilot(value: boolean | cdktf.IResolvable) {
+  public set enableAutopilot(value: boolean | cdktn.IResolvable) {
     this._enableAutopilot = value;
   }
   public resetEnableAutopilot() {
@@ -973,11 +973,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_cilium_clusterwide_network_policy - computed: false, optional: true, required: false
-  private _enableCiliumClusterwideNetworkPolicy?: boolean | cdktf.IResolvable; 
+  private _enableCiliumClusterwideNetworkPolicy?: boolean | cdktn.IResolvable; 
   public get enableCiliumClusterwideNetworkPolicy() {
     return this.getBooleanAttribute('enable_cilium_clusterwide_network_policy');
   }
-  public set enableCiliumClusterwideNetworkPolicy(value: boolean | cdktf.IResolvable) {
+  public set enableCiliumClusterwideNetworkPolicy(value: boolean | cdktn.IResolvable) {
     this._enableCiliumClusterwideNetworkPolicy = value;
   }
   public resetEnableCiliumClusterwideNetworkPolicy() {
@@ -989,11 +989,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_fqdn_network_policy - computed: false, optional: true, required: false
-  private _enableFqdnNetworkPolicy?: boolean | cdktf.IResolvable; 
+  private _enableFqdnNetworkPolicy?: boolean | cdktn.IResolvable; 
   public get enableFqdnNetworkPolicy() {
     return this.getBooleanAttribute('enable_fqdn_network_policy');
   }
-  public set enableFqdnNetworkPolicy(value: boolean | cdktf.IResolvable) {
+  public set enableFqdnNetworkPolicy(value: boolean | cdktn.IResolvable) {
     this._enableFqdnNetworkPolicy = value;
   }
   public resetEnableFqdnNetworkPolicy() {
@@ -1005,11 +1005,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_intranode_visibility - computed: true, optional: true, required: false
-  private _enableIntranodeVisibility?: boolean | cdktf.IResolvable; 
+  private _enableIntranodeVisibility?: boolean | cdktn.IResolvable; 
   public get enableIntranodeVisibility() {
     return this.getBooleanAttribute('enable_intranode_visibility');
   }
-  public set enableIntranodeVisibility(value: boolean | cdktf.IResolvable) {
+  public set enableIntranodeVisibility(value: boolean | cdktn.IResolvable) {
     this._enableIntranodeVisibility = value;
   }
   public resetEnableIntranodeVisibility() {
@@ -1021,11 +1021,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_kubernetes_alpha - computed: false, optional: true, required: false
-  private _enableKubernetesAlpha?: boolean | cdktf.IResolvable; 
+  private _enableKubernetesAlpha?: boolean | cdktn.IResolvable; 
   public get enableKubernetesAlpha() {
     return this.getBooleanAttribute('enable_kubernetes_alpha');
   }
-  public set enableKubernetesAlpha(value: boolean | cdktf.IResolvable) {
+  public set enableKubernetesAlpha(value: boolean | cdktn.IResolvable) {
     this._enableKubernetesAlpha = value;
   }
   public resetEnableKubernetesAlpha() {
@@ -1037,11 +1037,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_l4_ilb_subsetting - computed: false, optional: true, required: false
-  private _enableL4IlbSubsetting?: boolean | cdktf.IResolvable; 
+  private _enableL4IlbSubsetting?: boolean | cdktn.IResolvable; 
   public get enableL4IlbSubsetting() {
     return this.getBooleanAttribute('enable_l4_ilb_subsetting');
   }
-  public set enableL4IlbSubsetting(value: boolean | cdktf.IResolvable) {
+  public set enableL4IlbSubsetting(value: boolean | cdktn.IResolvable) {
     this._enableL4IlbSubsetting = value;
   }
   public resetEnableL4IlbSubsetting() {
@@ -1053,11 +1053,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_legacy_abac - computed: false, optional: true, required: false
-  private _enableLegacyAbac?: boolean | cdktf.IResolvable; 
+  private _enableLegacyAbac?: boolean | cdktn.IResolvable; 
   public get enableLegacyAbac() {
     return this.getBooleanAttribute('enable_legacy_abac');
   }
-  public set enableLegacyAbac(value: boolean | cdktf.IResolvable) {
+  public set enableLegacyAbac(value: boolean | cdktn.IResolvable) {
     this._enableLegacyAbac = value;
   }
   public resetEnableLegacyAbac() {
@@ -1069,11 +1069,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_multi_networking - computed: false, optional: true, required: false
-  private _enableMultiNetworking?: boolean | cdktf.IResolvable; 
+  private _enableMultiNetworking?: boolean | cdktn.IResolvable; 
   public get enableMultiNetworking() {
     return this.getBooleanAttribute('enable_multi_networking');
   }
-  public set enableMultiNetworking(value: boolean | cdktf.IResolvable) {
+  public set enableMultiNetworking(value: boolean | cdktn.IResolvable) {
     this._enableMultiNetworking = value;
   }
   public resetEnableMultiNetworking() {
@@ -1085,11 +1085,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_shielded_nodes - computed: false, optional: true, required: false
-  private _enableShieldedNodes?: boolean | cdktf.IResolvable; 
+  private _enableShieldedNodes?: boolean | cdktn.IResolvable; 
   public get enableShieldedNodes() {
     return this.getBooleanAttribute('enable_shielded_nodes');
   }
-  public set enableShieldedNodes(value: boolean | cdktf.IResolvable) {
+  public set enableShieldedNodes(value: boolean | cdktn.IResolvable) {
     this._enableShieldedNodes = value;
   }
   public resetEnableShieldedNodes() {
@@ -1101,11 +1101,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // enable_tpu - computed: true, optional: true, required: false
-  private _enableTpu?: boolean | cdktf.IResolvable; 
+  private _enableTpu?: boolean | cdktn.IResolvable; 
   public get enableTpu() {
     return this.getBooleanAttribute('enable_tpu');
   }
-  public set enableTpu(value: boolean | cdktf.IResolvable) {
+  public set enableTpu(value: boolean | cdktn.IResolvable) {
     this._enableTpu = value;
   }
   public resetEnableTpu() {
@@ -1291,7 +1291,7 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   // node_locations - computed: true, optional: true, required: false
   private _nodeLocations?: string[]; 
   public get nodeLocations() {
-    return cdktf.Fn.tolist(this.getListAttribute('node_locations'));
+    return cdktn.Fn.tolist(this.getListAttribute('node_locations'));
   }
   public set nodeLocations(value: string[]) {
     this._nodeLocations = value;
@@ -1358,11 +1358,11 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // remove_default_node_pool - computed: false, optional: true, required: false
-  private _removeDefaultNodePool?: boolean | cdktf.IResolvable; 
+  private _removeDefaultNodePool?: boolean | cdktn.IResolvable; 
   public get removeDefaultNodePool() {
     return this.getBooleanAttribute('remove_default_node_pool');
   }
-  public set removeDefaultNodePool(value: boolean | cdktf.IResolvable) {
+  public set removeDefaultNodePool(value: boolean | cdktn.IResolvable) {
     this._removeDefaultNodePool = value;
   }
   public resetRemoveDefaultNodePool() {
@@ -1416,7 +1416,7 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1879,7 +1879,7 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   public get nodePool() {
     return this._nodePool;
   }
-  public putNodePool(value: GoogleContainerClusterNodePool[] | cdktf.IResolvable) {
+  public putNodePool(value: GoogleContainerClusterNodePool[] | cdktn.IResolvable) {
     this._nodePool.internalValue = value;
   }
   public resetNodePool() {
@@ -2200,40 +2200,40 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_net_admin: cdktf.booleanToTerraform(this._allowNetAdmin),
-      cluster_ipv4_cidr: cdktf.stringToTerraform(this._clusterIpv4Cidr),
-      datapath_provider: cdktf.stringToTerraform(this._datapathProvider),
-      default_max_pods_per_node: cdktf.numberToTerraform(this._defaultMaxPodsPerNode),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      description: cdktf.stringToTerraform(this._description),
-      disable_l4_lb_firewall_reconciliation: cdktf.booleanToTerraform(this._disableL4LbFirewallReconciliation),
-      enable_autopilot: cdktf.booleanToTerraform(this._enableAutopilot),
-      enable_cilium_clusterwide_network_policy: cdktf.booleanToTerraform(this._enableCiliumClusterwideNetworkPolicy),
-      enable_fqdn_network_policy: cdktf.booleanToTerraform(this._enableFqdnNetworkPolicy),
-      enable_intranode_visibility: cdktf.booleanToTerraform(this._enableIntranodeVisibility),
-      enable_kubernetes_alpha: cdktf.booleanToTerraform(this._enableKubernetesAlpha),
-      enable_l4_ilb_subsetting: cdktf.booleanToTerraform(this._enableL4IlbSubsetting),
-      enable_legacy_abac: cdktf.booleanToTerraform(this._enableLegacyAbac),
-      enable_multi_networking: cdktf.booleanToTerraform(this._enableMultiNetworking),
-      enable_shielded_nodes: cdktf.booleanToTerraform(this._enableShieldedNodes),
-      enable_tpu: cdktf.booleanToTerraform(this._enableTpu),
-      id: cdktf.stringToTerraform(this._id),
-      in_transit_encryption_config: cdktf.stringToTerraform(this._inTransitEncryptionConfig),
-      initial_node_count: cdktf.numberToTerraform(this._initialNodeCount),
-      location: cdktf.stringToTerraform(this._location),
-      logging_service: cdktf.stringToTerraform(this._loggingService),
-      min_master_version: cdktf.stringToTerraform(this._minMasterVersion),
-      monitoring_service: cdktf.stringToTerraform(this._monitoringService),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      networking_mode: cdktf.stringToTerraform(this._networkingMode),
-      node_locations: cdktf.listMapper(cdktf.stringToTerraform, false)(this._nodeLocations),
-      node_version: cdktf.stringToTerraform(this._nodeVersion),
-      private_ipv6_google_access: cdktf.stringToTerraform(this._privateIpv6GoogleAccess),
-      project: cdktf.stringToTerraform(this._project),
-      remove_default_node_pool: cdktf.booleanToTerraform(this._removeDefaultNodePool),
-      resource_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._resourceLabels),
-      subnetwork: cdktf.stringToTerraform(this._subnetwork),
+      allow_net_admin: cdktn.booleanToTerraform(this._allowNetAdmin),
+      cluster_ipv4_cidr: cdktn.stringToTerraform(this._clusterIpv4Cidr),
+      datapath_provider: cdktn.stringToTerraform(this._datapathProvider),
+      default_max_pods_per_node: cdktn.numberToTerraform(this._defaultMaxPodsPerNode),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      description: cdktn.stringToTerraform(this._description),
+      disable_l4_lb_firewall_reconciliation: cdktn.booleanToTerraform(this._disableL4LbFirewallReconciliation),
+      enable_autopilot: cdktn.booleanToTerraform(this._enableAutopilot),
+      enable_cilium_clusterwide_network_policy: cdktn.booleanToTerraform(this._enableCiliumClusterwideNetworkPolicy),
+      enable_fqdn_network_policy: cdktn.booleanToTerraform(this._enableFqdnNetworkPolicy),
+      enable_intranode_visibility: cdktn.booleanToTerraform(this._enableIntranodeVisibility),
+      enable_kubernetes_alpha: cdktn.booleanToTerraform(this._enableKubernetesAlpha),
+      enable_l4_ilb_subsetting: cdktn.booleanToTerraform(this._enableL4IlbSubsetting),
+      enable_legacy_abac: cdktn.booleanToTerraform(this._enableLegacyAbac),
+      enable_multi_networking: cdktn.booleanToTerraform(this._enableMultiNetworking),
+      enable_shielded_nodes: cdktn.booleanToTerraform(this._enableShieldedNodes),
+      enable_tpu: cdktn.booleanToTerraform(this._enableTpu),
+      id: cdktn.stringToTerraform(this._id),
+      in_transit_encryption_config: cdktn.stringToTerraform(this._inTransitEncryptionConfig),
+      initial_node_count: cdktn.numberToTerraform(this._initialNodeCount),
+      location: cdktn.stringToTerraform(this._location),
+      logging_service: cdktn.stringToTerraform(this._loggingService),
+      min_master_version: cdktn.stringToTerraform(this._minMasterVersion),
+      monitoring_service: cdktn.stringToTerraform(this._monitoringService),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      networking_mode: cdktn.stringToTerraform(this._networkingMode),
+      node_locations: cdktn.listMapper(cdktn.stringToTerraform, false)(this._nodeLocations),
+      node_version: cdktn.stringToTerraform(this._nodeVersion),
+      private_ipv6_google_access: cdktn.stringToTerraform(this._privateIpv6GoogleAccess),
+      project: cdktn.stringToTerraform(this._project),
+      remove_default_node_pool: cdktn.booleanToTerraform(this._removeDefaultNodePool),
+      resource_labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._resourceLabels),
+      subnetwork: cdktn.stringToTerraform(this._subnetwork),
       addons_config: googleContainerClusterAddonsConfigToTerraform(this._addonsConfig.internalValue),
       anonymous_authentication_config: googleContainerClusterAnonymousAuthenticationConfigToTerraform(this._anonymousAuthenticationConfig.internalValue),
       authenticator_groups_config: googleContainerClusterAuthenticatorGroupsConfigToTerraform(this._authenticatorGroupsConfig.internalValue),
@@ -2262,7 +2262,7 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
       network_performance_config: googleContainerClusterNetworkPerformanceConfigToTerraform(this._networkPerformanceConfig.internalValue),
       network_policy: googleContainerClusterNetworkPolicyToTerraform(this._networkPolicy.internalValue),
       node_config: googleContainerClusterNodeConfigToTerraform(this._nodeConfig.internalValue),
-      node_pool: cdktf.listMapper(googleContainerClusterNodePoolToTerraform, true)(this._nodePool.internalValue),
+      node_pool: cdktn.listMapper(googleContainerClusterNodePoolToTerraform, true)(this._nodePool.internalValue),
       node_pool_auto_config: googleContainerClusterNodePoolAutoConfigToTerraform(this._nodePoolAutoConfig.internalValue),
       node_pool_defaults: googleContainerClusterNodePoolDefaultsToTerraform(this._nodePoolDefaults.internalValue),
       notification_config: googleContainerClusterNotificationConfigToTerraform(this._notificationConfig.internalValue),
@@ -2288,205 +2288,205 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_net_admin: {
-        value: cdktf.booleanToHclTerraform(this._allowNetAdmin),
+        value: cdktn.booleanToHclTerraform(this._allowNetAdmin),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       cluster_ipv4_cidr: {
-        value: cdktf.stringToHclTerraform(this._clusterIpv4Cidr),
+        value: cdktn.stringToHclTerraform(this._clusterIpv4Cidr),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       datapath_provider: {
-        value: cdktf.stringToHclTerraform(this._datapathProvider),
+        value: cdktn.stringToHclTerraform(this._datapathProvider),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       default_max_pods_per_node: {
-        value: cdktf.numberToHclTerraform(this._defaultMaxPodsPerNode),
+        value: cdktn.numberToHclTerraform(this._defaultMaxPodsPerNode),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disable_l4_lb_firewall_reconciliation: {
-        value: cdktf.booleanToHclTerraform(this._disableL4LbFirewallReconciliation),
+        value: cdktn.booleanToHclTerraform(this._disableL4LbFirewallReconciliation),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_autopilot: {
-        value: cdktf.booleanToHclTerraform(this._enableAutopilot),
+        value: cdktn.booleanToHclTerraform(this._enableAutopilot),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_cilium_clusterwide_network_policy: {
-        value: cdktf.booleanToHclTerraform(this._enableCiliumClusterwideNetworkPolicy),
+        value: cdktn.booleanToHclTerraform(this._enableCiliumClusterwideNetworkPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_fqdn_network_policy: {
-        value: cdktf.booleanToHclTerraform(this._enableFqdnNetworkPolicy),
+        value: cdktn.booleanToHclTerraform(this._enableFqdnNetworkPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_intranode_visibility: {
-        value: cdktf.booleanToHclTerraform(this._enableIntranodeVisibility),
+        value: cdktn.booleanToHclTerraform(this._enableIntranodeVisibility),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_kubernetes_alpha: {
-        value: cdktf.booleanToHclTerraform(this._enableKubernetesAlpha),
+        value: cdktn.booleanToHclTerraform(this._enableKubernetesAlpha),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_l4_ilb_subsetting: {
-        value: cdktf.booleanToHclTerraform(this._enableL4IlbSubsetting),
+        value: cdktn.booleanToHclTerraform(this._enableL4IlbSubsetting),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_legacy_abac: {
-        value: cdktf.booleanToHclTerraform(this._enableLegacyAbac),
+        value: cdktn.booleanToHclTerraform(this._enableLegacyAbac),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_multi_networking: {
-        value: cdktf.booleanToHclTerraform(this._enableMultiNetworking),
+        value: cdktn.booleanToHclTerraform(this._enableMultiNetworking),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_shielded_nodes: {
-        value: cdktf.booleanToHclTerraform(this._enableShieldedNodes),
+        value: cdktn.booleanToHclTerraform(this._enableShieldedNodes),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_tpu: {
-        value: cdktf.booleanToHclTerraform(this._enableTpu),
+        value: cdktn.booleanToHclTerraform(this._enableTpu),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       in_transit_encryption_config: {
-        value: cdktf.stringToHclTerraform(this._inTransitEncryptionConfig),
+        value: cdktn.stringToHclTerraform(this._inTransitEncryptionConfig),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       initial_node_count: {
-        value: cdktf.numberToHclTerraform(this._initialNodeCount),
+        value: cdktn.numberToHclTerraform(this._initialNodeCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       logging_service: {
-        value: cdktf.stringToHclTerraform(this._loggingService),
+        value: cdktn.stringToHclTerraform(this._loggingService),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       min_master_version: {
-        value: cdktf.stringToHclTerraform(this._minMasterVersion),
+        value: cdktn.stringToHclTerraform(this._minMasterVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       monitoring_service: {
-        value: cdktf.stringToHclTerraform(this._monitoringService),
+        value: cdktn.stringToHclTerraform(this._monitoringService),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       networking_mode: {
-        value: cdktf.stringToHclTerraform(this._networkingMode),
+        value: cdktn.stringToHclTerraform(this._networkingMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       node_locations: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._nodeLocations),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._nodeLocations),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       node_version: {
-        value: cdktf.stringToHclTerraform(this._nodeVersion),
+        value: cdktn.stringToHclTerraform(this._nodeVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       private_ipv6_google_access: {
-        value: cdktf.stringToHclTerraform(this._privateIpv6GoogleAccess),
+        value: cdktn.stringToHclTerraform(this._privateIpv6GoogleAccess),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       remove_default_node_pool: {
-        value: cdktf.booleanToHclTerraform(this._removeDefaultNodePool),
+        value: cdktn.booleanToHclTerraform(this._removeDefaultNodePool),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       resource_labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._resourceLabels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._resourceLabels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       subnetwork: {
-        value: cdktf.stringToHclTerraform(this._subnetwork),
+        value: cdktn.stringToHclTerraform(this._subnetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2660,7 +2660,7 @@ export class GoogleContainerCluster extends cdktf.TerraformResource {
         storageClassType: "GoogleContainerClusterNodeConfigList",
       },
       node_pool: {
-        value: cdktf.listMapperHcl(googleContainerClusterNodePoolToHclTerraform, true)(this._nodePool.internalValue),
+        value: cdktn.listMapperHcl(googleContainerClusterNodePoolToHclTerraform, true)(this._nodePool.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleContainerClusterNodePoolList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetworkConnectivityPolicyBasedRouteConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetworkConnectivityPolicyBasedRouteConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource.
   *
@@ -98,8 +98,8 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteWarnings {
 }
 
 export function googleNetworkConnectivityPolicyBasedRouteWarningsToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteWarnings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -108,8 +108,8 @@ export function googleNetworkConnectivityPolicyBasedRouteWarningsToTerraform(str
 
 
 export function googleNetworkConnectivityPolicyBasedRouteWarningsToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteWarnings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -117,7 +117,7 @@ export function googleNetworkConnectivityPolicyBasedRouteWarningsToHclTerraform(
   return attrs;
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteWarningsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkConnectivityPolicyBasedRouteWarningsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -126,7 +126,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteWarningsOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -151,7 +151,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteWarningsOutputReference ex
   }
 
   // data - computed: true, optional: false, required: false
-  private _data = new cdktf.StringMap(this, "data");
+  private _data = new cdktn.StringMap(this, "data");
   public get data() {
     return this._data;
   }
@@ -162,14 +162,14 @@ export class GoogleNetworkConnectivityPolicyBasedRouteWarningsOutputReference ex
   }
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteWarningsList extends cdktf.ComplexList {
+export class GoogleNetworkConnectivityPolicyBasedRouteWarningsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -208,45 +208,45 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteFilter {
 }
 
 export function googleNetworkConnectivityPolicyBasedRouteFilterToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference | GoogleNetworkConnectivityPolicyBasedRouteFilter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dest_range: cdktf.stringToTerraform(struct!.destRange),
-    ip_protocol: cdktf.stringToTerraform(struct!.ipProtocol),
-    protocol_version: cdktf.stringToTerraform(struct!.protocolVersion),
-    src_range: cdktf.stringToTerraform(struct!.srcRange),
+    dest_range: cdktn.stringToTerraform(struct!.destRange),
+    ip_protocol: cdktn.stringToTerraform(struct!.ipProtocol),
+    protocol_version: cdktn.stringToTerraform(struct!.protocolVersion),
+    src_range: cdktn.stringToTerraform(struct!.srcRange),
   }
 }
 
 
 export function googleNetworkConnectivityPolicyBasedRouteFilterToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference | GoogleNetworkConnectivityPolicyBasedRouteFilter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dest_range: {
-      value: cdktf.stringToHclTerraform(struct!.destRange),
+      value: cdktn.stringToHclTerraform(struct!.destRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ip_protocol: {
-      value: cdktf.stringToHclTerraform(struct!.ipProtocol),
+      value: cdktn.stringToHclTerraform(struct!.ipProtocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     protocol_version: {
-      value: cdktf.stringToHclTerraform(struct!.protocolVersion),
+      value: cdktn.stringToHclTerraform(struct!.protocolVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     src_range: {
-      value: cdktf.stringToHclTerraform(struct!.srcRange),
+      value: cdktn.stringToHclTerraform(struct!.srcRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -257,14 +257,14 @@ export function googleNetworkConnectivityPolicyBasedRouteFilterToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -378,24 +378,24 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment
 }
 
 export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference | GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    region: cdktf.stringToTerraform(struct!.region),
+    region: cdktn.stringToTerraform(struct!.region),
   }
 }
 
 
 export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference | GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     region: {
-      value: cdktf.stringToHclTerraform(struct!.region),
+      value: cdktn.stringToHclTerraform(struct!.region),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -406,14 +406,14 @@ export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -466,39 +466,39 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteTimeouts {
   readonly update?: string;
 }
 
-export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -509,19 +509,19 @@ export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkConnectivityPolicyBasedRouteTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -542,7 +542,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteTimeoutsOutputReference ex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -550,7 +550,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteTimeoutsOutputReference ex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -621,24 +621,24 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine {
 }
 
 export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference | GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.tags),
+    tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.tags),
   }
 }
 
 
 export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference | GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.tags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.tags),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -649,14 +649,14 @@ export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -698,7 +698,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputRefere
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}
 */
-export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformResource {
+export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -709,14 +709,14 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformRe
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetworkConnectivityPolicyBasedRoute resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetworkConnectivityPolicyBasedRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkConnectivityPolicyBasedRoute to import
   * @param importFromId The id of the existing GoogleNetworkConnectivityPolicyBasedRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_policy_based_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkConnectivityPolicyBasedRoute to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_network_connectivity_policy_based_route", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_network_connectivity_policy_based_route", importId: importFromId, provider });
       }
 
   // ===========
@@ -787,7 +787,7 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformRe
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -920,7 +920,7 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformRe
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1003,15 +1003,15 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformRe
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      next_hop_ilb_ip: cdktf.stringToTerraform(this._nextHopIlbIp),
-      next_hop_other_routes: cdktf.stringToTerraform(this._nextHopOtherRoutes),
-      priority: cdktf.numberToTerraform(this._priority),
-      project: cdktf.stringToTerraform(this._project),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      next_hop_ilb_ip: cdktn.stringToTerraform(this._nextHopIlbIp),
+      next_hop_other_routes: cdktn.stringToTerraform(this._nextHopOtherRoutes),
+      priority: cdktn.numberToTerraform(this._priority),
+      project: cdktn.stringToTerraform(this._project),
       filter: googleNetworkConnectivityPolicyBasedRouteFilterToTerraform(this._filter.internalValue),
       interconnect_attachment: googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentToTerraform(this._interconnectAttachment.internalValue),
       timeouts: googleNetworkConnectivityPolicyBasedRouteTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1022,55 +1022,55 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktf.TerraformRe
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_ilb_ip: {
-        value: cdktf.stringToHclTerraform(this._nextHopIlbIp),
+        value: cdktn.stringToHclTerraform(this._nextHopIlbIp),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_other_routes: {
-        value: cdktf.stringToHclTerraform(this._nextHopOtherRoutes),
+        value: cdktn.stringToHclTerraform(this._nextHopOtherRoutes),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       priority: {
-        value: cdktf.numberToHclTerraform(this._priority),
+        value: cdktn.numberToHclTerraform(this._priority),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

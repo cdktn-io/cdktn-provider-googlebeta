@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetworkServicesAuthzExtensionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetworkServicesAuthzExtensionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The :authority header in the gRPC request sent from Envoy to the extension service.
   *
@@ -32,7 +32,7 @@ export interface GoogleNetworkServicesAuthzExtensionConfig extends cdktf.Terrafo
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_authz_extension#fail_open GoogleNetworkServicesAuthzExtension#fail_open}
   */
-  readonly failOpen?: boolean | cdktf.IResolvable;
+  readonly failOpen?: boolean | cdktn.IResolvable;
   /**
   * List of the HTTP headers to forward to the extension (from the client). If omitted, all headers are sent. Each element is a string indicating the header name.
   *
@@ -129,39 +129,39 @@ export interface GoogleNetworkServicesAuthzExtensionTimeouts {
   readonly update?: string;
 }
 
-export function googleNetworkServicesAuthzExtensionTimeoutsToTerraform(struct?: GoogleNetworkServicesAuthzExtensionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkServicesAuthzExtensionTimeoutsToTerraform(struct?: GoogleNetworkServicesAuthzExtensionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetworkServicesAuthzExtensionTimeoutsToHclTerraform(struct?: GoogleNetworkServicesAuthzExtensionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkServicesAuthzExtensionTimeoutsToHclTerraform(struct?: GoogleNetworkServicesAuthzExtensionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -172,19 +172,19 @@ export function googleNetworkServicesAuthzExtensionTimeoutsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkServicesAuthzExtensionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkServicesAuthzExtensionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetworkServicesAuthzExtensionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkServicesAuthzExtensionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -205,7 +205,7 @@ export class GoogleNetworkServicesAuthzExtensionTimeoutsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkServicesAuthzExtensionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkServicesAuthzExtensionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -213,7 +213,7 @@ export class GoogleNetworkServicesAuthzExtensionTimeoutsOutputReference extends 
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -278,7 +278,7 @@ export class GoogleNetworkServicesAuthzExtensionTimeoutsOutputReference extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}
 */
-export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource {
+export class GoogleNetworkServicesAuthzExtension extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -289,14 +289,14 @@ export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetworkServicesAuthzExtension resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetworkServicesAuthzExtension resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesAuthzExtension to import
   * @param importFromId The id of the existing GoogleNetworkServicesAuthzExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_authz_extension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesAuthzExtension to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_network_services_authz_extension", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_network_services_authz_extension", importId: importFromId, provider });
       }
 
   // ===========
@@ -382,17 +382,17 @@ export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // fail_open - computed: true, optional: true, required: false
-  private _failOpen?: boolean | cdktf.IResolvable; 
+  private _failOpen?: boolean | cdktn.IResolvable; 
   public get failOpen() {
     return this.getBooleanAttribute('fail_open');
   }
-  public set failOpen(value: boolean | cdktf.IResolvable) {
+  public set failOpen(value: boolean | cdktn.IResolvable) {
     this._failOpen = value;
   }
   public resetFailOpen() {
@@ -536,7 +536,7 @@ export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -597,20 +597,20 @@ export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      authority: cdktf.stringToTerraform(this._authority),
-      description: cdktf.stringToTerraform(this._description),
-      fail_open: cdktf.booleanToTerraform(this._failOpen),
-      forward_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._forwardHeaders),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      load_balancing_scheme: cdktf.stringToTerraform(this._loadBalancingScheme),
-      location: cdktf.stringToTerraform(this._location),
-      metadata: cdktf.hashMapper(cdktf.stringToTerraform)(this._metadata),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      service: cdktf.stringToTerraform(this._service),
-      timeout: cdktf.stringToTerraform(this._timeout),
-      wire_format: cdktf.stringToTerraform(this._wireFormat),
+      authority: cdktn.stringToTerraform(this._authority),
+      description: cdktn.stringToTerraform(this._description),
+      fail_open: cdktn.booleanToTerraform(this._failOpen),
+      forward_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(this._forwardHeaders),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      load_balancing_scheme: cdktn.stringToTerraform(this._loadBalancingScheme),
+      location: cdktn.stringToTerraform(this._location),
+      metadata: cdktn.hashMapper(cdktn.stringToTerraform)(this._metadata),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      service: cdktn.stringToTerraform(this._service),
+      timeout: cdktn.stringToTerraform(this._timeout),
+      wire_format: cdktn.stringToTerraform(this._wireFormat),
       timeouts: googleNetworkServicesAuthzExtensionTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -618,85 +618,85 @@ export class GoogleNetworkServicesAuthzExtension extends cdktf.TerraformResource
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       authority: {
-        value: cdktf.stringToHclTerraform(this._authority),
+        value: cdktn.stringToHclTerraform(this._authority),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       fail_open: {
-        value: cdktf.booleanToHclTerraform(this._failOpen),
+        value: cdktn.booleanToHclTerraform(this._failOpen),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       forward_headers: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._forwardHeaders),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._forwardHeaders),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       load_balancing_scheme: {
-        value: cdktf.stringToHclTerraform(this._loadBalancingScheme),
+        value: cdktn.stringToHclTerraform(this._loadBalancingScheme),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       metadata: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadata),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._metadata),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       timeout: {
-        value: cdktf.stringToHclTerraform(this._timeout),
+        value: cdktn.stringToHclTerraform(this._timeout),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       wire_format: {
-        value: cdktf.stringToHclTerraform(this._wireFormat),
+        value: cdktn.stringToHclTerraform(this._wireFormat),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

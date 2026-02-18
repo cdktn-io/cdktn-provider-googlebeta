@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataFusionInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataFusionInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * User-managed service account to set on Dataproc when Cloud Data Fusion creates Dataproc to run data processing pipelines.
   *
@@ -35,19 +35,19 @@ export interface GoogleDataFusionInstanceConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#enable_rbac GoogleDataFusionInstance#enable_rbac}
   */
-  readonly enableRbac?: boolean | cdktf.IResolvable;
+  readonly enableRbac?: boolean | cdktn.IResolvable;
   /**
   * Option to enable Stackdriver Logging.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#enable_stackdriver_logging GoogleDataFusionInstance#enable_stackdriver_logging}
   */
-  readonly enableStackdriverLogging?: boolean | cdktf.IResolvable;
+  readonly enableStackdriverLogging?: boolean | cdktn.IResolvable;
   /**
   * Option to enable Stackdriver Monitoring.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#enable_stackdriver_monitoring GoogleDataFusionInstance#enable_stackdriver_monitoring}
   */
-  readonly enableStackdriverMonitoring?: boolean | cdktf.IResolvable;
+  readonly enableStackdriverMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}
   *
@@ -85,7 +85,7 @@ export interface GoogleDataFusionInstanceConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#private_instance GoogleDataFusionInstance#private_instance}
   */
-  readonly privateInstance?: boolean | cdktf.IResolvable;
+  readonly privateInstance?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}
   */
@@ -137,7 +137,7 @@ export interface GoogleDataFusionInstanceConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#accelerators GoogleDataFusionInstance#accelerators}
   */
-  readonly accelerators?: GoogleDataFusionInstanceAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleDataFusionInstanceAccelerators[] | cdktn.IResolvable;
   /**
   * crypto_key_config block
   *
@@ -178,32 +178,32 @@ export interface GoogleDataFusionInstanceAccelerators {
   readonly state: string;
 }
 
-export function googleDataFusionInstanceAcceleratorsToTerraform(struct?: GoogleDataFusionInstanceAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataFusionInstanceAcceleratorsToTerraform(struct?: GoogleDataFusionInstanceAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
-    state: cdktf.stringToTerraform(struct!.state),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
+    state: cdktn.stringToTerraform(struct!.state),
   }
 }
 
 
-export function googleDataFusionInstanceAcceleratorsToHclTerraform(struct?: GoogleDataFusionInstanceAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataFusionInstanceAcceleratorsToHclTerraform(struct?: GoogleDataFusionInstanceAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     state: {
-      value: cdktf.stringToHclTerraform(struct!.state),
+      value: cdktn.stringToHclTerraform(struct!.state),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -214,9 +214,9 @@ export function googleDataFusionInstanceAcceleratorsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -224,11 +224,11 @@ export class GoogleDataFusionInstanceAcceleratorsOutputReference extends cdktf.C
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataFusionInstanceAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataFusionInstanceAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -245,14 +245,14 @@ export class GoogleDataFusionInstanceAcceleratorsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataFusionInstanceAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataFusionInstanceAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._acceleratorType = undefined;
       this._state = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -291,15 +291,15 @@ export class GoogleDataFusionInstanceAcceleratorsOutputReference extends cdktf.C
   }
 }
 
-export class GoogleDataFusionInstanceAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataFusionInstanceAccelerators[] | cdktf.IResolvable
+export class GoogleDataFusionInstanceAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataFusionInstanceAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -322,24 +322,24 @@ export interface GoogleDataFusionInstanceCryptoKeyConfig {
 }
 
 export function googleDataFusionInstanceCryptoKeyConfigToTerraform(struct?: GoogleDataFusionInstanceCryptoKeyConfigOutputReference | GoogleDataFusionInstanceCryptoKeyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key_reference: cdktf.stringToTerraform(struct!.keyReference),
+    key_reference: cdktn.stringToTerraform(struct!.keyReference),
   }
 }
 
 
 export function googleDataFusionInstanceCryptoKeyConfigToHclTerraform(struct?: GoogleDataFusionInstanceCryptoKeyConfigOutputReference | GoogleDataFusionInstanceCryptoKeyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key_reference: {
-      value: cdktf.stringToHclTerraform(struct!.keyReference),
+      value: cdktn.stringToHclTerraform(struct!.keyReference),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -350,14 +350,14 @@ export function googleDataFusionInstanceCryptoKeyConfigToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceCryptoKeyConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceCryptoKeyConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -401,7 +401,7 @@ export interface GoogleDataFusionInstanceEventPublishConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#enabled GoogleDataFusionInstance#enabled}
   */
-  readonly enabled: boolean | cdktf.IResolvable;
+  readonly enabled: boolean | cdktn.IResolvable;
   /**
   * The resource name of the Pub/Sub topic. Format: projects/{projectId}/topics/{topic_id}
   *
@@ -411,31 +411,31 @@ export interface GoogleDataFusionInstanceEventPublishConfig {
 }
 
 export function googleDataFusionInstanceEventPublishConfigToTerraform(struct?: GoogleDataFusionInstanceEventPublishConfigOutputReference | GoogleDataFusionInstanceEventPublishConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
-    topic: cdktf.stringToTerraform(struct!.topic),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    topic: cdktn.stringToTerraform(struct!.topic),
   }
 }
 
 
 export function googleDataFusionInstanceEventPublishConfigToHclTerraform(struct?: GoogleDataFusionInstanceEventPublishConfigOutputReference | GoogleDataFusionInstanceEventPublishConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     topic: {
-      value: cdktf.stringToHclTerraform(struct!.topic),
+      value: cdktn.stringToHclTerraform(struct!.topic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -446,14 +446,14 @@ export function googleDataFusionInstanceEventPublishConfigToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceEventPublishConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceEventPublishConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -485,11 +485,11 @@ export class GoogleDataFusionInstanceEventPublishConfigOutputReference extends c
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -531,31 +531,31 @@ export interface GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfi
 }
 
 export function googleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigToTerraform(struct?: GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference | GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network_attachment: cdktf.stringToTerraform(struct!.networkAttachment),
-    unreachable_cidr_block: cdktf.stringToTerraform(struct!.unreachableCidrBlock),
+    network_attachment: cdktn.stringToTerraform(struct!.networkAttachment),
+    unreachable_cidr_block: cdktn.stringToTerraform(struct!.unreachableCidrBlock),
   }
 }
 
 
 export function googleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigToHclTerraform(struct?: GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference | GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network_attachment: {
-      value: cdktf.stringToHclTerraform(struct!.networkAttachment),
+      value: cdktn.stringToHclTerraform(struct!.networkAttachment),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     unreachable_cidr_block: {
-      value: cdktf.stringToHclTerraform(struct!.unreachableCidrBlock),
+      value: cdktn.stringToHclTerraform(struct!.unreachableCidrBlock),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -566,14 +566,14 @@ export function googleDataFusionInstanceNetworkConfigPrivateServiceConnectConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -674,39 +674,39 @@ export interface GoogleDataFusionInstanceNetworkConfig {
 }
 
 export function googleDataFusionInstanceNetworkConfigToTerraform(struct?: GoogleDataFusionInstanceNetworkConfigOutputReference | GoogleDataFusionInstanceNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    connection_type: cdktf.stringToTerraform(struct!.connectionType),
-    ip_allocation: cdktf.stringToTerraform(struct!.ipAllocation),
-    network: cdktf.stringToTerraform(struct!.network),
+    connection_type: cdktn.stringToTerraform(struct!.connectionType),
+    ip_allocation: cdktn.stringToTerraform(struct!.ipAllocation),
+    network: cdktn.stringToTerraform(struct!.network),
     private_service_connect_config: googleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigToTerraform(struct!.privateServiceConnectConfig),
   }
 }
 
 
 export function googleDataFusionInstanceNetworkConfigToHclTerraform(struct?: GoogleDataFusionInstanceNetworkConfigOutputReference | GoogleDataFusionInstanceNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     connection_type: {
-      value: cdktf.stringToHclTerraform(struct!.connectionType),
+      value: cdktn.stringToHclTerraform(struct!.connectionType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ip_allocation: {
-      value: cdktf.stringToHclTerraform(struct!.ipAllocation),
+      value: cdktn.stringToHclTerraform(struct!.ipAllocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -723,14 +723,14 @@ export function googleDataFusionInstanceNetworkConfigToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceNetworkConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceNetworkConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -852,39 +852,39 @@ export interface GoogleDataFusionInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleDataFusionInstanceTimeoutsToTerraform(struct?: GoogleDataFusionInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataFusionInstanceTimeoutsToTerraform(struct?: GoogleDataFusionInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataFusionInstanceTimeoutsToHclTerraform(struct?: GoogleDataFusionInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataFusionInstanceTimeoutsToHclTerraform(struct?: GoogleDataFusionInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -895,19 +895,19 @@ export function googleDataFusionInstanceTimeoutsToHclTerraform(struct?: GoogleDa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataFusionInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataFusionInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataFusionInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataFusionInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -928,7 +928,7 @@ export class GoogleDataFusionInstanceTimeoutsOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataFusionInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataFusionInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -936,7 +936,7 @@ export class GoogleDataFusionInstanceTimeoutsOutputReference extends cdktf.Compl
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1001,7 +1001,7 @@ export class GoogleDataFusionInstanceTimeoutsOutputReference extends cdktf.Compl
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}
 */
-export class GoogleDataFusionInstance extends cdktf.TerraformResource {
+export class GoogleDataFusionInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1012,14 +1012,14 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataFusionInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataFusionInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataFusionInstance to import
   * @param importFromId The id of the existing GoogleDataFusionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataFusionInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_data_fusion_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_data_fusion_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -1136,17 +1136,17 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_rbac - computed: false, optional: true, required: false
-  private _enableRbac?: boolean | cdktf.IResolvable; 
+  private _enableRbac?: boolean | cdktn.IResolvable; 
   public get enableRbac() {
     return this.getBooleanAttribute('enable_rbac');
   }
-  public set enableRbac(value: boolean | cdktf.IResolvable) {
+  public set enableRbac(value: boolean | cdktn.IResolvable) {
     this._enableRbac = value;
   }
   public resetEnableRbac() {
@@ -1158,11 +1158,11 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   }
 
   // enable_stackdriver_logging - computed: false, optional: true, required: false
-  private _enableStackdriverLogging?: boolean | cdktf.IResolvable; 
+  private _enableStackdriverLogging?: boolean | cdktn.IResolvable; 
   public get enableStackdriverLogging() {
     return this.getBooleanAttribute('enable_stackdriver_logging');
   }
-  public set enableStackdriverLogging(value: boolean | cdktf.IResolvable) {
+  public set enableStackdriverLogging(value: boolean | cdktn.IResolvable) {
     this._enableStackdriverLogging = value;
   }
   public resetEnableStackdriverLogging() {
@@ -1174,11 +1174,11 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   }
 
   // enable_stackdriver_monitoring - computed: false, optional: true, required: false
-  private _enableStackdriverMonitoring?: boolean | cdktf.IResolvable; 
+  private _enableStackdriverMonitoring?: boolean | cdktn.IResolvable; 
   public get enableStackdriverMonitoring() {
     return this.getBooleanAttribute('enable_stackdriver_monitoring');
   }
-  public set enableStackdriverMonitoring(value: boolean | cdktf.IResolvable) {
+  public set enableStackdriverMonitoring(value: boolean | cdktn.IResolvable) {
     this._enableStackdriverMonitoring = value;
   }
   public resetEnableStackdriverMonitoring() {
@@ -1261,11 +1261,11 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   }
 
   // private_instance - computed: false, optional: true, required: false
-  private _privateInstance?: boolean | cdktf.IResolvable; 
+  private _privateInstance?: boolean | cdktn.IResolvable; 
   public get privateInstance() {
     return this.getBooleanAttribute('private_instance');
   }
-  public set privateInstance(value: boolean | cdktf.IResolvable) {
+  public set privateInstance(value: boolean | cdktn.IResolvable) {
     this._privateInstance = value;
   }
   public resetPrivateInstance() {
@@ -1350,7 +1350,7 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1410,7 +1410,7 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleDataFusionInstanceAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleDataFusionInstanceAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -1491,24 +1491,24 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataproc_service_account: cdktf.stringToTerraform(this._dataprocServiceAccount),
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enable_rbac: cdktf.booleanToTerraform(this._enableRbac),
-      enable_stackdriver_logging: cdktf.booleanToTerraform(this._enableStackdriverLogging),
-      enable_stackdriver_monitoring: cdktf.booleanToTerraform(this._enableStackdriverMonitoring),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      options: cdktf.hashMapper(cdktf.stringToTerraform)(this._options),
-      private_instance: cdktf.booleanToTerraform(this._privateInstance),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
-      type: cdktf.stringToTerraform(this._type),
-      version: cdktf.stringToTerraform(this._version),
-      zone: cdktf.stringToTerraform(this._zone),
-      accelerators: cdktf.listMapper(googleDataFusionInstanceAcceleratorsToTerraform, true)(this._accelerators.internalValue),
+      dataproc_service_account: cdktn.stringToTerraform(this._dataprocServiceAccount),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enable_rbac: cdktn.booleanToTerraform(this._enableRbac),
+      enable_stackdriver_logging: cdktn.booleanToTerraform(this._enableStackdriverLogging),
+      enable_stackdriver_monitoring: cdktn.booleanToTerraform(this._enableStackdriverMonitoring),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      options: cdktn.hashMapper(cdktn.stringToTerraform)(this._options),
+      private_instance: cdktn.booleanToTerraform(this._privateInstance),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
+      type: cdktn.stringToTerraform(this._type),
+      version: cdktn.stringToTerraform(this._version),
+      zone: cdktn.stringToTerraform(this._zone),
+      accelerators: cdktn.listMapper(googleDataFusionInstanceAcceleratorsToTerraform, true)(this._accelerators.internalValue),
       crypto_key_config: googleDataFusionInstanceCryptoKeyConfigToTerraform(this._cryptoKeyConfig.internalValue),
       event_publish_config: googleDataFusionInstanceEventPublishConfigToTerraform(this._eventPublishConfig.internalValue),
       network_config: googleDataFusionInstanceNetworkConfigToTerraform(this._networkConfig.internalValue),
@@ -1519,109 +1519,109 @@ export class GoogleDataFusionInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataproc_service_account: {
-        value: cdktf.stringToHclTerraform(this._dataprocServiceAccount),
+        value: cdktn.stringToHclTerraform(this._dataprocServiceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_rbac: {
-        value: cdktf.booleanToHclTerraform(this._enableRbac),
+        value: cdktn.booleanToHclTerraform(this._enableRbac),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_stackdriver_logging: {
-        value: cdktf.booleanToHclTerraform(this._enableStackdriverLogging),
+        value: cdktn.booleanToHclTerraform(this._enableStackdriverLogging),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_stackdriver_monitoring: {
-        value: cdktf.booleanToHclTerraform(this._enableStackdriverMonitoring),
+        value: cdktn.booleanToHclTerraform(this._enableStackdriverMonitoring),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       options: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._options),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._options),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       private_instance: {
-        value: cdktf.booleanToHclTerraform(this._privateInstance),
+        value: cdktn.booleanToHclTerraform(this._privateInstance),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tags: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._tags),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       version: {
-        value: cdktf.stringToHclTerraform(this._version),
+        value: cdktn.stringToHclTerraform(this._version),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       accelerators: {
-        value: cdktf.listMapperHcl(googleDataFusionInstanceAcceleratorsToHclTerraform, true)(this._accelerators.internalValue),
+        value: cdktn.listMapperHcl(googleDataFusionInstanceAcceleratorsToHclTerraform, true)(this._accelerators.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDataFusionInstanceAcceleratorsList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeServiceAttachmentConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeServiceAttachmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * The connection preference to use for this service attachment. Valid
   * values include "ACCEPT_AUTOMATIC", "ACCEPT_MANUAL".
@@ -48,7 +48,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#enable_proxy_protocol GoogleComputeServiceAttachment#enable_proxy_protocol}
   */
-  readonly enableProxyProtocol: boolean | cdktf.IResolvable;
+  readonly enableProxyProtocol: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#id GoogleComputeServiceAttachment#id}
   *
@@ -97,7 +97,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#reconcile_connections GoogleComputeServiceAttachment#reconcile_connections}
   */
-  readonly reconcileConnections?: boolean | cdktf.IResolvable;
+  readonly reconcileConnections?: boolean | cdktn.IResolvable;
   /**
   * URL of the region where the resource resides.
   *
@@ -112,7 +112,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#send_propagated_connection_limit_if_zero GoogleComputeServiceAttachment#send_propagated_connection_limit_if_zero}
   */
-  readonly sendPropagatedConnectionLimitIfZero?: boolean | cdktf.IResolvable;
+  readonly sendPropagatedConnectionLimitIfZero?: boolean | cdktn.IResolvable;
   /**
   * The URL of a service serving the endpoint identified by this service attachment.
   *
@@ -124,7 +124,7 @@ export interface GoogleComputeServiceAttachmentConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#consumer_accept_lists GoogleComputeServiceAttachment#consumer_accept_lists}
   */
-  readonly consumerAcceptLists?: GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktf.IResolvable;
+  readonly consumerAcceptLists?: GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -136,8 +136,8 @@ export interface GoogleComputeServiceAttachmentConnectedEndpoints {
 }
 
 export function googleComputeServiceAttachmentConnectedEndpointsToTerraform(struct?: GoogleComputeServiceAttachmentConnectedEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -146,8 +146,8 @@ export function googleComputeServiceAttachmentConnectedEndpointsToTerraform(stru
 
 
 export function googleComputeServiceAttachmentConnectedEndpointsToHclTerraform(struct?: GoogleComputeServiceAttachmentConnectedEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -155,7 +155,7 @@ export function googleComputeServiceAttachmentConnectedEndpointsToHclTerraform(s
   return attrs;
 }
 
-export class GoogleComputeServiceAttachmentConnectedEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeServiceAttachmentConnectedEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -164,7 +164,7 @@ export class GoogleComputeServiceAttachmentConnectedEndpointsOutputReference ext
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -209,14 +209,14 @@ export class GoogleComputeServiceAttachmentConnectedEndpointsOutputReference ext
   }
 }
 
-export class GoogleComputeServiceAttachmentConnectedEndpointsList extends cdktf.ComplexList {
+export class GoogleComputeServiceAttachmentConnectedEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -251,39 +251,39 @@ export interface GoogleComputeServiceAttachmentConsumerAcceptLists {
   readonly projectIdOrNum?: string;
 }
 
-export function googleComputeServiceAttachmentConsumerAcceptListsToTerraform(struct?: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeServiceAttachmentConsumerAcceptListsToTerraform(struct?: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    connection_limit: cdktf.numberToTerraform(struct!.connectionLimit),
-    network_url: cdktf.stringToTerraform(struct!.networkUrl),
-    project_id_or_num: cdktf.stringToTerraform(struct!.projectIdOrNum),
+    connection_limit: cdktn.numberToTerraform(struct!.connectionLimit),
+    network_url: cdktn.stringToTerraform(struct!.networkUrl),
+    project_id_or_num: cdktn.stringToTerraform(struct!.projectIdOrNum),
   }
 }
 
 
-export function googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform(struct?: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform(struct?: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     connection_limit: {
-      value: cdktf.numberToHclTerraform(struct!.connectionLimit),
+      value: cdktn.numberToHclTerraform(struct!.connectionLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     network_url: {
-      value: cdktf.stringToHclTerraform(struct!.networkUrl),
+      value: cdktn.stringToHclTerraform(struct!.networkUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id_or_num: {
-      value: cdktf.stringToHclTerraform(struct!.projectIdOrNum),
+      value: cdktn.stringToHclTerraform(struct!.projectIdOrNum),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -294,9 +294,9 @@ export function googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -304,11 +304,11 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeServiceAttachmentConsumerAcceptLists | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeServiceAttachmentConsumerAcceptLists | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -329,7 +329,7 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeServiceAttachmentConsumerAcceptLists | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -337,7 +337,7 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
       this._networkUrl = undefined;
       this._projectIdOrNum = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -396,15 +396,15 @@ export class GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference ex
   }
 }
 
-export class GoogleComputeServiceAttachmentConsumerAcceptListsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktf.IResolvable
+export class GoogleComputeServiceAttachmentConsumerAcceptListsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -430,39 +430,39 @@ export interface GoogleComputeServiceAttachmentTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeServiceAttachmentTimeoutsToTerraform(struct?: GoogleComputeServiceAttachmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeServiceAttachmentTimeoutsToTerraform(struct?: GoogleComputeServiceAttachmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeServiceAttachmentTimeoutsToHclTerraform(struct?: GoogleComputeServiceAttachmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeServiceAttachmentTimeoutsToHclTerraform(struct?: GoogleComputeServiceAttachmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -473,19 +473,19 @@ export function googleComputeServiceAttachmentTimeoutsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeServiceAttachmentTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeServiceAttachmentTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -506,7 +506,7 @@ export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeServiceAttachmentTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeServiceAttachmentTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -514,7 +514,7 @@ export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktf
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -579,7 +579,7 @@ export class GoogleComputeServiceAttachmentTimeoutsOutputReference extends cdktf
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}
 */
-export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
+export class GoogleComputeServiceAttachment extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -590,14 +590,14 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeServiceAttachment resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeServiceAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeServiceAttachment to import
   * @param importFromId The id of the existing GoogleComputeServiceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeServiceAttachment to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_service_attachment", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_service_attachment", importId: importFromId, provider });
       }
 
   // ===========
@@ -717,11 +717,11 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   }
 
   // enable_proxy_protocol - computed: false, optional: false, required: true
-  private _enableProxyProtocol?: boolean | cdktf.IResolvable; 
+  private _enableProxyProtocol?: boolean | cdktn.IResolvable; 
   public get enableProxyProtocol() {
     return this.getBooleanAttribute('enable_proxy_protocol');
   }
-  public set enableProxyProtocol(value: boolean | cdktf.IResolvable) {
+  public set enableProxyProtocol(value: boolean | cdktn.IResolvable) {
     this._enableProxyProtocol = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -809,11 +809,11 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   }
 
   // reconcile_connections - computed: true, optional: true, required: false
-  private _reconcileConnections?: boolean | cdktf.IResolvable; 
+  private _reconcileConnections?: boolean | cdktn.IResolvable; 
   public get reconcileConnections() {
     return this.getBooleanAttribute('reconcile_connections');
   }
-  public set reconcileConnections(value: boolean | cdktf.IResolvable) {
+  public set reconcileConnections(value: boolean | cdktn.IResolvable) {
     this._reconcileConnections = value;
   }
   public resetReconcileConnections() {
@@ -846,11 +846,11 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   }
 
   // send_propagated_connection_limit_if_zero - computed: false, optional: true, required: false
-  private _sendPropagatedConnectionLimitIfZero?: boolean | cdktf.IResolvable; 
+  private _sendPropagatedConnectionLimitIfZero?: boolean | cdktn.IResolvable; 
   public get sendPropagatedConnectionLimitIfZero() {
     return this.getBooleanAttribute('send_propagated_connection_limit_if_zero');
   }
-  public set sendPropagatedConnectionLimitIfZero(value: boolean | cdktf.IResolvable) {
+  public set sendPropagatedConnectionLimitIfZero(value: boolean | cdktn.IResolvable) {
     this._sendPropagatedConnectionLimitIfZero = value;
   }
   public resetSendPropagatedConnectionLimitIfZero() {
@@ -879,7 +879,7 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   public get consumerAcceptLists() {
     return this._consumerAcceptLists;
   }
-  public putConsumerAcceptLists(value: GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktf.IResolvable) {
+  public putConsumerAcceptLists(value: GoogleComputeServiceAttachmentConsumerAcceptLists[] | cdktn.IResolvable) {
     this._consumerAcceptLists.internalValue = value;
   }
   public resetConsumerAcceptLists() {
@@ -912,21 +912,21 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      connection_preference: cdktf.stringToTerraform(this._connectionPreference),
-      consumer_reject_lists: cdktf.listMapper(cdktf.stringToTerraform, false)(this._consumerRejectLists),
-      description: cdktf.stringToTerraform(this._description),
-      domain_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._domainNames),
-      enable_proxy_protocol: cdktf.booleanToTerraform(this._enableProxyProtocol),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      nat_subnets: cdktf.listMapper(cdktf.stringToTerraform, false)(this._natSubnets),
-      project: cdktf.stringToTerraform(this._project),
-      propagated_connection_limit: cdktf.numberToTerraform(this._propagatedConnectionLimit),
-      reconcile_connections: cdktf.booleanToTerraform(this._reconcileConnections),
-      region: cdktf.stringToTerraform(this._region),
-      send_propagated_connection_limit_if_zero: cdktf.booleanToTerraform(this._sendPropagatedConnectionLimitIfZero),
-      target_service: cdktf.stringToTerraform(this._targetService),
-      consumer_accept_lists: cdktf.listMapper(googleComputeServiceAttachmentConsumerAcceptListsToTerraform, true)(this._consumerAcceptLists.internalValue),
+      connection_preference: cdktn.stringToTerraform(this._connectionPreference),
+      consumer_reject_lists: cdktn.listMapper(cdktn.stringToTerraform, false)(this._consumerRejectLists),
+      description: cdktn.stringToTerraform(this._description),
+      domain_names: cdktn.listMapper(cdktn.stringToTerraform, false)(this._domainNames),
+      enable_proxy_protocol: cdktn.booleanToTerraform(this._enableProxyProtocol),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      nat_subnets: cdktn.listMapper(cdktn.stringToTerraform, false)(this._natSubnets),
+      project: cdktn.stringToTerraform(this._project),
+      propagated_connection_limit: cdktn.numberToTerraform(this._propagatedConnectionLimit),
+      reconcile_connections: cdktn.booleanToTerraform(this._reconcileConnections),
+      region: cdktn.stringToTerraform(this._region),
+      send_propagated_connection_limit_if_zero: cdktn.booleanToTerraform(this._sendPropagatedConnectionLimitIfZero),
+      target_service: cdktn.stringToTerraform(this._targetService),
+      consumer_accept_lists: cdktn.listMapper(googleComputeServiceAttachmentConsumerAcceptListsToTerraform, true)(this._consumerAcceptLists.internalValue),
       timeouts: googleComputeServiceAttachmentTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -934,91 +934,91 @@ export class GoogleComputeServiceAttachment extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       connection_preference: {
-        value: cdktf.stringToHclTerraform(this._connectionPreference),
+        value: cdktn.stringToHclTerraform(this._connectionPreference),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       consumer_reject_lists: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._consumerRejectLists),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._consumerRejectLists),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       domain_names: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._domainNames),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._domainNames),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       enable_proxy_protocol: {
-        value: cdktf.booleanToHclTerraform(this._enableProxyProtocol),
+        value: cdktn.booleanToHclTerraform(this._enableProxyProtocol),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       nat_subnets: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._natSubnets),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._natSubnets),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       propagated_connection_limit: {
-        value: cdktf.numberToHclTerraform(this._propagatedConnectionLimit),
+        value: cdktn.numberToHclTerraform(this._propagatedConnectionLimit),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       reconcile_connections: {
-        value: cdktf.booleanToHclTerraform(this._reconcileConnections),
+        value: cdktn.booleanToHclTerraform(this._reconcileConnections),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       send_propagated_connection_limit_if_zero: {
-        value: cdktf.booleanToHclTerraform(this._sendPropagatedConnectionLimitIfZero),
+        value: cdktn.booleanToHclTerraform(this._sendPropagatedConnectionLimitIfZero),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       target_service: {
-        value: cdktf.stringToHclTerraform(this._targetService),
+        value: cdktn.stringToHclTerraform(this._targetService),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       consumer_accept_lists: {
-        value: cdktf.listMapperHcl(googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform, true)(this._consumerAcceptLists.internalValue),
+        value: cdktn.listMapperHcl(googleComputeServiceAttachmentConsumerAcceptListsToHclTerraform, true)(this._consumerAcceptLists.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeServiceAttachmentConsumerAcceptListsList",

@@ -7,21 +7,21 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeNetworkPeeringConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeNetworkPeeringConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether to export the custom routes to the peer network. Defaults to false.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#export_custom_routes GoogleComputeNetworkPeering#export_custom_routes}
   */
-  readonly exportCustomRoutes?: boolean | cdktf.IResolvable;
+  readonly exportCustomRoutes?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#export_subnet_routes_with_public_ip GoogleComputeNetworkPeering#export_subnet_routes_with_public_ip}
   */
-  readonly exportSubnetRoutesWithPublicIp?: boolean | cdktf.IResolvable;
+  readonly exportSubnetRoutesWithPublicIp?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#id GoogleComputeNetworkPeering#id}
   *
@@ -34,11 +34,11 @@ export interface GoogleComputeNetworkPeeringConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#import_custom_routes GoogleComputeNetworkPeering#import_custom_routes}
   */
-  readonly importCustomRoutes?: boolean | cdktf.IResolvable;
+  readonly importCustomRoutes?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#import_subnet_routes_with_public_ip GoogleComputeNetworkPeering#import_subnet_routes_with_public_ip}
   */
-  readonly importSubnetRoutesWithPublicIp?: boolean | cdktf.IResolvable;
+  readonly importSubnetRoutesWithPublicIp?: boolean | cdktn.IResolvable;
   /**
   * Name of the peering.
   *
@@ -91,39 +91,39 @@ export interface GoogleComputeNetworkPeeringTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeNetworkPeeringTimeoutsToTerraform(struct?: GoogleComputeNetworkPeeringTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkPeeringTimeoutsToTerraform(struct?: GoogleComputeNetworkPeeringTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeNetworkPeeringTimeoutsToHclTerraform(struct?: GoogleComputeNetworkPeeringTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkPeeringTimeoutsToHclTerraform(struct?: GoogleComputeNetworkPeeringTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -134,19 +134,19 @@ export function googleComputeNetworkPeeringTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkPeeringTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkPeeringTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeNetworkPeeringTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkPeeringTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -167,7 +167,7 @@ export class GoogleComputeNetworkPeeringTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkPeeringTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkPeeringTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -175,7 +175,7 @@ export class GoogleComputeNetworkPeeringTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -240,7 +240,7 @@ export class GoogleComputeNetworkPeeringTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering google_compute_network_peering}
 */
-export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
+export class GoogleComputeNetworkPeering extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -251,14 +251,14 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeNetworkPeering resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeNetworkPeering resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNetworkPeering to import
   * @param importFromId The id of the existing GoogleComputeNetworkPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNetworkPeering to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_peering", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_peering", importId: importFromId, provider });
       }
 
   // ===========
@@ -306,11 +306,11 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   // ==========
 
   // export_custom_routes - computed: false, optional: true, required: false
-  private _exportCustomRoutes?: boolean | cdktf.IResolvable; 
+  private _exportCustomRoutes?: boolean | cdktn.IResolvable; 
   public get exportCustomRoutes() {
     return this.getBooleanAttribute('export_custom_routes');
   }
-  public set exportCustomRoutes(value: boolean | cdktf.IResolvable) {
+  public set exportCustomRoutes(value: boolean | cdktn.IResolvable) {
     this._exportCustomRoutes = value;
   }
   public resetExportCustomRoutes() {
@@ -322,11 +322,11 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   }
 
   // export_subnet_routes_with_public_ip - computed: false, optional: true, required: false
-  private _exportSubnetRoutesWithPublicIp?: boolean | cdktf.IResolvable; 
+  private _exportSubnetRoutesWithPublicIp?: boolean | cdktn.IResolvable; 
   public get exportSubnetRoutesWithPublicIp() {
     return this.getBooleanAttribute('export_subnet_routes_with_public_ip');
   }
-  public set exportSubnetRoutesWithPublicIp(value: boolean | cdktf.IResolvable) {
+  public set exportSubnetRoutesWithPublicIp(value: boolean | cdktn.IResolvable) {
     this._exportSubnetRoutesWithPublicIp = value;
   }
   public resetExportSubnetRoutesWithPublicIp() {
@@ -354,11 +354,11 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   }
 
   // import_custom_routes - computed: false, optional: true, required: false
-  private _importCustomRoutes?: boolean | cdktf.IResolvable; 
+  private _importCustomRoutes?: boolean | cdktn.IResolvable; 
   public get importCustomRoutes() {
     return this.getBooleanAttribute('import_custom_routes');
   }
-  public set importCustomRoutes(value: boolean | cdktf.IResolvable) {
+  public set importCustomRoutes(value: boolean | cdktn.IResolvable) {
     this._importCustomRoutes = value;
   }
   public resetImportCustomRoutes() {
@@ -370,11 +370,11 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   }
 
   // import_subnet_routes_with_public_ip - computed: false, optional: true, required: false
-  private _importSubnetRoutesWithPublicIp?: boolean | cdktf.IResolvable; 
+  private _importSubnetRoutesWithPublicIp?: boolean | cdktn.IResolvable; 
   public get importSubnetRoutesWithPublicIp() {
     return this.getBooleanAttribute('import_subnet_routes_with_public_ip');
   }
-  public set importSubnetRoutesWithPublicIp(value: boolean | cdktf.IResolvable) {
+  public set importSubnetRoutesWithPublicIp(value: boolean | cdktn.IResolvable) {
     this._importSubnetRoutesWithPublicIp = value;
   }
   public resetImportSubnetRoutesWithPublicIp() {
@@ -488,16 +488,16 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      export_custom_routes: cdktf.booleanToTerraform(this._exportCustomRoutes),
-      export_subnet_routes_with_public_ip: cdktf.booleanToTerraform(this._exportSubnetRoutesWithPublicIp),
-      id: cdktf.stringToTerraform(this._id),
-      import_custom_routes: cdktf.booleanToTerraform(this._importCustomRoutes),
-      import_subnet_routes_with_public_ip: cdktf.booleanToTerraform(this._importSubnetRoutesWithPublicIp),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      peer_network: cdktf.stringToTerraform(this._peerNetwork),
-      stack_type: cdktf.stringToTerraform(this._stackType),
-      update_strategy: cdktf.stringToTerraform(this._updateStrategy),
+      export_custom_routes: cdktn.booleanToTerraform(this._exportCustomRoutes),
+      export_subnet_routes_with_public_ip: cdktn.booleanToTerraform(this._exportSubnetRoutesWithPublicIp),
+      id: cdktn.stringToTerraform(this._id),
+      import_custom_routes: cdktn.booleanToTerraform(this._importCustomRoutes),
+      import_subnet_routes_with_public_ip: cdktn.booleanToTerraform(this._importSubnetRoutesWithPublicIp),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      peer_network: cdktn.stringToTerraform(this._peerNetwork),
+      stack_type: cdktn.stringToTerraform(this._stackType),
+      update_strategy: cdktn.stringToTerraform(this._updateStrategy),
       timeouts: googleComputeNetworkPeeringTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -505,61 +505,61 @@ export class GoogleComputeNetworkPeering extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       export_custom_routes: {
-        value: cdktf.booleanToHclTerraform(this._exportCustomRoutes),
+        value: cdktn.booleanToHclTerraform(this._exportCustomRoutes),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       export_subnet_routes_with_public_ip: {
-        value: cdktf.booleanToHclTerraform(this._exportSubnetRoutesWithPublicIp),
+        value: cdktn.booleanToHclTerraform(this._exportSubnetRoutesWithPublicIp),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       import_custom_routes: {
-        value: cdktf.booleanToHclTerraform(this._importCustomRoutes),
+        value: cdktn.booleanToHclTerraform(this._importCustomRoutes),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       import_subnet_routes_with_public_ip: {
-        value: cdktf.booleanToHclTerraform(this._importSubnetRoutesWithPublicIp),
+        value: cdktn.booleanToHclTerraform(this._importSubnetRoutesWithPublicIp),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       peer_network: {
-        value: cdktf.stringToHclTerraform(this._peerNetwork),
+        value: cdktn.stringToHclTerraform(this._peerNetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       stack_type: {
-        value: cdktf.stringToHclTerraform(this._stackType),
+        value: cdktn.stringToHclTerraform(this._stackType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       update_strategy: {
-        value: cdktf.stringToHclTerraform(this._updateStrategy),
+        value: cdktn.stringToHclTerraform(this._updateStrategy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

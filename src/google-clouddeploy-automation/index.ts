@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleClouddeployAutomationConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleClouddeployAutomationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. User annotations. These attributes can only be set and used by the user, and not by Cloud Deploy. Annotations must meet the following constraints: * Annotations are key/value pairs. * Valid annotation keys have two segments: an optional prefix and name, separated by a slash ('/'). * The name segment is required and must be 63 characters or less, beginning and ending with an alphanumeric character ('[a-z0-9A-Z]') with dashes ('-'), underscores ('_'), dots ('.'), and alphanumerics between. * The prefix is optional. If specified, the prefix must be a DNS subdomain: a series of DNS labels separated by dots('.'), not longer than 253 characters in total, followed by a slash ('/'). See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/#syntax-and-character-set for more details.
   * 
@@ -76,13 +76,13 @@ export interface GoogleClouddeployAutomationConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#suspended GoogleClouddeployAutomation#suspended}
   */
-  readonly suspended?: boolean | cdktf.IResolvable;
+  readonly suspended?: boolean | cdktn.IResolvable;
   /**
   * rules block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#rules GoogleClouddeployAutomation#rules}
   */
-  readonly rules: GoogleClouddeployAutomationRules[] | cdktf.IResolvable;
+  readonly rules: GoogleClouddeployAutomationRules[] | cdktn.IResolvable;
   /**
   * selector block
   *
@@ -121,38 +121,38 @@ export interface GoogleClouddeployAutomationRulesAdvanceRolloutRule {
 }
 
 export function googleClouddeployAutomationRulesAdvanceRolloutRuleToTerraform(struct?: GoogleClouddeployAutomationRulesAdvanceRolloutRuleOutputReference | GoogleClouddeployAutomationRulesAdvanceRolloutRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    source_phases: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourcePhases),
-    wait: cdktf.stringToTerraform(struct!.wait),
+    id: cdktn.stringToTerraform(struct!.id),
+    source_phases: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourcePhases),
+    wait: cdktn.stringToTerraform(struct!.wait),
   }
 }
 
 
 export function googleClouddeployAutomationRulesAdvanceRolloutRuleToHclTerraform(struct?: GoogleClouddeployAutomationRulesAdvanceRolloutRuleOutputReference | GoogleClouddeployAutomationRulesAdvanceRolloutRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_phases: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourcePhases),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourcePhases),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     wait: {
-      value: cdktf.stringToHclTerraform(struct!.wait),
+      value: cdktn.stringToHclTerraform(struct!.wait),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -163,14 +163,14 @@ export function googleClouddeployAutomationRulesAdvanceRolloutRuleToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesAdvanceRolloutRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesAdvanceRolloutRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -283,45 +283,45 @@ export interface GoogleClouddeployAutomationRulesPromoteReleaseRule {
 }
 
 export function googleClouddeployAutomationRulesPromoteReleaseRuleToTerraform(struct?: GoogleClouddeployAutomationRulesPromoteReleaseRuleOutputReference | GoogleClouddeployAutomationRulesPromoteReleaseRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    destination_phase: cdktf.stringToTerraform(struct!.destinationPhase),
-    destination_target_id: cdktf.stringToTerraform(struct!.destinationTargetId),
-    id: cdktf.stringToTerraform(struct!.id),
-    wait: cdktf.stringToTerraform(struct!.wait),
+    destination_phase: cdktn.stringToTerraform(struct!.destinationPhase),
+    destination_target_id: cdktn.stringToTerraform(struct!.destinationTargetId),
+    id: cdktn.stringToTerraform(struct!.id),
+    wait: cdktn.stringToTerraform(struct!.wait),
   }
 }
 
 
 export function googleClouddeployAutomationRulesPromoteReleaseRuleToHclTerraform(struct?: GoogleClouddeployAutomationRulesPromoteReleaseRuleOutputReference | GoogleClouddeployAutomationRulesPromoteReleaseRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     destination_phase: {
-      value: cdktf.stringToHclTerraform(struct!.destinationPhase),
+      value: cdktn.stringToHclTerraform(struct!.destinationPhase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     destination_target_id: {
-      value: cdktf.stringToHclTerraform(struct!.destinationTargetId),
+      value: cdktn.stringToHclTerraform(struct!.destinationTargetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     wait: {
-      value: cdktf.stringToHclTerraform(struct!.wait),
+      value: cdktn.stringToHclTerraform(struct!.wait),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -332,14 +332,14 @@ export function googleClouddeployAutomationRulesPromoteReleaseRuleToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesPromoteReleaseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesPromoteReleaseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -465,38 +465,38 @@ export interface GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRe
 }
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryToTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetry): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    attempts: cdktf.stringToTerraform(struct!.attempts),
-    backoff_mode: cdktf.stringToTerraform(struct!.backoffMode),
-    wait: cdktf.stringToTerraform(struct!.wait),
+    attempts: cdktn.stringToTerraform(struct!.attempts),
+    backoff_mode: cdktn.stringToTerraform(struct!.backoffMode),
+    wait: cdktn.stringToTerraform(struct!.wait),
   }
 }
 
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryToHclTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetry): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     attempts: {
-      value: cdktf.stringToHclTerraform(struct!.attempts),
+      value: cdktn.stringToHclTerraform(struct!.attempts),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     backoff_mode: {
-      value: cdktf.stringToHclTerraform(struct!.backoffMode),
+      value: cdktn.stringToHclTerraform(struct!.backoffMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     wait: {
-      value: cdktf.stringToHclTerraform(struct!.wait),
+      value: cdktn.stringToHclTerraform(struct!.wait),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -507,14 +507,14 @@ export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRet
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRetryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -608,35 +608,35 @@ export interface GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRo
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#disable_rollback_if_rollout_pending GoogleClouddeployAutomation#disable_rollback_if_rollout_pending}
   */
-  readonly disableRollbackIfRolloutPending?: boolean | cdktf.IResolvable;
+  readonly disableRollbackIfRolloutPending?: boolean | cdktn.IResolvable;
 }
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackToTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    destination_phase: cdktf.stringToTerraform(struct!.destinationPhase),
-    disable_rollback_if_rollout_pending: cdktf.booleanToTerraform(struct!.disableRollbackIfRolloutPending),
+    destination_phase: cdktn.stringToTerraform(struct!.destinationPhase),
+    disable_rollback_if_rollout_pending: cdktn.booleanToTerraform(struct!.disableRollbackIfRolloutPending),
   }
 }
 
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackToHclTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     destination_phase: {
-      value: cdktf.stringToHclTerraform(struct!.destinationPhase),
+      value: cdktn.stringToHclTerraform(struct!.destinationPhase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disable_rollback_if_rollout_pending: {
-      value: cdktf.booleanToHclTerraform(struct!.disableRollbackIfRolloutPending),
+      value: cdktn.booleanToHclTerraform(struct!.disableRollbackIfRolloutPending),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -647,14 +647,14 @@ export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollbackOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -702,11 +702,11 @@ export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollba
   }
 
   // disable_rollback_if_rollout_pending - computed: false, optional: true, required: false
-  private _disableRollbackIfRolloutPending?: boolean | cdktf.IResolvable; 
+  private _disableRollbackIfRolloutPending?: boolean | cdktn.IResolvable; 
   public get disableRollbackIfRolloutPending() {
     return this.getBooleanAttribute('disable_rollback_if_rollout_pending');
   }
-  public set disableRollbackIfRolloutPending(value: boolean | cdktf.IResolvable) {
+  public set disableRollbackIfRolloutPending(value: boolean | cdktn.IResolvable) {
     this._disableRollbackIfRolloutPending = value;
   }
   public resetDisableRollbackIfRolloutPending() {
@@ -732,9 +732,9 @@ export interface GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases {
   readonly rollback?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesRollback;
 }
 
-export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -744,9 +744,9 @@ export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToT
 }
 
 
-export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToHclTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToHclTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -768,9 +768,9 @@ export function googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -778,11 +778,11 @@ export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -799,14 +799,14 @@ export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutput
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._retry.internalValue = undefined;
       this._rollback.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -851,15 +851,15 @@ export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesOutput
   }
 }
 
-export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList extends cdktf.ComplexList {
-  public internalValue? : GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktf.IResolvable
+export class GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList extends cdktn.ComplexList {
+  public internalValue? : GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -897,49 +897,49 @@ export interface GoogleClouddeployAutomationRulesRepairRolloutRule {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#repair_phases GoogleClouddeployAutomation#repair_phases}
   */
-  readonly repairPhases?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktf.IResolvable;
+  readonly repairPhases?: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktn.IResolvable;
 }
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleToTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    jobs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jobs),
-    phases: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.phases),
-    repair_phases: cdktf.listMapper(googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToTerraform, true)(struct!.repairPhases),
+    id: cdktn.stringToTerraform(struct!.id),
+    jobs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jobs),
+    phases: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.phases),
+    repair_phases: cdktn.listMapper(googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToTerraform, true)(struct!.repairPhases),
   }
 }
 
 
 export function googleClouddeployAutomationRulesRepairRolloutRuleToHclTerraform(struct?: GoogleClouddeployAutomationRulesRepairRolloutRuleOutputReference | GoogleClouddeployAutomationRulesRepairRolloutRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     jobs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jobs),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jobs),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     phases: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.phases),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.phases),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     repair_phases: {
-      value: cdktf.listMapperHcl(googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToHclTerraform, true)(struct!.repairPhases),
+      value: cdktn.listMapperHcl(googleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesToHclTerraform, true)(struct!.repairPhases),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhasesList",
@@ -950,14 +950,14 @@ export function googleClouddeployAutomationRulesRepairRolloutRuleToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesRepairRolloutRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesRepairRolloutRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1050,7 +1050,7 @@ export class GoogleClouddeployAutomationRulesRepairRolloutRuleOutputReference ex
   public get repairPhases() {
     return this._repairPhases;
   }
-  public putRepairPhases(value: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktf.IResolvable) {
+  public putRepairPhases(value: GoogleClouddeployAutomationRulesRepairRolloutRuleRepairPhases[] | cdktn.IResolvable) {
     this._repairPhases.internalValue = value;
   }
   public resetRepairPhases() {
@@ -1100,52 +1100,52 @@ export interface GoogleClouddeployAutomationRulesTimedPromoteReleaseRule {
 }
 
 export function googleClouddeployAutomationRulesTimedPromoteReleaseRuleToTerraform(struct?: GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference | GoogleClouddeployAutomationRulesTimedPromoteReleaseRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    destination_phase: cdktf.stringToTerraform(struct!.destinationPhase),
-    destination_target_id: cdktf.stringToTerraform(struct!.destinationTargetId),
-    id: cdktf.stringToTerraform(struct!.id),
-    schedule: cdktf.stringToTerraform(struct!.schedule),
-    time_zone: cdktf.stringToTerraform(struct!.timeZone),
+    destination_phase: cdktn.stringToTerraform(struct!.destinationPhase),
+    destination_target_id: cdktn.stringToTerraform(struct!.destinationTargetId),
+    id: cdktn.stringToTerraform(struct!.id),
+    schedule: cdktn.stringToTerraform(struct!.schedule),
+    time_zone: cdktn.stringToTerraform(struct!.timeZone),
   }
 }
 
 
 export function googleClouddeployAutomationRulesTimedPromoteReleaseRuleToHclTerraform(struct?: GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference | GoogleClouddeployAutomationRulesTimedPromoteReleaseRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     destination_phase: {
-      value: cdktf.stringToHclTerraform(struct!.destinationPhase),
+      value: cdktn.stringToHclTerraform(struct!.destinationPhase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     destination_target_id: {
-      value: cdktf.stringToHclTerraform(struct!.destinationTargetId),
+      value: cdktn.stringToHclTerraform(struct!.destinationTargetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schedule: {
-      value: cdktf.stringToHclTerraform(struct!.schedule),
+      value: cdktn.stringToHclTerraform(struct!.schedule),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time_zone: {
-      value: cdktf.stringToHclTerraform(struct!.timeZone),
+      value: cdktn.stringToHclTerraform(struct!.timeZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1156,14 +1156,14 @@ export function googleClouddeployAutomationRulesTimedPromoteReleaseRuleToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1310,9 +1310,9 @@ export interface GoogleClouddeployAutomationRules {
   readonly timedPromoteReleaseRule?: GoogleClouddeployAutomationRulesTimedPromoteReleaseRule;
 }
 
-export function googleClouddeployAutomationRulesToTerraform(struct?: GoogleClouddeployAutomationRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationRulesToTerraform(struct?: GoogleClouddeployAutomationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1324,9 +1324,9 @@ export function googleClouddeployAutomationRulesToTerraform(struct?: GoogleCloud
 }
 
 
-export function googleClouddeployAutomationRulesToHclTerraform(struct?: GoogleClouddeployAutomationRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationRulesToHclTerraform(struct?: GoogleClouddeployAutomationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1360,9 +1360,9 @@ export function googleClouddeployAutomationRulesToHclTerraform(struct?: GoogleCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1370,11 +1370,11 @@ export class GoogleClouddeployAutomationRulesOutputReference extends cdktf.Compl
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleClouddeployAutomationRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleClouddeployAutomationRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1399,7 +1399,7 @@ export class GoogleClouddeployAutomationRulesOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleClouddeployAutomationRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleClouddeployAutomationRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1408,7 +1408,7 @@ export class GoogleClouddeployAutomationRulesOutputReference extends cdktf.Compl
       this._repairRolloutRule.internalValue = undefined;
       this._timedPromoteReleaseRule.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1487,15 +1487,15 @@ export class GoogleClouddeployAutomationRulesOutputReference extends cdktf.Compl
   }
 }
 
-export class GoogleClouddeployAutomationRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleClouddeployAutomationRules[] | cdktf.IResolvable
+export class GoogleClouddeployAutomationRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleClouddeployAutomationRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1524,32 +1524,32 @@ export interface GoogleClouddeployAutomationSelectorTargets {
   readonly labels?: { [key: string]: string };
 }
 
-export function googleClouddeployAutomationSelectorTargetsToTerraform(struct?: GoogleClouddeployAutomationSelectorTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationSelectorTargetsToTerraform(struct?: GoogleClouddeployAutomationSelectorTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    id: cdktn.stringToTerraform(struct!.id),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
   }
 }
 
 
-export function googleClouddeployAutomationSelectorTargetsToHclTerraform(struct?: GoogleClouddeployAutomationSelectorTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationSelectorTargetsToHclTerraform(struct?: GoogleClouddeployAutomationSelectorTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1560,9 +1560,9 @@ export function googleClouddeployAutomationSelectorTargetsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationSelectorTargetsOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationSelectorTargetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1570,11 +1570,11 @@ export class GoogleClouddeployAutomationSelectorTargetsOutputReference extends c
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleClouddeployAutomationSelectorTargets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleClouddeployAutomationSelectorTargets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1591,14 +1591,14 @@ export class GoogleClouddeployAutomationSelectorTargetsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleClouddeployAutomationSelectorTargets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleClouddeployAutomationSelectorTargets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._id = undefined;
       this._labels = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1643,15 +1643,15 @@ export class GoogleClouddeployAutomationSelectorTargetsOutputReference extends c
   }
 }
 
-export class GoogleClouddeployAutomationSelectorTargetsList extends cdktf.ComplexList {
-  public internalValue? : GoogleClouddeployAutomationSelectorTargets[] | cdktf.IResolvable
+export class GoogleClouddeployAutomationSelectorTargetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleClouddeployAutomationSelectorTargets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1668,28 +1668,28 @@ export interface GoogleClouddeployAutomationSelector {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#targets GoogleClouddeployAutomation#targets}
   */
-  readonly targets: GoogleClouddeployAutomationSelectorTargets[] | cdktf.IResolvable;
+  readonly targets: GoogleClouddeployAutomationSelectorTargets[] | cdktn.IResolvable;
 }
 
 export function googleClouddeployAutomationSelectorToTerraform(struct?: GoogleClouddeployAutomationSelectorOutputReference | GoogleClouddeployAutomationSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    targets: cdktf.listMapper(googleClouddeployAutomationSelectorTargetsToTerraform, true)(struct!.targets),
+    targets: cdktn.listMapper(googleClouddeployAutomationSelectorTargetsToTerraform, true)(struct!.targets),
   }
 }
 
 
 export function googleClouddeployAutomationSelectorToHclTerraform(struct?: GoogleClouddeployAutomationSelectorOutputReference | GoogleClouddeployAutomationSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     targets: {
-      value: cdktf.listMapperHcl(googleClouddeployAutomationSelectorTargetsToHclTerraform, true)(struct!.targets),
+      value: cdktn.listMapperHcl(googleClouddeployAutomationSelectorTargetsToHclTerraform, true)(struct!.targets),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleClouddeployAutomationSelectorTargetsList",
@@ -1700,14 +1700,14 @@ export function googleClouddeployAutomationSelectorToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationSelectorOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationSelectorOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1737,7 +1737,7 @@ export class GoogleClouddeployAutomationSelectorOutputReference extends cdktf.Co
   public get targets() {
     return this._targets;
   }
-  public putTargets(value: GoogleClouddeployAutomationSelectorTargets[] | cdktf.IResolvable) {
+  public putTargets(value: GoogleClouddeployAutomationSelectorTargets[] | cdktn.IResolvable) {
     this._targets.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1760,39 +1760,39 @@ export interface GoogleClouddeployAutomationTimeouts {
   readonly update?: string;
 }
 
-export function googleClouddeployAutomationTimeoutsToTerraform(struct?: GoogleClouddeployAutomationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationTimeoutsToTerraform(struct?: GoogleClouddeployAutomationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleClouddeployAutomationTimeoutsToHclTerraform(struct?: GoogleClouddeployAutomationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleClouddeployAutomationTimeoutsToHclTerraform(struct?: GoogleClouddeployAutomationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1803,19 +1803,19 @@ export function googleClouddeployAutomationTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleClouddeployAutomationTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleClouddeployAutomationTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleClouddeployAutomationTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleClouddeployAutomationTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1836,7 +1836,7 @@ export class GoogleClouddeployAutomationTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleClouddeployAutomationTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleClouddeployAutomationTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1844,7 +1844,7 @@ export class GoogleClouddeployAutomationTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1909,7 +1909,7 @@ export class GoogleClouddeployAutomationTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation}
 */
-export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
+export class GoogleClouddeployAutomation extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1920,14 +1920,14 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleClouddeployAutomation resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleClouddeployAutomation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleClouddeployAutomation to import
   * @param importFromId The id of the existing GoogleClouddeployAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleClouddeployAutomation to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_clouddeploy_automation", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_clouddeploy_automation", importId: importFromId, provider });
       }
 
   // ===========
@@ -2027,13 +2027,13 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -2131,11 +2131,11 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   }
 
   // suspended - computed: false, optional: true, required: false
-  private _suspended?: boolean | cdktf.IResolvable; 
+  private _suspended?: boolean | cdktn.IResolvable; 
   public get suspended() {
     return this.getBooleanAttribute('suspended');
   }
-  public set suspended(value: boolean | cdktf.IResolvable) {
+  public set suspended(value: boolean | cdktn.IResolvable) {
     this._suspended = value;
   }
   public resetSuspended() {
@@ -2147,7 +2147,7 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -2167,7 +2167,7 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   public get rules() {
     return this._rules;
   }
-  public putRules(value: GoogleClouddeployAutomationRules[] | cdktf.IResolvable) {
+  public putRules(value: GoogleClouddeployAutomationRules[] | cdktn.IResolvable) {
     this._rules.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2210,17 +2210,17 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      delivery_pipeline: cdktf.stringToTerraform(this._deliveryPipeline),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      service_account: cdktf.stringToTerraform(this._serviceAccount),
-      suspended: cdktf.booleanToTerraform(this._suspended),
-      rules: cdktf.listMapper(googleClouddeployAutomationRulesToTerraform, true)(this._rules.internalValue),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      delivery_pipeline: cdktn.stringToTerraform(this._deliveryPipeline),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      service_account: cdktn.stringToTerraform(this._serviceAccount),
+      suspended: cdktn.booleanToTerraform(this._suspended),
+      rules: cdktn.listMapper(googleClouddeployAutomationRulesToTerraform, true)(this._rules.internalValue),
       selector: googleClouddeployAutomationSelectorToTerraform(this._selector.internalValue),
       timeouts: googleClouddeployAutomationTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -2229,67 +2229,67 @@ export class GoogleClouddeployAutomation extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       delivery_pipeline: {
-        value: cdktf.stringToHclTerraform(this._deliveryPipeline),
+        value: cdktn.stringToHclTerraform(this._deliveryPipeline),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_account: {
-        value: cdktf.stringToHclTerraform(this._serviceAccount),
+        value: cdktn.stringToHclTerraform(this._serviceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       suspended: {
-        value: cdktf.booleanToHclTerraform(this._suspended),
+        value: cdktn.booleanToHclTerraform(this._suspended),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       rules: {
-        value: cdktf.listMapperHcl(googleClouddeployAutomationRulesToHclTerraform, true)(this._rules.internalValue),
+        value: cdktn.listMapperHcl(googleClouddeployAutomationRulesToHclTerraform, true)(this._rules.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleClouddeployAutomationRulesList",

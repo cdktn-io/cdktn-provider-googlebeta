@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleVmwareenginePrivateCloudConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleVmwareenginePrivateCloudConfig extends cdktn.TerraformMetaArguments {
   /**
   * The number of hours to delay this request. You can set this value to an hour between 0 to 8, where setting it to 0 starts the deletion request immediately. If no value is set, a default value is set at the API Level.
   *
@@ -52,7 +52,7 @@ export interface GoogleVmwareenginePrivateCloudConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_private_cloud#send_deletion_delay_hours_if_zero GoogleVmwareenginePrivateCloud#send_deletion_delay_hours_if_zero}
   */
-  readonly sendDeletionDelayHoursIfZero?: boolean | cdktf.IResolvable;
+  readonly sendDeletionDelayHoursIfZero?: boolean | cdktn.IResolvable;
   /**
   * Initial type of the private cloud. Possible values: ["STANDARD", "TIME_LIMITED", "STRETCHED"]
   *
@@ -82,8 +82,8 @@ export interface GoogleVmwareenginePrivateCloudHcx {
 }
 
 export function googleVmwareenginePrivateCloudHcxToTerraform(struct?: GoogleVmwareenginePrivateCloudHcx): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -92,8 +92,8 @@ export function googleVmwareenginePrivateCloudHcxToTerraform(struct?: GoogleVmwa
 
 
 export function googleVmwareenginePrivateCloudHcxToHclTerraform(struct?: GoogleVmwareenginePrivateCloudHcx): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -101,7 +101,7 @@ export function googleVmwareenginePrivateCloudHcxToHclTerraform(struct?: GoogleV
   return attrs;
 }
 
-export class GoogleVmwareenginePrivateCloudHcxOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudHcxOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -110,7 +110,7 @@ export class GoogleVmwareenginePrivateCloudHcxOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -150,14 +150,14 @@ export class GoogleVmwareenginePrivateCloudHcxOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleVmwareenginePrivateCloudHcxList extends cdktf.ComplexList {
+export class GoogleVmwareenginePrivateCloudHcxList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -172,8 +172,8 @@ export interface GoogleVmwareenginePrivateCloudNsx {
 }
 
 export function googleVmwareenginePrivateCloudNsxToTerraform(struct?: GoogleVmwareenginePrivateCloudNsx): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -182,8 +182,8 @@ export function googleVmwareenginePrivateCloudNsxToTerraform(struct?: GoogleVmwa
 
 
 export function googleVmwareenginePrivateCloudNsxToHclTerraform(struct?: GoogleVmwareenginePrivateCloudNsx): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -191,7 +191,7 @@ export function googleVmwareenginePrivateCloudNsxToHclTerraform(struct?: GoogleV
   return attrs;
 }
 
-export class GoogleVmwareenginePrivateCloudNsxOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudNsxOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -200,7 +200,7 @@ export class GoogleVmwareenginePrivateCloudNsxOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -240,14 +240,14 @@ export class GoogleVmwareenginePrivateCloudNsxOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleVmwareenginePrivateCloudNsxList extends cdktf.ComplexList {
+export class GoogleVmwareenginePrivateCloudNsxList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -262,8 +262,8 @@ export interface GoogleVmwareenginePrivateCloudVcenter {
 }
 
 export function googleVmwareenginePrivateCloudVcenterToTerraform(struct?: GoogleVmwareenginePrivateCloudVcenter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -272,8 +272,8 @@ export function googleVmwareenginePrivateCloudVcenterToTerraform(struct?: Google
 
 
 export function googleVmwareenginePrivateCloudVcenterToHclTerraform(struct?: GoogleVmwareenginePrivateCloudVcenter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -281,7 +281,7 @@ export function googleVmwareenginePrivateCloudVcenterToHclTerraform(struct?: Goo
   return attrs;
 }
 
-export class GoogleVmwareenginePrivateCloudVcenterOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudVcenterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -290,7 +290,7 @@ export class GoogleVmwareenginePrivateCloudVcenterOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -330,14 +330,14 @@ export class GoogleVmwareenginePrivateCloudVcenterOutputReference extends cdktf.
   }
 }
 
-export class GoogleVmwareenginePrivateCloudVcenterList extends cdktf.ComplexList {
+export class GoogleVmwareenginePrivateCloudVcenterList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -364,31 +364,31 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSetti
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scale_in: cdktf.numberToTerraform(struct!.scaleIn),
-    scale_out: cdktf.numberToTerraform(struct!.scaleOut),
+    scale_in: cdktn.numberToTerraform(struct!.scaleIn),
+    scale_out: cdktn.numberToTerraform(struct!.scaleOut),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scale_in: {
-      value: cdktf.numberToHclTerraform(struct!.scaleIn),
+      value: cdktn.numberToHclTerraform(struct!.scaleIn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     scale_out: {
-      value: cdktf.numberToHclTerraform(struct!.scaleOut),
+      value: cdktn.numberToHclTerraform(struct!.scaleOut),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -399,14 +399,14 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -479,31 +479,31 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSetti
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scale_in: cdktf.numberToTerraform(struct!.scaleIn),
-    scale_out: cdktf.numberToTerraform(struct!.scaleOut),
+    scale_in: cdktn.numberToTerraform(struct!.scaleIn),
+    scale_out: cdktn.numberToTerraform(struct!.scaleOut),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scale_in: {
-      value: cdktf.numberToHclTerraform(struct!.scaleIn),
+      value: cdktn.numberToHclTerraform(struct!.scaleIn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     scale_out: {
-      value: cdktf.numberToHclTerraform(struct!.scaleOut),
+      value: cdktn.numberToHclTerraform(struct!.scaleOut),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -514,14 +514,14 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -594,31 +594,31 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSetti
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scale_in: cdktf.numberToTerraform(struct!.scaleIn),
-    scale_out: cdktf.numberToTerraform(struct!.scaleOut),
+    scale_in: cdktn.numberToTerraform(struct!.scaleIn),
+    scale_out: cdktn.numberToTerraform(struct!.scaleOut),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholds): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scale_in: {
-      value: cdktf.numberToHclTerraform(struct!.scaleIn),
+      value: cdktn.numberToHclTerraform(struct!.scaleIn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     scale_out: {
-      value: cdktf.numberToHclTerraform(struct!.scaleOut),
+      value: cdktn.numberToHclTerraform(struct!.scaleOut),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -629,14 +629,14 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -731,15 +731,15 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSetti
   readonly storageThresholds?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholds;
 }
 
-export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    autoscale_policy_id: cdktf.stringToTerraform(struct!.autoscalePolicyId),
-    node_type_id: cdktf.stringToTerraform(struct!.nodeTypeId),
-    scale_out_size: cdktf.numberToTerraform(struct!.scaleOutSize),
+    autoscale_policy_id: cdktn.stringToTerraform(struct!.autoscalePolicyId),
+    node_type_id: cdktn.stringToTerraform(struct!.nodeTypeId),
+    scale_out_size: cdktn.numberToTerraform(struct!.scaleOutSize),
     consumed_memory_thresholds: googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholdsToTerraform(struct!.consumedMemoryThresholds),
     cpu_thresholds: googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesCpuThresholdsToTerraform(struct!.cpuThresholds),
     storage_thresholds: googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesStorageThresholdsToTerraform(struct!.storageThresholds),
@@ -747,26 +747,26 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
 }
 
 
-export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     autoscale_policy_id: {
-      value: cdktf.stringToHclTerraform(struct!.autoscalePolicyId),
+      value: cdktn.stringToHclTerraform(struct!.autoscalePolicyId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     node_type_id: {
-      value: cdktf.stringToHclTerraform(struct!.nodeTypeId),
+      value: cdktn.stringToHclTerraform(struct!.nodeTypeId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scale_out_size: {
-      value: cdktf.numberToHclTerraform(struct!.scaleOutSize),
+      value: cdktn.numberToHclTerraform(struct!.scaleOutSize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -795,9 +795,9 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -805,11 +805,11 @@ export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsA
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -842,7 +842,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsA
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -853,7 +853,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsA
       this._cpuThresholds.internalValue = undefined;
       this._storageThresholds.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -957,15 +957,15 @@ export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsA
   }
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesList extends cdktf.ComplexList {
-  public internalValue? : GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktf.IResolvable
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesList extends cdktn.ComplexList {
+  public internalValue? : GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1006,49 +1006,49 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSetti
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_private_cloud#autoscaling_policies GoogleVmwareenginePrivateCloud#autoscaling_policies}
   */
-  readonly autoscalingPolicies: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktf.IResolvable;
+  readonly autoscalingPolicies: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktn.IResolvable;
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cool_down_period: cdktf.stringToTerraform(struct!.coolDownPeriod),
-    max_cluster_node_count: cdktf.numberToTerraform(struct!.maxClusterNodeCount),
-    min_cluster_node_count: cdktf.numberToTerraform(struct!.minClusterNodeCount),
-    autoscaling_policies: cdktf.listMapper(googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToTerraform, true)(struct!.autoscalingPolicies),
+    cool_down_period: cdktn.stringToTerraform(struct!.coolDownPeriod),
+    max_cluster_node_count: cdktn.numberToTerraform(struct!.maxClusterNodeCount),
+    min_cluster_node_count: cdktn.numberToTerraform(struct!.minClusterNodeCount),
+    autoscaling_policies: cdktn.listMapper(googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToTerraform, true)(struct!.autoscalingPolicies),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsOutputReference | GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cool_down_period: {
-      value: cdktf.stringToHclTerraform(struct!.coolDownPeriod),
+      value: cdktn.stringToHclTerraform(struct!.coolDownPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_cluster_node_count: {
-      value: cdktf.numberToHclTerraform(struct!.maxClusterNodeCount),
+      value: cdktn.numberToHclTerraform(struct!.maxClusterNodeCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_cluster_node_count: {
-      value: cdktf.numberToHclTerraform(struct!.minClusterNodeCount),
+      value: cdktn.numberToHclTerraform(struct!.minClusterNodeCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     autoscaling_policies: {
-      value: cdktf.listMapperHcl(googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToHclTerraform, true)(struct!.autoscalingPolicies),
+      value: cdktn.listMapperHcl(googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesToHclTerraform, true)(struct!.autoscalingPolicies),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPoliciesList",
@@ -1059,14 +1059,14 @@ export function googleVmwareenginePrivateCloudManagementClusterAutoscalingSettin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1162,7 +1162,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsO
   public get autoscalingPolicies() {
     return this._autoscalingPolicies;
   }
-  public putAutoscalingPolicies(value: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktf.IResolvable) {
+  public putAutoscalingPolicies(value: GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsAutoscalingPolicies[] | cdktn.IResolvable) {
     this._autoscalingPolicies.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1192,39 +1192,39 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs 
   readonly nodeTypeId: string;
 }
 
-export function googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    custom_core_count: cdktf.numberToTerraform(struct!.customCoreCount),
-    node_count: cdktf.numberToTerraform(struct!.nodeCount),
-    node_type_id: cdktf.stringToTerraform(struct!.nodeTypeId),
+    custom_core_count: cdktn.numberToTerraform(struct!.customCoreCount),
+    node_count: cdktn.numberToTerraform(struct!.nodeCount),
+    node_type_id: cdktn.stringToTerraform(struct!.nodeTypeId),
   }
 }
 
 
-export function googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     custom_core_count: {
-      value: cdktf.numberToHclTerraform(struct!.customCoreCount),
+      value: cdktn.numberToHclTerraform(struct!.customCoreCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     node_count: {
-      value: cdktf.numberToHclTerraform(struct!.nodeCount),
+      value: cdktn.numberToHclTerraform(struct!.nodeCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     node_type_id: {
-      value: cdktf.stringToHclTerraform(struct!.nodeTypeId),
+      value: cdktn.stringToHclTerraform(struct!.nodeTypeId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1235,9 +1235,9 @@ export function googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1245,11 +1245,11 @@ export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1270,7 +1270,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1278,7 +1278,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutpu
       this._nodeCount = undefined;
       this._nodeTypeId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1334,15 +1334,15 @@ export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutpu
   }
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktf.IResolvable
+export class GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1371,31 +1371,31 @@ export interface GoogleVmwareenginePrivateCloudManagementClusterStretchedCluster
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigOutputReference | GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    preferred_location: cdktf.stringToTerraform(struct!.preferredLocation),
-    secondary_location: cdktf.stringToTerraform(struct!.secondaryLocation),
+    preferred_location: cdktn.stringToTerraform(struct!.preferredLocation),
+    secondary_location: cdktn.stringToTerraform(struct!.secondaryLocation),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigOutputReference | GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     preferred_location: {
-      value: cdktf.stringToHclTerraform(struct!.preferredLocation),
+      value: cdktn.stringToHclTerraform(struct!.preferredLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secondary_location: {
-      value: cdktf.stringToHclTerraform(struct!.secondaryLocation),
+      value: cdktn.stringToHclTerraform(struct!.secondaryLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1406,14 +1406,14 @@ export function googleVmwareenginePrivateCloudManagementClusterStretchedClusterC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1499,7 +1499,7 @@ export interface GoogleVmwareenginePrivateCloudManagementCluster {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_private_cloud#node_type_configs GoogleVmwareenginePrivateCloud#node_type_configs}
   */
-  readonly nodeTypeConfigs?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktf.IResolvable;
+  readonly nodeTypeConfigs?: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktn.IResolvable;
   /**
   * stretched_cluster_config block
   *
@@ -1509,27 +1509,27 @@ export interface GoogleVmwareenginePrivateCloudManagementCluster {
 }
 
 export function googleVmwareenginePrivateCloudManagementClusterToTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterOutputReference | GoogleVmwareenginePrivateCloudManagementCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_id: cdktf.stringToTerraform(struct!.clusterId),
+    cluster_id: cdktn.stringToTerraform(struct!.clusterId),
     autoscaling_settings: googleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsToTerraform(struct!.autoscalingSettings),
-    node_type_configs: cdktf.listMapper(googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToTerraform, true)(struct!.nodeTypeConfigs),
+    node_type_configs: cdktn.listMapper(googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToTerraform, true)(struct!.nodeTypeConfigs),
     stretched_cluster_config: googleVmwareenginePrivateCloudManagementClusterStretchedClusterConfigToTerraform(struct!.stretchedClusterConfig),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudManagementClusterToHclTerraform(struct?: GoogleVmwareenginePrivateCloudManagementClusterOutputReference | GoogleVmwareenginePrivateCloudManagementCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_id: {
-      value: cdktf.stringToHclTerraform(struct!.clusterId),
+      value: cdktn.stringToHclTerraform(struct!.clusterId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1541,7 +1541,7 @@ export function googleVmwareenginePrivateCloudManagementClusterToHclTerraform(st
       storageClassType: "GoogleVmwareenginePrivateCloudManagementClusterAutoscalingSettingsList",
     },
     node_type_configs: {
-      value: cdktf.listMapperHcl(googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToHclTerraform, true)(struct!.nodeTypeConfigs),
+      value: cdktn.listMapperHcl(googleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsToHclTerraform, true)(struct!.nodeTypeConfigs),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsList",
@@ -1558,14 +1558,14 @@ export function googleVmwareenginePrivateCloudManagementClusterToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudManagementClusterOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudManagementClusterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1642,7 +1642,7 @@ export class GoogleVmwareenginePrivateCloudManagementClusterOutputReference exte
   public get nodeTypeConfigs() {
     return this._nodeTypeConfigs;
   }
-  public putNodeTypeConfigs(value: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktf.IResolvable) {
+  public putNodeTypeConfigs(value: GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigs[] | cdktn.IResolvable) {
     this._nodeTypeConfigs.internalValue = value;
   }
   public resetNodeTypeConfigs() {
@@ -1687,31 +1687,31 @@ export interface GoogleVmwareenginePrivateCloudNetworkConfig {
 }
 
 export function googleVmwareenginePrivateCloudNetworkConfigToTerraform(struct?: GoogleVmwareenginePrivateCloudNetworkConfigOutputReference | GoogleVmwareenginePrivateCloudNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    management_cidr: cdktf.stringToTerraform(struct!.managementCidr),
-    vmware_engine_network: cdktf.stringToTerraform(struct!.vmwareEngineNetwork),
+    management_cidr: cdktn.stringToTerraform(struct!.managementCidr),
+    vmware_engine_network: cdktn.stringToTerraform(struct!.vmwareEngineNetwork),
   }
 }
 
 
 export function googleVmwareenginePrivateCloudNetworkConfigToHclTerraform(struct?: GoogleVmwareenginePrivateCloudNetworkConfigOutputReference | GoogleVmwareenginePrivateCloudNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     management_cidr: {
-      value: cdktf.stringToHclTerraform(struct!.managementCidr),
+      value: cdktn.stringToHclTerraform(struct!.managementCidr),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vmware_engine_network: {
-      value: cdktf.stringToHclTerraform(struct!.vmwareEngineNetwork),
+      value: cdktn.stringToHclTerraform(struct!.vmwareEngineNetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1722,14 +1722,14 @@ export function googleVmwareenginePrivateCloudNetworkConfigToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudNetworkConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudNetworkConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1819,39 +1819,39 @@ export interface GoogleVmwareenginePrivateCloudTimeouts {
   readonly update?: string;
 }
 
-export function googleVmwareenginePrivateCloudTimeoutsToTerraform(struct?: GoogleVmwareenginePrivateCloudTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudTimeoutsToTerraform(struct?: GoogleVmwareenginePrivateCloudTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleVmwareenginePrivateCloudTimeoutsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVmwareenginePrivateCloudTimeoutsToHclTerraform(struct?: GoogleVmwareenginePrivateCloudTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1862,19 +1862,19 @@ export function googleVmwareenginePrivateCloudTimeoutsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVmwareenginePrivateCloudTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleVmwareenginePrivateCloudTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleVmwareenginePrivateCloudTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVmwareenginePrivateCloudTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1895,7 +1895,7 @@ export class GoogleVmwareenginePrivateCloudTimeoutsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVmwareenginePrivateCloudTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVmwareenginePrivateCloudTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1903,7 +1903,7 @@ export class GoogleVmwareenginePrivateCloudTimeoutsOutputReference extends cdktf
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1968,7 +1968,7 @@ export class GoogleVmwareenginePrivateCloudTimeoutsOutputReference extends cdktf
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud}
 */
-export class GoogleVmwareenginePrivateCloud extends cdktf.TerraformResource {
+export class GoogleVmwareenginePrivateCloud extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1979,14 +1979,14 @@ export class GoogleVmwareenginePrivateCloud extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleVmwareenginePrivateCloud resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleVmwareenginePrivateCloud resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVmwareenginePrivateCloud to import
   * @param importFromId The id of the existing GoogleVmwareenginePrivateCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_private_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVmwareenginePrivateCloud to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_vmwareengine_private_cloud", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_vmwareengine_private_cloud", importId: importFromId, provider });
       }
 
   // ===========
@@ -2136,11 +2136,11 @@ export class GoogleVmwareenginePrivateCloud extends cdktf.TerraformResource {
   }
 
   // send_deletion_delay_hours_if_zero - computed: false, optional: true, required: false
-  private _sendDeletionDelayHoursIfZero?: boolean | cdktf.IResolvable; 
+  private _sendDeletionDelayHoursIfZero?: boolean | cdktn.IResolvable; 
   public get sendDeletionDelayHoursIfZero() {
     return this.getBooleanAttribute('send_deletion_delay_hours_if_zero');
   }
-  public set sendDeletionDelayHoursIfZero(value: boolean | cdktf.IResolvable) {
+  public set sendDeletionDelayHoursIfZero(value: boolean | cdktn.IResolvable) {
     this._sendDeletionDelayHoursIfZero = value;
   }
   public resetSendDeletionDelayHoursIfZero() {
@@ -2231,14 +2231,14 @@ export class GoogleVmwareenginePrivateCloud extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      deletion_delay_hours: cdktf.numberToTerraform(this._deletionDelayHours),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      send_deletion_delay_hours_if_zero: cdktf.booleanToTerraform(this._sendDeletionDelayHoursIfZero),
-      type: cdktf.stringToTerraform(this._type),
+      deletion_delay_hours: cdktn.numberToTerraform(this._deletionDelayHours),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      send_deletion_delay_hours_if_zero: cdktn.booleanToTerraform(this._sendDeletionDelayHoursIfZero),
+      type: cdktn.stringToTerraform(this._type),
       management_cluster: googleVmwareenginePrivateCloudManagementClusterToTerraform(this._managementCluster.internalValue),
       network_config: googleVmwareenginePrivateCloudNetworkConfigToTerraform(this._networkConfig.internalValue),
       timeouts: googleVmwareenginePrivateCloudTimeoutsToTerraform(this._timeouts.internalValue),
@@ -2248,49 +2248,49 @@ export class GoogleVmwareenginePrivateCloud extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       deletion_delay_hours: {
-        value: cdktf.numberToHclTerraform(this._deletionDelayHours),
+        value: cdktn.numberToHclTerraform(this._deletionDelayHours),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       send_deletion_delay_hours_if_zero: {
-        value: cdktf.booleanToHclTerraform(this._sendDeletionDelayHoursIfZero),
+        value: cdktn.booleanToHclTerraform(this._sendDeletionDelayHoursIfZero),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

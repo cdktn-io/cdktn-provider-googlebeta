@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeNetworkEdgeSecurityServiceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeNetworkEdgeSecurityServiceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Free-text description of the resource.
   *
@@ -69,39 +69,39 @@ export interface GoogleComputeNetworkEdgeSecurityServiceTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeNetworkEdgeSecurityServiceTimeoutsToTerraform(struct?: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkEdgeSecurityServiceTimeoutsToTerraform(struct?: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeNetworkEdgeSecurityServiceTimeoutsToHclTerraform(struct?: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkEdgeSecurityServiceTimeoutsToHclTerraform(struct?: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -112,19 +112,19 @@ export function googleComputeNetworkEdgeSecurityServiceTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkEdgeSecurityServiceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkEdgeSecurityServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -145,7 +145,7 @@ export class GoogleComputeNetworkEdgeSecurityServiceTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkEdgeSecurityServiceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -153,7 +153,7 @@ export class GoogleComputeNetworkEdgeSecurityServiceTimeoutsOutputReference exte
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -218,7 +218,7 @@ export class GoogleComputeNetworkEdgeSecurityServiceTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service}
 */
-export class GoogleComputeNetworkEdgeSecurityService extends cdktf.TerraformResource {
+export class GoogleComputeNetworkEdgeSecurityService extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -229,14 +229,14 @@ export class GoogleComputeNetworkEdgeSecurityService extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeNetworkEdgeSecurityService resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeNetworkEdgeSecurityService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNetworkEdgeSecurityService to import
   * @param importFromId The id of the existing GoogleComputeNetworkEdgeSecurityService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_edge_security_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNetworkEdgeSecurityService to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_edge_security_service", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network_edge_security_service", importId: importFromId, provider });
       }
 
   // ===========
@@ -419,12 +419,12 @@ export class GoogleComputeNetworkEdgeSecurityService extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      security_policy: cdktf.stringToTerraform(this._securityPolicy),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      security_policy: cdktn.stringToTerraform(this._securityPolicy),
       timeouts: googleComputeNetworkEdgeSecurityServiceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -432,37 +432,37 @@ export class GoogleComputeNetworkEdgeSecurityService extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       security_policy: {
-        value: cdktf.stringToHclTerraform(this._securityPolicy),
+        value: cdktn.stringToHclTerraform(this._securityPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

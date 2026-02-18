@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GooglePubsubLiteTopicConfig extends cdktf.TerraformMetaArguments {
+export interface GooglePubsubLiteTopicConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_lite_topic#id GooglePubsubLiteTopic#id}
   *
@@ -82,31 +82,31 @@ export interface GooglePubsubLiteTopicPartitionConfigCapacity {
 }
 
 export function googlePubsubLiteTopicPartitionConfigCapacityToTerraform(struct?: GooglePubsubLiteTopicPartitionConfigCapacityOutputReference | GooglePubsubLiteTopicPartitionConfigCapacity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    publish_mib_per_sec: cdktf.numberToTerraform(struct!.publishMibPerSec),
-    subscribe_mib_per_sec: cdktf.numberToTerraform(struct!.subscribeMibPerSec),
+    publish_mib_per_sec: cdktn.numberToTerraform(struct!.publishMibPerSec),
+    subscribe_mib_per_sec: cdktn.numberToTerraform(struct!.subscribeMibPerSec),
   }
 }
 
 
 export function googlePubsubLiteTopicPartitionConfigCapacityToHclTerraform(struct?: GooglePubsubLiteTopicPartitionConfigCapacityOutputReference | GooglePubsubLiteTopicPartitionConfigCapacity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     publish_mib_per_sec: {
-      value: cdktf.numberToHclTerraform(struct!.publishMibPerSec),
+      value: cdktn.numberToHclTerraform(struct!.publishMibPerSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     subscribe_mib_per_sec: {
-      value: cdktf.numberToHclTerraform(struct!.subscribeMibPerSec),
+      value: cdktn.numberToHclTerraform(struct!.subscribeMibPerSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -117,14 +117,14 @@ export function googlePubsubLiteTopicPartitionConfigCapacityToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePubsubLiteTopicPartitionConfigCapacityOutputReference extends cdktf.ComplexObject {
+export class GooglePubsubLiteTopicPartitionConfigCapacityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -197,25 +197,25 @@ export interface GooglePubsubLiteTopicPartitionConfig {
 }
 
 export function googlePubsubLiteTopicPartitionConfigToTerraform(struct?: GooglePubsubLiteTopicPartitionConfigOutputReference | GooglePubsubLiteTopicPartitionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    count: cdktf.numberToTerraform(struct!.count),
+    count: cdktn.numberToTerraform(struct!.count),
     capacity: googlePubsubLiteTopicPartitionConfigCapacityToTerraform(struct!.capacity),
   }
 }
 
 
 export function googlePubsubLiteTopicPartitionConfigToHclTerraform(struct?: GooglePubsubLiteTopicPartitionConfigOutputReference | GooglePubsubLiteTopicPartitionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     count: {
-      value: cdktf.numberToHclTerraform(struct!.count),
+      value: cdktn.numberToHclTerraform(struct!.count),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -232,14 +232,14 @@ export function googlePubsubLiteTopicPartitionConfigToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePubsubLiteTopicPartitionConfigOutputReference extends cdktf.ComplexObject {
+export class GooglePubsubLiteTopicPartitionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -309,24 +309,24 @@ export interface GooglePubsubLiteTopicReservationConfig {
 }
 
 export function googlePubsubLiteTopicReservationConfigToTerraform(struct?: GooglePubsubLiteTopicReservationConfigOutputReference | GooglePubsubLiteTopicReservationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    throughput_reservation: cdktf.stringToTerraform(struct!.throughputReservation),
+    throughput_reservation: cdktn.stringToTerraform(struct!.throughputReservation),
   }
 }
 
 
 export function googlePubsubLiteTopicReservationConfigToHclTerraform(struct?: GooglePubsubLiteTopicReservationConfigOutputReference | GooglePubsubLiteTopicReservationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     throughput_reservation: {
-      value: cdktf.stringToHclTerraform(struct!.throughputReservation),
+      value: cdktn.stringToHclTerraform(struct!.throughputReservation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -337,14 +337,14 @@ export function googlePubsubLiteTopicReservationConfigToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePubsubLiteTopicReservationConfigOutputReference extends cdktf.ComplexObject {
+export class GooglePubsubLiteTopicReservationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -406,31 +406,31 @@ export interface GooglePubsubLiteTopicRetentionConfig {
 }
 
 export function googlePubsubLiteTopicRetentionConfigToTerraform(struct?: GooglePubsubLiteTopicRetentionConfigOutputReference | GooglePubsubLiteTopicRetentionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    per_partition_bytes: cdktf.stringToTerraform(struct!.perPartitionBytes),
-    period: cdktf.stringToTerraform(struct!.period),
+    per_partition_bytes: cdktn.stringToTerraform(struct!.perPartitionBytes),
+    period: cdktn.stringToTerraform(struct!.period),
   }
 }
 
 
 export function googlePubsubLiteTopicRetentionConfigToHclTerraform(struct?: GooglePubsubLiteTopicRetentionConfigOutputReference | GooglePubsubLiteTopicRetentionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     per_partition_bytes: {
-      value: cdktf.stringToHclTerraform(struct!.perPartitionBytes),
+      value: cdktn.stringToHclTerraform(struct!.perPartitionBytes),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     period: {
-      value: cdktf.stringToHclTerraform(struct!.period),
+      value: cdktn.stringToHclTerraform(struct!.period),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -441,14 +441,14 @@ export function googlePubsubLiteTopicRetentionConfigToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePubsubLiteTopicRetentionConfigOutputReference extends cdktf.ComplexObject {
+export class GooglePubsubLiteTopicRetentionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -523,39 +523,39 @@ export interface GooglePubsubLiteTopicTimeouts {
   readonly update?: string;
 }
 
-export function googlePubsubLiteTopicTimeoutsToTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePubsubLiteTopicTimeoutsToTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googlePubsubLiteTopicTimeoutsToHclTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googlePubsubLiteTopicTimeoutsToHclTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -566,19 +566,19 @@ export function googlePubsubLiteTopicTimeoutsToHclTerraform(struct?: GooglePubsu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GooglePubsubLiteTopicTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GooglePubsubLiteTopicTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -599,7 +599,7 @@ export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GooglePubsubLiteTopicTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GooglePubsubLiteTopicTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -607,7 +607,7 @@ export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -672,7 +672,7 @@ export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}
 */
-export class GooglePubsubLiteTopic extends cdktf.TerraformResource {
+export class GooglePubsubLiteTopic extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -683,14 +683,14 @@ export class GooglePubsubLiteTopic extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GooglePubsubLiteTopic resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GooglePubsubLiteTopic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePubsubLiteTopic to import
   * @param importFromId The id of the existing GooglePubsubLiteTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_lite_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePubsubLiteTopic to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_pubsub_lite_topic", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_pubsub_lite_topic", importId: importFromId, provider });
       }
 
   // ===========
@@ -882,11 +882,11 @@ export class GooglePubsubLiteTopic extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      zone: cdktf.stringToTerraform(this._zone),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      zone: cdktn.stringToTerraform(this._zone),
       partition_config: googlePubsubLiteTopicPartitionConfigToTerraform(this._partitionConfig.internalValue),
       reservation_config: googlePubsubLiteTopicReservationConfigToTerraform(this._reservationConfig.internalValue),
       retention_config: googlePubsubLiteTopicRetentionConfigToTerraform(this._retentionConfig.internalValue),
@@ -897,31 +897,31 @@ export class GooglePubsubLiteTopic extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

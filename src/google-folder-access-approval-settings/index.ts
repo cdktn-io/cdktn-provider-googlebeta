@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFolderAccessApprovalSettingsConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFolderAccessApprovalSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
   * The asymmetric crypto key version to use for signing approval requests.
   * Empty active_key_version indicates that a Google-managed key should be used for signing.
@@ -46,7 +46,7 @@ export interface GoogleFolderAccessApprovalSettingsConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_folder_access_approval_settings#enrolled_services GoogleFolderAccessApprovalSettings#enrolled_services}
   */
-  readonly enrolledServices: GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktf.IResolvable;
+  readonly enrolledServices: GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -92,32 +92,32 @@ export interface GoogleFolderAccessApprovalSettingsEnrolledServices {
   readonly enrollmentLevel?: string;
 }
 
-export function googleFolderAccessApprovalSettingsEnrolledServicesToTerraform(struct?: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFolderAccessApprovalSettingsEnrolledServicesToTerraform(struct?: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cloud_product: cdktf.stringToTerraform(struct!.cloudProduct),
-    enrollment_level: cdktf.stringToTerraform(struct!.enrollmentLevel),
+    cloud_product: cdktn.stringToTerraform(struct!.cloudProduct),
+    enrollment_level: cdktn.stringToTerraform(struct!.enrollmentLevel),
   }
 }
 
 
-export function googleFolderAccessApprovalSettingsEnrolledServicesToHclTerraform(struct?: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFolderAccessApprovalSettingsEnrolledServicesToHclTerraform(struct?: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cloud_product: {
-      value: cdktf.stringToHclTerraform(struct!.cloudProduct),
+      value: cdktn.stringToHclTerraform(struct!.cloudProduct),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enrollment_level: {
-      value: cdktf.stringToHclTerraform(struct!.enrollmentLevel),
+      value: cdktn.stringToHclTerraform(struct!.enrollmentLevel),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -128,9 +128,9 @@ export function googleFolderAccessApprovalSettingsEnrolledServicesToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFolderAccessApprovalSettingsEnrolledServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleFolderAccessApprovalSettingsEnrolledServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -138,11 +138,11 @@ export class GoogleFolderAccessApprovalSettingsEnrolledServicesOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFolderAccessApprovalSettingsEnrolledServices | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFolderAccessApprovalSettingsEnrolledServices | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -159,14 +159,14 @@ export class GoogleFolderAccessApprovalSettingsEnrolledServicesOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFolderAccessApprovalSettingsEnrolledServices | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._cloudProduct = undefined;
       this._enrollmentLevel = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -208,15 +208,15 @@ export class GoogleFolderAccessApprovalSettingsEnrolledServicesOutputReference e
   }
 }
 
-export class GoogleFolderAccessApprovalSettingsEnrolledServicesList extends cdktf.ComplexList {
-  public internalValue? : GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktf.IResolvable
+export class GoogleFolderAccessApprovalSettingsEnrolledServicesList extends cdktn.ComplexList {
+  public internalValue? : GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -242,39 +242,39 @@ export interface GoogleFolderAccessApprovalSettingsTimeouts {
   readonly update?: string;
 }
 
-export function googleFolderAccessApprovalSettingsTimeoutsToTerraform(struct?: GoogleFolderAccessApprovalSettingsTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFolderAccessApprovalSettingsTimeoutsToTerraform(struct?: GoogleFolderAccessApprovalSettingsTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFolderAccessApprovalSettingsTimeoutsToHclTerraform(struct?: GoogleFolderAccessApprovalSettingsTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFolderAccessApprovalSettingsTimeoutsToHclTerraform(struct?: GoogleFolderAccessApprovalSettingsTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -285,19 +285,19 @@ export function googleFolderAccessApprovalSettingsTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFolderAccessApprovalSettingsTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFolderAccessApprovalSettingsTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFolderAccessApprovalSettingsTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFolderAccessApprovalSettingsTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -318,7 +318,7 @@ export class GoogleFolderAccessApprovalSettingsTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFolderAccessApprovalSettingsTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFolderAccessApprovalSettingsTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -326,7 +326,7 @@ export class GoogleFolderAccessApprovalSettingsTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -391,7 +391,7 @@ export class GoogleFolderAccessApprovalSettingsTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_folder_access_approval_settings google_folder_access_approval_settings}
 */
-export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource {
+export class GoogleFolderAccessApprovalSettings extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -402,14 +402,14 @@ export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFolderAccessApprovalSettings resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFolderAccessApprovalSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFolderAccessApprovalSettings to import
   * @param importFromId The id of the existing GoogleFolderAccessApprovalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_folder_access_approval_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFolderAccessApprovalSettings to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_folder_access_approval_settings", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_folder_access_approval_settings", importId: importFromId, provider });
       }
 
   // ===========
@@ -519,7 +519,7 @@ export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource 
   // notification_emails - computed: true, optional: true, required: false
   private _notificationEmails?: string[]; 
   public get notificationEmails() {
-    return cdktf.Fn.tolist(this.getListAttribute('notification_emails'));
+    return cdktn.Fn.tolist(this.getListAttribute('notification_emails'));
   }
   public set notificationEmails(value: string[]) {
     this._notificationEmails = value;
@@ -537,7 +537,7 @@ export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource 
   public get enrolledServices() {
     return this._enrolledServices;
   }
-  public putEnrolledServices(value: GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktf.IResolvable) {
+  public putEnrolledServices(value: GoogleFolderAccessApprovalSettingsEnrolledServices[] | cdktn.IResolvable) {
     this._enrolledServices.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -567,11 +567,11 @@ export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      active_key_version: cdktf.stringToTerraform(this._activeKeyVersion),
-      folder_id: cdktf.stringToTerraform(this._folderId),
-      id: cdktf.stringToTerraform(this._id),
-      notification_emails: cdktf.listMapper(cdktf.stringToTerraform, false)(this._notificationEmails),
-      enrolled_services: cdktf.listMapper(googleFolderAccessApprovalSettingsEnrolledServicesToTerraform, true)(this._enrolledServices.internalValue),
+      active_key_version: cdktn.stringToTerraform(this._activeKeyVersion),
+      folder_id: cdktn.stringToTerraform(this._folderId),
+      id: cdktn.stringToTerraform(this._id),
+      notification_emails: cdktn.listMapper(cdktn.stringToTerraform, false)(this._notificationEmails),
+      enrolled_services: cdktn.listMapper(googleFolderAccessApprovalSettingsEnrolledServicesToTerraform, true)(this._enrolledServices.internalValue),
       timeouts: googleFolderAccessApprovalSettingsTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -579,31 +579,31 @@ export class GoogleFolderAccessApprovalSettings extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       active_key_version: {
-        value: cdktf.stringToHclTerraform(this._activeKeyVersion),
+        value: cdktn.stringToHclTerraform(this._activeKeyVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       folder_id: {
-        value: cdktf.stringToHclTerraform(this._folderId),
+        value: cdktn.stringToHclTerraform(this._folderId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       notification_emails: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._notificationEmails),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._notificationEmails),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       enrolled_services: {
-        value: cdktf.listMapperHcl(googleFolderAccessApprovalSettingsEnrolledServicesToHclTerraform, true)(this._enrolledServices.internalValue),
+        value: cdktn.listMapperHcl(googleFolderAccessApprovalSettingsEnrolledServicesToHclTerraform, true)(this._enrolledServices.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleFolderAccessApprovalSettingsEnrolledServicesList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleStorageControlFolderIntelligenceConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleStorageControlFolderIntelligenceConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Edition configuration of the Storage Intelligence resource. Valid values are INHERIT, TRIAL, DISABLED and STANDARD.
   *
@@ -48,8 +48,8 @@ export interface GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligen
 }
 
 export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -58,8 +58,8 @@ export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenc
 
 
 export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -67,7 +67,7 @@ export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenc
   return attrs;
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -76,7 +76,7 @@ export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -106,14 +106,14 @@ export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceCo
   }
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList extends cdktf.ComplexList {
+export class GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -128,8 +128,8 @@ export interface GoogleStorageControlFolderIntelligenceConfigTrialConfig {
 }
 
 export function googleStorageControlFolderIntelligenceConfigTrialConfigToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTrialConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -138,8 +138,8 @@ export function googleStorageControlFolderIntelligenceConfigTrialConfigToTerrafo
 
 
 export function googleStorageControlFolderIntelligenceConfigTrialConfigToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTrialConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -147,7 +147,7 @@ export function googleStorageControlFolderIntelligenceConfigTrialConfigToHclTerr
   return attrs;
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigTrialConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigTrialConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -156,7 +156,7 @@ export class GoogleStorageControlFolderIntelligenceConfigTrialConfigOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -181,14 +181,14 @@ export class GoogleStorageControlFolderIntelligenceConfigTrialConfigOutputRefere
   }
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigTrialConfigList extends cdktf.ComplexList {
+export class GoogleStorageControlFolderIntelligenceConfigTrialConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -209,24 +209,24 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
 }
 
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_id_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.bucketIdRegexes),
+    bucket_id_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.bucketIdRegexes),
   }
 }
 
 
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_id_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.bucketIdRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.bucketIdRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -237,14 +237,14 @@ export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -292,24 +292,24 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
 }
 
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    locations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.locations),
+    locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
   }
 }
 
 
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     locations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.locations),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.locations),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -320,14 +320,14 @@ export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -375,24 +375,24 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
 }
 
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_id_regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.bucketIdRegexes),
+    bucket_id_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.bucketIdRegexes),
   }
 }
 
 
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_id_regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.bucketIdRegexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.bucketIdRegexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -403,14 +403,14 @@ export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -458,24 +458,24 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
 }
 
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    locations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.locations),
+    locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
   }
 }
 
 
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     locations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.locations),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.locations),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -486,14 +486,14 @@ export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -559,8 +559,8 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilter {
 }
 
 export function googleStorageControlFolderIntelligenceConfigFilterToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterOutputReference | GoogleStorageControlFolderIntelligenceConfigFilter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -573,8 +573,8 @@ export function googleStorageControlFolderIntelligenceConfigFilterToTerraform(st
 
 
 export function googleStorageControlFolderIntelligenceConfigFilterToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterOutputReference | GoogleStorageControlFolderIntelligenceConfigFilter): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -608,14 +608,14 @@ export function googleStorageControlFolderIntelligenceConfigFilterToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigFilterOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigFilterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -737,39 +737,39 @@ export interface GoogleStorageControlFolderIntelligenceConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleStorageControlFolderIntelligenceConfigTimeoutsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageControlFolderIntelligenceConfigTimeoutsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleStorageControlFolderIntelligenceConfigTimeoutsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageControlFolderIntelligenceConfigTimeoutsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -780,19 +780,19 @@ export function googleStorageControlFolderIntelligenceConfigTimeoutsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -813,7 +813,7 @@ export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -821,7 +821,7 @@ export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -886,7 +886,7 @@ export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config}
 */
-export class GoogleStorageControlFolderIntelligenceConfig extends cdktf.TerraformResource {
+export class GoogleStorageControlFolderIntelligenceConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -897,14 +897,14 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktf.Terrafor
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleStorageControlFolderIntelligenceConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleStorageControlFolderIntelligenceConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageControlFolderIntelligenceConfig to import
   * @param importFromId The id of the existing GoogleStorageControlFolderIntelligenceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_control_folder_intelligence_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageControlFolderIntelligenceConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_control_folder_intelligence_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_control_folder_intelligence_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -1045,9 +1045,9 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktf.Terrafor
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      edition_config: cdktf.stringToTerraform(this._editionConfig),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      edition_config: cdktn.stringToTerraform(this._editionConfig),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
       filter: googleStorageControlFolderIntelligenceConfigFilterToTerraform(this._filter.internalValue),
       timeouts: googleStorageControlFolderIntelligenceConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1056,19 +1056,19 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktf.Terrafor
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       edition_config: {
-        value: cdktf.stringToHclTerraform(this._editionConfig),
+        value: cdktn.stringToHclTerraform(this._editionConfig),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

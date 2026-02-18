@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeMachineImageConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeMachineImageConfig extends cdktn.TerraformMetaArguments {
   /**
   * A text description of the resource.
   *
@@ -24,7 +24,7 @@ export interface GoogleComputeMachineImageConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#guest_flush GoogleComputeMachineImage#guest_flush}
   */
-  readonly guestFlush?: boolean | cdktf.IResolvable;
+  readonly guestFlush?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#id GoogleComputeMachineImage#id}
   *
@@ -85,38 +85,38 @@ export interface GoogleComputeMachineImageMachineImageEncryptionKey {
 }
 
 export function googleComputeMachineImageMachineImageEncryptionKeyToTerraform(struct?: GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference | GoogleComputeMachineImageMachineImageEncryptionKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
-    kms_key_service_account: cdktf.stringToTerraform(struct!.kmsKeyServiceAccount),
-    raw_key: cdktf.stringToTerraform(struct!.rawKey),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
+    kms_key_service_account: cdktn.stringToTerraform(struct!.kmsKeyServiceAccount),
+    raw_key: cdktn.stringToTerraform(struct!.rawKey),
   }
 }
 
 
 export function googleComputeMachineImageMachineImageEncryptionKeyToHclTerraform(struct?: GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference | GoogleComputeMachineImageMachineImageEncryptionKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key_service_account: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyServiceAccount),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyServiceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     raw_key: {
-      value: cdktf.stringToHclTerraform(struct!.rawKey),
+      value: cdktn.stringToHclTerraform(struct!.rawKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -127,14 +127,14 @@ export function googleComputeMachineImageMachineImageEncryptionKeyToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -235,32 +235,32 @@ export interface GoogleComputeMachineImageTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeMachineImageTimeoutsToTerraform(struct?: GoogleComputeMachineImageTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeMachineImageTimeoutsToTerraform(struct?: GoogleComputeMachineImageTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeMachineImageTimeoutsToHclTerraform(struct?: GoogleComputeMachineImageTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeMachineImageTimeoutsToHclTerraform(struct?: GoogleComputeMachineImageTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -271,19 +271,19 @@ export function googleComputeMachineImageTimeoutsToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeMachineImageTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeMachineImageTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeMachineImageTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeMachineImageTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -300,14 +300,14 @@ export class GoogleComputeMachineImageTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeMachineImageTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeMachineImageTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -355,7 +355,7 @@ export class GoogleComputeMachineImageTimeoutsOutputReference extends cdktf.Comp
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image google_compute_machine_image}
 */
-export class GoogleComputeMachineImage extends cdktf.TerraformResource {
+export class GoogleComputeMachineImage extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -366,14 +366,14 @@ export class GoogleComputeMachineImage extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeMachineImage resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeMachineImage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeMachineImage to import
   * @param importFromId The id of the existing GoogleComputeMachineImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_machine_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeMachineImage to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_machine_image", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_machine_image", importId: importFromId, provider });
       }
 
   // ===========
@@ -434,11 +434,11 @@ export class GoogleComputeMachineImage extends cdktf.TerraformResource {
   }
 
   // guest_flush - computed: false, optional: true, required: false
-  private _guestFlush?: boolean | cdktf.IResolvable; 
+  private _guestFlush?: boolean | cdktn.IResolvable; 
   public get guestFlush() {
     return this.getBooleanAttribute('guest_flush');
   }
-  public set guestFlush(value: boolean | cdktf.IResolvable) {
+  public set guestFlush(value: boolean | cdktn.IResolvable) {
     this._guestFlush = value;
   }
   public resetGuestFlush() {
@@ -555,12 +555,12 @@ export class GoogleComputeMachineImage extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      guest_flush: cdktf.booleanToTerraform(this._guestFlush),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      source_instance: cdktf.stringToTerraform(this._sourceInstance),
+      description: cdktn.stringToTerraform(this._description),
+      guest_flush: cdktn.booleanToTerraform(this._guestFlush),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      source_instance: cdktn.stringToTerraform(this._sourceInstance),
       machine_image_encryption_key: googleComputeMachineImageMachineImageEncryptionKeyToTerraform(this._machineImageEncryptionKey.internalValue),
       timeouts: googleComputeMachineImageTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -569,37 +569,37 @@ export class GoogleComputeMachineImage extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       guest_flush: {
-        value: cdktf.booleanToHclTerraform(this._guestFlush),
+        value: cdktn.booleanToHclTerraform(this._guestFlush),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       source_instance: {
-        value: cdktf.stringToHclTerraform(this._sourceInstance),
+        value: cdktn.stringToHclTerraform(this._sourceInstance),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

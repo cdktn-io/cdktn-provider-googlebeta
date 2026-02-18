@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBigqueryDatasetAccessAConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBigqueryDatasetAccessAConfig extends cdktn.TerraformMetaArguments {
   /**
   * A unique ID for this dataset, without the project name. The ID
   * must contain only letters (a-z, A-Z), numbers (0-9), or
@@ -141,45 +141,45 @@ export interface GoogleBigqueryDatasetAccessConditionA {
 }
 
 export function googleBigqueryDatasetAccessConditionAToTerraform(struct?: GoogleBigqueryDatasetAccessConditionAOutputReference | GoogleBigqueryDatasetAccessConditionA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    expression: cdktf.stringToTerraform(struct!.expression),
-    location: cdktf.stringToTerraform(struct!.location),
-    title: cdktf.stringToTerraform(struct!.title),
+    description: cdktn.stringToTerraform(struct!.description),
+    expression: cdktn.stringToTerraform(struct!.expression),
+    location: cdktn.stringToTerraform(struct!.location),
+    title: cdktn.stringToTerraform(struct!.title),
   }
 }
 
 
 export function googleBigqueryDatasetAccessConditionAToHclTerraform(struct?: GoogleBigqueryDatasetAccessConditionAOutputReference | GoogleBigqueryDatasetAccessConditionA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expression: {
-      value: cdktf.stringToHclTerraform(struct!.expression),
+      value: cdktn.stringToHclTerraform(struct!.expression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     title: {
-      value: cdktf.stringToHclTerraform(struct!.title),
+      value: cdktn.stringToHclTerraform(struct!.title),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -190,14 +190,14 @@ export function googleBigqueryDatasetAccessConditionAToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessConditionAOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessConditionAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -317,31 +317,31 @@ export interface GoogleBigqueryDatasetAccessDatasetDatasetA {
 }
 
 export function googleBigqueryDatasetAccessDatasetDatasetAToTerraform(struct?: GoogleBigqueryDatasetAccessDatasetDatasetAOutputReference | GoogleBigqueryDatasetAccessDatasetDatasetA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
 export function googleBigqueryDatasetAccessDatasetDatasetAToHclTerraform(struct?: GoogleBigqueryDatasetAccessDatasetDatasetAOutputReference | GoogleBigqueryDatasetAccessDatasetDatasetA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -352,14 +352,14 @@ export function googleBigqueryDatasetAccessDatasetDatasetAToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessDatasetDatasetAOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessDatasetDatasetAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -433,25 +433,25 @@ export interface GoogleBigqueryDatasetAccessDatasetA {
 }
 
 export function googleBigqueryDatasetAccessDatasetAToTerraform(struct?: GoogleBigqueryDatasetAccessDatasetAOutputReference | GoogleBigqueryDatasetAccessDatasetA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.targetTypes),
+    target_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.targetTypes),
     dataset: googleBigqueryDatasetAccessDatasetDatasetAToTerraform(struct!.dataset),
   }
 }
 
 
 export function googleBigqueryDatasetAccessDatasetAToHclTerraform(struct?: GoogleBigqueryDatasetAccessDatasetAOutputReference | GoogleBigqueryDatasetAccessDatasetA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target_types: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.targetTypes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.targetTypes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -468,14 +468,14 @@ export function googleBigqueryDatasetAccessDatasetAToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessDatasetAOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessDatasetAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -556,38 +556,38 @@ export interface GoogleBigqueryDatasetAccessRoutineA {
 }
 
 export function googleBigqueryDatasetAccessRoutineAToTerraform(struct?: GoogleBigqueryDatasetAccessRoutineAOutputReference | GoogleBigqueryDatasetAccessRoutineA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    routine_id: cdktf.stringToTerraform(struct!.routineId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    routine_id: cdktn.stringToTerraform(struct!.routineId),
   }
 }
 
 
 export function googleBigqueryDatasetAccessRoutineAToHclTerraform(struct?: GoogleBigqueryDatasetAccessRoutineAOutputReference | GoogleBigqueryDatasetAccessRoutineA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     routine_id: {
-      value: cdktf.stringToHclTerraform(struct!.routineId),
+      value: cdktn.stringToHclTerraform(struct!.routineId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -598,14 +598,14 @@ export function googleBigqueryDatasetAccessRoutineAToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessRoutineAOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessRoutineAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -692,32 +692,32 @@ export interface GoogleBigqueryDatasetAccessTimeouts {
   readonly delete?: string;
 }
 
-export function googleBigqueryDatasetAccessTimeoutsToTerraform(struct?: GoogleBigqueryDatasetAccessTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryDatasetAccessTimeoutsToTerraform(struct?: GoogleBigqueryDatasetAccessTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleBigqueryDatasetAccessTimeoutsToHclTerraform(struct?: GoogleBigqueryDatasetAccessTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryDatasetAccessTimeoutsToHclTerraform(struct?: GoogleBigqueryDatasetAccessTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -728,19 +728,19 @@ export function googleBigqueryDatasetAccessTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBigqueryDatasetAccessTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigqueryDatasetAccessTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -757,14 +757,14 @@ export class GoogleBigqueryDatasetAccessTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigqueryDatasetAccessTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigqueryDatasetAccessTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -832,38 +832,38 @@ export interface GoogleBigqueryDatasetAccessViewA {
 }
 
 export function googleBigqueryDatasetAccessViewAToTerraform(struct?: GoogleBigqueryDatasetAccessViewAOutputReference | GoogleBigqueryDatasetAccessViewA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
 export function googleBigqueryDatasetAccessViewAToHclTerraform(struct?: GoogleBigqueryDatasetAccessViewAOutputReference | GoogleBigqueryDatasetAccessViewA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -874,14 +874,14 @@ export function googleBigqueryDatasetAccessViewAToHclTerraform(struct?: GoogleBi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryDatasetAccessViewAOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryDatasetAccessViewAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -961,7 +961,7 @@ export class GoogleBigqueryDatasetAccessViewAOutputReference extends cdktf.Compl
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_dataset_access google_bigquery_dataset_access}
 */
-export class GoogleBigqueryDatasetAccessA extends cdktf.TerraformResource {
+export class GoogleBigqueryDatasetAccessA extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -972,14 +972,14 @@ export class GoogleBigqueryDatasetAccessA extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBigqueryDatasetAccessA resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBigqueryDatasetAccessA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBigqueryDatasetAccessA to import
   * @param importFromId The id of the existing GoogleBigqueryDatasetAccessA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_dataset_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBigqueryDatasetAccessA to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_bigquery_dataset_access", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_bigquery_dataset_access", importId: importFromId, provider });
       }
 
   // ===========
@@ -1261,15 +1261,15 @@ export class GoogleBigqueryDatasetAccessA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataset_id: cdktf.stringToTerraform(this._datasetId),
-      domain: cdktf.stringToTerraform(this._domain),
-      group_by_email: cdktf.stringToTerraform(this._groupByEmail),
-      iam_member: cdktf.stringToTerraform(this._iamMember),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      role: cdktf.stringToTerraform(this._role),
-      special_group: cdktf.stringToTerraform(this._specialGroup),
-      user_by_email: cdktf.stringToTerraform(this._userByEmail),
+      dataset_id: cdktn.stringToTerraform(this._datasetId),
+      domain: cdktn.stringToTerraform(this._domain),
+      group_by_email: cdktn.stringToTerraform(this._groupByEmail),
+      iam_member: cdktn.stringToTerraform(this._iamMember),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      role: cdktn.stringToTerraform(this._role),
+      special_group: cdktn.stringToTerraform(this._specialGroup),
+      user_by_email: cdktn.stringToTerraform(this._userByEmail),
       condition: googleBigqueryDatasetAccessConditionAToTerraform(this._condition.internalValue),
       dataset: googleBigqueryDatasetAccessDatasetAToTerraform(this._dataset.internalValue),
       routine: googleBigqueryDatasetAccessRoutineAToTerraform(this._routine.internalValue),
@@ -1281,55 +1281,55 @@ export class GoogleBigqueryDatasetAccessA extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataset_id: {
-        value: cdktf.stringToHclTerraform(this._datasetId),
+        value: cdktn.stringToHclTerraform(this._datasetId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       domain: {
-        value: cdktf.stringToHclTerraform(this._domain),
+        value: cdktn.stringToHclTerraform(this._domain),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       group_by_email: {
-        value: cdktf.stringToHclTerraform(this._groupByEmail),
+        value: cdktn.stringToHclTerraform(this._groupByEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       iam_member: {
-        value: cdktf.stringToHclTerraform(this._iamMember),
+        value: cdktn.stringToHclTerraform(this._iamMember),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role: {
-        value: cdktf.stringToHclTerraform(this._role),
+        value: cdktn.stringToHclTerraform(this._role),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       special_group: {
-        value: cdktf.stringToHclTerraform(this._specialGroup),
+        value: cdktn.stringToHclTerraform(this._specialGroup),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       user_by_email: {
-        value: cdktf.stringToHclTerraform(this._userByEmail),
+        value: cdktn.stringToHclTerraform(this._userByEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

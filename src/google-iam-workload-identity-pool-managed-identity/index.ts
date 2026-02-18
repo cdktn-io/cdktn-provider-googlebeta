@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIamWorkloadIdentityPoolManagedIdentityConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIamWorkloadIdentityPoolManagedIdentityConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the managed identity. Cannot exceed 256 characters.
   *
@@ -24,7 +24,7 @@ export interface GoogleIamWorkloadIdentityPoolManagedIdentityConfig extends cdkt
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_managed_identity#disabled GoogleIamWorkloadIdentityPoolManagedIdentity#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_managed_identity#id GoogleIamWorkloadIdentityPoolManagedIdentity#id}
   *
@@ -75,7 +75,7 @@ export interface GoogleIamWorkloadIdentityPoolManagedIdentityConfig extends cdkt
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_managed_identity#attestation_rules GoogleIamWorkloadIdentityPoolManagedIdentity#attestation_rules}
   */
-  readonly attestationRules?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktf.IResolvable;
+  readonly attestationRules?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -93,25 +93,25 @@ export interface GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules {
   readonly googleCloudResource: string;
 }
 
-export function googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    google_cloud_resource: cdktf.stringToTerraform(struct!.googleCloudResource),
+    google_cloud_resource: cdktn.stringToTerraform(struct!.googleCloudResource),
   }
 }
 
 
-export function googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     google_cloud_resource: {
-      value: cdktf.stringToHclTerraform(struct!.googleCloudResource),
+      value: cdktn.stringToHclTerraform(struct!.googleCloudResource),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -122,9 +122,9 @@ export function googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -132,11 +132,11 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesOutputR
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -149,13 +149,13 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesOutputR
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._googleCloudResource = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -180,15 +180,15 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesOutputR
   }
 }
 
-export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktf.IResolvable
+export class GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -214,39 +214,39 @@ export interface GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts {
   readonly update?: string;
 }
 
-export function googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -257,19 +257,19 @@ export function googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamWorkloadIdentityPoolManagedIdentityTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIamWorkloadIdentityPoolManagedIdentityTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -290,7 +290,7 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityTimeoutsOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -298,7 +298,7 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityTimeoutsOutputReference
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -363,7 +363,7 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentityTimeoutsOutputReference
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}
 */
-export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.TerraformResource {
+export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -374,14 +374,14 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.Terrafor
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIamWorkloadIdentityPoolManagedIdentity resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIamWorkloadIdentityPoolManagedIdentity resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamWorkloadIdentityPoolManagedIdentity to import
   * @param importFromId The id of the existing GoogleIamWorkloadIdentityPoolManagedIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_managed_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamWorkloadIdentityPoolManagedIdentity to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_workload_identity_pool_managed_identity", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_workload_identity_pool_managed_identity", importId: importFromId, provider });
       }
 
   // ===========
@@ -443,11 +443,11 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.Terrafor
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -544,7 +544,7 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.Terrafor
   public get attestationRules() {
     return this._attestationRules;
   }
-  public putAttestationRules(value: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktf.IResolvable) {
+  public putAttestationRules(value: GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRules[] | cdktn.IResolvable) {
     this._attestationRules.internalValue = value;
   }
   public resetAttestationRules() {
@@ -577,14 +577,14 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.Terrafor
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      workload_identity_pool_id: cdktf.stringToTerraform(this._workloadIdentityPoolId),
-      workload_identity_pool_managed_identity_id: cdktf.stringToTerraform(this._workloadIdentityPoolManagedIdentityId),
-      workload_identity_pool_namespace_id: cdktf.stringToTerraform(this._workloadIdentityPoolNamespaceId),
-      attestation_rules: cdktf.listMapper(googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToTerraform, true)(this._attestationRules.internalValue),
+      description: cdktn.stringToTerraform(this._description),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      workload_identity_pool_id: cdktn.stringToTerraform(this._workloadIdentityPoolId),
+      workload_identity_pool_managed_identity_id: cdktn.stringToTerraform(this._workloadIdentityPoolManagedIdentityId),
+      workload_identity_pool_namespace_id: cdktn.stringToTerraform(this._workloadIdentityPoolNamespaceId),
+      attestation_rules: cdktn.listMapper(googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToTerraform, true)(this._attestationRules.internalValue),
       timeouts: googleIamWorkloadIdentityPoolManagedIdentityTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -592,49 +592,49 @@ export class GoogleIamWorkloadIdentityPoolManagedIdentity extends cdktf.Terrafor
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workload_identity_pool_id: {
-        value: cdktf.stringToHclTerraform(this._workloadIdentityPoolId),
+        value: cdktn.stringToHclTerraform(this._workloadIdentityPoolId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workload_identity_pool_managed_identity_id: {
-        value: cdktf.stringToHclTerraform(this._workloadIdentityPoolManagedIdentityId),
+        value: cdktn.stringToHclTerraform(this._workloadIdentityPoolManagedIdentityId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       workload_identity_pool_namespace_id: {
-        value: cdktf.stringToHclTerraform(this._workloadIdentityPoolNamespaceId),
+        value: cdktn.stringToHclTerraform(this._workloadIdentityPoolNamespaceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       attestation_rules: {
-        value: cdktf.listMapperHcl(googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToHclTerraform, true)(this._attestationRules.internalValue),
+        value: cdktn.listMapperHcl(googleIamWorkloadIdentityPoolManagedIdentityAttestationRulesToHclTerraform, true)(this._attestationRules.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesList",

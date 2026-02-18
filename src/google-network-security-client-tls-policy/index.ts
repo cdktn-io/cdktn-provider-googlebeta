@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetworkSecurityClientTlsPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetworkSecurityClientTlsPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * A free-text description of the resource. Max length 1024 characters.
   *
@@ -68,7 +68,7 @@ export interface GoogleNetworkSecurityClientTlsPolicyConfig extends cdktf.Terraf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_client_tls_policy#server_validation_ca GoogleNetworkSecurityClientTlsPolicy#server_validation_ca}
   */
-  readonly serverValidationCa?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktf.IResolvable;
+  readonly serverValidationCa?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -86,24 +86,24 @@ export interface GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificat
 }
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    plugin_instance: cdktf.stringToTerraform(struct!.pluginInstance),
+    plugin_instance: cdktn.stringToTerraform(struct!.pluginInstance),
   }
 }
 
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     plugin_instance: {
-      value: cdktf.stringToHclTerraform(struct!.pluginInstance),
+      value: cdktn.stringToHclTerraform(struct!.pluginInstance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -114,14 +114,14 @@ export function googleNetworkSecurityClientTlsPolicyClientCertificateCertificate
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyClientCertificateCertificateProviderInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -169,24 +169,24 @@ export interface GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpoi
 }
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target_uri: cdktf.stringToTerraform(struct!.targetUri),
+    target_uri: cdktn.stringToTerraform(struct!.targetUri),
   }
 }
 
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target_uri: {
-      value: cdktf.stringToHclTerraform(struct!.targetUri),
+      value: cdktn.stringToHclTerraform(struct!.targetUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -197,14 +197,14 @@ export function googleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpoin
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyClientCertificateGrpcEndpointOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -258,8 +258,8 @@ export interface GoogleNetworkSecurityClientTlsPolicyClientCertificate {
 }
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -270,8 +270,8 @@ export function googleNetworkSecurityClientTlsPolicyClientCertificateToTerraform
 
 
 export function googleNetworkSecurityClientTlsPolicyClientCertificateToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyClientCertificateOutputReference | GoogleNetworkSecurityClientTlsPolicyClientCertificate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -293,14 +293,14 @@ export function googleNetworkSecurityClientTlsPolicyClientCertificateToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyClientCertificateOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyClientCertificateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -373,24 +373,24 @@ export interface GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertifica
 }
 
 export function googleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceOutputReference | GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    plugin_instance: cdktf.stringToTerraform(struct!.pluginInstance),
+    plugin_instance: cdktn.stringToTerraform(struct!.pluginInstance),
   }
 }
 
 
 export function googleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceOutputReference | GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     plugin_instance: {
-      value: cdktf.stringToHclTerraform(struct!.pluginInstance),
+      value: cdktn.stringToHclTerraform(struct!.pluginInstance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -401,14 +401,14 @@ export function googleNetworkSecurityClientTlsPolicyServerValidationCaCertificat
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaCertificateProviderInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -456,24 +456,24 @@ export interface GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpo
 }
 
 export function googleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointOutputReference | GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    target_uri: cdktf.stringToTerraform(struct!.targetUri),
+    target_uri: cdktn.stringToTerraform(struct!.targetUri),
   }
 }
 
 
 export function googleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointOutputReference | GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     target_uri: {
-      value: cdktf.stringToHclTerraform(struct!.targetUri),
+      value: cdktn.stringToHclTerraform(struct!.targetUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -484,14 +484,14 @@ export function googleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpoi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpointOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -544,9 +544,9 @@ export interface GoogleNetworkSecurityClientTlsPolicyServerValidationCa {
   readonly grpcEndpoint?: GoogleNetworkSecurityClientTlsPolicyServerValidationCaGrpcEndpoint;
 }
 
-export function googleNetworkSecurityClientTlsPolicyServerValidationCaToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityClientTlsPolicyServerValidationCaToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -556,9 +556,9 @@ export function googleNetworkSecurityClientTlsPolicyServerValidationCaToTerrafor
 }
 
 
-export function googleNetworkSecurityClientTlsPolicyServerValidationCaToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityClientTlsPolicyServerValidationCaToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -580,9 +580,9 @@ export function googleNetworkSecurityClientTlsPolicyServerValidationCaToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -590,11 +590,11 @@ export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaOutputReferen
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -611,14 +611,14 @@ export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaOutputReferen
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecurityClientTlsPolicyServerValidationCa | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._certificateProviderInstance.internalValue = undefined;
       this._grpcEndpoint.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -663,15 +663,15 @@ export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaOutputReferen
   }
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaList extends cdktf.ComplexList {
-  public internalValue? : GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktf.IResolvable
+export class GoogleNetworkSecurityClientTlsPolicyServerValidationCaList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -697,39 +697,39 @@ export interface GoogleNetworkSecurityClientTlsPolicyTimeouts {
   readonly update?: string;
 }
 
-export function googleNetworkSecurityClientTlsPolicyTimeoutsToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityClientTlsPolicyTimeoutsToTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetworkSecurityClientTlsPolicyTimeoutsToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityClientTlsPolicyTimeoutsToHclTerraform(struct?: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -740,19 +740,19 @@ export function googleNetworkSecurityClientTlsPolicyTimeoutsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityClientTlsPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityClientTlsPolicyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -773,7 +773,7 @@ export class GoogleNetworkSecurityClientTlsPolicyTimeoutsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecurityClientTlsPolicyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -781,7 +781,7 @@ export class GoogleNetworkSecurityClientTlsPolicyTimeoutsOutputReference extends
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -846,7 +846,7 @@ export class GoogleNetworkSecurityClientTlsPolicyTimeoutsOutputReference extends
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_client_tls_policy google_network_security_client_tls_policy}
 */
-export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResource {
+export class GoogleNetworkSecurityClientTlsPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -857,14 +857,14 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetworkSecurityClientTlsPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetworkSecurityClientTlsPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkSecurityClientTlsPolicy to import
   * @param importFromId The id of the existing GoogleNetworkSecurityClientTlsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_client_tls_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkSecurityClientTlsPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_client_tls_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_client_tls_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -932,7 +932,7 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1031,7 +1031,7 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1062,7 +1062,7 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
   public get serverValidationCa() {
     return this._serverValidationCa;
   }
-  public putServerValidationCa(value: GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktf.IResolvable) {
+  public putServerValidationCa(value: GoogleNetworkSecurityClientTlsPolicyServerValidationCa[] | cdktn.IResolvable) {
     this._serverValidationCa.internalValue = value;
   }
   public resetServerValidationCa() {
@@ -1095,15 +1095,15 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      sni: cdktf.stringToTerraform(this._sni),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      sni: cdktn.stringToTerraform(this._sni),
       client_certificate: googleNetworkSecurityClientTlsPolicyClientCertificateToTerraform(this._clientCertificate.internalValue),
-      server_validation_ca: cdktf.listMapper(googleNetworkSecurityClientTlsPolicyServerValidationCaToTerraform, true)(this._serverValidationCa.internalValue),
+      server_validation_ca: cdktn.listMapper(googleNetworkSecurityClientTlsPolicyServerValidationCaToTerraform, true)(this._serverValidationCa.internalValue),
       timeouts: googleNetworkSecurityClientTlsPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1111,43 +1111,43 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       sni: {
-        value: cdktf.stringToHclTerraform(this._sni),
+        value: cdktn.stringToHclTerraform(this._sni),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1159,7 +1159,7 @@ export class GoogleNetworkSecurityClientTlsPolicy extends cdktf.TerraformResourc
         storageClassType: "GoogleNetworkSecurityClientTlsPolicyClientCertificateList",
       },
       server_validation_ca: {
-        value: cdktf.listMapperHcl(googleNetworkSecurityClientTlsPolicyServerValidationCaToHclTerraform, true)(this._serverValidationCa.internalValue),
+        value: cdktn.listMapperHcl(googleNetworkSecurityClientTlsPolicyServerValidationCaToHclTerraform, true)(this._serverValidationCa.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleNetworkSecurityClientTlsPolicyServerValidationCaList",

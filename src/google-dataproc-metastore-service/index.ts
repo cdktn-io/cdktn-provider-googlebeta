@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataprocMetastoreServiceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataprocMetastoreServiceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The database type that the Metastore service stores its data. Default value: "MYSQL" Possible values: ["MYSQL", "SPANNER"]
   *
@@ -23,7 +23,7 @@ export interface GoogleDataprocMetastoreServiceConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#deletion_protection GoogleDataprocMetastoreService#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#id GoogleDataprocMetastoreService#id}
   *
@@ -151,24 +151,24 @@ export interface GoogleDataprocMetastoreServiceEncryptionConfig {
 }
 
 export function googleDataprocMetastoreServiceEncryptionConfigToTerraform(struct?: GoogleDataprocMetastoreServiceEncryptionConfigOutputReference | GoogleDataprocMetastoreServiceEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
   }
 }
 
 
 export function googleDataprocMetastoreServiceEncryptionConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceEncryptionConfigOutputReference | GoogleDataprocMetastoreServiceEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -179,14 +179,14 @@ export function googleDataprocMetastoreServiceEncryptionConfigToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceEncryptionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceEncryptionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -244,39 +244,39 @@ export interface GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersi
   readonly version: string;
 }
 
-export function googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    config_overrides: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.configOverrides),
-    key: cdktf.stringToTerraform(struct!.key),
-    version: cdktf.stringToTerraform(struct!.version),
+    config_overrides: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.configOverrides),
+    key: cdktn.stringToTerraform(struct!.key),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
-export function googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToHclTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToHclTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     config_overrides: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.configOverrides),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.configOverrides),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -287,9 +287,9 @@ export function googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -297,11 +297,11 @@ export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -322,7 +322,7 @@ export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -330,7 +330,7 @@ export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
       this._key = undefined;
       this._version = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -386,15 +386,15 @@ export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsO
   }
 }
 
-export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktf.IResolvable
+export class GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -417,24 +417,24 @@ export interface GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig
 }
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabToTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytab): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cloud_secret: cdktf.stringToTerraform(struct!.cloudSecret),
+    cloud_secret: cdktn.stringToTerraform(struct!.cloudSecret),
   }
 }
 
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabToHclTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytab): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cloud_secret: {
-      value: cdktf.stringToHclTerraform(struct!.cloudSecret),
+      value: cdktn.stringToHclTerraform(struct!.cloudSecret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -445,14 +445,14 @@ export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigK
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -512,32 +512,32 @@ export interface GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig
 }
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigToTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    krb5_config_gcs_uri: cdktf.stringToTerraform(struct!.krb5ConfigGcsUri),
-    principal: cdktf.stringToTerraform(struct!.principal),
+    krb5_config_gcs_uri: cdktn.stringToTerraform(struct!.krb5ConfigGcsUri),
+    principal: cdktn.stringToTerraform(struct!.principal),
     keytab: googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabToTerraform(struct!.keytab),
   }
 }
 
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     krb5_config_gcs_uri: {
-      value: cdktf.stringToHclTerraform(struct!.krb5ConfigGcsUri),
+      value: cdktn.stringToHclTerraform(struct!.krb5ConfigGcsUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     principal: {
-      value: cdktf.stringToHclTerraform(struct!.principal),
+      value: cdktn.stringToHclTerraform(struct!.principal),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -554,14 +554,14 @@ export function googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -662,7 +662,7 @@ export interface GoogleDataprocMetastoreServiceHiveMetastoreConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#auxiliary_versions GoogleDataprocMetastoreService#auxiliary_versions}
   */
-  readonly auxiliaryVersions?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktf.IResolvable;
+  readonly auxiliaryVersions?: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktn.IResolvable;
   /**
   * kerberos_config block
   *
@@ -672,46 +672,46 @@ export interface GoogleDataprocMetastoreServiceHiveMetastoreConfig {
 }
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigToTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    config_overrides: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.configOverrides),
-    endpoint_protocol: cdktf.stringToTerraform(struct!.endpointProtocol),
-    version: cdktf.stringToTerraform(struct!.version),
-    auxiliary_versions: cdktf.listMapper(googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToTerraform, true)(struct!.auxiliaryVersions),
+    config_overrides: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.configOverrides),
+    endpoint_protocol: cdktn.stringToTerraform(struct!.endpointProtocol),
+    version: cdktn.stringToTerraform(struct!.version),
+    auxiliary_versions: cdktn.listMapper(googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToTerraform, true)(struct!.auxiliaryVersions),
     kerberos_config: googleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigToTerraform(struct!.kerberosConfig),
   }
 }
 
 
 export function googleDataprocMetastoreServiceHiveMetastoreConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference | GoogleDataprocMetastoreServiceHiveMetastoreConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     config_overrides: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.configOverrides),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.configOverrides),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     endpoint_protocol: {
-      value: cdktf.stringToHclTerraform(struct!.endpointProtocol),
+      value: cdktn.stringToHclTerraform(struct!.endpointProtocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     auxiliary_versions: {
-      value: cdktf.listMapperHcl(googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToHclTerraform, true)(struct!.auxiliaryVersions),
+      value: cdktn.listMapperHcl(googleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsToHclTerraform, true)(struct!.auxiliaryVersions),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersionsList",
@@ -728,14 +728,14 @@ export function googleDataprocMetastoreServiceHiveMetastoreConfigToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -834,7 +834,7 @@ export class GoogleDataprocMetastoreServiceHiveMetastoreConfigOutputReference ex
   public get auxiliaryVersions() {
     return this._auxiliaryVersions;
   }
-  public putAuxiliaryVersions(value: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktf.IResolvable) {
+  public putAuxiliaryVersions(value: GoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersions[] | cdktn.IResolvable) {
     this._auxiliaryVersions.internalValue = value;
   }
   public resetAuxiliaryVersions() {
@@ -877,31 +877,31 @@ export interface GoogleDataprocMetastoreServiceMaintenanceWindow {
 }
 
 export function googleDataprocMetastoreServiceMaintenanceWindowToTerraform(struct?: GoogleDataprocMetastoreServiceMaintenanceWindowOutputReference | GoogleDataprocMetastoreServiceMaintenanceWindow): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day_of_week: cdktf.stringToTerraform(struct!.dayOfWeek),
-    hour_of_day: cdktf.numberToTerraform(struct!.hourOfDay),
+    day_of_week: cdktn.stringToTerraform(struct!.dayOfWeek),
+    hour_of_day: cdktn.numberToTerraform(struct!.hourOfDay),
   }
 }
 
 
 export function googleDataprocMetastoreServiceMaintenanceWindowToHclTerraform(struct?: GoogleDataprocMetastoreServiceMaintenanceWindowOutputReference | GoogleDataprocMetastoreServiceMaintenanceWindow): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day_of_week: {
-      value: cdktf.stringToHclTerraform(struct!.dayOfWeek),
+      value: cdktn.stringToHclTerraform(struct!.dayOfWeek),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     hour_of_day: {
-      value: cdktf.numberToHclTerraform(struct!.hourOfDay),
+      value: cdktn.numberToHclTerraform(struct!.hourOfDay),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -912,14 +912,14 @@ export function googleDataprocMetastoreServiceMaintenanceWindowToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceMaintenanceWindowOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceMaintenanceWindowOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -982,28 +982,28 @@ export interface GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogCon
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#enabled GoogleDataprocMetastoreService#enabled}
   */
-  readonly enabled: boolean | cdktf.IResolvable;
+  readonly enabled: boolean | cdktn.IResolvable;
 }
 
 export function googleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigToTerraform(struct?: GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigOutputReference | GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
   }
 }
 
 
 export function googleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigOutputReference | GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1014,14 +1014,14 @@ export function googleDataprocMetastoreServiceMetadataIntegrationDataCatalogConf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1047,11 +1047,11 @@ export class GoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogConfigO
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1069,8 +1069,8 @@ export interface GoogleDataprocMetastoreServiceMetadataIntegration {
 }
 
 export function googleDataprocMetastoreServiceMetadataIntegrationToTerraform(struct?: GoogleDataprocMetastoreServiceMetadataIntegrationOutputReference | GoogleDataprocMetastoreServiceMetadataIntegration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1080,8 +1080,8 @@ export function googleDataprocMetastoreServiceMetadataIntegrationToTerraform(str
 
 
 export function googleDataprocMetastoreServiceMetadataIntegrationToHclTerraform(struct?: GoogleDataprocMetastoreServiceMetadataIntegrationOutputReference | GoogleDataprocMetastoreServiceMetadataIntegration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1097,14 +1097,14 @@ export function googleDataprocMetastoreServiceMetadataIntegrationToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceMetadataIntegrationOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceMetadataIntegrationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1154,25 +1154,25 @@ export interface GoogleDataprocMetastoreServiceNetworkConfigConsumers {
   readonly subnetwork: string;
 }
 
-export function googleDataprocMetastoreServiceNetworkConfigConsumersToTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceNetworkConfigConsumersToTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    subnetwork: cdktf.stringToTerraform(struct!.subnetwork),
+    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
   }
 }
 
 
-export function googleDataprocMetastoreServiceNetworkConfigConsumersToHclTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceNetworkConfigConsumersToHclTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     subnetwork: {
-      value: cdktf.stringToHclTerraform(struct!.subnetwork),
+      value: cdktn.stringToHclTerraform(struct!.subnetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1183,9 +1183,9 @@ export function googleDataprocMetastoreServiceNetworkConfigConsumersToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1193,11 +1193,11 @@ export class GoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1210,13 +1210,13 @@ export class GoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocMetastoreServiceNetworkConfigConsumers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._subnetwork = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1246,15 +1246,15 @@ export class GoogleDataprocMetastoreServiceNetworkConfigConsumersOutputReference
   }
 }
 
-export class GoogleDataprocMetastoreServiceNetworkConfigConsumersList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktf.IResolvable
+export class GoogleDataprocMetastoreServiceNetworkConfigConsumersList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1271,41 +1271,41 @@ export interface GoogleDataprocMetastoreServiceNetworkConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#custom_routes_enabled GoogleDataprocMetastoreService#custom_routes_enabled}
   */
-  readonly customRoutesEnabled?: boolean | cdktf.IResolvable;
+  readonly customRoutesEnabled?: boolean | cdktn.IResolvable;
   /**
   * consumers block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#consumers GoogleDataprocMetastoreService#consumers}
   */
-  readonly consumers: GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktf.IResolvable;
+  readonly consumers: GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktn.IResolvable;
 }
 
 export function googleDataprocMetastoreServiceNetworkConfigToTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigOutputReference | GoogleDataprocMetastoreServiceNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    custom_routes_enabled: cdktf.booleanToTerraform(struct!.customRoutesEnabled),
-    consumers: cdktf.listMapper(googleDataprocMetastoreServiceNetworkConfigConsumersToTerraform, true)(struct!.consumers),
+    custom_routes_enabled: cdktn.booleanToTerraform(struct!.customRoutesEnabled),
+    consumers: cdktn.listMapper(googleDataprocMetastoreServiceNetworkConfigConsumersToTerraform, true)(struct!.consumers),
   }
 }
 
 
 export function googleDataprocMetastoreServiceNetworkConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceNetworkConfigOutputReference | GoogleDataprocMetastoreServiceNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     custom_routes_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.customRoutesEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.customRoutesEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     consumers: {
-      value: cdktf.listMapperHcl(googleDataprocMetastoreServiceNetworkConfigConsumersToHclTerraform, true)(struct!.consumers),
+      value: cdktn.listMapperHcl(googleDataprocMetastoreServiceNetworkConfigConsumersToHclTerraform, true)(struct!.consumers),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataprocMetastoreServiceNetworkConfigConsumersList",
@@ -1316,14 +1316,14 @@ export function googleDataprocMetastoreServiceNetworkConfigToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceNetworkConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceNetworkConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1355,11 +1355,11 @@ export class GoogleDataprocMetastoreServiceNetworkConfigOutputReference extends 
   }
 
   // custom_routes_enabled - computed: false, optional: true, required: false
-  private _customRoutesEnabled?: boolean | cdktf.IResolvable; 
+  private _customRoutesEnabled?: boolean | cdktn.IResolvable; 
   public get customRoutesEnabled() {
     return this.getBooleanAttribute('custom_routes_enabled');
   }
-  public set customRoutesEnabled(value: boolean | cdktf.IResolvable) {
+  public set customRoutesEnabled(value: boolean | cdktn.IResolvable) {
     this._customRoutesEnabled = value;
   }
   public resetCustomRoutesEnabled() {
@@ -1375,7 +1375,7 @@ export class GoogleDataprocMetastoreServiceNetworkConfigOutputReference extends 
   public get consumers() {
     return this._consumers;
   }
-  public putConsumers(value: GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktf.IResolvable) {
+  public putConsumers(value: GoogleDataprocMetastoreServiceNetworkConfigConsumers[] | cdktn.IResolvable) {
     this._consumers.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1399,31 +1399,31 @@ export interface GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLim
 }
 
 export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigToTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_scaling_factor: cdktf.numberToTerraform(struct!.maxScalingFactor),
-    min_scaling_factor: cdktf.numberToTerraform(struct!.minScalingFactor),
+    max_scaling_factor: cdktn.numberToTerraform(struct!.maxScalingFactor),
+    min_scaling_factor: cdktn.numberToTerraform(struct!.minScalingFactor),
   }
 }
 
 
 export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_scaling_factor: {
-      value: cdktf.numberToHclTerraform(struct!.maxScalingFactor),
+      value: cdktn.numberToHclTerraform(struct!.maxScalingFactor),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_scaling_factor: {
-      value: cdktf.numberToHclTerraform(struct!.minScalingFactor),
+      value: cdktn.numberToHclTerraform(struct!.minScalingFactor),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1434,14 +1434,14 @@ export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1510,7 +1510,7 @@ export interface GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#autoscaling_enabled GoogleDataprocMetastoreService#autoscaling_enabled}
   */
-  readonly autoscalingEnabled?: boolean | cdktf.IResolvable;
+  readonly autoscalingEnabled?: boolean | cdktn.IResolvable;
   /**
   * limit_config block
   *
@@ -1520,25 +1520,25 @@ export interface GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfig {
 }
 
 export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigToTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    autoscaling_enabled: cdktf.booleanToTerraform(struct!.autoscalingEnabled),
+    autoscaling_enabled: cdktn.booleanToTerraform(struct!.autoscalingEnabled),
     limit_config: googleDataprocMetastoreServiceScalingConfigAutoscalingConfigLimitConfigToTerraform(struct!.limitConfig),
   }
 }
 
 
 export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     autoscaling_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.autoscalingEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.autoscalingEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1555,14 +1555,14 @@ export function googleDataprocMetastoreServiceScalingConfigAutoscalingConfigToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1594,11 +1594,11 @@ export class GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputR
   }
 
   // autoscaling_enabled - computed: false, optional: true, required: false
-  private _autoscalingEnabled?: boolean | cdktf.IResolvable; 
+  private _autoscalingEnabled?: boolean | cdktn.IResolvable; 
   public get autoscalingEnabled() {
     return this.getBooleanAttribute('autoscaling_enabled');
   }
-  public set autoscalingEnabled(value: boolean | cdktf.IResolvable) {
+  public set autoscalingEnabled(value: boolean | cdktn.IResolvable) {
     this._autoscalingEnabled = value;
   }
   public resetAutoscalingEnabled() {
@@ -1652,32 +1652,32 @@ export interface GoogleDataprocMetastoreServiceScalingConfig {
 }
 
 export function googleDataprocMetastoreServiceScalingConfigToTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instance_size: cdktf.stringToTerraform(struct!.instanceSize),
-    scaling_factor: cdktf.numberToTerraform(struct!.scalingFactor),
+    instance_size: cdktn.stringToTerraform(struct!.instanceSize),
+    scaling_factor: cdktn.numberToTerraform(struct!.scalingFactor),
     autoscaling_config: googleDataprocMetastoreServiceScalingConfigAutoscalingConfigToTerraform(struct!.autoscalingConfig),
   }
 }
 
 
 export function googleDataprocMetastoreServiceScalingConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceScalingConfigOutputReference | GoogleDataprocMetastoreServiceScalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instance_size: {
-      value: cdktf.stringToHclTerraform(struct!.instanceSize),
+      value: cdktn.stringToHclTerraform(struct!.instanceSize),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scaling_factor: {
-      value: cdktf.numberToHclTerraform(struct!.scalingFactor),
+      value: cdktn.numberToHclTerraform(struct!.scalingFactor),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1694,14 +1694,14 @@ export function googleDataprocMetastoreServiceScalingConfigToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceScalingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceScalingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1804,7 +1804,7 @@ export interface GoogleDataprocMetastoreServiceScheduledBackup {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#enabled GoogleDataprocMetastoreService#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the time zone to be used when interpreting cronSchedule. Must be a time zone name from the time zone database (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), e.g. America/Los_Angeles or Africa/Abidjan. If left unspecified, the default is UTC.
   *
@@ -1814,45 +1814,45 @@ export interface GoogleDataprocMetastoreServiceScheduledBackup {
 }
 
 export function googleDataprocMetastoreServiceScheduledBackupToTerraform(struct?: GoogleDataprocMetastoreServiceScheduledBackupOutputReference | GoogleDataprocMetastoreServiceScheduledBackup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backup_location: cdktf.stringToTerraform(struct!.backupLocation),
-    cron_schedule: cdktf.stringToTerraform(struct!.cronSchedule),
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
-    time_zone: cdktf.stringToTerraform(struct!.timeZone),
+    backup_location: cdktn.stringToTerraform(struct!.backupLocation),
+    cron_schedule: cdktn.stringToTerraform(struct!.cronSchedule),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    time_zone: cdktn.stringToTerraform(struct!.timeZone),
   }
 }
 
 
 export function googleDataprocMetastoreServiceScheduledBackupToHclTerraform(struct?: GoogleDataprocMetastoreServiceScheduledBackupOutputReference | GoogleDataprocMetastoreServiceScheduledBackup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backup_location: {
-      value: cdktf.stringToHclTerraform(struct!.backupLocation),
+      value: cdktn.stringToHclTerraform(struct!.backupLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cron_schedule: {
-      value: cdktf.stringToHclTerraform(struct!.cronSchedule),
+      value: cdktn.stringToHclTerraform(struct!.cronSchedule),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     time_zone: {
-      value: cdktf.stringToHclTerraform(struct!.timeZone),
+      value: cdktn.stringToHclTerraform(struct!.timeZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1863,14 +1863,14 @@ export function googleDataprocMetastoreServiceScheduledBackupToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceScheduledBackupOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceScheduledBackupOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1943,11 +1943,11 @@ export class GoogleDataprocMetastoreServiceScheduledBackupOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -1984,24 +1984,24 @@ export interface GoogleDataprocMetastoreServiceTelemetryConfig {
 }
 
 export function googleDataprocMetastoreServiceTelemetryConfigToTerraform(struct?: GoogleDataprocMetastoreServiceTelemetryConfigOutputReference | GoogleDataprocMetastoreServiceTelemetryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    log_format: cdktf.stringToTerraform(struct!.logFormat),
+    log_format: cdktn.stringToTerraform(struct!.logFormat),
   }
 }
 
 
 export function googleDataprocMetastoreServiceTelemetryConfigToHclTerraform(struct?: GoogleDataprocMetastoreServiceTelemetryConfigOutputReference | GoogleDataprocMetastoreServiceTelemetryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     log_format: {
-      value: cdktf.stringToHclTerraform(struct!.logFormat),
+      value: cdktn.stringToHclTerraform(struct!.logFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2012,14 +2012,14 @@ export function googleDataprocMetastoreServiceTelemetryConfigToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceTelemetryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceTelemetryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2075,39 +2075,39 @@ export interface GoogleDataprocMetastoreServiceTimeouts {
   readonly update?: string;
 }
 
-export function googleDataprocMetastoreServiceTimeoutsToTerraform(struct?: GoogleDataprocMetastoreServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceTimeoutsToTerraform(struct?: GoogleDataprocMetastoreServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataprocMetastoreServiceTimeoutsToHclTerraform(struct?: GoogleDataprocMetastoreServiceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocMetastoreServiceTimeoutsToHclTerraform(struct?: GoogleDataprocMetastoreServiceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2118,19 +2118,19 @@ export function googleDataprocMetastoreServiceTimeoutsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocMetastoreServiceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocMetastoreServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataprocMetastoreServiceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocMetastoreServiceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2151,7 +2151,7 @@ export class GoogleDataprocMetastoreServiceTimeoutsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocMetastoreServiceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocMetastoreServiceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2159,7 +2159,7 @@ export class GoogleDataprocMetastoreServiceTimeoutsOutputReference extends cdktf
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2224,7 +2224,7 @@ export class GoogleDataprocMetastoreServiceTimeoutsOutputReference extends cdktf
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service google_dataproc_metastore_service}
 */
-export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
+export class GoogleDataprocMetastoreService extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2235,14 +2235,14 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataprocMetastoreService resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataprocMetastoreService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataprocMetastoreService to import
   * @param importFromId The id of the existing GoogleDataprocMetastoreService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataprocMetastoreService to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataproc_metastore_service", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataproc_metastore_service", importId: importFromId, provider });
       }
 
   // ===========
@@ -2325,11 +2325,11 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -2341,7 +2341,7 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -2492,7 +2492,7 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -2673,17 +2673,17 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      database_type: cdktf.stringToTerraform(this._databaseType),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      network: cdktf.stringToTerraform(this._network),
-      port: cdktf.numberToTerraform(this._port),
-      project: cdktf.stringToTerraform(this._project),
-      release_channel: cdktf.stringToTerraform(this._releaseChannel),
-      service_id: cdktf.stringToTerraform(this._serviceId),
-      tier: cdktf.stringToTerraform(this._tier),
+      database_type: cdktn.stringToTerraform(this._databaseType),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      network: cdktn.stringToTerraform(this._network),
+      port: cdktn.numberToTerraform(this._port),
+      project: cdktn.stringToTerraform(this._project),
+      release_channel: cdktn.stringToTerraform(this._releaseChannel),
+      service_id: cdktn.stringToTerraform(this._serviceId),
+      tier: cdktn.stringToTerraform(this._tier),
       encryption_config: googleDataprocMetastoreServiceEncryptionConfigToTerraform(this._encryptionConfig.internalValue),
       hive_metastore_config: googleDataprocMetastoreServiceHiveMetastoreConfigToTerraform(this._hiveMetastoreConfig.internalValue),
       maintenance_window: googleDataprocMetastoreServiceMaintenanceWindowToTerraform(this._maintenanceWindow.internalValue),
@@ -2699,67 +2699,67 @@ export class GoogleDataprocMetastoreService extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       database_type: {
-        value: cdktf.stringToHclTerraform(this._databaseType),
+        value: cdktn.stringToHclTerraform(this._databaseType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       port: {
-        value: cdktf.numberToHclTerraform(this._port),
+        value: cdktn.numberToHclTerraform(this._port),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       release_channel: {
-        value: cdktf.stringToHclTerraform(this._releaseChannel),
+        value: cdktn.stringToHclTerraform(this._releaseChannel),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_id: {
-        value: cdktf.stringToHclTerraform(this._serviceId),
+        value: cdktn.stringToHclTerraform(this._serviceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tier: {
-        value: cdktf.stringToHclTerraform(this._tier),
+        value: cdktn.stringToHclTerraform(this._tier),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleLoggingBillingAccountBucketConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleLoggingBillingAccountBucketConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * The parent resource that contains the logging bucket.
   *
@@ -60,7 +60,7 @@ export interface GoogleLoggingBillingAccountBucketConfigConfig extends cdktf.Ter
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_billing_account_bucket_config#index_configs GoogleLoggingBillingAccountBucketConfig#index_configs}
   */
-  readonly indexConfigs?: GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktf.IResolvable;
+  readonly indexConfigs?: GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktn.IResolvable;
 }
 export interface GoogleLoggingBillingAccountBucketConfigCmekSettings {
   /**
@@ -77,24 +77,24 @@ export interface GoogleLoggingBillingAccountBucketConfigCmekSettings {
 }
 
 export function googleLoggingBillingAccountBucketConfigCmekSettingsToTerraform(struct?: GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference | GoogleLoggingBillingAccountBucketConfigCmekSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
   }
 }
 
 
 export function googleLoggingBillingAccountBucketConfigCmekSettingsToHclTerraform(struct?: GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference | GoogleLoggingBillingAccountBucketConfigCmekSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -105,14 +105,14 @@ export function googleLoggingBillingAccountBucketConfigCmekSettingsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -182,32 +182,32 @@ export interface GoogleLoggingBillingAccountBucketConfigIndexConfigs {
   readonly type: string;
 }
 
-export function googleLoggingBillingAccountBucketConfigIndexConfigsToTerraform(struct?: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLoggingBillingAccountBucketConfigIndexConfigsToTerraform(struct?: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    field_path: cdktf.stringToTerraform(struct!.fieldPath),
-    type: cdktf.stringToTerraform(struct!.type),
+    field_path: cdktn.stringToTerraform(struct!.fieldPath),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleLoggingBillingAccountBucketConfigIndexConfigsToHclTerraform(struct?: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLoggingBillingAccountBucketConfigIndexConfigsToHclTerraform(struct?: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     field_path: {
-      value: cdktf.stringToHclTerraform(struct!.fieldPath),
+      value: cdktn.stringToHclTerraform(struct!.fieldPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -218,9 +218,9 @@ export function googleLoggingBillingAccountBucketConfigIndexConfigsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleLoggingBillingAccountBucketConfigIndexConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleLoggingBillingAccountBucketConfigIndexConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -228,11 +228,11 @@ export class GoogleLoggingBillingAccountBucketConfigIndexConfigsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -249,14 +249,14 @@ export class GoogleLoggingBillingAccountBucketConfigIndexConfigsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleLoggingBillingAccountBucketConfigIndexConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._fieldPath = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -295,15 +295,15 @@ export class GoogleLoggingBillingAccountBucketConfigIndexConfigsOutputReference 
   }
 }
 
-export class GoogleLoggingBillingAccountBucketConfigIndexConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktf.IResolvable
+export class GoogleLoggingBillingAccountBucketConfigIndexConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -318,7 +318,7 @@ export class GoogleLoggingBillingAccountBucketConfigIndexConfigsList extends cdk
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_billing_account_bucket_config google_logging_billing_account_bucket_config}
 */
-export class GoogleLoggingBillingAccountBucketConfig extends cdktf.TerraformResource {
+export class GoogleLoggingBillingAccountBucketConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -329,14 +329,14 @@ export class GoogleLoggingBillingAccountBucketConfig extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleLoggingBillingAccountBucketConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleLoggingBillingAccountBucketConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleLoggingBillingAccountBucketConfig to import
   * @param importFromId The id of the existing GoogleLoggingBillingAccountBucketConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_billing_account_bucket_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleLoggingBillingAccountBucketConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_logging_billing_account_bucket_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_logging_billing_account_bucket_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -498,7 +498,7 @@ export class GoogleLoggingBillingAccountBucketConfig extends cdktf.TerraformReso
   public get indexConfigs() {
     return this._indexConfigs;
   }
-  public putIndexConfigs(value: GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktf.IResolvable) {
+  public putIndexConfigs(value: GoogleLoggingBillingAccountBucketConfigIndexConfigs[] | cdktn.IResolvable) {
     this._indexConfigs.internalValue = value;
   }
   public resetIndexConfigs() {
@@ -515,51 +515,51 @@ export class GoogleLoggingBillingAccountBucketConfig extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      billing_account: cdktf.stringToTerraform(this._billingAccount),
-      bucket_id: cdktf.stringToTerraform(this._bucketId),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      retention_days: cdktf.numberToTerraform(this._retentionDays),
+      billing_account: cdktn.stringToTerraform(this._billingAccount),
+      bucket_id: cdktn.stringToTerraform(this._bucketId),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      retention_days: cdktn.numberToTerraform(this._retentionDays),
       cmek_settings: googleLoggingBillingAccountBucketConfigCmekSettingsToTerraform(this._cmekSettings.internalValue),
-      index_configs: cdktf.listMapper(googleLoggingBillingAccountBucketConfigIndexConfigsToTerraform, true)(this._indexConfigs.internalValue),
+      index_configs: cdktn.listMapper(googleLoggingBillingAccountBucketConfigIndexConfigsToTerraform, true)(this._indexConfigs.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       billing_account: {
-        value: cdktf.stringToHclTerraform(this._billingAccount),
+        value: cdktn.stringToHclTerraform(this._billingAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       bucket_id: {
-        value: cdktf.stringToHclTerraform(this._bucketId),
+        value: cdktn.stringToHclTerraform(this._bucketId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       retention_days: {
-        value: cdktf.numberToHclTerraform(this._retentionDays),
+        value: cdktn.numberToHclTerraform(this._retentionDays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -571,7 +571,7 @@ export class GoogleLoggingBillingAccountBucketConfig extends cdktf.TerraformReso
         storageClassType: "GoogleLoggingBillingAccountBucketConfigCmekSettingsList",
       },
       index_configs: {
-        value: cdktf.listMapperHcl(googleLoggingBillingAccountBucketConfigIndexConfigsToHclTerraform, true)(this._indexConfigs.internalValue),
+        value: cdktn.listMapperHcl(googleLoggingBillingAccountBucketConfigIndexConfigsToHclTerraform, true)(this._indexConfigs.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleLoggingBillingAccountBucketConfigIndexConfigsList",

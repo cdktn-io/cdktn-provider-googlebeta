@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDocumentAiWarehouseLocationConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDocumentAiWarehouseLocationConfig extends cdktn.TerraformMetaArguments {
   /**
   * The access control mode for accessing the customer data. Possible values: ["ACL_MODE_DOCUMENT_LEVEL_ACCESS_CONTROL_GCI", "ACL_MODE_DOCUMENT_LEVEL_ACCESS_CONTROL_BYOID", "ACL_MODE_UNIVERSAL_ACCESS"]
   *
@@ -77,32 +77,32 @@ export interface GoogleDocumentAiWarehouseLocationTimeouts {
   readonly delete?: string;
 }
 
-export function googleDocumentAiWarehouseLocationTimeoutsToTerraform(struct?: GoogleDocumentAiWarehouseLocationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseLocationTimeoutsToTerraform(struct?: GoogleDocumentAiWarehouseLocationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleDocumentAiWarehouseLocationTimeoutsToHclTerraform(struct?: GoogleDocumentAiWarehouseLocationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiWarehouseLocationTimeoutsToHclTerraform(struct?: GoogleDocumentAiWarehouseLocationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -113,19 +113,19 @@ export function googleDocumentAiWarehouseLocationTimeoutsToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiWarehouseLocationTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiWarehouseLocationTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDocumentAiWarehouseLocationTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiWarehouseLocationTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -142,14 +142,14 @@ export class GoogleDocumentAiWarehouseLocationTimeoutsOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiWarehouseLocationTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiWarehouseLocationTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -197,7 +197,7 @@ export class GoogleDocumentAiWarehouseLocationTimeoutsOutputReference extends cd
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location}
 */
-export class GoogleDocumentAiWarehouseLocation extends cdktf.TerraformResource {
+export class GoogleDocumentAiWarehouseLocation extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -208,14 +208,14 @@ export class GoogleDocumentAiWarehouseLocation extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDocumentAiWarehouseLocation resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDocumentAiWarehouseLocation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDocumentAiWarehouseLocation to import
   * @param importFromId The id of the existing GoogleDocumentAiWarehouseLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_warehouse_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDocumentAiWarehouseLocation to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_warehouse_location", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_warehouse_location", importId: importFromId, provider });
       }
 
   // ===========
@@ -381,13 +381,13 @@ export class GoogleDocumentAiWarehouseLocation extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      access_control_mode: cdktf.stringToTerraform(this._accessControlMode),
-      database_type: cdktf.stringToTerraform(this._databaseType),
-      document_creator_default_role: cdktf.stringToTerraform(this._documentCreatorDefaultRole),
-      id: cdktf.stringToTerraform(this._id),
-      kms_key: cdktf.stringToTerraform(this._kmsKey),
-      location: cdktf.stringToTerraform(this._location),
-      project_number: cdktf.stringToTerraform(this._projectNumber),
+      access_control_mode: cdktn.stringToTerraform(this._accessControlMode),
+      database_type: cdktn.stringToTerraform(this._databaseType),
+      document_creator_default_role: cdktn.stringToTerraform(this._documentCreatorDefaultRole),
+      id: cdktn.stringToTerraform(this._id),
+      kms_key: cdktn.stringToTerraform(this._kmsKey),
+      location: cdktn.stringToTerraform(this._location),
+      project_number: cdktn.stringToTerraform(this._projectNumber),
       timeouts: googleDocumentAiWarehouseLocationTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -395,43 +395,43 @@ export class GoogleDocumentAiWarehouseLocation extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       access_control_mode: {
-        value: cdktf.stringToHclTerraform(this._accessControlMode),
+        value: cdktn.stringToHclTerraform(this._accessControlMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       database_type: {
-        value: cdktf.stringToHclTerraform(this._databaseType),
+        value: cdktn.stringToHclTerraform(this._databaseType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       document_creator_default_role: {
-        value: cdktf.stringToHclTerraform(this._documentCreatorDefaultRole),
+        value: cdktn.stringToHclTerraform(this._documentCreatorDefaultRole),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kms_key: {
-        value: cdktf.stringToHclTerraform(this._kmsKey),
+        value: cdktn.stringToHclTerraform(this._kmsKey),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project_number: {
-        value: cdktf.stringToHclTerraform(this._projectNumber),
+        value: cdktn.stringToHclTerraform(this._projectNumber),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

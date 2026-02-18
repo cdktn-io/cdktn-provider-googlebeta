@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleFirebaseAndroidAppConfigAConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleFirebaseAndroidAppConfigAConfig extends cdktn.TerraformMetaArguments {
   /**
   * The id of the Firebase Android App.
   *
@@ -29,7 +29,7 @@ export interface DataGoogleFirebaseAndroidAppConfigAConfig extends cdktf.Terrafo
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config google_firebase_android_app_config}
 */
-export class DataGoogleFirebaseAndroidAppConfigA extends cdktf.TerraformDataSource {
+export class DataGoogleFirebaseAndroidAppConfigA extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -40,14 +40,14 @@ export class DataGoogleFirebaseAndroidAppConfigA extends cdktf.TerraformDataSour
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleFirebaseAndroidAppConfigA resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleFirebaseAndroidAppConfigA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleFirebaseAndroidAppConfigA to import
   * @param importFromId The id of the existing DataGoogleFirebaseAndroidAppConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleFirebaseAndroidAppConfigA to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_android_app_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_android_app_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -135,21 +135,21 @@ export class DataGoogleFirebaseAndroidAppConfigA extends cdktf.TerraformDataSour
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      app_id: cdktf.stringToTerraform(this._appId),
-      project: cdktf.stringToTerraform(this._project),
+      app_id: cdktn.stringToTerraform(this._appId),
+      project: cdktn.stringToTerraform(this._project),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       app_id: {
-        value: cdktf.stringToHclTerraform(this._appId),
+        value: cdktn.stringToHclTerraform(this._appId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

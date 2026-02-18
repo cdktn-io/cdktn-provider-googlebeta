@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeExternalVpnGatewayConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeExternalVpnGatewayConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource.
   *
@@ -61,7 +61,7 @@ export interface GoogleComputeExternalVpnGatewayConfig extends cdktf.TerraformMe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_external_vpn_gateway#interface GoogleComputeExternalVpnGateway#interface}
   */
-  readonly interface?: GoogleComputeExternalVpnGatewayInterface[] | cdktf.IResolvable;
+  readonly interface?: GoogleComputeExternalVpnGatewayInterface[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -105,39 +105,39 @@ export interface GoogleComputeExternalVpnGatewayInterface {
   readonly ipv6Address?: string;
 }
 
-export function googleComputeExternalVpnGatewayInterfaceToTerraform(struct?: GoogleComputeExternalVpnGatewayInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeExternalVpnGatewayInterfaceToTerraform(struct?: GoogleComputeExternalVpnGatewayInterface | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
-    ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
+    id: cdktn.numberToTerraform(struct!.id),
+    ip_address: cdktn.stringToTerraform(struct!.ipAddress),
+    ipv6_address: cdktn.stringToTerraform(struct!.ipv6Address),
   }
 }
 
 
-export function googleComputeExternalVpnGatewayInterfaceToHclTerraform(struct?: GoogleComputeExternalVpnGatewayInterface | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeExternalVpnGatewayInterfaceToHclTerraform(struct?: GoogleComputeExternalVpnGatewayInterface | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
+      value: cdktn.numberToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     ip_address: {
-      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      value: cdktn.stringToHclTerraform(struct!.ipAddress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ipv6_address: {
-      value: cdktf.stringToHclTerraform(struct!.ipv6Address),
+      value: cdktn.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -148,9 +148,9 @@ export function googleComputeExternalVpnGatewayInterfaceToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -158,11 +158,11 @@ export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdk
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeExternalVpnGatewayInterface | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeExternalVpnGatewayInterface | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -183,7 +183,7 @@ export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeExternalVpnGatewayInterface | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeExternalVpnGatewayInterface | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -191,7 +191,7 @@ export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdk
       this._ipAddress = undefined;
       this._ipv6Address = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -253,15 +253,15 @@ export class GoogleComputeExternalVpnGatewayInterfaceOutputReference extends cdk
   }
 }
 
-export class GoogleComputeExternalVpnGatewayInterfaceList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeExternalVpnGatewayInterface[] | cdktf.IResolvable
+export class GoogleComputeExternalVpnGatewayInterfaceList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeExternalVpnGatewayInterface[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -287,39 +287,39 @@ export interface GoogleComputeExternalVpnGatewayTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeExternalVpnGatewayTimeoutsToTerraform(struct?: GoogleComputeExternalVpnGatewayTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeExternalVpnGatewayTimeoutsToTerraform(struct?: GoogleComputeExternalVpnGatewayTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeExternalVpnGatewayTimeoutsToHclTerraform(struct?: GoogleComputeExternalVpnGatewayTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeExternalVpnGatewayTimeoutsToHclTerraform(struct?: GoogleComputeExternalVpnGatewayTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -330,19 +330,19 @@ export function googleComputeExternalVpnGatewayTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeExternalVpnGatewayTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeExternalVpnGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeExternalVpnGatewayTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeExternalVpnGatewayTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -363,7 +363,7 @@ export class GoogleComputeExternalVpnGatewayTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeExternalVpnGatewayTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeExternalVpnGatewayTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -371,7 +371,7 @@ export class GoogleComputeExternalVpnGatewayTimeoutsOutputReference extends cdkt
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -436,7 +436,7 @@ export class GoogleComputeExternalVpnGatewayTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_external_vpn_gateway google_compute_external_vpn_gateway}
 */
-export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
+export class GoogleComputeExternalVpnGateway extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -447,14 +447,14 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeExternalVpnGateway resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeExternalVpnGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeExternalVpnGateway to import
   * @param importFromId The id of the existing GoogleComputeExternalVpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_external_vpn_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeExternalVpnGateway to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_external_vpn_gateway", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_external_vpn_gateway", importId: importFromId, provider });
       }
 
   // ===========
@@ -515,7 +515,7 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -608,7 +608,7 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -618,7 +618,7 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
   public get interface() {
     return this._interface;
   }
-  public putInterface(value: GoogleComputeExternalVpnGatewayInterface[] | cdktf.IResolvable) {
+  public putInterface(value: GoogleComputeExternalVpnGatewayInterface[] | cdktn.IResolvable) {
     this._interface.internalValue = value;
   }
   public resetInterface() {
@@ -651,13 +651,13 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      redundancy_type: cdktf.stringToTerraform(this._redundancyType),
-      interface: cdktf.listMapper(googleComputeExternalVpnGatewayInterfaceToTerraform, true)(this._interface.internalValue),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      redundancy_type: cdktn.stringToTerraform(this._redundancyType),
+      interface: cdktn.listMapper(googleComputeExternalVpnGatewayInterfaceToTerraform, true)(this._interface.internalValue),
       timeouts: googleComputeExternalVpnGatewayTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -665,43 +665,43 @@ export class GoogleComputeExternalVpnGateway extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       redundancy_type: {
-        value: cdktf.stringToHclTerraform(this._redundancyType),
+        value: cdktn.stringToHclTerraform(this._redundancyType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       interface: {
-        value: cdktf.listMapperHcl(googleComputeExternalVpnGatewayInterfaceToHclTerraform, true)(this._interface.internalValue),
+        value: cdktn.listMapperHcl(googleComputeExternalVpnGatewayInterfaceToHclTerraform, true)(this._interface.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeExternalVpnGatewayInterfaceList",
