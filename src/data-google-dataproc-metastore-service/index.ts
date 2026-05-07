@@ -103,7 +103,7 @@ export class DataGoogleDataprocMetastoreServiceEncryptionConfigList extends cdkt
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -189,7 +189,7 @@ export class DataGoogleDataprocMetastoreServiceHiveMetastoreConfigAuxiliaryVersi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -264,7 +264,7 @@ export class DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -350,7 +350,7 @@ export class DataGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfig
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -448,7 +448,7 @@ export class DataGoogleDataprocMetastoreServiceHiveMetastoreConfigList extends c
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -528,7 +528,7 @@ export class DataGoogleDataprocMetastoreServiceMaintenanceWindowList extends cdk
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -603,7 +603,7 @@ export class DataGoogleDataprocMetastoreServiceMetadataIntegrationDataCatalogCon
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -679,7 +679,7 @@ export class DataGoogleDataprocMetastoreServiceMetadataIntegrationList extends c
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -759,7 +759,7 @@ export class DataGoogleDataprocMetastoreServiceNetworkConfigConsumersList extend
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -840,7 +840,7 @@ export class DataGoogleDataprocMetastoreServiceNetworkConfigList extends cdktn.C
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -920,7 +920,7 @@ export class DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLim
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1006,7 +1006,7 @@ export class DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigLis
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1092,7 +1092,7 @@ export class DataGoogleDataprocMetastoreServiceScalingConfigList extends cdktn.C
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1182,7 +1182,7 @@ export class DataGoogleDataprocMetastoreServiceScheduledBackupList extends cdktn
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1257,7 +1257,7 @@ export class DataGoogleDataprocMetastoreServiceTelemetryConfigList extends cdktn
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 

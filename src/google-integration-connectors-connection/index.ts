@@ -194,7 +194,7 @@ export class GoogleIntegrationConnectorsConnectionConnectorVersionInfraConfigLis
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -274,7 +274,7 @@ export class GoogleIntegrationConnectorsConnectionEventingRuntimeDataStatusList 
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -355,7 +355,7 @@ export class GoogleIntegrationConnectorsConnectionEventingRuntimeDataList extend
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -440,7 +440,7 @@ export class GoogleIntegrationConnectorsConnectionStatusList extends cdktn.Compl
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -935,7 +935,7 @@ export class GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3201,7 +3201,7 @@ export class GoogleIntegrationConnectorsConnectionConfigVariableList extends cdk
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3391,7 +3391,7 @@ export class GoogleIntegrationConnectorsConnectionDestinationConfigDestinationLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3541,7 +3541,7 @@ export class GoogleIntegrationConnectorsConnectionDestinationConfigList extends 
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4039,7 +4039,7 @@ export class GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariab
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4537,7 +4537,7 @@ export class GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -5117,7 +5117,7 @@ export class GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDest
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6281,7 +6281,7 @@ export class GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableLis
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 

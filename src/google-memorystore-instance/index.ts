@@ -270,7 +270,7 @@ export class GoogleMemorystoreInstanceDiscoveryEndpointsList extends cdktn.Compl
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -380,7 +380,7 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionList 
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -456,7 +456,7 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsList extends cdktn.Com
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -532,7 +532,7 @@ export class GoogleMemorystoreInstanceEndpointsList extends cdktn.ComplexList {
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -617,7 +617,7 @@ export class GoogleMemorystoreInstanceMaintenanceScheduleList extends cdktn.Comp
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -692,7 +692,7 @@ export class GoogleMemorystoreInstanceManagedServerCaCaCertsList extends cdktn.C
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -768,7 +768,7 @@ export class GoogleMemorystoreInstanceManagedServerCaList extends cdktn.ComplexL
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -843,7 +843,7 @@ export class GoogleMemorystoreInstanceNodeConfigList extends cdktn.ComplexList {
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -923,7 +923,7 @@ export class GoogleMemorystoreInstancePscAttachmentDetailsList extends cdktn.Com
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1038,7 +1038,7 @@ export class GoogleMemorystoreInstancePscAutoConnectionsList extends cdktn.Compl
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1128,7 +1128,7 @@ export class GoogleMemorystoreInstanceStateInfoUpdateInfoList extends cdktn.Comp
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1204,7 +1204,7 @@ export class GoogleMemorystoreInstanceStateInfoList extends cdktn.ComplexList {
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1568,7 +1568,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPr
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1648,7 +1648,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSe
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1730,7 +1730,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1944,7 +1944,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryIns
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2263,7 +2263,7 @@ export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsList extends cd
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2411,7 +2411,7 @@ export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsList extends cdkt
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2849,7 +2849,7 @@ export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 

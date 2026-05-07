@@ -325,7 +325,7 @@ export class GoogleComputeInstanceFromMachineImageAttachedDiskList extends cdktn
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -420,7 +420,7 @@ export class GoogleComputeInstanceFromMachineImageBootDiskInitializeParamsSource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -515,7 +515,7 @@ export class GoogleComputeInstanceFromMachineImageBootDiskInitializeParamsSource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -659,7 +659,7 @@ export class GoogleComputeInstanceFromMachineImageBootDiskInitializeParamsList e
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -795,7 +795,7 @@ export class GoogleComputeInstanceFromMachineImageBootDiskList extends cdktn.Com
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -880,7 +880,7 @@ export class GoogleComputeInstanceFromMachineImageScratchDiskList extends cdktn.
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1413,7 +1413,7 @@ export class GoogleComputeInstanceFromMachineImageGuestAcceleratorList extends c
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1732,7 +1732,7 @@ export class GoogleComputeInstanceFromMachineImageNetworkInterfaceAccessConfigLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1882,7 +1882,7 @@ export class GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpRangeLi
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2142,7 +2142,7 @@ export class GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConf
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2725,7 +2725,7 @@ export class GoogleComputeInstanceFromMachineImageNetworkInterfaceList extends c
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3784,7 +3784,7 @@ export class GoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesList e
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
