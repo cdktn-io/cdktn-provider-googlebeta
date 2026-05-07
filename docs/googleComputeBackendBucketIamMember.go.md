@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.NewGoogleComputeBackendBucketIamMember(scope Construct, id *string, config GoogleComputeBackendBucketIamMemberConfig) GoogleComputeBackendBucketIamMember
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 &googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMemberCondition {
 	Expression: *string,
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 &googlecomputebackendbucketiammember.GoogleComputeBackendBucketIamMemberConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendBucketIamMember.GoogleComputeBackendBucketIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendbucketiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendbucketiammember"
 
 googlecomputebackendbucketiammember.NewGoogleComputeBackendBucketIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeBackendBucketIamMemberConditionOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicy(scope Construct, id *string, config GoogleIamDenyPolicyConfig) GoogleIamDenyPolicy
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.GoogleIamDenyPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.GoogleIamDenyPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googleiamdenypolicy.GoogleIamDenyPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.GoogleIamDenyPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googleiamdenypolicy.GoogleIamDenyPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.GoogleIamDenyPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 &googleiamdenypolicy.GoogleIamDenyPolicyConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleia
 	Rules: interface{},
 	DisplayName: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamDenyPolicy.GoogleIamDenyPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIamDenyPolicy.GoogleIamDenyPolicyTimeouts,
 }
 ```
 
@@ -1078,10 +1078,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 &googleiamdenypolicy.GoogleIamDenyPolicyRules {
-	DenyRule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRule,
+	DenyRule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRule,
 	Description: *string,
 }
 ```
@@ -1128,10 +1128,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 &googleiamdenypolicy.GoogleIamDenyPolicyRulesDenyRule {
-	DenialCondition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition,
+	DenialCondition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition,
 	DeniedPermissions: *[]*string,
 	DeniedPrincipals: *[]*string,
 	ExceptionPermissions: *[]*string,
@@ -1234,7 +1234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 &googleiamdenypolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition {
 	Expression: *string,
@@ -1319,7 +1319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 &googleiamdenypolicy.GoogleIamDenyPolicyTimeouts {
 	Create: *string,
@@ -1381,7 +1381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference
 ```
@@ -1739,7 +1739,7 @@ func InternalValue() GoogleIamDenyPolicyRulesDenyRuleDenialCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicyRulesDenyRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamDenyPolicyRulesDenyRuleOutputReference
 ```
@@ -2146,7 +2146,7 @@ func InternalValue() GoogleIamDenyPolicyRulesDenyRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicyRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIamDenyPolicyRulesList
 ```
@@ -2306,7 +2306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicyRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIamDenyPolicyRulesOutputReference
 ```
@@ -2644,7 +2644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamdenypolicy"
 
 googleiamdenypolicy.NewGoogleIamDenyPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamDenyPolicyTimeoutsOutputReference
 ```

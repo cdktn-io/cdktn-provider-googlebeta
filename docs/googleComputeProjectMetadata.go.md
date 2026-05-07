@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.NewGoogleComputeProjectMetadata(scope Construct, id *string, config GoogleComputeProjectMetadataConfig) GoogleComputeProjectMetadata
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.GoogleComputeProjectMetadata_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.GoogleComputeProjectMetadata_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlecomputeprojectmetadata.GoogleComputeProjectMetadata_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.GoogleComputeProjectMetadata_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlecomputeprojectmetadata.GoogleComputeProjectMetadata_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.GoogleComputeProjectMetadata_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -811,7 +811,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 &googlecomputeprojectmetadata.GoogleComputeProjectMetadataConfig {
 	Connection: interface{},
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Metadata: *map[string]*string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts,
 }
 ```
 
@@ -980,7 +980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 &googlecomputeprojectmetadata.GoogleComputeProjectMetadataTimeouts {
 	Create: *string,
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeprojectmetadata"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeprojectmetadata"
 
 googlecomputeprojectmetadata.NewGoogleComputeProjectMetadataTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeProjectMetadataTimeoutsOutputReference
 ```

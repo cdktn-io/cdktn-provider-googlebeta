@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.NewGoogleComputeDiskIamMember(scope Construct, id *string, config GoogleComputeDiskIamMemberConfig) GoogleComputeDiskIamMember
 ```
@@ -441,7 +441,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.GoogleComputeDiskIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.GoogleComputeDiskIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlecomputediskiammember.GoogleComputeDiskIamMember_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.GoogleComputeDiskIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecomputediskiammember.GoogleComputeDiskIamMember_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.GoogleComputeDiskIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 &googlecomputediskiammember.GoogleComputeDiskIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 &googlecomputediskiammember.GoogleComputeDiskIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition,
 	Id: *string,
 	Project: *string,
 	Zone: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputediskiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiammember"
 
 googlecomputediskiammember.NewGoogleComputeDiskIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeDiskIamMemberConditionOutputReference
 ```

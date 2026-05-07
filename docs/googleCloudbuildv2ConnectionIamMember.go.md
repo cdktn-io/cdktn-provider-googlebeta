@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.NewGoogleCloudbuildv2ConnectionIamMember(scope Construct, id *string, config GoogleCloudbuildv2ConnectionIamMemberConfig) GoogleCloudbuildv2ConnectionIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 &googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 &googlecloudbuildv2connectioniammember.GoogleCloudbuildv2ConnectionIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2ConnectionIamMember.GoogleCloudbuildv2ConnectionIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connectioniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connectioniammember"
 
 googlecloudbuildv2connectioniammember.NewGoogleCloudbuildv2ConnectionIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionIamMemberConditionOutputReference
 ```

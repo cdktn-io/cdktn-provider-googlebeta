@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.NewGoogleFirebaseAppleApp(scope Construct, id *string, config GoogleFirebaseAppleAppConfig) GoogleFirebaseAppleApp
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.GoogleFirebaseAppleApp_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.GoogleFirebaseAppleApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlefirebaseappleapp.GoogleFirebaseAppleApp_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.GoogleFirebaseAppleApp_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlefirebaseappleapp.GoogleFirebaseAppleApp_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.GoogleFirebaseAppleApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -971,7 +971,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 &googlefirebaseappleapp.GoogleFirebaseAppleAppConfig {
 	Connection: interface{},
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 	Id: *string,
 	Project: *string,
 	TeamId: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeouts,
 }
 ```
 
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 &googlefirebaseappleapp.GoogleFirebaseAppleAppTimeouts {
 	Create: *string,
@@ -1284,7 +1284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappleapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp"
 
 googlefirebaseappleapp.NewGoogleFirebaseAppleAppTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppleAppTimeoutsOutputReference
 ```

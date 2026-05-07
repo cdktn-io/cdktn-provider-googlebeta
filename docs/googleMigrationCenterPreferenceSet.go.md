@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSet(scope Construct, id *string, config GoogleMigrationCenterPreferenceSetConfig) GoogleMigrationCenterPreferenceSet
 ```
@@ -468,7 +468,7 @@ func ResetVirtualMachinePreferences()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -966,7 +966,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetConfig {
 	Connection: interface{},
@@ -982,8 +982,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemi
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetTimeouts,
-	VirtualMachinePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferences,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetTimeouts,
+	VirtualMachinePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferences,
 }
 ```
 
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetTimeouts {
 	Create: *string,
@@ -1257,16 +1257,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferences {
 	CommitmentPlan: *string,
-	ComputeEnginePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences,
-	RegionPreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences,
+	ComputeEnginePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences,
+	RegionPreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences,
 	SizingOptimizationStrategy: *string,
-	SoleTenancyPreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences,
+	SoleTenancyPreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences,
 	TargetProduct: *string,
-	VmwareEnginePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences,
+	VmwareEnginePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences,
 }
 ```
 
@@ -1393,11 +1393,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferences {
 	LicenseType: *string,
-	MachinePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences,
+	MachinePreferences: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences,
 }
 ```
 
@@ -1445,7 +1445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferences {
 	AllowedMachineSeries: interface{},
@@ -1479,7 +1479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeries {
 	Code: *string,
@@ -1513,7 +1513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferences {
 	PreferredRegions: *[]*string,
@@ -1549,7 +1549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferences {
 	CommitmentPlan: *string,
@@ -1633,7 +1633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypes {
 	NodeName: *string,
@@ -1667,7 +1667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 &googlemigrationcenterpreferenceset.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferences {
 	CommitmentPlan: *string,
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetTimeoutsOutputReference
 ```
@@ -2091,7 +2091,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesList
 ```
@@ -2251,7 +2251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesAllowedMachineSeriesOutputReference
 ```
@@ -2547,7 +2547,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesMachinePreferencesOutputReference
 ```
@@ -2838,7 +2838,7 @@ func InternalValue() GoogleMigrationCenterPreferenceSetVirtualMachinePreferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesComputeEnginePreferencesOutputReference
 ```
@@ -3158,7 +3158,7 @@ func InternalValue() GoogleMigrationCenterPreferenceSetVirtualMachinePreferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesOutputReference
 ```
@@ -3662,7 +3662,7 @@ func InternalValue() GoogleMigrationCenterPreferenceSetVirtualMachinePreferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesRegionPreferencesOutputReference
 ```
@@ -3940,7 +3940,7 @@ func InternalValue() GoogleMigrationCenterPreferenceSetVirtualMachinePreferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesList
 ```
@@ -4100,7 +4100,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesNodeTypesOutputReference
 ```
@@ -4396,7 +4396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesSoleTenancyPreferencesOutputReference
 ```
@@ -4774,7 +4774,7 @@ func InternalValue() GoogleMigrationCenterPreferenceSetVirtualMachinePreferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemigrationcenterpreferenceset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcenterpreferenceset"
 
 googlemigrationcenterpreferenceset.NewGoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterPreferenceSetVirtualMachinePreferencesVmwareEnginePreferencesOutputReference
 ```

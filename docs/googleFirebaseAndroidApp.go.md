@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.NewGoogleFirebaseAndroidApp(scope Construct, id *string, config GoogleFirebaseAndroidAppConfig) GoogleFirebaseAndroidApp
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.GoogleFirebaseAndroidApp_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.GoogleFirebaseAndroidApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlefirebaseandroidapp.GoogleFirebaseAndroidApp_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidApp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.GoogleFirebaseAndroidApp_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlefirebaseandroidapp.GoogleFirebaseAndroidApp_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.GoogleFirebaseAndroidApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -982,7 +982,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 &googlefirebaseandroidapp.GoogleFirebaseAndroidAppConfig {
 	Connection: interface{},
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 	Project: *string,
 	Sha1Hashes: *[]*string,
 	Sha256Hashes: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFirebaseAndroidApp.GoogleFirebaseAndroidAppTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseAndroidApp.GoogleFirebaseAndroidAppTimeouts,
 }
 ```
 
@@ -1233,7 +1233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidAppTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 &googlefirebaseandroidapp.GoogleFirebaseAndroidAppTimeouts {
 	Create: *string,
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAndroidApp.GoogleFirebaseAndroidAppTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseandroidapp"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseandroidapp"
 
 googlefirebaseandroidapp.NewGoogleFirebaseAndroidAppTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAndroidAppTimeoutsOutputReference
 ```

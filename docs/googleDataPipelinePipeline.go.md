@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipeline(scope Construct, id *string, config GoogleDataPipelinePipelineConfig) GoogleDataPipelinePipeline
 ```
@@ -502,7 +502,7 @@ func ResetWorkload()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.GoogleDataPipelinePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.GoogleDataPipelinePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledatapipelinepipeline.GoogleDataPipelinePipeline_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.GoogleDataPipelinePipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googledatapipelinepipeline.GoogleDataPipelinePipeline_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.GoogleDataPipelinePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1088,7 +1088,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineConfig {
 	Connection: interface{},
@@ -1106,10 +1106,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	PipelineSources: *map[string]*string,
 	Project: *string,
 	Region: *string,
-	ScheduleInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineScheduleInfo,
+	ScheduleInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineScheduleInfo,
 	SchedulerServiceAccountEmail: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineTimeouts,
-	Workload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkload,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineTimeouts,
+	Workload: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkload,
 }
 ```
 
@@ -1397,7 +1397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineScheduleInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineScheduleInfo {
 	Schedule: *string,
@@ -1447,7 +1447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineTimeouts {
 	Create: *string,
@@ -1507,11 +1507,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkload {
-	DataflowFlexTemplateRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequest,
-	DataflowLaunchTemplateRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequest,
+	DataflowFlexTemplateRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequest,
+	DataflowLaunchTemplateRequest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequest,
 }
 ```
 
@@ -1557,10 +1557,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequest {
-	LaunchParameter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameter,
+	LaunchParameter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameter,
 	Location: *string,
 	ProjectId: *string,
 	ValidateOnly: interface{},
@@ -1639,12 +1639,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameter {
 	JobName: *string,
 	ContainerSpecGcsPath: *string,
-	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironment,
+	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironment,
 	LaunchOptions: *map[string]*string,
 	Parameters: *map[string]*string,
 	TransformNameMappings: *map[string]*string,
@@ -1782,7 +1782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironment {
 	AdditionalExperiments: *[]*string,
@@ -2064,12 +2064,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequest {
 	ProjectId: *string,
 	GcsPath: *string,
-	LaunchParameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParameters,
+	LaunchParameters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParameters,
 	Location: *string,
 	ValidateOnly: interface{},
 }
@@ -2162,11 +2162,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParameters {
 	JobName: *string,
-	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironment,
+	Environment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironment,
 	Parameters: *map[string]*string,
 	TransformNameMapping: *map[string]*string,
 	Update: interface{},
@@ -2265,7 +2265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 &googledatapipelinepipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironment {
 	AdditionalExperiments: *[]*string,
@@ -2549,7 +2549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineScheduleInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineScheduleInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineScheduleInfoOutputReference
 ```
@@ -2867,7 +2867,7 @@ func InternalValue() GoogleDataPipelinePipelineScheduleInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineTimeoutsOutputReference
 ```
@@ -3203,7 +3203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterEnvironmentOutputReference
 ```
@@ -3916,7 +3916,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateReque
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestLaunchParameterOutputReference
 ```
@@ -4374,7 +4374,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateReque
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateRequestOutputReference
 ```
@@ -4731,7 +4731,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowFlexTemplateReque
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersEnvironmentOutputReference
 ```
@@ -5444,7 +5444,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateReq
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestLaunchParametersOutputReference
 ```
@@ -5844,7 +5844,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateReq
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateRequestOutputReference
 ```
@@ -6244,7 +6244,7 @@ func InternalValue() GoogleDataPipelinePipelineWorkloadDataflowLaunchTemplateReq
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataPipelinePipeline.GoogleDataPipelinePipelineWorkloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatapipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatapipelinepipeline"
 
 googledatapipelinepipeline.NewGoogleDataPipelinePipelineWorkloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataPipelinePipelineWorkloadOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 datagooglecomputeinstanceserialport.NewDataGoogleComputeInstanceSerialPort(scope Construct, id *string, config DataGoogleComputeInstanceSerialPortConfig) DataGoogleComputeInstanceSerialPort
 ```
@@ -319,7 +319,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPort.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPort.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPort.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPort.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPort_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -707,7 +707,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeInstanceSerialPort.DataGoogleComputeInstanceSerialPortConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeinstanceserialport"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstanceserialport"
 
 &datagooglecomputeinstanceserialport.DataGoogleComputeInstanceSerialPortConfig {
 	Connection: interface{},

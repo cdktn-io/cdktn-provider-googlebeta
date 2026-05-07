@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 googlecolabruntimetemplateiampolicy.NewGoogleColabRuntimeTemplateIamPolicy(scope Construct, id *string, config GoogleColabRuntimeTemplateIamPolicyConfig) GoogleColabRuntimeTemplateIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamPolicy.GoogleColabRuntimeTemplateIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecolabruntimetemplateiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplateiampolicy"
 
 &googlecolabruntimetemplateiampolicy.GoogleColabRuntimeTemplateIamPolicyConfig {
 	Connection: interface{},

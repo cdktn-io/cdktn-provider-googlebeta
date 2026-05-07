@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfile(scope Construct, id *string, config GoogleDatabaseMigrationServiceConnectionProfileConfig) GoogleDatabaseMigrationServiceConnectionProfile
 ```
@@ -555,7 +555,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfile_IsConstruct(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -601,7 +601,7 @@ googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceCo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -615,7 +615,7 @@ googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceCo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1185,11 +1185,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileAlloydb {
 	ClusterId: *string,
-	Settings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings,
+	Settings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings,
 }
 ```
 
@@ -1235,13 +1235,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings {
-	InitialUser: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser,
+	InitialUser: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser,
 	VpcNetwork: *string,
 	Labels: *map[string]*string,
-	PrimaryInstanceSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings,
+	PrimaryInstanceSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings,
 }
 ```
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser {
 	Password: *string,
@@ -1370,11 +1370,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings {
 	Id: *string,
-	MachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig,
+	MachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig,
 	DatabaseFlags: *map[string]*string,
 	Labels: *map[string]*string,
 }
@@ -1457,7 +1457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig {
 	CpuCount: *f64,
@@ -1491,10 +1491,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsql.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileCloudsql {
-	Settings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings,
+	Settings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings,
 }
 ```
 
@@ -1525,7 +1525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings {
 	SourceId: *string,
@@ -1538,7 +1538,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	DataDiskSizeGb: *string,
 	DataDiskType: *string,
 	Edition: *string,
-	IpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig,
+	IpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig,
 	RootPassword: *string,
 	StorageAutoResizeLimit: *string,
 	Tier: *string,
@@ -1808,7 +1808,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig {
 	AuthorizedNetworks: interface{},
@@ -1893,7 +1893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworks {
 	Value: *string,
@@ -1975,7 +1975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileConfig {
 	Connection: interface{},
@@ -1986,17 +1986,17 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConnectionProfileId: *string,
-	Alloydb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydb,
-	Cloudsql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsql,
+	Alloydb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydb,
+	Cloudsql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsql,
 	DisplayName: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Location: *string,
-	Mysql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysql,
-	Oracle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracle,
-	Postgresql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresql,
+	Mysql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysql,
+	Oracle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracle,
+	Postgresql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresql,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileTimeouts,
 }
 ```
 
@@ -2271,7 +2271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileError {
 
@@ -2284,14 +2284,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysql.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileMysql {
 	CloudSqlId: *string,
 	Host: *string,
 	Password: *string,
 	Port: *f64,
-	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl,
+	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl,
 	Username: *string,
 }
 ```
@@ -2403,7 +2403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl {
 	CaCertificate: *string,
@@ -2494,7 +2494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileOracle {
 	DatabaseService: *string,
@@ -2502,10 +2502,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Password: *string,
 	Port: *f64,
 	Username: *string,
-	ForwardSshConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity,
-	PrivateConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity,
-	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleSsl,
-	StaticServiceIpConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity,
+	ForwardSshConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity,
+	PrivateConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity,
+	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleSsl,
+	StaticServiceIpConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity,
 }
 ```
 
@@ -2661,7 +2661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity {
 	Hostname: *string,
@@ -2759,7 +2759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity {
 	PrivateConnection: *string,
@@ -2793,7 +2793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleSsl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileOracleSsl {
 	CaCertificate: *string,
@@ -2868,7 +2868,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity {
 
@@ -2881,7 +2881,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresql.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfilePostgresql {
 	AlloydbClusterId: *string,
@@ -2889,7 +2889,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Host: *string,
 	Password: *string,
 	Port: *f64,
-	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl,
+	Ssl: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl,
 	Username: *string,
 }
 ```
@@ -3016,7 +3016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl {
 	CaCertificate: *string,
@@ -3107,7 +3107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 &googledatabasemigrationserviceconnectionprofile.GoogleDatabaseMigrationServiceConnectionProfileTimeouts {
 	Create: *string,
@@ -3169,7 +3169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference
 ```
@@ -3482,7 +3482,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileAlloydb
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserOutputReference
 ```
@@ -3786,7 +3786,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileAlloydbSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsOutputReference
 ```
@@ -4163,7 +4163,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileAlloydbSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigOutputReference
 ```
@@ -4434,7 +4434,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileAlloydbSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsOutputReference
 ```
@@ -4809,7 +4809,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileAlloydbSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileCloudsqlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileCloudsqlOutputReference
 ```
@@ -5133,7 +5133,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileCloudsql
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksList
 ```
@@ -5293,7 +5293,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksOutputReference
 ```
@@ -5669,7 +5669,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference
 ```
@@ -6047,7 +6047,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSett
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsOutputReference
 ```
@@ -6777,7 +6777,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSett
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatabaseMigrationServiceConnectionProfileErrorList
 ```
@@ -6926,7 +6926,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatabaseMigrationServiceConnectionProfileErrorOutputReference
 ```
@@ -7226,7 +7226,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysqlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileMysqlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileMysqlOutputReference
 ```
@@ -7673,7 +7673,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileMysql
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileMysqlSslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileMysqlSslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileMysqlSslOutputReference
 ```
@@ -8038,7 +8038,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference
 ```
@@ -8411,7 +8411,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileOracleForwar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference
 ```
@@ -8949,7 +8949,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileOracle
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference
 ```
@@ -9220,7 +9220,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileOraclePrivat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleSslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileOracleSslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleSslOutputReference
 ```
@@ -9567,7 +9567,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileOracleSsl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityOutputReference
 ```
@@ -9816,7 +9816,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfileOracleStatic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference
 ```
@@ -10303,7 +10303,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfilePostgresql
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference
 ```
@@ -10668,7 +10668,7 @@ func InternalValue() GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServiceConnectionProfile.GoogleDatabaseMigrationServiceConnectionProfileTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile"
 
 googledatabasemigrationserviceconnectionprofile.NewGoogleDatabaseMigrationServiceConnectionProfileTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileTimeoutsOutputReference
 ```

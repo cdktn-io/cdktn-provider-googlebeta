@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 googleiaptunneldestgroupiampolicy.NewGoogleIapTunnelDestGroupIamPolicy(scope Construct, id *string, config GoogleIapTunnelDestGroupIamPolicyConfig) GoogleIapTunnelDestGroupIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunneldestgroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneldestgroupiampolicy"
 
 &googleiaptunneldestgroupiampolicy.GoogleIapTunnelDestGroupIamPolicyConfig {
 	Connection: interface{},

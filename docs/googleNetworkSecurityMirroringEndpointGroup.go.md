@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroup(scope Construct, id *string, config GoogleNetworkSecurityMirroringEndpointGroupConfig) GoogleNetworkSecurityMirroringEndpointGroup
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroup_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpoi
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpoi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1012,7 +1012,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 &googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroupAssociations {
 
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 &googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroupConfig {
 	Connection: interface{},
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupTimeouts,
 }
 ```
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 &googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroups {
 
@@ -1270,7 +1270,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 &googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocations {
 
@@ -1283,7 +1283,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 &googlenetworksecuritymirroringendpointgroup.GoogleNetworkSecurityMirroringEndpointGroupTimeouts {
 	Create: *string,
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityMirroringEndpointGroupAssociationsList
 ```
@@ -1494,7 +1494,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityMirroringEndpointGroupAssociationsOutputReference
 ```
@@ -1794,7 +1794,7 @@ func InternalValue() GoogleNetworkSecurityMirroringEndpointGroupAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsList
 ```
@@ -1943,7 +1943,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsList
 ```
@@ -2092,7 +2092,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsLocationsOutputReference
 ```
@@ -2381,7 +2381,7 @@ func InternalValue() GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploym
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploymentGroupsOutputReference
 ```
@@ -2670,7 +2670,7 @@ func InternalValue() GoogleNetworkSecurityMirroringEndpointGroupConnectedDeploym
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpointGroup.GoogleNetworkSecurityMirroringEndpointGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringendpointgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup"
 
 googlenetworksecuritymirroringendpointgroup.NewGoogleNetworkSecurityMirroringEndpointGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecurityMirroringEndpointGroupTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.NewGoogleFirebaseAppCheckRecaptchaEnterpriseConfig(scope Construct, id *string, config GoogleFirebaseAppCheckRecaptchaEnterpriseConfigConfig) GoogleFirebaseAppCheckRecaptchaEnterpriseConfig
 ```
@@ -441,7 +441,7 @@ func ResetTokenTtl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaE
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 &googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigConfig {
 	Connection: interface{},
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 	SiteKey: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeouts,
 	TokenTtl: *string,
 }
 ```
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 &googlefirebaseappcheckrecaptchaenterpriseconfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeouts {
 	Create: *string,
@@ -1138,7 +1138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchaenterpriseconfig"
 
 googlefirebaseappcheckrecaptchaenterpriseconfig.NewGoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference
 ```

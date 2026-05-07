@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.NewGoogleVertexAiFeatureGroupIamBinding(scope Construct, id *string, config GoogleVertexAiFeatureGroupIamBindingConfig) GoogleVertexAiFeatureGroupIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 &googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBindingCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 &googlevertexaifeaturegroupiambinding.GoogleVertexAiFeatureGroupIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleve
 	FeatureGroup: *string,
 	Members: *[]*string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroupiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiambinding"
 
 googlevertexaifeaturegroupiambinding.NewGoogleVertexAiFeatureGroupIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupIamBindingConditionOutputReference
 ```

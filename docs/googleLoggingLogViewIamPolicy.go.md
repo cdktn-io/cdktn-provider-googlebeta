@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 googlelogginglogviewiampolicy.NewGoogleLoggingLogViewIamPolicy(scope Construct, id *string, config GoogleLoggingLogViewIamPolicyConfig) GoogleLoggingLogViewIamPolicy
 ```
@@ -414,7 +414,7 @@ func ResetLocation()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -846,7 +846,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelogginglogviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlelogginglogviewiampolicy"
 
 &googlelogginglogviewiampolicy.GoogleLoggingLogViewIamPolicyConfig {
 	Connection: interface{},

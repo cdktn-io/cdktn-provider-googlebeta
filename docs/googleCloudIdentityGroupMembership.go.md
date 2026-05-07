@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembership(scope Construct, id *string, config GoogleCloudIdentityGroupMembershipConfig) GoogleCloudIdentityGroupMembership
 ```
@@ -487,7 +487,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -974,7 +974,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipConfig {
 	Connection: interface{},
@@ -988,9 +988,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Roles: interface{},
 	CreateIgnoreAlreadyExists: interface{},
 	Id: *string,
-	MemberKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipMemberKey,
-	PreferredMemberKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipPreferredMemberKey,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipTimeouts,
+	MemberKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipMemberKey,
+	PreferredMemberKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipPreferredMemberKey,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipTimeouts,
 }
 ```
 
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipMemberKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipMemberKey {
 	Id: *string,
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipPreferredMemberKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipPreferredMemberKey {
 	Id: *string,
@@ -1327,11 +1327,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipRoles {
 	Name: *string,
-	ExpiryDetail: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesExpiryDetail,
+	ExpiryDetail: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesExpiryDetail,
 }
 ```
 
@@ -1377,7 +1377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesExpiryDetail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipRolesExpiryDetail {
 	ExpireTime: *string,
@@ -1416,7 +1416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 &googlecloudidentitygroupmembership.GoogleCloudIdentityGroupMembershipTimeouts {
 	Create: *string,
@@ -1478,7 +1478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipMemberKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipMemberKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityGroupMembershipMemberKeyOutputReference
 ```
@@ -1778,7 +1778,7 @@ func InternalValue() GoogleCloudIdentityGroupMembershipMemberKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference
 ```
@@ -2078,7 +2078,7 @@ func InternalValue() GoogleCloudIdentityGroupMembershipPreferredMemberKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference
 ```
@@ -2349,7 +2349,7 @@ func InternalValue() GoogleCloudIdentityGroupMembershipRolesExpiryDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudIdentityGroupMembershipRolesList
 ```
@@ -2509,7 +2509,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudIdentityGroupMembershipRolesOutputReference
 ```
@@ -2840,7 +2840,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembershipTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudidentitygroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership"
 
 googlecloudidentitygroupmembership.NewGoogleCloudIdentityGroupMembershipTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityGroupMembershipTimeoutsOutputReference
 ```

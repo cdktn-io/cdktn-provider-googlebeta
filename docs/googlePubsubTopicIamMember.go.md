@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.NewGooglePubsubTopicIamMember(scope Construct, id *string, config GooglePubsubTopicIamMemberConfig) GooglePubsubTopicIamMember
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.GooglePubsubTopicIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.GooglePubsubTopicIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlepubsubtopiciammember.GooglePubsubTopicIamMember_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.GooglePubsubTopicIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlepubsubtopiciammember.GooglePubsubTopicIamMember_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.GooglePubsubTopicIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 &googlepubsubtopiciammember.GooglePubsubTopicIamMemberCondition {
 	Expression: *string,
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 &googlepubsubtopiciammember.GooglePubsubTopicIamMemberConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepu
 	Member: *string,
 	Role: *string,
 	Topic: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googlePubsubTopicIamMember.GooglePubsubTopicIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googlePubsubTopicIamMember.GooglePubsubTopicIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopicIamMember.GooglePubsubTopicIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopiciammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubtopiciammember"
 
 googlepubsubtopiciammember.NewGooglePubsubTopicIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIamMemberConditionOutputReference
 ```

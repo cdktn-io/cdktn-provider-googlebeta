@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.NewGoogleWorkbenchInstanceIamMember(scope Construct, id *string, config GoogleWorkbenchInstanceIamMemberConfig) GoogleWorkbenchInstanceIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 &googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 &googleworkbenchinstanceiammember.GoogleWorkbenchInstanceIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlewo
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkbenchInstanceIamMember.GoogleWorkbenchInstanceIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkbenchinstanceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkbenchinstanceiammember"
 
 googleworkbenchinstanceiammember.NewGoogleWorkbenchInstanceIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleWorkbenchInstanceIamMemberConditionOutputReference
 ```

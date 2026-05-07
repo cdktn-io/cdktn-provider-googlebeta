@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.NewGoogleFirebaseAppCheckServiceConfig(scope Construct, id *string, config GoogleFirebaseAppCheckServiceConfigConfig) GoogleFirebaseAppCheckServiceConfig
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -851,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 &googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfigConfig {
 	Connection: interface{},
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 	EnforcementMode: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfigTimeouts,
 }
 ```
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 &googlefirebaseappcheckserviceconfig.GoogleFirebaseAppCheckServiceConfigTimeouts {
 	Create: *string,
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppCheckServiceConfig.GoogleFirebaseAppCheckServiceConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckserviceconfig"
 
 googlefirebaseappcheckserviceconfig.NewGoogleFirebaseAppCheckServiceConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAppCheckServiceConfigTimeoutsOutputReference
 ```

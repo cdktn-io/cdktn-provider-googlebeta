@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstance(scope Construct, id *string, config GoogleComputeInstanceConfig) GoogleComputeInstance
 ```
@@ -812,7 +812,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.GoogleComputeInstance_IsConstruct(x interface{}) *bool
 ```
@@ -844,7 +844,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.GoogleComputeInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -858,7 +858,7 @@ googlecomputeinstance.GoogleComputeInstance_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.GoogleComputeInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -872,7 +872,7 @@ googlecomputeinstance.GoogleComputeInstance_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.GoogleComputeInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1981,7 +1981,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeatures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceAdvancedMachineFeatures {
 	EnableNestedVirtualization: interface{},
@@ -2101,7 +2101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceAttachedDisk {
 	Source: *string,
@@ -2257,7 +2257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceBootDisk {
 	AutoDelete: interface{},
@@ -2267,7 +2267,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	DiskEncryptionServiceAccount: *string,
 	ForceAttach: interface{},
 	GuestOsFeatures: *[]*string,
-	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParams,
+	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParams,
 	Interface: *string,
 	KmsKeySelfLink: *string,
 	Mode: *string,
@@ -2479,7 +2479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceBootDiskInitializeParams {
 	Architecture: *string,
@@ -2492,8 +2492,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	ResourcePolicies: *[]*string,
 	Size: *f64,
 	Snapshot: *string,
-	SourceImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey,
-	SourceSnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey,
+	SourceImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey,
+	SourceSnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey,
 	StoragePool: *string,
 	Type: *string,
 }
@@ -2729,7 +2729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -2819,7 +2819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -2909,7 +2909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceConfidentialInstanceConfig {
 	ConfidentialInstanceType: *string,
@@ -2963,7 +2963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceConfig {
 	Connection: interface{},
@@ -2973,15 +2973,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceBootDisk,
+	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceBootDisk,
 	MachineType: *string,
 	Name: *string,
 	NetworkInterface: interface{},
-	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeatures,
+	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeatures,
 	AllowStoppingForUpdate: interface{},
 	AttachedDisk: interface{},
 	CanIpForward: interface{},
-	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfig,
+	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfig,
 	DeletionProtection: interface{},
 	Description: *string,
 	DesiredStatus: *string,
@@ -2989,24 +2989,24 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	GuestAccelerator: interface{},
 	Hostname: *string,
 	Id: *string,
-	InstanceEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKey,
+	InstanceEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKey,
 	KeyRevocationActionType: *string,
 	Labels: *map[string]*string,
 	Metadata: *map[string]*string,
 	MetadataStartupScript: *string,
 	MinCpuPlatform: *string,
-	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfig,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceParams,
+	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfig,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceParams,
 	PartnerMetadata: *map[string]*string,
 	Project: *string,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceReservationAffinity,
 	ResourcePolicies: *[]*string,
-	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceScheduling,
+	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceScheduling,
 	ScratchDisk: interface{},
-	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceServiceAccount,
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfig,
+	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceServiceAccount,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfig,
 	Tags: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceTimeouts,
 	Zone: *string,
 }
 ```
@@ -3641,7 +3641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAccelerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceGuestAccelerator {
 	Count: *f64,
@@ -3691,7 +3691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceInstanceEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -3743,7 +3743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceNetworkInterface {
 	AccessConfig: interface{},
@@ -3993,7 +3993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceNetworkInterfaceAccessConfig {
 	NatIp: *string,
@@ -4059,7 +4059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceNetworkInterfaceAliasIpRange {
 	IpCidrRange: *string,
@@ -4109,7 +4109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfig {
 	NetworkTier: *string,
@@ -4211,7 +4211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceNetworkPerformanceConfig {
 	TotalEgressBandwidthTier: *string,
@@ -4245,7 +4245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceParams {
 	ResourceManagerTags: *map[string]*string,
@@ -4281,11 +4281,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceReservationAffinity {
 	Type: *string,
-	SpecificReservation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservation,
+	SpecificReservation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservation,
 }
 ```
 
@@ -4331,7 +4331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceReservationAffinitySpecificReservation {
 	Key: *string,
@@ -4383,21 +4383,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceScheduling {
 	AutomaticRestart: interface{},
 	AvailabilityDomain: *f64,
-	GracefulShutdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdown,
+	GracefulShutdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdown,
 	HostErrorTimeoutSeconds: *f64,
 	InstanceTerminationAction: *string,
-	LocalSsdRecoveryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout,
+	LocalSsdRecoveryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout,
 	MaintenanceInterval: *string,
-	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDuration,
+	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDuration,
 	MinNodeCpus: *f64,
 	NodeAffinities: interface{},
 	OnHostMaintenance: *string,
-	OnInstanceStopAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopAction,
+	OnInstanceStopAction: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopAction,
 	Preemptible: interface{},
 	ProvisioningModel: *string,
 	TerminationTime: *string,
@@ -4642,11 +4642,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdown.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingGracefulShutdown {
 	Enabled: interface{},
-	MaxDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration,
+	MaxDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration,
 }
 ```
 
@@ -4692,7 +4692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration {
 	Seconds: *f64,
@@ -4748,7 +4748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout {
 	Seconds: *f64,
@@ -4802,7 +4802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingMaxRunDuration {
 	Seconds: *f64,
@@ -4856,7 +4856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingNodeAffinities {
 	Key: *string,
@@ -4916,7 +4916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceSchedulingOnInstanceStopAction {
 	DiscardLocalSsd: interface{},
@@ -4950,7 +4950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceScratchDisk {
 	Interface: *string,
@@ -5016,7 +5016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceServiceAccount {
 	Scopes: *[]*string,
@@ -5066,7 +5066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -5132,7 +5132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 &googlecomputeinstance.GoogleComputeInstanceTimeouts {
 	Create: *string,
@@ -5194,7 +5194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeaturesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceAdvancedMachineFeaturesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceAdvancedMachineFeaturesOutputReference
 ```
@@ -5617,7 +5617,7 @@ func InternalValue() GoogleComputeInstanceAdvancedMachineFeatures
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceAttachedDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceAttachedDiskList
 ```
@@ -5777,7 +5777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceAttachedDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceAttachedDiskOutputReference
 ```
@@ -6280,7 +6280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceBootDiskInitializeParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceBootDiskInitializeParamsOutputReference
 ```
@@ -6961,7 +6961,7 @@ func InternalValue() GoogleComputeInstanceBootDiskInitializeParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference
 ```
@@ -7337,7 +7337,7 @@ func InternalValue() GoogleComputeInstanceBootDiskInitializeParamsSourceImageEnc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference
 ```
@@ -7713,7 +7713,7 @@ func InternalValue() GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshot
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceBootDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceBootDiskOutputReference
 ```
@@ -8334,7 +8334,7 @@ func InternalValue() GoogleComputeInstanceBootDisk
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceConfidentialInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceConfidentialInstanceConfigOutputReference
 ```
@@ -8641,7 +8641,7 @@ func InternalValue() GoogleComputeInstanceConfidentialInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceGuestAcceleratorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceGuestAcceleratorList
 ```
@@ -8801,7 +8801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceGuestAcceleratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceGuestAcceleratorOutputReference
 ```
@@ -9112,7 +9112,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceInstanceEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceInstanceEncryptionKeyOutputReference
 ```
@@ -9430,7 +9430,7 @@ func InternalValue() GoogleComputeInstanceInstanceEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceAccessConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceNetworkInterfaceAccessConfigList
 ```
@@ -9590,7 +9590,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference
 ```
@@ -9955,7 +9955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceAliasIpRangeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceNetworkInterfaceAliasIpRangeList
 ```
@@ -10115,7 +10115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference
 ```
@@ -10433,7 +10433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList
 ```
@@ -10593,7 +10593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference
 ```
@@ -11009,7 +11009,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceNetworkInterfaceList
 ```
@@ -11169,7 +11169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceNetworkInterfaceOutputReference
 ```
@@ -11903,7 +11903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceNetworkPerformanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceNetworkPerformanceConfigOutputReference
 ```
@@ -12174,7 +12174,7 @@ func InternalValue() GoogleComputeInstanceNetworkPerformanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceParamsOutputReference
 ```
@@ -12452,7 +12452,7 @@ func InternalValue() GoogleComputeInstanceParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceReservationAffinityOutputReference
 ```
@@ -12765,7 +12765,7 @@ func InternalValue() GoogleComputeInstanceReservationAffinity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceReservationAffinitySpecificReservationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceReservationAffinitySpecificReservationOutputReference
 ```
@@ -13058,7 +13058,7 @@ func InternalValue() GoogleComputeInstanceReservationAffinitySpecificReservation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference
 ```
@@ -13358,7 +13358,7 @@ func InternalValue() GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingGracefulShutdownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingGracefulShutdownOutputReference
 ```
@@ -13671,7 +13671,7 @@ func InternalValue() GoogleComputeInstanceSchedulingGracefulShutdown
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference
 ```
@@ -13971,7 +13971,7 @@ func InternalValue() GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingMaxRunDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingMaxRunDurationOutputReference
 ```
@@ -14271,7 +14271,7 @@ func InternalValue() GoogleComputeInstanceSchedulingMaxRunDuration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingNodeAffinitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceSchedulingNodeAffinitiesList
 ```
@@ -14431,7 +14431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingNodeAffinitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceSchedulingNodeAffinitiesOutputReference
 ```
@@ -14764,7 +14764,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference
 ```
@@ -15042,7 +15042,7 @@ func InternalValue() GoogleComputeInstanceSchedulingOnInstanceStopAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceSchedulingOutputReference
 ```
@@ -15791,7 +15791,7 @@ func InternalValue() GoogleComputeInstanceScheduling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceScratchDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInstanceScratchDiskList
 ```
@@ -15951,7 +15951,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceScratchDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInstanceScratchDiskOutputReference
 ```
@@ -16298,7 +16298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceServiceAccountOutputReference
 ```
@@ -16598,7 +16598,7 @@ func InternalValue() GoogleComputeInstanceServiceAccount
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceShieldedInstanceConfigOutputReference
 ```
@@ -16934,7 +16934,7 @@ func InternalValue() GoogleComputeInstanceShieldedInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance"
 
 googlecomputeinstance.NewGoogleComputeInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceTimeoutsOutputReference
 ```

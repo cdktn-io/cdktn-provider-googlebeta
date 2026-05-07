@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstance(scope Construct, id *string, config GoogleFilestoreInstanceConfig) GoogleFilestoreInstance
 ```
@@ -583,7 +583,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.GoogleFilestoreInstance_IsConstruct(x interface{}) *bool
 ```
@@ -615,7 +615,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.GoogleFilestoreInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ googlefilestoreinstance.GoogleFilestoreInstance_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.GoogleFilestoreInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -643,7 +643,7 @@ googlefilestoreinstance.GoogleFilestoreInstance_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.GoogleFilestoreInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1345,7 +1345,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceConfig {
 	Connection: interface{},
@@ -1355,24 +1355,24 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	FileShares: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceFileShares,
+	FileShares: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceFileShares,
 	Name: *string,
 	Networks: interface{},
 	Tier: *string,
 	DeletionProtectionEnabled: interface{},
 	DeletionProtectionReason: *string,
 	Description: *string,
-	DirectoryServices: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices,
+	DirectoryServices: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices,
 	Id: *string,
-	InitialReplication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication,
+	InitialReplication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication,
 	KmsKeyName: *string,
 	Labels: *map[string]*string,
 	Location: *string,
-	PerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig,
+	PerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig,
 	Project: *string,
 	Protocol: *string,
 	Tags: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts,
 	Zone: *string,
 }
 ```
@@ -1763,10 +1763,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceDirectoryServices {
-	Ldap: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdap,
+	Ldap: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdap,
 }
 ```
 
@@ -1797,7 +1797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceDirectoryServicesLdap {
 	Domain: *string,
@@ -1894,7 +1894,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceEffectiveReplication {
 
@@ -1907,7 +1907,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceEffectiveReplicationReplicas {
 
@@ -1920,7 +1920,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceFileShares {
 	CapacityGb: *f64,
@@ -2005,7 +2005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceFileSharesNfsExportOptions {
 	AccessMode: *string,
@@ -2132,7 +2132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceInitialReplication {
 	Replicas: interface{},
@@ -2182,7 +2182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceInitialReplicationReplicas {
 	PeerInstance: *string,
@@ -2216,13 +2216,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceNetworks {
 	Modes: *[]*string,
 	Network: *string,
 	ConnectMode: *string,
-	PscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfig,
+	PscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfig,
 	ReservedIpRange: *string,
 }
 ```
@@ -2317,7 +2317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceNetworksPscConfig {
 	EndpointProject: *string,
@@ -2355,11 +2355,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstancePerformanceConfig {
-	FixedIops: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIops,
-	IopsPerTb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb,
+	FixedIops: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIops,
+	IopsPerTb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb,
 }
 ```
 
@@ -2405,7 +2405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIops.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstancePerformanceConfigFixedIops {
 	MaxIops: *f64,
@@ -2439,7 +2439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb {
 	MaxIopsPerTb: *f64,
@@ -2477,7 +2477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 &googlefilestoreinstance.GoogleFilestoreInstanceTimeouts {
 	Create: *string,
@@ -2539,7 +2539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceDirectoryServicesLdapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceDirectoryServicesLdapOutputReference
 ```
@@ -2890,7 +2890,7 @@ func InternalValue() GoogleFilestoreInstanceDirectoryServicesLdap
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceDirectoryServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceDirectoryServicesOutputReference
 ```
@@ -3181,7 +3181,7 @@ func InternalValue() GoogleFilestoreInstanceDirectoryServices
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceEffectiveReplicationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFilestoreInstanceEffectiveReplicationList
 ```
@@ -3330,7 +3330,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceEffectiveReplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFilestoreInstanceEffectiveReplicationOutputReference
 ```
@@ -3619,7 +3619,7 @@ func InternalValue() GoogleFilestoreInstanceEffectiveReplication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceEffectiveReplicationReplicasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFilestoreInstanceEffectiveReplicationReplicasList
 ```
@@ -3768,7 +3768,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference
 ```
@@ -4079,7 +4079,7 @@ func InternalValue() GoogleFilestoreInstanceEffectiveReplicationReplicas
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceFileSharesNfsExportOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFilestoreInstanceFileSharesNfsExportOptionsList
 ```
@@ -4239,7 +4239,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference
 ```
@@ -4680,7 +4680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceFileSharesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceFileSharesOutputReference
 ```
@@ -5044,7 +5044,7 @@ func InternalValue() GoogleFilestoreInstanceFileShares
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceInitialReplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceInitialReplicationOutputReference
 ```
@@ -5364,7 +5364,7 @@ func InternalValue() GoogleFilestoreInstanceInitialReplication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceInitialReplicationReplicasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFilestoreInstanceInitialReplicationReplicasList
 ```
@@ -5524,7 +5524,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceInitialReplicationReplicasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFilestoreInstanceInitialReplicationReplicasOutputReference
 ```
@@ -5813,7 +5813,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceNetworksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFilestoreInstanceNetworksList
 ```
@@ -5973,7 +5973,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceNetworksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFilestoreInstanceNetworksOutputReference
 ```
@@ -6395,7 +6395,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceNetworksPscConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceNetworksPscConfigOutputReference
 ```
@@ -6673,7 +6673,7 @@ func InternalValue() GoogleFilestoreInstanceNetworksPscConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference
 ```
@@ -6951,7 +6951,7 @@ func InternalValue() GoogleFilestoreInstancePerformanceConfigFixedIops
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference
 ```
@@ -7229,7 +7229,7 @@ func InternalValue() GoogleFilestoreInstancePerformanceConfigIopsPerTb
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstancePerformanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstancePerformanceConfigOutputReference
 ```
@@ -7562,7 +7562,7 @@ func InternalValue() GoogleFilestoreInstancePerformanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance"
 
 googlefilestoreinstance.NewGoogleFilestoreInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceTimeoutsOutputReference
 ```

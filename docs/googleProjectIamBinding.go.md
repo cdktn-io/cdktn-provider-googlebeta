@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.NewGoogleProjectIamBinding(scope Construct, id *string, config GoogleProjectIamBindingConfig) GoogleProjectIamBinding
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googleprojectiambinding.GoogleProjectIamBinding_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleprojectiambinding.GoogleProjectIamBinding_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.GoogleProjectIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 &googleprojectiambinding.GoogleProjectIamBindingCondition {
 	Expression: *string,
@@ -897,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 &googleprojectiambinding.GoogleProjectIamBindingConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepr
 	Members: *[]*string,
 	Project: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleProjectIamBinding.GoogleProjectIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleProjectIamBinding.GoogleProjectIamBindingCondition,
 	Id: *string,
 }
 ```
@@ -1076,7 +1076,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiambinding"
 
 googleprojectiambinding.NewGoogleProjectIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleProjectIamBindingConditionOutputReference
 ```

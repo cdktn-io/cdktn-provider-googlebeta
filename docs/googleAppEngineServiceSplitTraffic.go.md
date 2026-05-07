@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTraffic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.NewGoogleAppEngineServiceSplitTraffic(scope Construct, id *string, config GoogleAppEngineServiceSplitTrafficConfig) GoogleAppEngineServiceSplitTraffic
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTraffic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTraffic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTraffic.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTraffic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTraffic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 &googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTrafficConfig {
 	Connection: interface{},
@@ -886,11 +886,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Service: *string,
-	Split: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficSplit,
+	Split: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficSplit,
 	Id: *string,
 	MigrateTraffic: interface{},
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficTimeouts,
 }
 ```
 
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficSplit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 &googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTrafficSplit {
 	Allocations: *map[string]*string,
@@ -1124,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 &googleappengineservicesplittraffic.GoogleAppEngineServiceSplitTrafficTimeouts {
 	Create: *string,
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficSplitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.NewGoogleAppEngineServiceSplitTrafficSplitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineServiceSplitTrafficSplitOutputReference
 ```
@@ -1486,7 +1486,7 @@ func InternalValue() GoogleAppEngineServiceSplitTrafficSplit
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceSplitTraffic.GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleappengineservicesplittraffic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleappengineservicesplittraffic"
 
 googleappengineservicesplittraffic.NewGoogleAppEngineServiceSplitTrafficTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference
 ```

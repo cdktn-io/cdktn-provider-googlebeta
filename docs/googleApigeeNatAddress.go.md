@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.NewGoogleApigeeNatAddress(scope Construct, id *string, config GoogleApigeeNatAddressConfig) GoogleApigeeNatAddress
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.GoogleApigeeNatAddress_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.GoogleApigeeNatAddress_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleapigeenataddress.GoogleApigeeNatAddress_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.GoogleApigeeNatAddress_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleapigeenataddress.GoogleApigeeNatAddress_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.GoogleApigeeNatAddress_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 &googleapigeenataddress.GoogleApigeeNatAddressConfig {
 	Connection: interface{},
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	Name: *string,
 	Activate: interface{},
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApigeeNatAddress.GoogleApigeeNatAddressTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeNatAddress.GoogleApigeeNatAddressTimeouts,
 }
 ```
 
@@ -1038,7 +1038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 &googleapigeenataddress.GoogleApigeeNatAddressTimeouts {
 	Create: *string,
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeenataddress"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeenataddress"
 
 googleapigeenataddress.NewGoogleApigeeNatAddressTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeNatAddressTimeoutsOutputReference
 ```

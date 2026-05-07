@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.NewGoogleDatabaseMigrationServicePrivateConnection(scope Construct, id *string, config GoogleDatabaseMigrationServicePrivateConnectionConfig) GoogleDatabaseMigrationServicePrivateConnection
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnection_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1010,7 +1010,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 &googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnectionConfig {
 	Connection: interface{},
@@ -1022,13 +1022,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Provisioners: *[]interface{},
 	Location: *string,
 	PrivateConnectionId: *string,
-	VpcPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig,
+	VpcPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig,
 	CreateWithoutValidation: interface{},
 	DisplayName: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionTimeouts,
 }
 ```
 
@@ -1258,7 +1258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 &googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnectionError {
 
@@ -1271,7 +1271,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 &googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnectionTimeouts {
 	Create: *string,
@@ -1331,7 +1331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 &googledatabasemigrationserviceprivateconnection.GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig {
 	Subnet: *string,
@@ -1383,7 +1383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.NewGoogleDatabaseMigrationServicePrivateConnectionErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatabaseMigrationServicePrivateConnectionErrorList
 ```
@@ -1532,7 +1532,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.NewGoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference
 ```
@@ -1821,7 +1821,7 @@ func InternalValue() GoogleDatabaseMigrationServicePrivateConnectionError
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.NewGoogleDatabaseMigrationServicePrivateConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServicePrivateConnectionTimeoutsOutputReference
 ```
@@ -2157,7 +2157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceprivateconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceprivateconnection"
 
 googledatabasemigrationserviceprivateconnection.NewGoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfigOutputReference
 ```

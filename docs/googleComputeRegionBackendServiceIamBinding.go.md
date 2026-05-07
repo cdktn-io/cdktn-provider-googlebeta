@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.NewGoogleComputeRegionBackendServiceIamBinding(scope Construct, id *string, config GoogleComputeRegionBackendServiceIamBindingConfig) GoogleComputeRegionBackendServiceIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIam
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIam
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 &googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBindingCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 &googlecomputeregionbackendserviceiambinding.GoogleComputeRegionBackendServiceIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Members: *[]*string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBindingCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamBinding.GoogleComputeRegionBackendServiceIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendserviceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiambinding"
 
 googlecomputeregionbackendserviceiambinding.NewGoogleComputeRegionBackendServiceIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionBackendServiceIamBindingConditionOutputReference
 ```

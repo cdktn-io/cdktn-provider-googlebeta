@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplate(scope Construct, id *string, config GoogleDataprocWorkflowTemplateConfig) GoogleDataprocWorkflowTemplate
 ```
@@ -521,7 +521,7 @@ func ResetVersion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1118,7 +1118,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateConfig {
 	Connection: interface{},
@@ -1131,14 +1131,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Jobs: interface{},
 	Location: *string,
 	Name: *string,
-	Placement: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacement,
+	Placement: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacement,
 	DagTimeout: *string,
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateEncryptionConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateEncryptionConfig,
 	Id: *string,
 	Labels: *map[string]*string,
 	Parameters: interface{},
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateTimeouts,
 	Version: *f64,
 }
 ```
@@ -1422,7 +1422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateEncryptionConfig {
 	KmsKey: *string,
@@ -1456,21 +1456,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobs {
 	StepId: *string,
-	HadoopJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJob,
-	HiveJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJob,
+	HadoopJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJob,
+	HiveJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJob,
 	Labels: *map[string]*string,
-	PigJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJob,
+	PigJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJob,
 	PrerequisiteStepIds: *[]*string,
-	PrestoJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJob,
-	PysparkJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJob,
-	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsScheduling,
-	SparkJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJob,
-	SparkRJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJob,
-	SparkSqlJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJob,
+	PrestoJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJob,
+	PysparkJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJob,
+	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsScheduling,
+	SparkJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJob,
+	SparkRJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJob,
+	SparkSqlJob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJob,
 }
 ```
 
@@ -1672,14 +1672,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsHadoopJob {
 	ArchiveUris: *[]*string,
 	Args: *[]*string,
 	FileUris: *[]*string,
 	JarFileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig,
 	MainClass: *string,
 	MainJarFileUri: *string,
 	Properties: *map[string]*string,
@@ -1828,7 +1828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -1864,14 +1864,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsHiveJob {
 	ContinueOnFailure: interface{},
 	JarFileUris: *[]*string,
 	Properties: *map[string]*string,
 	QueryFileUri: *string,
-	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct,
+	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct,
 	ScriptVariables: *map[string]*string,
 }
 ```
@@ -1984,7 +1984,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct {
 	Queries: *[]*string,
@@ -2020,15 +2020,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPigJob {
 	ContinueOnFailure: interface{},
 	JarFileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig,
 	Properties: *map[string]*string,
 	QueryFileUri: *string,
-	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct,
+	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct,
 	ScriptVariables: *map[string]*string,
 }
 ```
@@ -2156,7 +2156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -2192,7 +2192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct {
 	Queries: *[]*string,
@@ -2228,16 +2228,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPrestoJob {
 	ClientTags: *[]*string,
 	ContinueOnFailure: interface{},
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig,
 	OutputFormat: *string,
 	Properties: *map[string]*string,
 	QueryFileUri: *string,
-	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct,
+	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct,
 }
 ```
 
@@ -2362,7 +2362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -2398,7 +2398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct {
 	Queries: *[]*string,
@@ -2434,7 +2434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPysparkJob {
 	MainPythonFileUri: *string,
@@ -2442,7 +2442,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Args: *[]*string,
 	FileUris: *[]*string,
 	JarFileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig,
 	Properties: *map[string]*string,
 	PythonFileUris: *[]*string,
 }
@@ -2590,7 +2590,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -2626,7 +2626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsScheduling {
 	MaxFailuresPerHour: *f64,
@@ -2680,14 +2680,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkJob {
 	ArchiveUris: *[]*string,
 	Args: *[]*string,
 	FileUris: *[]*string,
 	JarFileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig,
 	MainClass: *string,
 	MainJarFileUri: *string,
 	Properties: *map[string]*string,
@@ -2836,7 +2836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -2872,14 +2872,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkRJob {
 	MainRFileUri: *string,
 	ArchiveUris: *[]*string,
 	Args: *[]*string,
 	FileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig,
 	Properties: *map[string]*string,
 }
 ```
@@ -2994,7 +2994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -3030,14 +3030,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJob {
 	JarFileUris: *[]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig,
 	Properties: *map[string]*string,
 	QueryFileUri: *string,
-	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct,
+	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct,
 	ScriptVariables: *map[string]*string,
 }
 ```
@@ -3146,7 +3146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig {
 	DriverLogLevels: *map[string]*string,
@@ -3182,7 +3182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct {
 	Queries: *[]*string,
@@ -3218,13 +3218,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateParameters {
 	Fields: *[]*string,
 	Name: *string,
 	Description: *string,
-	Validation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidation,
+	Validation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidation,
 }
 ```
 
@@ -3304,11 +3304,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateParametersValidation {
-	Regex: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationRegex,
-	Values: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationValues,
+	Regex: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationRegex,
+	Values: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationValues,
 }
 ```
 
@@ -3354,7 +3354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationRegex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateParametersValidationRegex {
 	Regexes: *[]*string,
@@ -3390,7 +3390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateParametersValidationValues {
 	Values: *[]*string,
@@ -3424,11 +3424,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacement {
-	ClusterSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementClusterSelector,
-	ManagedCluster: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedCluster,
+	ClusterSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementClusterSelector,
+	ManagedCluster: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedCluster,
 }
 ```
 
@@ -3474,7 +3474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementClusterSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementClusterSelector {
 	ClusterLabels: *map[string]*string,
@@ -3526,11 +3526,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedCluster {
 	ClusterName: *string,
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig,
 	Labels: *map[string]*string,
 }
 ```
@@ -3596,24 +3596,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig {
-	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig,
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig,
-	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig,
-	GceClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig,
-	GkeClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig,
+	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig,
+	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig,
+	GceClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig,
+	GkeClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig,
 	InitializationActions: interface{},
-	LifecycleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig,
-	MasterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig,
-	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig,
-	SecondaryWorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig,
-	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig,
-	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig,
+	LifecycleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig,
+	MasterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig,
+	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig,
+	SecondaryWorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig,
+	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig,
+	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig,
 	StagingBucket: *string,
 	TempBucket: *string,
-	WorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig,
+	WorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig,
 }
 ```
 
@@ -3858,7 +3858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig {
 	Policy: *string,
@@ -3894,7 +3894,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig {
 	GcePdKmsKeyName: *string,
@@ -3928,7 +3928,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig {
 	EnableHttpPortAccess: interface{},
@@ -3962,18 +3962,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig {
 	InternalIpOnly: interface{},
 	Metadata: *map[string]*string,
 	Network: *string,
-	NodeGroupAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity,
+	NodeGroupAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity,
 	PrivateIpv6GoogleAccess: *string,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity,
 	ServiceAccount: *string,
 	ServiceAccountScopes: *[]*string,
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig,
 	Subnetwork: *string,
 	Tags: *[]*string,
 	Zone: *string,
@@ -4184,7 +4184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity {
 	NodeGroup: *string,
@@ -4220,7 +4220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity {
 	ConsumeReservationType: *string,
@@ -4286,7 +4286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -4358,10 +4358,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig {
-	NamespacedGkeDeploymentTarget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget,
+	NamespacedGkeDeploymentTarget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget,
 }
 ```
 
@@ -4392,7 +4392,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget {
 	ClusterNamespace: *string,
@@ -4442,7 +4442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions {
 	ExecutableFile: *string,
@@ -4494,7 +4494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig {
 	AutoDeleteTime: *string,
@@ -4564,11 +4564,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig,
 	Image: *string,
 	MachineType: *string,
 	MinCpuPlatform: *string,
@@ -4702,7 +4702,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -4754,7 +4754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig {
 	BootDiskSizeGb: *f64,
@@ -4824,7 +4824,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfig {
 
@@ -4837,7 +4837,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig {
 	DataprocMetastoreService: *string,
@@ -4871,11 +4871,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig,
 	Image: *string,
 	MachineType: *string,
 	MinCpuPlatform: *string,
@@ -5009,7 +5009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -5061,7 +5061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig {
 	BootDiskSizeGb: *f64,
@@ -5131,7 +5131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfig {
 
@@ -5144,10 +5144,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig {
-	KerberosConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig,
+	KerberosConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig,
 }
 ```
 
@@ -5178,7 +5178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig {
 	CrossRealmTrustAdminServer: *string,
@@ -5454,7 +5454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig {
 	ImageVersion: *string,
@@ -5524,11 +5524,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig,
 	Image: *string,
 	MachineType: *string,
 	MinCpuPlatform: *string,
@@ -5662,7 +5662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -5714,7 +5714,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig {
 	BootDiskSizeGb: *f64,
@@ -5784,7 +5784,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfig {
 
@@ -5797,7 +5797,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 &googledataprocworkflowtemplate.GoogleDataprocWorkflowTemplateTimeouts {
 	Create: *string,
@@ -5859,7 +5859,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference
 ```
@@ -6137,7 +6137,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateEncryptionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference
 ```
@@ -6415,7 +6415,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference
 ```
@@ -6909,7 +6909,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsHadoopJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsHiveJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference
 ```
@@ -7345,7 +7345,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsHiveJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference
 ```
@@ -7616,7 +7616,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplateJobsList
 ```
@@ -7776,7 +7776,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplateJobsOutputReference
 ```
@@ -8501,7 +8501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference
 ```
@@ -8779,7 +8779,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPigJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPigJobOutputReference
 ```
@@ -9257,7 +9257,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPigJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference
 ```
@@ -9528,7 +9528,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference
 ```
@@ -9806,7 +9806,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference
 ```
@@ -10284,7 +10284,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPrestoJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference
 ```
@@ -10555,7 +10555,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference
 ```
@@ -10833,7 +10833,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference
 ```
@@ -11320,7 +11320,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsPysparkJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference
 ```
@@ -11627,7 +11627,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsScheduling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference
 ```
@@ -11905,7 +11905,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference
 ```
@@ -12399,7 +12399,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference
 ```
@@ -12677,7 +12677,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference
 ```
@@ -13106,7 +13106,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkRJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference
 ```
@@ -13384,7 +13384,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference
 ```
@@ -13833,7 +13833,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkSqlJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference
 ```
@@ -14104,7 +14104,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplateParametersList
 ```
@@ -14264,7 +14264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplateParametersOutputReference
 ```
@@ -14646,7 +14646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateParametersValidationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateParametersValidationOutputReference
 ```
@@ -14979,7 +14979,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateParametersValidation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference
 ```
@@ -15250,7 +15250,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateParametersValidationRegex
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference
 ```
@@ -15521,7 +15521,7 @@ func InternalValue() GoogleDataprocWorkflowTemplateParametersValidationValues
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference
 ```
@@ -15821,7 +15821,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementClusterSelector
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference
 ```
@@ -16099,7 +16099,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference
 ```
@@ -16377,7 +16377,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference
 ```
@@ -16666,7 +16666,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference
 ```
@@ -16937,7 +16937,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference
 ```
@@ -17573,7 +17573,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference
 ```
@@ -17909,7 +17909,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference
 ```
@@ -18245,7 +18245,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference
 ```
@@ -18552,7 +18552,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference
 ```
@@ -18843,7 +18843,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList
 ```
@@ -19003,7 +19003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsOutputReference
 ```
@@ -19328,7 +19328,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference
 ```
@@ -19675,7 +19675,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList
 ```
@@ -19835,7 +19835,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsOutputReference
 ```
@@ -20160,7 +20160,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference
 ```
@@ -20496,7 +20496,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigList
 ```
@@ -20645,7 +20645,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigOutputReference
 ```
@@ -20934,7 +20934,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference
 ```
@@ -21445,7 +21445,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference
 ```
@@ -21716,7 +21716,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference
 ```
@@ -22569,7 +22569,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList
 ```
@@ -22729,7 +22729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsOutputReference
 ```
@@ -23054,7 +23054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference
 ```
@@ -23390,7 +23390,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigList
 ```
@@ -23539,7 +23539,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigOutputReference
 ```
@@ -23828,7 +23828,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference
 ```
@@ -24339,7 +24339,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference
 ```
@@ -25023,7 +25023,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference
 ```
@@ -25314,7 +25314,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference
 ```
@@ -25650,7 +25650,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList
 ```
@@ -25810,7 +25810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsOutputReference
 ```
@@ -26135,7 +26135,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference
 ```
@@ -26471,7 +26471,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigList
 ```
@@ -26620,7 +26620,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigOutputReference
 ```
@@ -26909,7 +26909,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference
 ```
@@ -27420,7 +27420,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference
 ```
@@ -27755,7 +27755,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacementManagedCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplatePlacementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplatePlacementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementOutputReference
 ```
@@ -28088,7 +28088,7 @@ func InternalValue() GoogleDataprocWorkflowTemplatePlacement
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocWorkflowTemplate.GoogleDataprocWorkflowTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocworkflowtemplate"
 
 googledataprocworkflowtemplate.NewGoogleDataprocWorkflowTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplateTimeoutsOutputReference
 ```

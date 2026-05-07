@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.NewGoogleServiceNetworkingPeeredDnsDomain(scope Construct, id *string, config GoogleServiceNetworkingPeeredDnsDomainConfig) GoogleServiceNetworkingPeeredDnsDomain
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 &googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomainConfig {
 	Connection: interface{},
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlese
 	Id: *string,
 	Project: *string,
 	Service: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomainTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomainTimeouts,
 }
 ```
 
@@ -1110,7 +1110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomainTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 &googleservicenetworkingpeereddnsdomain.GoogleServiceNetworkingPeeredDnsDomainTimeouts {
 	Create: *string,
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingPeeredDnsDomain.GoogleServiceNetworkingPeeredDnsDomainTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingpeereddnsdomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicenetworkingpeereddnsdomain"
 
 googleservicenetworkingpeereddnsdomain.NewGoogleServiceNetworkingPeeredDnsDomainTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleServiceNetworkingPeeredDnsDomainTimeoutsOutputReference
 ```

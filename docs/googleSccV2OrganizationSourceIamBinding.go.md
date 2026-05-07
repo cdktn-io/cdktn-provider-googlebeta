@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.NewGoogleSccV2OrganizationSourceIamBinding(scope Construct, id *string, config GoogleSccV2OrganizationSourceIamBindingConfig) GoogleSccV2OrganizationSourceIamBinding
 ```
@@ -427,7 +427,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 &googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBindingCondition {
 	Expression: *string,
@@ -919,7 +919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 &googlesccv2organizationsourceiambinding.GoogleSccV2OrganizationSourceIamBindingConfig {
 	Connection: interface{},
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesc
 	Organization: *string,
 	Role: *string,
 	Source: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBindingCondition,
 	Id: *string,
 }
 ```
@@ -1112,7 +1112,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamBinding.GoogleSccV2OrganizationSourceIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiambinding"
 
 googlesccv2organizationsourceiambinding.NewGoogleSccV2OrganizationSourceIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2OrganizationSourceIamBindingConditionOutputReference
 ```

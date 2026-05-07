@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.NewGoogleSecurityposturePostureDeployment(scope Construct, id *string, config GoogleSecurityposturePostureDeploymentConfig) GoogleSecurityposturePostureDeployment
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1020,7 +1020,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 &googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeploymentConfig {
 	Connection: interface{},
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlese
 	TargetResource: *string,
 	Description: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeploymentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeploymentTimeouts,
 }
 ```
 
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeploymentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 &googlesecuritypostureposturedeployment.GoogleSecurityposturePostureDeploymentTimeouts {
 	Create: *string,
@@ -1329,7 +1329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecurityposturePostureDeployment.GoogleSecurityposturePostureDeploymentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuritypostureposturedeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuritypostureposturedeployment"
 
 googlesecuritypostureposturedeployment.NewGoogleSecurityposturePostureDeploymentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecurityposturePostureDeploymentTimeoutsOutputReference
 ```

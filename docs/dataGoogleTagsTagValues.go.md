@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.NewDataGoogleTagsTagValues(scope Construct, id *string, config DataGoogleTagsTagValuesConfig) DataGoogleTagsTagValues
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.DataGoogleTagsTagValues_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.DataGoogleTagsTagValues_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagoogletagstagvalues.DataGoogleTagsTagValues_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.DataGoogleTagsTagValues_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagoogletagstagvalues.DataGoogleTagsTagValues_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.DataGoogleTagsTagValues_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -627,7 +627,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 &datagoogletagstagvalues.DataGoogleTagsTagValuesConfig {
 	Connection: interface{},
@@ -760,7 +760,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 &datagoogletagstagvalues.DataGoogleTagsTagValuesValues {
 
@@ -775,7 +775,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.NewDataGoogleTagsTagValuesValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleTagsTagValuesValuesList
 ```
@@ -924,7 +924,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogletagstagvalues"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagvalues"
 
 datagoogletagstagvalues.NewDataGoogleTagsTagValuesValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleTagsTagValuesValuesOutputReference
 ```

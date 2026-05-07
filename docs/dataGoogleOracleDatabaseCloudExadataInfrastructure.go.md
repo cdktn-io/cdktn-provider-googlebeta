@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructure(scope Construct, id *string, config DataGoogleOracleDatabaseCloudExadataInfrastructureConfig) DataGoogleOracleDatabaseCloudExadataInfrastructure
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloud
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloud
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -777,7 +777,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 &datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructureConfig {
 	Connection: interface{},
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructureProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 &datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructureProperties {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 &datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 &datagoogleoracledatabasecloudexadatainfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindow {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList
 ```
@@ -1137,7 +1137,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsOutputReference
 ```
@@ -1415,7 +1415,7 @@ func InternalValue() DataGoogleOracleDatabaseCloudExadataInfrastructurePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesList
 ```
@@ -1564,7 +1564,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowList
 ```
@@ -1713,7 +1713,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesMaintenanceWindowOutputReference
 ```
@@ -2079,7 +2079,7 @@ func InternalValue() DataGoogleOracleDatabaseCloudExadataInfrastructurePropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseCloudExadataInfrastructure.DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabasecloudexadatainfrastructure"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabasecloudexadatainfrastructure"
 
 datagoogleoracledatabasecloudexadatainfrastructure.NewDataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutputReference
 ```

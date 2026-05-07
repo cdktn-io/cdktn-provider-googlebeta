@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.NewGoogleNetworkManagementVpcFlowLogsConfig(scope Construct, id *string, config GoogleNetworkManagementVpcFlowLogsConfigConfig) GoogleNetworkManagementVpcFlowLogsConfig
 ```
@@ -518,7 +518,7 @@ func ResetVpnTunnel()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfig_IsConstruct(x interface{}) *bool
 ```
@@ -550,7 +550,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -564,7 +564,7 @@ googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfi
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -578,7 +578,7 @@ googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1247,7 +1247,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 &googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfigConfig {
 	Connection: interface{},
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 	Project: *string,
 	State: *string,
 	Subnet: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfigTimeouts,
 	VpnTunnel: *string,
 }
 ```
@@ -1646,7 +1646,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 &googlenetworkmanagementvpcflowlogsconfig.GoogleNetworkManagementVpcFlowLogsConfigTimeouts {
 	Create: *string,
@@ -1708,7 +1708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkManagementVpcFlowLogsConfig.GoogleNetworkManagementVpcFlowLogsConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkmanagementvpcflowlogsconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkmanagementvpcflowlogsconfig"
 
 googlenetworkmanagementvpcflowlogsconfig.NewGoogleNetworkManagementVpcFlowLogsConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkManagementVpcFlowLogsConfigTimeoutsOutputReference
 ```

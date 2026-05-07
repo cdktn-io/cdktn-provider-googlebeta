@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.NewGoogleClouddeployCustomTargetTypeIamMember(scope Construct, id *string, config GoogleClouddeployCustomTargetTypeIamMemberConfig) GoogleClouddeployCustomTargetTypeIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamM
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamM
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 &googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 &googleclouddeploycustomtargettypeiammember.GoogleClouddeployCustomTargetTypeIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetTypeIamMember.GoogleClouddeployCustomTargetTypeIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploycustomtargettypeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploycustomtargettypeiammember"
 
 googleclouddeploycustomtargettypeiammember.NewGoogleClouddeployCustomTargetTypeIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeIamMemberConditionOutputReference
 ```

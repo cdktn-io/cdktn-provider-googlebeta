@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.NewGoogleIamWorkloadIdentityPoolIamPolicy(scope Construct, id *string, config GoogleIamWorkloadIdentityPoolIamPolicyConfig) GoogleIamWorkloadIdentityPoolIamPolicy
 ```
@@ -414,7 +414,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
 
 &googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig {
 	Connection: interface{},

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnection(scope Construct, id *string, config GoogleKmsEkmConnectionConfig) GoogleKmsEkmConnection
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.GoogleKmsEkmConnection_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.GoogleKmsEkmConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlekmsekmconnection.GoogleKmsEkmConnection_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.GoogleKmsEkmConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlekmsekmconnection.GoogleKmsEkmConnection_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.GoogleKmsEkmConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -966,7 +966,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 &googlekmsekmconnection.GoogleKmsEkmConnectionConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekm
 	Id: *string,
 	KeyManagementMode: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts,
 }
 ```
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolvers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 &googlekmsekmconnection.GoogleKmsEkmConnectionServiceResolvers {
 	Hostname: *string,
@@ -1303,7 +1303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolversServerCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 &googlekmsekmconnection.GoogleKmsEkmConnectionServiceResolversServerCertificates {
 	RawDer: *string,
@@ -1353,7 +1353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 &googlekmsekmconnection.GoogleKmsEkmConnectionTimeouts {
 	Create: *string,
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolversList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnectionServiceResolversList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleKmsEkmConnectionServiceResolversList
 ```
@@ -1575,7 +1575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolversOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnectionServiceResolversOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleKmsEkmConnectionServiceResolversOutputReference
 ```
@@ -1950,7 +1950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolversServerCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnectionServiceResolversServerCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleKmsEkmConnectionServiceResolversServerCertificatesList
 ```
@@ -2110,7 +2110,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnectionServiceResolversServerCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleKmsEkmConnectionServiceResolversServerCertificatesOutputReference
 ```
@@ -2505,7 +2505,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmsekmconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmsekmconnection"
 
 googlekmsekmconnection.NewGoogleKmsEkmConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsEkmConnectionTimeoutsOutputReference
 ```

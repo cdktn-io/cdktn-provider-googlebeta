@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2Store(scope Construct, id *string, config GoogleHealthcareHl7V2StoreConfig) GoogleHealthcareHl7V2Store
 ```
@@ -501,7 +501,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.GoogleHealthcareHl7V2Store_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 &googlehealthcarehl7v2store.GoogleHealthcareHl7V2StoreConfig {
 	Connection: interface{},
@@ -1035,11 +1035,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehe
 	Name: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfig,
+	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfig,
 	NotificationConfigs: interface{},
-	ParserConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfig,
+	ParserConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfig,
 	RejectDuplicateMessage: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeouts,
 }
 ```
 
@@ -1284,7 +1284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 &googlehealthcarehl7v2store.GoogleHealthcareHl7V2StoreNotificationConfig {
 	PubsubTopic: *string,
@@ -1325,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 &googlehealthcarehl7v2store.GoogleHealthcareHl7V2StoreNotificationConfigs {
 	PubsubTopic: *string,
@@ -1393,7 +1393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 &googlehealthcarehl7v2store.GoogleHealthcareHl7V2StoreParserConfig {
 	AllowNullHeader: interface{},
@@ -1479,7 +1479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 &googlehealthcarehl7v2store.GoogleHealthcareHl7V2StoreTimeouts {
 	Create: *string,
@@ -1541,7 +1541,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2StoreNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareHl7V2StoreNotificationConfigOutputReference
 ```
@@ -1812,7 +1812,7 @@ func InternalValue() GoogleHealthcareHl7V2StoreNotificationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2StoreNotificationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHealthcareHl7V2StoreNotificationConfigsList
 ```
@@ -1972,7 +1972,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2StoreNotificationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHealthcareHl7V2StoreNotificationConfigsOutputReference
 ```
@@ -2290,7 +2290,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2StoreParserConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareHl7V2StoreParserConfigOutputReference
 ```
@@ -2655,7 +2655,7 @@ func InternalValue() GoogleHealthcareHl7V2StoreParserConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcarehl7v2store"
 
 googlehealthcarehl7v2store.NewGoogleHealthcareHl7V2StoreTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareHl7V2StoreTimeoutsOutputReference
 ```

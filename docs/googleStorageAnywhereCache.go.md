@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.NewGoogleStorageAnywhereCache(scope Construct, id *string, config GoogleStorageAnywhereCacheConfig) GoogleStorageAnywhereCache
 ```
@@ -441,7 +441,7 @@ func ResetTtl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.GoogleStorageAnywhereCache_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.GoogleStorageAnywhereCache_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlestorageanywherecache.GoogleStorageAnywhereCache_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.GoogleStorageAnywhereCache_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlestorageanywherecache.GoogleStorageAnywhereCache_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.GoogleStorageAnywhereCache_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 &googlestorageanywherecache.GoogleStorageAnywhereCacheConfig {
 	Connection: interface{},
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 	Zone: *string,
 	AdmissionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts,
 	Ttl: *string,
 }
 ```
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 &googlestorageanywherecache.GoogleStorageAnywhereCacheTimeouts {
 	Create: *string,
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageanywherecache"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageanywherecache"
 
 googlestorageanywherecache.NewGoogleStorageAnywhereCacheTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageAnywhereCacheTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunction(scope Construct, id *string, config GoogleCloudfunctionsFunctionConfig) GoogleCloudfunctionsFunction
 ```
@@ -722,7 +722,7 @@ func ResetVpcConnectorEgressSettings()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_IsConstruct(x interface{}) *bool
 ```
@@ -754,7 +754,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -768,7 +768,7 @@ googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_IsTerraformResource(x interface{}) *bool
 ```
@@ -782,7 +782,7 @@ googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.GoogleCloudfunctionsFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1825,7 +1825,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionAutomaticUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionAutomaticUpdatePolicy {
 
@@ -1838,7 +1838,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionConfig {
 	Connection: interface{},
@@ -1850,7 +1850,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Provisioners: *[]interface{},
 	Name: *string,
 	Runtime: *string,
-	AutomaticUpdatePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionAutomaticUpdatePolicy,
+	AutomaticUpdatePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionAutomaticUpdatePolicy,
 	AvailableMemoryMb: *f64,
 	BuildEnvironmentVariables: *map[string]*string,
 	BuildServiceAccount: *string,
@@ -1860,7 +1860,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	DockerRepository: *string,
 	EntryPoint: *string,
 	EnvironmentVariables: *map[string]*string,
-	EventTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTrigger,
+	EventTrigger: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTrigger,
 	HttpsTriggerSecurityLevel: *string,
 	HttpsTriggerUrl: *string,
 	Id: *string,
@@ -1869,7 +1869,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Labels: *map[string]*string,
 	MaxInstances: *f64,
 	MinInstances: *f64,
-	OnDeployUpdatePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionOnDeployUpdatePolicy,
+	OnDeployUpdatePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionOnDeployUpdatePolicy,
 	Project: *string,
 	Region: *string,
 	SecretEnvironmentVariables: interface{},
@@ -1877,9 +1877,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	ServiceAccountEmail: *string,
 	SourceArchiveBucket: *string,
 	SourceArchiveObject: *string,
-	SourceRepository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSourceRepository,
+	SourceRepository: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSourceRepository,
 	Timeout: *f64,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts,
 	TriggerHttp: interface{},
 	VpcConnector: *string,
 	VpcConnectorEgressSettings: *string,
@@ -2516,12 +2516,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionEventTrigger {
 	EventType: *string,
 	Resource: *string,
-	FailurePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTriggerFailurePolicy,
+	FailurePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTriggerFailurePolicy,
 }
 ```
 
@@ -2584,7 +2584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTriggerFailurePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionEventTriggerFailurePolicy {
 	Retry: interface{},
@@ -2618,7 +2618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionOnDeployUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionOnDeployUpdatePolicy {
 
@@ -2631,7 +2631,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionSecretEnvironmentVariables {
 	Key: *string,
@@ -2717,7 +2717,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionSecretVolumes {
 	MountPath: *string,
@@ -2803,7 +2803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumesVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionSecretVolumesVersions {
 	Path: *string,
@@ -2857,7 +2857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSourceRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionSourceRepository {
 	Url: *string,
@@ -2891,7 +2891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 &googlecloudfunctionsfunction.GoogleCloudfunctionsFunctionTimeouts {
 	Create: *string,
@@ -2967,7 +2967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionAutomaticUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionAutomaticUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionAutomaticUpdatePolicyOutputReference
 ```
@@ -3216,7 +3216,7 @@ func InternalValue() GoogleCloudfunctionsFunctionAutomaticUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference
 ```
@@ -3487,7 +3487,7 @@ func InternalValue() GoogleCloudfunctionsFunctionEventTriggerFailurePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionEventTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionEventTriggerOutputReference
 ```
@@ -3822,7 +3822,7 @@ func InternalValue() GoogleCloudfunctionsFunctionEventTrigger
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference
 ```
@@ -4082,7 +4082,7 @@ func InternalValue() GoogleCloudfunctionsFunctionOnDeployUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudfunctionsFunctionSecretEnvironmentVariablesList
 ```
@@ -4242,7 +4242,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudfunctionsFunctionSecretEnvironmentVariablesOutputReference
 ```
@@ -4604,7 +4604,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudfunctionsFunctionSecretVolumesList
 ```
@@ -4764,7 +4764,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudfunctionsFunctionSecretVolumesOutputReference
 ```
@@ -5146,7 +5146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumesVersionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretVolumesVersionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudfunctionsFunctionSecretVolumesVersionsList
 ```
@@ -5306,7 +5306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSecretVolumesVersionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSecretVolumesVersionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudfunctionsFunctionSecretVolumesVersionsOutputReference
 ```
@@ -5617,7 +5617,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionSourceRepositoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionSourceRepositoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionSourceRepositoryOutputReference
 ```
@@ -5899,7 +5899,7 @@ func InternalValue() GoogleCloudfunctionsFunctionSourceRepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctionsfunction"
 
 googlecloudfunctionsfunction.NewGoogleCloudfunctionsFunctionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionTimeoutsOutputReference
 ```

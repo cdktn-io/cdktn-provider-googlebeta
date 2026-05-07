@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 datagoogleclientopeniduserinfo.NewDataGoogleClientOpenidUserinfo(scope Construct, id *string, config DataGoogleClientOpenidUserinfoConfig) DataGoogleClientOpenidUserinfo
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfo_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleclientopeniduserinfo"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclientopeniduserinfo"
 
 &datagoogleclientopeniduserinfo.DataGoogleClientOpenidUserinfoConfig {
 	Connection: interface{},

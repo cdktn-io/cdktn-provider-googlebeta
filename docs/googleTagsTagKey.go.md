@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.NewGoogleTagsTagKey(scope Construct, id *string, config GoogleTagsTagKeyConfig) GoogleTagsTagKey
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.GoogleTagsTagKey_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.GoogleTagsTagKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googletagstagkey.GoogleTagsTagKey_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.GoogleTagsTagKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googletagstagkey.GoogleTagsTagKey_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.GoogleTagsTagKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -935,7 +935,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 &googletagstagkey.GoogleTagsTagKeyConfig {
 	Connection: interface{},
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleta
 	Id: *string,
 	Purpose: *string,
 	PurposeData: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleTagsTagKey.GoogleTagsTagKeyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTagsTagKey.GoogleTagsTagKeyTimeouts,
 }
 ```
 
@@ -1158,7 +1158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKeyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 &googletagstagkey.GoogleTagsTagKeyTimeouts {
 	Create: *string,
@@ -1220,7 +1220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagKey.GoogleTagsTagKeyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletagstagkey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagkey"
 
 googletagstagkey.NewGoogleTagsTagKeyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTagsTagKeyTimeoutsOutputReference
 ```

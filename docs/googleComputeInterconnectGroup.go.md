@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroup(scope Construct, id *string, config GoogleComputeInterconnectGroupConfig) GoogleComputeInterconnectGroup
 ```
@@ -474,7 +474,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.GoogleComputeInterconnectGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -950,7 +950,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupConfig {
 	Connection: interface{},
@@ -960,13 +960,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Intent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupIntent,
+	Intent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupIntent,
 	Name: *string,
 	Description: *string,
 	Id: *string,
 	Interconnects: interface{},
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupTimeouts,
 }
 ```
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfigured.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupConfigured {
 
@@ -1182,7 +1182,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapability.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupConfiguredTopologyCapability {
 
@@ -1195,7 +1195,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers {
 
@@ -1208,7 +1208,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupIntent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupIntent {
 	TopologyCapability: *string,
@@ -1244,7 +1244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupInterconnects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupInterconnects {
 	Name: *string,
@@ -1292,7 +1292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupPhysicalStructure {
 
@@ -1305,7 +1305,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetros.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupPhysicalStructureMetros {
 
@@ -1318,7 +1318,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities {
 
@@ -1331,7 +1331,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones {
 
@@ -1344,7 +1344,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 &googlecomputeinterconnectgroup.GoogleComputeInterconnectGroupTimeouts {
 	Create: *string,
@@ -1406,7 +1406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupConfiguredList
 ```
@@ -1555,7 +1555,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupConfiguredOutputReference
 ```
@@ -1833,7 +1833,7 @@ func InternalValue() GoogleComputeInterconnectGroupConfigured
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersList
 ```
@@ -1982,7 +1982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersOutputReference
 ```
@@ -2326,7 +2326,7 @@ func InternalValue() GoogleComputeInterconnectGroupConfiguredTopologyCapabilityI
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredTopologyCapabilityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupConfiguredTopologyCapabilityList
 ```
@@ -2475,7 +2475,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupConfiguredTopologyCapabilityOutputReference
 ```
@@ -2764,7 +2764,7 @@ func InternalValue() GoogleComputeInterconnectGroupConfiguredTopologyCapability
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupIntentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupIntentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectGroupIntentOutputReference
 ```
@@ -3042,7 +3042,7 @@ func InternalValue() GoogleComputeInterconnectGroupIntent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupInterconnectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupInterconnectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupInterconnectsList
 ```
@@ -3202,7 +3202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupInterconnectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupInterconnectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupInterconnectsOutputReference
 ```
@@ -3520,7 +3520,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupPhysicalStructureList
 ```
@@ -3669,7 +3669,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesList
 ```
@@ -3818,7 +3818,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesOutputReference
 ```
@@ -4107,7 +4107,7 @@ func InternalValue() GoogleComputeInterconnectGroupPhysicalStructureMetrosFacili
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesList
 ```
@@ -4256,7 +4256,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesOutputReference
 ```
@@ -4545,7 +4545,7 @@ func InternalValue() GoogleComputeInterconnectGroupPhysicalStructureMetrosFacili
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosList
 ```
@@ -4694,7 +4694,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureMetrosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureMetrosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupPhysicalStructureMetrosOutputReference
 ```
@@ -4983,7 +4983,7 @@ func InternalValue() GoogleComputeInterconnectGroupPhysicalStructureMetros
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupPhysicalStructureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupPhysicalStructureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectGroupPhysicalStructureOutputReference
 ```
@@ -5261,7 +5261,7 @@ func InternalValue() GoogleComputeInterconnectGroupPhysicalStructure
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnectGroup.GoogleComputeInterconnectGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectgroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectgroup"
 
 googlecomputeinterconnectgroup.NewGoogleComputeInterconnectGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectGroupTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplication(scope Construct, id *string, config GoogleDataprocGdcSparkApplicationConfig) GoogleDataprocGdcSparkApplication
 ```
@@ -570,7 +570,7 @@ func ResetVersion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_IsConstruct(x interface{}) *bool
 ```
@@ -602,7 +602,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -616,7 +616,7 @@ googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -630,7 +630,7 @@ googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1387,7 +1387,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationConfig {
 	Connection: interface{},
@@ -1409,11 +1409,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Namespace: *string,
 	Project: *string,
 	Properties: *map[string]*string,
-	PysparkApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationPysparkApplicationConfig,
-	SparkApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkApplicationConfig,
-	SparkRApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkRApplicationConfig,
-	SparkSqlApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationTimeouts,
+	PysparkApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationPysparkApplicationConfig,
+	SparkApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkApplicationConfig,
+	SparkRApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkRApplicationConfig,
+	SparkSqlApplicationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationTimeouts,
 	Version: *string,
 }
 ```
@@ -1786,7 +1786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationPysparkApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationPysparkApplicationConfig {
 	MainPythonFileUri: *string,
@@ -1904,7 +1904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationSparkApplicationConfig {
 	ArchiveUris: *[]*string,
@@ -2024,7 +2024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkRApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationSparkRApplicationConfig {
 	MainRFileUri: *string,
@@ -2110,12 +2110,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfig {
 	JarFileUris: *[]*string,
 	QueryFileUri: *string,
-	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStruct,
+	QueryList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStruct,
 	ScriptVariables: *map[string]*string,
 }
 ```
@@ -2192,7 +2192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStruct {
 	Queries: *[]*string,
@@ -2226,7 +2226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 &googledataprocgdcsparkapplication.GoogleDataprocGdcSparkApplicationTimeouts {
 	Create: *string,
@@ -2288,7 +2288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationPysparkApplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationPysparkApplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationPysparkApplicationConfigOutputReference
 ```
@@ -2704,7 +2704,7 @@ func InternalValue() GoogleDataprocGdcSparkApplicationPysparkApplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkApplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationSparkApplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkApplicationConfigOutputReference
 ```
@@ -3127,7 +3127,7 @@ func InternalValue() GoogleDataprocGdcSparkApplicationSparkApplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkRApplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationSparkRApplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkRApplicationConfigOutputReference
 ```
@@ -3485,7 +3485,7 @@ func InternalValue() GoogleDataprocGdcSparkApplicationSparkRApplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigOutputReference
 ```
@@ -3863,7 +3863,7 @@ func InternalValue() GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference
 ```
@@ -4134,7 +4134,7 @@ func InternalValue() GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQ
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocGdcSparkApplication.GoogleDataprocGdcSparkApplicationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocgdcsparkapplication"
 
 googledataprocgdcsparkapplication.NewGoogleDataprocGdcSparkApplicationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroup(scope Construct, id *string, config GoogleComputeNodeGroupConfig) GoogleComputeNodeGroup
 ```
@@ -529,7 +529,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.GoogleComputeNodeGroup_IsConstruct(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.GoogleComputeNodeGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlecomputenodegroup.GoogleComputeNodeGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.GoogleComputeNodeGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -589,7 +589,7 @@ googlecomputenodegroup.GoogleComputeNodeGroup_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.GoogleComputeNodeGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1137,7 +1137,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupAutoscalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupAutoscalingPolicy {
 	MaxNodes: *f64,
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupConfig {
 	Connection: interface{},
@@ -1226,16 +1226,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleco
 	Provisioners: *[]interface{},
 	Name: *string,
 	NodeTemplate: *string,
-	AutoscalingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeNodeGroup.GoogleComputeNodeGroupAutoscalingPolicy,
+	AutoscalingPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeNodeGroup.GoogleComputeNodeGroupAutoscalingPolicy,
 	Description: *string,
 	Id: *string,
 	InitialSize: *f64,
 	MaintenanceInterval: *string,
 	MaintenancePolicy: *string,
-	MaintenanceWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeNodeGroup.GoogleComputeNodeGroupMaintenanceWindow,
+	MaintenanceWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeNodeGroup.GoogleComputeNodeGroupMaintenanceWindow,
 	Project: *string,
-	ShareSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettings,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeNodeGroup.GoogleComputeNodeGroupTimeouts,
+	ShareSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeNodeGroup.GoogleComputeNodeGroupTimeouts,
 	Zone: *string,
 }
 ```
@@ -1532,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupMaintenanceWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupMaintenanceWindow {
 	StartTime: *string,
@@ -1566,7 +1566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupShareSettings {
 	ShareType: *string,
@@ -1616,7 +1616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettingsProjectMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupShareSettingsProjectMap {
 	Id: *string,
@@ -1667,7 +1667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 &googlecomputenodegroup.GoogleComputeNodeGroupTimeouts {
 	Create: *string,
@@ -1729,7 +1729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupAutoscalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupAutoscalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNodeGroupAutoscalingPolicyOutputReference
 ```
@@ -2065,7 +2065,7 @@ func InternalValue() GoogleComputeNodeGroupAutoscalingPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupMaintenanceWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupMaintenanceWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNodeGroupMaintenanceWindowOutputReference
 ```
@@ -2336,7 +2336,7 @@ func InternalValue() GoogleComputeNodeGroupMaintenanceWindow
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupShareSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNodeGroupShareSettingsOutputReference
 ```
@@ -2649,7 +2649,7 @@ func InternalValue() GoogleComputeNodeGroupShareSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettingsProjectMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupShareSettingsProjectMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNodeGroupShareSettingsProjectMapList
 ```
@@ -2809,7 +2809,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupShareSettingsProjectMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupShareSettingsProjectMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNodeGroupShareSettingsProjectMapOutputReference
 ```
@@ -3120,7 +3120,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNodeGroup.GoogleComputeNodeGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputenodegroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenodegroup"
 
 googlecomputenodegroup.NewGoogleComputeNodeGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNodeGroupTimeoutsOutputReference
 ```

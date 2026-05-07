@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJob(scope Construct, id *string, config GoogleBigqueryJobConfig) GoogleBigqueryJob
 ```
@@ -535,7 +535,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.GoogleBigqueryJob_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.GoogleBigqueryJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googlebigqueryjob.GoogleBigqueryJob_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.GoogleBigqueryJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ googlebigqueryjob.GoogleBigqueryJob_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.GoogleBigqueryJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1121,7 +1121,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobConfig {
 	Connection: interface{},
@@ -1132,16 +1132,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	JobId: *string,
-	Copy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobCopy,
-	Extract: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobExtract,
+	Copy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobCopy,
+	Extract: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobExtract,
 	Id: *string,
 	JobTimeoutMs: *string,
 	Labels: *map[string]*string,
-	Load: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobLoad,
+	Load: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobLoad,
 	Location: *string,
 	Project: *string,
-	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobQuery,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobTimeouts,
+	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobQuery,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobTimeouts,
 }
 ```
 
@@ -1403,13 +1403,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobCopy {
 	SourceTables: interface{},
 	CreateDisposition: *string,
-	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration,
-	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTable,
+	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration,
+	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTable,
 	WriteDisposition: *string,
 }
 ```
@@ -1513,7 +1513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration {
 	KmsKeyName: *string,
@@ -1549,7 +1549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobCopyDestinationTable {
 	TableId: *string,
@@ -1615,7 +1615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobCopySourceTables {
 	TableId: *string,
@@ -1681,7 +1681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtract.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobExtract {
 	DestinationUris: *[]*string,
@@ -1689,8 +1689,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 	DestinationFormat: *string,
 	FieldDelimiter: *string,
 	PrintHeader: interface{},
-	SourceModel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobExtractSourceModel,
-	SourceTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobExtractSourceTable,
+	SourceModel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobExtractSourceModel,
+	SourceTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobExtractSourceTable,
 	UseAvroLogicalTypes: interface{},
 }
 ```
@@ -1836,7 +1836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobExtractSourceModel {
 	DatasetId: *string,
@@ -1902,7 +1902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobExtractSourceTable {
 	TableId: *string,
@@ -1968,29 +1968,29 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoad.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobLoad {
-	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTable,
+	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTable,
 	SourceUris: *[]*string,
 	AllowJaggedRows: interface{},
 	AllowQuotedNewlines: interface{},
 	Autodetect: interface{},
 	CreateDisposition: *string,
-	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration,
+	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration,
 	Encoding: *string,
 	FieldDelimiter: *string,
 	IgnoreUnknownValues: interface{},
 	JsonExtension: *string,
 	MaxBadRecords: *f64,
 	NullMarker: *string,
-	ParquetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptions,
+	ParquetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptions,
 	ProjectionFields: *[]*string,
 	Quote: *string,
 	SchemaUpdateOptions: *[]*string,
 	SkipLeadingRows: *f64,
 	SourceFormat: *string,
-	TimePartitioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioning,
+	TimePartitioning: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioning,
 	WriteDisposition: *string,
 }
 ```
@@ -2400,7 +2400,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration {
 	KmsKeyName: *string,
@@ -2436,7 +2436,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobLoadDestinationTable {
 	TableId: *string,
@@ -2502,7 +2502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobLoadParquetOptions {
 	EnableListInference: interface{},
@@ -2552,7 +2552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobLoadTimePartitioning {
 	Type: *string,
@@ -2627,23 +2627,23 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQuery {
 	Query: *string,
 	AllowLargeResults: interface{},
 	Continuous: interface{},
 	CreateDisposition: *string,
-	DefaultDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset,
-	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration,
-	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTable,
+	DefaultDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset,
+	DestinationEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration,
+	DestinationTable: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTable,
 	FlattenResults: interface{},
 	MaximumBillingTier: *f64,
 	MaximumBytesBilled: *string,
 	ParameterMode: *string,
 	Priority: *string,
 	SchemaUpdateOptions: *[]*string,
-	ScriptOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptions,
+	ScriptOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptions,
 	UseLegacySql: interface{},
 	UseQueryCache: interface{},
 	UserDefinedFunctionResources: interface{},
@@ -2976,7 +2976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQueryDefaultDataset {
 	DatasetId: *string,
@@ -3026,7 +3026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration {
 	KmsKeyName: *string,
@@ -3062,7 +3062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQueryDestinationTable {
 	TableId: *string,
@@ -3128,7 +3128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQueryScriptOptions {
 	KeyResultStatement: *string,
@@ -3196,7 +3196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobQueryUserDefinedFunctionResources {
 	InlineCode: *string,
@@ -3248,7 +3248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobStatus {
 
@@ -3261,7 +3261,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResult.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobStatusErrorResult {
 
@@ -3274,7 +3274,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobStatusErrors {
 
@@ -3287,7 +3287,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 &googlebigqueryjob.GoogleBigqueryJobTimeouts {
 	Create: *string,
@@ -3349,7 +3349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference
 ```
@@ -3631,7 +3631,7 @@ func InternalValue() GoogleBigqueryJobCopyDestinationEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobCopyDestinationTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobCopyDestinationTableOutputReference
 ```
@@ -3960,7 +3960,7 @@ func InternalValue() GoogleBigqueryJobCopyDestinationTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobCopyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobCopyOutputReference
 ```
@@ -4386,7 +4386,7 @@ func InternalValue() GoogleBigqueryJobCopy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobCopySourceTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryJobCopySourceTablesList
 ```
@@ -4546,7 +4546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobCopySourceTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryJobCopySourceTablesOutputReference
 ```
@@ -4893,7 +4893,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobExtractOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobExtractOutputReference
 ```
@@ -5393,7 +5393,7 @@ func InternalValue() GoogleBigqueryJobExtract
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobExtractSourceModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobExtractSourceModelOutputReference
 ```
@@ -5708,7 +5708,7 @@ func InternalValue() GoogleBigqueryJobExtractSourceModel
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobExtractSourceTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobExtractSourceTableOutputReference
 ```
@@ -6037,7 +6037,7 @@ func InternalValue() GoogleBigqueryJobExtractSourceTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference
 ```
@@ -6319,7 +6319,7 @@ func InternalValue() GoogleBigqueryJobLoadDestinationEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobLoadDestinationTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobLoadDestinationTableOutputReference
 ```
@@ -6648,7 +6648,7 @@ func InternalValue() GoogleBigqueryJobLoadDestinationTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobLoadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobLoadOutputReference
 ```
@@ -7544,7 +7544,7 @@ func InternalValue() GoogleBigqueryJobLoad
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobLoadParquetOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobLoadParquetOptionsOutputReference
 ```
@@ -7851,7 +7851,7 @@ func InternalValue() GoogleBigqueryJobLoadParquetOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobLoadTimePartitioningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobLoadTimePartitioningOutputReference
 ```
@@ -8180,7 +8180,7 @@ func InternalValue() GoogleBigqueryJobLoadTimePartitioning
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryDefaultDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryDefaultDatasetOutputReference
 ```
@@ -8480,7 +8480,7 @@ func InternalValue() GoogleBigqueryJobQueryDefaultDataset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference
 ```
@@ -8762,7 +8762,7 @@ func InternalValue() GoogleBigqueryJobQueryDestinationEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryDestinationTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryDestinationTableOutputReference
 ```
@@ -9091,7 +9091,7 @@ func InternalValue() GoogleBigqueryJobQueryDestinationTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryOutputReference
 ```
@@ -9920,7 +9920,7 @@ func InternalValue() GoogleBigqueryJobQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryScriptOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryScriptOptionsOutputReference
 ```
@@ -10256,7 +10256,7 @@ func InternalValue() GoogleBigqueryJobQueryScriptOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryUserDefinedFunctionResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryJobQueryUserDefinedFunctionResourcesList
 ```
@@ -10416,7 +10416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference
 ```
@@ -10741,7 +10741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusErrorResultList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryJobStatusErrorResultList
 ```
@@ -10890,7 +10890,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusErrorResultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryJobStatusErrorResultOutputReference
 ```
@@ -11190,7 +11190,7 @@ func InternalValue() GoogleBigqueryJobStatusErrorResult
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusErrorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryJobStatusErrorsList
 ```
@@ -11339,7 +11339,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusErrorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryJobStatusErrorsOutputReference
 ```
@@ -11639,7 +11639,7 @@ func InternalValue() GoogleBigqueryJobStatusErrors
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryJobStatusList
 ```
@@ -11788,7 +11788,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryJobStatusOutputReference
 ```
@@ -12088,7 +12088,7 @@ func InternalValue() GoogleBigqueryJobStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob"
 
 googlebigqueryjob.NewGoogleBigqueryJobTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobTimeoutsOutputReference
 ```

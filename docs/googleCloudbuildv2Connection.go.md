@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2Connection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2Connection(scope Construct, id *string, config GoogleCloudbuildv2ConnectionConfig) GoogleCloudbuildv2Connection
 ```
@@ -548,7 +548,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2Connection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.GoogleCloudbuildv2Connection_IsConstruct(x interface{}) *bool
 ```
@@ -580,7 +580,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2Connection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.GoogleCloudbuildv2Connection_IsTerraformElement(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ googlecloudbuildv2connection.GoogleCloudbuildv2Connection_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2Connection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.GoogleCloudbuildv2Connection_IsTerraformResource(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ googlecloudbuildv2connection.GoogleCloudbuildv2Connection_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2Connection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.GoogleCloudbuildv2Connection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1167,11 +1167,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredential,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
 	Workspace: *string,
 }
@@ -1251,7 +1251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1287,7 +1287,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1323,14 +1323,14 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredential,
 	HostUri: *string,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfig,
 	SslCa: *string,
 }
 ```
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1475,7 +1475,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -1511,7 +1511,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfig {
 	Service: *string,
@@ -1545,7 +1545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionConfig {
 	Connection: interface{},
@@ -1558,15 +1558,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	Location: *string,
 	Name: *string,
 	Annotations: *map[string]*string,
-	BitbucketCloudConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfig,
-	BitbucketDataCenterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfig,
+	BitbucketCloudConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfig,
+	BitbucketDataCenterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfig,
 	Disabled: interface{},
-	GithubConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfig,
-	GithubEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfig,
-	GitlabConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfig,
+	GithubConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfig,
+	GithubEnterpriseConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfig,
+	GitlabConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfig,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionTimeouts,
 }
 ```
 
@@ -1843,11 +1843,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGithubConfig {
 	AppInstallationId: *f64,
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredential,
 }
 ```
 
@@ -1893,7 +1893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredential {
 	OauthTokenSecretVersion: *string,
@@ -1929,7 +1929,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfig {
 	HostUri: *string,
@@ -1937,7 +1937,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 	AppInstallationId: *f64,
 	AppSlug: *string,
 	PrivateKeySecretVersion: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfig,
 	SslCa: *string,
 	WebhookSecretSecretVersion: *string,
 }
@@ -2079,7 +2079,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfig {
 	Service: *string,
@@ -2113,14 +2113,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGitlabConfig {
-	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredential,
-	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredential,
+	AuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredential,
+	ReadAuthorizerCredential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredential,
 	WebhookSecretSecretVersion: *string,
 	HostUri: *string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfig,
 	SslCa: *string,
 }
 ```
@@ -2229,7 +2229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2265,7 +2265,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredential {
 	UserTokenSecretVersion: *string,
@@ -2301,7 +2301,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfig {
 	Service: *string,
@@ -2335,7 +2335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionInstallationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionInstallationState {
 
@@ -2348,7 +2348,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 &googlecloudbuildv2connection.GoogleCloudbuildv2ConnectionTimeouts {
 	Create: *string,
@@ -2410,7 +2410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference
 ```
@@ -2692,7 +2692,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketCloudConfigAuthorizerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketCloudConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketCloudConfigOutputReference
 ```
@@ -3055,7 +3055,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketCloudConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference
 ```
@@ -3337,7 +3337,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketCloudConfigReadAuthori
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference
 ```
@@ -3619,7 +3619,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigAuthor
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketDataCenterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigOutputReference
 ```
@@ -4064,7 +4064,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketDataCenterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference
 ```
@@ -4346,7 +4346,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigReadAu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference
 ```
@@ -4617,7 +4617,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionBitbucketDataCenterConfigServic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredentialOutputReference
 ```
@@ -4906,7 +4906,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGithubConfigAuthorizerCredentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGithubConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGithubConfigOutputReference
 ```
@@ -5226,7 +5226,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGithubConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGithubEnterpriseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGithubEnterpriseConfigOutputReference
 ```
@@ -5713,7 +5713,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGithubEnterpriseConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference
 ```
@@ -5984,7 +5984,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGithubEnterpriseConfigServiceDi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredentialOutputReference
 ```
@@ -6266,7 +6266,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGitlabConfigAuthorizerCredentia
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGitlabConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGitlabConfigOutputReference
 ```
@@ -6718,7 +6718,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGitlabConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCredentialOutputReference
 ```
@@ -7000,7 +7000,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGitlabConfigReadAuthorizerCrede
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryConfigOutputReference
 ```
@@ -7271,7 +7271,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionGitlabConfigServiceDirectoryCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionInstallationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionInstallationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudbuildv2ConnectionInstallationStateList
 ```
@@ -7420,7 +7420,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionInstallationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionInstallationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudbuildv2ConnectionInstallationStateOutputReference
 ```
@@ -7720,7 +7720,7 @@ func InternalValue() GoogleCloudbuildv2ConnectionInstallationState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Connection.GoogleCloudbuildv2ConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2connection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildv2connection"
 
 googlecloudbuildv2connection.NewGoogleCloudbuildv2ConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildv2ConnectionTimeoutsOutputReference
 ```

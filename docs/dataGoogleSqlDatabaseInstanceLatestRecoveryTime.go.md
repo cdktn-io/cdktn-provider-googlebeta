@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 datagooglesqldatabaseinstancelatestrecoverytime.NewDataGoogleSqlDatabaseInstanceLatestRecoveryTime(scope Construct, id *string, config DataGoogleSqlDatabaseInstanceLatestRecoveryTimeConfig) DataGoogleSqlDatabaseInstanceLatestRecoveryTime
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLatestRecoveryTime_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -656,7 +656,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstanceLatestRecoveryTime.DataGoogleSqlDatabaseInstanceLatestRecoveryTimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesqldatabaseinstancelatestrecoverytime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstancelatestrecoverytime"
 
 &datagooglesqldatabaseinstancelatestrecoverytime.DataGoogleSqlDatabaseInstanceLatestRecoveryTimeConfig {
 	Connection: interface{},

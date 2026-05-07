@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListing(scope Construct, id *string, config GoogleBigqueryAnalyticsHubListingConfig) GoogleBigqueryAnalyticsHubListing
 ```
@@ -604,7 +604,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_IsConstruct(x interface{}) *bool
 ```
@@ -636,7 +636,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_IsTerraformElement(x interface{}) *bool
 ```
@@ -650,7 +650,7 @@ googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_IsTerraformResource(x interface{}) *bool
 ```
@@ -664,7 +664,7 @@ googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListing_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1410,7 +1410,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingBigqueryDataset {
 	Dataset: *string,
@@ -1460,7 +1460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResources {
 	Routine: *string,
@@ -1510,7 +1510,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingCommercialInfo {
 
@@ -1523,7 +1523,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplace {
 
@@ -1536,7 +1536,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingConfig {
 	Connection: interface{},
@@ -1551,9 +1551,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 	ListingId: *string,
 	Location: *string,
 	AllowOnlyMetadataSharing: interface{},
-	BigqueryDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDataset,
+	BigqueryDataset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDataset,
 	Categories: *[]*string,
-	DataProvider: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingDataProvider,
+	DataProvider: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingDataProvider,
 	DeleteCommercial: interface{},
 	Description: *string,
 	DiscoveryType: *string,
@@ -1563,11 +1563,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 	LogLinkedDatasetQueryUserEmail: interface{},
 	PrimaryContact: *string,
 	Project: *string,
-	Publisher: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPublisher,
-	PubsubTopic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPubsubTopic,
+	Publisher: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPublisher,
+	PubsubTopic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPubsubTopic,
 	RequestAccess: *string,
-	RestrictedExportConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingRestrictedExportConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingTimeouts,
+	RestrictedExportConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingRestrictedExportConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingTimeouts,
 }
 ```
 
@@ -2003,7 +2003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingDataProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingDataProvider {
 	Name: *string,
@@ -2053,7 +2053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPublisher.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingPublisher {
 	Name: *string,
@@ -2103,7 +2103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPubsubTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingPubsubTopic {
 	Topic: *string,
@@ -2156,7 +2156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingRestrictedExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingRestrictedExportConfig {
 	Enabled: interface{},
@@ -2206,7 +2206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 &googlebigqueryanalyticshublisting.GoogleBigqueryAnalyticsHubListingTimeouts {
 	Create: *string,
@@ -2268,7 +2268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingBigqueryDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingBigqueryDatasetOutputReference
 ```
@@ -2581,7 +2581,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingBigqueryDataset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesList
 ```
@@ -2741,7 +2741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryAnalyticsHubListingBigqueryDatasetSelectedResourcesOutputReference
 ```
@@ -3066,7 +3066,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceList
 ```
@@ -3215,7 +3215,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketplaceOutputReference
 ```
@@ -3504,7 +3504,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingCommercialInfoCloudMarketp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingCommercialInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryAnalyticsHubListingCommercialInfoList
 ```
@@ -3653,7 +3653,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingCommercialInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingCommercialInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryAnalyticsHubListingCommercialInfoOutputReference
 ```
@@ -3931,7 +3931,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingCommercialInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingDataProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingDataProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingDataProviderOutputReference
 ```
@@ -4231,7 +4231,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingDataProvider
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPublisherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingPublisherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingPublisherOutputReference
 ```
@@ -4531,7 +4531,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingPublisher
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingPubsubTopicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingPubsubTopicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingPubsubTopicOutputReference
 ```
@@ -4831,7 +4831,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingPubsubTopic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingRestrictedExportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingRestrictedExportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingRestrictedExportConfigOutputReference
 ```
@@ -5149,7 +5149,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubListingRestrictedExportConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublisting"
 
 googlebigqueryanalyticshublisting.NewGoogleBigqueryAnalyticsHubListingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubListingTimeoutsOutputReference
 ```

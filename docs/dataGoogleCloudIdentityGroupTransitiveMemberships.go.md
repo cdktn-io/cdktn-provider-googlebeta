@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMemberships.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMemberships(scope Construct, id *string, config DataGoogleCloudIdentityGroupTransitiveMembershipsConfig) DataGoogleCloudIdentityGroupTransitiveMemberships
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMemberships.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMemberships_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMemberships.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMemberships_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMemberships.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMemberships_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMemberships.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMemberships_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -627,7 +627,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 &datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMembershipsConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMemberships.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 &datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMemberships {
 
@@ -775,7 +775,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 &datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKey {
 
@@ -788,7 +788,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 &datagooglecloudidentitygrouptransitivememberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRoles {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsList
 ```
@@ -952,7 +952,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsOutputReference
 ```
@@ -1263,7 +1263,7 @@ func InternalValue() DataGoogleCloudIdentityGroupTransitiveMembershipsMembership
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyList
 ```
@@ -1412,7 +1412,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsPreferredMemberKeyOutputReference
 ```
@@ -1701,7 +1701,7 @@ func InternalValue() DataGoogleCloudIdentityGroupTransitiveMembershipsMembership
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesList
 ```
@@ -1850,7 +1850,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupTransitiveMemberships.DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygrouptransitivememberships"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudidentitygrouptransitivememberships"
 
 datagooglecloudidentitygrouptransitivememberships.NewDataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleCloudIdentityGroupTransitiveMembershipsMembershipsRolesOutputReference
 ```

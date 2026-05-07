@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettings(scope Construct, id *string, config GoogleDialogflowCxGenerativeSettingsConfig) GoogleDialogflowCxGenerativeSettings
 ```
@@ -514,7 +514,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_IsConstruct(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -990,7 +990,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsConfig {
 	Connection: interface{},
@@ -1001,13 +1001,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	LanguageCode: *string,
-	FallbackSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettings,
-	GenerativeSafetySettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettings,
+	FallbackSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettings,
+	GenerativeSafetySettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettings,
 	Id: *string,
-	KnowledgeConnectorSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettings,
-	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsLlmModelSettings,
+	KnowledgeConnectorSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettings,
+	LlmModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsLlmModelSettings,
 	Parent: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsTimeouts,
 }
 ```
 
@@ -1221,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsFallbackSettings {
 	PromptTemplates: interface{},
@@ -1271,7 +1271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplates {
 	DisplayName: *string,
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettings {
 	BannedPhrases: interface{},
@@ -1389,7 +1389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrases {
 	LanguageCode: *string,
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettings {
 	Agent: *string,
@@ -1557,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsLlmModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsLlmModelSettings {
 	Model: *string,
@@ -1607,7 +1607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 &googledialogflowcxgenerativesettings.GoogleDialogflowCxGenerativeSettingsTimeouts {
 	Create: *string,
@@ -1669,7 +1669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference
 ```
@@ -1989,7 +1989,7 @@ func InternalValue() GoogleDialogflowCxGenerativeSettingsFallbackSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList
 ```
@@ -2149,7 +2149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesOutputReference
 ```
@@ -2503,7 +2503,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList
 ```
@@ -2663,7 +2663,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesOutputReference
 ```
@@ -2974,7 +2974,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsOutputReference
 ```
@@ -3294,7 +3294,7 @@ func InternalValue() GoogleDialogflowCxGenerativeSettingsGenerativeSafetySetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSettingsOutputReference
 ```
@@ -3717,7 +3717,7 @@ func InternalValue() GoogleDialogflowCxGenerativeSettingsKnowledgeConnectorSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsLlmModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsLlmModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGenerativeSettingsLlmModelSettingsOutputReference
 ```
@@ -4024,7 +4024,7 @@ func InternalValue() GoogleDialogflowCxGenerativeSettingsLlmModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxGenerativeSettings.GoogleDialogflowCxGenerativeSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowcxgenerativesettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxgenerativesettings"
 
 googledialogflowcxgenerativesettings.NewGoogleDialogflowCxGenerativeSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowCxGenerativeSettingsTimeoutsOutputReference
 ```

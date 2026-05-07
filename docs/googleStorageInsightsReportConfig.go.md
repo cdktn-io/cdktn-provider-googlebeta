@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfig(scope Construct, id *string, config GoogleStorageInsightsReportConfigConfig) GoogleStorageInsightsReportConfig
 ```
@@ -521,7 +521,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1019,7 +1019,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigConfig {
 	Connection: interface{},
@@ -1030,14 +1030,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Location: *string,
-	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions,
+	CsvOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions,
 	DisplayName: *string,
-	FrequencyOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions,
+	FrequencyOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions,
 	Id: *string,
-	ObjectMetadataReportOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions,
-	ParquetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptions,
+	ObjectMetadataReportOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions,
+	ParquetOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptions,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts,
 }
 ```
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigCsvOptions {
 	Delimiter: *string,
@@ -1330,12 +1330,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigFrequencyOptions {
-	EndDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsEndDate,
+	EndDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsEndDate,
 	Frequency: *string,
-	StartDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsStartDate,
+	StartDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsStartDate,
 }
 ```
 
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsEndDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigFrequencyOptionsEndDate {
 	Day: *f64,
@@ -1462,7 +1462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsStartDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigFrequencyOptionsStartDate {
 	Day: *f64,
@@ -1528,12 +1528,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptions {
 	MetadataFields: *[]*string,
-	StorageDestinationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptions,
-	StorageFilters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFilters,
+	StorageDestinationOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptions,
+	StorageFilters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFilters,
 }
 ```
 
@@ -1594,7 +1594,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptions {
 	Bucket: *string,
@@ -1644,7 +1644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFilters {
 	Bucket: *string,
@@ -1678,7 +1678,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigParquetOptions {
 
@@ -1691,7 +1691,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 &googlestorageinsightsreportconfig.GoogleStorageInsightsReportConfigTimeouts {
 	Create: *string,
@@ -1753,7 +1753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigCsvOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigCsvOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigCsvOptionsOutputReference
 ```
@@ -2089,7 +2089,7 @@ func InternalValue() GoogleStorageInsightsReportConfigCsvOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsEndDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigFrequencyOptionsEndDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigFrequencyOptionsEndDateOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() GoogleStorageInsightsReportConfigFrequencyOptionsEndDate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigFrequencyOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigFrequencyOptionsOutputReference
 ```
@@ -2745,7 +2745,7 @@ func InternalValue() GoogleStorageInsightsReportConfigFrequencyOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigFrequencyOptionsStartDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigFrequencyOptionsStartDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigFrequencyOptionsStartDateOutputReference
 ```
@@ -3060,7 +3060,7 @@ func InternalValue() GoogleStorageInsightsReportConfigFrequencyOptionsStartDate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigObjectMetadataReportOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigObjectMetadataReportOptionsOutputReference
 ```
@@ -3408,7 +3408,7 @@ func InternalValue() GoogleStorageInsightsReportConfigObjectMetadataReportOption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageDestinationOptionsOutputReference
 ```
@@ -3708,7 +3708,7 @@ func InternalValue() GoogleStorageInsightsReportConfigObjectMetadataReportOption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigObjectMetadataReportOptionsStorageFiltersOutputReference
 ```
@@ -3986,7 +3986,7 @@ func InternalValue() GoogleStorageInsightsReportConfigObjectMetadataReportOption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigParquetOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigParquetOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigParquetOptionsOutputReference
 ```
@@ -4235,7 +4235,7 @@ func InternalValue() GoogleStorageInsightsReportConfigParquetOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageInsightsReportConfig.GoogleStorageInsightsReportConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsreportconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig"
 
 googlestorageinsightsreportconfig.NewGoogleStorageInsightsReportConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageInsightsReportConfigTimeoutsOutputReference
 ```

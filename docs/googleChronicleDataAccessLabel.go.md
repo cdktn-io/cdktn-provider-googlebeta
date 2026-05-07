@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.NewGoogleChronicleDataAccessLabel(scope Construct, id *string, config GoogleChronicleDataAccessLabelConfig) GoogleChronicleDataAccessLabel
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.GoogleChronicleDataAccessLabel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 &googlechronicledataaccesslabel.GoogleChronicleDataAccessLabelConfig {
 	Connection: interface{},
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlech
 	Description: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabelTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabelTimeouts,
 }
 ```
 
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabelTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 &googlechronicledataaccesslabel.GoogleChronicleDataAccessLabelTimeouts {
 	Create: *string,
@@ -1270,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessLabel.GoogleChronicleDataAccessLabelTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlechronicledataaccesslabel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccesslabel"
 
 googlechronicledataaccesslabel.NewGoogleChronicleDataAccessLabelTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataAccessLabelTimeoutsOutputReference
 ```

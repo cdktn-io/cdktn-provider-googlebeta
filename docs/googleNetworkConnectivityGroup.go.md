@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.NewGoogleNetworkConnectivityGroup(scope Construct, id *string, config GoogleNetworkConnectivityGroupConfig) GoogleNetworkConnectivityGroup
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1010,7 +1010,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupAutoAccept.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 &googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroupAutoAccept {
 	AutoAcceptProjects: *[]*string,
@@ -1046,7 +1046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 &googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroupConfig {
 	Connection: interface{},
@@ -1058,12 +1058,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlene
 	Provisioners: *[]interface{},
 	Hub: *string,
 	Name: *string,
-	AutoAccept: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupAutoAccept,
+	AutoAccept: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupAutoAccept,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupTimeouts,
 }
 ```
 
@@ -1278,7 +1278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 &googlenetworkconnectivitygroup.GoogleNetworkConnectivityGroupTimeouts {
 	Create: *string,
@@ -1340,7 +1340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupAutoAcceptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.NewGoogleNetworkConnectivityGroupAutoAcceptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityGroupAutoAcceptOutputReference
 ```
@@ -1611,7 +1611,7 @@ func InternalValue() GoogleNetworkConnectivityGroupAutoAccept
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGroup.GoogleNetworkConnectivityGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkconnectivitygroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitygroup"
 
 googlenetworkconnectivitygroup.NewGoogleNetworkConnectivityGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityGroupTimeoutsOutputReference
 ```

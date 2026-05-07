@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.NewGoogleProjectDefaultServiceAccounts(scope Construct, id *string, config GoogleProjectDefaultServiceAccountsConfig) GoogleProjectDefaultServiceAccounts
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccounts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccounts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccounts.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccounts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccounts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccountsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 &googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccountsConfig {
 	Connection: interface{},
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepr
 	Project: *string,
 	Id: *string,
 	RestorePolicy: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccountsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccountsTimeouts,
 }
 ```
 
@@ -1032,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccountsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 &googleprojectdefaultserviceaccounts.GoogleProjectDefaultServiceAccountsTimeouts {
 	Create: *string,
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectDefaultServiceAccounts.GoogleProjectDefaultServiceAccountsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectdefaultserviceaccounts"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts"
 
 googleprojectdefaultserviceaccounts.NewGoogleProjectDefaultServiceAccountsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleProjectDefaultServiceAccountsTimeoutsOutputReference
 ```

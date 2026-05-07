@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.NewGoogleSccV2OrganizationSourceIamPolicy(scope Construct, id *string, config GoogleSccV2OrganizationSourceIamPolicyConfig) GoogleSccV2OrganizationSourceIamPolicy
 ```
@@ -407,7 +407,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationsourceiampolicy"
 
 &googlesccv2organizationsourceiampolicy.GoogleSccV2OrganizationSourceIamPolicyConfig {
 	Connection: interface{},

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.NewGoogleApihubHostProjectRegistration(scope Construct, id *string, config GoogleApihubHostProjectRegistrationConfig) GoogleApihubHostProjectRegistration
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.GoogleApihubHostProjectRegistration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 &googleapihubhostprojectregistration.GoogleApihubHostProjectRegistrationConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	Location: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistrationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistrationTimeouts,
 }
 ```
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistrationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 &googleapihubhostprojectregistration.GoogleApihubHostProjectRegistrationTimeouts {
 	Create: *string,
@@ -1131,7 +1131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubHostProjectRegistration.GoogleApihubHostProjectRegistrationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubhostprojectregistration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubhostprojectregistration"
 
 googleapihubhostprojectregistration.NewGoogleApihubHostProjectRegistrationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubHostProjectRegistrationTimeoutsOutputReference
 ```

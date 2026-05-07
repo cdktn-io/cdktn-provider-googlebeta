@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.NewGoogleSecureSourceManagerRepositoryIamBinding(scope Construct, id *string, config GoogleSecureSourceManagerRepositoryIamBindingConfig) GoogleSecureSourceManagerRepositoryIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 &googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBindingCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 &googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlese
 	Members: *[]*string,
 	RepositoryId: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.NewGoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference
 ```
