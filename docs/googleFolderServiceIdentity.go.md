@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.NewGoogleFolderServiceIdentity(scope Construct, id *string, config GoogleFolderServiceIdentityConfig) GoogleFolderServiceIdentity
 ```
@@ -427,7 +427,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.GoogleFolderServiceIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.GoogleFolderServiceIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googlefolderserviceidentity.GoogleFolderServiceIdentity_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.GoogleFolderServiceIdentity_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlefolderserviceidentity.GoogleFolderServiceIdentity_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.GoogleFolderServiceIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 &googlefolderserviceidentity.GoogleFolderServiceIdentityConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefo
 	Folder: *string,
 	Service: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts,
 }
 ```
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 &googlefolderserviceidentity.GoogleFolderServiceIdentityTimeouts {
 	Create: *string,
@@ -1051,7 +1051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderserviceidentity"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolderserviceidentity"
 
 googlefolderserviceidentity.NewGoogleFolderServiceIdentityTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFolderServiceIdentityTimeoutsOutputReference
 ```

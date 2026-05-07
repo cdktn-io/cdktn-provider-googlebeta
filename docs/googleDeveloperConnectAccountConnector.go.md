@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.NewGoogleDeveloperConnectAccountConnector(scope Construct, id *string, config GoogleDeveloperConnectAccountConnectorConfig) GoogleDeveloperConnectAccountConnector
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1010,7 +1010,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 &googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnectorConfig {
 	Connection: interface{},
@@ -1026,8 +1026,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlede
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	ProviderOauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorProviderOauthConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorTimeouts,
+	ProviderOauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorProviderOauthConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorTimeouts,
 }
 ```
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorProviderOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 &googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnectorProviderOauthConfig {
 	Scopes: *[]*string,
@@ -1313,7 +1313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 &googledeveloperconnectaccountconnector.GoogleDeveloperConnectAccountConnectorTimeouts {
 	Create: *string,
@@ -1375,7 +1375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorProviderOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.NewGoogleDeveloperConnectAccountConnectorProviderOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectAccountConnectorProviderOauthConfigOutputReference
 ```
@@ -1675,7 +1675,7 @@ func InternalValue() GoogleDeveloperConnectAccountConnectorProviderOauthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDeveloperConnectAccountConnector.GoogleDeveloperConnectAccountConnectorTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectaccountconnector"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledeveloperconnectaccountconnector"
 
 googledeveloperconnectaccountconnector.NewGoogleDeveloperConnectAccountConnectorTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectAccountConnectorTimeoutsOutputReference
 ```

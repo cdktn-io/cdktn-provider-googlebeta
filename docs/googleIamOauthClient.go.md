@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.NewGoogleIamOauthClient(scope Construct, id *string, config GoogleIamOauthClientConfig) GoogleIamOauthClient
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.GoogleIamOauthClient_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.GoogleIamOauthClient_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleiamoauthclient.GoogleIamOauthClient_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.GoogleIamOauthClient_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleiamoauthclient.GoogleIamOauthClient_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.GoogleIamOauthClient_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1059,7 +1059,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 &googleiamoauthclient.GoogleIamOauthClientConfig {
 	Connection: interface{},
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleia
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamOauthClient.GoogleIamOauthClientTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIamOauthClient.GoogleIamOauthClientTimeouts,
 }
 ```
 
@@ -1380,7 +1380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 &googleiamoauthclient.GoogleIamOauthClientTimeouts {
 	Create: *string,
@@ -1442,7 +1442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamoauthclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamoauthclient"
 
 googleiamoauthclient.NewGoogleIamOauthClientTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamOauthClientTimeoutsOutputReference
 ```

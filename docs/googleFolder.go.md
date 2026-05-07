@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolder.GoogleFolder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.NewGoogleFolder(scope Construct, id *string, config GoogleFolderConfig) GoogleFolder
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFolder.GoogleFolder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.GoogleFolder_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFolder.GoogleFolder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.GoogleFolder_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlefolder.GoogleFolder_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFolder.GoogleFolder.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.GoogleFolder_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefolder.GoogleFolder_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFolder.GoogleFolder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.GoogleFolder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFolder.GoogleFolderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 &googlefolder.GoogleFolderConfig {
 	Connection: interface{},
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefo
 	DeletionProtection: interface{},
 	Id: *string,
 	Tags: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleFolder.GoogleFolderTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleFolder.GoogleFolderTimeouts,
 }
 ```
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFolder.GoogleFolderTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 &googlefolder.GoogleFolderTimeouts {
 	Create: *string,
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolder.GoogleFolderTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefolder"
 
 googlefolder.NewGoogleFolderTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFolderTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePool(scope Construct, id *string, config GoogleVertexAiDeploymentResourcePoolConfig) GoogleVertexAiDeploymentResourcePool
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -893,7 +893,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 &googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePoolConfig {
 	Connection: interface{},
@@ -904,11 +904,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleve
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	DedicatedResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResources,
+	DedicatedResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResources,
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolTimeouts,
 }
 ```
 
@@ -1090,10 +1090,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 &googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePoolDedicatedResources {
-	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpec,
+	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpec,
 	MinReplicaCount: *f64,
 	AutoscalingMetricSpecs: interface{},
 	MaxReplicaCount: *f64,
@@ -1176,7 +1176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 &googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecs {
 	MetricName: *string,
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 &googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpec {
 	AcceleratorCount: *f64,
@@ -1294,7 +1294,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 &googlevertexaideploymentresourcepool.GoogleVertexAiDeploymentResourcePoolTimeouts {
 	Create: *string,
@@ -1342,7 +1342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsList
 ```
@@ -1502,7 +1502,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiDeploymentResourcePoolDedicatedResourcesAutoscalingMetricSpecsOutputReference
 ```
@@ -1820,7 +1820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachineSpecOutputReference
 ```
@@ -2156,7 +2156,7 @@ func InternalValue() GoogleVertexAiDeploymentResourcePoolDedicatedResourcesMachi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolDedicatedResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePoolDedicatedResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiDeploymentResourcePoolDedicatedResourcesOutputReference
 ```
@@ -2533,7 +2533,7 @@ func InternalValue() GoogleVertexAiDeploymentResourcePoolDedicatedResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDeploymentResourcePool.GoogleVertexAiDeploymentResourcePoolTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaideploymentresourcepool"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaideploymentresourcepool"
 
 googlevertexaideploymentresourcepool.NewGoogleVertexAiDeploymentResourcePoolTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiDeploymentResourcePoolTimeoutsOutputReference
 ```

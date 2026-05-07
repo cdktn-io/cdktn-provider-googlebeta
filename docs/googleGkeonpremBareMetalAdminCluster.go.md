@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminCluster(scope Construct, id *string, config GoogleGkeonpremBareMetalAdminClusterConfig) GoogleGkeonpremBareMetalAdminCluster
 ```
@@ -655,7 +655,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_IsConstruct(x interface{}) *bool
 ```
@@ -687,7 +687,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -701,7 +701,7 @@ googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -715,7 +715,7 @@ googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1483,7 +1483,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterClusterOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterClusterOperations {
 	EnableApplicationLogs: interface{},
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterConfig {
 	Connection: interface{},
@@ -1531,20 +1531,20 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 	Name: *string,
 	Annotations: *map[string]*string,
 	BareMetalVersion: *string,
-	ClusterOperations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterClusterOperations,
-	ControlPlane: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlane,
+	ClusterOperations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterClusterOperations,
+	ControlPlane: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlane,
 	Description: *string,
 	Id: *string,
-	LoadBalancer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancer,
-	MaintenanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfig,
-	NodeAccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig,
-	NodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeConfig,
+	LoadBalancer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancer,
+	MaintenanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfig,
+	NodeAccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig,
+	NodeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeConfig,
 	Project: *string,
-	Proxy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterProxy,
-	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfig,
-	Storage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorage,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterTimeouts,
+	Proxy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterProxy,
+	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfig,
+	Storage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorage,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterTimeouts,
 }
 ```
 
@@ -1917,10 +1917,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlane.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlane {
-	ControlPlaneNodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfig,
+	ControlPlaneNodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfig,
 	ApiServerArgs: interface{},
 }
 ```
@@ -1967,7 +1967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgs {
 	Argument: *string,
@@ -2017,10 +2017,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfig {
-	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfig,
+	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfig,
 }
 ```
 
@@ -2051,7 +2051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfig {
 	Labels: *map[string]*string,
@@ -2144,7 +2144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigs {
 	Labels: *map[string]*string,
@@ -2205,7 +2205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaints {
 	Effect: *string,
@@ -2271,7 +2271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterFleet {
 
@@ -2284,12 +2284,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancer {
-	PortConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig,
-	VipConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig,
-	ManualLbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig,
+	PortConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig,
+	VipConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig,
+	ManualLbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig,
 }
 ```
 
@@ -2350,7 +2350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfig {
 	Enabled: interface{},
@@ -2384,7 +2384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig {
 	ControlPlaneLoadBalancerPort: *f64,
@@ -2418,7 +2418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig {
 	ControlPlaneVip: *string,
@@ -2452,7 +2452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig {
 	MaintenanceAddressCidrBlocks: *[]*string,
@@ -2490,10 +2490,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfig {
-	IslandModeCidr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr,
+	IslandModeCidr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr,
 }
 ```
 
@@ -2524,7 +2524,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidr {
 	PodAddressCidrBlocks: *[]*string,
@@ -2578,7 +2578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig {
 	LoginUser: *string,
@@ -2612,7 +2612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterNodeConfig {
 	MaxPodsPerNode: *f64,
@@ -2649,7 +2649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterProxy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterProxy {
 	Uri: *string,
@@ -2703,10 +2703,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfig {
-	Authorization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization,
+	Authorization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization,
 }
 ```
 
@@ -2737,7 +2737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorization {
 	AdminUsers: interface{},
@@ -2771,7 +2771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsers {
 	Username: *string,
@@ -2805,7 +2805,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStatus {
 
@@ -2818,7 +2818,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatusConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStatusConditions {
 
@@ -2831,11 +2831,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStorage {
-	LvpNodeMountsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig,
-	LvpShareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig,
+	LvpNodeMountsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig,
+	LvpShareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig,
 }
 ```
 
@@ -2881,7 +2881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfig {
 	Path: *string,
@@ -2931,10 +2931,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig {
-	LvpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfig,
+	LvpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfig,
 	SharedPathPvCount: *f64,
 }
 ```
@@ -2981,7 +2981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfig {
 	Path: *string,
@@ -3031,7 +3031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterTimeouts {
 	Create: *string,
@@ -3091,7 +3091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterValidationCheck {
 
@@ -3104,7 +3104,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatus {
 
@@ -3117,7 +3117,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResult.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 &googlegkeonprembaremetaladmincluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResult {
 
@@ -3132,7 +3132,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegk
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterClusterOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterClusterOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterClusterOperationsOutputReference
 ```
@@ -3410,7 +3410,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterClusterOperations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsList
 ```
@@ -3570,7 +3570,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneApiServerArgsOutputReference
 ```
@@ -3881,7 +3881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsList
 ```
@@ -4041,7 +4041,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigNodeConfigsOutputReference
 ```
@@ -4366,7 +4366,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigOutputReference
 ```
@@ -4757,7 +4757,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlan
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsList
 ```
@@ -4917,7 +4917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigNodePoolConfigTaintsOutputReference
 ```
@@ -5271,7 +5271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlaneNodePoolConfigOutputReference
 ```
@@ -5555,7 +5555,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterControlPlaneControlPlan
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterControlPlaneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterControlPlaneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterControlPlaneOutputReference
 ```
@@ -5881,7 +5881,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterControlPlane
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterFleetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterFleetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterFleetList
 ```
@@ -6030,7 +6030,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterFleetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterFleetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterFleetOutputReference
 ```
@@ -6308,7 +6308,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterFleet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbConfigOutputReference
 ```
@@ -6579,7 +6579,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterLoadBalancerManualLbCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterLoadBalancerOutputReference
 ```
@@ -6940,7 +6940,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfigOutputReference
 ```
@@ -7211,7 +7211,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterLoadBalancerPortConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfigOutputReference
 ```
@@ -7482,7 +7482,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterLoadBalancerVipConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterMaintenanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterMaintenanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterMaintenanceConfigOutputReference
 ```
@@ -7753,7 +7753,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterMaintenanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandModeCidrOutputReference
 ```
@@ -8046,7 +8046,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterNetworkConfigIslandMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterNetworkConfigOutputReference
 ```
@@ -8337,7 +8337,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterNodeAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterNodeAccessConfigOutputReference
 ```
@@ -8615,7 +8615,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterNodeAccessConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterNodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterNodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterNodeConfigOutputReference
 ```
@@ -8893,7 +8893,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterNodeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterProxyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterProxyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterProxyOutputReference
 ```
@@ -9193,7 +9193,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterProxy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersList
 ```
@@ -9353,7 +9353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationAdminUsersOutputReference
 ```
@@ -9642,7 +9642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthorizationOutputReference
 ```
@@ -9926,7 +9926,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterSecurityConfigAuthoriza
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterSecurityConfigOutputReference
 ```
@@ -10217,7 +10217,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterSecurityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatusConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStatusConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterStatusConditionsList
 ```
@@ -10366,7 +10366,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatusConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStatusConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterStatusConditionsOutputReference
 ```
@@ -10688,7 +10688,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStatusConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterStatusList
 ```
@@ -10837,7 +10837,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterStatusOutputReference
 ```
@@ -11126,7 +11126,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsConfigOutputReference
 ```
@@ -11419,7 +11419,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStorageLvpNodeMountsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLvpConfigOutputReference
 ```
@@ -11712,7 +11712,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigLv
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfigOutputReference
 ```
@@ -12025,7 +12025,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStorageLvpShareConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterStorageOutputReference
 ```
@@ -12344,7 +12344,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremBareMetalAdminClusterTimeoutsOutputReference
 ```
@@ -12680,7 +12680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckList
 ```
@@ -12829,7 +12829,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckOutputReference
 ```
@@ -13129,7 +13129,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterValidationCheck
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusList
 ```
@@ -13278,7 +13278,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusOutputReference
 ```
@@ -13556,7 +13556,7 @@ func InternalValue() GoogleGkeonpremBareMetalAdminClusterValidationCheckStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultList
 ```
@@ -13705,7 +13705,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeonpremBareMetalAdminCluster.GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetaladmincluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonprembaremetaladmincluster"
 
 googlegkeonprembaremetaladmincluster.NewGoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeonpremBareMetalAdminClusterValidationCheckStatusResultOutputReference
 ```

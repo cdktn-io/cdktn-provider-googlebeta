@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.NewGoogleServiceAccount(scope Construct, id *string, config GoogleServiceAccountConfig) GoogleServiceAccount
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.GoogleServiceAccount_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.GoogleServiceAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleserviceaccount.GoogleServiceAccount_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.GoogleServiceAccount_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleserviceaccount.GoogleServiceAccount_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.GoogleServiceAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -971,7 +971,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 &googleserviceaccount.GoogleServiceAccountConfig {
 	Connection: interface{},
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlese
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleServiceAccount.GoogleServiceAccountTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleServiceAccount.GoogleServiceAccountTimeouts,
 }
 ```
 
@@ -1204,7 +1204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccountTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 &googleserviceaccount.GoogleServiceAccountTimeouts {
 	Create: *string,
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccountTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount"
 
 googleserviceaccount.NewGoogleServiceAccountTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleServiceAccountTimeoutsOutputReference
 ```

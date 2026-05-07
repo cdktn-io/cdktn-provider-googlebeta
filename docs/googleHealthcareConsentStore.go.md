@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.NewGoogleHealthcareConsentStore(scope Construct, id *string, config GoogleHealthcareConsentStoreConfig) GoogleHealthcareConsentStore
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.GoogleHealthcareConsentStore_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.GoogleHealthcareConsentStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlehealthcareconsentstore.GoogleHealthcareConsentStore_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.GoogleHealthcareConsentStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlehealthcareconsentstore.GoogleHealthcareConsentStore_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.GoogleHealthcareConsentStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 &googlehealthcareconsentstore.GoogleHealthcareConsentStoreConfig {
 	Connection: interface{},
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehe
 	EnableConsentCreateOnUpdate: interface{},
 	Id: *string,
 	Labels: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts,
 }
 ```
 
@@ -1146,7 +1146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 &googlehealthcareconsentstore.GoogleHealthcareConsentStoreTimeouts {
 	Create: *string,
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlehealthcareconsentstore"
 
 googlehealthcareconsentstore.NewGoogleHealthcareConsentStoreTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareConsentStoreTimeoutsOutputReference
 ```

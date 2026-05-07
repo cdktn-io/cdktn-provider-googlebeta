@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.NewGoogleArtifactRegistryVpcscConfig(scope Construct, id *string, config GoogleArtifactRegistryVpcscConfigConfig) GoogleArtifactRegistryVpcscConfig
 ```
@@ -448,7 +448,7 @@ func ResetVpcscPolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -858,7 +858,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 &googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfigConfig {
 	Connection: interface{},
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlear
 	Id: *string,
 	Location: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfigTimeouts,
 	VpcscPolicy: *string,
 }
 ```
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 &googleartifactregistryvpcscconfig.GoogleArtifactRegistryVpcscConfigTimeouts {
 	Create: *string,
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryVpcscConfig.GoogleArtifactRegistryVpcscConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleartifactregistryvpcscconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig"
 
 googleartifactregistryvpcscconfig.NewGoogleArtifactRegistryVpcscConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleArtifactRegistryVpcscConfigTimeoutsOutputReference
 ```

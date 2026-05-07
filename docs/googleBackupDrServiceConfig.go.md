@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.NewGoogleBackupDrServiceConfig(scope Construct, id *string, config GoogleBackupDrServiceConfigConfig) GoogleBackupDrServiceConfig
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.GoogleBackupDrServiceConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -833,7 +833,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 &googlebackupdrserviceconfig.GoogleBackupDrServiceConfigConfig {
 	Connection: interface{},
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleba
 	ResourceType: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrServiceConfig.GoogleBackupDrServiceConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBackupDrServiceConfig.GoogleBackupDrServiceConfigTimeouts,
 }
 ```
 
@@ -1014,7 +1014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 &googlebackupdrserviceconfig.GoogleBackupDrServiceConfigTimeouts {
 	Create: *string,
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrServiceConfig.GoogleBackupDrServiceConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrserviceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebackupdrserviceconfig"
 
 googlebackupdrserviceconfig.NewGoogleBackupDrServiceConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrServiceConfigTimeoutsOutputReference
 ```

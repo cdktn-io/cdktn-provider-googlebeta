@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJob(scope Construct, id *string, config GoogleStorageTransferJobConfig) GoogleStorageTransferJob
 ```
@@ -548,7 +548,7 @@ func ResetTransferSpec()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.GoogleStorageTransferJob_IsConstruct(x interface{}) *bool
 ```
@@ -580,7 +580,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.GoogleStorageTransferJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ googlestoragetransferjob.GoogleStorageTransferJob_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.GoogleStorageTransferJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ googlestoragetransferjob.GoogleStorageTransferJob_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.GoogleStorageTransferJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1112,7 +1112,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobConfig {
 	Connection: interface{},
@@ -1123,16 +1123,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
-	EventStream: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobEventStream,
+	EventStream: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobEventStream,
 	Id: *string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobLoggingConfig,
 	Name: *string,
-	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobNotificationConfig,
+	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobNotificationConfig,
 	Project: *string,
-	ReplicationSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpec,
-	Schedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobSchedule,
+	ReplicationSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpec,
+	Schedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobSchedule,
 	Status: *string,
-	TransferSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpec,
+	TransferSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpec,
 }
 ```
 
@@ -1393,7 +1393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobEventStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobEventStream {
 	Name: *string,
@@ -1463,7 +1463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobLoggingConfig {
 	EnableOnPremGcsTransferLogs: interface{},
@@ -1529,7 +1529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobNotificationConfig {
 	PayloadFormat: *string,
@@ -1597,13 +1597,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpec {
-	GcsDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSink,
-	GcsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSource,
-	ObjectConditions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecObjectConditions,
-	TransferOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptions,
+	GcsDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSink,
+	GcsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSource,
+	ObjectConditions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecObjectConditions,
+	TransferOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptions,
 }
 ```
 
@@ -1679,7 +1679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpecGcsDataSink {
 	BucketName: *string,
@@ -1729,7 +1729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpecGcsDataSource {
 	BucketName: *string,
@@ -1779,7 +1779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecObjectConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpecObjectConditions {
 	ExcludePrefixes: *[]*string,
@@ -1899,12 +1899,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpecTransferOptions {
 	DeleteObjectsFromSourceAfterTransfer: interface{},
 	DeleteObjectsUniqueInSink: interface{},
-	MetadataOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions,
+	MetadataOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions,
 	OverwriteObjectsAlreadyExistingInSink: interface{},
 	OverwriteWhen: *string,
 }
@@ -2001,7 +2001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions {
 	Acl: *string,
@@ -2163,13 +2163,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobSchedule {
-	ScheduleStartDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleStartDate,
+	ScheduleStartDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleStartDate,
 	RepeatInterval: *string,
-	ScheduleEndDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleEndDate,
-	StartTimeOfDay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobScheduleStartTimeOfDay,
+	ScheduleEndDate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleEndDate,
+	StartTimeOfDay: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobScheduleStartTimeOfDay,
 }
 ```
 
@@ -2247,7 +2247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleEndDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobScheduleScheduleEndDate {
 	Day: *f64,
@@ -2313,7 +2313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleStartDate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobScheduleScheduleStartDate {
 	Day: *f64,
@@ -2379,7 +2379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleStartTimeOfDay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobScheduleStartTimeOfDay {
 	Hours: *f64,
@@ -2461,21 +2461,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpec {
-	AwsS3DataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSource,
-	AzureBlobStorageDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource,
-	GcsDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSink,
-	GcsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSource,
-	HdfsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHdfsDataSource,
-	HttpDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHttpDataSource,
-	ObjectConditions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecObjectConditions,
-	PosixDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSink,
-	PosixDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSource,
+	AwsS3DataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSource,
+	AzureBlobStorageDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource,
+	GcsDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSink,
+	GcsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSource,
+	HdfsDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHdfsDataSource,
+	HttpDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHttpDataSource,
+	ObjectConditions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecObjectConditions,
+	PosixDataSink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSink,
+	PosixDataSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSource,
 	SinkAgentPoolName: *string,
 	SourceAgentPoolName: *string,
-	TransferOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptions,
+	TransferOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptions,
 }
 ```
 
@@ -2671,11 +2671,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecAwsS3DataSource {
 	BucketName: *string,
-	AwsAccessKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey,
+	AwsAccessKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey,
 	CloudfrontDomain: *string,
 	ManagedPrivateNetwork: interface{},
 	Path: *string,
@@ -2789,7 +2789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey {
 	AccessKeyId: *string,
@@ -2839,14 +2839,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource {
 	Container: *string,
 	StorageAccount: *string,
-	AzureCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials,
+	AzureCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials,
 	CredentialsSecret: *string,
-	FederatedIdentityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig,
+	FederatedIdentityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig,
 	Path: *string,
 }
 ```
@@ -2957,7 +2957,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials {
 	SasToken: *string,
@@ -2991,7 +2991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig {
 	ClientId: *string,
@@ -3041,7 +3041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecGcsDataSink {
 	BucketName: *string,
@@ -3091,7 +3091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecGcsDataSource {
 	BucketName: *string,
@@ -3141,7 +3141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHdfsDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecHdfsDataSource {
 	Path: *string,
@@ -3175,7 +3175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHttpDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecHttpDataSource {
 	ListUrl: *string,
@@ -3211,7 +3211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecObjectConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecObjectConditions {
 	ExcludePrefixes: *[]*string,
@@ -3331,7 +3331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecPosixDataSink {
 	RootDirectory: *string,
@@ -3365,7 +3365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecPosixDataSource {
 	RootDirectory: *string,
@@ -3399,12 +3399,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecTransferOptions {
 	DeleteObjectsFromSourceAfterTransfer: interface{},
 	DeleteObjectsUniqueInSink: interface{},
-	MetadataOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions,
+	MetadataOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions,
 	OverwriteObjectsAlreadyExistingInSink: interface{},
 	OverwriteWhen: *string,
 }
@@ -3501,7 +3501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 &googlestoragetransferjob.GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions {
 	Acl: *string,
@@ -3665,7 +3665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobEventStreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobEventStreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobEventStreamOutputReference
 ```
@@ -3994,7 +3994,7 @@ func InternalValue() GoogleStorageTransferJobEventStream
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobLoggingConfigOutputReference
 ```
@@ -4330,7 +4330,7 @@ func InternalValue() GoogleStorageTransferJobLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobNotificationConfigOutputReference
 ```
@@ -4652,7 +4652,7 @@ func InternalValue() GoogleStorageTransferJobNotificationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference
 ```
@@ -4952,7 +4952,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpecGcsDataSink
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference
 ```
@@ -5252,7 +5252,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpecGcsDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference
 ```
@@ -5675,7 +5675,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpecObjectConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecOutputReference
 ```
@@ -6092,7 +6092,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference
 ```
@@ -6602,7 +6602,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpecTransferOptionsMetad
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference
 ```
@@ -7009,7 +7009,7 @@ func InternalValue() GoogleStorageTransferJobReplicationSpecTransferOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobScheduleOutputReference
 ```
@@ -7406,7 +7406,7 @@ func InternalValue() GoogleStorageTransferJobSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleEndDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobScheduleScheduleEndDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobScheduleScheduleEndDateOutputReference
 ```
@@ -7721,7 +7721,7 @@ func InternalValue() GoogleStorageTransferJobScheduleScheduleEndDate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleScheduleStartDateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobScheduleScheduleStartDateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobScheduleScheduleStartDateOutputReference
 ```
@@ -8036,7 +8036,7 @@ func InternalValue() GoogleStorageTransferJobScheduleScheduleStartDate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobScheduleStartTimeOfDayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference
 ```
@@ -8373,7 +8373,7 @@ func InternalValue() GoogleStorageTransferJobScheduleStartTimeOfDay
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference
 ```
@@ -8666,7 +8666,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAcces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference
 ```
@@ -9095,7 +9095,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecAwsS3DataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference
 ```
@@ -9366,7 +9366,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference
 ```
@@ -9659,7 +9659,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference
 ```
@@ -10094,7 +10094,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference
 ```
@@ -10394,7 +10394,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecGcsDataSink
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference
 ```
@@ -10694,7 +10694,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecGcsDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference
 ```
@@ -10965,7 +10965,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecHdfsDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference
 ```
@@ -11236,7 +11236,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecHttpDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecObjectConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference
 ```
@@ -11659,7 +11659,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecObjectConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecOutputReference
 ```
@@ -12386,7 +12386,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference
 ```
@@ -12657,7 +12657,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecPosixDataSink
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference
 ```
@@ -12928,7 +12928,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecPosixDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference
 ```
@@ -13438,7 +13438,7 @@ func InternalValue() GoogleStorageTransferJobTransferSpecTransferOptionsMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferJob.GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferjob"
 
 googlestoragetransferjob.NewGoogleStorageTransferJobTransferSpecTransferOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.NewGoogleKmsKeyHandle(scope Construct, id *string, config GoogleKmsKeyHandleConfig) GoogleKmsKeyHandle
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.GoogleKmsKeyHandle_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.GoogleKmsKeyHandle_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlekmskeyhandle.GoogleKmsKeyHandle_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.GoogleKmsKeyHandle_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlekmskeyhandle.GoogleKmsKeyHandle_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.GoogleKmsKeyHandle_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 &googlekmskeyhandle.GoogleKmsKeyHandleConfig {
 	Connection: interface{},
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekm
 	ResourceTypeSelector: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleKmsKeyHandle.GoogleKmsKeyHandleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleKmsKeyHandle.GoogleKmsKeyHandleTimeouts,
 }
 ```
 
@@ -1063,7 +1063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 &googlekmskeyhandle.GoogleKmsKeyHandleTimeouts {
 	Create: *string,
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmskeyhandle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle"
 
 googlekmskeyhandle.NewGoogleKmsKeyHandleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsKeyHandleTimeoutsOutputReference
 ```

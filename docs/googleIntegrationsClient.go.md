@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.NewGoogleIntegrationsClient(scope Construct, id *string, config GoogleIntegrationsClientConfig) GoogleIntegrationsClient
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.GoogleIntegrationsClient_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.GoogleIntegrationsClient_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleintegrationsclient.GoogleIntegrationsClient_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.GoogleIntegrationsClient_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleintegrationsclient.GoogleIntegrationsClient_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.GoogleIntegrationsClient_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -911,7 +911,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 &googleintegrationsclient.GoogleIntegrationsClientCloudKmsConfig {
 	Key: *string,
@@ -1024,7 +1024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 &googleintegrationsclient.GoogleIntegrationsClientConfig {
 	Connection: interface{},
@@ -1035,12 +1035,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlein
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Location: *string,
-	CloudKmsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfig,
+	CloudKmsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfig,
 	CreateSampleIntegrations: interface{},
 	Id: *string,
 	Project: *string,
 	RunAsServiceAccount: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIntegrationsClient.GoogleIntegrationsClientTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleIntegrationsClient.GoogleIntegrationsClientTimeouts,
 }
 ```
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 &googleintegrationsclient.GoogleIntegrationsClientTimeouts {
 	Create: *string,
@@ -1285,7 +1285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.NewGoogleIntegrationsClientCloudKmsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsClientCloudKmsConfigOutputReference
 ```
@@ -1658,7 +1658,7 @@ func InternalValue() GoogleIntegrationsClientCloudKmsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsclient"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleintegrationsclient"
 
 googleintegrationsclient.NewGoogleIntegrationsClientTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsClientTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 datagooglevertexaifeaturestoreentitytypeiampolicy.NewDataGoogleVertexAiFeaturestoreEntitytypeIamPolicy(scope Construct, id *string, config DataGoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig) DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestore
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestore
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -660,7 +660,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleVertexAiFeaturestoreEntitytypeIamPolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglevertexaifeaturestoreentitytypeiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevertexaifeaturestoreentitytypeiampolicy"
 
 &datagooglevertexaifeaturestoreentitytypeiampolicy.DataGoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig {
 	Connection: interface{},

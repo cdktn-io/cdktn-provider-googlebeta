@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.NewGoogleDataformRepository(scope Construct, id *string, config GoogleDataformRepositoryConfig) GoogleDataformRepository
 ```
@@ -523,7 +523,7 @@ func ResetWorkspaceCompilationOverrides()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.GoogleDataformRepository_IsConstruct(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.GoogleDataformRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googledataformrepository.GoogleDataformRepository_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.GoogleDataformRepository_IsTerraformResource(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ googledataformrepository.GoogleDataformRepository_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.GoogleDataformRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1120,7 +1120,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 &googledataformrepository.GoogleDataformRepositoryConfig {
 	Connection: interface{},
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Name: *string,
 	DeletionPolicy: *string,
 	DisplayName: *string,
-	GitRemoteSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettings,
+	GitRemoteSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettings,
 	Id: *string,
 	KmsKeyName: *string,
 	Labels: *map[string]*string,
@@ -1141,8 +1141,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	Project: *string,
 	Region: *string,
 	ServiceAccount: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataformRepository.GoogleDataformRepositoryTimeouts,
-	WorkspaceCompilationOverrides: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverrides,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepository.GoogleDataformRepositoryTimeouts,
+	WorkspaceCompilationOverrides: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverrides,
 }
 ```
 
@@ -1444,13 +1444,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 &googledataformrepository.GoogleDataformRepositoryGitRemoteSettings {
 	DefaultBranch: *string,
 	Url: *string,
 	AuthenticationTokenSecretVersion: *string,
-	SshAuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig,
+	SshAuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig,
 }
 ```
 
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 &googledataformrepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig {
 	HostPublicKey: *string,
@@ -1584,7 +1584,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 &googledataformrepository.GoogleDataformRepositoryTimeouts {
 	Create: *string,
@@ -1644,7 +1644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 &googledataformrepository.GoogleDataformRepositoryWorkspaceCompilationOverrides {
 	DefaultDatabase: *string,
@@ -1712,7 +1712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.NewGoogleDataformRepositoryGitRemoteSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryGitRemoteSettingsOutputReference
 ```
@@ -2087,7 +2087,7 @@ func InternalValue() GoogleDataformRepositoryGitRemoteSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.NewGoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference
 ```
@@ -2380,7 +2380,7 @@ func InternalValue() GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.NewGoogleDataformRepositoryTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryTimeoutsOutputReference
 ```
@@ -2716,7 +2716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataformrepository"
 
 googledataformrepository.NewGoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference
 ```

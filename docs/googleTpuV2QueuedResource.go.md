@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResource(scope Construct, id *string, config GoogleTpuV2QueuedResourceConfig) GoogleTpuV2QueuedResource
 ```
@@ -461,7 +461,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.GoogleTpuV2QueuedResource_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.GoogleTpuV2QueuedResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googletpuv2queuedresource.GoogleTpuV2QueuedResource_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.GoogleTpuV2QueuedResource_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googletpuv2queuedresource.GoogleTpuV2QueuedResource_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.GoogleTpuV2QueuedResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -882,7 +882,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceConfig {
 	Connection: interface{},
@@ -895,8 +895,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletp
 	Name: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTimeouts,
-	Tpu: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpu,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTimeouts,
+	Tpu: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpu,
 	Zone: *string,
 }
 ```
@@ -1079,7 +1079,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceTimeouts {
 	Create: *string,
@@ -1125,7 +1125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpu.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceTpu {
 	NodeSpec: interface{},
@@ -1159,10 +1159,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceTpuNodeSpec {
-	NodeAttribute: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNode,
+	NodeAttribute: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNode,
 	Parent: *string,
 	NodeId: *string,
 }
@@ -1225,13 +1225,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceTpuNodeSpecNode {
 	RuntimeVersion: *string,
 	AcceleratorType: *string,
 	Description: *string,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfig,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfig,
 }
 ```
 
@@ -1307,7 +1307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 &googletpuv2queuedresource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfig {
 	CanIpForward: interface{},
@@ -1418,7 +1418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTpuV2QueuedResourceTimeoutsOutputReference
 ```
@@ -1725,7 +1725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTpuNodeSpecList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleTpuV2QueuedResourceTpuNodeSpecList
 ```
@@ -1885,7 +1885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfigOutputReference
 ```
@@ -2279,7 +2279,7 @@ func InternalValue() GoogleTpuV2QueuedResourceTpuNodeSpecNodeNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecNodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTpuNodeSpecNodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTpuV2QueuedResourceTpuNodeSpecNodeOutputReference
 ```
@@ -2650,7 +2650,7 @@ func InternalValue() GoogleTpuV2QueuedResourceTpuNodeSpecNode
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference
 ```
@@ -3003,7 +3003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2QueuedResource.GoogleTpuV2QueuedResourceTpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource"
 
 googletpuv2queuedresource.NewGoogleTpuV2QueuedResourceTpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTpuV2QueuedResourceTpuOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloper(scope Construct, id *string, config GoogleApigeeDeveloperConfig) GoogleApigeeDeveloper
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -956,7 +956,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperAttributes {
 	Name: *string,
@@ -1006,7 +1006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperConfig {
 	Connection: interface{},
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	UserName: *string,
 	Attributes: interface{},
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts,
 }
 ```
 
@@ -1239,7 +1239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperTimeouts {
 	Create: *string,
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeDeveloperAttributesList
 ```
@@ -1461,7 +1461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeDeveloperAttributesOutputReference
 ```
@@ -1786,7 +1786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeDeveloperTimeoutsOutputReference
 ```

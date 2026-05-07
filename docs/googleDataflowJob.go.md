@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.NewGoogleDataflowJob(scope Construct, id *string, config GoogleDataflowJobConfig) GoogleDataflowJob
 ```
@@ -546,7 +546,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.GoogleDataflowJob_IsConstruct(x interface{}) *bool
 ```
@@ -578,7 +578,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.GoogleDataflowJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -592,7 +592,7 @@ googledataflowjob.GoogleDataflowJob_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.GoogleDataflowJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -606,7 +606,7 @@ googledataflowjob.GoogleDataflowJob_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.GoogleDataflowJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1374,7 +1374,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 &googledataflowjob.GoogleDataflowJobConfig {
 	Connection: interface{},
@@ -1403,7 +1403,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleda
 	ServiceAccountEmail: *string,
 	SkipWaitOnJobTermination: interface{},
 	Subnetwork: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataflowJob.GoogleDataflowJobTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataflowJob.GoogleDataflowJobTimeouts,
 	TransformNameMapping: *map[string]*string,
 	Zone: *string,
 }
@@ -1836,7 +1836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 &googledataflowjob.GoogleDataflowJobTimeouts {
 	Update: *string,
@@ -1870,7 +1870,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob"
 
 googledataflowjob.NewGoogleDataflowJobTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataflowJobTimeoutsOutputReference
 ```

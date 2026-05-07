@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 googlecomputeinstantsnapshotiampolicy.NewGoogleComputeInstantSnapshotIamPolicy(scope Construct, id *string, config GoogleComputeInstantSnapshotIamPolicyConfig) GoogleComputeInstantSnapshotIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstantsnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstantsnapshotiampolicy"
 
 &googlecomputeinstantsnapshotiampolicy.GoogleComputeInstantSnapshotIamPolicyConfig {
 	Connection: interface{},

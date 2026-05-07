@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.NewGoogleBigtableSchemaBundle(scope Construct, id *string, config GoogleBigtableSchemaBundleConfig) GoogleBigtableSchemaBundle
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.GoogleBigtableSchemaBundle_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.GoogleBigtableSchemaBundle_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlebigtableschemabundle.GoogleBigtableSchemaBundle_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.GoogleBigtableSchemaBundle_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlebigtableschemabundle.GoogleBigtableSchemaBundle_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.GoogleBigtableSchemaBundle_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -944,7 +944,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 &googlebigtableschemabundle.GoogleBigtableSchemaBundleConfig {
 	Connection: interface{},
@@ -954,14 +954,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ProtoSchema: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchema,
+	ProtoSchema: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchema,
 	SchemaBundleId: *string,
 	Id: *string,
 	IgnoreWarnings: interface{},
 	Instance: *string,
 	Project: *string,
 	Table: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeouts,
 }
 ```
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 &googlebigtableschemabundle.GoogleBigtableSchemaBundleProtoSchema {
 	ProtoDescriptors: *string,
@@ -1207,7 +1207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 &googlebigtableschemabundle.GoogleBigtableSchemaBundleTimeouts {
 	Create: *string,
@@ -1269,7 +1269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.NewGoogleBigtableSchemaBundleProtoSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigtableSchemaBundleProtoSchemaOutputReference
 ```
@@ -1540,7 +1540,7 @@ func InternalValue() GoogleBigtableSchemaBundleProtoSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigtableschemabundle"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableschemabundle"
 
 googlebigtableschemabundle.NewGoogleBigtableSchemaBundleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigtableSchemaBundleTimeoutsOutputReference
 ```

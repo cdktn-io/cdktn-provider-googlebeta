@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.NewGoogleSpannerDatabase(scope Construct, id *string, config GoogleSpannerDatabaseConfig) GoogleSpannerDatabase
 ```
@@ -496,7 +496,7 @@ func ResetVersionRetentionPeriod()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.GoogleSpannerDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.GoogleSpannerDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlespannerdatabase.GoogleSpannerDatabase_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.GoogleSpannerDatabase_IsTerraformResource(x interface{}) *bool
 ```
@@ -556,7 +556,7 @@ googlespannerdatabase.GoogleSpannerDatabase_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.GoogleSpannerDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1060,7 +1060,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 &googlespannerdatabase.GoogleSpannerDatabaseConfig {
 	Connection: interface{},
@@ -1077,10 +1077,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesp
 	DefaultTimeZone: *string,
 	DeletionProtection: interface{},
 	EnableDropProtection: interface{},
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfig,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSpannerDatabase.GoogleSpannerDatabaseTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSpannerDatabase.GoogleSpannerDatabaseTimeouts,
 	VersionRetentionPeriod: *string,
 }
 ```
@@ -1387,7 +1387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 &googlespannerdatabase.GoogleSpannerDatabaseEncryptionConfig {
 	KmsKeyName: *string,
@@ -1443,7 +1443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 &googlespannerdatabase.GoogleSpannerDatabaseTimeouts {
 	Create: *string,
@@ -1505,7 +1505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.NewGoogleSpannerDatabaseEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerDatabaseEncryptionConfigOutputReference
 ```
@@ -1812,7 +1812,7 @@ func InternalValue() GoogleSpannerDatabaseEncryptionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlespannerdatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabase"
 
 googlespannerdatabase.NewGoogleSpannerDatabaseTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerDatabaseTimeoutsOutputReference
 ```

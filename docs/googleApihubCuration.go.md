@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCuration(scope Construct, id *string, config GoogleApihubCurationConfig) GoogleApihubCuration
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.GoogleApihubCuration_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.GoogleApihubCuration_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googleapihubcuration.GoogleApihubCuration_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.GoogleApihubCuration_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleapihubcuration.GoogleApihubCuration_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.GoogleApihubCuration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -996,7 +996,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 &googleapihubcuration.GoogleApihubCurationConfig {
 	Connection: interface{},
@@ -1008,12 +1008,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	Provisioners: *[]interface{},
 	CurationId: *string,
 	DisplayName: *string,
-	Endpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubCuration.GoogleApihubCurationEndpoint,
+	Endpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubCuration.GoogleApihubCurationEndpoint,
 	Location: *string,
 	Description: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubCuration.GoogleApihubCurationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubCuration.GoogleApihubCurationTimeouts,
 }
 ```
 
@@ -1235,10 +1235,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 &googleapihubcuration.GoogleApihubCurationEndpoint {
-	ApplicationIntegrationEndpointDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails,
+	ApplicationIntegrationEndpointDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails,
 }
 ```
 
@@ -1269,7 +1269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 &googleapihubcuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails {
 	TriggerId: *string,
@@ -1321,7 +1321,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 &googleapihubcuration.GoogleApihubCurationPluginInstanceActions {
 
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 &googleapihubcuration.GoogleApihubCurationTimeouts {
 	Create: *string,
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference
 ```
@@ -1689,7 +1689,7 @@ func InternalValue() GoogleApihubCurationEndpointApplicationIntegrationEndpointD
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCurationEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubCurationEndpointOutputReference
 ```
@@ -1973,7 +1973,7 @@ func InternalValue() GoogleApihubCurationEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCurationPluginInstanceActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubCurationPluginInstanceActionsList
 ```
@@ -2122,7 +2122,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCurationPluginInstanceActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubCurationPluginInstanceActionsOutputReference
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() GoogleApihubCurationPluginInstanceActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubcuration"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration"
 
 googleapihubcuration.NewGoogleApihubCurationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubCurationTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.NewGoogleStorageObjectAccessControl(scope Construct, id *string, config GoogleStorageObjectAccessControlConfig) GoogleStorageObjectAccessControl
 ```
@@ -427,7 +427,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -903,7 +903,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 &googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControlConfig {
 	Connection: interface{},
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 	Object: *string,
 	Role: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlTimeouts,
 }
 ```
 
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlProjectTeam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 &googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControlProjectTeam {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlest
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 &googlestorageobjectaccesscontrol.GoogleStorageObjectAccessControlTimeouts {
 	Create: *string,
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlProjectTeamList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.NewGoogleStorageObjectAccessControlProjectTeamList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageObjectAccessControlProjectTeamList
 ```
@@ -1326,7 +1326,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlProjectTeamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.NewGoogleStorageObjectAccessControlProjectTeamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageObjectAccessControlProjectTeamOutputReference
 ```
@@ -1615,7 +1615,7 @@ func InternalValue() GoogleStorageObjectAccessControlProjectTeam
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControlTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageobjectaccesscontrol"
 
 googlestorageobjectaccesscontrol.NewGoogleStorageObjectAccessControlTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageObjectAccessControlTimeoutsOutputReference
 ```

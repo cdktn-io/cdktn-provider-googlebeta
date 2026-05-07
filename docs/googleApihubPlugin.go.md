@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPlugin(scope Construct, id *string, config GoogleApihubPluginConfig) GoogleApihubPlugin
 ```
@@ -528,7 +528,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPlugin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.GoogleApihubPlugin_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPlugin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.GoogleApihubPlugin_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googleapihubplugin.GoogleApihubPlugin_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPlugin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.GoogleApihubPlugin_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googleapihubplugin.GoogleApihubPlugin_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPlugin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.GoogleApihubPlugin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1136,7 +1136,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginActionsConfig {
 	Description: *string,
@@ -1221,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfig {
 	Connection: interface{},
@@ -1235,14 +1235,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleap
 	Location: *string,
 	PluginId: *string,
 	ActionsConfig: interface{},
-	ConfigTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginConfigTemplate,
+	ConfigTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginConfigTemplate,
 	Description: *string,
-	Documentation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginDocumentation,
-	HostingService: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginHostingService,
+	Documentation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginDocumentation,
+	HostingService: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginHostingService,
 	Id: *string,
 	PluginCategory: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginTimeouts,
 }
 ```
 
@@ -1527,11 +1527,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplate {
 	AdditionalConfigTemplate: interface{},
-	AuthConfigTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplate,
+	AuthConfigTemplate: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplate,
 }
 ```
 
@@ -1577,7 +1577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplate {
 	Id: *string,
@@ -1710,7 +1710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptions {
 	DisplayName: *string,
@@ -1779,7 +1779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptions {
 	DisplayName: *string,
@@ -1848,11 +1848,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplateAuthConfigTemplate {
 	SupportedAuthTypes: *[]*string,
-	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccount,
+	ServiceAccount: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccount,
 }
 ```
 
@@ -1898,7 +1898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccount {
 	ServiceAccount: *string,
@@ -1935,7 +1935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginDocumentation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginDocumentation {
 	ExternalUri: *string,
@@ -1969,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginHostingService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginHostingService {
 	ServiceUri: *string,
@@ -2006,7 +2006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 &googleapihubplugin.GoogleApihubPluginTimeouts {
 	Create: *string,
@@ -2054,7 +2054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginActionsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginActionsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginActionsConfigList
 ```
@@ -2214,7 +2214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginActionsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginActionsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginActionsConfigOutputReference
 ```
@@ -2569,7 +2569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsList
 ```
@@ -2729,7 +2729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateEnumOptionsOutputReference
 ```
@@ -3069,7 +3069,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateList
 ```
@@ -3229,7 +3229,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsList
 ```
@@ -3389,7 +3389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateMultiSelectOptionsOutputReference
 ```
@@ -3729,7 +3729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAdditionalConfigTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAdditionalConfigTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginConfigTemplateAdditionalConfigTemplateOutputReference
 ```
@@ -4211,7 +4211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAuthConfigTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginConfigTemplateAuthConfigTemplateOutputReference
 ```
@@ -4524,7 +4524,7 @@ func InternalValue() GoogleApihubPluginConfigTemplateAuthConfigTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAccountOutputReference
 ```
@@ -4795,7 +4795,7 @@ func InternalValue() GoogleApihubPluginConfigTemplateAuthConfigTemplateServiceAc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginConfigTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginConfigTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginConfigTemplateOutputReference
 ```
@@ -5128,7 +5128,7 @@ func InternalValue() GoogleApihubPluginConfigTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginDocumentationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginDocumentationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginDocumentationOutputReference
 ```
@@ -5406,7 +5406,7 @@ func InternalValue() GoogleApihubPluginDocumentation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginHostingServiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginHostingServiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginHostingServiceOutputReference
 ```
@@ -5684,7 +5684,7 @@ func InternalValue() GoogleApihubPluginHostingService
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubPlugin.GoogleApihubPluginTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapihubplugin"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubplugin"
 
 googleapihubplugin.NewGoogleApihubPluginTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginTimeoutsOutputReference
 ```
