@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface GoogleDialogflowCxToolConfig extends cdktn.TerraformMetaArgumen
   /**
   * High level description of the Tool and its usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#description GoogleDialogflowCxTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#description GoogleDialogflowCxTool#description}
   */
   readonly description: string;
   /**
   * The human-readable name of the tool, unique within the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#id GoogleDialogflowCxTool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,903 @@ export interface GoogleDialogflowCxToolConfig extends cdktn.TerraformMetaArgumen
   * The agent to create a Tool for.
   * Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#parent GoogleDialogflowCxTool#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#parent GoogleDialogflowCxTool#parent}
   */
   readonly parent?: string;
   /**
+  * connector_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#connector_spec GoogleDialogflowCxTool#connector_spec}
+  */
+  readonly connectorSpec?: GoogleDialogflowCxToolConnectorSpec;
+  /**
   * data_store_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_spec GoogleDialogflowCxTool#data_store_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_spec GoogleDialogflowCxTool#data_store_spec}
   */
   readonly dataStoreSpec?: GoogleDialogflowCxToolDataStoreSpec;
   /**
   * function_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#function_spec GoogleDialogflowCxTool#function_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#function_spec GoogleDialogflowCxTool#function_spec}
   */
   readonly functionSpec?: GoogleDialogflowCxToolFunctionSpec;
   /**
   * open_api_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#open_api_spec GoogleDialogflowCxTool#open_api_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#open_api_spec GoogleDialogflowCxTool#open_api_spec}
   */
   readonly openApiSpec?: GoogleDialogflowCxToolOpenApiSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#timeouts GoogleDialogflowCxTool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#timeouts GoogleDialogflowCxTool#timeouts}
   */
   readonly timeouts?: GoogleDialogflowCxToolTimeouts;
+}
+export interface GoogleDialogflowCxToolConnectorSpecActionsEntityOperation {
+  /**
+  * ID of the entity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#entity_id GoogleDialogflowCxTool#entity_id}
+  */
+  readonly entityId: string;
+  /**
+  * The operation to perform on the entity. Possible values: ["LIST", "CREATE", "UPDATE", "DELETE", "GET"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#operation GoogleDialogflowCxTool#operation}
+  */
+  readonly operation: string;
+}
+
+export function googleDialogflowCxToolConnectorSpecActionsEntityOperationToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference | GoogleDialogflowCxToolConnectorSpecActionsEntityOperation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    entity_id: cdktn.stringToTerraform(struct!.entityId),
+    operation: cdktn.stringToTerraform(struct!.operation),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecActionsEntityOperationToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference | GoogleDialogflowCxToolConnectorSpecActionsEntityOperation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    entity_id: {
+      value: cdktn.stringToHclTerraform(struct!.entityId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operation: {
+      value: cdktn.stringToHclTerraform(struct!.operation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpecActionsEntityOperation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entityId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityId = this._entityId;
+    }
+    if (this._operation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operation = this._operation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpecActionsEntityOperation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._entityId = undefined;
+      this._operation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._entityId = value.entityId;
+      this._operation = value.operation;
+    }
+  }
+
+  // entity_id - computed: false, optional: false, required: true
+  private _entityId?: string; 
+  public get entityId() {
+    return this.getStringAttribute('entity_id');
+  }
+  public set entityId(value: string) {
+    this._entityId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityIdInput() {
+    return this._entityId;
+  }
+
+  // operation - computed: false, optional: false, required: true
+  private _operation?: string; 
+  public get operation() {
+    return this.getStringAttribute('operation');
+  }
+  public set operation(value: string) {
+    this._operation = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationInput() {
+    return this._operation;
+  }
+}
+export interface GoogleDialogflowCxToolConnectorSpecActions {
+  /**
+  * ID of a Connection action for the tool to use. This field is part of a required union field 'action_spec'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#connection_action_id GoogleDialogflowCxTool#connection_action_id}
+  */
+  readonly connectionActionId?: string;
+  /**
+  * Entity fields to use as inputs for the operation.
+  * If no fields are specified, all fields of the Entity will be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#input_fields GoogleDialogflowCxTool#input_fields}
+  */
+  readonly inputFields?: string[];
+  /**
+  * Entity fields to return from the operation.
+  * If no fields are specified, all fields of the Entity will be returned.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#output_fields GoogleDialogflowCxTool#output_fields}
+  */
+  readonly outputFields?: string[];
+  /**
+  * entity_operation block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#entity_operation GoogleDialogflowCxTool#entity_operation}
+  */
+  readonly entityOperation?: GoogleDialogflowCxToolConnectorSpecActionsEntityOperation;
+}
+
+export function googleDialogflowCxToolConnectorSpecActionsToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecActions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_action_id: cdktn.stringToTerraform(struct!.connectionActionId),
+    input_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.inputFields),
+    output_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.outputFields),
+    entity_operation: googleDialogflowCxToolConnectorSpecActionsEntityOperationToTerraform(struct!.entityOperation),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecActionsToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecActions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_action_id: {
+      value: cdktn.stringToHclTerraform(struct!.connectionActionId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    input_fields: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.inputFields),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    output_fields: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.outputFields),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    entity_operation: {
+      value: googleDialogflowCxToolConnectorSpecActionsEntityOperationToHclTerraform(struct!.entityOperation),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxToolConnectorSpecActionsEntityOperationList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecActionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpecActions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionActionId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionActionId = this._connectionActionId;
+    }
+    if (this._inputFields !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inputFields = this._inputFields;
+    }
+    if (this._outputFields !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outputFields = this._outputFields;
+    }
+    if (this._entityOperation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityOperation = this._entityOperation?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpecActions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._connectionActionId = undefined;
+      this._inputFields = undefined;
+      this._outputFields = undefined;
+      this._entityOperation.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._connectionActionId = value.connectionActionId;
+      this._inputFields = value.inputFields;
+      this._outputFields = value.outputFields;
+      this._entityOperation.internalValue = value.entityOperation;
+    }
+  }
+
+  // connection_action_id - computed: false, optional: true, required: false
+  private _connectionActionId?: string; 
+  public get connectionActionId() {
+    return this.getStringAttribute('connection_action_id');
+  }
+  public set connectionActionId(value: string) {
+    this._connectionActionId = value;
+  }
+  public resetConnectionActionId() {
+    this._connectionActionId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionActionIdInput() {
+    return this._connectionActionId;
+  }
+
+  // input_fields - computed: false, optional: true, required: false
+  private _inputFields?: string[]; 
+  public get inputFields() {
+    return this.getListAttribute('input_fields');
+  }
+  public set inputFields(value: string[]) {
+    this._inputFields = value;
+  }
+  public resetInputFields() {
+    this._inputFields = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inputFieldsInput() {
+    return this._inputFields;
+  }
+
+  // output_fields - computed: false, optional: true, required: false
+  private _outputFields?: string[]; 
+  public get outputFields() {
+    return this.getListAttribute('output_fields');
+  }
+  public set outputFields(value: string[]) {
+    this._outputFields = value;
+  }
+  public resetOutputFields() {
+    this._outputFields = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFieldsInput() {
+    return this._outputFields;
+  }
+
+  // entity_operation - computed: false, optional: true, required: false
+  private _entityOperation = new GoogleDialogflowCxToolConnectorSpecActionsEntityOperationOutputReference(this, "entity_operation");
+  public get entityOperation() {
+    return this._entityOperation;
+  }
+  public putEntityOperation(value: GoogleDialogflowCxToolConnectorSpecActionsEntityOperation) {
+    this._entityOperation.internalValue = value;
+  }
+  public resetEntityOperation() {
+    this._entityOperation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityOperationInput() {
+    return this._entityOperation.internalValue;
+  }
+}
+
+export class GoogleDialogflowCxToolConnectorSpecActionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDialogflowCxToolConnectorSpecActions[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDialogflowCxToolConnectorSpecActionsOutputReference {
+    return new GoogleDialogflowCxToolConnectorSpecActionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig {
+  /**
+  * Oauth token value or parameter name to pass it through.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_token GoogleDialogflowCxTool#oauth_token}
+  */
+  readonly oauthToken: string;
+}
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    oauth_token: cdktn.stringToTerraform(struct!.oauthToken),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    oauth_token: {
+      value: cdktn.stringToHclTerraform(struct!.oauthToken),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._oauthToken !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oauthToken = this._oauthToken;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._oauthToken = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._oauthToken = value.oauthToken;
+    }
+  }
+
+  // oauth_token - computed: false, optional: false, required: true
+  private _oauthToken?: string; 
+  public get oauthToken() {
+    return this.getStringAttribute('oauth_token');
+  }
+  public set oauthToken(value: string) {
+    this._oauthToken = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oauthTokenInput() {
+    return this._oauthToken;
+  }
+}
+export interface GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig {
+  /**
+  * Client key value or parameter name to pass it through.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_key GoogleDialogflowCxTool#client_key}
+  */
+  readonly clientKey: string;
+  /**
+  * Issuer value or parameter name to pass it through.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#issuer GoogleDialogflowCxTool#issuer}
+  */
+  readonly issuer: string;
+  /**
+  * Subject value or parameter name to pass it through.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#subject GoogleDialogflowCxTool#subject}
+  */
+  readonly subject: string;
+}
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    client_key: cdktn.stringToTerraform(struct!.clientKey),
+    issuer: cdktn.stringToTerraform(struct!.issuer),
+    subject: cdktn.stringToTerraform(struct!.subject),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    client_key: {
+      value: cdktn.stringToHclTerraform(struct!.clientKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    issuer: {
+      value: cdktn.stringToHclTerraform(struct!.issuer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subject: {
+      value: cdktn.stringToHclTerraform(struct!.subject),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientKey = this._clientKey;
+    }
+    if (this._issuer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.issuer = this._issuer;
+    }
+    if (this._subject !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subject = this._subject;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clientKey = undefined;
+      this._issuer = undefined;
+      this._subject = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clientKey = value.clientKey;
+      this._issuer = value.issuer;
+      this._subject = value.subject;
+    }
+  }
+
+  // client_key - computed: false, optional: false, required: true
+  private _clientKey?: string; 
+  public get clientKey() {
+    return this.getStringAttribute('client_key');
+  }
+  public set clientKey(value: string) {
+    this._clientKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientKeyInput() {
+    return this._clientKey;
+  }
+
+  // issuer - computed: false, optional: false, required: true
+  private _issuer?: string; 
+  public get issuer() {
+    return this.getStringAttribute('issuer');
+  }
+  public set issuer(value: string) {
+    this._issuer = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get issuerInput() {
+    return this._issuer;
+  }
+
+  // subject - computed: false, optional: false, required: true
+  private _subject?: string; 
+  public get subject() {
+    return this.getStringAttribute('subject');
+  }
+  public set subject(value: string) {
+    this._subject = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subjectInput() {
+    return this._subject;
+  }
+}
+export interface GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig {
+  /**
+  * oauth2_auth_code_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth2_auth_code_config GoogleDialogflowCxTool#oauth2_auth_code_config}
+  */
+  readonly oauth2AuthCodeConfig?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig;
+  /**
+  * oauth2_jwt_bearer_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth2_jwt_bearer_config GoogleDialogflowCxTool#oauth2_jwt_bearer_config}
+  */
+  readonly oauth2JwtBearerConfig?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig;
+}
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    oauth2_auth_code_config: googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigToTerraform(struct!.oauth2AuthCodeConfig),
+    oauth2_jwt_bearer_config: googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigToTerraform(struct!.oauth2JwtBearerConfig),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecEndUserAuthConfigToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference | GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    oauth2_auth_code_config: {
+      value: googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigToHclTerraform(struct!.oauth2AuthCodeConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigList",
+    },
+    oauth2_jwt_bearer_config: {
+      value: googleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigToHclTerraform(struct!.oauth2JwtBearerConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._oauth2AuthCodeConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oauth2AuthCodeConfig = this._oauth2AuthCodeConfig?.internalValue;
+    }
+    if (this._oauth2JwtBearerConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oauth2JwtBearerConfig = this._oauth2JwtBearerConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._oauth2AuthCodeConfig.internalValue = undefined;
+      this._oauth2JwtBearerConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._oauth2AuthCodeConfig.internalValue = value.oauth2AuthCodeConfig;
+      this._oauth2JwtBearerConfig.internalValue = value.oauth2JwtBearerConfig;
+    }
+  }
+
+  // oauth2_auth_code_config - computed: false, optional: true, required: false
+  private _oauth2AuthCodeConfig = new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfigOutputReference(this, "oauth2_auth_code_config");
+  public get oauth2AuthCodeConfig() {
+    return this._oauth2AuthCodeConfig;
+  }
+  public putOauth2AuthCodeConfig(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2AuthCodeConfig) {
+    this._oauth2AuthCodeConfig.internalValue = value;
+  }
+  public resetOauth2AuthCodeConfig() {
+    this._oauth2AuthCodeConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oauth2AuthCodeConfigInput() {
+    return this._oauth2AuthCodeConfig.internalValue;
+  }
+
+  // oauth2_jwt_bearer_config - computed: false, optional: true, required: false
+  private _oauth2JwtBearerConfig = new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfigOutputReference(this, "oauth2_jwt_bearer_config");
+  public get oauth2JwtBearerConfig() {
+    return this._oauth2JwtBearerConfig;
+  }
+  public putOauth2JwtBearerConfig(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOauth2JwtBearerConfig) {
+    this._oauth2JwtBearerConfig.internalValue = value;
+  }
+  public resetOauth2JwtBearerConfig() {
+    this._oauth2JwtBearerConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oauth2JwtBearerConfigInput() {
+    return this._oauth2JwtBearerConfig.internalValue;
+  }
+}
+export interface GoogleDialogflowCxToolConnectorSpec {
+  /**
+  * The full resource name of the referenced Integration Connectors Connection.
+  * Format: projects/* /locations/* /connections/*
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#name GoogleDialogflowCxTool#name}
+   *
+  * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
+  */
+  readonly name: string;
+  /**
+  * actions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#actions GoogleDialogflowCxTool#actions}
+  */
+  readonly actions: GoogleDialogflowCxToolConnectorSpecActions[] | cdktn.IResolvable;
+  /**
+  * end_user_auth_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#end_user_auth_config GoogleDialogflowCxTool#end_user_auth_config}
+  */
+  readonly endUserAuthConfig?: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig;
+}
+
+export function googleDialogflowCxToolConnectorSpecToTerraform(struct?: GoogleDialogflowCxToolConnectorSpecOutputReference | GoogleDialogflowCxToolConnectorSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+    actions: cdktn.listMapper(googleDialogflowCxToolConnectorSpecActionsToTerraform, true)(struct!.actions),
+    end_user_auth_config: googleDialogflowCxToolConnectorSpecEndUserAuthConfigToTerraform(struct!.endUserAuthConfig),
+  }
+}
+
+
+export function googleDialogflowCxToolConnectorSpecToHclTerraform(struct?: GoogleDialogflowCxToolConnectorSpecOutputReference | GoogleDialogflowCxToolConnectorSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    actions: {
+      value: cdktn.listMapperHcl(googleDialogflowCxToolConnectorSpecActionsToHclTerraform, true)(struct!.actions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxToolConnectorSpecActionsList",
+    },
+    end_user_auth_config: {
+      value: googleDialogflowCxToolConnectorSpecEndUserAuthConfigToHclTerraform(struct!.endUserAuthConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDialogflowCxToolConnectorSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDialogflowCxToolConnectorSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._actions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actions = this._actions?.internalValue;
+    }
+    if (this._endUserAuthConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endUserAuthConfig = this._endUserAuthConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDialogflowCxToolConnectorSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._actions.internalValue = undefined;
+      this._endUserAuthConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._actions.internalValue = value.actions;
+      this._endUserAuthConfig.internalValue = value.endUserAuthConfig;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // actions - computed: false, optional: false, required: true
+  private _actions = new GoogleDialogflowCxToolConnectorSpecActionsList(this, "actions", false);
+  public get actions() {
+    return this._actions;
+  }
+  public putActions(value: GoogleDialogflowCxToolConnectorSpecActions[] | cdktn.IResolvable) {
+    this._actions.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionsInput() {
+    return this._actions.internalValue;
+  }
+
+  // end_user_auth_config - computed: false, optional: true, required: false
+  private _endUserAuthConfig = new GoogleDialogflowCxToolConnectorSpecEndUserAuthConfigOutputReference(this, "end_user_auth_config");
+  public get endUserAuthConfig() {
+    return this._endUserAuthConfig;
+  }
+  public putEndUserAuthConfig(value: GoogleDialogflowCxToolConnectorSpecEndUserAuthConfig) {
+    this._endUserAuthConfig.internalValue = value;
+  }
+  public resetEndUserAuthConfig() {
+    this._endUserAuthConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endUserAuthConfigInput() {
+    return this._endUserAuthConfig.internalValue;
+  }
 }
 export interface GoogleDialogflowCxToolDataStoreSpecDataStoreConnections {
   /**
   * The full name of the referenced data store. Formats: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore} projects/{project}/locations/{location}/dataStores/{dataStore}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store GoogleDialogflowCxTool#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store GoogleDialogflowCxTool#data_store}
   */
   readonly dataStore?: string;
   /**
   * The type of the connected data store.
   * See [DataStoreType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#datastoretype) for valid values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_type GoogleDialogflowCxTool#data_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_type GoogleDialogflowCxTool#data_store_type}
   */
   readonly dataStoreType?: string;
   /**
   * The document processing mode for the data store connection. Should only be set for PUBLIC_WEB and UNSTRUCTURED data stores. If not set it is considered as DOCUMENTS, as this is the legacy mode.
   * See [DocumentProcessingMode](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/DataStoreConnection#documentprocessingmode) for valid values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#document_processing_mode GoogleDialogflowCxTool#document_processing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#document_processing_mode GoogleDialogflowCxTool#document_processing_mode}
   */
   readonly documentProcessingMode?: string;
 }
@@ -306,13 +1156,13 @@ export interface GoogleDialogflowCxToolDataStoreSpec {
   /**
   * data_store_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#data_store_connections GoogleDialogflowCxTool#data_store_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#data_store_connections GoogleDialogflowCxTool#data_store_connections}
   */
   readonly dataStoreConnections: GoogleDialogflowCxToolDataStoreSpecDataStoreConnections[] | cdktn.IResolvable;
   /**
   * fallback_prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#fallback_prompt GoogleDialogflowCxTool#fallback_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#fallback_prompt GoogleDialogflowCxTool#fallback_prompt}
   */
   readonly fallbackPrompt: GoogleDialogflowCxToolDataStoreSpecFallbackPrompt;
 }
@@ -422,14 +1272,14 @@ export interface GoogleDialogflowCxToolFunctionSpec {
   * Optional. The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the input of the function.
   * This input is a JSON object that contains the function's parameters as properties of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#input_schema GoogleDialogflowCxTool#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#input_schema GoogleDialogflowCxTool#input_schema}
   */
   readonly inputSchema?: string;
   /**
   * Optional. The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the output of the function.
   * This output is a JSON object that contains the function's parameters as properties of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#output_schema GoogleDialogflowCxTool#output_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#output_schema GoogleDialogflowCxTool#output_schema}
   */
   readonly outputSchema?: string;
 }
@@ -544,21 +1394,21 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig {
   /**
   * Optional. The API key. If the 'secretVersionForApiKey'' field is set, this field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#api_key GoogleDialogflowCxTool#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#api_key GoogleDialogflowCxTool#api_key}
   */
   readonly apiKey?: string;
   /**
   * The parameter name or the header name of the API key.
   * E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#key_name GoogleDialogflowCxTool#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#key_name GoogleDialogflowCxTool#key_name}
   */
   readonly keyName: string;
   /**
   * Key location in the request.
   * See [RequestLocation](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#requestlocation) for valid values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#request_location GoogleDialogflowCxTool#request_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#request_location GoogleDialogflowCxTool#request_location}
   */
   readonly requestLocation: string;
   /**
@@ -566,7 +1416,7 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig {
   * If this field is set, the apiKey field will be ignored.
   * Format: projects/{project}/secrets/{secret}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_api_key GoogleDialogflowCxTool#secret_version_for_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_api_key GoogleDialogflowCxTool#secret_version_for_api_key}
   */
   readonly secretVersionForApiKey?: string;
 }
@@ -734,14 +1584,14 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfi
   * Optional. The name of the SecretManager secret version resource storing the Bearer token. If this field is set, the 'token' field will be ignored.
   * Format: projects/{project}/secrets/{secret}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_token GoogleDialogflowCxTool#secret_version_for_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_token GoogleDialogflowCxTool#secret_version_for_token}
   */
   readonly secretVersionForToken?: string;
   /**
   * Optional. The text token appended to the text Bearer to the request Authorization header.
   * [Session parameters reference](https://cloud.google.com/dialogflow/cx/docs/concept/parameter#session-ref) can be used to pass the token dynamically, e.g. '$session.params.parameter-id'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#token GoogleDialogflowCxTool#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#token GoogleDialogflowCxTool#token}
   */
   readonly token?: string;
 }
@@ -856,26 +1706,26 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationOauthConfig {
   /**
   * The client ID from the OAuth provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#client_id GoogleDialogflowCxTool#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_id GoogleDialogflowCxTool#client_id}
   */
   readonly clientId: string;
   /**
   * Optional. The client secret from the OAuth provider. If the 'secretVersionForClientSecret' field is set, this field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#client_secret GoogleDialogflowCxTool#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#client_secret GoogleDialogflowCxTool#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth grant types.
   * See [OauthGrantType](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#oauthgranttype) for valid values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#oauth_grant_type GoogleDialogflowCxTool#oauth_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_grant_type GoogleDialogflowCxTool#oauth_grant_type}
   */
   readonly oauthGrantType: string;
   /**
   * Optional. The OAuth scopes to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#scopes GoogleDialogflowCxTool#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#scopes GoogleDialogflowCxTool#scopes}
   */
   readonly scopes?: string[];
   /**
@@ -883,13 +1733,13 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationOauthConfig {
   * If this field is set, the clientSecret field will be ignored.
   * Format: projects/{project}/secrets/{secret}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_client_secret GoogleDialogflowCxTool#secret_version_for_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#secret_version_for_client_secret GoogleDialogflowCxTool#secret_version_for_client_secret}
   */
   readonly secretVersionForClientSecret?: string;
   /**
   * The token endpoint in the OAuth provider to exchange for an access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#token_endpoint GoogleDialogflowCxTool#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#token_endpoint GoogleDialogflowCxTool#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -1113,7 +1963,7 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuth
   * The generated token is sent in the Authorization header.
   * See [ServiceAgentAuth](https://cloud.google.com/dialogflow/cx/docs/reference/rest/v3/projects.locations.agents.tools#serviceagentauth) for valid values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth GoogleDialogflowCxTool#service_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth GoogleDialogflowCxTool#service_agent_auth}
   */
   readonly serviceAgentAuth?: string;
 }
@@ -1199,25 +2049,25 @@ export interface GoogleDialogflowCxToolOpenApiSpecAuthentication {
   /**
   * api_key_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#api_key_config GoogleDialogflowCxTool#api_key_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#api_key_config GoogleDialogflowCxTool#api_key_config}
   */
   readonly apiKeyConfig?: GoogleDialogflowCxToolOpenApiSpecAuthenticationApiKeyConfig;
   /**
   * bearer_token_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#bearer_token_config GoogleDialogflowCxTool#bearer_token_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#bearer_token_config GoogleDialogflowCxTool#bearer_token_config}
   */
   readonly bearerTokenConfig?: GoogleDialogflowCxToolOpenApiSpecAuthenticationBearerTokenConfig;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#oauth_config GoogleDialogflowCxTool#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#oauth_config GoogleDialogflowCxTool#oauth_config}
   */
   readonly oauthConfig?: GoogleDialogflowCxToolOpenApiSpecAuthenticationOauthConfig;
   /**
   * service_agent_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth_config GoogleDialogflowCxTool#service_agent_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_agent_auth_config GoogleDialogflowCxTool#service_agent_auth_config}
   */
   readonly serviceAgentAuthConfig?: GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfig;
 }
@@ -1391,7 +2241,7 @@ export interface GoogleDialogflowCxToolOpenApiSpecServiceDirectoryConfig {
   * The name of [Service Directory](https://cloud.google.com/service-directory/docs) service.
   * Format: projects/<ProjectID>/locations/<LocationID>/namespaces/<NamespaceID>/services/<ServiceID>. LocationID of the service directory must be the same as the location of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service GoogleDialogflowCxTool#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service GoogleDialogflowCxTool#service}
   */
   readonly service: string;
 }
@@ -1484,13 +2334,13 @@ export interface GoogleDialogflowCxToolOpenApiSpecTlsConfigCaCerts {
   * ```
   * A base64-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#cert GoogleDialogflowCxTool#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#cert GoogleDialogflowCxTool#cert}
   */
   readonly cert: string;
   /**
   * The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#display_name GoogleDialogflowCxTool#display_name}
   */
   readonly displayName: string;
 }
@@ -1631,7 +2481,7 @@ export interface GoogleDialogflowCxToolOpenApiSpecTlsConfig {
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#ca_certs GoogleDialogflowCxTool#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#ca_certs GoogleDialogflowCxTool#ca_certs}
   */
   readonly caCerts: GoogleDialogflowCxToolOpenApiSpecTlsConfigCaCerts[] | cdktn.IResolvable;
 }
@@ -1715,25 +2565,25 @@ export interface GoogleDialogflowCxToolOpenApiSpec {
   * The OpenAPI schema specified as a text.
   * This field is part of a union field 'schema': only one of 'textSchema' may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#text_schema GoogleDialogflowCxTool#text_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#text_schema GoogleDialogflowCxTool#text_schema}
   */
   readonly textSchema: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#authentication GoogleDialogflowCxTool#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#authentication GoogleDialogflowCxTool#authentication}
   */
   readonly authentication?: GoogleDialogflowCxToolOpenApiSpecAuthentication;
   /**
   * service_directory_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#service_directory_config GoogleDialogflowCxTool#service_directory_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#service_directory_config GoogleDialogflowCxTool#service_directory_config}
   */
   readonly serviceDirectoryConfig?: GoogleDialogflowCxToolOpenApiSpecServiceDirectoryConfig;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#tls_config GoogleDialogflowCxTool#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#tls_config GoogleDialogflowCxTool#tls_config}
   */
   readonly tlsConfig?: GoogleDialogflowCxToolOpenApiSpecTlsConfig;
 }
@@ -1901,15 +2751,15 @@ export class GoogleDialogflowCxToolOpenApiSpecOutputReference extends cdktn.Comp
 }
 export interface GoogleDialogflowCxToolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#create GoogleDialogflowCxTool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#delete GoogleDialogflowCxTool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#update GoogleDialogflowCxTool#update}
   */
   readonly update?: string;
 }
@@ -2061,7 +2911,7 @@ export class GoogleDialogflowCxToolTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}
 */
 export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
 
@@ -2077,7 +2927,7 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowCxTool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowCxTool to import
-  * @param importFromId The id of the existing GoogleDialogflowCxTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowCxTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowCxTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2089,7 +2939,7 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2100,8 +2950,8 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_cx_tool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2115,6 +2965,7 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
     this._displayName = config.displayName;
     this._id = config.id;
     this._parent = config.parent;
+    this._connectorSpec.internalValue = config.connectorSpec;
     this._dataStoreSpec.internalValue = config.dataStoreSpec;
     this._functionSpec.internalValue = config.functionSpec;
     this._openApiSpec.internalValue = config.openApiSpec;
@@ -2193,6 +3044,22 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
     return this.getStringAttribute('tool_type');
   }
 
+  // connector_spec - computed: false, optional: true, required: false
+  private _connectorSpec = new GoogleDialogflowCxToolConnectorSpecOutputReference(this, "connector_spec");
+  public get connectorSpec() {
+    return this._connectorSpec;
+  }
+  public putConnectorSpec(value: GoogleDialogflowCxToolConnectorSpec) {
+    this._connectorSpec.internalValue = value;
+  }
+  public resetConnectorSpec() {
+    this._connectorSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectorSpecInput() {
+    return this._connectorSpec.internalValue;
+  }
+
   // data_store_spec - computed: false, optional: true, required: false
   private _dataStoreSpec = new GoogleDialogflowCxToolDataStoreSpecOutputReference(this, "data_store_spec");
   public get dataStoreSpec() {
@@ -2267,6 +3134,7 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
       parent: cdktn.stringToTerraform(this._parent),
+      connector_spec: googleDialogflowCxToolConnectorSpecToTerraform(this._connectorSpec.internalValue),
       data_store_spec: googleDialogflowCxToolDataStoreSpecToTerraform(this._dataStoreSpec.internalValue),
       function_spec: googleDialogflowCxToolFunctionSpecToTerraform(this._functionSpec.internalValue),
       open_api_spec: googleDialogflowCxToolOpenApiSpecToTerraform(this._openApiSpec.internalValue),
@@ -2299,6 +3167,12 @@ export class GoogleDialogflowCxTool extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      connector_spec: {
+        value: googleDialogflowCxToolConnectorSpecToHclTerraform(this._connectorSpec.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleDialogflowCxToolConnectorSpecList",
       },
       data_store_spec: {
         value: googleDialogflowCxToolDataStoreSpecToHclTerraform(this._dataStoreSpec.internalValue),

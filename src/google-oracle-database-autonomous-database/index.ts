@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   /**
   * The password for the default ADMIN user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#admin_password GoogleOracleDatabaseAutonomousDatabase#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#admin_password GoogleOracleDatabaseAutonomousDatabase#admin_password}
   */
   readonly adminPassword?: string;
   /**
@@ -24,13 +24,13 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   * characters in length. The value must start with a letter and end with
   * a letter or a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#autonomous_database_id GoogleOracleDatabaseAutonomousDatabase#autonomous_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#autonomous_database_id GoogleOracleDatabaseAutonomousDatabase#autonomous_database_id}
   */
   readonly autonomousDatabaseId: string;
   /**
   * The subnet CIDR range for the Autonmous Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#cidr GoogleOracleDatabaseAutonomousDatabase#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#cidr GoogleOracleDatabaseAutonomousDatabase#cidr}
   */
   readonly cidr?: string;
   /**
@@ -38,24 +38,24 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   * the project. The name must begin with a letter and can
   * contain a maximum of 30 alphanumeric characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#database GoogleOracleDatabaseAutonomousDatabase#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#database GoogleOracleDatabaseAutonomousDatabase#database}
   */
-  readonly database: string;
+  readonly database?: string;
   /**
   * Whether or not to allow Terraform to destroy the instance. Unless this field is set to false in Terraform state, a terraform destroy or terraform apply that would delete the instance will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#deletion_protection GoogleOracleDatabaseAutonomousDatabase#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#deletion_protection GoogleOracleDatabaseAutonomousDatabase#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * The display name for the Autonomous Database. The name does not have to
   * be unique within your project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#display_name GoogleOracleDatabaseAutonomousDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#display_name GoogleOracleDatabaseAutonomousDatabase#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#id GoogleOracleDatabaseAutonomousDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#id GoogleOracleDatabaseAutonomousDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,20 +67,20 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#labels GoogleOracleDatabaseAutonomousDatabase#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#labels GoogleOracleDatabaseAutonomousDatabase#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. See documentation for resource type 'oracledatabase.googleapis.com/AutonomousDatabaseBackup'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#location GoogleOracleDatabaseAutonomousDatabase#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#location GoogleOracleDatabaseAutonomousDatabase#location}
   */
   readonly location: string;
   /**
   * The name of the VPC network used by the Autonomous Database.
   * Format: projects/{project}/global/networks/{network}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#network GoogleOracleDatabaseAutonomousDatabase#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#network GoogleOracleDatabaseAutonomousDatabase#network}
   */
   readonly network?: string;
   /**
@@ -90,7 +90,7 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   * It is optional but if specified, this should match the parent ODBNetwork of
   * the odb_subnet and backup_odb_subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#odb_network GoogleOracleDatabaseAutonomousDatabase#odb_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#odb_network GoogleOracleDatabaseAutonomousDatabase#odb_network}
   */
   readonly odbNetwork?: string;
   /**
@@ -98,23 +98,29 @@ export interface GoogleOracleDatabaseAutonomousDatabaseConfig extends cdktn.Terr
   * IP allocation. Format:
   * projects/{project}/locations/{location}/odbNetworks/{odb_network}/odbSubnets/{odb_subnet}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#odb_subnet GoogleOracleDatabaseAutonomousDatabase#odb_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#odb_subnet GoogleOracleDatabaseAutonomousDatabase#odb_subnet}
   */
   readonly odbSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#project GoogleOracleDatabaseAutonomousDatabase#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#project GoogleOracleDatabaseAutonomousDatabase#project}
   */
   readonly project?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#properties GoogleOracleDatabaseAutonomousDatabase#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#properties GoogleOracleDatabaseAutonomousDatabase#properties}
   */
-  readonly properties: GoogleOracleDatabaseAutonomousDatabaseProperties;
+  readonly properties?: GoogleOracleDatabaseAutonomousDatabaseProperties;
+  /**
+  * source_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#source_config GoogleOracleDatabaseAutonomousDatabase#source_config}
+  */
+  readonly sourceConfig?: GoogleOracleDatabaseAutonomousDatabaseSourceConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#timeouts GoogleOracleDatabaseAutonomousDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#timeouts GoogleOracleDatabaseAutonomousDatabase#timeouts}
   */
   readonly timeouts?: GoogleOracleDatabaseAutonomousDatabaseTimeouts;
 }
@@ -977,7 +983,7 @@ export interface GoogleOracleDatabaseAutonomousDatabasePropertiesCustomerContact
   * The email address used by Oracle to send notifications regarding databases
   * and infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#email GoogleOracleDatabaseAutonomousDatabase#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#email GoogleOracleDatabaseAutonomousDatabase#email}
   */
   readonly email: string;
 }
@@ -1094,31 +1100,37 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * in days, can range from 1 day to 60 days, and has a default value of
   * 60 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#backup_retention_period_days GoogleOracleDatabaseAutonomousDatabase#backup_retention_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#backup_retention_period_days GoogleOracleDatabaseAutonomousDatabase#backup_retention_period_days}
   */
   readonly backupRetentionPeriodDays?: number;
   /**
   * The character set for the Autonomous Database. The default is AL32UTF8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#character_set GoogleOracleDatabaseAutonomousDatabase#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#character_set GoogleOracleDatabaseAutonomousDatabase#character_set}
   */
   readonly characterSet?: string;
   /**
   * The number of compute servers for the Autonomous Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#compute_count GoogleOracleDatabaseAutonomousDatabase#compute_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#compute_count GoogleOracleDatabaseAutonomousDatabase#compute_count}
   */
   readonly computeCount?: number;
   /**
+  * The number of CPU cores to be made available to the database.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#cpu_core_count GoogleOracleDatabaseAutonomousDatabase#cpu_core_count}
+  */
+  readonly cpuCoreCount?: number;
+  /**
   * The size of the data stored in the database, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#data_storage_size_gb GoogleOracleDatabaseAutonomousDatabase#data_storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#data_storage_size_gb GoogleOracleDatabaseAutonomousDatabase#data_storage_size_gb}
   */
   readonly dataStorageSizeGb?: number;
   /**
   * The size of the data stored in the database, in terabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#data_storage_size_tb GoogleOracleDatabaseAutonomousDatabase#data_storage_size_tb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#data_storage_size_tb GoogleOracleDatabaseAutonomousDatabase#data_storage_size_tb}
   */
   readonly dataStorageSizeTb?: number;
   /**
@@ -1128,13 +1140,13 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * STANDARD_EDITION
   * ENTERPRISE_EDITION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#db_edition GoogleOracleDatabaseAutonomousDatabase#db_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#db_edition GoogleOracleDatabaseAutonomousDatabase#db_edition}
   */
   readonly dbEdition?: string;
   /**
   * The Oracle Database version for the Autonomous Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#db_version GoogleOracleDatabaseAutonomousDatabase#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#db_version GoogleOracleDatabaseAutonomousDatabase#db_version}
   */
   readonly dbVersion?: string;
   /**
@@ -1145,21 +1157,21 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * AJD
   * APEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#db_workload GoogleOracleDatabaseAutonomousDatabase#db_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#db_workload GoogleOracleDatabaseAutonomousDatabase#db_workload}
   */
   readonly dbWorkload: string;
   /**
   * This field indicates if auto scaling is enabled for the Autonomous Database
   * CPU core count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#is_auto_scaling_enabled GoogleOracleDatabaseAutonomousDatabase#is_auto_scaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#is_auto_scaling_enabled GoogleOracleDatabaseAutonomousDatabase#is_auto_scaling_enabled}
   */
   readonly isAutoScalingEnabled?: boolean | cdktn.IResolvable;
   /**
   * This field indicates if auto scaling is enabled for the Autonomous Database
   * storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#is_storage_auto_scaling_enabled GoogleOracleDatabaseAutonomousDatabase#is_storage_auto_scaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#is_storage_auto_scaling_enabled GoogleOracleDatabaseAutonomousDatabase#is_storage_auto_scaling_enabled}
   */
   readonly isStorageAutoScalingEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -1169,7 +1181,7 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * LICENSE_INCLUDED
   * BRING_YOUR_OWN_LICENSE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#license_type GoogleOracleDatabaseAutonomousDatabase#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#license_type GoogleOracleDatabaseAutonomousDatabase#license_type}
   */
   readonly licenseType: string;
   /**
@@ -1179,20 +1191,20 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * EARLY
   * REGULAR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#maintenance_schedule_type GoogleOracleDatabaseAutonomousDatabase#maintenance_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#maintenance_schedule_type GoogleOracleDatabaseAutonomousDatabase#maintenance_schedule_type}
   */
   readonly maintenanceScheduleType?: string;
   /**
   * This field specifies if the Autonomous Database requires mTLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#mtls_connection_required GoogleOracleDatabaseAutonomousDatabase#mtls_connection_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#mtls_connection_required GoogleOracleDatabaseAutonomousDatabase#mtls_connection_required}
   */
   readonly mtlsConnectionRequired?: boolean | cdktn.IResolvable;
   /**
   * The national character set for the Autonomous Database. The default is
   * AL16UTF16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#n_character_set GoogleOracleDatabaseAutonomousDatabase#n_character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#n_character_set GoogleOracleDatabaseAutonomousDatabase#n_character_set}
   */
   readonly nCharacterSet?: string;
   /**
@@ -1205,25 +1217,37 @@ export interface GoogleOracleDatabaseAutonomousDatabaseProperties {
   * FAILED_ENABLING
   * FAILED_DISABLING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#operations_insights_state GoogleOracleDatabaseAutonomousDatabase#operations_insights_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#operations_insights_state GoogleOracleDatabaseAutonomousDatabase#operations_insights_state}
   */
   readonly operationsInsightsState?: string;
   /**
   * The private endpoint IP address for the Autonomous Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#private_endpoint_ip GoogleOracleDatabaseAutonomousDatabase#private_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#private_endpoint_ip GoogleOracleDatabaseAutonomousDatabase#private_endpoint_ip}
   */
   readonly privateEndpointIp?: string;
   /**
   * The private endpoint label for the Autonomous Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#private_endpoint_label GoogleOracleDatabaseAutonomousDatabase#private_endpoint_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#private_endpoint_label GoogleOracleDatabaseAutonomousDatabase#private_endpoint_label}
   */
   readonly privateEndpointLabel?: string;
   /**
+  * The ID of the Oracle Cloud Infrastructure vault secret.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#secret_id GoogleOracleDatabaseAutonomousDatabase#secret_id}
+  */
+  readonly secretId?: string;
+  /**
+  * The ID of the Oracle Cloud Infrastructure vault.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#vault_id GoogleOracleDatabaseAutonomousDatabase#vault_id}
+  */
+  readonly vaultId?: string;
+  /**
   * customer_contacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#customer_contacts GoogleOracleDatabaseAutonomousDatabase#customer_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#customer_contacts GoogleOracleDatabaseAutonomousDatabase#customer_contacts}
   */
   readonly customerContacts?: GoogleOracleDatabaseAutonomousDatabasePropertiesCustomerContacts[] | cdktn.IResolvable;
 }
@@ -1237,6 +1261,7 @@ export function googleOracleDatabaseAutonomousDatabasePropertiesToTerraform(stru
     backup_retention_period_days: cdktn.numberToTerraform(struct!.backupRetentionPeriodDays),
     character_set: cdktn.stringToTerraform(struct!.characterSet),
     compute_count: cdktn.numberToTerraform(struct!.computeCount),
+    cpu_core_count: cdktn.numberToTerraform(struct!.cpuCoreCount),
     data_storage_size_gb: cdktn.numberToTerraform(struct!.dataStorageSizeGb),
     data_storage_size_tb: cdktn.numberToTerraform(struct!.dataStorageSizeTb),
     db_edition: cdktn.stringToTerraform(struct!.dbEdition),
@@ -1251,6 +1276,8 @@ export function googleOracleDatabaseAutonomousDatabasePropertiesToTerraform(stru
     operations_insights_state: cdktn.stringToTerraform(struct!.operationsInsightsState),
     private_endpoint_ip: cdktn.stringToTerraform(struct!.privateEndpointIp),
     private_endpoint_label: cdktn.stringToTerraform(struct!.privateEndpointLabel),
+    secret_id: cdktn.stringToTerraform(struct!.secretId),
+    vault_id: cdktn.stringToTerraform(struct!.vaultId),
     customer_contacts: cdktn.listMapper(googleOracleDatabaseAutonomousDatabasePropertiesCustomerContactsToTerraform, true)(struct!.customerContacts),
   }
 }
@@ -1276,6 +1303,12 @@ export function googleOracleDatabaseAutonomousDatabasePropertiesToHclTerraform(s
     },
     compute_count: {
       value: cdktn.numberToHclTerraform(struct!.computeCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_core_count: {
+      value: cdktn.numberToHclTerraform(struct!.cpuCoreCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1364,6 +1397,18 @@ export function googleOracleDatabaseAutonomousDatabasePropertiesToHclTerraform(s
       type: "simple",
       storageClassType: "string",
     },
+    secret_id: {
+      value: cdktn.stringToHclTerraform(struct!.secretId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vault_id: {
+      value: cdktn.stringToHclTerraform(struct!.vaultId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     customer_contacts: {
       value: cdktn.listMapperHcl(googleOracleDatabaseAutonomousDatabasePropertiesCustomerContactsToHclTerraform, true)(struct!.customerContacts),
       isBlock: true,
@@ -1401,6 +1446,10 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
     if (this._computeCount !== undefined) {
       hasAnyValues = true;
       internalValueResult.computeCount = this._computeCount;
+    }
+    if (this._cpuCoreCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuCoreCount = this._cpuCoreCount;
     }
     if (this._dataStorageSizeGb !== undefined) {
       hasAnyValues = true;
@@ -1458,6 +1507,14 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
       hasAnyValues = true;
       internalValueResult.privateEndpointLabel = this._privateEndpointLabel;
     }
+    if (this._secretId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretId = this._secretId;
+    }
+    if (this._vaultId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultId = this._vaultId;
+    }
     if (this._customerContacts?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.customerContacts = this._customerContacts?.internalValue;
@@ -1471,6 +1528,7 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
       this._backupRetentionPeriodDays = undefined;
       this._characterSet = undefined;
       this._computeCount = undefined;
+      this._cpuCoreCount = undefined;
       this._dataStorageSizeGb = undefined;
       this._dataStorageSizeTb = undefined;
       this._dbEdition = undefined;
@@ -1485,6 +1543,8 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
       this._operationsInsightsState = undefined;
       this._privateEndpointIp = undefined;
       this._privateEndpointLabel = undefined;
+      this._secretId = undefined;
+      this._vaultId = undefined;
       this._customerContacts.internalValue = undefined;
     }
     else {
@@ -1492,6 +1552,7 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
       this._backupRetentionPeriodDays = value.backupRetentionPeriodDays;
       this._characterSet = value.characterSet;
       this._computeCount = value.computeCount;
+      this._cpuCoreCount = value.cpuCoreCount;
       this._dataStorageSizeGb = value.dataStorageSizeGb;
       this._dataStorageSizeTb = value.dataStorageSizeTb;
       this._dbEdition = value.dbEdition;
@@ -1506,6 +1567,8 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
       this._operationsInsightsState = value.operationsInsightsState;
       this._privateEndpointIp = value.privateEndpointIp;
       this._privateEndpointLabel = value.privateEndpointLabel;
+      this._secretId = value.secretId;
+      this._vaultId = value.vaultId;
       this._customerContacts.internalValue = value.customerContacts;
     }
   }
@@ -1599,6 +1662,22 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
   private _connectionUrls = new GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionUrlsList(this, "connection_urls", false);
   public get connectionUrls() {
     return this._connectionUrls;
+  }
+
+  // cpu_core_count - computed: true, optional: true, required: false
+  private _cpuCoreCount?: number; 
+  public get cpuCoreCount() {
+    return this.getNumberAttribute('cpu_core_count');
+  }
+  public set cpuCoreCount(value: number) {
+    this._cpuCoreCount = value;
+  }
+  public resetCpuCoreCount() {
+    this._cpuCoreCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuCoreCountInput() {
+    return this._cpuCoreCount;
   }
 
   // data_safe_state - computed: true, optional: false, required: false
@@ -1936,6 +2015,22 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
     return this._scheduledOperationDetails;
   }
 
+  // secret_id - computed: false, optional: true, required: false
+  private _secretId?: string; 
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+  public set secretId(value: string) {
+    this._secretId = value;
+  }
+  public resetSecretId() {
+    this._secretId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretIdInput() {
+    return this._secretId;
+  }
+
   // sql_web_developer_url - computed: true, optional: false, required: false
   public get sqlWebDeveloperUrl() {
     return this.getStringAttribute('sql_web_developer_url');
@@ -1961,6 +2056,22 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
     return this.getNumberAttribute('used_data_storage_size_tbs');
   }
 
+  // vault_id - computed: false, optional: true, required: false
+  private _vaultId?: string; 
+  public get vaultId() {
+    return this.getStringAttribute('vault_id');
+  }
+  public set vaultId(value: string) {
+    this._vaultId = value;
+  }
+  public resetVaultId() {
+    this._vaultId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultIdInput() {
+    return this._vaultId;
+  }
+
   // customer_contacts - computed: false, optional: true, required: false
   private _customerContacts = new GoogleOracleDatabaseAutonomousDatabasePropertiesCustomerContactsList(this, "customer_contacts", false);
   public get customerContacts() {
@@ -1977,17 +2088,138 @@ export class GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference ext
     return this._customerContacts.internalValue;
   }
 }
+export interface GoogleOracleDatabaseAutonomousDatabaseSourceConfig {
+  /**
+  * This field specifies if the replication of automatic backups is enabled when creating a Data Guard.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#automatic_backups_replication_enabled GoogleOracleDatabaseAutonomousDatabase#automatic_backups_replication_enabled}
+  */
+  readonly automaticBackupsReplicationEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * The name of the primary Autonomous Database that is used to create a Peer Autonomous Database from a source.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#autonomous_database GoogleOracleDatabaseAutonomousDatabase#autonomous_database}
+  */
+  readonly autonomousDatabase?: string;
+}
+
+export function googleOracleDatabaseAutonomousDatabaseSourceConfigToTerraform(struct?: GoogleOracleDatabaseAutonomousDatabaseSourceConfigOutputReference | GoogleOracleDatabaseAutonomousDatabaseSourceConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    automatic_backups_replication_enabled: cdktn.booleanToTerraform(struct!.automaticBackupsReplicationEnabled),
+    autonomous_database: cdktn.stringToTerraform(struct!.autonomousDatabase),
+  }
+}
+
+
+export function googleOracleDatabaseAutonomousDatabaseSourceConfigToHclTerraform(struct?: GoogleOracleDatabaseAutonomousDatabaseSourceConfigOutputReference | GoogleOracleDatabaseAutonomousDatabaseSourceConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic_backups_replication_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.automaticBackupsReplicationEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    autonomous_database: {
+      value: cdktn.stringToHclTerraform(struct!.autonomousDatabase),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleOracleDatabaseAutonomousDatabaseSourceConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleOracleDatabaseAutonomousDatabaseSourceConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automaticBackupsReplicationEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automaticBackupsReplicationEnabled = this._automaticBackupsReplicationEnabled;
+    }
+    if (this._autonomousDatabase !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autonomousDatabase = this._autonomousDatabase;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleOracleDatabaseAutonomousDatabaseSourceConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._automaticBackupsReplicationEnabled = undefined;
+      this._autonomousDatabase = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._automaticBackupsReplicationEnabled = value.automaticBackupsReplicationEnabled;
+      this._autonomousDatabase = value.autonomousDatabase;
+    }
+  }
+
+  // automatic_backups_replication_enabled - computed: false, optional: true, required: false
+  private _automaticBackupsReplicationEnabled?: boolean | cdktn.IResolvable; 
+  public get automaticBackupsReplicationEnabled() {
+    return this.getBooleanAttribute('automatic_backups_replication_enabled');
+  }
+  public set automaticBackupsReplicationEnabled(value: boolean | cdktn.IResolvable) {
+    this._automaticBackupsReplicationEnabled = value;
+  }
+  public resetAutomaticBackupsReplicationEnabled() {
+    this._automaticBackupsReplicationEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticBackupsReplicationEnabledInput() {
+    return this._automaticBackupsReplicationEnabled;
+  }
+
+  // autonomous_database - computed: false, optional: true, required: false
+  private _autonomousDatabase?: string; 
+  public get autonomousDatabase() {
+    return this.getStringAttribute('autonomous_database');
+  }
+  public set autonomousDatabase(value: string) {
+    this._autonomousDatabase = value;
+  }
+  public resetAutonomousDatabase() {
+    this._autonomousDatabase = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autonomousDatabaseInput() {
+    return this._autonomousDatabase;
+  }
+}
 export interface GoogleOracleDatabaseAutonomousDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#create GoogleOracleDatabaseAutonomousDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#create GoogleOracleDatabaseAutonomousDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#delete GoogleOracleDatabaseAutonomousDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#delete GoogleOracleDatabaseAutonomousDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#update GoogleOracleDatabaseAutonomousDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#update GoogleOracleDatabaseAutonomousDatabase#update}
   */
   readonly update?: string;
 }
@@ -2139,7 +2371,7 @@ export class GoogleOracleDatabaseAutonomousDatabaseTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}
 */
 export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResource {
 
@@ -2155,7 +2387,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleOracleDatabaseAutonomousDatabase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOracleDatabaseAutonomousDatabase to import
-  * @param importFromId The id of the existing GoogleOracleDatabaseAutonomousDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOracleDatabaseAutonomousDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOracleDatabaseAutonomousDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2167,7 +2399,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2178,8 +2410,8 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
       terraformResourceType: 'google_oracle_database_autonomous_database',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2203,6 +2435,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
     this._odbSubnet = config.odbSubnet;
     this._project = config.project;
     this._properties.internalValue = config.properties;
+    this._sourceConfig.internalValue = config.sourceConfig;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -2260,13 +2493,16 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
     return this.getStringAttribute('create_time');
   }
 
-  // database - computed: false, optional: false, required: true
+  // database - computed: true, optional: true, required: false
   private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
   public set database(value: string) {
     this._database = value;
+  }
+  public resetDatabase() {
+    this._database = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get databaseInput() {
@@ -2287,6 +2523,11 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
   // Temporarily expose input value. Use with caution.
   public get deletionProtectionInput() {
     return this._deletionProtection;
+  }
+
+  // disaster_recovery_supported_locations - computed: true, optional: false, required: false
+  public get disasterRecoverySupportedLocations() {
+    return this.getListAttribute('disaster_recovery_supported_locations');
   }
 
   // display_name - computed: true, optional: true, required: false
@@ -2382,7 +2623,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
     return this._network;
   }
 
-  // odb_network - computed: false, optional: true, required: false
+  // odb_network - computed: true, optional: true, required: false
   private _odbNetwork?: string; 
   public get odbNetwork() {
     return this.getStringAttribute('odb_network');
@@ -2398,7 +2639,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
     return this._odbNetwork;
   }
 
-  // odb_subnet - computed: false, optional: true, required: false
+  // odb_subnet - computed: true, optional: true, required: false
   private _odbSubnet?: string; 
   public get odbSubnet() {
     return this.getStringAttribute('odb_subnet');
@@ -2412,6 +2653,11 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
   // Temporarily expose input value. Use with caution.
   public get odbSubnetInput() {
     return this._odbSubnet;
+  }
+
+  // peer_autonomous_databases - computed: true, optional: false, required: false
+  public get peerAutonomousDatabases() {
+    return this.getListAttribute('peer_autonomous_databases');
   }
 
   // project - computed: true, optional: true, required: false
@@ -2436,7 +2682,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
     return this._terraformLabels;
   }
 
-  // properties - computed: false, optional: false, required: true
+  // properties - computed: false, optional: true, required: false
   private _properties = new GoogleOracleDatabaseAutonomousDatabasePropertiesOutputReference(this, "properties");
   public get properties() {
     return this._properties;
@@ -2444,9 +2690,28 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
   public putProperties(value: GoogleOracleDatabaseAutonomousDatabaseProperties) {
     this._properties.internalValue = value;
   }
+  public resetProperties() {
+    this._properties.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get propertiesInput() {
     return this._properties.internalValue;
+  }
+
+  // source_config - computed: false, optional: true, required: false
+  private _sourceConfig = new GoogleOracleDatabaseAutonomousDatabaseSourceConfigOutputReference(this, "source_config");
+  public get sourceConfig() {
+    return this._sourceConfig;
+  }
+  public putSourceConfig(value: GoogleOracleDatabaseAutonomousDatabaseSourceConfig) {
+    this._sourceConfig.internalValue = value;
+  }
+  public resetSourceConfig() {
+    this._sourceConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceConfigInput() {
+    return this._sourceConfig.internalValue;
   }
 
   // timeouts - computed: false, optional: true, required: false
@@ -2485,6 +2750,7 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
       odb_subnet: cdktn.stringToTerraform(this._odbSubnet),
       project: cdktn.stringToTerraform(this._project),
       properties: googleOracleDatabaseAutonomousDatabasePropertiesToTerraform(this._properties.internalValue),
+      source_config: googleOracleDatabaseAutonomousDatabaseSourceConfigToTerraform(this._sourceConfig.internalValue),
       timeouts: googleOracleDatabaseAutonomousDatabaseTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -2574,6 +2840,12 @@ export class GoogleOracleDatabaseAutonomousDatabase extends cdktn.TerraformResou
         isBlock: true,
         type: "list",
         storageClassType: "GoogleOracleDatabaseAutonomousDatabasePropertiesList",
+      },
+      source_config: {
+        value: googleOracleDatabaseAutonomousDatabaseSourceConfigToHclTerraform(this._sourceConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleOracleDatabaseAutonomousDatabaseSourceConfigList",
       },
       timeouts: {
         value: googleOracleDatabaseAutonomousDatabaseTimeoutsToHclTerraform(this._timeouts.internalValue),

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleIamWorkloadIdentityPoolConfig extends cdktn.TerraformMeta
   /**
   * A description of the pool. Cannot exceed 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#description GoogleIamWorkloadIdentityPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#description GoogleIamWorkloadIdentityPool#description}
   */
   readonly description?: string;
   /**
@@ -23,17 +23,17 @@ export interface GoogleIamWorkloadIdentityPoolConfig extends cdktn.TerraformMeta
   * existing tokens to access resources. If the pool is re-enabled, existing tokens grant
   * access again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#disabled GoogleIamWorkloadIdentityPool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#disabled GoogleIamWorkloadIdentityPool#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * A display name for the pool. Cannot exceed 32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#display_name GoogleIamWorkloadIdentityPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#display_name GoogleIamWorkloadIdentityPool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#id GoogleIamWorkloadIdentityPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#id GoogleIamWorkloadIdentityPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,13 +58,20 @@ export interface GoogleIamWorkloadIdentityPoolConfig extends cdktn.TerraformMeta
   * workload identifier. The subject identifier for all identities must conform to the following
   * format: 'ns/<namespace>/sa/<workload_identifier>'.
   * 'google_iam_workload_identity_pool_provider's cannot be created within 'TRUST_DOMAIN'
-  * mode pools. Possible values: ["FEDERATION_ONLY", "TRUST_DOMAIN"]
+  * mode pools.
+  * * 'SYSTEM_TRUST_DOMAIN': Pools are managed by Google Cloud services. Neither
+  * 'google_iam_workload_identity_pool_namespace's nor 'google_iam_workload_identity_pool_provider's
+  * can be created within 'SYSTEM_TRUST_DOMAIN' mode pools. All identities within a
+  * 'SYSTEM_TRUST_DOMAIN' mode pool are in one of the following formats:
+  * 
+  *     * 'spiffe://<trust-domain>/ns/<kubernetes-namespace>/sa/<kubernetes-service-account>'
+  *     * 'spiffe://<trust-domain>/resources/<resource-scope>/<resource-name>' Possible values: ["FEDERATION_ONLY", "TRUST_DOMAIN", "SYSTEM_TRUST_DOMAIN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#mode GoogleIamWorkloadIdentityPool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#mode GoogleIamWorkloadIdentityPool#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#project GoogleIamWorkloadIdentityPool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#project GoogleIamWorkloadIdentityPool#project}
   */
   readonly project?: string;
   /**
@@ -72,27 +79,149 @@ export interface GoogleIamWorkloadIdentityPoolConfig extends cdktn.TerraformMeta
   * value should be 4-32 characters, and may contain the characters [a-z0-9-]. The prefix
   * 'gcp-' is reserved for use by Google, and may not be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#workload_identity_pool_id GoogleIamWorkloadIdentityPool#workload_identity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#workload_identity_pool_id GoogleIamWorkloadIdentityPool#workload_identity_pool_id}
   */
   readonly workloadIdentityPoolId: string;
   /**
+  * attestation_rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#attestation_rules GoogleIamWorkloadIdentityPool#attestation_rules}
+  */
+  readonly attestationRules?: GoogleIamWorkloadIdentityPoolAttestationRules[] | cdktn.IResolvable;
+  /**
   * inline_certificate_issuance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#inline_certificate_issuance_config GoogleIamWorkloadIdentityPool#inline_certificate_issuance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#inline_certificate_issuance_config GoogleIamWorkloadIdentityPool#inline_certificate_issuance_config}
   */
   readonly inlineCertificateIssuanceConfig?: GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig;
   /**
   * inline_trust_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#inline_trust_config GoogleIamWorkloadIdentityPool#inline_trust_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#inline_trust_config GoogleIamWorkloadIdentityPool#inline_trust_config}
   */
   readonly inlineTrustConfig?: GoogleIamWorkloadIdentityPoolInlineTrustConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#timeouts GoogleIamWorkloadIdentityPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#timeouts GoogleIamWorkloadIdentityPool#timeouts}
   */
   readonly timeouts?: GoogleIamWorkloadIdentityPoolTimeouts;
+}
+export interface GoogleIamWorkloadIdentityPoolAttestationRules {
+  /**
+  * A single workload operating on Google Cloud. For example:
+  * '//run.googleapis.com/projects/123/type/Service/*'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#google_cloud_resource GoogleIamWorkloadIdentityPool#google_cloud_resource}
+  */
+  readonly googleCloudResource: string;
+}
+
+export function googleIamWorkloadIdentityPoolAttestationRulesToTerraform(struct?: GoogleIamWorkloadIdentityPoolAttestationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    google_cloud_resource: cdktn.stringToTerraform(struct!.googleCloudResource),
+  }
+}
+
+
+export function googleIamWorkloadIdentityPoolAttestationRulesToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolAttestationRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    google_cloud_resource: {
+      value: cdktn.stringToHclTerraform(struct!.googleCloudResource),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIamWorkloadIdentityPoolAttestationRulesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleIamWorkloadIdentityPoolAttestationRules | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._googleCloudResource !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.googleCloudResource = this._googleCloudResource;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIamWorkloadIdentityPoolAttestationRules | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._googleCloudResource = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._googleCloudResource = value.googleCloudResource;
+    }
+  }
+
+  // google_cloud_resource - computed: false, optional: false, required: true
+  private _googleCloudResource?: string; 
+  public get googleCloudResource() {
+    return this.getStringAttribute('google_cloud_resource');
+  }
+  public set googleCloudResource(value: string) {
+    this._googleCloudResource = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get googleCloudResourceInput() {
+    return this._googleCloudResource;
+  }
+}
+
+export class GoogleIamWorkloadIdentityPoolAttestationRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIamWorkloadIdentityPoolAttestationRules[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleIamWorkloadIdentityPoolAttestationRulesOutputReference {
+    return new GoogleIamWorkloadIdentityPoolAttestationRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
   /**
@@ -106,9 +235,9 @@ export interface GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
   * * **Region Matching:** Workloads are ONLY issued certificates from CA pools within the
   * same region. Also the CA pool region (in value) must match the workload's region (key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#ca_pools GoogleIamWorkloadIdentityPool#ca_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#ca_pools GoogleIamWorkloadIdentityPool#ca_pools}
   */
-  readonly caPools: { [key: string]: string };
+  readonly caPools?: { [key: string]: string };
   /**
   * Key algorithm to use when generating the key pair. This key pair will be used to create
   * the certificate. If unspecified, this will default to 'ECDSA_P256'.
@@ -119,7 +248,7 @@ export interface GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
   * * 'ECDSA_P256': Specifies ECDSA with curve P256.
   * * 'ECDSA_P384': Specifies ECDSA with curve P384. Possible values: ["RSA_2048", "RSA_3072", "RSA_4096", "ECDSA_P256", "ECDSA_P384"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#key_algorithm GoogleIamWorkloadIdentityPool#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#key_algorithm GoogleIamWorkloadIdentityPool#key_algorithm}
   */
   readonly keyAlgorithm?: string;
   /**
@@ -128,7 +257,7 @@ export interface GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
   * and is preceded by the number of seconds. If unspecified, this will be defaulted to
   * '86400s' (24 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#lifetime GoogleIamWorkloadIdentityPool#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#lifetime GoogleIamWorkloadIdentityPool#lifetime}
   */
   readonly lifetime?: string;
   /**
@@ -136,9 +265,22 @@ export interface GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig {
   * on remaining lifetime. Must be between '50' - '80'. If unspecified, this will be defaulted
   * to '50'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#rotation_window_percentage GoogleIamWorkloadIdentityPool#rotation_window_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#rotation_window_percentage GoogleIamWorkloadIdentityPool#rotation_window_percentage}
   */
   readonly rotationWindowPercentage?: number;
+  /**
+  * If set to true, the trust domain will utilize the GCP-provisioned default CA. A default
+  * CA in the same region as the workload will be selected to issue the certificate. Enabling
+  * this will clear any existing 'ca_pools' configuration to provision the certificates.
+  * 
+  * 
+  * ~> **Note** This field is mutually exclusive with 'ca_pools'. If this flag is enabled,
+  * certificates will be automatically provisioned from the default shared CAs. This flag should
+  * not be set if you want to use your own CA pools to provision the certificates.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#use_default_shared_ca GoogleIamWorkloadIdentityPool#use_default_shared_ca}
+  */
+  readonly useDefaultSharedCa?: boolean | cdktn.IResolvable;
 }
 
 export function googleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigToTerraform(struct?: GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference | GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfig): any {
@@ -151,6 +293,7 @@ export function googleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigToTe
     key_algorithm: cdktn.stringToTerraform(struct!.keyAlgorithm),
     lifetime: cdktn.stringToTerraform(struct!.lifetime),
     rotation_window_percentage: cdktn.numberToTerraform(struct!.rotationWindowPercentage),
+    use_default_shared_ca: cdktn.booleanToTerraform(struct!.useDefaultSharedCa),
   }
 }
 
@@ -184,6 +327,12 @@ export function googleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigToHc
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    use_default_shared_ca: {
+      value: cdktn.booleanToHclTerraform(struct!.useDefaultSharedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
   };
 
@@ -221,6 +370,10 @@ export class GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputR
       hasAnyValues = true;
       internalValueResult.rotationWindowPercentage = this._rotationWindowPercentage;
     }
+    if (this._useDefaultSharedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useDefaultSharedCa = this._useDefaultSharedCa;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -231,6 +384,7 @@ export class GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputR
       this._keyAlgorithm = undefined;
       this._lifetime = undefined;
       this._rotationWindowPercentage = undefined;
+      this._useDefaultSharedCa = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -238,16 +392,20 @@ export class GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputR
       this._keyAlgorithm = value.keyAlgorithm;
       this._lifetime = value.lifetime;
       this._rotationWindowPercentage = value.rotationWindowPercentage;
+      this._useDefaultSharedCa = value.useDefaultSharedCa;
     }
   }
 
-  // ca_pools - computed: false, optional: false, required: true
+  // ca_pools - computed: false, optional: true, required: false
   private _caPools?: { [key: string]: string }; 
   public get caPools() {
     return this.getStringMapAttribute('ca_pools');
   }
   public set caPools(value: { [key: string]: string }) {
     this._caPools = value;
+  }
+  public resetCaPools() {
+    this._caPools = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get caPoolsInput() {
@@ -301,13 +459,29 @@ export class GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputR
   public get rotationWindowPercentageInput() {
     return this._rotationWindowPercentage;
   }
+
+  // use_default_shared_ca - computed: false, optional: true, required: false
+  private _useDefaultSharedCa?: boolean | cdktn.IResolvable; 
+  public get useDefaultSharedCa() {
+    return this.getBooleanAttribute('use_default_shared_ca');
+  }
+  public set useDefaultSharedCa(value: boolean | cdktn.IResolvable) {
+    this._useDefaultSharedCa = value;
+  }
+  public resetUseDefaultSharedCa() {
+    this._useDefaultSharedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useDefaultSharedCaInput() {
+    return this._useDefaultSharedCa;
+  }
 }
 export interface GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesTrustAnchors {
   /**
   * PEM certificate of the PKI used for validation. Must only contain one ca
   * certificate(either root or intermediate cert).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#pem_certificate GoogleIamWorkloadIdentityPool#pem_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#pem_certificate GoogleIamWorkloadIdentityPool#pem_certificate}
   */
   readonly pemCertificate: string;
 }
@@ -420,13 +594,24 @@ export class GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundle
 }
 export interface GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#trust_domain GoogleIamWorkloadIdentityPool#trust_domain}
+  * If set to True, the trust bundle will include the private ca managed identity regional root
+  * public certificates.
+  * 
+  * 
+  * ~> **Note** 'trust_default_shared_ca' is only supported for managed identity trust domain
+  * resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#trust_default_shared_ca GoogleIamWorkloadIdentityPool#trust_default_shared_ca}
+  */
+  readonly trustDefaultSharedCa?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#trust_domain GoogleIamWorkloadIdentityPool#trust_domain}
   */
   readonly trustDomain: string;
   /**
   * trust_anchors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#trust_anchors GoogleIamWorkloadIdentityPool#trust_anchors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#trust_anchors GoogleIamWorkloadIdentityPool#trust_anchors}
   */
   readonly trustAnchors: GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesTrustAnchors[] | cdktn.IResolvable;
 }
@@ -437,6 +622,7 @@ export function googleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBun
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    trust_default_shared_ca: cdktn.booleanToTerraform(struct!.trustDefaultSharedCa),
     trust_domain: cdktn.stringToTerraform(struct!.trustDomain),
     trust_anchors: cdktn.listMapper(googleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesTrustAnchorsToTerraform, true)(struct!.trustAnchors),
   }
@@ -449,6 +635,12 @@ export function googleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBun
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    trust_default_shared_ca: {
+      value: cdktn.booleanToHclTerraform(struct!.trustDefaultSharedCa),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     trust_domain: {
       value: cdktn.stringToHclTerraform(struct!.trustDomain),
       isBlock: false,
@@ -487,6 +679,10 @@ export class GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundle
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._trustDefaultSharedCa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustDefaultSharedCa = this._trustDefaultSharedCa;
+    }
     if (this._trustDomain !== undefined) {
       hasAnyValues = true;
       internalValueResult.trustDomain = this._trustDomain;
@@ -502,6 +698,7 @@ export class GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundle
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._trustDefaultSharedCa = undefined;
       this._trustDomain = undefined;
       this._trustAnchors.internalValue = undefined;
     }
@@ -512,9 +709,26 @@ export class GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundle
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._trustDefaultSharedCa = value.trustDefaultSharedCa;
       this._trustDomain = value.trustDomain;
       this._trustAnchors.internalValue = value.trustAnchors;
     }
+  }
+
+  // trust_default_shared_ca - computed: false, optional: true, required: false
+  private _trustDefaultSharedCa?: boolean | cdktn.IResolvable; 
+  public get trustDefaultSharedCa() {
+    return this.getBooleanAttribute('trust_default_shared_ca');
+  }
+  public set trustDefaultSharedCa(value: boolean | cdktn.IResolvable) {
+    this._trustDefaultSharedCa = value;
+  }
+  public resetTrustDefaultSharedCa() {
+    this._trustDefaultSharedCa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustDefaultSharedCaInput() {
+    return this._trustDefaultSharedCa;
   }
 
   // trust_domain - computed: false, optional: false, required: true
@@ -567,7 +781,7 @@ export interface GoogleIamWorkloadIdentityPoolInlineTrustConfig {
   /**
   * additional_trust_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#additional_trust_bundles GoogleIamWorkloadIdentityPool#additional_trust_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#additional_trust_bundles GoogleIamWorkloadIdentityPool#additional_trust_bundles}
   */
   readonly additionalTrustBundles?: GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundles[] | cdktn.IResolvable;
 }
@@ -651,15 +865,15 @@ export class GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference exten
 }
 export interface GoogleIamWorkloadIdentityPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#create GoogleIamWorkloadIdentityPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#create GoogleIamWorkloadIdentityPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#delete GoogleIamWorkloadIdentityPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#delete GoogleIamWorkloadIdentityPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#update GoogleIamWorkloadIdentityPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#update GoogleIamWorkloadIdentityPool#update}
   */
   readonly update?: string;
 }
@@ -811,7 +1025,7 @@ export class GoogleIamWorkloadIdentityPoolTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool google_iam_workload_identity_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool google_iam_workload_identity_pool}
 */
 export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
 
@@ -827,7 +1041,7 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIamWorkloadIdentityPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamWorkloadIdentityPool to import
-  * @param importFromId The id of the existing GoogleIamWorkloadIdentityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIamWorkloadIdentityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamWorkloadIdentityPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -839,7 +1053,7 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool google_iam_workload_identity_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool google_iam_workload_identity_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -850,8 +1064,8 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
       terraformResourceType: 'google_iam_workload_identity_pool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -868,6 +1082,7 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
     this._mode = config.mode;
     this._project = config.project;
     this._workloadIdentityPoolId = config.workloadIdentityPoolId;
+    this._attestationRules.internalValue = config.attestationRules;
     this._inlineCertificateIssuanceConfig.internalValue = config.inlineCertificateIssuanceConfig;
     this._inlineTrustConfig.internalValue = config.inlineTrustConfig;
     this._timeouts.internalValue = config.timeouts;
@@ -941,7 +1156,7 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
     return this._id;
   }
 
-  // mode - computed: false, optional: true, required: false
+  // mode - computed: true, optional: true, required: false
   private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
@@ -994,6 +1209,22 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get workloadIdentityPoolIdInput() {
     return this._workloadIdentityPoolId;
+  }
+
+  // attestation_rules - computed: false, optional: true, required: false
+  private _attestationRules = new GoogleIamWorkloadIdentityPoolAttestationRulesList(this, "attestation_rules", true);
+  public get attestationRules() {
+    return this._attestationRules;
+  }
+  public putAttestationRules(value: GoogleIamWorkloadIdentityPoolAttestationRules[] | cdktn.IResolvable) {
+    this._attestationRules.internalValue = value;
+  }
+  public resetAttestationRules() {
+    this._attestationRules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attestationRulesInput() {
+    return this._attestationRules.internalValue;
   }
 
   // inline_certificate_issuance_config - computed: false, optional: true, required: false
@@ -1057,6 +1288,7 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
       mode: cdktn.stringToTerraform(this._mode),
       project: cdktn.stringToTerraform(this._project),
       workload_identity_pool_id: cdktn.stringToTerraform(this._workloadIdentityPoolId),
+      attestation_rules: cdktn.listMapper(googleIamWorkloadIdentityPoolAttestationRulesToTerraform, true)(this._attestationRules.internalValue),
       inline_certificate_issuance_config: googleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigToTerraform(this._inlineCertificateIssuanceConfig.internalValue),
       inline_trust_config: googleIamWorkloadIdentityPoolInlineTrustConfigToTerraform(this._inlineTrustConfig.internalValue),
       timeouts: googleIamWorkloadIdentityPoolTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1106,6 +1338,12 @@ export class GoogleIamWorkloadIdentityPool extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      attestation_rules: {
+        value: cdktn.listMapperHcl(googleIamWorkloadIdentityPoolAttestationRulesToHclTerraform, true)(this._attestationRules.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "GoogleIamWorkloadIdentityPoolAttestationRulesList",
       },
       inline_certificate_issuance_config: {
         value: googleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigToHclTerraform(this._inlineCertificateIssuanceConfig.internalValue),

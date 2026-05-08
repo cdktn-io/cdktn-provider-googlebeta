@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,32 @@ export interface GoogleDataplexAspectTypeConfig extends cdktn.TerraformMetaArgum
   /**
   * The aspect type id of the aspect type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#aspect_type_id GoogleDataplexAspectType#aspect_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#aspect_type_id GoogleDataplexAspectType#aspect_type_id}
   */
   readonly aspectTypeId?: string;
   /**
+  * Classifies the data stored by the aspect.
+  * 'DATA_CLASSIFICATION_UNSPECIFIED' denotes that the aspect contains only metadata
+  * while 'METADATA_AND_DATA' indicates data derived content.
+  * <br><br> Possible values: ["DATA_CLASSIFICATION_UNSPECIFIED", "METADATA_AND_DATA"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#data_classification GoogleDataplexAspectType#data_classification}
+  */
+  readonly dataClassification?: string;
+  /**
   * Description of the AspectType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#description GoogleDataplexAspectType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#description GoogleDataplexAspectType#description}
   */
   readonly description?: string;
   /**
   * User friendly display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#display_name GoogleDataplexAspectType#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#display_name GoogleDataplexAspectType#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,43 +53,43 @@ export interface GoogleDataplexAspectTypeConfig extends cdktn.TerraformMetaArgum
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#labels GoogleDataplexAspectType#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#labels GoogleDataplexAspectType#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where aspect type will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#location GoogleDataplexAspectType#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#location GoogleDataplexAspectType#location}
   */
   readonly location?: string;
   /**
   * MetadataTemplate of the Aspect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#metadata_template GoogleDataplexAspectType#metadata_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#metadata_template GoogleDataplexAspectType#metadata_template}
   */
   readonly metadataTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}
   */
   readonly project?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#timeouts GoogleDataplexAspectType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#timeouts GoogleDataplexAspectType#timeouts}
   */
   readonly timeouts?: GoogleDataplexAspectTypeTimeouts;
 }
 export interface GoogleDataplexAspectTypeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}
   */
   readonly update?: string;
 }
@@ -232,7 +241,7 @@ export class GoogleDataplexAspectTypeTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}
 */
 export class GoogleDataplexAspectType extends cdktn.TerraformResource {
 
@@ -248,7 +257,7 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDataplexAspectType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataplexAspectType to import
-  * @param importFromId The id of the existing GoogleDataplexAspectType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataplexAspectType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataplexAspectType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -260,7 +269,7 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +280,8 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
       terraformResourceType: 'google_dataplex_aspect_type',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -283,6 +292,7 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._aspectTypeId = config.aspectTypeId;
+    this._dataClassification = config.dataClassification;
     this._description = config.description;
     this._displayName = config.displayName;
     this._id = config.id;
@@ -316,6 +326,22 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // data_classification - computed: false, optional: true, required: false
+  private _dataClassification?: string; 
+  public get dataClassification() {
+    return this.getStringAttribute('data_classification');
+  }
+  public set dataClassification(value: string) {
+    this._dataClassification = value;
+  }
+  public resetDataClassification() {
+    this._dataClassification = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataClassificationInput() {
+    return this._dataClassification;
   }
 
   // description - computed: false, optional: true, required: false
@@ -485,6 +511,7 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       aspect_type_id: cdktn.stringToTerraform(this._aspectTypeId),
+      data_classification: cdktn.stringToTerraform(this._dataClassification),
       description: cdktn.stringToTerraform(this._description),
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
@@ -500,6 +527,12 @@ export class GoogleDataplexAspectType extends cdktn.TerraformResource {
     const attrs = {
       aspect_type_id: {
         value: cdktn.stringToHclTerraform(this._aspectTypeId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      data_classification: {
+        value: cdktn.stringToHclTerraform(this._dataClassification),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

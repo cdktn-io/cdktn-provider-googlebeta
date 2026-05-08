@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleDataprocClusterConfig extends cdktn.TerraformMetaArgument
   /**
   * The timeout duration which allows graceful decomissioning when you change the number of worker nodes directly through a terraform apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
   */
   readonly gracefulDecommissionTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,43 +31,43 @@ export interface GoogleDataprocClusterConfig extends cdktn.TerraformMetaArgument
   * 				**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * 				Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the cluster, unique within the project and zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
   */
   readonly name: string;
   /**
   * The ID of the project in which the cluster will exist. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
   */
   readonly project?: string;
   /**
   * The region in which the cluster and associated nodes will be created in. Defaults to global.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
   */
   readonly region?: string;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
   */
   readonly clusterConfig?: GoogleDataprocClusterClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
   */
   readonly timeouts?: GoogleDataprocClusterTimeouts;
   /**
   * virtual_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
   */
   readonly virtualClusterConfig?: GoogleDataprocClusterVirtualClusterConfig;
 }
@@ -75,7 +75,7 @@ export interface GoogleDataprocClusterClusterConfigAutoscalingConfig {
   /**
   * The autoscaling policy used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
   */
   readonly policyUri: string;
 }
@@ -158,13 +158,13 @@ export interface GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupN
   /**
   * The number of the accelerator cards of this type exposed to this instance. Often restricted to one of 1, 2, 4, or 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
   */
   readonly acceleratorCount: number;
   /**
   * The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
   */
   readonly acceleratorType: string;
 }
@@ -303,27 +303,39 @@ export class GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeG
 }
 export interface GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig {
   /**
+  * Indicates how many IOPS to provision for the disk. This sets the number of I/O operations per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+  */
+  readonly bootDiskProvisionedIops?: number;
+  /**
+  * Indicates how much throughput to provision for the disk. This sets the number of throughput mb per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+  */
+  readonly bootDiskProvisionedThroughput?: number;
+  /**
   * Size of the primary disk attached to each node, specified in GB. The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
   */
   readonly bootDiskSizeGb?: number;
   /**
   * The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
   /**
   * Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
   */
   readonly localSsdInterface?: string;
   /**
   * The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
   */
   readonly numLocalSsds?: number;
 }
@@ -334,6 +346,8 @@ export function googleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    boot_disk_provisioned_iops: cdktn.numberToTerraform(struct!.bootDiskProvisionedIops),
+    boot_disk_provisioned_throughput: cdktn.numberToTerraform(struct!.bootDiskProvisionedThroughput),
     boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
     boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
     local_ssd_interface: cdktn.stringToTerraform(struct!.localSsdInterface),
@@ -348,6 +362,18 @@ export function googleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    boot_disk_provisioned_iops: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    boot_disk_provisioned_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     boot_disk_size_gb: {
       value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
@@ -392,6 +418,14 @@ export class GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeG
   public get internalValue(): GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bootDiskProvisionedIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedIops = this._bootDiskProvisionedIops;
+    }
+    if (this._bootDiskProvisionedThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedThroughput = this._bootDiskProvisionedThroughput;
+    }
     if (this._bootDiskSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.bootDiskSizeGb = this._bootDiskSizeGb;
@@ -414,6 +448,8 @@ export class GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeG
   public set internalValue(value: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bootDiskProvisionedIops = undefined;
+      this._bootDiskProvisionedThroughput = undefined;
       this._bootDiskSizeGb = undefined;
       this._bootDiskType = undefined;
       this._localSsdInterface = undefined;
@@ -421,11 +457,45 @@ export class GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeG
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bootDiskProvisionedIops = value.bootDiskProvisionedIops;
+      this._bootDiskProvisionedThroughput = value.bootDiskProvisionedThroughput;
       this._bootDiskSizeGb = value.bootDiskSizeGb;
       this._bootDiskType = value.bootDiskType;
       this._localSsdInterface = value.localSsdInterface;
       this._numLocalSsds = value.numLocalSsds;
     }
+  }
+
+  // boot_disk_provisioned_iops - computed: false, optional: true, required: false
+  private _bootDiskProvisionedIops?: number; 
+  public get bootDiskProvisionedIops() {
+    return this.getNumberAttribute('boot_disk_provisioned_iops');
+  }
+  public set bootDiskProvisionedIops(value: number) {
+    this._bootDiskProvisionedIops = value;
+  }
+  public resetBootDiskProvisionedIops() {
+    this._bootDiskProvisionedIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedIopsInput() {
+    return this._bootDiskProvisionedIops;
+  }
+
+  // boot_disk_provisioned_throughput - computed: false, optional: true, required: false
+  private _bootDiskProvisionedThroughput?: number; 
+  public get bootDiskProvisionedThroughput() {
+    return this.getNumberAttribute('boot_disk_provisioned_throughput');
+  }
+  public set bootDiskProvisionedThroughput(value: number) {
+    this._bootDiskProvisionedThroughput = value;
+  }
+  public resetBootDiskProvisionedThroughput() {
+    this._bootDiskProvisionedThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedThroughputInput() {
+    return this._bootDiskProvisionedThroughput;
   }
 
   // boot_disk_size_gb - computed: true, optional: true, required: false
@@ -496,31 +566,31 @@ export interface GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupN
   /**
   * The name of a Google Compute Engine machine type to create for the master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * The name of a minimum generation of CPU family for the auxiliary node group. If not specified, GCP will default to a predetermined computed value for each zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Specifies the number of auxiliary nodes to create. If not specified, GCP will default to a predetermined computed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
   */
   readonly numInstances?: number;
   /**
   * accelerators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
   */
   readonly accelerators?: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
   */
   readonly diskConfig?: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig;
 }
@@ -727,13 +797,13 @@ export interface GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroup 
   /**
   * Node group roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
   */
   readonly roles: string[];
   /**
   * node_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
   */
   readonly nodeGroupConfig?: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfig;
 }
@@ -882,13 +952,13 @@ export interface GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups {
   /**
   * A node group ID. Generated if not specified. The ID must contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens (-). Cannot begin or end with underscore or hyphen. Must consist of from 3 to 33 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
   * node_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
   */
   readonly nodeGroup: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroup[] | cdktn.IResolvable;
 }
@@ -1032,13 +1102,13 @@ export interface GoogleDataprocClusterClusterConfigDataprocMetricConfigMetrics {
   /**
   * Specify one or more [available OSS metrics] (https://cloud.google.com/dataproc/docs/guides/monitoring#available_oss_metrics) to collect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
   */
   readonly metricOverrides?: string[];
   /**
   * A source for the collection of Dataproc OSS metrics (see [available OSS metrics] (https://cloud.google.com//dataproc/docs/guides/monitoring#available_oss_metrics)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
   */
   readonly metricSource: string;
 }
@@ -1182,7 +1252,7 @@ export interface GoogleDataprocClusterClusterConfigDataprocMetricConfig {
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
   */
   readonly metrics: GoogleDataprocClusterClusterConfigDataprocMetricConfigMetrics[] | cdktn.IResolvable;
 }
@@ -1265,7 +1335,7 @@ export interface GoogleDataprocClusterClusterConfigEncryptionConfig {
   /**
   * The Cloud KMS key name to use for PD disk encryption for all instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -1348,7 +1418,7 @@ export interface GoogleDataprocClusterClusterConfigEndpointConfig {
   /**
   * The flag to enable http access to specific ports on the cluster from external sources (aka Component Gateway). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
   */
   readonly enableHttpPortAccess: boolean | cdktn.IResolvable;
 }
@@ -1437,7 +1507,7 @@ export interface GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialI
   /**
   * Defines whether the instance should have confidential compute enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
   */
   readonly enableConfidentialCompute?: boolean | cdktn.IResolvable;
 }
@@ -1523,7 +1593,7 @@ export interface GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffi
   /**
   * The URI of a sole-tenant that the cluster will be created on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
   */
   readonly nodeGroupUri: string;
 }
@@ -1606,19 +1676,19 @@ export interface GoogleDataprocClusterClusterConfigGceClusterConfigReservationAf
   /**
   * Type of reservation to consume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
   */
   readonly consumeReservationType?: string;
   /**
   * Corresponds to the label key of reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
   */
   readonly key?: string;
   /**
   * Corresponds to the label values of reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
   */
   readonly values?: string[];
 }
@@ -1762,19 +1832,19 @@ export interface GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInsta
   /**
   * Defines whether instances have integrity monitoring enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Defines whether instances have Secure Boot enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
   /**
   * Defines whether instances have the vTPM enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
   */
   readonly enableVtpm?: boolean | cdktn.IResolvable;
 }
@@ -1918,73 +1988,79 @@ export interface GoogleDataprocClusterClusterConfigGceClusterConfig {
   /**
   * By default, clusters are not restricted to internal IP addresses, and will have ephemeral external IP addresses assigned to each instance. If set to true, all instances in the cluster will only have internal IP addresses. Note: Private Google Access (also known as privateIpGoogleAccess) must be enabled on the subnetwork that the cluster will be launched in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
   */
   readonly internalIpOnly?: boolean | cdktn.IResolvable;
   /**
   * A map of the Compute Engine metadata entries to add to all instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The name or self_link of the Google Compute Engine network to the cluster will be part of. Conflicts with subnetwork. If neither is specified, this defaults to the "default" network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
   */
   readonly network?: string;
   /**
+  * A map of resource manager tags to add to all instances. Keys must be in the format tagKeys/{tag_key_id} and values in the format tagValues/{tag_value_id}.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#resource_manager_tags GoogleDataprocCluster#resource_manager_tags}
+  */
+  readonly resourceManagerTags?: { [key: string]: string };
+  /**
   * The service account to be used by the Node VMs. If not specified, the "default" service account is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The set of Google API scopes to be made available on all of the node VMs under the service_account specified. These can be either FQDNs, or scope aliases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
   */
   readonly serviceAccountScopes?: string[];
   /**
   * The name or self_link of the Google Compute Engine subnetwork the cluster will be part of. Conflicts with network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
   */
   readonly subnetwork?: string;
   /**
   * The list of instance tags applied to instances in the cluster. Tags are used to identify valid sources or targets for network firewalls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
   */
   readonly tags?: string[];
   /**
   * The GCP zone where your data is stored and used (i.e. where the master and the worker nodes will be created in). If region is set to 'global' (default) then zone is mandatory, otherwise GCP is able to make use of Auto Zone Placement to determine this automatically for you. Note: This setting additionally determines and restricts which computing resources are available for use with other configs such as cluster_config.master_config.machine_type and cluster_config.worker_config.machine_type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
   */
   readonly zone?: string;
   /**
   * confidential_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
   */
   readonly confidentialInstanceConfig?: GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfig;
   /**
   * node_group_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
   */
   readonly nodeGroupAffinity?: GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity;
   /**
   * reservation_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
   */
   readonly reservationAffinity?: GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig;
 }
@@ -1998,6 +2074,7 @@ export function googleDataprocClusterClusterConfigGceClusterConfigToTerraform(st
     internal_ip_only: cdktn.booleanToTerraform(struct!.internalIpOnly),
     metadata: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.metadata),
     network: cdktn.stringToTerraform(struct!.network),
+    resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
     service_account: cdktn.stringToTerraform(struct!.serviceAccount),
     service_account_scopes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.serviceAccountScopes),
     subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
@@ -2034,6 +2111,12 @@ export function googleDataprocClusterClusterConfigGceClusterConfigToHclTerraform
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    resource_manager_tags: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.resourceManagerTags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
     },
     service_account: {
       value: cdktn.stringToHclTerraform(struct!.serviceAccount),
@@ -2121,6 +2204,10 @@ export class GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference e
       hasAnyValues = true;
       internalValueResult.network = this._network;
     }
+    if (this._resourceManagerTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceManagerTags = this._resourceManagerTags;
+    }
     if (this._serviceAccount !== undefined) {
       hasAnyValues = true;
       internalValueResult.serviceAccount = this._serviceAccount;
@@ -2166,6 +2253,7 @@ export class GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference e
       this._internalIpOnly = undefined;
       this._metadata = undefined;
       this._network = undefined;
+      this._resourceManagerTags = undefined;
       this._serviceAccount = undefined;
       this._serviceAccountScopes = undefined;
       this._subnetwork = undefined;
@@ -2181,6 +2269,7 @@ export class GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference e
       this._internalIpOnly = value.internalIpOnly;
       this._metadata = value.metadata;
       this._network = value.network;
+      this._resourceManagerTags = value.resourceManagerTags;
       this._serviceAccount = value.serviceAccount;
       this._serviceAccountScopes = value.serviceAccountScopes;
       this._subnetwork = value.subnetwork;
@@ -2239,6 +2328,22 @@ export class GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference e
   // Temporarily expose input value. Use with caution.
   public get networkInput() {
     return this._network;
+  }
+
+  // resource_manager_tags - computed: true, optional: true, required: false
+  private _resourceManagerTags?: { [key: string]: string }; 
+  public get resourceManagerTags() {
+    return this.getStringMapAttribute('resource_manager_tags');
+  }
+  public set resourceManagerTags(value: { [key: string]: string }) {
+    this._resourceManagerTags = value;
+  }
+  public resetResourceManagerTags() {
+    this._resourceManagerTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceManagerTagsInput() {
+    return this._resourceManagerTags;
   }
 
   // service_account - computed: false, optional: true, required: false
@@ -2389,13 +2494,13 @@ export interface GoogleDataprocClusterClusterConfigInitializationAction {
   /**
   * The script to be executed during initialization of the cluster. The script must be a GCS file with a gs:// prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
   */
   readonly script: string;
   /**
   * The maximum duration (in seconds) which script is allowed to take to execute its action. GCP will default to a predetermined computed value if not set (currently 300).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
   */
   readonly timeoutSec?: number;
 }
@@ -2539,15 +2644,27 @@ export interface GoogleDataprocClusterClusterConfigLifecycleConfig {
   /**
   * The time when cluster will be auto-deleted. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
   */
   readonly autoDeleteTime?: string;
   /**
-  * The duration to keep the cluster alive while idling (no jobs running). After this TTL, the cluster will be deleted. Valid range: [10m, 14d].
+  * The time when cluster will be auto-stopped. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auto_stop_time GoogleDataprocCluster#auto_stop_time}
+  */
+  readonly autoStopTime?: string;
+  /**
+  * The duration to keep the cluster alive while idling (no jobs running). After this TTL, the cluster will be deleted. Valid range: [300s, 1209600s].
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
   */
   readonly idleDeleteTtl?: string;
+  /**
+  * The duration to keep the cluster started while idling (no jobs running). After this TTL, the cluster will be stopped. Valid range: [10m, 14d].
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#idle_stop_ttl GoogleDataprocCluster#idle_stop_ttl}
+  */
+  readonly idleStopTtl?: string;
 }
 
 export function googleDataprocClusterClusterConfigLifecycleConfigToTerraform(struct?: GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference | GoogleDataprocClusterClusterConfigLifecycleConfig): any {
@@ -2557,7 +2674,9 @@ export function googleDataprocClusterClusterConfigLifecycleConfigToTerraform(str
   }
   return {
     auto_delete_time: cdktn.stringToTerraform(struct!.autoDeleteTime),
+    auto_stop_time: cdktn.stringToTerraform(struct!.autoStopTime),
     idle_delete_ttl: cdktn.stringToTerraform(struct!.idleDeleteTtl),
+    idle_stop_ttl: cdktn.stringToTerraform(struct!.idleStopTtl),
   }
 }
 
@@ -2574,8 +2693,20 @@ export function googleDataprocClusterClusterConfigLifecycleConfigToHclTerraform(
       type: "simple",
       storageClassType: "string",
     },
+    auto_stop_time: {
+      value: cdktn.stringToHclTerraform(struct!.autoStopTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     idle_delete_ttl: {
       value: cdktn.stringToHclTerraform(struct!.idleDeleteTtl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    idle_stop_ttl: {
+      value: cdktn.stringToHclTerraform(struct!.idleStopTtl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2604,9 +2735,17 @@ export class GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference ex
       hasAnyValues = true;
       internalValueResult.autoDeleteTime = this._autoDeleteTime;
     }
+    if (this._autoStopTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoStopTime = this._autoStopTime;
+    }
     if (this._idleDeleteTtl !== undefined) {
       hasAnyValues = true;
       internalValueResult.idleDeleteTtl = this._idleDeleteTtl;
+    }
+    if (this._idleStopTtl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idleStopTtl = this._idleStopTtl;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2615,12 +2754,16 @@ export class GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference ex
     if (value === undefined) {
       this.isEmptyObject = false;
       this._autoDeleteTime = undefined;
+      this._autoStopTime = undefined;
       this._idleDeleteTtl = undefined;
+      this._idleStopTtl = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._autoDeleteTime = value.autoDeleteTime;
+      this._autoStopTime = value.autoStopTime;
       this._idleDeleteTtl = value.idleDeleteTtl;
+      this._idleStopTtl = value.idleStopTtl;
     }
   }
 
@@ -2638,6 +2781,22 @@ export class GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get autoDeleteTimeInput() {
     return this._autoDeleteTime;
+  }
+
+  // auto_stop_time - computed: false, optional: true, required: false
+  private _autoStopTime?: string; 
+  public get autoStopTime() {
+    return this.getStringAttribute('auto_stop_time');
+  }
+  public set autoStopTime(value: string) {
+    this._autoStopTime = value;
+  }
+  public resetAutoStopTime() {
+    this._autoStopTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoStopTimeInput() {
+    return this._autoStopTime;
   }
 
   // idle_delete_ttl - computed: false, optional: true, required: false
@@ -2660,18 +2819,34 @@ export class GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference ex
   public get idleStartTime() {
     return this.getStringAttribute('idle_start_time');
   }
+
+  // idle_stop_ttl - computed: false, optional: true, required: false
+  private _idleStopTtl?: string; 
+  public get idleStopTtl() {
+    return this.getStringAttribute('idle_stop_ttl');
+  }
+  public set idleStopTtl(value: string) {
+    this._idleStopTtl = value;
+  }
+  public resetIdleStopTtl() {
+    this._idleStopTtl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idleStopTtlInput() {
+    return this._idleStopTtl;
+  }
 }
 export interface GoogleDataprocClusterClusterConfigMasterConfigAccelerators {
   /**
   * The number of the accelerator cards of this type exposed to this instance. Often restricted to one of 1, 2, 4, or 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
   */
   readonly acceleratorCount: number;
   /**
   * The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
   */
   readonly acceleratorType: string;
 }
@@ -2810,27 +2985,39 @@ export class GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList exte
 }
 export interface GoogleDataprocClusterClusterConfigMasterConfigDiskConfig {
   /**
+  * Indicates how many IOPS to provision for the disk. This sets the number of I/O operations per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+  */
+  readonly bootDiskProvisionedIops?: number;
+  /**
+  * Indicates how much throughput to provision for the disk. This sets the number of throughput mb per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+  */
+  readonly bootDiskProvisionedThroughput?: number;
+  /**
   * Size of the primary disk attached to each node, specified in GB. The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
   */
   readonly bootDiskSizeGb?: number;
   /**
   * The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
   /**
   * Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
   */
   readonly localSsdInterface?: string;
   /**
   * The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
   */
   readonly numLocalSsds?: number;
 }
@@ -2841,6 +3028,8 @@ export function googleDataprocClusterClusterConfigMasterConfigDiskConfigToTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    boot_disk_provisioned_iops: cdktn.numberToTerraform(struct!.bootDiskProvisionedIops),
+    boot_disk_provisioned_throughput: cdktn.numberToTerraform(struct!.bootDiskProvisionedThroughput),
     boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
     boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
     local_ssd_interface: cdktn.stringToTerraform(struct!.localSsdInterface),
@@ -2855,6 +3044,18 @@ export function googleDataprocClusterClusterConfigMasterConfigDiskConfigToHclTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    boot_disk_provisioned_iops: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    boot_disk_provisioned_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     boot_disk_size_gb: {
       value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
@@ -2899,6 +3100,14 @@ export class GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputRefer
   public get internalValue(): GoogleDataprocClusterClusterConfigMasterConfigDiskConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bootDiskProvisionedIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedIops = this._bootDiskProvisionedIops;
+    }
+    if (this._bootDiskProvisionedThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedThroughput = this._bootDiskProvisionedThroughput;
+    }
     if (this._bootDiskSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.bootDiskSizeGb = this._bootDiskSizeGb;
@@ -2921,6 +3130,8 @@ export class GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputRefer
   public set internalValue(value: GoogleDataprocClusterClusterConfigMasterConfigDiskConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bootDiskProvisionedIops = undefined;
+      this._bootDiskProvisionedThroughput = undefined;
       this._bootDiskSizeGb = undefined;
       this._bootDiskType = undefined;
       this._localSsdInterface = undefined;
@@ -2928,11 +3139,45 @@ export class GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputRefer
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bootDiskProvisionedIops = value.bootDiskProvisionedIops;
+      this._bootDiskProvisionedThroughput = value.bootDiskProvisionedThroughput;
       this._bootDiskSizeGb = value.bootDiskSizeGb;
       this._bootDiskType = value.bootDiskType;
       this._localSsdInterface = value.localSsdInterface;
       this._numLocalSsds = value.numLocalSsds;
     }
+  }
+
+  // boot_disk_provisioned_iops - computed: false, optional: true, required: false
+  private _bootDiskProvisionedIops?: number; 
+  public get bootDiskProvisionedIops() {
+    return this.getNumberAttribute('boot_disk_provisioned_iops');
+  }
+  public set bootDiskProvisionedIops(value: number) {
+    this._bootDiskProvisionedIops = value;
+  }
+  public resetBootDiskProvisionedIops() {
+    this._bootDiskProvisionedIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedIopsInput() {
+    return this._bootDiskProvisionedIops;
+  }
+
+  // boot_disk_provisioned_throughput - computed: false, optional: true, required: false
+  private _bootDiskProvisionedThroughput?: number; 
+  public get bootDiskProvisionedThroughput() {
+    return this.getNumberAttribute('boot_disk_provisioned_throughput');
+  }
+  public set bootDiskProvisionedThroughput(value: number) {
+    this._bootDiskProvisionedThroughput = value;
+  }
+  public resetBootDiskProvisionedThroughput() {
+    this._bootDiskProvisionedThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedThroughputInput() {
+    return this._bootDiskProvisionedThroughput;
   }
 
   // boot_disk_size_gb - computed: true, optional: true, required: false
@@ -2999,43 +3244,374 @@ export class GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputRefer
     return this._numLocalSsds;
   }
 }
+export interface GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults {
+}
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsToTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsToHclTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // machine_type - computed: true, optional: false, required: false
+  public get machineType() {
+    return this.getStringAttribute('machine_type');
+  }
+
+  // vm_count - computed: true, optional: false, required: false
+  public get vmCount() {
+    return this.getNumberAttribute('vm_count');
+  }
+}
+
+export class GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference {
+    return new GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct {
+  /**
+  * Full machine-type names, e.g. "n1-standard-16".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+  */
+  readonly machineTypes?: string[];
+  /**
+  * Preference of this instance selection. Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+  */
+  readonly rank?: number;
+}
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructToTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    machine_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.machineTypes),
+    rank: cdktn.numberToTerraform(struct!.rank),
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructToHclTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    machine_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.machineTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    rank: {
+      value: cdktn.numberToHclTerraform(struct!.rank),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._machineTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineTypes = this._machineTypes;
+    }
+    if (this._rank !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rank = this._rank;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._machineTypes = undefined;
+      this._rank = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._machineTypes = value.machineTypes;
+      this._rank = value.rank;
+    }
+  }
+
+  // machine_types - computed: true, optional: true, required: false
+  private _machineTypes?: string[]; 
+  public get machineTypes() {
+    return this.getListAttribute('machine_types');
+  }
+  public set machineTypes(value: string[]) {
+    this._machineTypes = value;
+  }
+  public resetMachineTypes() {
+    this._machineTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineTypesInput() {
+    return this._machineTypes;
+  }
+
+  // rank - computed: true, optional: true, required: false
+  private _rank?: number; 
+  public get rank() {
+    return this.getNumberAttribute('rank');
+  }
+  public set rank(value: number) {
+    this._rank = value;
+  }
+  public resetRank() {
+    this._rank = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rankInput() {
+    return this._rank;
+  }
+}
+
+export class GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference {
+    return new GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy {
+  /**
+  * instance_selection_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+  */
+  readonly instanceSelectionList?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable;
+}
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyToTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    instance_selection_list: cdktn.listMapper(googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructToTerraform, true)(struct!.instanceSelectionList),
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyToHclTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference | GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    instance_selection_list: {
+      value: cdktn.listMapperHcl(googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructToHclTerraform, true)(struct!.instanceSelectionList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceSelectionList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceSelectionList = this._instanceSelectionList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._instanceSelectionList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._instanceSelectionList.internalValue = value.instanceSelectionList;
+    }
+  }
+
+  // instance_selection_results - computed: true, optional: false, required: false
+  private _instanceSelectionResults = new GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(this, "instance_selection_results", false);
+  public get instanceSelectionResults() {
+    return this._instanceSelectionResults;
+  }
+
+  // instance_selection_list - computed: false, optional: true, required: false
+  private _instanceSelectionList = new GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(this, "instance_selection_list", false);
+  public get instanceSelectionList() {
+    return this._instanceSelectionList;
+  }
+  public putInstanceSelectionList(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable) {
+    this._instanceSelectionList.internalValue = value;
+  }
+  public resetInstanceSelectionList() {
+    this._instanceSelectionList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceSelectionListInput() {
+    return this._instanceSelectionList.internalValue;
+  }
+}
 export interface GoogleDataprocClusterClusterConfigMasterConfig {
   /**
   * The URI for the image to use for this master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
   */
   readonly imageUri?: string;
   /**
   * The name of a Google Compute Engine machine type to create for the master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * The name of a minimum generation of CPU family for the master. If not specified, GCP will default to a predetermined computed value for each zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Specifies the number of master nodes to create. If not specified, GCP will default to a predetermined computed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
   */
   readonly numInstances?: number;
   /**
   * accelerators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
   */
   readonly accelerators?: GoogleDataprocClusterClusterConfigMasterConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
   */
   readonly diskConfig?: GoogleDataprocClusterClusterConfigMasterConfigDiskConfig;
+  /**
+  * instance_flexibility_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+  */
+  readonly instanceFlexibilityPolicy?: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy;
 }
 
 export function googleDataprocClusterClusterConfigMasterConfigToTerraform(struct?: GoogleDataprocClusterClusterConfigMasterConfigOutputReference | GoogleDataprocClusterClusterConfigMasterConfig): any {
@@ -3050,6 +3626,7 @@ export function googleDataprocClusterClusterConfigMasterConfigToTerraform(struct
     num_instances: cdktn.numberToTerraform(struct!.numInstances),
     accelerators: cdktn.listMapper(googleDataprocClusterClusterConfigMasterConfigAcceleratorsToTerraform, true)(struct!.accelerators),
     disk_config: googleDataprocClusterClusterConfigMasterConfigDiskConfigToTerraform(struct!.diskConfig),
+    instance_flexibility_policy: googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyToTerraform(struct!.instanceFlexibilityPolicy),
   }
 }
 
@@ -3096,6 +3673,12 @@ export function googleDataprocClusterClusterConfigMasterConfigToHclTerraform(str
       type: "list",
       storageClassType: "GoogleDataprocClusterClusterConfigMasterConfigDiskConfigList",
     },
+    instance_flexibility_policy: {
+      value: googleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyToHclTerraform(struct!.instanceFlexibilityPolicy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyList",
+    },
   };
 
   // remove undefined attributes
@@ -3140,6 +3723,10 @@ export class GoogleDataprocClusterClusterConfigMasterConfigOutputReference exten
       hasAnyValues = true;
       internalValueResult.diskConfig = this._diskConfig?.internalValue;
     }
+    if (this._instanceFlexibilityPolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceFlexibilityPolicy = this._instanceFlexibilityPolicy?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3152,6 +3739,7 @@ export class GoogleDataprocClusterClusterConfigMasterConfigOutputReference exten
       this._numInstances = undefined;
       this._accelerators.internalValue = undefined;
       this._diskConfig.internalValue = undefined;
+      this._instanceFlexibilityPolicy.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -3161,6 +3749,7 @@ export class GoogleDataprocClusterClusterConfigMasterConfigOutputReference exten
       this._numInstances = value.numInstances;
       this._accelerators.internalValue = value.accelerators;
       this._diskConfig.internalValue = value.diskConfig;
+      this._instanceFlexibilityPolicy.internalValue = value.instanceFlexibilityPolicy;
     }
   }
 
@@ -3264,12 +3853,28 @@ export class GoogleDataprocClusterClusterConfigMasterConfigOutputReference exten
   public get diskConfigInput() {
     return this._diskConfig.internalValue;
   }
+
+  // instance_flexibility_policy - computed: false, optional: true, required: false
+  private _instanceFlexibilityPolicy = new GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference(this, "instance_flexibility_policy");
+  public get instanceFlexibilityPolicy() {
+    return this._instanceFlexibilityPolicy;
+  }
+  public putInstanceFlexibilityPolicy(value: GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy) {
+    this._instanceFlexibilityPolicy.internalValue = value;
+  }
+  public resetInstanceFlexibilityPolicy() {
+    this._instanceFlexibilityPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceFlexibilityPolicyInput() {
+    return this._instanceFlexibilityPolicy.internalValue;
+  }
 }
 export interface GoogleDataprocClusterClusterConfigMetastoreConfig {
   /**
   * Resource name of an existing Dataproc Metastore service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
   */
   readonly dataprocMetastoreService: string;
 }
@@ -3350,27 +3955,39 @@ export class GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference ex
 }
 export interface GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig {
   /**
+  * Indicates how many IOPS to provision for the disk. This sets the number of I/O operations per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+  */
+  readonly bootDiskProvisionedIops?: number;
+  /**
+  * Indicates how much throughput to provision for the disk. This sets the number of throughput mb per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+  */
+  readonly bootDiskProvisionedThroughput?: number;
+  /**
   * Size of the primary disk attached to each preemptible worker node, specified in GB. The smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
   */
   readonly bootDiskSizeGb?: number;
   /**
   * The disk type of the primary disk attached to each preemptible worker node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
   /**
   * Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
   */
   readonly localSsdInterface?: string;
   /**
   * The amount of local SSD disks that will be attached to each preemptible worker node. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
   */
   readonly numLocalSsds?: number;
 }
@@ -3381,6 +3998,8 @@ export function googleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskCon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    boot_disk_provisioned_iops: cdktn.numberToTerraform(struct!.bootDiskProvisionedIops),
+    boot_disk_provisioned_throughput: cdktn.numberToTerraform(struct!.bootDiskProvisionedThroughput),
     boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
     boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
     local_ssd_interface: cdktn.stringToTerraform(struct!.localSsdInterface),
@@ -3395,6 +4014,18 @@ export function googleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskCon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    boot_disk_provisioned_iops: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    boot_disk_provisioned_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     boot_disk_size_gb: {
       value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
@@ -3439,6 +4070,14 @@ export class GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
   public get internalValue(): GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bootDiskProvisionedIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedIops = this._bootDiskProvisionedIops;
+    }
+    if (this._bootDiskProvisionedThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedThroughput = this._bootDiskProvisionedThroughput;
+    }
     if (this._bootDiskSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.bootDiskSizeGb = this._bootDiskSizeGb;
@@ -3461,6 +4100,8 @@ export class GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
   public set internalValue(value: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bootDiskProvisionedIops = undefined;
+      this._bootDiskProvisionedThroughput = undefined;
       this._bootDiskSizeGb = undefined;
       this._bootDiskType = undefined;
       this._localSsdInterface = undefined;
@@ -3468,11 +4109,45 @@ export class GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bootDiskProvisionedIops = value.bootDiskProvisionedIops;
+      this._bootDiskProvisionedThroughput = value.bootDiskProvisionedThroughput;
       this._bootDiskSizeGb = value.bootDiskSizeGb;
       this._bootDiskType = value.bootDiskType;
       this._localSsdInterface = value.localSsdInterface;
       this._numLocalSsds = value.numLocalSsds;
     }
+  }
+
+  // boot_disk_provisioned_iops - computed: false, optional: true, required: false
+  private _bootDiskProvisionedIops?: number; 
+  public get bootDiskProvisionedIops() {
+    return this.getNumberAttribute('boot_disk_provisioned_iops');
+  }
+  public set bootDiskProvisionedIops(value: number) {
+    this._bootDiskProvisionedIops = value;
+  }
+  public resetBootDiskProvisionedIops() {
+    this._bootDiskProvisionedIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedIopsInput() {
+    return this._bootDiskProvisionedIops;
+  }
+
+  // boot_disk_provisioned_throughput - computed: false, optional: true, required: false
+  private _bootDiskProvisionedThroughput?: number; 
+  public get bootDiskProvisionedThroughput() {
+    return this.getNumberAttribute('boot_disk_provisioned_throughput');
+  }
+  public set bootDiskProvisionedThroughput(value: number) {
+    this._bootDiskProvisionedThroughput = value;
+  }
+  public resetBootDiskProvisionedThroughput() {
+    this._bootDiskProvisionedThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedThroughputInput() {
+    return this._bootDiskProvisionedThroughput;
   }
 
   // boot_disk_size_gb - computed: true, optional: true, required: false
@@ -3623,13 +4298,13 @@ export interface GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstan
   /**
   * Full machine-type names, e.g. "n1-standard-16".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
   */
   readonly machineTypes?: string[];
   /**
   * Preference of this instance selection. Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
   */
   readonly rank?: number;
 }
@@ -3776,13 +4451,13 @@ export interface GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstan
   /**
   * The base capacity that will always use Standard VMs to avoid risk of more preemption than the minimum capacity you need.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
   */
   readonly standardCapacityBase?: number;
   /**
   * The percentage of target capacity that should use Standard VM. The remaining percentage will use Spot VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
   */
   readonly standardCapacityPercentAboveBase?: number;
 }
@@ -3897,13 +4572,13 @@ export interface GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstan
   /**
   * instance_selection_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
   */
   readonly instanceSelectionList?: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable;
   /**
   * provisioning_model_mix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
   */
   readonly provisioningModelMix?: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix;
 }
@@ -4024,25 +4699,25 @@ export interface GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig {
   /**
   * Specifies the number of preemptible nodes to create. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
   */
   readonly numInstances?: number;
   /**
   * Specifies the preemptibility of the secondary nodes. Defaults to PREEMPTIBLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
   */
   readonly preemptibility?: string;
   /**
   * disk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
   */
   readonly diskConfig?: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig;
   /**
   * instance_flexibility_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
   */
   readonly instanceFlexibilityPolicy?: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicy;
 }
@@ -4220,7 +4895,7 @@ export interface GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig 
   /**
   * User to service account mappings for multi-tenancy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
   */
   readonly userServiceAccountMapping: { [key: string]: string };
 }
@@ -4303,44 +4978,44 @@ export interface GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig 
   /**
   * The admin server (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
   */
   readonly crossRealmTrustAdminServer?: string;
   /**
   * The KDC (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
   */
   readonly crossRealmTrustKdc?: string;
   /**
   * The remote realm the Dataproc on-cluster KDC will trust, should the user enable cross realm trust.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
   */
   readonly crossRealmTrustRealm?: string;
   /**
   * The Cloud Storage URI of a KMS encrypted file containing the shared password between the on-cluster
   * Kerberos realm and the remote trusted realm, in a cross realm trust relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
   */
   readonly crossRealmTrustSharedPasswordUri?: string;
   /**
   * Flag to indicate whether to Kerberize the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
   */
   readonly enableKerberos?: boolean | cdktn.IResolvable;
   /**
   * The Cloud Storage URI of a KMS encrypted file containing the master key of the KDC database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
   */
   readonly kdcDbKeyUri?: string;
   /**
   * The Cloud Storage URI of a KMS encrypted file containing the password to the user provided key. For the self-signed certificate, this password is generated by Dataproc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
   */
   readonly keyPasswordUri?: string;
   /**
@@ -4348,49 +5023,49 @@ export interface GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig 
   * the password to the user provided keystore. For the self-signed certificate, this password is generated
   * by Dataproc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
   */
   readonly keystorePasswordUri?: string;
   /**
   * The Cloud Storage URI of the keystore file used for SSL encryption. If not provided, Dataproc will provide a self-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
   */
   readonly keystoreUri?: string;
   /**
   * The uri of the KMS key used to encrypt various sensitive files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
   */
   readonly kmsKeyUri: string;
   /**
   * The name of the on-cluster Kerberos realm. If not specified, the uppercased domain of hostnames will be the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
   */
   readonly realm?: string;
   /**
   * The cloud Storage URI of a KMS encrypted file containing the root principal password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
   */
   readonly rootPrincipalPasswordUri: string;
   /**
   * The lifetime of the ticket granting ticket, in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
   */
   readonly tgtLifetimeHours?: number;
   /**
   * The Cloud Storage URI of a KMS encrypted file containing the password to the user provided truststore. For the self-signed certificate, this password is generated by Dataproc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
   */
   readonly truststorePasswordUri?: string;
   /**
   * The Cloud Storage URI of the truststore file used for SSL encryption. If not provided, Dataproc will provide a self-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
   */
   readonly truststoreUri?: string;
 }
@@ -4876,13 +5551,13 @@ export interface GoogleDataprocClusterClusterConfigSecurityConfig {
   /**
   * identity_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
   */
   readonly identityConfig?: GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig;
   /**
   * kerberos_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
   */
   readonly kerberosConfig?: GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig;
 }
@@ -4997,19 +5672,19 @@ export interface GoogleDataprocClusterClusterConfigSoftwareConfig {
   /**
   * The Cloud Dataproc image version to use for the cluster - this controls the sets of software versions installed onto the nodes when you create clusters. If not specified, defaults to the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
   */
   readonly imageVersion?: string;
   /**
   * The set of optional components to activate on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
   */
   readonly optionalComponents?: string[];
   /**
   * A list of override and additional properties (key/value pairs) used to modify various aspects of the common configuration files used when creating a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
   */
   readonly overrideProperties?: { [key: string]: string };
 }
@@ -5159,13 +5834,13 @@ export interface GoogleDataprocClusterClusterConfigWorkerConfigAccelerators {
   /**
   * The number of the accelerator cards of this type exposed to this instance. Often restricted to one of 1, 2, 4, or 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
   */
   readonly acceleratorCount: number;
   /**
   * The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
   */
   readonly acceleratorType: string;
 }
@@ -5304,27 +5979,39 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList exte
 }
 export interface GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig {
   /**
+  * Indicates how many IOPS to provision for the disk. This sets the number of I/O operations per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+  */
+  readonly bootDiskProvisionedIops?: number;
+  /**
+  * Indicates how much throughput to provision for the disk. This sets the number of throughput mb per second that the disk can handle.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+  */
+  readonly bootDiskProvisionedThroughput?: number;
+  /**
   * Size of the primary disk attached to each node, specified in GB. The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
   */
   readonly bootDiskSizeGb?: number;
   /**
   * The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
   /**
   * Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
   */
   readonly localSsdInterface?: string;
   /**
   * The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
   */
   readonly numLocalSsds?: number;
 }
@@ -5335,6 +6022,8 @@ export function googleDataprocClusterClusterConfigWorkerConfigDiskConfigToTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    boot_disk_provisioned_iops: cdktn.numberToTerraform(struct!.bootDiskProvisionedIops),
+    boot_disk_provisioned_throughput: cdktn.numberToTerraform(struct!.bootDiskProvisionedThroughput),
     boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
     boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
     local_ssd_interface: cdktn.stringToTerraform(struct!.localSsdInterface),
@@ -5349,6 +6038,18 @@ export function googleDataprocClusterClusterConfigWorkerConfigDiskConfigToHclTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    boot_disk_provisioned_iops: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedIops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    boot_disk_provisioned_throughput: {
+      value: cdktn.numberToHclTerraform(struct!.bootDiskProvisionedThroughput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     boot_disk_size_gb: {
       value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
@@ -5393,6 +6094,14 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
   public get internalValue(): GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bootDiskProvisionedIops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedIops = this._bootDiskProvisionedIops;
+    }
+    if (this._bootDiskProvisionedThroughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bootDiskProvisionedThroughput = this._bootDiskProvisionedThroughput;
+    }
     if (this._bootDiskSizeGb !== undefined) {
       hasAnyValues = true;
       internalValueResult.bootDiskSizeGb = this._bootDiskSizeGb;
@@ -5415,6 +6124,8 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
   public set internalValue(value: GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bootDiskProvisionedIops = undefined;
+      this._bootDiskProvisionedThroughput = undefined;
       this._bootDiskSizeGb = undefined;
       this._bootDiskType = undefined;
       this._localSsdInterface = undefined;
@@ -5422,11 +6133,45 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bootDiskProvisionedIops = value.bootDiskProvisionedIops;
+      this._bootDiskProvisionedThroughput = value.bootDiskProvisionedThroughput;
       this._bootDiskSizeGb = value.bootDiskSizeGb;
       this._bootDiskType = value.bootDiskType;
       this._localSsdInterface = value.localSsdInterface;
       this._numLocalSsds = value.numLocalSsds;
     }
+  }
+
+  // boot_disk_provisioned_iops - computed: false, optional: true, required: false
+  private _bootDiskProvisionedIops?: number; 
+  public get bootDiskProvisionedIops() {
+    return this.getNumberAttribute('boot_disk_provisioned_iops');
+  }
+  public set bootDiskProvisionedIops(value: number) {
+    this._bootDiskProvisionedIops = value;
+  }
+  public resetBootDiskProvisionedIops() {
+    this._bootDiskProvisionedIops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedIopsInput() {
+    return this._bootDiskProvisionedIops;
+  }
+
+  // boot_disk_provisioned_throughput - computed: false, optional: true, required: false
+  private _bootDiskProvisionedThroughput?: number; 
+  public get bootDiskProvisionedThroughput() {
+    return this.getNumberAttribute('boot_disk_provisioned_throughput');
+  }
+  public set bootDiskProvisionedThroughput(value: number) {
+    this._bootDiskProvisionedThroughput = value;
+  }
+  public resetBootDiskProvisionedThroughput() {
+    this._bootDiskProvisionedThroughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bootDiskProvisionedThroughputInput() {
+    return this._bootDiskProvisionedThroughput;
   }
 
   // boot_disk_size_gb - computed: true, optional: true, required: false
@@ -5493,49 +6238,380 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputRefer
     return this._numLocalSsds;
   }
 }
+export interface GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults {
+}
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsToTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsToHclTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // machine_type - computed: true, optional: false, required: false
+  public get machineType() {
+    return this.getStringAttribute('machine_type');
+  }
+
+  // vm_count - computed: true, optional: false, required: false
+  public get vmCount() {
+    return this.getNumberAttribute('vm_count');
+  }
+}
+
+export class GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference {
+    return new GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct {
+  /**
+  * Full machine-type names, e.g. "n1-standard-16".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+  */
+  readonly machineTypes?: string[];
+  /**
+  * Preference of this instance selection. Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+  */
+  readonly rank?: number;
+}
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructToTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    machine_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.machineTypes),
+    rank: cdktn.numberToTerraform(struct!.rank),
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructToHclTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    machine_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.machineTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    rank: {
+      value: cdktn.numberToHclTerraform(struct!.rank),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._machineTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.machineTypes = this._machineTypes;
+    }
+    if (this._rank !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rank = this._rank;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._machineTypes = undefined;
+      this._rank = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._machineTypes = value.machineTypes;
+      this._rank = value.rank;
+    }
+  }
+
+  // machine_types - computed: true, optional: true, required: false
+  private _machineTypes?: string[]; 
+  public get machineTypes() {
+    return this.getListAttribute('machine_types');
+  }
+  public set machineTypes(value: string[]) {
+    this._machineTypes = value;
+  }
+  public resetMachineTypes() {
+    this._machineTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get machineTypesInput() {
+    return this._machineTypes;
+  }
+
+  // rank - computed: true, optional: true, required: false
+  private _rank?: number; 
+  public get rank() {
+    return this.getNumberAttribute('rank');
+  }
+  public set rank(value: number) {
+    this._rank = value;
+  }
+  public resetRank() {
+    this._rank = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rankInput() {
+    return this._rank;
+  }
+}
+
+export class GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference {
+    return new GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy {
+  /**
+  * instance_selection_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+  */
+  readonly instanceSelectionList?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable;
+}
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyToTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    instance_selection_list: cdktn.listMapper(googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructToTerraform, true)(struct!.instanceSelectionList),
+  }
+}
+
+
+export function googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyToHclTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference | GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    instance_selection_list: {
+      value: cdktn.listMapperHcl(googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructToHclTerraform, true)(struct!.instanceSelectionList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceSelectionList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceSelectionList = this._instanceSelectionList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._instanceSelectionList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._instanceSelectionList.internalValue = value.instanceSelectionList;
+    }
+  }
+
+  // instance_selection_results - computed: true, optional: false, required: false
+  private _instanceSelectionResults = new GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(this, "instance_selection_results", false);
+  public get instanceSelectionResults() {
+    return this._instanceSelectionResults;
+  }
+
+  // instance_selection_list - computed: false, optional: true, required: false
+  private _instanceSelectionList = new GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(this, "instance_selection_list", false);
+  public get instanceSelectionList() {
+    return this._instanceSelectionList;
+  }
+  public putInstanceSelectionList(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct[] | cdktn.IResolvable) {
+    this._instanceSelectionList.internalValue = value;
+  }
+  public resetInstanceSelectionList() {
+    this._instanceSelectionList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceSelectionListInput() {
+    return this._instanceSelectionList.internalValue;
+  }
+}
 export interface GoogleDataprocClusterClusterConfigWorkerConfig {
   /**
   * The URI for the image to use for this master/worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
   */
   readonly imageUri?: string;
   /**
   * The name of a Google Compute Engine machine type to create for the master/worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * The name of a minimum generation of CPU family for the master/worker. If not specified, GCP will default to a predetermined computed value for each zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * The minimum number of primary worker instances to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
   */
   readonly minNumInstances?: number;
   /**
   * Specifies the number of worker nodes to create. If not specified, GCP will default to a predetermined computed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
   */
   readonly numInstances?: number;
   /**
   * accelerators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
   */
   readonly accelerators?: GoogleDataprocClusterClusterConfigWorkerConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
   */
   readonly diskConfig?: GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig;
+  /**
+  * instance_flexibility_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+  */
+  readonly instanceFlexibilityPolicy?: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy;
 }
 
 export function googleDataprocClusterClusterConfigWorkerConfigToTerraform(struct?: GoogleDataprocClusterClusterConfigWorkerConfigOutputReference | GoogleDataprocClusterClusterConfigWorkerConfig): any {
@@ -5551,6 +6627,7 @@ export function googleDataprocClusterClusterConfigWorkerConfigToTerraform(struct
     num_instances: cdktn.numberToTerraform(struct!.numInstances),
     accelerators: cdktn.listMapper(googleDataprocClusterClusterConfigWorkerConfigAcceleratorsToTerraform, true)(struct!.accelerators),
     disk_config: googleDataprocClusterClusterConfigWorkerConfigDiskConfigToTerraform(struct!.diskConfig),
+    instance_flexibility_policy: googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyToTerraform(struct!.instanceFlexibilityPolicy),
   }
 }
 
@@ -5603,6 +6680,12 @@ export function googleDataprocClusterClusterConfigWorkerConfigToHclTerraform(str
       type: "list",
       storageClassType: "GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigList",
     },
+    instance_flexibility_policy: {
+      value: googleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyToHclTerraform(struct!.instanceFlexibilityPolicy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyList",
+    },
   };
 
   // remove undefined attributes
@@ -5651,6 +6734,10 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigOutputReference exten
       hasAnyValues = true;
       internalValueResult.diskConfig = this._diskConfig?.internalValue;
     }
+    if (this._instanceFlexibilityPolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceFlexibilityPolicy = this._instanceFlexibilityPolicy?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -5664,6 +6751,7 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigOutputReference exten
       this._numInstances = undefined;
       this._accelerators.internalValue = undefined;
       this._diskConfig.internalValue = undefined;
+      this._instanceFlexibilityPolicy.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -5674,6 +6762,7 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigOutputReference exten
       this._numInstances = value.numInstances;
       this._accelerators.internalValue = value.accelerators;
       this._diskConfig.internalValue = value.diskConfig;
+      this._instanceFlexibilityPolicy.internalValue = value.instanceFlexibilityPolicy;
     }
   }
 
@@ -5793,108 +6882,136 @@ export class GoogleDataprocClusterClusterConfigWorkerConfigOutputReference exten
   public get diskConfigInput() {
     return this._diskConfig.internalValue;
   }
+
+  // instance_flexibility_policy - computed: false, optional: true, required: false
+  private _instanceFlexibilityPolicy = new GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference(this, "instance_flexibility_policy");
+  public get instanceFlexibilityPolicy() {
+    return this._instanceFlexibilityPolicy;
+  }
+  public putInstanceFlexibilityPolicy(value: GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy) {
+    this._instanceFlexibilityPolicy.internalValue = value;
+  }
+  public resetInstanceFlexibilityPolicy() {
+    this._instanceFlexibilityPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceFlexibilityPolicyInput() {
+    return this._instanceFlexibilityPolicy.internalValue;
+  }
 }
 export interface GoogleDataprocClusterClusterConfig {
   /**
   * Specifies the tier of the cluster created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
   */
   readonly clusterTier?: string;
   /**
+  * The type of the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#cluster_type GoogleDataprocCluster#cluster_type}
+  */
+  readonly clusterType?: string;
+  /**
+  * Specifies the engine of the cluster created.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#engine GoogleDataprocCluster#engine}
+  */
+  readonly engine?: string;
+  /**
   * The Cloud Storage staging bucket used to stage files, such as Hadoop jars, between client machines and the cluster. Note: If you don't explicitly specify a staging_bucket then GCP will auto create / assign one for you. However, you are not guaranteed an auto generated bucket which is solely dedicated to your cluster; it may be shared with other clusters in the same region/zone also choosing to use the auto generation option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
   */
   readonly stagingBucket?: string;
   /**
   * The Cloud Storage temp bucket used to store ephemeral cluster and jobs data, such as Spark and MapReduce history files. Note: If you don't explicitly specify a temp_bucket then GCP will auto create / assign one for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
   */
   readonly tempBucket?: string;
   /**
   * autoscaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
   */
   readonly autoscalingConfig?: GoogleDataprocClusterClusterConfigAutoscalingConfig;
   /**
   * auxiliary_node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
   */
   readonly auxiliaryNodeGroups?: GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups[] | cdktn.IResolvable;
   /**
   * dataproc_metric_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
   */
   readonly dataprocMetricConfig?: GoogleDataprocClusterClusterConfigDataprocMetricConfig;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
   */
   readonly encryptionConfig?: GoogleDataprocClusterClusterConfigEncryptionConfig;
   /**
   * endpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
   */
   readonly endpointConfig?: GoogleDataprocClusterClusterConfigEndpointConfig;
   /**
   * gce_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
   */
   readonly gceClusterConfig?: GoogleDataprocClusterClusterConfigGceClusterConfig;
   /**
   * initialization_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
   */
   readonly initializationAction?: GoogleDataprocClusterClusterConfigInitializationAction[] | cdktn.IResolvable;
   /**
   * lifecycle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
   */
   readonly lifecycleConfig?: GoogleDataprocClusterClusterConfigLifecycleConfig;
   /**
   * master_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
   */
   readonly masterConfig?: GoogleDataprocClusterClusterConfigMasterConfig;
   /**
   * metastore_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
   */
   readonly metastoreConfig?: GoogleDataprocClusterClusterConfigMetastoreConfig;
   /**
   * preemptible_worker_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
   */
   readonly preemptibleWorkerConfig?: GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig;
   /**
   * security_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
   */
   readonly securityConfig?: GoogleDataprocClusterClusterConfigSecurityConfig;
   /**
   * software_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
   */
   readonly softwareConfig?: GoogleDataprocClusterClusterConfigSoftwareConfig;
   /**
   * worker_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
   */
   readonly workerConfig?: GoogleDataprocClusterClusterConfigWorkerConfig;
 }
@@ -5906,6 +7023,8 @@ export function googleDataprocClusterClusterConfigToTerraform(struct?: GoogleDat
   }
   return {
     cluster_tier: cdktn.stringToTerraform(struct!.clusterTier),
+    cluster_type: cdktn.stringToTerraform(struct!.clusterType),
+    engine: cdktn.stringToTerraform(struct!.engine),
     staging_bucket: cdktn.stringToTerraform(struct!.stagingBucket),
     temp_bucket: cdktn.stringToTerraform(struct!.tempBucket),
     autoscaling_config: googleDataprocClusterClusterConfigAutoscalingConfigToTerraform(struct!.autoscalingConfig),
@@ -5934,6 +7053,18 @@ export function googleDataprocClusterClusterConfigToHclTerraform(struct?: Google
   const attrs = {
     cluster_tier: {
       value: cdktn.stringToHclTerraform(struct!.clusterTier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cluster_type: {
+      value: cdktn.stringToHclTerraform(struct!.clusterType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    engine: {
+      value: cdktn.stringToHclTerraform(struct!.engine),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6058,6 +7189,14 @@ export class GoogleDataprocClusterClusterConfigOutputReference extends cdktn.Com
       hasAnyValues = true;
       internalValueResult.clusterTier = this._clusterTier;
     }
+    if (this._clusterType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterType = this._clusterType;
+    }
+    if (this._engine !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.engine = this._engine;
+    }
     if (this._stagingBucket !== undefined) {
       hasAnyValues = true;
       internalValueResult.stagingBucket = this._stagingBucket;
@@ -6129,6 +7268,8 @@ export class GoogleDataprocClusterClusterConfigOutputReference extends cdktn.Com
     if (value === undefined) {
       this.isEmptyObject = false;
       this._clusterTier = undefined;
+      this._clusterType = undefined;
+      this._engine = undefined;
       this._stagingBucket = undefined;
       this._tempBucket = undefined;
       this._autoscalingConfig.internalValue = undefined;
@@ -6149,6 +7290,8 @@ export class GoogleDataprocClusterClusterConfigOutputReference extends cdktn.Com
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterTier = value.clusterTier;
+      this._clusterType = value.clusterType;
+      this._engine = value.engine;
       this._stagingBucket = value.stagingBucket;
       this._tempBucket = value.tempBucket;
       this._autoscalingConfig.internalValue = value.autoscalingConfig;
@@ -6187,6 +7330,38 @@ export class GoogleDataprocClusterClusterConfigOutputReference extends cdktn.Com
   // Temporarily expose input value. Use with caution.
   public get clusterTierInput() {
     return this._clusterTier;
+  }
+
+  // cluster_type - computed: true, optional: true, required: false
+  private _clusterType?: string; 
+  public get clusterType() {
+    return this.getStringAttribute('cluster_type');
+  }
+  public set clusterType(value: string) {
+    this._clusterType = value;
+  }
+  public resetClusterType() {
+    this._clusterType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterTypeInput() {
+    return this._clusterType;
+  }
+
+  // engine - computed: true, optional: true, required: false
+  private _engine?: string; 
+  public get engine() {
+    return this.getStringAttribute('engine');
+  }
+  public set engine(value: string) {
+    this._engine = value;
+  }
+  public resetEngine() {
+    this._engine = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get engineInput() {
+    return this._engine;
   }
 
   // staging_bucket - computed: false, optional: true, required: false
@@ -6447,15 +7622,15 @@ export class GoogleDataprocClusterClusterConfigOutputReference extends cdktn.Com
 }
 export interface GoogleDataprocClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}
   */
   readonly update?: string;
 }
@@ -6609,7 +7784,7 @@ export interface GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfi
   /**
   * The Hive Metastore configuration for this workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
   */
   readonly dataprocMetastoreService?: string;
 }
@@ -6695,7 +7870,7 @@ export interface GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfi
   /**
   * Resource name of an existing Dataproc Cluster to act as a Spark History Server for the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
   */
   readonly dataprocCluster?: string;
 }
@@ -6781,13 +7956,13 @@ export interface GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfi
   /**
   * metastore_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
   */
   readonly metastoreConfig?: GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfig;
   /**
   * spark_history_server_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
   */
   readonly sparkHistoryServerConfig?: GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfig;
 }
@@ -6902,13 +8077,13 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * The maximum number of nodes in the node pool. Must be >= minNodeCount, and must be > 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
   */
   readonly minNodeCount?: number;
 }
@@ -7023,31 +8198,31 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
   */
   readonly localSsdCount?: number;
   /**
   * The name of a Compute Engine machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * Minimum CPU platform to be used by this instance. The instance may be scheduled on the specified or a newer CPU platform. Specify the friendly names of CPU platforms, such as "Intel Haswell" or "Intel Sandy Bridge".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Whether the nodes are created as preemptible VM instances. Preemptible nodes cannot be used in a node pool with the CONTROLLER role or in the DEFAULT node pool if the CONTROLLER role is not assigned (the DEFAULT node pool will assume the CONTROLLER role).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
   */
   readonly preemptible?: boolean | cdktn.IResolvable;
   /**
   * Spot flag for enabling Spot VM, which is a rebrand of the existing preemptible flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
   */
   readonly spot?: boolean | cdktn.IResolvable;
 }
@@ -7249,19 +8424,19 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * The list of Compute Engine zones where node pool nodes associated with a Dataproc on GKE virtual cluster will be located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
   */
   readonly locations: string[];
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
   */
   readonly autoscaling?: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscaling;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
   */
   readonly config?: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfig;
 }
@@ -7402,19 +8577,19 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * The target GKE node pool. Format: 'projects/{project}/locations/{location}/clusters/{cluster}/nodePools/{nodePool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
   */
   readonly nodePool: string;
   /**
   * The roles associated with the GKE node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
   */
   readonly roles: string[];
   /**
   * node_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
   */
   readonly nodePoolConfig?: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfig;
 }
@@ -7584,13 +8759,13 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * A target GKE cluster to deploy to. It must be in the same project and region as the Dataproc cluster (the GKE cluster can be zonal or regional). Format: 'projects/{project}/locations/{location}/clusters/{cluster_id}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
   */
   readonly gkeClusterTarget?: string;
   /**
   * node_pool_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
   */
   readonly nodePoolTarget?: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTarget[] | cdktn.IResolvable;
 }
@@ -7705,13 +8880,13 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * The components that should be installed in this Dataproc cluster. The key must be a string from the KubernetesComponent enumeration. The value is the version of the software to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
   */
   readonly componentVersion: { [key: string]: string };
   /**
   * The properties to set on daemon config files. Property keys are specified in prefix:property format, for example spark:spark.kubernetes.container.image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -7823,19 +8998,19 @@ export interface GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
   /**
   * A namespace within the Kubernetes cluster to deploy into. If this namespace does not exist, it is created. If it exists, Dataproc verifies that another Dataproc VirtualCluster is not installed into it. If not specified, the name of the Dataproc Cluster is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
   */
   readonly kubernetesNamespace?: string;
   /**
   * gke_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
   */
   readonly gkeClusterConfig: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfig;
   /**
   * kubernetes_software_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
   */
   readonly kubernetesSoftwareConfig: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfig;
 }
@@ -7973,19 +9148,19 @@ export interface GoogleDataprocClusterVirtualClusterConfig {
   /**
   * A Cloud Storage bucket used to stage job dependencies, config files, and job driver console output. If you do not specify a staging bucket, Cloud Dataproc will determine a Cloud Storage location (US, ASIA, or EU) for your cluster's staging bucket according to the Compute Engine zone where your cluster is deployed, and then create and manage this project-level, per-location bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
   */
   readonly stagingBucket?: string;
   /**
   * auxiliary_services_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
   */
   readonly auxiliaryServicesConfig?: GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig;
   /**
   * kubernetes_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
   */
   readonly kubernetesClusterConfig?: GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfig;
 }
@@ -8127,7 +9302,7 @@ export class GoogleDataprocClusterVirtualClusterConfigOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}
 */
 export class GoogleDataprocCluster extends cdktn.TerraformResource {
 
@@ -8143,7 +9318,7 @@ export class GoogleDataprocCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDataprocCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataprocCluster to import
-  * @param importFromId The id of the existing GoogleDataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataprocCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8155,7 +9330,7 @@ export class GoogleDataprocCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_cluster google_dataproc_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster google_dataproc_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8166,8 +9341,8 @@ export class GoogleDataprocCluster extends cdktn.TerraformResource {
       terraformResourceType: 'google_dataproc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

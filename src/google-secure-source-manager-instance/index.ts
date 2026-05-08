@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,16 +17,16 @@ export interface GoogleSecureSourceManagerInstanceConfig extends cdktn.Terraform
   * to be abandoned, rather than deleted. Setting 'DELETE' deletes the resource
   * and all its contents. Setting 'PREVENT' prevents the resource from accidental
   * deletion by erroring out during plan.
-  * Default is 'DELETE'.  Possible values are:
+  * Default is 'PREVENT'.  Possible values are:
   *   * DELETE
   *   * PREVENT
   *   * ABANDON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#deletion_policy GoogleSecureSourceManagerInstance#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#deletion_policy GoogleSecureSourceManagerInstance#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface GoogleSecureSourceManagerInstanceConfig extends cdktn.Terraform
   /**
   * The name for the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#instance_id GoogleSecureSourceManagerInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#instance_id GoogleSecureSourceManagerInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * Customer-managed encryption key name, in the format projects/* /locations/* /keyRings/* /cryptoKeys/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#kms_key GoogleSecureSourceManagerInstance#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#kms_key GoogleSecureSourceManagerInstance#kms_key}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -53,35 +53,35 @@ export interface GoogleSecureSourceManagerInstanceConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#labels GoogleSecureSourceManagerInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#labels GoogleSecureSourceManagerInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location for the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#location GoogleSecureSourceManagerInstance#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#location GoogleSecureSourceManagerInstance#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}
   */
   readonly project?: string;
   /**
   * private_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#private_config GoogleSecureSourceManagerInstance#private_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#private_config GoogleSecureSourceManagerInstance#private_config}
   */
   readonly privateConfig?: GoogleSecureSourceManagerInstancePrivateConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#timeouts GoogleSecureSourceManagerInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#timeouts GoogleSecureSourceManagerInstance#timeouts}
   */
   readonly timeouts?: GoogleSecureSourceManagerInstanceTimeouts;
   /**
   * workforce_identity_federation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#workforce_identity_federation_config GoogleSecureSourceManagerInstance#workforce_identity_federation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#workforce_identity_federation_config GoogleSecureSourceManagerInstance#workforce_identity_federation_config}
   */
   readonly workforceIdentityFederationConfig?: GoogleSecureSourceManagerInstanceWorkforceIdentityFederationConfig;
 }
@@ -175,19 +175,204 @@ export class GoogleSecureSourceManagerInstanceHostConfigList extends cdktn.Compl
     return new GoogleSecureSourceManagerInstanceHostConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig {
+  /**
+  * API hostname.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#api GoogleSecureSourceManagerInstance#api}
+  */
+  readonly api: string;
+  /**
+  * Git HTTP hostname.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#git_http GoogleSecureSourceManagerInstance#git_http}
+  */
+  readonly gitHttp: string;
+  /**
+  * Git SSH hostname.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#git_ssh GoogleSecureSourceManagerInstance#git_ssh}
+  */
+  readonly gitSsh: string;
+  /**
+  * HTML hostname.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#html GoogleSecureSourceManagerInstance#html}
+  */
+  readonly html: string;
+}
+
+export function googleSecureSourceManagerInstancePrivateConfigCustomHostConfigToTerraform(struct?: GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference | GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    api: cdktn.stringToTerraform(struct!.api),
+    git_http: cdktn.stringToTerraform(struct!.gitHttp),
+    git_ssh: cdktn.stringToTerraform(struct!.gitSsh),
+    html: cdktn.stringToTerraform(struct!.html),
+  }
+}
+
+
+export function googleSecureSourceManagerInstancePrivateConfigCustomHostConfigToHclTerraform(struct?: GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference | GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    api: {
+      value: cdktn.stringToHclTerraform(struct!.api),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    git_http: {
+      value: cdktn.stringToHclTerraform(struct!.gitHttp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    git_ssh: {
+      value: cdktn.stringToHclTerraform(struct!.gitSsh),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    html: {
+      value: cdktn.stringToHclTerraform(struct!.html),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._api !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.api = this._api;
+    }
+    if (this._gitHttp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gitHttp = this._gitHttp;
+    }
+    if (this._gitSsh !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gitSsh = this._gitSsh;
+    }
+    if (this._html !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.html = this._html;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._api = undefined;
+      this._gitHttp = undefined;
+      this._gitSsh = undefined;
+      this._html = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._api = value.api;
+      this._gitHttp = value.gitHttp;
+      this._gitSsh = value.gitSsh;
+      this._html = value.html;
+    }
+  }
+
+  // api - computed: false, optional: false, required: true
+  private _api?: string; 
+  public get api() {
+    return this.getStringAttribute('api');
+  }
+  public set api(value: string) {
+    this._api = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiInput() {
+    return this._api;
+  }
+
+  // git_http - computed: false, optional: false, required: true
+  private _gitHttp?: string; 
+  public get gitHttp() {
+    return this.getStringAttribute('git_http');
+  }
+  public set gitHttp(value: string) {
+    this._gitHttp = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gitHttpInput() {
+    return this._gitHttp;
+  }
+
+  // git_ssh - computed: false, optional: false, required: true
+  private _gitSsh?: string; 
+  public get gitSsh() {
+    return this.getStringAttribute('git_ssh');
+  }
+  public set gitSsh(value: string) {
+    this._gitSsh = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gitSshInput() {
+    return this._gitSsh;
+  }
+
+  // html - computed: false, optional: false, required: true
+  private _html?: string; 
+  public get html() {
+    return this.getStringAttribute('html');
+  }
+  public set html(value: string) {
+    this._html = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get htmlInput() {
+    return this._html;
+  }
+}
 export interface GoogleSecureSourceManagerInstancePrivateConfig {
   /**
   * CA pool resource, resource must in the format of 'projects/{project}/locations/{location}/caPools/{ca_pool}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#ca_pool GoogleSecureSourceManagerInstance#ca_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#ca_pool GoogleSecureSourceManagerInstance#ca_pool}
   */
-  readonly caPool: string;
+  readonly caPool?: string;
   /**
   * 'Indicate if it's private instance.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#is_private GoogleSecureSourceManagerInstance#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#is_private GoogleSecureSourceManagerInstance#is_private}
   */
   readonly isPrivate: boolean | cdktn.IResolvable;
+  /**
+  * custom_host_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#custom_host_config GoogleSecureSourceManagerInstance#custom_host_config}
+  */
+  readonly customHostConfig?: GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig;
 }
 
 export function googleSecureSourceManagerInstancePrivateConfigToTerraform(struct?: GoogleSecureSourceManagerInstancePrivateConfigOutputReference | GoogleSecureSourceManagerInstancePrivateConfig): any {
@@ -198,6 +383,7 @@ export function googleSecureSourceManagerInstancePrivateConfigToTerraform(struct
   return {
     ca_pool: cdktn.stringToTerraform(struct!.caPool),
     is_private: cdktn.booleanToTerraform(struct!.isPrivate),
+    custom_host_config: googleSecureSourceManagerInstancePrivateConfigCustomHostConfigToTerraform(struct!.customHostConfig),
   }
 }
 
@@ -219,6 +405,12 @@ export function googleSecureSourceManagerInstancePrivateConfigToHclTerraform(str
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    custom_host_config: {
+      value: googleSecureSourceManagerInstancePrivateConfigCustomHostConfigToHclTerraform(struct!.customHostConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigList",
     },
   };
 
@@ -248,6 +440,10 @@ export class GoogleSecureSourceManagerInstancePrivateConfigOutputReference exten
       hasAnyValues = true;
       internalValueResult.isPrivate = this._isPrivate;
     }
+    if (this._customHostConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHostConfig = this._customHostConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -256,21 +452,26 @@ export class GoogleSecureSourceManagerInstancePrivateConfigOutputReference exten
       this.isEmptyObject = false;
       this._caPool = undefined;
       this._isPrivate = undefined;
+      this._customHostConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._caPool = value.caPool;
       this._isPrivate = value.isPrivate;
+      this._customHostConfig.internalValue = value.customHostConfig;
     }
   }
 
-  // ca_pool - computed: false, optional: false, required: true
+  // ca_pool - computed: false, optional: true, required: false
   private _caPool?: string; 
   public get caPool() {
     return this.getStringAttribute('ca_pool');
   }
   public set caPool(value: string) {
     this._caPool = value;
+  }
+  public resetCaPool() {
+    this._caPool = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get caPoolInput() {
@@ -299,18 +500,34 @@ export class GoogleSecureSourceManagerInstancePrivateConfigOutputReference exten
   public get sshServiceAttachment() {
     return this.getStringAttribute('ssh_service_attachment');
   }
+
+  // custom_host_config - computed: false, optional: true, required: false
+  private _customHostConfig = new GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference(this, "custom_host_config");
+  public get customHostConfig() {
+    return this._customHostConfig;
+  }
+  public putCustomHostConfig(value: GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig) {
+    this._customHostConfig.internalValue = value;
+  }
+  public resetCustomHostConfig() {
+    this._customHostConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHostConfigInput() {
+    return this._customHostConfig.internalValue;
+  }
 }
 export interface GoogleSecureSourceManagerInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}
   */
   readonly update?: string;
 }
@@ -464,7 +681,7 @@ export interface GoogleSecureSourceManagerInstanceWorkforceIdentityFederationCon
   /**
   * 'Whether Workforce Identity Federation is enabled.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#enabled GoogleSecureSourceManagerInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#enabled GoogleSecureSourceManagerInstance#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -545,7 +762,7 @@ export class GoogleSecureSourceManagerInstanceWorkforceIdentityFederationConfigO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}
 */
 export class GoogleSecureSourceManagerInstance extends cdktn.TerraformResource {
 
@@ -561,7 +778,7 @@ export class GoogleSecureSourceManagerInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSecureSourceManagerInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecureSourceManagerInstance to import
-  * @param importFromId The id of the existing GoogleSecureSourceManagerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSecureSourceManagerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecureSourceManagerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -573,7 +790,7 @@ export class GoogleSecureSourceManagerInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +801,8 @@ export class GoogleSecureSourceManagerInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_secure_source_manager_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

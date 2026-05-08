@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleNetworkServicesServiceLbPoliciesConfig extends cdktn.Terr
   /**
   * A free-text description of the resource. Max length 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#description GoogleNetworkServicesServiceLbPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#description GoogleNetworkServicesServiceLbPolicies#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#id GoogleNetworkServicesServiceLbPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#id GoogleNetworkServicesServiceLbPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,47 +31,53 @@ export interface GoogleNetworkServicesServiceLbPoliciesConfig extends cdktn.Terr
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#labels GoogleNetworkServicesServiceLbPolicies#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#labels GoogleNetworkServicesServiceLbPolicies#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The type of load balancing algorithm to be used. The default behavior is WATERFALL_BY_REGION. Possible values: ["SPRAY_TO_REGION", "SPRAY_TO_WORLD", "WATERFALL_BY_REGION", "WATERFALL_BY_ZONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#load_balancing_algorithm GoogleNetworkServicesServiceLbPolicies#load_balancing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#load_balancing_algorithm GoogleNetworkServicesServiceLbPolicies#load_balancing_algorithm}
   */
   readonly loadBalancingAlgorithm?: string;
   /**
   * The location of the service lb policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#location GoogleNetworkServicesServiceLbPolicies#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#location GoogleNetworkServicesServiceLbPolicies#location}
   */
   readonly location: string;
   /**
   * Name of the ServiceLbPolicy resource. It matches pattern 'projects/{project}/locations/{location}/serviceLbPolicies/{service_lb_policy_name}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#name GoogleNetworkServicesServiceLbPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#name GoogleNetworkServicesServiceLbPolicies#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#project GoogleNetworkServicesServiceLbPolicies#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#project GoogleNetworkServicesServiceLbPolicies#project}
   */
   readonly project?: string;
   /**
   * auto_capacity_drain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#auto_capacity_drain GoogleNetworkServicesServiceLbPolicies#auto_capacity_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#auto_capacity_drain GoogleNetworkServicesServiceLbPolicies#auto_capacity_drain}
   */
   readonly autoCapacityDrain?: GoogleNetworkServicesServiceLbPoliciesAutoCapacityDrain;
   /**
   * failover_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#failover_config GoogleNetworkServicesServiceLbPolicies#failover_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#failover_config GoogleNetworkServicesServiceLbPolicies#failover_config}
   */
   readonly failoverConfig?: GoogleNetworkServicesServiceLbPoliciesFailoverConfig;
   /**
+  * isolation_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#isolation_config GoogleNetworkServicesServiceLbPolicies#isolation_config}
+  */
+  readonly isolationConfig?: GoogleNetworkServicesServiceLbPoliciesIsolationConfig;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#timeouts GoogleNetworkServicesServiceLbPolicies#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#timeouts GoogleNetworkServicesServiceLbPolicies#timeouts}
   */
   readonly timeouts?: GoogleNetworkServicesServiceLbPoliciesTimeouts;
 }
@@ -79,7 +85,7 @@ export interface GoogleNetworkServicesServiceLbPoliciesAutoCapacityDrain {
   /**
   * Optional. If set to 'True', an unhealthy MIG/NEG will be set as drained. - An MIG/NEG is considered unhealthy if less than 25% of the instances/endpoints in the MIG/NEG are healthy. - This option will never result in draining more than 50% of the configured IGs/NEGs for the Backend Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#enable GoogleNetworkServicesServiceLbPolicies#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#enable GoogleNetworkServicesServiceLbPolicies#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
 }
@@ -165,7 +171,7 @@ export interface GoogleNetworkServicesServiceLbPoliciesFailoverConfig {
   /**
   * Optional. The percentage threshold that a load balancer will begin to send traffic to failover backends. If the percentage of endpoints in a MIG/NEG is smaller than this value, traffic would be sent to failover backends if possible. This field should be set to a value between 1 and 99. The default value is 50 for Global external HTTP(S) load balancer (classic) and Proxyless service mesh, and 70 for others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#failover_health_threshold GoogleNetworkServicesServiceLbPolicies#failover_health_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#failover_health_threshold GoogleNetworkServicesServiceLbPolicies#failover_health_threshold}
   */
   readonly failoverHealthThreshold: number;
 }
@@ -244,17 +250,138 @@ export class GoogleNetworkServicesServiceLbPoliciesFailoverConfigOutputReference
     return this._failoverHealthThreshold;
   }
 }
+export interface GoogleNetworkServicesServiceLbPoliciesIsolationConfig {
+  /**
+  * The isolation granularity of the load balancer. Possible values: ["ISOLATION_GRANULARITY_UNSPECIFIED", "REGION"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#isolation_granularity GoogleNetworkServicesServiceLbPolicies#isolation_granularity}
+  */
+  readonly isolationGranularity?: string;
+  /**
+  * The isolation mode of the load balancer. Default value: "NEAREST" Possible values: ["ISOLATION_MODE_UNSPECIFIED", "NEAREST", "STRICT"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#isolation_mode GoogleNetworkServicesServiceLbPolicies#isolation_mode}
+  */
+  readonly isolationMode?: string;
+}
+
+export function googleNetworkServicesServiceLbPoliciesIsolationConfigToTerraform(struct?: GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference | GoogleNetworkServicesServiceLbPoliciesIsolationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    isolation_granularity: cdktn.stringToTerraform(struct!.isolationGranularity),
+    isolation_mode: cdktn.stringToTerraform(struct!.isolationMode),
+  }
+}
+
+
+export function googleNetworkServicesServiceLbPoliciesIsolationConfigToHclTerraform(struct?: GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference | GoogleNetworkServicesServiceLbPoliciesIsolationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    isolation_granularity: {
+      value: cdktn.stringToHclTerraform(struct!.isolationGranularity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    isolation_mode: {
+      value: cdktn.stringToHclTerraform(struct!.isolationMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleNetworkServicesServiceLbPoliciesIsolationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._isolationGranularity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isolationGranularity = this._isolationGranularity;
+    }
+    if (this._isolationMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isolationMode = this._isolationMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleNetworkServicesServiceLbPoliciesIsolationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._isolationGranularity = undefined;
+      this._isolationMode = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._isolationGranularity = value.isolationGranularity;
+      this._isolationMode = value.isolationMode;
+    }
+  }
+
+  // isolation_granularity - computed: false, optional: true, required: false
+  private _isolationGranularity?: string; 
+  public get isolationGranularity() {
+    return this.getStringAttribute('isolation_granularity');
+  }
+  public set isolationGranularity(value: string) {
+    this._isolationGranularity = value;
+  }
+  public resetIsolationGranularity() {
+    this._isolationGranularity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isolationGranularityInput() {
+    return this._isolationGranularity;
+  }
+
+  // isolation_mode - computed: false, optional: true, required: false
+  private _isolationMode?: string; 
+  public get isolationMode() {
+    return this.getStringAttribute('isolation_mode');
+  }
+  public set isolationMode(value: string) {
+    this._isolationMode = value;
+  }
+  public resetIsolationMode() {
+    this._isolationMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isolationModeInput() {
+    return this._isolationMode;
+  }
+}
 export interface GoogleNetworkServicesServiceLbPoliciesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#create GoogleNetworkServicesServiceLbPolicies#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#create GoogleNetworkServicesServiceLbPolicies#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#delete GoogleNetworkServicesServiceLbPolicies#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#delete GoogleNetworkServicesServiceLbPolicies#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#update GoogleNetworkServicesServiceLbPolicies#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#update GoogleNetworkServicesServiceLbPolicies#update}
   */
   readonly update?: string;
 }
@@ -406,7 +533,7 @@ export class GoogleNetworkServicesServiceLbPoliciesTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}
 */
 export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResource {
 
@@ -422,7 +549,7 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleNetworkServicesServiceLbPolicies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesServiceLbPolicies to import
-  * @param importFromId The id of the existing GoogleNetworkServicesServiceLbPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkServicesServiceLbPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesServiceLbPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -434,7 +561,7 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +572,8 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
       terraformResourceType: 'google_network_services_service_lb_policies',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -465,6 +592,7 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
     this._project = config.project;
     this._autoCapacityDrain.internalValue = config.autoCapacityDrain;
     this._failoverConfig.internalValue = config.failoverConfig;
+    this._isolationConfig.internalValue = config.isolationConfig;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -632,6 +760,22 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
     return this._failoverConfig.internalValue;
   }
 
+  // isolation_config - computed: false, optional: true, required: false
+  private _isolationConfig = new GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference(this, "isolation_config");
+  public get isolationConfig() {
+    return this._isolationConfig;
+  }
+  public putIsolationConfig(value: GoogleNetworkServicesServiceLbPoliciesIsolationConfig) {
+    this._isolationConfig.internalValue = value;
+  }
+  public resetIsolationConfig() {
+    this._isolationConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isolationConfigInput() {
+    return this._isolationConfig.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleNetworkServicesServiceLbPoliciesTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -663,6 +807,7 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
       project: cdktn.stringToTerraform(this._project),
       auto_capacity_drain: googleNetworkServicesServiceLbPoliciesAutoCapacityDrainToTerraform(this._autoCapacityDrain.internalValue),
       failover_config: googleNetworkServicesServiceLbPoliciesFailoverConfigToTerraform(this._failoverConfig.internalValue),
+      isolation_config: googleNetworkServicesServiceLbPoliciesIsolationConfigToTerraform(this._isolationConfig.internalValue),
       timeouts: googleNetworkServicesServiceLbPoliciesTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -722,6 +867,12 @@ export class GoogleNetworkServicesServiceLbPolicies extends cdktn.TerraformResou
         isBlock: true,
         type: "list",
         storageClassType: "GoogleNetworkServicesServiceLbPoliciesFailoverConfigList",
+      },
+      isolation_config: {
+        value: googleNetworkServicesServiceLbPoliciesIsolationConfigToHclTerraform(this._isolationConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleNetworkServicesServiceLbPoliciesIsolationConfigList",
       },
       timeouts: {
         value: googleNetworkServicesServiceLbPoliciesTimeoutsToHclTerraform(this._timeouts.internalValue),

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleChronicleReferenceListConfig extends cdktn.TerraformMetaA
   /**
   * Required. A user-provided description of the reference list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#description GoogleChronicleReferenceList#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#id GoogleChronicleReferenceList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,17 +28,17 @@ export interface GoogleChronicleReferenceListConfig extends cdktn.TerraformMetaA
   /**
   * The unique identifier for the Chronicle instance, which is the same as the customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#instance GoogleChronicleReferenceList#instance}
   */
   readonly instance: string;
   /**
   * The location of the resource. This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#location GoogleChronicleReferenceList#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#project GoogleChronicleReferenceList#project}
   */
   readonly project?: string;
   /**
@@ -49,7 +49,7 @@ export interface GoogleChronicleReferenceListConfig extends cdktn.TerraformMetaA
   * - Has length < 256.
   * - Must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#reference_list_id GoogleChronicleReferenceList#reference_list_id}
   */
   readonly referenceListId: string;
   /**
@@ -58,178 +58,33 @@ export interface GoogleChronicleReferenceListConfig extends cdktn.TerraformMetaA
   * REFERENCE_LIST_SYNTAX_TYPE_REGEX
   * REFERENCE_LIST_SYNTAX_TYPE_CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#syntax_type GoogleChronicleReferenceList#syntax_type}
   */
   readonly syntaxType: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#entries GoogleChronicleReferenceList#entries}
   */
   readonly entries: GoogleChronicleReferenceListEntries[] | cdktn.IResolvable;
   /**
+  * scope_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#scope_info GoogleChronicleReferenceList#scope_info}
+  */
+  readonly scopeInfo?: GoogleChronicleReferenceListScopeInfo;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#timeouts GoogleChronicleReferenceList#timeouts}
   */
   readonly timeouts?: GoogleChronicleReferenceListTimeouts;
-}
-export interface GoogleChronicleReferenceListScopeInfoReferenceListScope {
-}
-
-export function googleChronicleReferenceListScopeInfoReferenceListScopeToTerraform(struct?: GoogleChronicleReferenceListScopeInfoReferenceListScope): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function googleChronicleReferenceListScopeInfoReferenceListScopeToHclTerraform(struct?: GoogleChronicleReferenceListScopeInfoReferenceListScope): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleChronicleReferenceListScopeInfoReferenceListScope | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleChronicleReferenceListScopeInfoReferenceListScope | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // scope_names - computed: true, optional: false, required: false
-  public get scopeNames() {
-    return this.getListAttribute('scope_names');
-  }
-}
-
-export class GoogleChronicleReferenceListScopeInfoReferenceListScopeList extends cdktn.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference {
-    return new GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GoogleChronicleReferenceListScopeInfo {
-}
-
-export function googleChronicleReferenceListScopeInfoToTerraform(struct?: GoogleChronicleReferenceListScopeInfo): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function googleChronicleReferenceListScopeInfoToHclTerraform(struct?: GoogleChronicleReferenceListScopeInfo): any {
-  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GoogleChronicleReferenceListScopeInfoOutputReference extends cdktn.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GoogleChronicleReferenceListScopeInfo | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GoogleChronicleReferenceListScopeInfo | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // reference_list_scope - computed: true, optional: false, required: false
-  private _referenceListScope = new GoogleChronicleReferenceListScopeInfoReferenceListScopeList(this, "reference_list_scope", false);
-  public get referenceListScope() {
-    return this._referenceListScope;
-  }
-}
-
-export class GoogleChronicleReferenceListScopeInfoList extends cdktn.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GoogleChronicleReferenceListScopeInfoOutputReference {
-    return new GoogleChronicleReferenceListScopeInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
 }
 export interface GoogleChronicleReferenceListEntries {
   /**
   * Required. The value of the entry. Maximum length is 512 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#value GoogleChronicleReferenceList#value}
   */
   readonly value: string;
 }
@@ -340,17 +195,191 @@ export class GoogleChronicleReferenceListEntriesList extends cdktn.ComplexList {
     return new GoogleChronicleReferenceListEntriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleChronicleReferenceListScopeInfoReferenceListScope {
+  /**
+  * Optional. The list of scope names of the reference list. The scope names should be
+  * full resource names and should be of the format:
+  * "projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#scope_names GoogleChronicleReferenceList#scope_names}
+  */
+  readonly scopeNames?: string[];
+}
+
+export function googleChronicleReferenceListScopeInfoReferenceListScopeToTerraform(struct?: GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference | GoogleChronicleReferenceListScopeInfoReferenceListScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    scope_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeNames),
+  }
+}
+
+
+export function googleChronicleReferenceListScopeInfoReferenceListScopeToHclTerraform(struct?: GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference | GoogleChronicleReferenceListScopeInfoReferenceListScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    scope_names: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleChronicleReferenceListScopeInfoReferenceListScope | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeNames = this._scopeNames;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleChronicleReferenceListScopeInfoReferenceListScope | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._scopeNames = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._scopeNames = value.scopeNames;
+    }
+  }
+
+  // scope_names - computed: false, optional: true, required: false
+  private _scopeNames?: string[]; 
+  public get scopeNames() {
+    return this.getListAttribute('scope_names');
+  }
+  public set scopeNames(value: string[]) {
+    this._scopeNames = value;
+  }
+  public resetScopeNames() {
+    this._scopeNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeNamesInput() {
+    return this._scopeNames;
+  }
+}
+export interface GoogleChronicleReferenceListScopeInfo {
+  /**
+  * reference_list_scope block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#reference_list_scope GoogleChronicleReferenceList#reference_list_scope}
+  */
+  readonly referenceListScope?: GoogleChronicleReferenceListScopeInfoReferenceListScope;
+}
+
+export function googleChronicleReferenceListScopeInfoToTerraform(struct?: GoogleChronicleReferenceListScopeInfoOutputReference | GoogleChronicleReferenceListScopeInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    reference_list_scope: googleChronicleReferenceListScopeInfoReferenceListScopeToTerraform(struct!.referenceListScope),
+  }
+}
+
+
+export function googleChronicleReferenceListScopeInfoToHclTerraform(struct?: GoogleChronicleReferenceListScopeInfoOutputReference | GoogleChronicleReferenceListScopeInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    reference_list_scope: {
+      value: googleChronicleReferenceListScopeInfoReferenceListScopeToHclTerraform(struct!.referenceListScope),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleChronicleReferenceListScopeInfoReferenceListScopeList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleChronicleReferenceListScopeInfoOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleChronicleReferenceListScopeInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._referenceListScope?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.referenceListScope = this._referenceListScope?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleChronicleReferenceListScopeInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._referenceListScope.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._referenceListScope.internalValue = value.referenceListScope;
+    }
+  }
+
+  // reference_list_scope - computed: false, optional: true, required: false
+  private _referenceListScope = new GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(this, "reference_list_scope");
+  public get referenceListScope() {
+    return this._referenceListScope;
+  }
+  public putReferenceListScope(value: GoogleChronicleReferenceListScopeInfoReferenceListScope) {
+    this._referenceListScope.internalValue = value;
+  }
+  public resetReferenceListScope() {
+    this._referenceListScope.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referenceListScopeInput() {
+    return this._referenceListScope.internalValue;
+  }
+}
 export interface GoogleChronicleReferenceListTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#create GoogleChronicleReferenceList#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#delete GoogleChronicleReferenceList#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#update GoogleChronicleReferenceList#update}
   */
   readonly update?: string;
 }
@@ -502,7 +531,7 @@ export class GoogleChronicleReferenceListTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}
 */
 export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
 
@@ -518,7 +547,7 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleChronicleReferenceList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleReferenceList to import
-  * @param importFromId The id of the existing GoogleChronicleReferenceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleReferenceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleReferenceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -530,7 +559,7 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -541,8 +570,8 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
       terraformResourceType: 'google_chronicle_reference_list',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.50.0'
+        providerVersion: '7.31.0',
+        providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -560,6 +589,7 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
     this._referenceListId = config.referenceListId;
     this._syntaxType = config.syntaxType;
     this._entries.internalValue = config.entries;
+    this._scopeInfo.internalValue = config.scopeInfo;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -676,12 +706,6 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
     return this.getListAttribute('rules');
   }
 
-  // scope_info - computed: true, optional: false, required: false
-  private _scopeInfo = new GoogleChronicleReferenceListScopeInfoList(this, "scope_info", false);
-  public get scopeInfo() {
-    return this._scopeInfo;
-  }
-
   // syntax_type - computed: false, optional: false, required: true
   private _syntaxType?: string; 
   public get syntaxType() {
@@ -706,6 +730,22 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get entriesInput() {
     return this._entries.internalValue;
+  }
+
+  // scope_info - computed: false, optional: true, required: false
+  private _scopeInfo = new GoogleChronicleReferenceListScopeInfoOutputReference(this, "scope_info");
+  public get scopeInfo() {
+    return this._scopeInfo;
+  }
+  public putScopeInfo(value: GoogleChronicleReferenceListScopeInfo) {
+    this._scopeInfo.internalValue = value;
+  }
+  public resetScopeInfo() {
+    this._scopeInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInfoInput() {
+    return this._scopeInfo.internalValue;
   }
 
   // timeouts - computed: false, optional: true, required: false
@@ -738,6 +778,7 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
       reference_list_id: cdktn.stringToTerraform(this._referenceListId),
       syntax_type: cdktn.stringToTerraform(this._syntaxType),
       entries: cdktn.listMapper(googleChronicleReferenceListEntriesToTerraform, true)(this._entries.internalValue),
+      scope_info: googleChronicleReferenceListScopeInfoToTerraform(this._scopeInfo.internalValue),
       timeouts: googleChronicleReferenceListTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -791,6 +832,12 @@ export class GoogleChronicleReferenceList extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleChronicleReferenceListEntriesList",
+      },
+      scope_info: {
+        value: googleChronicleReferenceListScopeInfoToHclTerraform(this._scopeInfo.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleChronicleReferenceListScopeInfoList",
       },
       timeouts: {
         value: googleChronicleReferenceListTimeoutsToHclTerraform(this._timeouts.internalValue),
