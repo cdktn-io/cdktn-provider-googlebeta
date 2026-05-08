@@ -4,12 +4,12 @@
 
 ### DataGoogleFirebaseAndroidAppConfigA <a name="DataGoogleFirebaseAndroidAppConfigA" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config google_firebase_android_app_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_android_app_config google_firebase_android_app_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 datagooglefirebaseandroidappconfig.NewDataGoogleFirebaseAndroidAppConfigA(scope Construct, id *string, config DataGoogleFirebaseAndroidAppConfigAConfig) DataGoogleFirebaseAndroidAppConfigA
 ```
@@ -305,7 +305,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_IsTerrafo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_IsTerrafo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigA.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigA_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGoogleFirebaseAndroidA
 
 The id of the existing DataGoogleFirebaseAndroidAppConfigA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_android_app_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -649,7 +649,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleFirebaseAndroidAppConfig.DataGoogleFirebaseAndroidAppConfigAConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseandroidappconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseandroidappconfig"
 
 &datagooglefirebaseandroidappconfig.DataGoogleFirebaseAndroidAppConfigAConfig {
 	Connection: interface{},
@@ -760,7 +760,7 @@ AppId *string
 
 The id of the Firebase Android App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config#app_id DataGoogleFirebaseAndroidAppConfigA#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_android_app_config#app_id DataGoogleFirebaseAndroidAppConfigA#app_id}
 
 ---
 
@@ -774,7 +774,7 @@ Project *string
 
 The project id of the Firebase Android App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app_config#project DataGoogleFirebaseAndroidAppConfigA#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_android_app_config#project DataGoogleFirebaseAndroidAppConfigA#project}
 
 ---
 

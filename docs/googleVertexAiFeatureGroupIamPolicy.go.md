@@ -4,12 +4,12 @@
 
 ### GoogleVertexAiFeatureGroupIamPolicy <a name="GoogleVertexAiFeatureGroupIamPolicy" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy google_vertex_ai_feature_group_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy google_vertex_ai_feature_group_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 googlevertexaifeaturegroupiampolicy.NewGoogleVertexAiFeatureGroupIamPolicy(scope Construct, id *string, config GoogleVertexAiFeatureGroupIamPolicyConfig) GoogleVertexAiFeatureGroupIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleVertexAiFeatureGroup
 
 The id of the existing GoogleVertexAiFeatureGroupIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturegroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturegroupiampolicy"
 
 &googlevertexaifeaturegroupiampolicy.GoogleVertexAiFeatureGroupIamPolicyConfig {
 	Connection: interface{},
@@ -860,11 +860,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleve
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.featureGroup">FeatureGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#feature_group GoogleVertexAiFeatureGroupIamPolicy#feature_group}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#policy_data GoogleVertexAiFeatureGroupIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#id GoogleVertexAiFeatureGroupIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#project GoogleVertexAiFeatureGroupIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#region GoogleVertexAiFeatureGroupIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.featureGroup">FeatureGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#feature_group GoogleVertexAiFeatureGroupIamPolicy#feature_group}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#policy_data GoogleVertexAiFeatureGroupIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#id GoogleVertexAiFeatureGroupIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#project GoogleVertexAiFeatureGroupIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamPolicy.GoogleVertexAiFeatureGroupIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#region GoogleVertexAiFeatureGroupIamPolicy#region}. |
 
 ---
 
@@ -946,7 +946,7 @@ FeatureGroup *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#feature_group GoogleVertexAiFeatureGroupIamPolicy#feature_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#feature_group GoogleVertexAiFeatureGroupIamPolicy#feature_group}.
 
 ---
 
@@ -958,7 +958,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#policy_data GoogleVertexAiFeatureGroupIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#policy_data GoogleVertexAiFeatureGroupIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#id GoogleVertexAiFeatureGroupIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#id GoogleVertexAiFeatureGroupIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#project GoogleVertexAiFeatureGroupIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#project GoogleVertexAiFeatureGroupIamPolicy#project}.
 
 ---
 
@@ -997,7 +997,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_group_iam_policy#region GoogleVertexAiFeatureGroupIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_group_iam_policy#region GoogleVertexAiFeatureGroupIamPolicy#region}.
 
 ---
 

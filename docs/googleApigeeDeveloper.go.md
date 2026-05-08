@@ -4,12 +4,12 @@
 
 ### GoogleApigeeDeveloper <a name="GoogleApigeeDeveloper" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer google_apigee_developer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer google_apigee_developer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloper(scope Construct, id *string, config GoogleApigeeDeveloperConfig) GoogleApigeeDeveloper
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googleapigeedeveloper.GoogleApigeeDeveloper_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloper.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.GoogleApigeeDeveloper_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleApigeeDeveloper to i
 
 The id of the existing GoogleApigeeDeveloper that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -956,7 +956,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperAttributes {
 	Name: *string,
@@ -983,7 +983,7 @@ Name *string
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#name GoogleApigeeDeveloper#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#name GoogleApigeeDeveloper#name}
 
 ---
 
@@ -997,7 +997,7 @@ Value *string
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#value GoogleApigeeDeveloper#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#value GoogleApigeeDeveloper#value}
 
 ---
 
@@ -1006,7 +1006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperConfig {
 	Connection: interface{},
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 	UserName: *string,
 	Attributes: interface{},
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts,
 }
 ```
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.orgId">OrgId</a></code> | <code>*string</code> | The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.userName">UserName</a></code> | <code>*string</code> | User name of the developer. Not used by Apigee hybrid. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.attributes">Attributes</a></code> | <code>interface{}</code> | attributes block. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#id GoogleApigeeDeveloper#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#id GoogleApigeeDeveloper#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts">GoogleApigeeDeveloperTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1131,7 +1131,7 @@ Email address of the developer.
 
 This value is used to uniquely identify the developer in Apigee hybrid. Note that the email address has to be in lowercase only..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#email GoogleApigeeDeveloper#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#email GoogleApigeeDeveloper#email}
 
 ---
 
@@ -1145,7 +1145,7 @@ FirstName *string
 
 First name of the developer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#first_name GoogleApigeeDeveloper#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#first_name GoogleApigeeDeveloper#first_name}
 
 ---
 
@@ -1159,7 +1159,7 @@ LastName *string
 
 Last name of the developer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#last_name GoogleApigeeDeveloper#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#last_name GoogleApigeeDeveloper#last_name}
 
 ---
 
@@ -1173,7 +1173,7 @@ OrgId *string
 
 The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#org_id GoogleApigeeDeveloper#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#org_id GoogleApigeeDeveloper#org_id}
 
 ---
 
@@ -1187,7 +1187,7 @@ UserName *string
 
 User name of the developer. Not used by Apigee hybrid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#user_name GoogleApigeeDeveloper#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#user_name GoogleApigeeDeveloper#user_name}
 
 ---
 
@@ -1201,7 +1201,7 @@ Attributes interface{}
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#attributes GoogleApigeeDeveloper#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#attributes GoogleApigeeDeveloper#attributes}
 
 ---
 
@@ -1213,7 +1213,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#id GoogleApigeeDeveloper#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#id GoogleApigeeDeveloper#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1230,7 @@ Timeouts GoogleApigeeDeveloperTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#timeouts GoogleApigeeDeveloper#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#timeouts GoogleApigeeDeveloper#timeouts}
 
 ---
 
@@ -1239,7 +1239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 &googleapigeedeveloper.GoogleApigeeDeveloperTimeouts {
 	Create: *string,
@@ -1252,9 +1252,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#create GoogleApigeeDeveloper#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#delete GoogleApigeeDeveloper#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#update GoogleApigeeDeveloper#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#create GoogleApigeeDeveloper#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#delete GoogleApigeeDeveloper#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#update GoogleApigeeDeveloper#update}. |
 
 ---
 
@@ -1266,7 +1266,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#create GoogleApigeeDeveloper#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#create GoogleApigeeDeveloper#create}.
 
 ---
 
@@ -1278,7 +1278,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#delete GoogleApigeeDeveloper#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#delete GoogleApigeeDeveloper#delete}.
 
 ---
 
@@ -1290,7 +1290,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer#update GoogleApigeeDeveloper#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer#update GoogleApigeeDeveloper#update}.
 
 ---
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeDeveloperAttributesList
 ```
@@ -1461,7 +1461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeDeveloperAttributesOutputReference
 ```
@@ -1786,7 +1786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloper.GoogleApigeeDeveloperTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper"
 
 googleapigeedeveloper.NewGoogleApigeeDeveloperTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeDeveloperTimeoutsOutputReference
 ```

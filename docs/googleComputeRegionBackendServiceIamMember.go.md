@@ -4,12 +4,12 @@
 
 ### GoogleComputeRegionBackendServiceIamMember <a name="GoogleComputeRegionBackendServiceIamMember" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member google_compute_region_backend_service_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member google_compute_region_backend_service_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.NewGoogleComputeRegionBackendServiceIamMember(scope Construct, id *string, config GoogleComputeRegionBackendServiceIamMemberConfig) GoogleComputeRegionBackendServiceIamMember
 ```
@@ -441,7 +441,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamM
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamM
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeRegionBackend
 
 The id of the existing GoogleComputeRegionBackendServiceIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 &googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#expression GoogleComputeRegionBackendServiceIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#title GoogleComputeRegionBackendServiceIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#description GoogleComputeRegionBackendServiceIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#expression GoogleComputeRegionBackendServiceIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#title GoogleComputeRegionBackendServiceIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#description GoogleComputeRegionBackendServiceIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#expression GoogleComputeRegionBackendServiceIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#expression GoogleComputeRegionBackendServiceIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#title GoogleComputeRegionBackendServiceIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#title GoogleComputeRegionBackendServiceIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#description GoogleComputeRegionBackendServiceIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#description GoogleComputeRegionBackendServiceIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 &googlecomputeregionbackendserviceiammember.GoogleComputeRegionBackendServiceIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#member GoogleComputeRegionBackendServiceIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#name GoogleComputeRegionBackendServiceIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#role GoogleComputeRegionBackendServiceIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#member GoogleComputeRegionBackendServiceIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#name GoogleComputeRegionBackendServiceIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#role GoogleComputeRegionBackendServiceIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberCondition">GoogleComputeRegionBackendServiceIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#id GoogleComputeRegionBackendServiceIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#project GoogleComputeRegionBackendServiceIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#region GoogleComputeRegionBackendServiceIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#id GoogleComputeRegionBackendServiceIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#project GoogleComputeRegionBackendServiceIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#region GoogleComputeRegionBackendServiceIamMember#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#member GoogleComputeRegionBackendServiceIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#member GoogleComputeRegionBackendServiceIamMember#member}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#name GoogleComputeRegionBackendServiceIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#name GoogleComputeRegionBackendServiceIamMember#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#role GoogleComputeRegionBackendServiceIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#role GoogleComputeRegionBackendServiceIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleComputeRegionBackendServiceIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#condition GoogleComputeRegionBackendServiceIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#condition GoogleComputeRegionBackendServiceIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#id GoogleComputeRegionBackendServiceIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#id GoogleComputeRegionBackendServiceIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#project GoogleComputeRegionBackendServiceIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#project GoogleComputeRegionBackendServiceIamMember#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_backend_service_iam_member#region GoogleComputeRegionBackendServiceIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_service_iam_member#region GoogleComputeRegionBackendServiceIamMember#region}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendServiceIamMember.GoogleComputeRegionBackendServiceIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionbackendserviceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendserviceiammember"
 
 googlecomputeregionbackendserviceiammember.NewGoogleComputeRegionBackendServiceIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionBackendServiceIamMemberConditionOutputReference
 ```

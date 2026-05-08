@@ -1,0 +1,821 @@
+# `dataGoogleFirebaseAdminSdkConfig` Submodule <a name="`dataGoogleFirebaseAdminSdkConfig` Submodule" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### DataGoogleFirebaseAdminSdkConfig <a name="DataGoogleFirebaseAdminSdkConfig" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfig;
+
+DataGoogleFirebaseAdminSdkConfig.Builder.create(Construct scope, java.lang.String id)
+//  .connection(SSHProvisionerConnection|WinrmProvisionerConnection)
+//  .count(java.lang.Number|TerraformCount)
+//  .dependsOn(java.util.List<ITerraformDependable>)
+//  .forEach(ITerraformIterator)
+//  .lifecycle(TerraformResourceLifecycle)
+//  .provider(TerraformProvider)
+//  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
+//  .project(java.lang.String)
+    .build();
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.scope">scope</a></code> | <code>software.constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.connection">connection</a></code> | <code>io.cdktn.cdktn.SSHProvisionerConnection\|io.cdktn.cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.count">count</a></code> | <code>java.lang.Number\|io.cdktn.cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.dependsOn">dependsOn</a></code> | <code>java.util.List<io.cdktn.cdktn.ITerraformDependable></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.forEach">forEach</a></code> | <code>io.cdktn.cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.scope"></a>
+
+- *Type:* software.constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.id"></a>
+
+- *Type:* java.lang.String
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.connection"></a>
+
+- *Type:* io.cdktn.cdktn.SSHProvisionerConnection|io.cdktn.cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.count"></a>
+
+- *Type:* java.lang.Number|io.cdktn.cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.dependsOn"></a>
+
+- *Type:* java.util.List<io.cdktn.cdktn.ITerraformDependable>
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.forEach"></a>
+
+- *Type:* io.cdktn.cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.lifecycle"></a>
+
+- *Type:* io.cdktn.cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.provider"></a>
+
+- *Type:* io.cdktn.cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.provisioners"></a>
+
+- *Type:* java.util.List<io.cdktn.cdktn.FileProvisioner|io.cdktn.cdktn.LocalExecProvisioner|io.cdktn.cdktn.RemoteExecProvisioner>
+
+---
+
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer.parameter.project"></a>
+
+- *Type:* java.lang.String
+
+The ID of the project in which the resource belongs.
+
+If it is not provided, the provider project is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toHclTerraform">toHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.resetProject">resetProject</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.with"></a>
+
+```java
+public IConstruct with(IMixin... mixins)
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.with.parameter.mixins"></a>
+
+- *Type:* software.constructs.IMixin...
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.addOverride"></a>
+
+```java
+public void addOverride(java.lang.String path, java.lang.Object value)
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.addOverride.parameter.path"></a>
+
+- *Type:* java.lang.String
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.addOverride.parameter.value"></a>
+
+- *Type:* java.lang.Object
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.overrideLogicalId"></a>
+
+```java
+public void overrideLogicalId(java.lang.String newLogicalId)
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* java.lang.String
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.resetOverrideLogicalId"></a>
+
+```java
+public void resetOverrideLogicalId()
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toHclTerraform"></a>
+
+```java
+public java.lang.Object toHclTerraform()
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toMetadata"></a>
+
+```java
+public java.lang.Object toMetadata()
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.toTerraform"></a>
+
+```java
+public java.lang.Object toTerraform()
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.resetProject"></a>
+
+```java
+public void resetProject()
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a DataGoogleFirebaseAdminSdkConfig resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isConstruct"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfig;
+
+DataGoogleFirebaseAdminSdkConfig.isConstruct(java.lang.Object x)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isConstruct.parameter.x"></a>
+
+- *Type:* java.lang.Object
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformElement"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfig;
+
+DataGoogleFirebaseAdminSdkConfig.isTerraformElement(java.lang.Object x)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformElement.parameter.x"></a>
+
+- *Type:* java.lang.Object
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformDataSource"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfig;
+
+DataGoogleFirebaseAdminSdkConfig.isTerraformDataSource(java.lang.Object x)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* java.lang.Object
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfig;
+
+DataGoogleFirebaseAdminSdkConfig.generateConfigForImport(Construct scope, java.lang.String importToId, java.lang.String importFromId),DataGoogleFirebaseAdminSdkConfig.generateConfigForImport(Construct scope, java.lang.String importToId, java.lang.String importFromId, TerraformProvider provider)
+```
+
+Generates CDKTN code for importing a DataGoogleFirebaseAdminSdkConfig resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* software.constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* java.lang.String
+
+The construct id used in the generated config for the DataGoogleFirebaseAdminSdkConfig to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* java.lang.String
+
+The id of the existing DataGoogleFirebaseAdminSdkConfig that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* io.cdktn.cdktn.TerraformProvider
+
+? Optional instance of the provider where the DataGoogleFirebaseAdminSdkConfig to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.node">node</a></code> | <code>software.constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.cdktfStack">cdktfStack</a></code> | <code>io.cdktn.cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>java.util.Map<java.lang.String, java.lang.Object></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformResourceType">terraformResourceType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>io.cdktn.cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.count">count</a></code> | <code>java.lang.Number\|io.cdktn.cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.dependsOn">dependsOn</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.forEach">forEach</a></code> | <code>io.cdktn.cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.databaseUrl">databaseUrl</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.locationId">locationId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.storageBucket">storageBucket</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.node"></a>
+
+```java
+public Node getNode();
+```
+
+- *Type:* software.constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.cdktfStack"></a>
+
+```java
+public TerraformStack getCdktfStack();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.friendlyUniqueId"></a>
+
+```java
+public java.lang.String getFriendlyUniqueId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformMetaArguments"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getTerraformMetaArguments();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.Object>
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformResourceType"></a>
+
+```java
+public java.lang.String getTerraformResourceType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.terraformGeneratorMetadata"></a>
+
+```java
+public TerraformProviderGeneratorMetadata getTerraformGeneratorMetadata();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.count"></a>
+
+```java
+public java.lang.Number|TerraformCount getCount();
+```
+
+- *Type:* java.lang.Number|io.cdktn.cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.dependsOn"></a>
+
+```java
+public java.util.List<java.lang.String> getDependsOn();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.forEach"></a>
+
+```java
+public ITerraformIterator getForEach();
+```
+
+- *Type:* io.cdktn.cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.lifecycle"></a>
+
+```java
+public TerraformResourceLifecycle getLifecycle();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.provider"></a>
+
+```java
+public TerraformProvider getProvider();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformProvider
+
+---
+
+##### `databaseUrl`<sup>Required</sup> <a name="databaseUrl" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.databaseUrl"></a>
+
+```java
+public java.lang.String getDatabaseUrl();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.id"></a>
+
+```java
+public java.lang.String getId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `locationId`<sup>Required</sup> <a name="locationId" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.locationId"></a>
+
+```java
+public java.lang.String getLocationId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storageBucket`<sup>Required</sup> <a name="storageBucket" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.storageBucket"></a>
+
+```java
+public java.lang.String getStorageBucket();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.projectInput"></a>
+
+```java
+public java.lang.String getProjectInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.project"></a>
+
+```java
+public java.lang.String getProject();
+```
+
+- *Type:* java.lang.String
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.tfResourceType">tfResourceType</a></code> | <code>java.lang.String</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.property.tfResourceType"></a>
+
+```java
+public java.lang.String getTfResourceType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### DataGoogleFirebaseAdminSdkConfigConfig <a name="DataGoogleFirebaseAdminSdkConfigConfig" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.data_google_firebase_admin_sdk_config.DataGoogleFirebaseAdminSdkConfigConfig;
+
+DataGoogleFirebaseAdminSdkConfigConfig.builder()
+//  .connection(SSHProvisionerConnection|WinrmProvisionerConnection)
+//  .count(java.lang.Number|TerraformCount)
+//  .dependsOn(java.util.List<ITerraformDependable>)
+//  .forEach(ITerraformIterator)
+//  .lifecycle(TerraformResourceLifecycle)
+//  .provider(TerraformProvider)
+//  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
+//  .project(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.connection">connection</a></code> | <code>io.cdktn.cdktn.SSHProvisionerConnection\|io.cdktn.cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.count">count</a></code> | <code>java.lang.Number\|io.cdktn.cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.dependsOn">dependsOn</a></code> | <code>java.util.List<io.cdktn.cdktn.ITerraformDependable></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.forEach">forEach</a></code> | <code>io.cdktn.cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.connection"></a>
+
+```java
+public SSHProvisionerConnection|WinrmProvisionerConnection getConnection();
+```
+
+- *Type:* io.cdktn.cdktn.SSHProvisionerConnection|io.cdktn.cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.count"></a>
+
+```java
+public java.lang.Number|TerraformCount getCount();
+```
+
+- *Type:* java.lang.Number|io.cdktn.cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.dependsOn"></a>
+
+```java
+public java.util.List<ITerraformDependable> getDependsOn();
+```
+
+- *Type:* java.util.List<io.cdktn.cdktn.ITerraformDependable>
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.forEach"></a>
+
+```java
+public ITerraformIterator getForEach();
+```
+
+- *Type:* io.cdktn.cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.lifecycle"></a>
+
+```java
+public TerraformResourceLifecycle getLifecycle();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.provider"></a>
+
+```java
+public TerraformProvider getProvider();
+```
+
+- *Type:* io.cdktn.cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.provisioners"></a>
+
+```java
+public java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner> getProvisioners();
+```
+
+- *Type:* java.util.List<io.cdktn.cdktn.FileProvisioner|io.cdktn.cdktn.LocalExecProvisioner|io.cdktn.cdktn.RemoteExecProvisioner>
+
+---
+
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfigConfig.property.project"></a>
+
+```java
+public java.lang.String getProject();
+```
+
+- *Type:* java.lang.String
+
+The ID of the project in which the resource belongs.
+
+If it is not provided, the provider project is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
+
+---
+
+
+

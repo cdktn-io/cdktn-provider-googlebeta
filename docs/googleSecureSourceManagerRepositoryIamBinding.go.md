@@ -4,12 +4,12 @@
 
 ### GoogleSecureSourceManagerRepositoryIamBinding <a name="GoogleSecureSourceManagerRepositoryIamBinding" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding google_secure_source_manager_repository_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding google_secure_source_manager_repository_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.NewGoogleSecureSourceManagerRepositoryIamBinding(scope Construct, id *string, config GoogleSecureSourceManagerRepositoryIamBindingConfig) GoogleSecureSourceManagerRepositoryIamBinding
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleSecureSourceManagerR
 
 The id of the existing GoogleSecureSourceManagerRepositoryIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 &googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBindingCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#expression GoogleSecureSourceManagerRepositoryIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#title GoogleSecureSourceManagerRepositoryIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#description GoogleSecureSourceManagerRepositoryIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#expression GoogleSecureSourceManagerRepositoryIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#title GoogleSecureSourceManagerRepositoryIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#description GoogleSecureSourceManagerRepositoryIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#expression GoogleSecureSourceManagerRepositoryIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#expression GoogleSecureSourceManagerRepositoryIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#title GoogleSecureSourceManagerRepositoryIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#title GoogleSecureSourceManagerRepositoryIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#description GoogleSecureSourceManagerRepositoryIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#description GoogleSecureSourceManagerRepositoryIamBinding#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 &googlesecuresourcemanagerrepositoryiambinding.GoogleSecureSourceManagerRepositoryIamBindingConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 	Members: *[]*string,
 	RepositoryId: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#members GoogleSecureSourceManagerRepositoryIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#repository_id GoogleSecureSourceManagerRepositoryIamBinding#repository_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#role GoogleSecureSourceManagerRepositoryIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#members GoogleSecureSourceManagerRepositoryIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#repository_id GoogleSecureSourceManagerRepositoryIamBinding#repository_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#role GoogleSecureSourceManagerRepositoryIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition">GoogleSecureSourceManagerRepositoryIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#id GoogleSecureSourceManagerRepositoryIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#location GoogleSecureSourceManagerRepositoryIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#project GoogleSecureSourceManagerRepositoryIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#id GoogleSecureSourceManagerRepositoryIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#location GoogleSecureSourceManagerRepositoryIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#project GoogleSecureSourceManagerRepositoryIamBinding#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#members GoogleSecureSourceManagerRepositoryIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#members GoogleSecureSourceManagerRepositoryIamBinding#members}.
 
 ---
 
@@ -1086,7 +1086,7 @@ RepositoryId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#repository_id GoogleSecureSourceManagerRepositoryIamBinding#repository_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#repository_id GoogleSecureSourceManagerRepositoryIamBinding#repository_id}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#role GoogleSecureSourceManagerRepositoryIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#role GoogleSecureSourceManagerRepositoryIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleSecureSourceManagerRepositoryIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#condition GoogleSecureSourceManagerRepositoryIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#condition GoogleSecureSourceManagerRepositoryIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#id GoogleSecureSourceManagerRepositoryIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#id GoogleSecureSourceManagerRepositoryIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#location GoogleSecureSourceManagerRepositoryIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#location GoogleSecureSourceManagerRepositoryIamBinding#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_repository_iam_binding#project GoogleSecureSourceManagerRepositoryIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_repository_iam_binding#project GoogleSecureSourceManagerRepositoryIamBinding#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerrepositoryiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerrepositoryiambinding"
 
 googlesecuresourcemanagerrepositoryiambinding.NewGoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference
 ```

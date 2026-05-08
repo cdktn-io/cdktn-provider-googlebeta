@@ -4,12 +4,12 @@
 
 ### GoogleDataCatalogEntryGroupIamPolicy <a name="GoogleDataCatalogEntryGroupIamPolicy" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy google_data_catalog_entry_group_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 googledatacatalogentrygroupiampolicy.NewGoogleDataCatalogEntryGroupIamPolicy(scope Construct, id *string, config GoogleDataCatalogEntryGroupIamPolicyConfig) GoogleDataCatalogEntryGroupIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleDataCatalogEntryGrou
 
 The id of the existing GoogleDataCatalogEntryGroupIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroupiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroupiampolicy"
 
 &googledatacatalogentrygroupiampolicy.GoogleDataCatalogEntryGroupIamPolicyConfig {
 	Connection: interface{},
@@ -860,11 +860,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.entryGroup">EntryGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#entry_group GoogleDataCatalogEntryGroupIamPolicy#entry_group}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#policy_data GoogleDataCatalogEntryGroupIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#id GoogleDataCatalogEntryGroupIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#project GoogleDataCatalogEntryGroupIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#region GoogleDataCatalogEntryGroupIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.entryGroup">EntryGroup</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#entry_group GoogleDataCatalogEntryGroupIamPolicy#entry_group}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#policy_data GoogleDataCatalogEntryGroupIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#id GoogleDataCatalogEntryGroupIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#project GoogleDataCatalogEntryGroupIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogEntryGroupIamPolicy.GoogleDataCatalogEntryGroupIamPolicyConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#region GoogleDataCatalogEntryGroupIamPolicy#region}. |
 
 ---
 
@@ -946,7 +946,7 @@ EntryGroup *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#entry_group GoogleDataCatalogEntryGroupIamPolicy#entry_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#entry_group GoogleDataCatalogEntryGroupIamPolicy#entry_group}.
 
 ---
 
@@ -958,7 +958,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#policy_data GoogleDataCatalogEntryGroupIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#policy_data GoogleDataCatalogEntryGroupIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#id GoogleDataCatalogEntryGroupIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#id GoogleDataCatalogEntryGroupIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#project GoogleDataCatalogEntryGroupIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#project GoogleDataCatalogEntryGroupIamPolicy#project}.
 
 ---
 
@@ -997,7 +997,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group_iam_policy#region GoogleDataCatalogEntryGroupIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group_iam_policy#region GoogleDataCatalogEntryGroupIamPolicy#region}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleAlloydbInstance <a name="GoogleAlloydbInstance" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstance(scope Construct, id *string, config GoogleAlloydbInstanceConfig) GoogleAlloydbInstance
 ```
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putClientConnectionConfig">PutClientConnectionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putConnectionPoolConfig">PutConnectionPoolConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putMachineConfig">PutMachineConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putNetworkConfig">PutNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putObservabilityConfig">PutObservabilityConfig</a></code> | *No description.* |
@@ -86,6 +87,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetAnnotations">ResetAnnotations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetAvailabilityType">ResetAvailabilityType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetClientConnectionConfig">ResetClientConnectionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetConnectionPoolConfig">ResetConnectionPoolConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetDatabaseFlags">ResetDatabaseFlags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetDisplayName">ResetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetGceZone">ResetGceZone</a></code> | *No description.* |
@@ -422,6 +424,18 @@ func PutClientConnectionConfig(value GoogleAlloydbInstanceClientConnectionConfig
 
 ---
 
+##### `PutConnectionPoolConfig` <a name="PutConnectionPoolConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putConnectionPoolConfig"></a>
+
+```go
+func PutConnectionPoolConfig(value GoogleAlloydbInstanceConnectionPoolConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putConnectionPoolConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a>
+
+---
+
 ##### `PutMachineConfig` <a name="PutMachineConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.putMachineConfig"></a>
 
 ```go
@@ -530,6 +544,12 @@ func ResetAvailabilityType()
 func ResetClientConnectionConfig()
 ```
 
+##### `ResetConnectionPoolConfig` <a name="ResetConnectionPoolConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetConnectionPoolConfig"></a>
+
+```go
+func ResetConnectionPoolConfig()
+```
+
 ##### `ResetDatabaseFlags` <a name="ResetDatabaseFlags" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.resetDatabaseFlags"></a>
 
 ```go
@@ -616,7 +636,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.GoogleAlloydbInstance_IsConstruct(x interface{}) *bool
 ```
@@ -648,7 +668,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.GoogleAlloydbInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -662,7 +682,7 @@ googlealloydbinstance.GoogleAlloydbInstance_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.GoogleAlloydbInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -676,7 +696,7 @@ googlealloydbinstance.GoogleAlloydbInstance_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.GoogleAlloydbInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -705,7 +725,7 @@ The construct id used in the generated config for the GoogleAlloydbInstance to i
 
 The id of the existing GoogleAlloydbInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -736,6 +756,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.clientConnectionConfig">ClientConnectionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigOutputReference">GoogleAlloydbInstanceClientConnectionConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.connectionPoolConfig">ConnectionPoolConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference">GoogleAlloydbInstanceConnectionPoolConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.createTime">CreateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.effectiveAnnotations">EffectiveAnnotations</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.effectiveLabels">EffectiveLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
@@ -760,6 +781,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.availabilityTypeInput">AvailabilityTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.clientConnectionConfigInput">ClientConnectionConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfig">GoogleAlloydbInstanceClientConnectionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.clusterInput">ClusterInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.connectionPoolConfigInput">ConnectionPoolConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.databaseFlagsInput">DatabaseFlagsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.gceZoneInput">GceZoneInput</a></code> | <code>*string</code> | *No description.* |
@@ -937,6 +959,16 @@ func ClientConnectionConfig() GoogleAlloydbInstanceClientConnectionConfigOutputR
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigOutputReference">GoogleAlloydbInstanceClientConnectionConfigOutputReference</a>
+
+---
+
+##### `ConnectionPoolConfig`<sup>Required</sup> <a name="ConnectionPoolConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.connectionPoolConfig"></a>
+
+```go
+func ConnectionPoolConfig() GoogleAlloydbInstanceConnectionPoolConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference">GoogleAlloydbInstanceConnectionPoolConfigOutputReference</a>
 
 ---
 
@@ -1177,6 +1209,16 @@ func ClusterInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ConnectionPoolConfigInput`<sup>Optional</sup> <a name="ConnectionPoolConfigInput" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstance.property.connectionPoolConfigInput"></a>
+
+```go
+func ConnectionPoolConfigInput() GoogleAlloydbInstanceConnectionPoolConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a>
 
 ---
 
@@ -1455,11 +1497,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceClientConnectionConfig {
 	RequireConnectors: interface{},
-	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigSslConfig,
+	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigSslConfig,
 }
 ```
 
@@ -1482,7 +1524,7 @@ RequireConnectors interface{}
 
 Configuration to enforce connectors only (ex: AuthProxy) connections to the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#require_connectors GoogleAlloydbInstance#require_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#require_connectors GoogleAlloydbInstance#require_connectors}
 
 ---
 
@@ -1496,7 +1538,7 @@ SslConfig GoogleAlloydbInstanceClientConnectionConfigSslConfig
 
 ssl_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#ssl_config GoogleAlloydbInstance#ssl_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#ssl_config GoogleAlloydbInstance#ssl_config}
 
 ---
 
@@ -1505,7 +1547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigSslConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceClientConnectionConfigSslConfig {
 	SslMode: *string,
@@ -1530,7 +1572,7 @@ SslMode *string
 
 SSL mode. Specifies client-server SSL/TLS connection behavior. Possible values: ["ENCRYPTED_ONLY", "ALLOW_UNENCRYPTED_AND_ENCRYPTED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#ssl_mode GoogleAlloydbInstance#ssl_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#ssl_mode GoogleAlloydbInstance#ssl_mode}
 
 ---
 
@@ -1539,7 +1581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceConfig {
 	Connection: interface{},
@@ -1555,19 +1597,20 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleal
 	ActivationPolicy: *string,
 	Annotations: *map[string]*string,
 	AvailabilityType: *string,
-	ClientConnectionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfig,
+	ClientConnectionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfig,
+	ConnectionPoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig,
 	DatabaseFlags: *map[string]*string,
 	DisplayName: *string,
 	GceZone: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	MachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfig,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfig,
-	ObservabilityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig,
-	PscInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfig,
-	QueryInsightsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceQueryInsightsConfig,
-	ReadPoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceReadPoolConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts,
+	MachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfig,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfig,
+	ObservabilityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig,
+	PscInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfig,
+	QueryInsightsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceQueryInsightsConfig,
+	ReadPoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceReadPoolConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts,
 }
 ```
 
@@ -1589,10 +1632,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleal
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.annotations">Annotations</a></code> | <code>*map[string]*string</code> | Annotations to allow client tools to store small amount of arbitrary data. This is distinct from labels. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.availabilityType">AvailabilityType</a></code> | <code>*string</code> | 'Availability type of an Instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.clientConnectionConfig">ClientConnectionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfig">GoogleAlloydbInstanceClientConnectionConfig</a></code> | client_connection_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.connectionPoolConfig">ConnectionPoolConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a></code> | connection_pool_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.databaseFlags">DatabaseFlags</a></code> | <code>*map[string]*string</code> | Database flags. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-settable and human-readable display name for the Instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.gceZone">GceZone</a></code> | <code>*string</code> | The Compute Engine zone that the instance should serve from, per https://cloud.google.com/compute/docs/regions-zones This can ONLY be specified for ZONAL instances. If present for a REGIONAL instance, an error will be thrown. If this is absent for a ZONAL instance, instance is created in a random zone with available capacity. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels for the alloydb instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.machineConfig">MachineConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfig">GoogleAlloydbInstanceMachineConfig</a></code> | machine_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.networkConfig">NetworkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfig">GoogleAlloydbInstanceNetworkConfig</a></code> | network_config block. |
@@ -1684,7 +1728,7 @@ Cluster *string
 
 Identifies the alloydb cluster. Must be in the format 'projects/{project}/locations/{location}/clusters/{cluster_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#cluster GoogleAlloydbInstance#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#cluster GoogleAlloydbInstance#cluster}
 
 ---
 
@@ -1698,7 +1742,7 @@ InstanceId *string
 
 The ID of the alloydb instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#instance_id GoogleAlloydbInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#instance_id GoogleAlloydbInstance#instance_id}
 
 ---
 
@@ -1719,7 +1763,7 @@ If the instance type is SECONDARY, the terraform delete instance operation does 
 Use deletion_policy = "FORCE" in the associated secondary cluster and delete the cluster forcefully to delete the secondary cluster as well its associated secondary instance.
 Users can undo the delete secondary instance action by importing the deleted secondary instance by calling terraform import. Possible values: ["PRIMARY", "READ_POOL", "SECONDARY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#instance_type GoogleAlloydbInstance#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#instance_type GoogleAlloydbInstance#instance_type}
 
 ---
 
@@ -1742,7 +1786,7 @@ example, a read pool instance should be stopped before stopping primary
 etc.). Please refer to the API documentation for more details.
 Possible values are: 'ACTIVATION_POLICY_UNSPECIFIED', 'ALWAYS', 'NEVER'.' Possible values: ["ACTIVATION_POLICY_UNSPECIFIED", "ALWAYS", "NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#activation_policy GoogleAlloydbInstance#activation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#activation_policy GoogleAlloydbInstance#activation_policy}
 
 ---
 
@@ -1759,7 +1803,7 @@ Annotations to allow client tools to store small amount of arbitrary data. This 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#annotations GoogleAlloydbInstance#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#annotations GoogleAlloydbInstance#annotations}
 
 ---
 
@@ -1780,7 +1824,7 @@ Read pools of size 1 can only have zonal availability. Read pools with a node co
 can have regional availability (nodes are present in 2 or more zones in a region).
 Possible values are: 'AVAILABILITY_TYPE_UNSPECIFIED', 'ZONAL', 'REGIONAL'.' Possible values: ["AVAILABILITY_TYPE_UNSPECIFIED", "ZONAL", "REGIONAL"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#availability_type GoogleAlloydbInstance#availability_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#availability_type GoogleAlloydbInstance#availability_type}
 
 ---
 
@@ -1794,7 +1838,21 @@ ClientConnectionConfig GoogleAlloydbInstanceClientConnectionConfig
 
 client_connection_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#client_connection_config GoogleAlloydbInstance#client_connection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#client_connection_config GoogleAlloydbInstance#client_connection_config}
+
+---
+
+##### `ConnectionPoolConfig`<sup>Optional</sup> <a name="ConnectionPoolConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConfig.property.connectionPoolConfig"></a>
+
+```go
+ConnectionPoolConfig GoogleAlloydbInstanceConnectionPoolConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a>
+
+connection_pool_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#connection_pool_config GoogleAlloydbInstance#connection_pool_config}
 
 ---
 
@@ -1810,7 +1868,7 @@ Database flags.
 
 Set at instance level. * They are copied from primary instance on read instance creation. * Read instances can set new or override existing flags that are relevant for reads, e.g. for enabling columnar cache on a read instance. Flags set on read instance may or may not be present on primary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#database_flags GoogleAlloydbInstance#database_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#database_flags GoogleAlloydbInstance#database_flags}
 
 ---
 
@@ -1824,7 +1882,7 @@ DisplayName *string
 
 User-settable and human-readable display name for the Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#display_name GoogleAlloydbInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#display_name GoogleAlloydbInstance#display_name}
 
 ---
 
@@ -1838,7 +1896,7 @@ GceZone *string
 
 The Compute Engine zone that the instance should serve from, per https://cloud.google.com/compute/docs/regions-zones This can ONLY be specified for ZONAL instances. If present for a REGIONAL instance, an error will be thrown. If this is absent for a ZONAL instance, instance is created in a random zone with available capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#gce_zone GoogleAlloydbInstance#gce_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#gce_zone GoogleAlloydbInstance#gce_zone}
 
 ---
 
@@ -1850,7 +1908,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1870,7 +1928,7 @@ User-defined labels for the alloydb instance.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#labels GoogleAlloydbInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#labels GoogleAlloydbInstance#labels}
 
 ---
 
@@ -1884,7 +1942,7 @@ MachineConfig GoogleAlloydbInstanceMachineConfig
 
 machine_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#machine_config GoogleAlloydbInstance#machine_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#machine_config GoogleAlloydbInstance#machine_config}
 
 ---
 
@@ -1898,7 +1956,7 @@ NetworkConfig GoogleAlloydbInstanceNetworkConfig
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#network_config GoogleAlloydbInstance#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#network_config GoogleAlloydbInstance#network_config}
 
 ---
 
@@ -1912,7 +1970,7 @@ ObservabilityConfig GoogleAlloydbInstanceObservabilityConfig
 
 observability_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#observability_config GoogleAlloydbInstance#observability_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#observability_config GoogleAlloydbInstance#observability_config}
 
 ---
 
@@ -1926,7 +1984,7 @@ PscInstanceConfig GoogleAlloydbInstancePscInstanceConfig
 
 psc_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#psc_instance_config GoogleAlloydbInstance#psc_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#psc_instance_config GoogleAlloydbInstance#psc_instance_config}
 
 ---
 
@@ -1940,7 +1998,7 @@ QueryInsightsConfig GoogleAlloydbInstanceQueryInsightsConfig
 
 query_insights_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#query_insights_config GoogleAlloydbInstance#query_insights_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#query_insights_config GoogleAlloydbInstance#query_insights_config}
 
 ---
 
@@ -1954,7 +2012,7 @@ ReadPoolConfig GoogleAlloydbInstanceReadPoolConfig
 
 read_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#read_pool_config GoogleAlloydbInstance#read_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#read_pool_config GoogleAlloydbInstance#read_pool_config}
 
 ---
 
@@ -1968,7 +2026,66 @@ Timeouts GoogleAlloydbInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#timeouts GoogleAlloydbInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#timeouts GoogleAlloydbInstance#timeouts}
+
+---
+
+### GoogleAlloydbInstanceConnectionPoolConfig <a name="GoogleAlloydbInstanceConnectionPoolConfig" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
+
+&googlealloydbinstance.GoogleAlloydbInstanceConnectionPoolConfig {
+	Enabled: interface{},
+	Flags: *map[string]*string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Whether to enabled Managed Connection Pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig.property.flags">Flags</a></code> | <code>*map[string]*string</code> | Flags for configuring managed connection pooling when it is enabled. |
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig.property.enabled"></a>
+
+```go
+Enabled interface{}
+```
+
+- *Type:* interface{}
+
+Whether to enabled Managed Connection Pool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
+
+---
+
+##### `Flags`<sup>Optional</sup> <a name="Flags" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig.property.flags"></a>
+
+```go
+Flags *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+Flags for configuring managed connection pooling when it is enabled.
+
+These flags will only be set if 'connection_pool_config.enabled' is
+true.
+Please see
+https://cloud.google.com/alloydb/docs/configure-managed-connection-pooling#configuration-options
+for a comprehensive list of flags that can be set. To specify the flags
+in Terraform, please remove the "connection-pooling-" prefix and use
+underscores instead of dashes in the name. For example,
+"connection-pooling-pool-mode" would be "pool_mode".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#flags GoogleAlloydbInstance#flags}
 
 ---
 
@@ -1977,7 +2094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceMachineConfig {
 	CpuCount: *f64,
@@ -2004,7 +2121,7 @@ CpuCount *f64
 
 The number of CPU's in the VM instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#cpu_count GoogleAlloydbInstance#cpu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#cpu_count GoogleAlloydbInstance#cpu_count}
 
 ---
 
@@ -2018,7 +2135,7 @@ MachineType *string
 
 Machine type of the VM instance. E.g. "n2-highmem-4", "n2-highmem-8", "c4a-highmem-4-lssd". 'cpu_count' must match the number of vCPUs in the machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#machine_type GoogleAlloydbInstance#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#machine_type GoogleAlloydbInstance#machine_type}
 
 ---
 
@@ -2027,7 +2144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceNetworkConfig {
 	AllocatedIpRangeOverride: *string,
@@ -2061,7 +2178,7 @@ Name of the allocated IP range for the private IP AlloyDB instance, for example:
 If set, the instance IPs will be created from this allocated range and will override the IP range used by the parent cluster.
 The range name must comply with RFC 1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#allocated_ip_range_override GoogleAlloydbInstance#allocated_ip_range_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#allocated_ip_range_override GoogleAlloydbInstance#allocated_ip_range_override}
 
 ---
 
@@ -2075,7 +2192,7 @@ AuthorizedExternalNetworks interface{}
 
 authorized_external_networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#authorized_external_networks GoogleAlloydbInstance#authorized_external_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#authorized_external_networks GoogleAlloydbInstance#authorized_external_networks}
 
 ---
 
@@ -2089,7 +2206,7 @@ EnableOutboundPublicIp interface{}
 
 Enabling outbound public ip for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#enable_outbound_public_ip GoogleAlloydbInstance#enable_outbound_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#enable_outbound_public_ip GoogleAlloydbInstance#enable_outbound_public_ip}
 
 ---
 
@@ -2107,7 +2224,7 @@ If a user wishes to disable this,
 please also clear the list of the authorized external networks set on
 the same instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#enable_public_ip GoogleAlloydbInstance#enable_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#enable_public_ip GoogleAlloydbInstance#enable_public_ip}
 
 ---
 
@@ -2116,7 +2233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworks {
 	CidrRange: *string,
@@ -2141,7 +2258,7 @@ CidrRange *string
 
 CIDR range for one authorized network of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#cidr_range GoogleAlloydbInstance#cidr_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#cidr_range GoogleAlloydbInstance#cidr_range}
 
 ---
 
@@ -2150,7 +2267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceObservabilityConfig {
 	AssistiveExperiencesEnabled: interface{},
@@ -2160,6 +2277,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleal
 	QueryPlansPerMinute: *f64,
 	RecordApplicationTags: interface{},
 	TrackActiveQueries: interface{},
+	TrackClientAddress: interface{},
 	TrackWaitEvents: interface{},
 	TrackWaitEventTypes: interface{},
 }
@@ -2176,6 +2294,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleal
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.queryPlansPerMinute">QueryPlansPerMinute</a></code> | <code>*f64</code> | Number of query execution plans captured by Insights per minute for all queries combined. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.recordApplicationTags">RecordApplicationTags</a></code> | <code>interface{}</code> | Record application tags for an instance. This flag is turned "on" by default. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.trackActiveQueries">TrackActiveQueries</a></code> | <code>interface{}</code> | Track actively running queries. If not set, default value is "off". |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.trackClientAddress">TrackClientAddress</a></code> | <code>interface{}</code> | Track client address for an instance. If not set, default value is "off". |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.trackWaitEvents">TrackWaitEvents</a></code> | <code>interface{}</code> | Record wait events during query execution for an instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.trackWaitEventTypes">TrackWaitEventTypes</a></code> | <code>interface{}</code> | Record wait event types during query execution for an instance. |
 
@@ -2191,7 +2310,7 @@ AssistiveExperiencesEnabled interface{}
 
 Whether assistive experiences are enabled for this AlloyDB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#assistive_experiences_enabled GoogleAlloydbInstance#assistive_experiences_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#assistive_experiences_enabled GoogleAlloydbInstance#assistive_experiences_enabled}
 
 ---
 
@@ -2205,7 +2324,7 @@ Enabled interface{}
 
 Observability feature status for an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
 
 ---
 
@@ -2219,7 +2338,7 @@ MaxQueryStringLength *f64
 
 Query string length. The default value is 10240. Any integer between 1024 and 100000 is considered valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#max_query_string_length GoogleAlloydbInstance#max_query_string_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#max_query_string_length GoogleAlloydbInstance#max_query_string_length}
 
 ---
 
@@ -2233,7 +2352,7 @@ PreserveComments interface{}
 
 Preserve comments in the query string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#preserve_comments GoogleAlloydbInstance#preserve_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#preserve_comments GoogleAlloydbInstance#preserve_comments}
 
 ---
 
@@ -2249,7 +2368,7 @@ Number of query execution plans captured by Insights per minute for all queries 
 
 The default value is 5. Any integer between 0 and 200 is considered valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
 
 ---
 
@@ -2263,7 +2382,7 @@ RecordApplicationTags interface{}
 
 Record application tags for an instance. This flag is turned "on" by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
 
 ---
 
@@ -2277,7 +2396,21 @@ TrackActiveQueries interface{}
 
 Track actively running queries. If not set, default value is "off".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#track_active_queries GoogleAlloydbInstance#track_active_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#track_active_queries GoogleAlloydbInstance#track_active_queries}
+
+---
+
+##### `TrackClientAddress`<sup>Optional</sup> <a name="TrackClientAddress" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig.property.trackClientAddress"></a>
+
+```go
+TrackClientAddress interface{}
+```
+
+- *Type:* interface{}
+
+Track client address for an instance. If not set, default value is "off".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#track_client_address GoogleAlloydbInstance#track_client_address}
 
 ---
 
@@ -2291,7 +2424,7 @@ TrackWaitEvents interface{}
 
 Record wait events during query execution for an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#track_wait_events GoogleAlloydbInstance#track_wait_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#track_wait_events GoogleAlloydbInstance#track_wait_events}
 
 ---
 
@@ -2305,7 +2438,7 @@ TrackWaitEventTypes interface{}
 
 Record wait event types during query execution for an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#track_wait_event_types GoogleAlloydbInstance#track_wait_event_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#track_wait_event_types GoogleAlloydbInstance#track_wait_event_types}
 
 ---
 
@@ -2314,7 +2447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstancePscInstanceConfig {
 	AllowedConsumerProjects: *[]*string,
@@ -2345,7 +2478,7 @@ List of consumer projects that are allowed to create PSC endpoints to service-at
 
 These should be specified as project numbers only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#allowed_consumer_projects GoogleAlloydbInstance#allowed_consumer_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#allowed_consumer_projects GoogleAlloydbInstance#allowed_consumer_projects}
 
 ---
 
@@ -2359,7 +2492,7 @@ PscAutoConnections interface{}
 
 psc_auto_connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#psc_auto_connections GoogleAlloydbInstance#psc_auto_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#psc_auto_connections GoogleAlloydbInstance#psc_auto_connections}
 
 ---
 
@@ -2373,7 +2506,7 @@ PscInterfaceConfigs interface{}
 
 psc_interface_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#psc_interface_configs GoogleAlloydbInstance#psc_interface_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#psc_interface_configs GoogleAlloydbInstance#psc_interface_configs}
 
 ---
 
@@ -2382,7 +2515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscAutoConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstancePscInstanceConfigPscAutoConnections {
 	ConsumerNetwork: *string,
@@ -2413,7 +2546,7 @@ The consumer network might be hosted a different project than the
 consumer project. The API expects the consumer project specified to be
 the project ID (and not the project number)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#consumer_network GoogleAlloydbInstance#consumer_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#consumer_network GoogleAlloydbInstance#consumer_network}
 
 ---
 
@@ -2430,7 +2563,7 @@ The consumer project to which the PSC service automation endpoint will be create
 The API expects the consumer project to be the project ID(
 and not the project number).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#consumer_project GoogleAlloydbInstance#consumer_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#consumer_project GoogleAlloydbInstance#consumer_project}
 
 ---
 
@@ -2439,7 +2572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigs {
 	NetworkAttachmentResource: *string,
@@ -2467,7 +2600,7 @@ The network attachment resource created in the consumer project to which the PSC
 This is of the format: "projects/${CONSUMER_PROJECT}/regions/${REGION}/networkAttachments/${NETWORK_ATTACHMENT_NAME}".
 The network attachment must be in the same region as the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#network_attachment_resource GoogleAlloydbInstance#network_attachment_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#network_attachment_resource GoogleAlloydbInstance#network_attachment_resource}
 
 ---
 
@@ -2476,7 +2609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceQueryInsightsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceQueryInsightsConfig {
 	QueryPlansPerMinute: *f64,
@@ -2509,7 +2642,7 @@ Number of query execution plans captured by Insights per minute for all queries 
 
 The default value is 5. Any integer between 0 and 20 is considered valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
 
 ---
 
@@ -2523,7 +2656,7 @@ QueryStringLength *f64
 
 Query string length. The default value is 1024. Any integer between 256 and 4500 is considered valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#query_string_length GoogleAlloydbInstance#query_string_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#query_string_length GoogleAlloydbInstance#query_string_length}
 
 ---
 
@@ -2537,7 +2670,7 @@ RecordApplicationTags interface{}
 
 Record application tags for an instance. This flag is turned "on" by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
 
 ---
 
@@ -2551,7 +2684,7 @@ RecordClientAddress interface{}
 
 Record client address for an instance. Client address is PII information. This flag is turned "on" by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#record_client_address GoogleAlloydbInstance#record_client_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#record_client_address GoogleAlloydbInstance#record_client_address}
 
 ---
 
@@ -2560,7 +2693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceReadPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceReadPoolConfig {
 	NodeCount: *f64,
@@ -2585,7 +2718,7 @@ NodeCount *f64
 
 Read capacity, i.e. number of nodes in a read pool instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#node_count GoogleAlloydbInstance#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#node_count GoogleAlloydbInstance#node_count}
 
 ---
 
@@ -2594,7 +2727,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 &googlealloydbinstance.GoogleAlloydbInstanceTimeouts {
 	Create: *string,
@@ -2607,9 +2740,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}. |
 
 ---
 
@@ -2621,7 +2754,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}.
 
 ---
 
@@ -2633,7 +2766,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}.
 
 ---
 
@@ -2645,7 +2778,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}.
 
 ---
 
@@ -2656,7 +2789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceClientConnectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceClientConnectionConfigOutputReference
 ```
@@ -2976,7 +3109,7 @@ func InternalValue() GoogleAlloydbInstanceClientConnectionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceClientConnectionConfigSslConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceClientConnectionConfigSslConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceClientConnectionConfigSslConfigOutputReference
 ```
@@ -3249,12 +3382,323 @@ func InternalValue() GoogleAlloydbInstanceClientConnectionConfigSslConfig
 ---
 
 
+### GoogleAlloydbInstanceConnectionPoolConfigOutputReference <a name="GoogleAlloydbInstanceConnectionPoolConfigOutputReference" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
+
+googlealloydbinstance.NewGoogleAlloydbInstanceConnectionPoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceConnectionPoolConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.resetFlags">ResetFlags</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetFlags` <a name="ResetFlags" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.resetFlags"></a>
+
+```go
+func ResetFlags()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.poolerCount">PoolerCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.flagsInput">FlagsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.flags">Flags</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PoolerCount`<sup>Required</sup> <a name="PoolerCount" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.poolerCount"></a>
+
+```go
+func PoolerCount() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.enabledInput"></a>
+
+```go
+func EnabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `FlagsInput`<sup>Optional</sup> <a name="FlagsInput" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.flagsInput"></a>
+
+```go
+func FlagsInput() *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.enabled"></a>
+
+```go
+func Enabled() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Flags`<sup>Required</sup> <a name="Flags" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.flags"></a>
+
+```go
+func Flags() *map[string]*string
+```
+
+- *Type:* *map[string]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAlloydbInstanceConnectionPoolConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceConnectionPoolConfig">GoogleAlloydbInstanceConnectionPoolConfig</a>
+
+---
+
+
 ### GoogleAlloydbInstanceMachineConfigOutputReference <a name="GoogleAlloydbInstanceMachineConfigOutputReference" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceMachineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceMachineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceMachineConfigOutputReference
 ```
@@ -3561,7 +4005,7 @@ func InternalValue() GoogleAlloydbInstanceMachineConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList
 ```
@@ -3721,7 +4165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksOutputReference
 ```
@@ -4017,7 +4461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceNetworkConfigOutputReference
 ```
@@ -4395,7 +4839,7 @@ func InternalValue() GoogleAlloydbInstanceNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceObservabilityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceObservabilityConfigOutputReference
 ```
@@ -4447,6 +4891,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetQueryPlansPerMinute">ResetQueryPlansPerMinute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetRecordApplicationTags">ResetRecordApplicationTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackActiveQueries">ResetTrackActiveQueries</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackClientAddress">ResetTrackClientAddress</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackWaitEvents">ResetTrackWaitEvents</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackWaitEventTypes">ResetTrackWaitEventTypes</a></code> | *No description.* |
 
@@ -4644,6 +5089,12 @@ func ResetRecordApplicationTags()
 func ResetTrackActiveQueries()
 ```
 
+##### `ResetTrackClientAddress` <a name="ResetTrackClientAddress" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackClientAddress"></a>
+
+```go
+func ResetTrackClientAddress()
+```
+
 ##### `ResetTrackWaitEvents` <a name="ResetTrackWaitEvents" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.resetTrackWaitEvents"></a>
 
 ```go
@@ -4670,6 +5121,7 @@ func ResetTrackWaitEventTypes()
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.queryPlansPerMinuteInput">QueryPlansPerMinuteInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.recordApplicationTagsInput">RecordApplicationTagsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackActiveQueriesInput">TrackActiveQueriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackClientAddressInput">TrackClientAddressInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEventsInput">TrackWaitEventsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEventTypesInput">TrackWaitEventTypesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.assistiveExperiencesEnabled">AssistiveExperiencesEnabled</a></code> | <code>interface{}</code> | *No description.* |
@@ -4679,6 +5131,7 @@ func ResetTrackWaitEventTypes()
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.queryPlansPerMinute">QueryPlansPerMinute</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.recordApplicationTags">RecordApplicationTags</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackActiveQueries">TrackActiveQueries</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackClientAddress">TrackClientAddress</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEvents">TrackWaitEvents</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEventTypes">TrackWaitEventTypes</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfig">GoogleAlloydbInstanceObservabilityConfig</a></code> | *No description.* |
@@ -4779,6 +5232,16 @@ func TrackActiveQueriesInput() interface{}
 
 ---
 
+##### `TrackClientAddressInput`<sup>Optional</sup> <a name="TrackClientAddressInput" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackClientAddressInput"></a>
+
+```go
+func TrackClientAddressInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `TrackWaitEventsInput`<sup>Optional</sup> <a name="TrackWaitEventsInput" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEventsInput"></a>
 
 ```go
@@ -4869,6 +5332,16 @@ func TrackActiveQueries() interface{}
 
 ---
 
+##### `TrackClientAddress`<sup>Required</sup> <a name="TrackClientAddress" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackClientAddress"></a>
+
+```go
+func TrackClientAddress() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `TrackWaitEvents`<sup>Required</sup> <a name="TrackWaitEvents" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceObservabilityConfigOutputReference.property.trackWaitEvents"></a>
 
 ```go
@@ -4905,7 +5378,7 @@ func InternalValue() GoogleAlloydbInstanceObservabilityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstancePscInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstancePscInstanceConfigOutputReference
 ```
@@ -5289,7 +5762,7 @@ func InternalValue() GoogleAlloydbInstancePscInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsList
 ```
@@ -5449,7 +5922,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsOutputReference
 ```
@@ -5807,7 +6280,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsList
 ```
@@ -5967,7 +6440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference
 ```
@@ -6263,7 +6736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceQueryInsightsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceQueryInsightsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceQueryInsightsConfigOutputReference
 ```
@@ -6628,7 +7101,7 @@ func InternalValue() GoogleAlloydbInstanceQueryInsightsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceReadPoolConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceReadPoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceReadPoolConfigOutputReference
 ```
@@ -6906,7 +7379,7 @@ func InternalValue() GoogleAlloydbInstanceReadPoolConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbInstance.GoogleAlloydbInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance"
 
 googlealloydbinstance.NewGoogleAlloydbInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAlloydbInstanceTimeoutsOutputReference
 ```

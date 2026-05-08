@@ -4,7 +4,7 @@
 
 ### GoogleVmwareengineCluster <a name="GoogleVmwareengineCluster" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer"></a>
 
@@ -24,6 +24,7 @@ googleVmwareengineCluster.GoogleVmwareengineCluster(
   name: str,
   parent: str,
   autoscaling_settings: GoogleVmwareengineClusterAutoscalingSettings = None,
+  datastore_mount_config: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig] = None,
   id: str = None,
   node_type_configs: IResolvable | typing.List[GoogleVmwareengineClusterNodeTypeConfigs] = None,
   timeouts: GoogleVmwareengineClusterTimeouts = None
@@ -44,7 +45,8 @@ googleVmwareengineCluster.GoogleVmwareengineCluster(
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.name">name</a></code> | <code>str</code> | The ID of the Cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.parent">parent</a></code> | <code>str</code> | The resource name of the private cloud to create a new cluster in. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.autoscalingSettings">autoscaling_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettings">GoogleVmwareengineClusterAutoscalingSettings</a></code> | autoscaling_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.datastoreMountConfig">datastore_mount_config</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]</code> | datastore_mount_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.nodeTypeConfigs">node_type_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs">GoogleVmwareengineClusterNodeTypeConfigs</a>]</code> | node_type_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts">GoogleVmwareengineClusterTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#name GoogleVmwareengineCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#name GoogleVmwareengineCluster#name}
 
 ---
 
@@ -129,7 +131,7 @@ The resource name of the private cloud to create a new cluster in.
 Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#parent GoogleVmwareengineCluster#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#parent GoogleVmwareengineCluster#parent}
 
 ---
 
@@ -139,7 +141,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 autoscaling_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscaling_settings GoogleVmwareengineCluster#autoscaling_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscaling_settings GoogleVmwareengineCluster#autoscaling_settings}
+
+---
+
+##### `datastore_mount_config`<sup>Optional</sup> <a name="datastore_mount_config" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.Initializer.parameter.datastoreMountConfig"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]
+
+datastore_mount_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#datastore_mount_config GoogleVmwareengineCluster#datastore_mount_config}
 
 ---
 
@@ -147,7 +159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -160,7 +172,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 node_type_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_type_configs GoogleVmwareengineCluster#node_type_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_type_configs GoogleVmwareengineCluster#node_type_configs}
 
 ---
 
@@ -170,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#timeouts GoogleVmwareengineCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#timeouts GoogleVmwareengineCluster#timeouts}
 
 ---
 
@@ -203,9 +215,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putAutoscalingSettings">put_autoscaling_settings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putDatastoreMountConfig">put_datastore_mount_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putNodeTypeConfigs">put_node_type_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetAutoscalingSettings">reset_autoscaling_settings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetDatastoreMountConfig">reset_datastore_mount_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetNodeTypeConfigs">reset_node_type_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetTimeouts">reset_timeouts</a></code> | *No description.* |
@@ -577,7 +591,7 @@ def put_autoscaling_settings(
 
 autoscaling_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscaling_policies GoogleVmwareengineCluster#autoscaling_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscaling_policies GoogleVmwareengineCluster#autoscaling_policies}
 
 ---
 
@@ -592,7 +606,7 @@ Minimum cool down period is 30m.
 Cool down period must be in whole minutes (for example, 30m, 31m, 50m).
 Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#cool_down_period GoogleVmwareengineCluster#cool_down_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#cool_down_period GoogleVmwareengineCluster#cool_down_period}
 
 ---
 
@@ -602,7 +616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum number of nodes of any type in a cluster. Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#max_cluster_node_count GoogleVmwareengineCluster#max_cluster_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#max_cluster_node_count GoogleVmwareengineCluster#max_cluster_node_count}
 
 ---
 
@@ -612,7 +626,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of nodes of any type in a cluster. Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#min_cluster_node_count GoogleVmwareengineCluster#min_cluster_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#min_cluster_node_count GoogleVmwareengineCluster#min_cluster_node_count}
+
+---
+
+##### `put_datastore_mount_config` <a name="put_datastore_mount_config" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putDatastoreMountConfig"></a>
+
+```python
+def put_datastore_mount_config(
+  value: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.putDatastoreMountConfig.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]
 
 ---
 
@@ -644,7 +672,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}.
 
 ---
 
@@ -652,7 +680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}.
 
 ---
 
@@ -660,7 +688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}.
 
 ---
 
@@ -668,6 +696,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_autoscaling_settings() -> None
+```
+
+##### `reset_datastore_mount_config` <a name="reset_datastore_mount_config" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetDatastoreMountConfig"></a>
+
+```python
+def reset_datastore_mount_config() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.resetId"></a>
@@ -802,7 +836,7 @@ The construct id used in the generated config for the GoogleVmwareengineCluster 
 
 The id of the existing GoogleVmwareengineCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -833,12 +867,16 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.autoscalingSettings">autoscaling_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsOutputReference">GoogleVmwareengineClusterAutoscalingSettingsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.datastoreMountConfig">datastore_mount_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList">GoogleVmwareengineClusterDatastoreMountConfigList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.management">management</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.nodeTypeConfigs">node_type_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigsList">GoogleVmwareengineClusterNodeTypeConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.state">state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeoutsOutputReference">GoogleVmwareengineClusterTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.uid">uid</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.autoscalingSettingsInput">autoscaling_settings_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettings">GoogleVmwareengineClusterAutoscalingSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.datastoreMountConfigInput">datastore_mount_config_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.nodeTypeConfigsInput">node_type_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs">GoogleVmwareengineClusterNodeTypeConfigs</a>]</code> | *No description.* |
@@ -1002,6 +1040,26 @@ autoscaling_settings: GoogleVmwareengineClusterAutoscalingSettingsOutputReferenc
 
 ---
 
+##### `create_time`<sup>Required</sup> <a name="create_time" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.createTime"></a>
+
+```python
+create_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `datastore_mount_config`<sup>Required</sup> <a name="datastore_mount_config" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.datastoreMountConfig"></a>
+
+```python
+datastore_mount_config: GoogleVmwareengineClusterDatastoreMountConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList">GoogleVmwareengineClusterDatastoreMountConfigList</a>
+
+---
+
 ##### `management`<sup>Required</sup> <a name="management" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.management"></a>
 
 ```python
@@ -1052,6 +1110,16 @@ uid: str
 
 ---
 
+##### `update_time`<sup>Required</sup> <a name="update_time" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.updateTime"></a>
+
+```python
+update_time: str
+```
+
+- *Type:* str
+
+---
+
 ##### `autoscaling_settings_input`<sup>Optional</sup> <a name="autoscaling_settings_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.autoscalingSettingsInput"></a>
 
 ```python
@@ -1059,6 +1127,16 @@ autoscaling_settings_input: GoogleVmwareengineClusterAutoscalingSettings
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettings">GoogleVmwareengineClusterAutoscalingSettings</a>
+
+---
+
+##### `datastore_mount_config_input`<sup>Optional</sup> <a name="datastore_mount_config_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster.property.datastoreMountConfigInput"></a>
+
+```python
+datastore_mount_config_input: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]
 
 ---
 
@@ -1198,7 +1276,7 @@ autoscaling_policies: IResolvable | typing.List[GoogleVmwareengineClusterAutosca
 
 autoscaling_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscaling_policies GoogleVmwareengineCluster#autoscaling_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscaling_policies GoogleVmwareengineCluster#autoscaling_policies}
 
 ---
 
@@ -1217,7 +1295,7 @@ Minimum cool down period is 30m.
 Cool down period must be in whole minutes (for example, 30m, 31m, 50m).
 Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#cool_down_period GoogleVmwareengineCluster#cool_down_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#cool_down_period GoogleVmwareengineCluster#cool_down_period}
 
 ---
 
@@ -1231,7 +1309,7 @@ max_cluster_node_count: typing.Union[int, float]
 
 Maximum number of nodes of any type in a cluster. Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#max_cluster_node_count GoogleVmwareengineCluster#max_cluster_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#max_cluster_node_count GoogleVmwareengineCluster#max_cluster_node_count}
 
 ---
 
@@ -1245,7 +1323,7 @@ min_cluster_node_count: typing.Union[int, float]
 
 Minimum number of nodes of any type in a cluster. Mandatory for successful addition of autoscaling settings in cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#min_cluster_node_count GoogleVmwareengineCluster#min_cluster_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#min_cluster_node_count GoogleVmwareengineCluster#min_cluster_node_count}
 
 ---
 
@@ -1270,7 +1348,7 @@ googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolicies.property.autoscalePolicyId">autoscale_policy_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscale_policy_id GoogleVmwareengineCluster#autoscale_policy_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolicies.property.autoscalePolicyId">autoscale_policy_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscale_policy_id GoogleVmwareengineCluster#autoscale_policy_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolicies.property.nodeTypeId">node_type_id</a></code> | <code>str</code> | The canonical identifier of the node type to add or remove. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolicies.property.scaleOutSize">scale_out_size</a></code> | <code>typing.Union[int, float]</code> | Number of nodes to add to a cluster during a scale-out operation. Must be divisible by 2 for stretched clusters. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolicies.property.consumedMemoryThresholds">consumed_memory_thresholds</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholds">GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesConsumedMemoryThresholds</a></code> | consumed_memory_thresholds block. |
@@ -1287,7 +1365,7 @@ autoscale_policy_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscale_policy_id GoogleVmwareengineCluster#autoscale_policy_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscale_policy_id GoogleVmwareengineCluster#autoscale_policy_id}.
 
 ---
 
@@ -1301,7 +1379,7 @@ node_type_id: str
 
 The canonical identifier of the node type to add or remove.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}
 
 ---
 
@@ -1315,7 +1393,7 @@ scale_out_size: typing.Union[int, float]
 
 Number of nodes to add to a cluster during a scale-out operation. Must be divisible by 2 for stretched clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out_size GoogleVmwareengineCluster#scale_out_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out_size GoogleVmwareengineCluster#scale_out_size}
 
 ---
 
@@ -1329,7 +1407,7 @@ consumed_memory_thresholds: GoogleVmwareengineClusterAutoscalingSettingsAutoscal
 
 consumed_memory_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#consumed_memory_thresholds GoogleVmwareengineCluster#consumed_memory_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#consumed_memory_thresholds GoogleVmwareengineCluster#consumed_memory_thresholds}
 
 ---
 
@@ -1343,7 +1421,7 @@ cpu_thresholds: GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesC
 
 cpu_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#cpu_thresholds GoogleVmwareengineCluster#cpu_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#cpu_thresholds GoogleVmwareengineCluster#cpu_thresholds}
 
 ---
 
@@ -1357,7 +1435,7 @@ storage_thresholds: GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolic
 
 storage_thresholds block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#storage_thresholds GoogleVmwareengineCluster#storage_thresholds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#storage_thresholds GoogleVmwareengineCluster#storage_thresholds}
 
 ---
 
@@ -1393,7 +1471,7 @@ scale_in: typing.Union[int, float]
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -1407,7 +1485,7 @@ scale_out: typing.Union[int, float]
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -1443,7 +1521,7 @@ scale_in: typing.Union[int, float]
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -1457,7 +1535,7 @@ scale_out: typing.Union[int, float]
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -1493,7 +1571,7 @@ scale_in: typing.Union[int, float]
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -1507,7 +1585,7 @@ scale_out: typing.Union[int, float]
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -1529,6 +1607,7 @@ googleVmwareengineCluster.GoogleVmwareengineClusterConfig(
   name: str,
   parent: str,
   autoscaling_settings: GoogleVmwareengineClusterAutoscalingSettings = None,
+  datastore_mount_config: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig] = None,
   id: str = None,
   node_type_configs: IResolvable | typing.List[GoogleVmwareengineClusterNodeTypeConfigs] = None,
   timeouts: GoogleVmwareengineClusterTimeouts = None
@@ -1549,7 +1628,8 @@ googleVmwareengineCluster.GoogleVmwareengineClusterConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.name">name</a></code> | <code>str</code> | The ID of the Cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.parent">parent</a></code> | <code>str</code> | The resource name of the private cloud to create a new cluster in. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.autoscalingSettings">autoscaling_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettings">GoogleVmwareengineClusterAutoscalingSettings</a></code> | autoscaling_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.datastoreMountConfig">datastore_mount_config</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]</code> | datastore_mount_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.nodeTypeConfigs">node_type_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs">GoogleVmwareengineClusterNodeTypeConfigs</a>]</code> | node_type_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts">GoogleVmwareengineClusterTimeouts</a></code> | timeouts block. |
 
@@ -1635,7 +1715,7 @@ name: str
 
 The ID of the Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#name GoogleVmwareengineCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#name GoogleVmwareengineCluster#name}
 
 ---
 
@@ -1652,7 +1732,7 @@ The resource name of the private cloud to create a new cluster in.
 Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#parent GoogleVmwareengineCluster#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#parent GoogleVmwareengineCluster#parent}
 
 ---
 
@@ -1666,7 +1746,21 @@ autoscaling_settings: GoogleVmwareengineClusterAutoscalingSettings
 
 autoscaling_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#autoscaling_settings GoogleVmwareengineCluster#autoscaling_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#autoscaling_settings GoogleVmwareengineCluster#autoscaling_settings}
+
+---
+
+##### `datastore_mount_config`<sup>Optional</sup> <a name="datastore_mount_config" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterConfig.property.datastoreMountConfig"></a>
+
+```python
+datastore_mount_config: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]
+
+datastore_mount_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#datastore_mount_config GoogleVmwareengineCluster#datastore_mount_config}
 
 ---
 
@@ -1678,7 +1772,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#id GoogleVmwareengineCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1695,7 +1789,7 @@ node_type_configs: IResolvable | typing.List[GoogleVmwareengineClusterNodeTypeCo
 
 node_type_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_type_configs GoogleVmwareengineCluster#node_type_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_type_configs GoogleVmwareengineCluster#node_type_configs}
 
 ---
 
@@ -1709,7 +1803,187 @@ timeouts: GoogleVmwareengineClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#timeouts GoogleVmwareengineCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#timeouts GoogleVmwareengineCluster#timeouts}
+
+---
+
+### GoogleVmwareengineClusterDatastoreMountConfig <a name="GoogleVmwareengineClusterDatastoreMountConfig" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vmwareengine_cluster
+
+googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig(
+  datastore: str,
+  datastore_network: GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork,
+  access_mode: str = None,
+  ignore_colocation: bool | IResolvable = None,
+  nfs_version: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.datastore">datastore</a></code> | <code>str</code> | The resource name of the datastore to unmount. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.datastoreNetwork">datastore_network</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a></code> | datastore_network block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.accessMode">access_mode</a></code> | <code>str</code> | Optional. NFS is accessed by hosts in either read or read_write mode Default value used will be READ_WRITE Possible values: READ_ONLY READ_WRITE. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.ignoreColocation">ignore_colocation</a></code> | <code>bool \| cdktn.IResolvable</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.nfsVersion">nfs_version</a></code> | <code>str</code> | Optional. The NFS protocol supported by the NFS volume. Default value used will be NFS_V3 Possible values: NFS_V3. |
+
+---
+
+##### `datastore`<sup>Required</sup> <a name="datastore" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.datastore"></a>
+
+```python
+datastore: str
+```
+
+- *Type:* str
+
+The resource name of the datastore to unmount.
+
+The datastore requested to be mounted should be in same region/zone as the
+cluster.
+Resource names are schemeless URIs that follow the conventions in
+https://cloud.google.com/apis/design/resource_names.
+For example:
+'projects/my-project/locations/us-central1/datastores/my-datastore'
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#datastore GoogleVmwareengineCluster#datastore}
+
+---
+
+##### `datastore_network`<sup>Required</sup> <a name="datastore_network" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.datastoreNetwork"></a>
+
+```python
+datastore_network: GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a>
+
+datastore_network block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#datastore_network GoogleVmwareengineCluster#datastore_network}
+
+---
+
+##### `access_mode`<sup>Optional</sup> <a name="access_mode" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.accessMode"></a>
+
+```python
+access_mode: str
+```
+
+- *Type:* str
+
+Optional. NFS is accessed by hosts in either read or read_write mode Default value used will be READ_WRITE Possible values: READ_ONLY READ_WRITE.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#access_mode GoogleVmwareengineCluster#access_mode}
+
+---
+
+##### `ignore_colocation`<sup>Optional</sup> <a name="ignore_colocation" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.ignoreColocation"></a>
+
+```python
+ignore_colocation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Optional.
+
+If set to true, the colocation requirement will be ignored.
+If set to false, the colocation requirement will be enforced.
+Colocation requirement is the requirement that the cluster must be in the
+same region/zone of datastore.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#ignore_colocation GoogleVmwareengineCluster#ignore_colocation}
+
+---
+
+##### `nfs_version`<sup>Optional</sup> <a name="nfs_version" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig.property.nfsVersion"></a>
+
+```python
+nfs_version: str
+```
+
+- *Type:* str
+
+Optional. The NFS protocol supported by the NFS volume. Default value used will be NFS_V3 Possible values: NFS_V3.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#nfs_version GoogleVmwareengineCluster#nfs_version}
+
+---
+
+### GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork <a name="GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vmwareengine_cluster
+
+googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork(
+  subnet: str,
+  connection_count: typing.Union[int, float] = None,
+  mtu: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.subnet">subnet</a></code> | <code>str</code> | The resource name of the subnet Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names. e.g. projects/my-project/locations/us-central1/subnets/my-subnet. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.connectionCount">connection_count</a></code> | <code>typing.Union[int, float]</code> | Optional. The number of connections of the NFS volume. Supported from vsphere 8.0u1. Possible values are 1-4. Default value is 4. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.mtu">mtu</a></code> | <code>typing.Union[int, float]</code> | Optional. |
+
+---
+
+##### `subnet`<sup>Required</sup> <a name="subnet" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.subnet"></a>
+
+```python
+subnet: str
+```
+
+- *Type:* str
+
+The resource name of the subnet Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names. e.g. projects/my-project/locations/us-central1/subnets/my-subnet.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#subnet GoogleVmwareengineCluster#subnet}
+
+---
+
+##### `connection_count`<sup>Optional</sup> <a name="connection_count" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.connectionCount"></a>
+
+```python
+connection_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Optional. The number of connections of the NFS volume. Supported from vsphere 8.0u1. Possible values are 1-4. Default value is 4.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#connection_count GoogleVmwareengineCluster#connection_count}
+
+---
+
+##### `mtu`<sup>Optional</sup> <a name="mtu" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork.property.mtu"></a>
+
+```python
+mtu: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Optional.
+
+The Maximal Transmission Unit (MTU) of the datastore.
+MTU value can range from 1330-9000. If not set, system sets
+default MTU size to 1500.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#mtu GoogleVmwareengineCluster#mtu}
 
 ---
 
@@ -1732,7 +2006,7 @@ googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs.property.nodeCount">node_count</a></code> | <code>typing.Union[int, float]</code> | The number of nodes of this type in the cluster. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs.property.nodeTypeId">node_type_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs.property.nodeTypeId">node_type_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterNodeTypeConfigs.property.customCoreCount">custom_core_count</a></code> | <code>typing.Union[int, float]</code> | Customized number of cores available to each node of the type. |
 
 ---
@@ -1747,7 +2021,7 @@ node_count: typing.Union[int, float]
 
 The number of nodes of this type in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_count GoogleVmwareengineCluster#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_count GoogleVmwareengineCluster#node_count}
 
 ---
 
@@ -1759,7 +2033,7 @@ node_type_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#node_type_id GoogleVmwareengineCluster#node_type_id}.
 
 ---
 
@@ -1777,7 +2051,7 @@ This number must always be one of 'nodeType.availableCustomCoreCounts'.
 If zero is provided max value from 'nodeType.availableCustomCoreCounts' will be used.
 Once the customer is created then corecount cannot be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#custom_core_count GoogleVmwareengineCluster#custom_core_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#custom_core_count GoogleVmwareengineCluster#custom_core_count}
 
 ---
 
@@ -1799,9 +2073,9 @@ googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}. |
 
 ---
 
@@ -1813,7 +2087,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#create GoogleVmwareengineCluster#create}.
 
 ---
 
@@ -1825,7 +2099,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#delete GoogleVmwareengineCluster#delete}.
 
 ---
 
@@ -1837,7 +2111,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#update GoogleVmwareengineCluster#update}.
 
 ---
 
@@ -2918,7 +3192,7 @@ def put_consumed_memory_thresholds(
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -2928,7 +3202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -2947,7 +3221,7 @@ def put_cpu_thresholds(
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -2957,7 +3231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -2976,7 +3250,7 @@ def put_storage_thresholds(
 
 The utilization triggering the scale-in operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_in GoogleVmwareengineCluster#scale_in}
 
 ---
 
@@ -2986,7 +3260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The utilization triggering the scale-out operation in percent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#scale_out GoogleVmwareengineCluster#scale_out}
 
 ---
 
@@ -3898,6 +4172,1033 @@ internal_value: GoogleVmwareengineClusterAutoscalingSettings
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterAutoscalingSettings">GoogleVmwareengineClusterAutoscalingSettings</a>
+
+---
+
+
+### GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference <a name="GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vmwareengine_cluster
+
+googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resetConnectionCount">reset_connection_count</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resetMtu">reset_mtu</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_connection_count` <a name="reset_connection_count" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resetConnectionCount"></a>
+
+```python
+def reset_connection_count() -> None
+```
+
+##### `reset_mtu` <a name="reset_mtu" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.resetMtu"></a>
+
+```python
+def reset_mtu() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.networkPeering">network_peering</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.connectionCountInput">connection_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.mtuInput">mtu_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.subnetInput">subnet_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.connectionCount">connection_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.mtu">mtu</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.subnet">subnet</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `network_peering`<sup>Required</sup> <a name="network_peering" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.networkPeering"></a>
+
+```python
+network_peering: str
+```
+
+- *Type:* str
+
+---
+
+##### `connection_count_input`<sup>Optional</sup> <a name="connection_count_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.connectionCountInput"></a>
+
+```python
+connection_count_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `mtu_input`<sup>Optional</sup> <a name="mtu_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.mtuInput"></a>
+
+```python
+mtu_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `subnet_input`<sup>Optional</sup> <a name="subnet_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.subnetInput"></a>
+
+```python
+subnet_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `connection_count`<sup>Required</sup> <a name="connection_count" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.connectionCount"></a>
+
+```python
+connection_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `mtu`<sup>Required</sup> <a name="mtu" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.mtu"></a>
+
+```python
+mtu: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `subnet`<sup>Required</sup> <a name="subnet" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.subnet"></a>
+
+```python
+subnet: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a>
+
+---
+
+
+### GoogleVmwareengineClusterDatastoreMountConfigList <a name="GoogleVmwareengineClusterDatastoreMountConfigList" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vmwareengine_cluster
+
+googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleVmwareengineClusterDatastoreMountConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleVmwareengineClusterDatastoreMountConfig]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>]
+
+---
+
+
+### GoogleVmwareengineClusterDatastoreMountConfigOutputReference <a name="GoogleVmwareengineClusterDatastoreMountConfigOutputReference" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_vmwareengine_cluster
+
+googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.putDatastoreNetwork">put_datastore_network</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetAccessMode">reset_access_mode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetIgnoreColocation">reset_ignore_colocation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetNfsVersion">reset_nfs_version</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_datastore_network` <a name="put_datastore_network" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.putDatastoreNetwork"></a>
+
+```python
+def put_datastore_network(
+  subnet: str,
+  connection_count: typing.Union[int, float] = None,
+  mtu: typing.Union[int, float] = None
+) -> None
+```
+
+###### `subnet`<sup>Required</sup> <a name="subnet" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.putDatastoreNetwork.parameter.subnet"></a>
+
+- *Type:* str
+
+The resource name of the subnet Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names. e.g. projects/my-project/locations/us-central1/subnets/my-subnet.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#subnet GoogleVmwareengineCluster#subnet}
+
+---
+
+###### `connection_count`<sup>Optional</sup> <a name="connection_count" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.putDatastoreNetwork.parameter.connectionCount"></a>
+
+- *Type:* typing.Union[int, float]
+
+Optional. The number of connections of the NFS volume. Supported from vsphere 8.0u1. Possible values are 1-4. Default value is 4.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#connection_count GoogleVmwareengineCluster#connection_count}
+
+---
+
+###### `mtu`<sup>Optional</sup> <a name="mtu" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.putDatastoreNetwork.parameter.mtu"></a>
+
+- *Type:* typing.Union[int, float]
+
+Optional.
+
+The Maximal Transmission Unit (MTU) of the datastore.
+MTU value can range from 1330-9000. If not set, system sets
+default MTU size to 1500.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_cluster#mtu GoogleVmwareengineCluster#mtu}
+
+---
+
+##### `reset_access_mode` <a name="reset_access_mode" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetAccessMode"></a>
+
+```python
+def reset_access_mode() -> None
+```
+
+##### `reset_ignore_colocation` <a name="reset_ignore_colocation" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetIgnoreColocation"></a>
+
+```python
+def reset_ignore_colocation() -> None
+```
+
+##### `reset_nfs_version` <a name="reset_nfs_version" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.resetNfsVersion"></a>
+
+```python
+def reset_nfs_version() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreNetwork">datastore_network</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.fileShare">file_share</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.servers">servers</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.accessModeInput">access_mode_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreInput">datastore_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreNetworkInput">datastore_network_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.ignoreColocationInput">ignore_colocation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.nfsVersionInput">nfs_version_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.accessMode">access_mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastore">datastore</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.ignoreColocation">ignore_colocation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.nfsVersion">nfs_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `datastore_network`<sup>Required</sup> <a name="datastore_network" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreNetwork"></a>
+
+```python
+datastore_network: GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetworkOutputReference</a>
+
+---
+
+##### `file_share`<sup>Required</sup> <a name="file_share" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.fileShare"></a>
+
+```python
+file_share: str
+```
+
+- *Type:* str
+
+---
+
+##### `servers`<sup>Required</sup> <a name="servers" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.servers"></a>
+
+```python
+servers: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `access_mode_input`<sup>Optional</sup> <a name="access_mode_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.accessModeInput"></a>
+
+```python
+access_mode_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `datastore_input`<sup>Optional</sup> <a name="datastore_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreInput"></a>
+
+```python
+datastore_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `datastore_network_input`<sup>Optional</sup> <a name="datastore_network_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastoreNetworkInput"></a>
+
+```python
+datastore_network_input: GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork">GoogleVmwareengineClusterDatastoreMountConfigDatastoreNetwork</a>
+
+---
+
+##### `ignore_colocation_input`<sup>Optional</sup> <a name="ignore_colocation_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.ignoreColocationInput"></a>
+
+```python
+ignore_colocation_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `nfs_version_input`<sup>Optional</sup> <a name="nfs_version_input" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.nfsVersionInput"></a>
+
+```python
+nfs_version_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `access_mode`<sup>Required</sup> <a name="access_mode" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.accessMode"></a>
+
+```python
+access_mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `datastore`<sup>Required</sup> <a name="datastore" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.datastore"></a>
+
+```python
+datastore: str
+```
+
+- *Type:* str
+
+---
+
+##### `ignore_colocation`<sup>Required</sup> <a name="ignore_colocation" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.ignoreColocation"></a>
+
+```python
+ignore_colocation: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `nfs_version`<sup>Required</sup> <a name="nfs_version" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.nfsVersion"></a>
+
+```python
+nfs_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleVmwareengineClusterDatastoreMountConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineClusterDatastoreMountConfig">GoogleVmwareengineClusterDatastoreMountConfig</a>
 
 ---
 

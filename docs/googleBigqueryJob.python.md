@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryJob <a name="GoogleBigqueryJob" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job google_bigquery_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job google_bigquery_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer"></a>
 
@@ -31,6 +31,7 @@ googleBigqueryJob.GoogleBigqueryJob(
   location: str = None,
   project: str = None,
   query: GoogleBigqueryJobQuery = None,
+  reservation: str = None,
   timeouts: GoogleBigqueryJobTimeouts = None
 )
 ```
@@ -49,13 +50,14 @@ googleBigqueryJob.GoogleBigqueryJob(
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.jobId">job_id</a></code> | <code>str</code> | The ID of the job. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.copy">copy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopy">GoogleBigqueryJobCopy</a></code> | copy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.extract">extract</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtract">GoogleBigqueryJobExtract</a></code> | extract block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.jobTimeoutMs">job_timeout_ms</a></code> | <code>str</code> | Job timeout in milliseconds. If this time limit is exceeded, BigQuery may attempt to terminate the job. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The labels associated with this job. You can use these to organize and group your jobs. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.load">load</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoad">GoogleBigqueryJobLoad</a></code> | load block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.location">location</a></code> | <code>str</code> | The geographic location of the job. The default value is US. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.query">query</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery">GoogleBigqueryJobQuery</a></code> | query block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.reservation">reservation</a></code> | <code>str</code> | The reservation that job would use. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts">GoogleBigqueryJobTimeouts</a></code> | timeouts block. |
 
 ---
@@ -128,7 +130,7 @@ The ID of the job.
 
 The ID must contain only letters (a-z, A-Z), numbers (0-9), underscores (_), or dashes (-). The maximum length is 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#job_id GoogleBigqueryJob#job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#job_id GoogleBigqueryJob#job_id}
 
 ---
 
@@ -138,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 copy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#copy GoogleBigqueryJob#copy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#copy GoogleBigqueryJob#copy}
 
 ---
 
@@ -148,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 extract block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#extract GoogleBigqueryJob#extract}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#extract GoogleBigqueryJob#extract}
 
 ---
 
@@ -156,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -169,7 +171,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Job timeout in milliseconds. If this time limit is exceeded, BigQuery may attempt to terminate the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#job_timeout_ms GoogleBigqueryJob#job_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#job_timeout_ms GoogleBigqueryJob#job_timeout_ms}
 
 ---
 
@@ -182,7 +184,7 @@ The labels associated with this job. You can use these to organize and group you
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#labels GoogleBigqueryJob#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#labels GoogleBigqueryJob#labels}
 
 ---
 
@@ -192,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 load block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#load GoogleBigqueryJob#load}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#load GoogleBigqueryJob#load}
 
 ---
 
@@ -202,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The geographic location of the job. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#location GoogleBigqueryJob#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#location GoogleBigqueryJob#location}
 
 ---
 
@@ -210,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}.
 
 ---
 
@@ -220,7 +222,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+
+---
+
+##### `reservation`<sup>Optional</sup> <a name="reservation" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.Initializer.parameter.reservation"></a>
+
+- *Type:* str
+
+The reservation that job would use.
+
+User can specify a reservation to execute the job. If this field is not set, reservation is determined based on the rules defined by the reservation assignments.
+The expected format is 'projects/{project}/locations/{location}/reservations/{reservation}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#reservation GoogleBigqueryJob#reservation}
 
 ---
 
@@ -230,7 +245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#timeouts GoogleBigqueryJob#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#timeouts GoogleBigqueryJob#timeouts}
 
 ---
 
@@ -276,6 +291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetLocation">reset_location</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetQuery">reset_query</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetReservation">reset_reservation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
 ---
@@ -646,7 +662,7 @@ def put_copy(
 
 source_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_tables GoogleBigqueryJob#source_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_tables GoogleBigqueryJob#source_tables}
 
 ---
 
@@ -661,7 +677,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -671,7 +687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -681,7 +697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -698,7 +714,7 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
 
 ---
 
@@ -723,7 +739,7 @@ def put_extract(
 
 A list of fully-qualified Google Cloud Storage URIs where the extracted table should be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_uris GoogleBigqueryJob#destination_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_uris GoogleBigqueryJob#destination_uris}
 
 ---
 
@@ -736,7 +752,7 @@ The compression type to use for exported files.
 Possible values include GZIP, DEFLATE, SNAPPY, and NONE.
 The default value is NONE. DEFLATE and SNAPPY are only supported for Avro.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#compression GoogleBigqueryJob#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#compression GoogleBigqueryJob#compression}
 
 ---
 
@@ -750,7 +766,7 @@ Possible values include CSV, NEWLINE_DELIMITED_JSON and AVRO for tables and SAVE
 The default value for tables is CSV. Tables with nested or repeated fields cannot be exported as CSV.
 The default value for models is SAVED_MODEL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_format GoogleBigqueryJob#destination_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_format GoogleBigqueryJob#destination_format}
 
 ---
 
@@ -762,7 +778,7 @@ When extracting data in CSV format, this defines the delimiter to use between fi
 
 Default is ','
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
 
 ---
 
@@ -772,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to print out a header row in the results. Default is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#print_header GoogleBigqueryJob#print_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#print_header GoogleBigqueryJob#print_header}
 
 ---
 
@@ -782,7 +798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 source_model block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_model GoogleBigqueryJob#source_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_model GoogleBigqueryJob#source_model}
 
 ---
 
@@ -792,7 +808,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 source_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_table GoogleBigqueryJob#source_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_table GoogleBigqueryJob#source_table}
 
 ---
 
@@ -802,7 +818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to use logical types when extracting to AVRO format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_avro_logical_types GoogleBigqueryJob#use_avro_logical_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_avro_logical_types GoogleBigqueryJob#use_avro_logical_types}
 
 ---
 
@@ -840,7 +856,7 @@ def put_load(
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -856,7 +872,7 @@ to external data sources. For Google Cloud Bigtable URIs: Exactly one URI can be
 specified and it has be a fully specified and valid HTTPS URL for a Google Cloud Bigtable table.
 For Google Cloud Datastore backups: Exactly one URI can be specified. Also, the '*' wildcard character is not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_uris GoogleBigqueryJob#source_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_uris GoogleBigqueryJob#source_uris}
 
 ---
 
@@ -870,7 +886,7 @@ The missing values are treated as nulls.
 If false, records with missing trailing columns are treated as bad records, and if there are too many bad records,
 an invalid error is returned in the job result. The default value is false. Only applicable to CSV, ignored for other formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_jagged_rows GoogleBigqueryJob#allow_jagged_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_jagged_rows GoogleBigqueryJob#allow_jagged_rows}
 
 ---
 
@@ -882,7 +898,7 @@ Indicates if BigQuery should allow quoted data sections that contain newline cha
 
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_quoted_newlines GoogleBigqueryJob#allow_quoted_newlines}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_quoted_newlines GoogleBigqueryJob#allow_quoted_newlines}
 
 ---
 
@@ -892,7 +908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if we should automatically infer the options and schema for CSV and JSON sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#autodetect GoogleBigqueryJob#autodetect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#autodetect GoogleBigqueryJob#autodetect}
 
 ---
 
@@ -907,7 +923,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -917,7 +933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -931,7 +947,7 @@ The supported values are UTF-8 or ISO-8859-1.
 The default value is UTF-8. BigQuery decodes the data after the raw, binary data
 has been split using the values of the quote and fieldDelimiter properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#encoding GoogleBigqueryJob#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#encoding GoogleBigqueryJob#encoding}
 
 ---
 
@@ -947,7 +963,7 @@ the string to ISO-8859-1 encoding, and then uses the first byte of the encoded s
 data in its raw, binary state. BigQuery also supports the escape sequence "\t" to specify a tab separator.
 The default value is a comma (',').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
 
 ---
 
@@ -963,7 +979,7 @@ The default value is false. The sourceFormat property determines what BigQuery t
 CSV: Trailing columns
 JSON: Named values that don't match any column names
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#ignore_unknown_values GoogleBigqueryJob#ignore_unknown_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#ignore_unknown_values GoogleBigqueryJob#ignore_unknown_values}
 
 ---
 
@@ -976,7 +992,7 @@ If sourceFormat is set to newline-delimited JSON, indicates whether it should be
 For a sourceFormat other than JSON, omit this field. If the sourceFormat is newline-delimited JSON: - for newline-delimited
 GeoJSON: set to GEOJSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#json_extension GoogleBigqueryJob#json_extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#json_extension GoogleBigqueryJob#json_extension}
 
 ---
 
@@ -989,7 +1005,7 @@ The maximum number of bad records that BigQuery can ignore when running the job.
 If the number of bad records exceeds this value,
 an invalid error is returned in the job result. The default value is 0, which requires that all records are valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#max_bad_records GoogleBigqueryJob#max_bad_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#max_bad_records GoogleBigqueryJob#max_bad_records}
 
 ---
 
@@ -1004,7 +1020,7 @@ when loading a CSV file. The default value is the empty string. If you set this 
 empty string is present for all data types except for STRING and BYTE. For STRING and BYTE columns, BigQuery interprets the empty string as
 an empty value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#null_marker GoogleBigqueryJob#null_marker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#null_marker GoogleBigqueryJob#null_marker}
 
 ---
 
@@ -1014,7 +1030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 parquet_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#parquet_options GoogleBigqueryJob#parquet_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#parquet_options GoogleBigqueryJob#parquet_options}
 
 ---
 
@@ -1027,7 +1043,7 @@ If sourceFormat is set to "DATASTORE_BACKUP", indicates which entity properties 
 Property names are case sensitive and must be top-level properties. If no properties are specified, BigQuery loads all properties.
 If any named property isn't found in the Cloud Datastore backup, an invalid error is returned in the job result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#projection_fields GoogleBigqueryJob#projection_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#projection_fields GoogleBigqueryJob#projection_fields}
 
 ---
 
@@ -1042,7 +1058,7 @@ and then uses the first byte of the encoded string to split the data in its raw,
 The default value is a double-quote ('"'). If your data does not contain quoted sections, set the property value to an empty string.
 If your data contains quoted newline characters, you must also set the allowQuotedNewlines property to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#quote GoogleBigqueryJob#quote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#quote GoogleBigqueryJob#quote}
 
 ---
 
@@ -1058,7 +1074,7 @@ For normal tables, WRITE_TRUNCATE will always overwrite the schema. One or more 
 ALLOW_FIELD_ADDITION: allow adding a nullable field to the schema.
 ALLOW_FIELD_RELAXATION: allow relaxing a required field in the original schema to nullable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
 
 ---
 
@@ -1076,7 +1092,7 @@ skipLeadingRows is 0 - Instructs autodetect that there are no headers and data s
 skipLeadingRows = N > 0 - Autodetect skips N-1 rows and tries to detect headers in row N. If headers are not detected,
 row N is just skipped. Otherwise row N is used to extract column names for the detected schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#skip_leading_rows GoogleBigqueryJob#skip_leading_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#skip_leading_rows GoogleBigqueryJob#skip_leading_rows}
 
 ---
 
@@ -1091,7 +1107,7 @@ For newline-delimited JSON, specify "NEWLINE_DELIMITED_JSON". For Avro, specify 
 For orc, specify "ORC". [Beta] For Bigtable, specify "BIGTABLE".
 The default value is CSV.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_format GoogleBigqueryJob#source_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_format GoogleBigqueryJob#source_format}
 
 ---
 
@@ -1101,7 +1117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 time_partitioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#time_partitioning GoogleBigqueryJob#time_partitioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#time_partitioning GoogleBigqueryJob#time_partitioning}
 
 ---
 
@@ -1118,7 +1134,7 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
 
 ---
 
@@ -1128,6 +1144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 def put_query(
   query: str,
   allow_large_results: bool | IResolvable = None,
+  connection_properties: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties] = None,
   continuous: bool | IResolvable = None,
   create_disposition: str = None,
   default_dataset: GoogleBigqueryJobQueryDefaultDataset = None,
@@ -1157,7 +1174,7 @@ The useLegacySql field can be used to indicate whether the query uses legacy SQL
 *NOTE*: queries containing [DML language](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-manipulation-language)
 ('DELETE', 'UPDATE', 'MERGE', 'INSERT') must specify 'create_disposition = ""' and 'write_disposition = ""'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
 
 ---
 
@@ -1170,7 +1187,17 @@ If true and query uses legacy SQL dialect, allows the query to produce arbitrari
 Requires destinationTable to be set. For standard SQL queries, this flag is ignored and large results are always allowed.
 However, you must still set destinationTable when result size exceeds the allowed maximum response size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_large_results GoogleBigqueryJob#allow_large_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_large_results GoogleBigqueryJob#allow_large_results}
+
+---
+
+###### `connection_properties`<sup>Optional</sup> <a name="connection_properties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.putQuery.parameter.connectionProperties"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]
+
+connection_properties block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#connection_properties GoogleBigqueryJob#connection_properties}
 
 ---
 
@@ -1180,7 +1207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to run the query as continuous or a regular query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#continuous GoogleBigqueryJob#continuous}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#continuous GoogleBigqueryJob#continuous}
 
 ---
 
@@ -1195,7 +1222,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -1205,7 +1232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 default_dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#default_dataset GoogleBigqueryJob#default_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#default_dataset GoogleBigqueryJob#default_dataset}
 
 ---
 
@@ -1215,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -1225,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -1237,7 +1264,7 @@ If true and query uses legacy SQL dialect, flattens all nested and repeated fiel
 
 allowLargeResults must be true if this is set to false. For standard SQL queries, this flag is ignored and results are never flattened.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#flatten_results GoogleBigqueryJob#flatten_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#flatten_results GoogleBigqueryJob#flatten_results}
 
 ---
 
@@ -1250,7 +1277,7 @@ Limits the billing tier for this job.
 Queries that have resource usage beyond this tier will fail (without incurring a charge).
 If unspecified, this will be set to your project default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#maximum_billing_tier GoogleBigqueryJob#maximum_billing_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#maximum_billing_tier GoogleBigqueryJob#maximum_billing_tier}
 
 ---
 
@@ -1263,7 +1290,7 @@ Limits the bytes billed for this job.
 Queries that will have bytes billed beyond this limit will fail (without incurring a charge).
 If unspecified, this will be set to your project default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#maximum_bytes_billed GoogleBigqueryJob#maximum_bytes_billed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#maximum_bytes_billed GoogleBigqueryJob#maximum_bytes_billed}
 
 ---
 
@@ -1275,7 +1302,7 @@ Standard SQL only.
 
 Set to POSITIONAL to use positional (?) query parameters or to NAMED to use named (@myparam) query parameters in this query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#parameter_mode GoogleBigqueryJob#parameter_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#parameter_mode GoogleBigqueryJob#parameter_mode}
 
 ---
 
@@ -1285,7 +1312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies a priority for the query. Default value: "INTERACTIVE" Possible values: ["INTERACTIVE", "BATCH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#priority GoogleBigqueryJob#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#priority GoogleBigqueryJob#priority}
 
 ---
 
@@ -1302,7 +1329,7 @@ One or more of the following values are specified:
 ALLOW_FIELD_ADDITION: allow adding a nullable field to the schema.
 ALLOW_FIELD_RELAXATION: allow relaxing a required field in the original schema to nullable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
 
 ---
 
@@ -1312,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 script_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#script_options GoogleBigqueryJob#script_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#script_options GoogleBigqueryJob#script_options}
 
 ---
 
@@ -1325,7 +1352,7 @@ Specifies whether to use BigQuery's legacy SQL dialect for this query.
 The default value is true.
 If set to false, the query will use BigQuery's standard SQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_legacy_sql GoogleBigqueryJob#use_legacy_sql}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_legacy_sql GoogleBigqueryJob#use_legacy_sql}
 
 ---
 
@@ -1339,7 +1366,7 @@ The query cache is a best-effort cache that will be flushed whenever
 tables in the query are modified. Moreover, the query cache is only available when a query does not have a destination table specified.
 The default value is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_query_cache GoogleBigqueryJob#use_query_cache}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_query_cache GoogleBigqueryJob#use_query_cache}
 
 ---
 
@@ -1349,7 +1376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 user_defined_function_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#user_defined_function_resources GoogleBigqueryJob#user_defined_function_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#user_defined_function_resources GoogleBigqueryJob#user_defined_function_resources}
 
 ---
 
@@ -1366,7 +1393,7 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
 
 ---
 
@@ -1384,7 +1411,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}.
 
 ---
 
@@ -1392,7 +1419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}.
 
 ---
 
@@ -1400,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}.
 
 ---
 
@@ -1456,6 +1483,12 @@ def reset_project() -> None
 
 ```python
 def reset_query() -> None
+```
+
+##### `reset_reservation` <a name="reset_reservation" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetReservation"></a>
+
+```python
+def reset_reservation() -> None
 ```
 
 ##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.resetTimeouts"></a>
@@ -1578,7 +1611,7 @@ The construct id used in the generated config for the GoogleBigqueryJob to impor
 
 The id of the existing GoogleBigqueryJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1628,6 +1661,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.queryInput">query_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery">GoogleBigqueryJobQuery</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.reservationInput">reservation_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts">GoogleBigqueryJobTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.jobId">job_id</a></code> | <code>str</code> | *No description.* |
@@ -1635,6 +1669,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.location">location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.project">project</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.reservation">reservation</a></code> | <code>str</code> | *No description.* |
 
 ---
 
@@ -1980,6 +2015,16 @@ query_input: GoogleBigqueryJobQuery
 
 ---
 
+##### `reservation_input`<sup>Optional</sup> <a name="reservation_input" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.reservationInput"></a>
+
+```python
+reservation_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.timeoutsInput"></a>
 
 ```python
@@ -2050,6 +2095,16 @@ project: str
 
 ---
 
+##### `reservation`<sup>Required</sup> <a name="reservation" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob.property.reservation"></a>
+
+```python
+reservation: str
+```
+
+- *Type:* str
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -2095,6 +2150,7 @@ googleBigqueryJob.GoogleBigqueryJobConfig(
   location: str = None,
   project: str = None,
   query: GoogleBigqueryJobQuery = None,
+  reservation: str = None,
   timeouts: GoogleBigqueryJobTimeouts = None
 )
 ```
@@ -2113,13 +2169,14 @@ googleBigqueryJob.GoogleBigqueryJobConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.jobId">job_id</a></code> | <code>str</code> | The ID of the job. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.copy">copy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopy">GoogleBigqueryJobCopy</a></code> | copy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.extract">extract</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtract">GoogleBigqueryJobExtract</a></code> | extract block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.jobTimeoutMs">job_timeout_ms</a></code> | <code>str</code> | Job timeout in milliseconds. If this time limit is exceeded, BigQuery may attempt to terminate the job. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The labels associated with this job. You can use these to organize and group your jobs. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.load">load</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoad">GoogleBigqueryJobLoad</a></code> | load block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.location">location</a></code> | <code>str</code> | The geographic location of the job. The default value is US. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.query">query</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery">GoogleBigqueryJobQuery</a></code> | query block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.reservation">reservation</a></code> | <code>str</code> | The reservation that job would use. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts">GoogleBigqueryJobTimeouts</a></code> | timeouts block. |
 
 ---
@@ -2206,7 +2263,7 @@ The ID of the job.
 
 The ID must contain only letters (a-z, A-Z), numbers (0-9), underscores (_), or dashes (-). The maximum length is 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#job_id GoogleBigqueryJob#job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#job_id GoogleBigqueryJob#job_id}
 
 ---
 
@@ -2220,7 +2277,7 @@ copy: GoogleBigqueryJobCopy
 
 copy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#copy GoogleBigqueryJob#copy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#copy GoogleBigqueryJob#copy}
 
 ---
 
@@ -2234,7 +2291,7 @@ extract: GoogleBigqueryJobExtract
 
 extract block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#extract GoogleBigqueryJob#extract}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#extract GoogleBigqueryJob#extract}
 
 ---
 
@@ -2246,7 +2303,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2263,7 +2320,7 @@ job_timeout_ms: str
 
 Job timeout in milliseconds. If this time limit is exceeded, BigQuery may attempt to terminate the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#job_timeout_ms GoogleBigqueryJob#job_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#job_timeout_ms GoogleBigqueryJob#job_timeout_ms}
 
 ---
 
@@ -2280,7 +2337,7 @@ The labels associated with this job. You can use these to organize and group you
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#labels GoogleBigqueryJob#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#labels GoogleBigqueryJob#labels}
 
 ---
 
@@ -2294,7 +2351,7 @@ load: GoogleBigqueryJobLoad
 
 load block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#load GoogleBigqueryJob#load}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#load GoogleBigqueryJob#load}
 
 ---
 
@@ -2308,7 +2365,7 @@ location: str
 
 The geographic location of the job. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#location GoogleBigqueryJob#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#location GoogleBigqueryJob#location}
 
 ---
 
@@ -2320,7 +2377,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project GoogleBigqueryJob#project}.
 
 ---
 
@@ -2334,7 +2391,24 @@ query: GoogleBigqueryJobQuery
 
 query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+
+---
+
+##### `reservation`<sup>Optional</sup> <a name="reservation" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig.property.reservation"></a>
+
+```python
+reservation: str
+```
+
+- *Type:* str
+
+The reservation that job would use.
+
+User can specify a reservation to execute the job. If this field is not set, reservation is determined based on the rules defined by the reservation assignments.
+The expected format is 'projects/{project}/locations/{location}/reservations/{reservation}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#reservation GoogleBigqueryJob#reservation}
 
 ---
 
@@ -2348,7 +2422,7 @@ timeouts: GoogleBigqueryJobTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#timeouts GoogleBigqueryJob#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#timeouts GoogleBigqueryJob#timeouts}
 
 ---
 
@@ -2390,7 +2464,7 @@ source_tables: IResolvable | typing.List[GoogleBigqueryJobCopySourceTables]
 
 source_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_tables GoogleBigqueryJob#source_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_tables GoogleBigqueryJob#source_tables}
 
 ---
 
@@ -2409,7 +2483,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -2423,7 +2497,7 @@ destination_encryption_configuration: GoogleBigqueryJobCopyDestinationEncryption
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -2437,7 +2511,7 @@ destination_table: GoogleBigqueryJobCopyDestinationTable
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -2458,7 +2532,7 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
 
 ---
 
@@ -2494,7 +2568,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -2532,7 +2606,7 @@ table_id: str
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -2546,7 +2620,7 @@ dataset_id: str
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -2560,7 +2634,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -2598,7 +2672,7 @@ table_id: str
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -2612,7 +2686,7 @@ dataset_id: str
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -2626,7 +2700,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -2674,7 +2748,7 @@ destination_uris: typing.List[str]
 
 A list of fully-qualified Google Cloud Storage URIs where the extracted table should be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_uris GoogleBigqueryJob#destination_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_uris GoogleBigqueryJob#destination_uris}
 
 ---
 
@@ -2691,7 +2765,7 @@ The compression type to use for exported files.
 Possible values include GZIP, DEFLATE, SNAPPY, and NONE.
 The default value is NONE. DEFLATE and SNAPPY are only supported for Avro.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#compression GoogleBigqueryJob#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#compression GoogleBigqueryJob#compression}
 
 ---
 
@@ -2709,7 +2783,7 @@ Possible values include CSV, NEWLINE_DELIMITED_JSON and AVRO for tables and SAVE
 The default value for tables is CSV. Tables with nested or repeated fields cannot be exported as CSV.
 The default value for models is SAVED_MODEL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_format GoogleBigqueryJob#destination_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_format GoogleBigqueryJob#destination_format}
 
 ---
 
@@ -2725,7 +2799,7 @@ When extracting data in CSV format, this defines the delimiter to use between fi
 
 Default is ','
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
 
 ---
 
@@ -2739,7 +2813,7 @@ print_header: bool | IResolvable
 
 Whether to print out a header row in the results. Default is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#print_header GoogleBigqueryJob#print_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#print_header GoogleBigqueryJob#print_header}
 
 ---
 
@@ -2753,7 +2827,7 @@ source_model: GoogleBigqueryJobExtractSourceModel
 
 source_model block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_model GoogleBigqueryJob#source_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_model GoogleBigqueryJob#source_model}
 
 ---
 
@@ -2767,7 +2841,7 @@ source_table: GoogleBigqueryJobExtractSourceTable
 
 source_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_table GoogleBigqueryJob#source_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_table GoogleBigqueryJob#source_table}
 
 ---
 
@@ -2781,7 +2855,7 @@ use_avro_logical_types: bool | IResolvable
 
 Whether to use logical types when extracting to AVRO format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_avro_logical_types GoogleBigqueryJob#use_avro_logical_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_avro_logical_types GoogleBigqueryJob#use_avro_logical_types}
 
 ---
 
@@ -2819,7 +2893,7 @@ dataset_id: str
 
 The ID of the dataset containing this model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -2833,7 +2907,7 @@ model_id: str
 
 The ID of the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#model_id GoogleBigqueryJob#model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#model_id GoogleBigqueryJob#model_id}
 
 ---
 
@@ -2847,7 +2921,7 @@ project_id: str
 
 The ID of the project containing this model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -2885,7 +2959,7 @@ table_id: str
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -2899,7 +2973,7 @@ dataset_id: str
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -2913,7 +2987,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -2987,7 +3061,7 @@ destination_table: GoogleBigqueryJobLoadDestinationTable
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -3007,7 +3081,7 @@ to external data sources. For Google Cloud Bigtable URIs: Exactly one URI can be
 specified and it has be a fully specified and valid HTTPS URL for a Google Cloud Bigtable table.
 For Google Cloud Datastore backups: Exactly one URI can be specified. Also, the '*' wildcard character is not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_uris GoogleBigqueryJob#source_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_uris GoogleBigqueryJob#source_uris}
 
 ---
 
@@ -3025,7 +3099,7 @@ The missing values are treated as nulls.
 If false, records with missing trailing columns are treated as bad records, and if there are too many bad records,
 an invalid error is returned in the job result. The default value is false. Only applicable to CSV, ignored for other formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_jagged_rows GoogleBigqueryJob#allow_jagged_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_jagged_rows GoogleBigqueryJob#allow_jagged_rows}
 
 ---
 
@@ -3041,7 +3115,7 @@ Indicates if BigQuery should allow quoted data sections that contain newline cha
 
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_quoted_newlines GoogleBigqueryJob#allow_quoted_newlines}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_quoted_newlines GoogleBigqueryJob#allow_quoted_newlines}
 
 ---
 
@@ -3055,7 +3129,7 @@ autodetect: bool | IResolvable
 
 Indicates if we should automatically infer the options and schema for CSV and JSON sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#autodetect GoogleBigqueryJob#autodetect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#autodetect GoogleBigqueryJob#autodetect}
 
 ---
 
@@ -3074,7 +3148,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -3088,7 +3162,7 @@ destination_encryption_configuration: GoogleBigqueryJobLoadDestinationEncryption
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -3106,7 +3180,7 @@ The supported values are UTF-8 or ISO-8859-1.
 The default value is UTF-8. BigQuery decodes the data after the raw, binary data
 has been split using the values of the quote and fieldDelimiter properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#encoding GoogleBigqueryJob#encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#encoding GoogleBigqueryJob#encoding}
 
 ---
 
@@ -3126,7 +3200,7 @@ the string to ISO-8859-1 encoding, and then uses the first byte of the encoded s
 data in its raw, binary state. BigQuery also supports the escape sequence "\t" to specify a tab separator.
 The default value is a comma (',').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field_delimiter GoogleBigqueryJob#field_delimiter}
 
 ---
 
@@ -3146,7 +3220,7 @@ The default value is false. The sourceFormat property determines what BigQuery t
 CSV: Trailing columns
 JSON: Named values that don't match any column names
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#ignore_unknown_values GoogleBigqueryJob#ignore_unknown_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#ignore_unknown_values GoogleBigqueryJob#ignore_unknown_values}
 
 ---
 
@@ -3163,7 +3237,7 @@ If sourceFormat is set to newline-delimited JSON, indicates whether it should be
 For a sourceFormat other than JSON, omit this field. If the sourceFormat is newline-delimited JSON: - for newline-delimited
 GeoJSON: set to GEOJSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#json_extension GoogleBigqueryJob#json_extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#json_extension GoogleBigqueryJob#json_extension}
 
 ---
 
@@ -3180,7 +3254,7 @@ The maximum number of bad records that BigQuery can ignore when running the job.
 If the number of bad records exceeds this value,
 an invalid error is returned in the job result. The default value is 0, which requires that all records are valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#max_bad_records GoogleBigqueryJob#max_bad_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#max_bad_records GoogleBigqueryJob#max_bad_records}
 
 ---
 
@@ -3199,7 +3273,7 @@ when loading a CSV file. The default value is the empty string. If you set this 
 empty string is present for all data types except for STRING and BYTE. For STRING and BYTE columns, BigQuery interprets the empty string as
 an empty value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#null_marker GoogleBigqueryJob#null_marker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#null_marker GoogleBigqueryJob#null_marker}
 
 ---
 
@@ -3213,7 +3287,7 @@ parquet_options: GoogleBigqueryJobLoadParquetOptions
 
 parquet_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#parquet_options GoogleBigqueryJob#parquet_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#parquet_options GoogleBigqueryJob#parquet_options}
 
 ---
 
@@ -3230,7 +3304,7 @@ If sourceFormat is set to "DATASTORE_BACKUP", indicates which entity properties 
 Property names are case sensitive and must be top-level properties. If no properties are specified, BigQuery loads all properties.
 If any named property isn't found in the Cloud Datastore backup, an invalid error is returned in the job result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#projection_fields GoogleBigqueryJob#projection_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#projection_fields GoogleBigqueryJob#projection_fields}
 
 ---
 
@@ -3249,7 +3323,7 @@ and then uses the first byte of the encoded string to split the data in its raw,
 The default value is a double-quote ('"'). If your data does not contain quoted sections, set the property value to an empty string.
 If your data contains quoted newline characters, you must also set the allowQuotedNewlines property to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#quote GoogleBigqueryJob#quote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#quote GoogleBigqueryJob#quote}
 
 ---
 
@@ -3269,7 +3343,7 @@ For normal tables, WRITE_TRUNCATE will always overwrite the schema. One or more 
 ALLOW_FIELD_ADDITION: allow adding a nullable field to the schema.
 ALLOW_FIELD_RELAXATION: allow relaxing a required field in the original schema to nullable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
 
 ---
 
@@ -3291,7 +3365,7 @@ skipLeadingRows is 0 - Instructs autodetect that there are no headers and data s
 skipLeadingRows = N > 0 - Autodetect skips N-1 rows and tries to detect headers in row N. If headers are not detected,
 row N is just skipped. Otherwise row N is used to extract column names for the detected schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#skip_leading_rows GoogleBigqueryJob#skip_leading_rows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#skip_leading_rows GoogleBigqueryJob#skip_leading_rows}
 
 ---
 
@@ -3310,7 +3384,7 @@ For newline-delimited JSON, specify "NEWLINE_DELIMITED_JSON". For Avro, specify 
 For orc, specify "ORC". [Beta] For Bigtable, specify "BIGTABLE".
 The default value is CSV.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_format GoogleBigqueryJob#source_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#source_format GoogleBigqueryJob#source_format}
 
 ---
 
@@ -3324,7 +3398,7 @@ time_partitioning: GoogleBigqueryJobLoadTimePartitioning
 
 time_partitioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#time_partitioning GoogleBigqueryJob#time_partitioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#time_partitioning GoogleBigqueryJob#time_partitioning}
 
 ---
 
@@ -3345,7 +3419,7 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
 
 ---
 
@@ -3381,7 +3455,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -3419,7 +3493,7 @@ table_id: str
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -3433,7 +3507,7 @@ dataset_id: str
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -3447,7 +3521,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -3483,7 +3557,7 @@ enable_list_inference: bool | IResolvable
 
 If sourceFormat is set to PARQUET, indicates whether to use schema inference specifically for Parquet LIST logical type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enable_list_inference GoogleBigqueryJob#enable_list_inference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#enable_list_inference GoogleBigqueryJob#enable_list_inference}
 
 ---
 
@@ -3497,7 +3571,7 @@ enum_as_string: bool | IResolvable
 
 If sourceFormat is set to PARQUET, indicates whether to infer Parquet ENUM logical type as STRING instead of BYTES by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enum_as_string GoogleBigqueryJob#enum_as_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#enum_as_string GoogleBigqueryJob#enum_as_string}
 
 ---
 
@@ -3538,7 +3612,7 @@ The only type supported is DAY, which will generate one partition per day.
 Providing an empty string used to cause an error,
 but in OnePlatform the field will be treated as unset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#type GoogleBigqueryJob#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#type GoogleBigqueryJob#type}
 
 ---
 
@@ -3554,7 +3628,7 @@ Number of milliseconds for which to keep the storage for a partition.
 
 A wrapper is used here because 0 is an invalid value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#expiration_ms GoogleBigqueryJob#expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#expiration_ms GoogleBigqueryJob#expiration_ms}
 
 ---
 
@@ -3572,7 +3646,7 @@ if set, the table is partitioned by this field.
 The field must be a top-level TIMESTAMP or DATE field. Its mode must be NULLABLE or REQUIRED.
 A wrapper is used here because an empty string is an invalid value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field GoogleBigqueryJob#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field GoogleBigqueryJob#field}
 
 ---
 
@@ -3586,6 +3660,7 @@ from cdktn_provider_google_beta import google_bigquery_job
 googleBigqueryJob.GoogleBigqueryJobQuery(
   query: str,
   allow_large_results: bool | IResolvable = None,
+  connection_properties: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties] = None,
   continuous: bool | IResolvable = None,
   create_disposition: str = None,
   default_dataset: GoogleBigqueryJobQueryDefaultDataset = None,
@@ -3611,6 +3686,7 @@ googleBigqueryJob.GoogleBigqueryJobQuery(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.query">query</a></code> | <code>str</code> | SQL query text to execute. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.allowLargeResults">allow_large_results</a></code> | <code>bool \| cdktn.IResolvable</code> | If true and query uses legacy SQL dialect, allows the query to produce arbitrarily large result tables at a slight cost in performance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.connectionProperties">connection_properties</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]</code> | connection_properties block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.continuous">continuous</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether to run the query as continuous or a regular query. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.createDisposition">create_disposition</a></code> | <code>str</code> | Specifies whether the job is allowed to create new tables. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.defaultDataset">default_dataset</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset">GoogleBigqueryJobQueryDefaultDataset</a></code> | default_dataset block. |
@@ -3644,7 +3720,7 @@ The useLegacySql field can be used to indicate whether the query uses legacy SQL
 *NOTE*: queries containing [DML language](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-manipulation-language)
 ('DELETE', 'UPDATE', 'MERGE', 'INSERT') must specify 'create_disposition = ""' and 'write_disposition = ""'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#query GoogleBigqueryJob#query}
 
 ---
 
@@ -3661,7 +3737,21 @@ If true and query uses legacy SQL dialect, allows the query to produce arbitrari
 Requires destinationTable to be set. For standard SQL queries, this flag is ignored and large results are always allowed.
 However, you must still set destinationTable when result size exceeds the allowed maximum response size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_large_results GoogleBigqueryJob#allow_large_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#allow_large_results GoogleBigqueryJob#allow_large_results}
+
+---
+
+##### `connection_properties`<sup>Optional</sup> <a name="connection_properties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery.property.connectionProperties"></a>
+
+```python
+connection_properties: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]
+
+connection_properties block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#connection_properties GoogleBigqueryJob#connection_properties}
 
 ---
 
@@ -3675,7 +3765,7 @@ continuous: bool | IResolvable
 
 Whether to run the query as continuous or a regular query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#continuous GoogleBigqueryJob#continuous}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#continuous GoogleBigqueryJob#continuous}
 
 ---
 
@@ -3694,7 +3784,7 @@ CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
 CREATE_NEVER: The table must already exist. If it does not, a 'notFound' error is returned in the job result.
 Creation, truncation and append actions occur as one atomic update upon job completion Default value: "CREATE_IF_NEEDED" Possible values: ["CREATE_IF_NEEDED", "CREATE_NEVER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create_disposition GoogleBigqueryJob#create_disposition}
 
 ---
 
@@ -3708,7 +3798,7 @@ default_dataset: GoogleBigqueryJobQueryDefaultDataset
 
 default_dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#default_dataset GoogleBigqueryJob#default_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#default_dataset GoogleBigqueryJob#default_dataset}
 
 ---
 
@@ -3722,7 +3812,7 @@ destination_encryption_configuration: GoogleBigqueryJobQueryDestinationEncryptio
 
 destination_encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_encryption_configuration GoogleBigqueryJob#destination_encryption_configuration}
 
 ---
 
@@ -3736,7 +3826,7 @@ destination_table: GoogleBigqueryJobQueryDestinationTable
 
 destination_table block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#destination_table GoogleBigqueryJob#destination_table}
 
 ---
 
@@ -3752,7 +3842,7 @@ If true and query uses legacy SQL dialect, flattens all nested and repeated fiel
 
 allowLargeResults must be true if this is set to false. For standard SQL queries, this flag is ignored and results are never flattened.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#flatten_results GoogleBigqueryJob#flatten_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#flatten_results GoogleBigqueryJob#flatten_results}
 
 ---
 
@@ -3769,7 +3859,7 @@ Limits the billing tier for this job.
 Queries that have resource usage beyond this tier will fail (without incurring a charge).
 If unspecified, this will be set to your project default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#maximum_billing_tier GoogleBigqueryJob#maximum_billing_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#maximum_billing_tier GoogleBigqueryJob#maximum_billing_tier}
 
 ---
 
@@ -3786,7 +3876,7 @@ Limits the bytes billed for this job.
 Queries that will have bytes billed beyond this limit will fail (without incurring a charge).
 If unspecified, this will be set to your project default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#maximum_bytes_billed GoogleBigqueryJob#maximum_bytes_billed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#maximum_bytes_billed GoogleBigqueryJob#maximum_bytes_billed}
 
 ---
 
@@ -3802,7 +3892,7 @@ Standard SQL only.
 
 Set to POSITIONAL to use positional (?) query parameters or to NAMED to use named (@myparam) query parameters in this query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#parameter_mode GoogleBigqueryJob#parameter_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#parameter_mode GoogleBigqueryJob#parameter_mode}
 
 ---
 
@@ -3816,7 +3906,7 @@ priority: str
 
 Specifies a priority for the query. Default value: "INTERACTIVE" Possible values: ["INTERACTIVE", "BATCH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#priority GoogleBigqueryJob#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#priority GoogleBigqueryJob#priority}
 
 ---
 
@@ -3837,7 +3927,7 @@ One or more of the following values are specified:
 ALLOW_FIELD_ADDITION: allow adding a nullable field to the schema.
 ALLOW_FIELD_RELAXATION: allow relaxing a required field in the original schema to nullable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#schema_update_options GoogleBigqueryJob#schema_update_options}
 
 ---
 
@@ -3851,7 +3941,7 @@ script_options: GoogleBigqueryJobQueryScriptOptions
 
 script_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#script_options GoogleBigqueryJob#script_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#script_options GoogleBigqueryJob#script_options}
 
 ---
 
@@ -3868,7 +3958,7 @@ Specifies whether to use BigQuery's legacy SQL dialect for this query.
 The default value is true.
 If set to false, the query will use BigQuery's standard SQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_legacy_sql GoogleBigqueryJob#use_legacy_sql}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_legacy_sql GoogleBigqueryJob#use_legacy_sql}
 
 ---
 
@@ -3886,7 +3976,7 @@ The query cache is a best-effort cache that will be flushed whenever
 tables in the query are modified. Moreover, the query cache is only available when a query does not have a destination table specified.
 The default value is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_query_cache GoogleBigqueryJob#use_query_cache}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#use_query_cache GoogleBigqueryJob#use_query_cache}
 
 ---
 
@@ -3900,7 +3990,7 @@ user_defined_function_resources: IResolvable | typing.List[GoogleBigqueryJobQuer
 
 user_defined_function_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#user_defined_function_resources GoogleBigqueryJob#user_defined_function_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#user_defined_function_resources GoogleBigqueryJob#user_defined_function_resources}
 
 ---
 
@@ -3921,7 +4011,65 @@ WRITE_EMPTY: If the table already exists and contains data, a 'duplicate' error 
 Each action is atomic and only occurs if BigQuery is able to complete the job successfully.
 Creation, truncation and append actions occur as one atomic update upon job completion. Default value: "WRITE_EMPTY" Possible values: ["WRITE_TRUNCATE", "WRITE_APPEND", "WRITE_EMPTY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#write_disposition GoogleBigqueryJob#write_disposition}
+
+---
+
+### GoogleBigqueryJobQueryConnectionProperties <a name="GoogleBigqueryJobQueryConnectionProperties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_bigquery_job
+
+googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties(
+  key: str,
+  value: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties.property.key">key</a></code> | <code>str</code> | The key of the property to set. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties.property.value">value</a></code> | <code>str</code> | The value of the property to set. |
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+The key of the property to set.
+
+Currently supported connection properties:
+
+* 'dataset_project_id': represents the default project for datasets that are used in the query
+* 'time_zone': represents the default timezone used to run the query
+* 'session_id': associates the query with a given session
+* 'query_label': associates the query with a given job label
+* 'service_account': indicates the service account to use to run a continuous query
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#key GoogleBigqueryJob#key}
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+The value of the property to set.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#value GoogleBigqueryJob#value}
 
 ---
 
@@ -3957,7 +4105,7 @@ dataset_id: str
 
 The dataset. Can be specified '{{dataset_id}}' if 'project_id' is also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -3971,7 +4119,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -4007,7 +4155,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -4045,7 +4193,7 @@ table_id: str
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -4059,7 +4207,7 @@ dataset_id: str
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -4073,7 +4221,7 @@ project_id: str
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -4113,7 +4261,7 @@ Determines which statement in the script represents the "key result", used to po
 
 Possible values: ["LAST", "FIRST_SELECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#key_result_statement GoogleBigqueryJob#key_result_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#key_result_statement GoogleBigqueryJob#key_result_statement}
 
 ---
 
@@ -4127,7 +4275,7 @@ statement_byte_budget: str
 
 Limit on the number of bytes billed per statement. Exceeding this budget results in an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#statement_byte_budget GoogleBigqueryJob#statement_byte_budget}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#statement_byte_budget GoogleBigqueryJob#statement_byte_budget}
 
 ---
 
@@ -4141,7 +4289,7 @@ statement_timeout_ms: str
 
 Timeout period for each statement in a script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#statement_timeout_ms GoogleBigqueryJob#statement_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#statement_timeout_ms GoogleBigqueryJob#statement_timeout_ms}
 
 ---
 
@@ -4179,7 +4327,7 @@ An inline resource that contains code for a user-defined function (UDF).
 
 Providing a inline code resource is equivalent to providing a URI for a file containing the same code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#inline_code GoogleBigqueryJob#inline_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#inline_code GoogleBigqueryJob#inline_code}
 
 ---
 
@@ -4193,7 +4341,7 @@ resource_uri: str
 
 A code resource to load from a Google Cloud Storage URI (gs://bucket/path).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#resource_uri GoogleBigqueryJob#resource_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#resource_uri GoogleBigqueryJob#resource_uri}
 
 ---
 
@@ -4248,9 +4396,9 @@ googleBigqueryJob.GoogleBigqueryJobTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}. |
 
 ---
 
@@ -4262,7 +4410,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#create GoogleBigqueryJob#create}.
 
 ---
 
@@ -4274,7 +4422,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#delete GoogleBigqueryJob#delete}.
 
 ---
 
@@ -4286,7 +4434,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#update GoogleBigqueryJob#update}.
 
 ---
 
@@ -5204,7 +5352,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -5224,7 +5372,7 @@ def put_destination_table(
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -5234,7 +5382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -5244,7 +5392,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -6239,7 +6387,7 @@ def put_source_model(
 
 The ID of the dataset containing this model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -6249,7 +6397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#model_id GoogleBigqueryJob#model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#model_id GoogleBigqueryJob#model_id}
 
 ---
 
@@ -6259,7 +6407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -6279,7 +6427,7 @@ def put_source_table(
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -6289,7 +6437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -6299,7 +6447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -8189,7 +8337,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -8209,7 +8357,7 @@ def put_destination_table(
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -8219,7 +8367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -8229,7 +8377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -8248,7 +8396,7 @@ def put_parquet_options(
 
 If sourceFormat is set to PARQUET, indicates whether to use schema inference specifically for Parquet LIST logical type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enable_list_inference GoogleBigqueryJob#enable_list_inference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#enable_list_inference GoogleBigqueryJob#enable_list_inference}
 
 ---
 
@@ -8258,7 +8406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If sourceFormat is set to PARQUET, indicates whether to infer Parquet ENUM logical type as STRING instead of BYTES by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enum_as_string GoogleBigqueryJob#enum_as_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#enum_as_string GoogleBigqueryJob#enum_as_string}
 
 ---
 
@@ -8281,7 +8429,7 @@ The only type supported is DAY, which will generate one partition per day.
 Providing an empty string used to cause an error,
 but in OnePlatform the field will be treated as unset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#type GoogleBigqueryJob#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#type GoogleBigqueryJob#type}
 
 ---
 
@@ -8293,7 +8441,7 @@ Number of milliseconds for which to keep the storage for a partition.
 
 A wrapper is used here because 0 is an invalid value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#expiration_ms GoogleBigqueryJob#expiration_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#expiration_ms GoogleBigqueryJob#expiration_ms}
 
 ---
 
@@ -8307,7 +8455,7 @@ if set, the table is partitioned by this field.
 The field must be a top-level TIMESTAMP or DATE field. Its mode must be NULLABLE or REQUIRED.
 A wrapper is used here because an empty string is an invalid value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#field GoogleBigqueryJob#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#field GoogleBigqueryJob#field}
 
 ---
 
@@ -9619,6 +9767,514 @@ internal_value: GoogleBigqueryJobLoadTimePartitioning
 ---
 
 
+### GoogleBigqueryJobQueryConnectionPropertiesList <a name="GoogleBigqueryJobQueryConnectionPropertiesList" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_bigquery_job
+
+googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleBigqueryJobQueryConnectionPropertiesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]
+
+---
+
+
+### GoogleBigqueryJobQueryConnectionPropertiesOutputReference <a name="GoogleBigqueryJobQueryConnectionPropertiesOutputReference" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_bigquery_job
+
+googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleBigqueryJobQueryConnectionProperties
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>
+
+---
+
+
 ### GoogleBigqueryJobQueryDefaultDatasetOutputReference <a name="GoogleBigqueryJobQueryDefaultDatasetOutputReference" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference.Initializer"></a>
@@ -10658,12 +11314,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putConnectionProperties">put_connection_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putDefaultDataset">put_default_dataset</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putDestinationEncryptionConfiguration">put_destination_encryption_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putDestinationTable">put_destination_table</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putScriptOptions">put_script_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putUserDefinedFunctionResources">put_user_defined_function_resources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetAllowLargeResults">reset_allow_large_results</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetConnectionProperties">reset_connection_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetContinuous">reset_continuous</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetCreateDisposition">reset_create_disposition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetDefaultDataset">reset_default_dataset</a></code> | *No description.* |
@@ -10855,6 +11513,20 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_connection_properties` <a name="put_connection_properties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putConnectionProperties"></a>
+
+```python
+def put_connection_properties(
+  value: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putConnectionProperties.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]
+
+---
+
 ##### `put_default_dataset` <a name="put_default_dataset" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.putDefaultDataset"></a>
 
 ```python
@@ -10870,7 +11542,7 @@ def put_default_dataset(
 
 The dataset. Can be specified '{{dataset_id}}' if 'project_id' is also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -10880,7 +11552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -10900,7 +11572,7 @@ Describes the Cloud KMS encryption key that will be used to protect destination 
 
 The BigQuery Service Account associated with your project requires access to this encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#kms_key_name GoogleBigqueryJob#kms_key_name}
 
 ---
 
@@ -10920,7 +11592,7 @@ def put_destination_table(
 
 The table. Can be specified '{{table_id}}' if 'project_id' and 'dataset_id' are also set, or of the form 'projects/{{project}}/datasets/{{dataset_id}}/tables/{{table_id}}' if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#table_id GoogleBigqueryJob#table_id}
 
 ---
 
@@ -10930,7 +11602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the dataset containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#dataset_id GoogleBigqueryJob#dataset_id}
 
 ---
 
@@ -10940,7 +11612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the project containing this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#project_id GoogleBigqueryJob#project_id}
 
 ---
 
@@ -10962,7 +11634,7 @@ Determines which statement in the script represents the "key result", used to po
 
 Possible values: ["LAST", "FIRST_SELECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#key_result_statement GoogleBigqueryJob#key_result_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#key_result_statement GoogleBigqueryJob#key_result_statement}
 
 ---
 
@@ -10972,7 +11644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Limit on the number of bytes billed per statement. Exceeding this budget results in an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#statement_byte_budget GoogleBigqueryJob#statement_byte_budget}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#statement_byte_budget GoogleBigqueryJob#statement_byte_budget}
 
 ---
 
@@ -10982,7 +11654,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Timeout period for each statement in a script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#statement_timeout_ms GoogleBigqueryJob#statement_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job#statement_timeout_ms GoogleBigqueryJob#statement_timeout_ms}
 
 ---
 
@@ -11004,6 +11676,12 @@ def put_user_defined_function_resources(
 
 ```python
 def reset_allow_large_results() -> None
+```
+
+##### `reset_connection_properties` <a name="reset_connection_properties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetConnectionProperties"></a>
+
+```python
+def reset_connection_properties() -> None
 ```
 
 ##### `reset_continuous` <a name="reset_continuous" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.resetContinuous"></a>
@@ -11109,12 +11787,14 @@ def reset_write_disposition() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.connectionProperties">connection_properties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList">GoogleBigqueryJobQueryConnectionPropertiesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.defaultDataset">default_dataset</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference">GoogleBigqueryJobQueryDefaultDatasetOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.destinationEncryptionConfiguration">destination_encryption_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference">GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.destinationTable">destination_table</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTableOutputReference">GoogleBigqueryJobQueryDestinationTableOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.scriptOptions">script_options</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptionsOutputReference">GoogleBigqueryJobQueryScriptOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.userDefinedFunctionResources">user_defined_function_resources</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesList">GoogleBigqueryJobQueryUserDefinedFunctionResourcesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.allowLargeResultsInput">allow_large_results_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.connectionPropertiesInput">connection_properties_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.continuousInput">continuous_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.createDispositionInput">create_disposition_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.defaultDatasetInput">default_dataset_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset">GoogleBigqueryJobQueryDefaultDataset</a></code> | *No description.* |
@@ -11170,6 +11850,16 @@ fqn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `connection_properties`<sup>Required</sup> <a name="connection_properties" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.connectionProperties"></a>
+
+```python
+connection_properties: GoogleBigqueryJobQueryConnectionPropertiesList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionPropertiesList">GoogleBigqueryJobQueryConnectionPropertiesList</a>
 
 ---
 
@@ -11230,6 +11920,16 @@ allow_large_results_input: bool | IResolvable
 ```
 
 - *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `connection_properties_input`<sup>Optional</sup> <a name="connection_properties_input" id="@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference.property.connectionPropertiesInput"></a>
+
+```python
+connection_properties_input: IResolvable | typing.List[GoogleBigqueryJobQueryConnectionProperties]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryConnectionProperties">GoogleBigqueryJobQueryConnectionProperties</a>]
 
 ---
 

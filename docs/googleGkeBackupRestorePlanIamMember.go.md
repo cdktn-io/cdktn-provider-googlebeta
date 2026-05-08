@@ -4,12 +4,12 @@
 
 ### GoogleGkeBackupRestorePlanIamMember <a name="GoogleGkeBackupRestorePlanIamMember" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member google_gke_backup_restore_plan_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member google_gke_backup_restore_plan_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.NewGoogleGkeBackupRestorePlanIamMember(scope Construct, id *string, config GoogleGkeBackupRestorePlanIamMemberConfig) GoogleGkeBackupRestorePlanIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleGkeBackupRestorePlan
 
 The id of the existing GoogleGkeBackupRestorePlanIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 &googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#expression GoogleGkeBackupRestorePlanIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#title GoogleGkeBackupRestorePlanIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#description GoogleGkeBackupRestorePlanIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#expression GoogleGkeBackupRestorePlanIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#title GoogleGkeBackupRestorePlanIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#description GoogleGkeBackupRestorePlanIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#expression GoogleGkeBackupRestorePlanIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#expression GoogleGkeBackupRestorePlanIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#title GoogleGkeBackupRestorePlanIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#title GoogleGkeBackupRestorePlanIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#description GoogleGkeBackupRestorePlanIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#description GoogleGkeBackupRestorePlanIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 &googlegkebackuprestoreplaniammember.GoogleGkeBackupRestorePlanIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 	Member: *string,
 	Name: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#member GoogleGkeBackupRestorePlanIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#name GoogleGkeBackupRestorePlanIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#role GoogleGkeBackupRestorePlanIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#member GoogleGkeBackupRestorePlanIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#name GoogleGkeBackupRestorePlanIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#role GoogleGkeBackupRestorePlanIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberCondition">GoogleGkeBackupRestorePlanIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#id GoogleGkeBackupRestorePlanIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#location GoogleGkeBackupRestorePlanIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#project GoogleGkeBackupRestorePlanIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#id GoogleGkeBackupRestorePlanIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#location GoogleGkeBackupRestorePlanIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#project GoogleGkeBackupRestorePlanIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#member GoogleGkeBackupRestorePlanIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#member GoogleGkeBackupRestorePlanIamMember#member}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#name GoogleGkeBackupRestorePlanIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#name GoogleGkeBackupRestorePlanIamMember#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#role GoogleGkeBackupRestorePlanIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#role GoogleGkeBackupRestorePlanIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleGkeBackupRestorePlanIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#condition GoogleGkeBackupRestorePlanIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#condition GoogleGkeBackupRestorePlanIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#id GoogleGkeBackupRestorePlanIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#id GoogleGkeBackupRestorePlanIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#location GoogleGkeBackupRestorePlanIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#location GoogleGkeBackupRestorePlanIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_restore_plan_iam_member#project GoogleGkeBackupRestorePlanIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_restore_plan_iam_member#project GoogleGkeBackupRestorePlanIamMember#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeBackupRestorePlanIamMember.GoogleGkeBackupRestorePlanIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackuprestoreplaniammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackuprestoreplaniammember"
 
 googlegkebackuprestoreplaniammember.NewGoogleGkeBackupRestorePlanIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeBackupRestorePlanIamMemberConditionOutputReference
 ```

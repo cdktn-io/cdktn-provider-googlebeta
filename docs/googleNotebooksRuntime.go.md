@@ -4,12 +4,12 @@
 
 ### GoogleNotebooksRuntime <a name="GoogleNotebooksRuntime" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntime(scope Construct, id *string, config GoogleNotebooksRuntimeConfig) GoogleNotebooksRuntime
 ```
@@ -501,7 +501,7 @@ func ResetVirtualMachine()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.GoogleNotebooksRuntime_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.GoogleNotebooksRuntime_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlenotebooksruntime.GoogleNotebooksRuntime_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.GoogleNotebooksRuntime_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlenotebooksruntime.GoogleNotebooksRuntime_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntime.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.GoogleNotebooksRuntime_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the GoogleNotebooksRuntime to 
 
 The id of the existing GoogleNotebooksRuntime that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1043,7 +1043,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeAccessConfig {
 	AccessType: *string,
@@ -1070,7 +1070,7 @@ AccessType *string
 
 The type of access mode this instance. For valid values, see 'https://cloud.google.com/vertex-ai/docs/workbench/reference/ rest/v1/projects.locations.runtimes#RuntimeAccessType'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#access_type GoogleNotebooksRuntime#access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#access_type GoogleNotebooksRuntime#access_type}
 
 ---
 
@@ -1084,7 +1084,7 @@ RuntimeOwner *string
 
 The owner of this runtime after creation. Format: 'alias@example.com'. Currently supports one owner only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#runtime_owner GoogleNotebooksRuntime#runtime_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#runtime_owner GoogleNotebooksRuntime#runtime_owner}
 
 ---
 
@@ -1093,7 +1093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeConfig {
 	Connection: interface{},
@@ -1105,13 +1105,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleno
 	Provisioners: *[]interface{},
 	Location: *string,
 	Name: *string,
-	AccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeAccessConfig,
+	AccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeAccessConfig,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts,
-	VirtualMachine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachine,
+	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts,
+	VirtualMachine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachine,
 }
 ```
 
@@ -1129,9 +1129,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleno
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.location">Location</a></code> | <code>*string</code> | A reference to the zone where the machine resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.name">Name</a></code> | <code>*string</code> | The name specified for the Notebook runtime. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.accessConfig">AccessConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeAccessConfig">GoogleNotebooksRuntimeAccessConfig</a></code> | access_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The labels to associate with this runtime. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.softwareConfig">SoftwareConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfig">GoogleNotebooksRuntimeSoftwareConfig</a></code> | software_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts">GoogleNotebooksRuntimeTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeConfig.property.virtualMachine">VirtualMachine</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachine">GoogleNotebooksRuntimeVirtualMachine</a></code> | virtual_machine block. |
@@ -1218,7 +1218,7 @@ Location *string
 
 A reference to the zone where the machine resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#location GoogleNotebooksRuntime#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#location GoogleNotebooksRuntime#location}
 
 ---
 
@@ -1232,7 +1232,7 @@ Name *string
 
 The name specified for the Notebook runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#name GoogleNotebooksRuntime#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#name GoogleNotebooksRuntime#name}
 
 ---
 
@@ -1246,7 +1246,7 @@ AccessConfig GoogleNotebooksRuntimeAccessConfig
 
 access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#access_config GoogleNotebooksRuntime#access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#access_config GoogleNotebooksRuntime#access_config}
 
 ---
 
@@ -1258,7 +1258,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1285,7 +1285,7 @@ more than 32 labels can be associated with a cluster.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
 
 ---
 
@@ -1297,7 +1297,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}.
 
 ---
 
@@ -1311,7 +1311,7 @@ SoftwareConfig GoogleNotebooksRuntimeSoftwareConfig
 
 software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#software_config GoogleNotebooksRuntime#software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#software_config GoogleNotebooksRuntime#software_config}
 
 ---
 
@@ -1325,7 +1325,7 @@ Timeouts GoogleNotebooksRuntimeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#timeouts GoogleNotebooksRuntime#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#timeouts GoogleNotebooksRuntime#timeouts}
 
 ---
 
@@ -1339,7 +1339,7 @@ VirtualMachine GoogleNotebooksRuntimeVirtualMachine
 
 virtual_machine block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#virtual_machine GoogleNotebooksRuntime#virtual_machine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#virtual_machine GoogleNotebooksRuntime#virtual_machine}
 
 ---
 
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeMetrics {
 
@@ -1361,7 +1361,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleno
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeSoftwareConfig {
 	CustomGpuDriverPath: *string,
@@ -1404,7 +1404,7 @@ Specify a custom Cloud Storage path where the GPU driver is stored.
 
 If not specified, we'll automatically choose from official GPU drivers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#custom_gpu_driver_path GoogleNotebooksRuntime#custom_gpu_driver_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#custom_gpu_driver_path GoogleNotebooksRuntime#custom_gpu_driver_path}
 
 ---
 
@@ -1418,7 +1418,7 @@ EnableHealthMonitoring interface{}
 
 Verifies core internal services are running. Default: True.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#enable_health_monitoring GoogleNotebooksRuntime#enable_health_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#enable_health_monitoring GoogleNotebooksRuntime#enable_health_monitoring}
 
 ---
 
@@ -1432,7 +1432,7 @@ IdleShutdown interface{}
 
 Runtime will automatically shutdown after idle_shutdown_time. Default: True.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#idle_shutdown GoogleNotebooksRuntime#idle_shutdown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#idle_shutdown GoogleNotebooksRuntime#idle_shutdown}
 
 ---
 
@@ -1446,7 +1446,7 @@ IdleShutdownTimeout *f64
 
 Time in minutes to wait before shuting down runtime. Default: 180 minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#idle_shutdown_timeout GoogleNotebooksRuntime#idle_shutdown_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#idle_shutdown_timeout GoogleNotebooksRuntime#idle_shutdown_timeout}
 
 ---
 
@@ -1460,7 +1460,7 @@ InstallGpuDriver interface{}
 
 Install Nvidia Driver automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#install_gpu_driver GoogleNotebooksRuntime#install_gpu_driver}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#install_gpu_driver GoogleNotebooksRuntime#install_gpu_driver}
 
 ---
 
@@ -1474,7 +1474,7 @@ Kernels interface{}
 
 kernels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#kernels GoogleNotebooksRuntime#kernels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#kernels GoogleNotebooksRuntime#kernels}
 
 ---
 
@@ -1488,7 +1488,7 @@ NotebookUpgradeSchedule *string
 
 Cron expression in UTC timezone for schedule instance auto upgrade. Please follow the [cron format](https://en.wikipedia.org/wiki/Cron).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#notebook_upgrade_schedule GoogleNotebooksRuntime#notebook_upgrade_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#notebook_upgrade_schedule GoogleNotebooksRuntime#notebook_upgrade_schedule}
 
 ---
 
@@ -1505,7 +1505,7 @@ Path to a Bash script that automatically runs after a notebook instance fully bo
 The path must be a URL or
 Cloud Storage path (gs://path-to-file/file-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#post_startup_script GoogleNotebooksRuntime#post_startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#post_startup_script GoogleNotebooksRuntime#post_startup_script}
 
 ---
 
@@ -1519,7 +1519,7 @@ PostStartupScriptBehavior *string
 
 Behavior for the post startup script. Possible values: ["POST_STARTUP_SCRIPT_BEHAVIOR_UNSPECIFIED", "RUN_EVERY_START", "DOWNLOAD_AND_RUN_EVERY_START"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#post_startup_script_behavior GoogleNotebooksRuntime#post_startup_script_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#post_startup_script_behavior GoogleNotebooksRuntime#post_startup_script_behavior}
 
 ---
 
@@ -1528,7 +1528,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfigKernels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeSoftwareConfigKernels {
 	Repository: *string,
@@ -1555,7 +1555,7 @@ Repository *string
 
 The path to the container image repository. For example: gcr.io/{project_id}/{imageName}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
 
 ---
 
@@ -1569,7 +1569,7 @@ Tag *string
 
 The tag of the container image. If not specified, this defaults to the latest tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
 
 ---
 
@@ -1578,7 +1578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeTimeouts {
 	Create: *string,
@@ -1591,9 +1591,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleno
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}. |
 
 ---
 
@@ -1605,7 +1605,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}.
 
 ---
 
@@ -1617,7 +1617,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}.
 
 ---
 
@@ -1629,7 +1629,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}.
 
 ---
 
@@ -1638,10 +1638,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachine.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachine {
-	VirtualMachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig,
+	VirtualMachineConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig,
 }
 ```
 
@@ -1663,7 +1663,7 @@ VirtualMachineConfig GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig
 
 virtual_machine_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#virtual_machine_config GoogleNotebooksRuntime#virtual_machine_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#virtual_machine_config GoogleNotebooksRuntime#virtual_machine_config}
 
 ---
 
@@ -1672,21 +1672,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
-	DataDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk,
+	DataDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk,
 	MachineType: *string,
-	AcceleratorConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig,
+	AcceleratorConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig,
 	ContainerImages: interface{},
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig,
 	InternalIpOnly: interface{},
 	Labels: *map[string]*string,
 	Metadata: *map[string]*string,
 	Network: *string,
 	NicType: *string,
 	ReservedIpRange: *string,
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig,
 	Subnet: *string,
 	Tags: *[]*string,
 }
@@ -1723,7 +1723,7 @@ DataDisk GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk
 
 data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#data_disk GoogleNotebooksRuntime#data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#data_disk GoogleNotebooksRuntime#data_disk}
 
 ---
 
@@ -1737,7 +1737,7 @@ MachineType *string
 
 The Compute Engine machine type used for runtimes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#machine_type GoogleNotebooksRuntime#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#machine_type GoogleNotebooksRuntime#machine_type}
 
 ---
 
@@ -1751,7 +1751,7 @@ AcceleratorConfig GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAccele
 
 accelerator_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#accelerator_config GoogleNotebooksRuntime#accelerator_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#accelerator_config GoogleNotebooksRuntime#accelerator_config}
 
 ---
 
@@ -1765,7 +1765,7 @@ ContainerImages interface{}
 
 container_images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#container_images GoogleNotebooksRuntime#container_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#container_images GoogleNotebooksRuntime#container_images}
 
 ---
 
@@ -1779,7 +1779,7 @@ EncryptionConfig GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncrypt
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#encryption_config GoogleNotebooksRuntime#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#encryption_config GoogleNotebooksRuntime#encryption_config}
 
 ---
 
@@ -1800,7 +1800,7 @@ have ephemeral external IP addresses assigned to each vm. This
 enabled networks, and all dependencies must be configured to be
 accessible without external IP addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#internal_ip_only GoogleNotebooksRuntime#internal_ip_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#internal_ip_only GoogleNotebooksRuntime#internal_ip_only}
 
 ---
 
@@ -1821,7 +1821,7 @@ empty, but, if present, must contain 1 to 63 characters, and must
 conform to [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt). No
 more than 32 labels can be associated with a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
 
 ---
 
@@ -1835,7 +1835,7 @@ Metadata *map[string]*string
 
 The Compute Engine metadata entries to add to virtual machine. (see [Project and instance metadata](https://cloud.google.com /compute/docs/storing-retrieving-metadata#project_and_instance _metadata)).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#metadata GoogleNotebooksRuntime#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#metadata GoogleNotebooksRuntime#metadata}
 
 ---
 
@@ -1864,7 +1864,7 @@ used, if it exists. A full URL or partial URI. Examples:
 * Shared VPC (network & subnet are required). Requires
   configuring Private Service Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#network GoogleNotebooksRuntime#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#network GoogleNotebooksRuntime#network}
 
 ---
 
@@ -1881,7 +1881,7 @@ The type of vNIC to be used on this interface.
 This may be gVNIC
 or VirtioNet. Possible values: ["UNSPECIFIED_NIC_TYPE", "VIRTIO_NET", "GVNIC"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#nic_type GoogleNotebooksRuntime#nic_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#nic_type GoogleNotebooksRuntime#nic_type}
 
 ---
 
@@ -1895,7 +1895,7 @@ ReservedIpRange *string
 
 Reserved IP Range name is used for VPC Peering. The subnetwork allocation will use the range *name* if it's assigned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#reserved_ip_range GoogleNotebooksRuntime#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#reserved_ip_range GoogleNotebooksRuntime#reserved_ip_range}
 
 ---
 
@@ -1909,7 +1909,7 @@ ShieldedInstanceConfig GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigS
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#shielded_instance_config GoogleNotebooksRuntime#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#shielded_instance_config GoogleNotebooksRuntime#shielded_instance_config}
 
 ---
 
@@ -1930,7 +1930,7 @@ partial URI are valid. Examples:
   regions/us-east1/subnetworks/sub0'
 * 'projects/[project_id]/regions/us-east1/subnetworks/sub0'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#subnet GoogleNotebooksRuntime#subnet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#subnet GoogleNotebooksRuntime#subnet}
 
 ---
 
@@ -1944,7 +1944,7 @@ Tags *[]*string
 
 The Compute Engine tags to add to runtime (see [Tagging instances] (https://cloud.google.com/compute/docs/ label-or-tag-resources#tags)).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#tags GoogleNotebooksRuntime#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#tags GoogleNotebooksRuntime#tags}
 
 ---
 
@@ -1953,7 +1953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig {
 	CoreCount: *f64,
@@ -1980,7 +1980,7 @@ CoreCount *f64
 
 Count of cores of this accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#core_count GoogleNotebooksRuntime#core_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#core_count GoogleNotebooksRuntime#core_count}
 
 ---
 
@@ -1994,7 +1994,7 @@ Type *string
 
 Accelerator model. For valid values, see 'https://cloud.google.com/vertex-ai/docs/workbench/reference/ rest/v1/projects.locations.runtimes#AcceleratorType'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
 
 ---
 
@@ -2003,7 +2003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImages {
 	Repository: *string,
@@ -2030,7 +2030,7 @@ Repository *string
 
 The path to the container image repository. For example: gcr.io/{project_id}/{imageName}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
 
 ---
 
@@ -2044,7 +2044,7 @@ Tag *string
 
 The tag of the container image. If not specified, this defaults to the latest tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
 
 ---
 
@@ -2053,10 +2053,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk {
-	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams,
+	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams,
 	Interface: *string,
 	Mode: *string,
 	Source: *string,
@@ -2086,7 +2086,7 @@ InitializeParams GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
 
 initialize_params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#initialize_params GoogleNotebooksRuntime#initialize_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#initialize_params GoogleNotebooksRuntime#initialize_params}
 
 ---
 
@@ -2106,7 +2106,7 @@ to attach a persistent disk in any other format than SCSI. Local SSDs
 can use either NVME or SCSI. For performance characteristics of SCSI
 over NVMe, see Local SSD performance. Valid values: * NVME * SCSI".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#interface GoogleNotebooksRuntime#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#interface GoogleNotebooksRuntime#interface}
 
 ---
 
@@ -2123,7 +2123,7 @@ The mode in which to attach this disk, either READ_WRITE or READ_ONLY.
 If not specified, the default is to attach
 the disk in READ_WRITE mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#mode GoogleNotebooksRuntime#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#mode GoogleNotebooksRuntime#mode}
 
 ---
 
@@ -2137,7 +2137,7 @@ Source *string
 
 Specifies a valid partial or full URL to an existing Persistent Disk resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#source GoogleNotebooksRuntime#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#source GoogleNotebooksRuntime#source}
 
 ---
 
@@ -2151,7 +2151,7 @@ Type *string
 
 Specifies the type of the disk, either SCRATCH or PERSISTENT. If not specified, the default is PERSISTENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
 
 ---
 
@@ -2160,7 +2160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams {
 	Description: *string,
@@ -2193,7 +2193,7 @@ Description *string
 
 Provide this property when creating the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#description GoogleNotebooksRuntime#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#description GoogleNotebooksRuntime#description}
 
 ---
 
@@ -2212,7 +2212,7 @@ to use the name of the instance. If the disk with the
 instance name exists already in the given zone/region, a
 new name will be automatically generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#disk_name GoogleNotebooksRuntime#disk_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#disk_name GoogleNotebooksRuntime#disk_name}
 
 ---
 
@@ -2231,7 +2231,7 @@ specified, the disk will be the same size as the image
 (usually 10GB). If specified, the size must be equal to
 or larger than 10GB. Default 100 GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#disk_size_gb GoogleNotebooksRuntime#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#disk_size_gb GoogleNotebooksRuntime#disk_size_gb}
 
 ---
 
@@ -2245,7 +2245,7 @@ DiskType *string
 
 The type of the boot disk attached to this runtime, defaults to standard persistent disk. For valid values, see 'https://cloud.google.com/vertex-ai/docs/workbench/ reference/rest/v1/projects.locations.runtimes#disktype'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#disk_type GoogleNotebooksRuntime#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#disk_type GoogleNotebooksRuntime#disk_type}
 
 ---
 
@@ -2263,7 +2263,7 @@ These can be later modified
 by the disks.setLabels method. This field is only
 applicable for persistent disks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
 
 ---
 
@@ -2272,7 +2272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig {
 	KmsKey: *string,
@@ -2301,7 +2301,7 @@ It has the following format:
 'projects/{PROJECT_ID}/locations/{REGION}/keyRings/
 {KEY_RING_NAME}/cryptoKeys/{KEY_NAME}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#kms_key GoogleNotebooksRuntime#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#kms_key GoogleNotebooksRuntime#kms_key}
 
 ---
 
@@ -2310,7 +2310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 &googlenotebooksruntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -2345,7 +2345,7 @@ integrity policy baseline. This baseline is initially derived
 from the implicitly trusted boot image when the instance is
 created. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#enable_integrity_monitoring GoogleNotebooksRuntime#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#enable_integrity_monitoring GoogleNotebooksRuntime#enable_integrity_monitoring}
 
 ---
 
@@ -2359,7 +2359,7 @@ EnableSecureBoot interface{}
 
 Defines whether the instance has Secure Boot enabled.Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails. Disabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#enable_secure_boot GoogleNotebooksRuntime#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#enable_secure_boot GoogleNotebooksRuntime#enable_secure_boot}
 
 ---
 
@@ -2373,7 +2373,7 @@ EnableVtpm interface{}
 
 Defines whether the instance has the vTPM enabled. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_notebooks_runtime#enable_vtpm GoogleNotebooksRuntime#enable_vtpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_notebooks_runtime#enable_vtpm GoogleNotebooksRuntime#enable_vtpm}
 
 ---
 
@@ -2384,7 +2384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeAccessConfigOutputReference
 ```
@@ -2702,7 +2702,7 @@ func InternalValue() GoogleNotebooksRuntimeAccessConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNotebooksRuntimeMetricsList
 ```
@@ -2851,7 +2851,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNotebooksRuntimeMetricsOutputReference
 ```
@@ -3129,7 +3129,7 @@ func InternalValue() GoogleNotebooksRuntimeMetrics
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfigKernelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeSoftwareConfigKernelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNotebooksRuntimeSoftwareConfigKernelsList
 ```
@@ -3289,7 +3289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfigKernelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeSoftwareConfigKernelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNotebooksRuntimeSoftwareConfigKernelsOutputReference
 ```
@@ -3607,7 +3607,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeSoftwareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeSoftwareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeSoftwareConfigOutputReference
 ```
@@ -4141,7 +4141,7 @@ func InternalValue() GoogleNotebooksRuntimeSoftwareConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeTimeoutsOutputReference
 ```
@@ -4477,7 +4477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineOutputReference
 ```
@@ -4790,7 +4790,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachine
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference
 ```
@@ -5097,7 +5097,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesList
 ```
@@ -5257,7 +5257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesOutputReference
 ```
@@ -5575,7 +5575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference
 ```
@@ -5969,7 +5969,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference
 ```
@@ -6453,7 +6453,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference
 ```
@@ -6731,7 +6731,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEnc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference
 ```
@@ -7459,7 +7459,7 @@ func InternalValue() GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksRuntime.GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenotebooksruntime"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenotebooksruntime"
 
 googlenotebooksruntime.NewGoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference
 ```

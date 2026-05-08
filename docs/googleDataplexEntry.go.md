@@ -4,12 +4,12 @@
 
 ### GoogleDataplexEntry <a name="GoogleDataplexEntry" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntry(scope Construct, id *string, config GoogleDataplexEntryConfig) GoogleDataplexEntry
 ```
@@ -509,7 +509,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.GoogleDataplexEntry_IsConstruct(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.GoogleDataplexEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googledataplexentry.GoogleDataplexEntry_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.GoogleDataplexEntry_IsTerraformResource(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googledataplexentry.GoogleDataplexEntry_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.GoogleDataplexEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -598,7 +598,7 @@ The construct id used in the generated config for the GoogleDataplexEntry to imp
 
 The id of the existing GoogleDataplexEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1073,10 +1073,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryAspects {
-	Aspect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexEntry.GoogleDataplexEntryAspectsAspect,
+	Aspect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexEntry.GoogleDataplexEntryAspectsAspect,
 	AspectKey: *string,
 }
 ```
@@ -1100,7 +1100,7 @@ Aspect GoogleDataplexEntryAspectsAspect
 
 aspect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#aspect GoogleDataplexEntry#aspect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#aspect GoogleDataplexEntry#aspect}
 
 ---
 
@@ -1117,7 +1117,7 @@ Depending on how the aspect is attached to the entry, the format of the aspect k
 If the aspect is attached directly to the entry: {project_number}.{locationId}.{aspectTypeId}
 If the aspect is attached to an entry's path: {project_number}.{locationId}.{aspectTypeId}@{path}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#aspect_key GoogleDataplexEntry#aspect_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#aspect_key GoogleDataplexEntry#aspect_key}
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspectsAspect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryAspectsAspect {
 	Data: *string,
@@ -1153,7 +1153,7 @@ The content of the aspect in JSON form, according to its aspect type schema.
 
 The maximum size of the field is 120KB (encoded as UTF-8).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#data GoogleDataplexEntry#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#data GoogleDataplexEntry#data}
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryConfig {
 	Connection: interface{},
@@ -1176,13 +1176,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 	Aspects: interface{},
 	EntryGroupId: *string,
 	EntryId: *string,
-	EntrySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexEntry.GoogleDataplexEntryEntrySource,
+	EntrySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexEntry.GoogleDataplexEntryEntrySource,
 	FullyQualifiedName: *string,
 	Id: *string,
 	Location: *string,
 	ParentEntry: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDataplexEntry.GoogleDataplexEntryTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexEntry.GoogleDataplexEntryTimeouts,
 }
 ```
 
@@ -1203,10 +1203,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entryId">EntryId</a></code> | <code>*string</code> | The entry id of the entry. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entrySource">EntrySource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySource">GoogleDataplexEntryEntrySource</a></code> | entry_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.fullyQualifiedName">FullyQualifiedName</a></code> | <code>*string</code> | A name for the entry that can be referenced by an external system. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.location">Location</a></code> | <code>*string</code> | The location where entry will be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.parentEntry">ParentEntry</a></code> | <code>*string</code> | The resource name of the parent entry, in the format projects/{project_number}/locations/{locationId}/entryGroups/{entryGroupId}/entries/{entryId}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts">GoogleDataplexEntryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1291,7 +1291,7 @@ EntryType *string
 
 The relative resource name of the entry type that was used to create this entry, in the format projects/{project_number}/locations/{locationId}/entryTypes/{entryTypeId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#entry_type GoogleDataplexEntry#entry_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#entry_type GoogleDataplexEntry#entry_type}
 
 ---
 
@@ -1305,7 +1305,7 @@ Aspects interface{}
 
 aspects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#aspects GoogleDataplexEntry#aspects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#aspects GoogleDataplexEntry#aspects}
 
 ---
 
@@ -1319,7 +1319,7 @@ EntryGroupId *string
 
 The entry group id of the entry group the entry will be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#entry_group_id GoogleDataplexEntry#entry_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#entry_group_id GoogleDataplexEntry#entry_group_id}
 
 ---
 
@@ -1333,7 +1333,7 @@ EntryId *string
 
 The entry id of the entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#entry_id GoogleDataplexEntry#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#entry_id GoogleDataplexEntry#entry_id}
 
 ---
 
@@ -1347,7 +1347,7 @@ EntrySource GoogleDataplexEntryEntrySource
 
 entry_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#entry_source GoogleDataplexEntry#entry_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#entry_source GoogleDataplexEntry#entry_source}
 
 ---
 
@@ -1364,7 +1364,7 @@ A name for the entry that can be referenced by an external system.
 For more information, see https://cloud.google.com/dataplex/docs/fully-qualified-names.
 The maximum size of the field is 4000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#fully_qualified_name GoogleDataplexEntry#fully_qualified_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#fully_qualified_name GoogleDataplexEntry#fully_qualified_name}
 
 ---
 
@@ -1376,7 +1376,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1393,7 +1393,7 @@ Location *string
 
 The location where entry will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#location GoogleDataplexEntry#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#location GoogleDataplexEntry#location}
 
 ---
 
@@ -1407,7 +1407,7 @@ ParentEntry *string
 
 The resource name of the parent entry, in the format projects/{project_number}/locations/{locationId}/entryGroups/{entryGroupId}/entries/{entryId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#parent_entry GoogleDataplexEntry#parent_entry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#parent_entry GoogleDataplexEntry#parent_entry}
 
 ---
 
@@ -1419,7 +1419,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}.
 
 ---
 
@@ -1433,7 +1433,7 @@ Timeouts GoogleDataplexEntryTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#timeouts GoogleDataplexEntry#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#timeouts GoogleDataplexEntry#timeouts}
 
 ---
 
@@ -1442,7 +1442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryEntrySource {
 	Ancestors: interface{},
@@ -1483,7 +1483,7 @@ Ancestors interface{}
 
 ancestors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#ancestors GoogleDataplexEntry#ancestors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#ancestors GoogleDataplexEntry#ancestors}
 
 ---
 
@@ -1497,7 +1497,7 @@ CreateTime *string
 
 The time when the resource was created in the source system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#create_time GoogleDataplexEntry#create_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#create_time GoogleDataplexEntry#create_time}
 
 ---
 
@@ -1511,7 +1511,7 @@ Description *string
 
 A description of the data resource. Maximum length is 2,000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#description GoogleDataplexEntry#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#description GoogleDataplexEntry#description}
 
 ---
 
@@ -1525,7 +1525,7 @@ DisplayName *string
 
 A user-friendly display name. Maximum length is 500 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#display_name GoogleDataplexEntry#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#display_name GoogleDataplexEntry#display_name}
 
 ---
 
@@ -1542,7 +1542,7 @@ User-defined labels.
 The maximum size of keys and values is 128 characters each.
 An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#labels GoogleDataplexEntry#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#labels GoogleDataplexEntry#labels}
 
 ---
 
@@ -1556,7 +1556,7 @@ Platform *string
 
 The platform containing the source system. Maximum length is 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#platform GoogleDataplexEntry#platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#platform GoogleDataplexEntry#platform}
 
 ---
 
@@ -1570,7 +1570,7 @@ Resource *string
 
 The name of the resource in the source system. Maximum length is 4,000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#resource GoogleDataplexEntry#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#resource GoogleDataplexEntry#resource}
 
 ---
 
@@ -1584,7 +1584,7 @@ SystemAttribute *string
 
 The name of the source system. Maximum length is 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#system GoogleDataplexEntry#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#system GoogleDataplexEntry#system}
 
 ---
 
@@ -1601,7 +1601,7 @@ The time when the resource was last updated in the source system.
 If the entry exists in the system and its EntrySource has updateTime populated,
 further updates to the EntrySource of the entry must provide incremental updates to its updateTime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#update_time GoogleDataplexEntry#update_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#update_time GoogleDataplexEntry#update_time}
 
 ---
 
@@ -1610,7 +1610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySourceAncestors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryEntrySourceAncestors {
 	Name: *string,
@@ -1637,7 +1637,7 @@ Name *string
 
 The name of the ancestor resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#name GoogleDataplexEntry#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#name GoogleDataplexEntry#name}
 
 ---
 
@@ -1651,7 +1651,7 @@ Type *string
 
 The type of the ancestor resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#type GoogleDataplexEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#type GoogleDataplexEntry#type}
 
 ---
 
@@ -1660,7 +1660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 &googledataplexentry.GoogleDataplexEntryTimeouts {
 	Create: *string,
@@ -1673,9 +1673,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}. |
 
 ---
 
@@ -1687,7 +1687,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}.
 
 ---
 
@@ -1699,7 +1699,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}.
 
 ---
 
@@ -1711,7 +1711,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}.
 
 ---
 
@@ -1722,7 +1722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspectsAspectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryAspectsAspectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexEntryAspectsAspectOutputReference
 ```
@@ -2037,7 +2037,7 @@ func InternalValue() GoogleDataplexEntryAspectsAspect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspectsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryAspectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexEntryAspectsList
 ```
@@ -2197,7 +2197,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspectsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryAspectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexEntryAspectsOutputReference
 ```
@@ -2521,7 +2521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySourceAncestorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryEntrySourceAncestorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataplexEntryEntrySourceAncestorsList
 ```
@@ -2681,7 +2681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySourceAncestorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryEntrySourceAncestorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataplexEntryEntrySourceAncestorsOutputReference
 ```
@@ -3006,7 +3006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryEntrySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexEntryEntrySourceOutputReference
 ```
@@ -3540,7 +3540,7 @@ func InternalValue() GoogleDataplexEntryEntrySource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentry"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentry"
 
 googledataplexentry.NewGoogleDataplexEntryTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexEntryTimeoutsOutputReference
 ```

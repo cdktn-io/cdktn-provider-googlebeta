@@ -4,12 +4,12 @@
 
 ### GoogleDialogflowConversationProfile <a name="GoogleDialogflowConversationProfile" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfile(scope Construct, id *string, config GoogleDialogflowConversationProfileConfig) GoogleDialogflowConversationProfile
 ```
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putHumanAgentHandoffConfig">PutHumanAgentHandoffConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putLoggingConfig">PutLoggingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNewMessageEventNotificationConfig">PutNewMessageEventNotificationConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNewRecognitionResultNotificationConfig">PutNewRecognitionResultNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNotificationConfig">PutNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putSttConfig">PutSttConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putTimeouts">PutTimeouts</a></code> | *No description.* |
@@ -90,6 +91,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetLanguageCode">ResetLanguageCode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetLoggingConfig">ResetLoggingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetNewMessageEventNotificationConfig">ResetNewMessageEventNotificationConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetNewRecognitionResultNotificationConfig">ResetNewRecognitionResultNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetNotificationConfig">ResetNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetSecuritySettings">ResetSecuritySettings</a></code> | *No description.* |
@@ -97,6 +99,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetTimeZone">ResetTimeZone</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetTtsConfig">ResetTtsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetUseBidiStreaming">ResetUseBidiStreaming</a></code> | *No description.* |
 
 ---
 
@@ -469,6 +472,18 @@ func PutNewMessageEventNotificationConfig(value GoogleDialogflowConversationProf
 
 ---
 
+##### `PutNewRecognitionResultNotificationConfig` <a name="PutNewRecognitionResultNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNewRecognitionResultNotificationConfig"></a>
+
+```go
+func PutNewRecognitionResultNotificationConfig(value GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNewRecognitionResultNotificationConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a>
+
+---
+
 ##### `PutNotificationConfig` <a name="PutNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.putNotificationConfig"></a>
 
 ```go
@@ -559,6 +574,12 @@ func ResetLoggingConfig()
 func ResetNewMessageEventNotificationConfig()
 ```
 
+##### `ResetNewRecognitionResultNotificationConfig` <a name="ResetNewRecognitionResultNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetNewRecognitionResultNotificationConfig"></a>
+
+```go
+func ResetNewRecognitionResultNotificationConfig()
+```
+
 ##### `ResetNotificationConfig` <a name="ResetNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetNotificationConfig"></a>
 
 ```go
@@ -601,6 +622,12 @@ func ResetTimeZone()
 func ResetTtsConfig()
 ```
 
+##### `ResetUseBidiStreaming` <a name="ResetUseBidiStreaming" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.resetUseBidiStreaming"></a>
+
+```go
+func ResetUseBidiStreaming()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -615,7 +642,7 @@ func ResetTtsConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.GoogleDialogflowConversationProfile_IsConstruct(x interface{}) *bool
 ```
@@ -647,7 +674,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.GoogleDialogflowConversationProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -661,7 +688,7 @@ googledialogflowconversationprofile.GoogleDialogflowConversationProfile_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.GoogleDialogflowConversationProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -675,7 +702,7 @@ googledialogflowconversationprofile.GoogleDialogflowConversationProfile_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.GoogleDialogflowConversationProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -704,7 +731,7 @@ The construct id used in the generated config for the GoogleDialogflowConversati
 
 The id of the existing GoogleDialogflowConversationProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -740,6 +767,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.loggingConfig">LoggingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfigOutputReference">GoogleDialogflowConversationProfileLoggingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.name">Name</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newMessageEventNotificationConfig">NewMessageEventNotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference">GoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newRecognitionResultNotificationConfig">NewRecognitionResultNotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.notificationConfig">NotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfigOutputReference">GoogleDialogflowConversationProfileNotificationConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.sttConfig">SttConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfigOutputReference">GoogleDialogflowConversationProfileSttConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeoutsOutputReference">GoogleDialogflowConversationProfileTimeoutsOutputReference</a></code> | *No description.* |
@@ -753,6 +781,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.loggingConfigInput">LoggingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfig">GoogleDialogflowConversationProfileLoggingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newMessageEventNotificationConfigInput">NewMessageEventNotificationConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig">GoogleDialogflowConversationProfileNewMessageEventNotificationConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newRecognitionResultNotificationConfigInput">NewRecognitionResultNotificationConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.notificationConfigInput">NotificationConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfig">GoogleDialogflowConversationProfileNotificationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.securitySettingsInput">SecuritySettingsInput</a></code> | <code>*string</code> | *No description.* |
@@ -760,6 +789,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.timeZoneInput">TimeZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.ttsConfigInput">TtsConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig">GoogleDialogflowConversationProfileTtsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.useBidiStreamingInput">UseBidiStreamingInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.languageCode">LanguageCode</a></code> | <code>*string</code> | *No description.* |
@@ -767,6 +797,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.project">Project</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.securitySettings">SecuritySettings</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.timeZone">TimeZone</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.useBidiStreaming">UseBidiStreaming</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
@@ -972,6 +1003,16 @@ func NewMessageEventNotificationConfig() GoogleDialogflowConversationProfileNewM
 
 ---
 
+##### `NewRecognitionResultNotificationConfig`<sup>Required</sup> <a name="NewRecognitionResultNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newRecognitionResultNotificationConfig"></a>
+
+```go
+func NewRecognitionResultNotificationConfig() GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference</a>
+
+---
+
 ##### `NotificationConfig`<sup>Required</sup> <a name="NotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.notificationConfig"></a>
 
 ```go
@@ -1102,6 +1143,16 @@ func NewMessageEventNotificationConfigInput() GoogleDialogflowConversationProfil
 
 ---
 
+##### `NewRecognitionResultNotificationConfigInput`<sup>Optional</sup> <a name="NewRecognitionResultNotificationConfigInput" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.newRecognitionResultNotificationConfigInput"></a>
+
+```go
+func NewRecognitionResultNotificationConfigInput() GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a>
+
+---
+
 ##### `NotificationConfigInput`<sup>Optional</sup> <a name="NotificationConfigInput" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.notificationConfigInput"></a>
 
 ```go
@@ -1169,6 +1220,16 @@ func TtsConfigInput() GoogleDialogflowConversationProfileTtsConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig">GoogleDialogflowConversationProfileTtsConfig</a>
+
+---
+
+##### `UseBidiStreamingInput`<sup>Optional</sup> <a name="UseBidiStreamingInput" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.useBidiStreamingInput"></a>
+
+```go
+func UseBidiStreamingInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1242,6 +1303,16 @@ func TimeZone() *string
 
 ---
 
+##### `UseBidiStreaming`<sup>Required</sup> <a name="UseBidiStreaming" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile.property.useBidiStreaming"></a>
+
+```go
+func UseBidiStreaming() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -1267,7 +1338,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileAutomatedAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileAutomatedAgentConfig {
 	Agent: *string,
@@ -1294,7 +1365,7 @@ Agent *string
 
 ID of the Dialogflow agent environment to use. Expects the format "projects/<Project ID>/locations/<Location ID>/agent/environments/<EnvironmentID>".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
 
 ---
 
@@ -1308,7 +1379,7 @@ SessionTtl *string
 
 Configure lifetime of the Dialogflow session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#session_ttl GoogleDialogflowConversationProfile#session_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#session_ttl GoogleDialogflowConversationProfile#session_ttl}
 
 ---
 
@@ -1317,7 +1388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileConfig {
 	Connection: interface{},
@@ -1329,20 +1400,22 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 	Provisioners: *[]interface{},
 	DisplayName: *string,
 	Location: *string,
-	AutomatedAgentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileAutomatedAgentConfig,
-	HumanAgentAssistantConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfig,
-	HumanAgentHandoffConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfig,
+	AutomatedAgentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileAutomatedAgentConfig,
+	HumanAgentAssistantConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfig,
+	HumanAgentHandoffConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfig,
 	Id: *string,
 	LanguageCode: *string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfig,
-	NewMessageEventNotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig,
-	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfig,
+	NewMessageEventNotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig,
+	NewRecognitionResultNotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig,
+	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfig,
 	Project: *string,
 	SecuritySettings: *string,
-	SttConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts,
+	SttConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts,
 	TimeZone: *string,
-	TtsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig,
+	TtsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig,
+	UseBidiStreaming: interface{},
 }
 ```
 
@@ -1362,17 +1435,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.automatedAgentConfig">AutomatedAgentConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileAutomatedAgentConfig">GoogleDialogflowConversationProfileAutomatedAgentConfig</a></code> | automated_agent_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.humanAgentAssistantConfig">HumanAgentAssistantConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfig">GoogleDialogflowConversationProfileHumanAgentAssistantConfig</a></code> | human_agent_assistant_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.humanAgentHandoffConfig">HumanAgentHandoffConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfig">GoogleDialogflowConversationProfileHumanAgentHandoffConfig</a></code> | human_agent_handoff_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#id GoogleDialogflowConversationProfile#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#id GoogleDialogflowConversationProfile#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.languageCode">LanguageCode</a></code> | <code>*string</code> | Language code for the conversation profile. This should be a BCP-47 language tag. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.loggingConfig">LoggingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfig">GoogleDialogflowConversationProfileLoggingConfig</a></code> | logging_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.newMessageEventNotificationConfig">NewMessageEventNotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig">GoogleDialogflowConversationProfileNewMessageEventNotificationConfig</a></code> | new_message_event_notification_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.newRecognitionResultNotificationConfig">NewRecognitionResultNotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a></code> | new_recognition_result_notification_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.notificationConfig">NotificationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfig">GoogleDialogflowConversationProfileNotificationConfig</a></code> | notification_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#project GoogleDialogflowConversationProfile#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#project GoogleDialogflowConversationProfile#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.securitySettings">SecuritySettings</a></code> | <code>*string</code> | Name of the CX SecuritySettings reference for the agent. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.sttConfig">SttConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfig">GoogleDialogflowConversationProfileSttConfig</a></code> | stt_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts">GoogleDialogflowConversationProfileTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.timeZone">TimeZone</a></code> | <code>*string</code> | The time zone of this conversational profile. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.ttsConfig">TtsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig">GoogleDialogflowConversationProfileTtsConfig</a></code> | tts_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.useBidiStreaming">UseBidiStreaming</a></code> | <code>interface{}</code> | Optional. Whether to use the bidi streaming API in telephony integration for the conversation profile. |
 
 ---
 
@@ -1456,7 +1531,7 @@ DisplayName *string
 
 Required. Human readable name for this profile. Max length 1024 bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#display_name GoogleDialogflowConversationProfile#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#display_name GoogleDialogflowConversationProfile#display_name}
 
 ---
 
@@ -1470,7 +1545,7 @@ Location *string
 
 desc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#location GoogleDialogflowConversationProfile#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#location GoogleDialogflowConversationProfile#location}
 
 ---
 
@@ -1484,7 +1559,7 @@ AutomatedAgentConfig GoogleDialogflowConversationProfileAutomatedAgentConfig
 
 automated_agent_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#automated_agent_config GoogleDialogflowConversationProfile#automated_agent_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#automated_agent_config GoogleDialogflowConversationProfile#automated_agent_config}
 
 ---
 
@@ -1498,7 +1573,7 @@ HumanAgentAssistantConfig GoogleDialogflowConversationProfileHumanAgentAssistant
 
 human_agent_assistant_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#human_agent_assistant_config GoogleDialogflowConversationProfile#human_agent_assistant_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#human_agent_assistant_config GoogleDialogflowConversationProfile#human_agent_assistant_config}
 
 ---
 
@@ -1512,7 +1587,7 @@ HumanAgentHandoffConfig GoogleDialogflowConversationProfileHumanAgentHandoffConf
 
 human_agent_handoff_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#human_agent_handoff_config GoogleDialogflowConversationProfile#human_agent_handoff_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#human_agent_handoff_config GoogleDialogflowConversationProfile#human_agent_handoff_config}
 
 ---
 
@@ -1524,7 +1599,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#id GoogleDialogflowConversationProfile#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#id GoogleDialogflowConversationProfile#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1541,7 +1616,7 @@ LanguageCode *string
 
 Language code for the conversation profile. This should be a BCP-47 language tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#language_code GoogleDialogflowConversationProfile#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#language_code GoogleDialogflowConversationProfile#language_code}
 
 ---
 
@@ -1555,7 +1630,7 @@ LoggingConfig GoogleDialogflowConversationProfileLoggingConfig
 
 logging_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#logging_config GoogleDialogflowConversationProfile#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#logging_config GoogleDialogflowConversationProfile#logging_config}
 
 ---
 
@@ -1569,7 +1644,21 @@ NewMessageEventNotificationConfig GoogleDialogflowConversationProfileNewMessageE
 
 new_message_event_notification_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#new_message_event_notification_config GoogleDialogflowConversationProfile#new_message_event_notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#new_message_event_notification_config GoogleDialogflowConversationProfile#new_message_event_notification_config}
+
+---
+
+##### `NewRecognitionResultNotificationConfig`<sup>Optional</sup> <a name="NewRecognitionResultNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.newRecognitionResultNotificationConfig"></a>
+
+```go
+NewRecognitionResultNotificationConfig GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a>
+
+new_recognition_result_notification_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#new_recognition_result_notification_config GoogleDialogflowConversationProfile#new_recognition_result_notification_config}
 
 ---
 
@@ -1583,7 +1672,7 @@ NotificationConfig GoogleDialogflowConversationProfileNotificationConfig
 
 notification_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#notification_config GoogleDialogflowConversationProfile#notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#notification_config GoogleDialogflowConversationProfile#notification_config}
 
 ---
 
@@ -1595,7 +1684,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#project GoogleDialogflowConversationProfile#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#project GoogleDialogflowConversationProfile#project}.
 
 ---
 
@@ -1609,7 +1698,7 @@ SecuritySettings *string
 
 Name of the CX SecuritySettings reference for the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#security_settings GoogleDialogflowConversationProfile#security_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#security_settings GoogleDialogflowConversationProfile#security_settings}
 
 ---
 
@@ -1623,7 +1712,7 @@ SttConfig GoogleDialogflowConversationProfileSttConfig
 
 stt_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#stt_config GoogleDialogflowConversationProfile#stt_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#stt_config GoogleDialogflowConversationProfile#stt_config}
 
 ---
 
@@ -1637,7 +1726,7 @@ Timeouts GoogleDialogflowConversationProfileTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#timeouts GoogleDialogflowConversationProfile#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#timeouts GoogleDialogflowConversationProfile#timeouts}
 
 ---
 
@@ -1651,7 +1740,7 @@ TimeZone *string
 
 The time zone of this conversational profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#time_zone GoogleDialogflowConversationProfile#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#time_zone GoogleDialogflowConversationProfile#time_zone}
 
 ---
 
@@ -1665,7 +1754,21 @@ TtsConfig GoogleDialogflowConversationProfileTtsConfig
 
 tts_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#tts_config GoogleDialogflowConversationProfile#tts_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#tts_config GoogleDialogflowConversationProfile#tts_config}
+
+---
+
+##### `UseBidiStreaming`<sup>Optional</sup> <a name="UseBidiStreaming" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileConfig.property.useBidiStreaming"></a>
+
+```go
+UseBidiStreaming interface{}
+```
+
+- *Type:* interface{}
+
+Optional. Whether to use the bidi streaming API in telephony integration for the conversation profile.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#use_bidi_streaming GoogleDialogflowConversationProfile#use_bidi_streaming}
 
 ---
 
@@ -1674,13 +1777,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfig {
-	EndUserSuggestionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfig,
-	HumanAgentSuggestionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfig,
-	MessageAnalysisConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfig,
-	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfig,
+	EndUserSuggestionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfig,
+	HumanAgentSuggestionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfig,
+	MessageAnalysisConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfig,
+	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfig,
 }
 ```
 
@@ -1705,7 +1808,7 @@ EndUserSuggestionConfig GoogleDialogflowConversationProfileHumanAgentAssistantCo
 
 end_user_suggestion_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#end_user_suggestion_config GoogleDialogflowConversationProfile#end_user_suggestion_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#end_user_suggestion_config GoogleDialogflowConversationProfile#end_user_suggestion_config}
 
 ---
 
@@ -1719,7 +1822,7 @@ HumanAgentSuggestionConfig GoogleDialogflowConversationProfileHumanAgentAssistan
 
 human_agent_suggestion_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#human_agent_suggestion_config GoogleDialogflowConversationProfile#human_agent_suggestion_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#human_agent_suggestion_config GoogleDialogflowConversationProfile#human_agent_suggestion_config}
 
 ---
 
@@ -1733,7 +1836,7 @@ MessageAnalysisConfig GoogleDialogflowConversationProfileHumanAgentAssistantConf
 
 message_analysis_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#message_analysis_config GoogleDialogflowConversationProfile#message_analysis_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#message_analysis_config GoogleDialogflowConversationProfile#message_analysis_config}
 
 ---
 
@@ -1747,7 +1850,7 @@ NotificationConfig GoogleDialogflowConversationProfileHumanAgentAssistantConfigN
 
 notification_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#notification_config GoogleDialogflowConversationProfile#notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#notification_config GoogleDialogflowConversationProfile#notification_config}
 
 ---
 
@@ -1756,7 +1859,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfig {
 	DisableHighLatencyFeaturesSyncDelivery: interface{},
@@ -1789,7 +1892,7 @@ When disableHighLatencyFeaturesSyncDelivery is true and using the AnalyzeContent
 
 The humanAgentAssistantConfig.notification_config must be configured and enableEventBasedSuggestion must be set to true to receive the responses from high latency features in Pub/Sub. High latency feature(s): KNOWLEDGE_ASSIST
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#disable_high_latency_features_sync_delivery GoogleDialogflowConversationProfile#disable_high_latency_features_sync_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#disable_high_latency_features_sync_delivery GoogleDialogflowConversationProfile#disable_high_latency_features_sync_delivery}
 
 ---
 
@@ -1803,7 +1906,7 @@ FeatureConfigs interface{}
 
 feature_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#feature_configs GoogleDialogflowConversationProfile#feature_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#feature_configs GoogleDialogflowConversationProfile#feature_configs}
 
 ---
 
@@ -1817,7 +1920,7 @@ Generators *[]*string
 
 List of various generator resource names used in the conversation profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#generators GoogleDialogflowConversationProfile#generators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#generators GoogleDialogflowConversationProfile#generators}
 
 ---
 
@@ -1835,7 +1938,7 @@ Different type of suggestions based on the same context will be in separate Pub/
 
 If groupSuggestionResponses set to true. All the suggestions to the same participant based on the same context will be grouped into a single Pub/Sub event or StreamingAnalyzeContentResponse.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#group_suggestion_responses GoogleDialogflowConversationProfile#group_suggestion_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#group_suggestion_responses GoogleDialogflowConversationProfile#group_suggestion_responses}
 
 ---
 
@@ -1844,19 +1947,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigs {
-	ConversationModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfig,
-	ConversationProcessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfig,
+	ConversationModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfig,
+	ConversationProcessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfig,
 	DisableAgentQueryLogging: interface{},
 	EnableConversationAugmentedQuery: interface{},
 	EnableEventBasedSuggestion: interface{},
 	EnableQuerySuggestionOnly: interface{},
 	EnableQuerySuggestionWhenNoAnswer: interface{},
-	QueryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfig,
-	SuggestionFeature: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeature,
-	SuggestionTriggerSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettings,
+	QueryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfig,
+	SuggestionFeature: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeature,
+	SuggestionTriggerSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettings,
 }
 ```
 
@@ -1887,7 +1990,7 @@ ConversationModelConfig GoogleDialogflowConversationProfileHumanAgentAssistantCo
 
 conversation_model_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#conversation_model_config GoogleDialogflowConversationProfile#conversation_model_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#conversation_model_config GoogleDialogflowConversationProfile#conversation_model_config}
 
 ---
 
@@ -1901,7 +2004,7 @@ ConversationProcessConfig GoogleDialogflowConversationProfileHumanAgentAssistant
 
 conversation_process_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#conversation_process_config GoogleDialogflowConversationProfile#conversation_process_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#conversation_process_config GoogleDialogflowConversationProfile#conversation_process_config}
 
 ---
 
@@ -1918,7 +2021,7 @@ Disable the logging of search queries sent by human agents.
 It can prevent those queries from being stored at answer records.
 This feature is only supported for types: KNOWLEDGE_SEARCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#disable_agent_query_logging GoogleDialogflowConversationProfile#disable_agent_query_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#disable_agent_query_logging GoogleDialogflowConversationProfile#disable_agent_query_logging}
 
 ---
 
@@ -1932,7 +2035,7 @@ EnableConversationAugmentedQuery interface{}
 
 Enable including conversation context during query answer generation. This feature is only supported for types: KNOWLEDGE_SEARCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_conversation_augmented_query GoogleDialogflowConversationProfile#enable_conversation_augmented_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_conversation_augmented_query GoogleDialogflowConversationProfile#enable_conversation_augmented_query}
 
 ---
 
@@ -1946,7 +2049,7 @@ EnableEventBasedSuggestion interface{}
 
 Automatically iterates all participants and tries to compile suggestions. This feature is only supported for types: ARTICLE_SUGGESTION, FAQ, DIALOGFLOW_ASSIST, KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_event_based_suggestion GoogleDialogflowConversationProfile#enable_event_based_suggestion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_event_based_suggestion GoogleDialogflowConversationProfile#enable_event_based_suggestion}
 
 ---
 
@@ -1960,7 +2063,7 @@ EnableQuerySuggestionOnly interface{}
 
 Enable query suggestion only. This feature is only supported for types: KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_only GoogleDialogflowConversationProfile#enable_query_suggestion_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_only GoogleDialogflowConversationProfile#enable_query_suggestion_only}
 
 ---
 
@@ -1977,7 +2080,7 @@ Enable query suggestion even if we can't find its answer.
 By default, queries are suggested only if we find its answer.
 This feature is only supported for types: KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_when_no_answer GoogleDialogflowConversationProfile#enable_query_suggestion_when_no_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_when_no_answer GoogleDialogflowConversationProfile#enable_query_suggestion_when_no_answer}
 
 ---
 
@@ -1991,7 +2094,7 @@ QueryConfig GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserS
 
 query_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#query_config GoogleDialogflowConversationProfile#query_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#query_config GoogleDialogflowConversationProfile#query_config}
 
 ---
 
@@ -2005,7 +2108,7 @@ SuggestionFeature GoogleDialogflowConversationProfileHumanAgentAssistantConfigEn
 
 suggestion_feature block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#suggestion_feature GoogleDialogflowConversationProfile#suggestion_feature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#suggestion_feature GoogleDialogflowConversationProfile#suggestion_feature}
 
 ---
 
@@ -2019,7 +2122,7 @@ SuggestionTriggerSettings GoogleDialogflowConversationProfileHumanAgentAssistant
 
 suggestion_trigger_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#suggestion_trigger_settings GoogleDialogflowConversationProfile#suggestion_trigger_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#suggestion_trigger_settings GoogleDialogflowConversationProfile#suggestion_trigger_settings}
 
 ---
 
@@ -2028,7 +2131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfig {
 	BaselineModelVersion: *string,
@@ -2057,7 +2160,7 @@ Version of current baseline model.
 
 It will be ignored if model is set. Valid versions are: Article Suggestion baseline model: - 0.9 - 1.0 (default) Summarization baseline model: - 1.0
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#baseline_model_version GoogleDialogflowConversationProfile#baseline_model_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#baseline_model_version GoogleDialogflowConversationProfile#baseline_model_version}
 
 ---
 
@@ -2071,7 +2174,7 @@ Model *string
 
 Conversation model resource name. Format: projects/<Project ID>/conversationModels/<Model ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
 
 ---
 
@@ -2080,7 +2183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfig {
 	RecentSentencesCount: *f64,
@@ -2105,7 +2208,7 @@ RecentSentencesCount *f64
 
 Number of recent non-small-talk sentences to use as context for article and FAQ suggestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#recent_sentences_count GoogleDialogflowConversationProfile#recent_sentences_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#recent_sentences_count GoogleDialogflowConversationProfile#recent_sentences_count}
 
 ---
 
@@ -2114,16 +2217,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfig {
 	ConfidenceThreshold: *f64,
-	ContextFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings,
-	DialogflowQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource,
-	DocumentQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySource,
-	KnowledgeBaseQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySource,
+	ContextFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings,
+	DialogflowQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource,
+	DocumentQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySource,
+	KnowledgeBaseQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySource,
 	MaxResults: *f64,
-	Sections: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSections,
+	Sections: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSections,
 }
 ```
 
@@ -2151,7 +2254,7 @@ ConfidenceThreshold *f64
 
 Confidence threshold of query result. This feature is only supported for types: ARTICLE_SUGGESTION, FAQ, SMART_REPLY, SMART_COMPOSE, KNOWLEDGE_SEARCH, KNOWLEDGE_ASSIST, ENTITY_EXTRACTION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#confidence_threshold GoogleDialogflowConversationProfile#confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#confidence_threshold GoogleDialogflowConversationProfile#confidence_threshold}
 
 ---
 
@@ -2165,7 +2268,7 @@ ContextFilterSettings GoogleDialogflowConversationProfileHumanAgentAssistantConf
 
 context_filter_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#context_filter_settings GoogleDialogflowConversationProfile#context_filter_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#context_filter_settings GoogleDialogflowConversationProfile#context_filter_settings}
 
 ---
 
@@ -2179,7 +2282,7 @@ DialogflowQuerySource GoogleDialogflowConversationProfileHumanAgentAssistantConf
 
 dialogflow_query_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#dialogflow_query_source GoogleDialogflowConversationProfile#dialogflow_query_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#dialogflow_query_source GoogleDialogflowConversationProfile#dialogflow_query_source}
 
 ---
 
@@ -2193,7 +2296,7 @@ DocumentQuerySource GoogleDialogflowConversationProfileHumanAgentAssistantConfig
 
 document_query_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#document_query_source GoogleDialogflowConversationProfile#document_query_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#document_query_source GoogleDialogflowConversationProfile#document_query_source}
 
 ---
 
@@ -2207,7 +2310,7 @@ KnowledgeBaseQuerySource GoogleDialogflowConversationProfileHumanAgentAssistantC
 
 knowledge_base_query_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#knowledge_base_query_source GoogleDialogflowConversationProfile#knowledge_base_query_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#knowledge_base_query_source GoogleDialogflowConversationProfile#knowledge_base_query_source}
 
 ---
 
@@ -2221,7 +2324,7 @@ MaxResults *f64
 
 Maximum number of results to return.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#max_results GoogleDialogflowConversationProfile#max_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#max_results GoogleDialogflowConversationProfile#max_results}
 
 ---
 
@@ -2235,7 +2338,7 @@ Sections GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSugg
 
 sections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#sections GoogleDialogflowConversationProfile#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#sections GoogleDialogflowConversationProfile#sections}
 
 ---
 
@@ -2244,7 +2347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings {
 	DropHandoffMessages: interface{},
@@ -2273,7 +2376,7 @@ DropHandoffMessages interface{}
 
 If set to true, the last message from virtual agent (hand off message) and the message before it (trigger message of hand off) are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_handoff_messages GoogleDialogflowConversationProfile#drop_handoff_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_handoff_messages GoogleDialogflowConversationProfile#drop_handoff_messages}
 
 ---
 
@@ -2287,7 +2390,7 @@ DropIvrMessages interface{}
 
 If set to true, all messages from ivr stage are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_ivr_messages GoogleDialogflowConversationProfile#drop_ivr_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_ivr_messages GoogleDialogflowConversationProfile#drop_ivr_messages}
 
 ---
 
@@ -2301,7 +2404,7 @@ DropVirtualAgentMessages interface{}
 
 If set to true, all messages from virtual agent are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_virtual_agent_messages GoogleDialogflowConversationProfile#drop_virtual_agent_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_virtual_agent_messages GoogleDialogflowConversationProfile#drop_virtual_agent_messages}
 
 ---
 
@@ -2310,11 +2413,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource {
 	Agent: *string,
-	HumanAgentSideConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig,
+	HumanAgentSideConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig,
 }
 ```
 
@@ -2339,7 +2442,7 @@ he name of a Dialogflow virtual agent used for end user side intent detection an
 
 Format: projects/<Project ID>/locations/<Location ID>/agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
 
 ---
 
@@ -2353,7 +2456,7 @@ HumanAgentSideConfig GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 
 human_agent_side_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#human_agent_side_config GoogleDialogflowConversationProfile#human_agent_side_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#human_agent_side_config GoogleDialogflowConversationProfile#human_agent_side_config}
 
 ---
 
@@ -2362,7 +2465,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig {
 	Agent: *string,
@@ -2389,7 +2492,7 @@ The name of a dialogflow virtual agent used for intent detection and suggestion 
 
 Format: projects/<Project ID>/locations/<Location ID>/agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
 
 ---
 
@@ -2398,7 +2501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySource {
 	Documents: *[]*string,
@@ -2423,7 +2526,7 @@ Documents *[]*string
 
 Knowledge documents to query from. Format: projects/<Project ID>/locations/<Location ID>/knowledgeBases/<KnowledgeBase ID>/documents/<Document ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#documents GoogleDialogflowConversationProfile#documents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#documents GoogleDialogflowConversationProfile#documents}
 
 ---
 
@@ -2432,7 +2535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySource {
 	KnowledgeBases: *[]*string,
@@ -2457,7 +2560,7 @@ KnowledgeBases *[]*string
 
 Knowledge bases to query. Format: projects/<Project ID>/locations/<Location ID>/knowledgeBases/<Knowledge Base ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#knowledge_bases GoogleDialogflowConversationProfile#knowledge_bases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#knowledge_bases GoogleDialogflowConversationProfile#knowledge_bases}
 
 ---
 
@@ -2466,7 +2569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSections {
 	SectionTypes: *[]*string,
@@ -2493,7 +2596,7 @@ The selected sections chosen to return when requesting a summary of a conversati
 
 Possible values: ["SECTION_TYPE_UNSPECIFIED", "SITUATION", "ACTION", "RESOLUTION", "REASON_FOR_CANCELLATION", "CUSTOMER_SATISFACTION", "ENTITIES"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#section_types GoogleDialogflowConversationProfile#section_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#section_types GoogleDialogflowConversationProfile#section_types}
 
 ---
 
@@ -2502,7 +2605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeature.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeature {
 	Type: *string,
@@ -2527,7 +2630,7 @@ Type *string
 
 Type of Human Agent Assistant API feature to request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#type GoogleDialogflowConversationProfile#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#type GoogleDialogflowConversationProfile#type}
 
 ---
 
@@ -2536,7 +2639,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettings {
 	NoSmallTalk: interface{},
@@ -2563,7 +2666,7 @@ NoSmallTalk interface{}
 
 Do not trigger if last utterance is small talk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#no_small_talk GoogleDialogflowConversationProfile#no_small_talk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#no_small_talk GoogleDialogflowConversationProfile#no_small_talk}
 
 ---
 
@@ -2577,7 +2680,7 @@ OnlyEndUser interface{}
 
 Only trigger suggestion if participant role of last utterance is END_USER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#only_end_user GoogleDialogflowConversationProfile#only_end_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#only_end_user GoogleDialogflowConversationProfile#only_end_user}
 
 ---
 
@@ -2586,7 +2689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfig {
 	DisableHighLatencyFeaturesSyncDelivery: interface{},
@@ -2619,7 +2722,7 @@ When disableHighLatencyFeaturesSyncDelivery is true and using the AnalyzeContent
 
 The humanAgentAssistantConfig.notification_config must be configured and enableEventBasedSuggestion must be set to true to receive the responses from high latency features in Pub/Sub. High latency feature(s): KNOWLEDGE_ASSIST
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#disable_high_latency_features_sync_delivery GoogleDialogflowConversationProfile#disable_high_latency_features_sync_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#disable_high_latency_features_sync_delivery GoogleDialogflowConversationProfile#disable_high_latency_features_sync_delivery}
 
 ---
 
@@ -2633,7 +2736,7 @@ FeatureConfigs interface{}
 
 feature_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#feature_configs GoogleDialogflowConversationProfile#feature_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#feature_configs GoogleDialogflowConversationProfile#feature_configs}
 
 ---
 
@@ -2647,7 +2750,7 @@ Generators *[]*string
 
 List of various generator resource names used in the conversation profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#generators GoogleDialogflowConversationProfile#generators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#generators GoogleDialogflowConversationProfile#generators}
 
 ---
 
@@ -2665,7 +2768,7 @@ Different type of suggestions based on the same context will be in separate Pub/
 
 If groupSuggestionResponses set to true. All the suggestions to the same participant based on the same context will be grouped into a single Pub/Sub event or StreamingAnalyzeContentResponse.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#group_suggestion_responses GoogleDialogflowConversationProfile#group_suggestion_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#group_suggestion_responses GoogleDialogflowConversationProfile#group_suggestion_responses}
 
 ---
 
@@ -2674,19 +2777,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigs {
-	ConversationModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfig,
-	ConversationProcessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfig,
+	ConversationModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfig,
+	ConversationProcessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfig,
 	DisableAgentQueryLogging: interface{},
 	EnableConversationAugmentedQuery: interface{},
 	EnableEventBasedSuggestion: interface{},
 	EnableQuerySuggestionOnly: interface{},
 	EnableQuerySuggestionWhenNoAnswer: interface{},
-	QueryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfig,
-	SuggestionFeature: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeature,
-	SuggestionTriggerSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettings,
+	QueryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfig,
+	SuggestionFeature: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeature,
+	SuggestionTriggerSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettings,
 }
 ```
 
@@ -2717,7 +2820,7 @@ ConversationModelConfig GoogleDialogflowConversationProfileHumanAgentAssistantCo
 
 conversation_model_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#conversation_model_config GoogleDialogflowConversationProfile#conversation_model_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#conversation_model_config GoogleDialogflowConversationProfile#conversation_model_config}
 
 ---
 
@@ -2731,7 +2834,7 @@ ConversationProcessConfig GoogleDialogflowConversationProfileHumanAgentAssistant
 
 conversation_process_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#conversation_process_config GoogleDialogflowConversationProfile#conversation_process_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#conversation_process_config GoogleDialogflowConversationProfile#conversation_process_config}
 
 ---
 
@@ -2748,7 +2851,7 @@ Disable the logging of search queries sent by human agents.
 It can prevent those queries from being stored at answer records.
 This feature is only supported for types: KNOWLEDGE_SEARCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#disable_agent_query_logging GoogleDialogflowConversationProfile#disable_agent_query_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#disable_agent_query_logging GoogleDialogflowConversationProfile#disable_agent_query_logging}
 
 ---
 
@@ -2762,7 +2865,7 @@ EnableConversationAugmentedQuery interface{}
 
 Enable including conversation context during query answer generation. This feature is only supported for types: KNOWLEDGE_SEARCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_conversation_augmented_query GoogleDialogflowConversationProfile#enable_conversation_augmented_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_conversation_augmented_query GoogleDialogflowConversationProfile#enable_conversation_augmented_query}
 
 ---
 
@@ -2776,7 +2879,7 @@ EnableEventBasedSuggestion interface{}
 
 Automatically iterates all participants and tries to compile suggestions. This feature is only supported for types: ARTICLE_SUGGESTION, FAQ, DIALOGFLOW_ASSIST, KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_event_based_suggestion GoogleDialogflowConversationProfile#enable_event_based_suggestion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_event_based_suggestion GoogleDialogflowConversationProfile#enable_event_based_suggestion}
 
 ---
 
@@ -2790,7 +2893,7 @@ EnableQuerySuggestionOnly interface{}
 
 Enable query suggestion only. This feature is only supported for types: KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_only GoogleDialogflowConversationProfile#enable_query_suggestion_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_only GoogleDialogflowConversationProfile#enable_query_suggestion_only}
 
 ---
 
@@ -2807,7 +2910,7 @@ Enable query suggestion even if we can't find its answer.
 By default, queries are suggested only if we find its answer.
 This feature is only supported for types: KNOWLEDGE_ASSIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_when_no_answer GoogleDialogflowConversationProfile#enable_query_suggestion_when_no_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_query_suggestion_when_no_answer GoogleDialogflowConversationProfile#enable_query_suggestion_when_no_answer}
 
 ---
 
@@ -2821,7 +2924,7 @@ QueryConfig GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAge
 
 query_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#query_config GoogleDialogflowConversationProfile#query_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#query_config GoogleDialogflowConversationProfile#query_config}
 
 ---
 
@@ -2835,7 +2938,7 @@ SuggestionFeature GoogleDialogflowConversationProfileHumanAgentAssistantConfigHu
 
 suggestion_feature block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#suggestion_feature GoogleDialogflowConversationProfile#suggestion_feature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#suggestion_feature GoogleDialogflowConversationProfile#suggestion_feature}
 
 ---
 
@@ -2849,7 +2952,7 @@ SuggestionTriggerSettings GoogleDialogflowConversationProfileHumanAgentAssistant
 
 suggestion_trigger_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#suggestion_trigger_settings GoogleDialogflowConversationProfile#suggestion_trigger_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#suggestion_trigger_settings GoogleDialogflowConversationProfile#suggestion_trigger_settings}
 
 ---
 
@@ -2858,7 +2961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfig {
 	BaselineModelVersion: *string,
@@ -2887,7 +2990,7 @@ Version of current baseline model.
 
 It will be ignored if model is set. Valid versions are: Article Suggestion baseline model: - 0.9 - 1.0 (default) Summarization baseline model: - 1.0
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#baseline_model_version GoogleDialogflowConversationProfile#baseline_model_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#baseline_model_version GoogleDialogflowConversationProfile#baseline_model_version}
 
 ---
 
@@ -2901,7 +3004,7 @@ Model *string
 
 Conversation model resource name. Format: projects/<Project ID>/conversationModels/<Model ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
 
 ---
 
@@ -2910,7 +3013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfig {
 	RecentSentencesCount: *f64,
@@ -2935,7 +3038,7 @@ RecentSentencesCount *f64
 
 Number of recent non-small-talk sentences to use as context for article and FAQ suggestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#recent_sentences_count GoogleDialogflowConversationProfile#recent_sentences_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#recent_sentences_count GoogleDialogflowConversationProfile#recent_sentences_count}
 
 ---
 
@@ -2944,14 +3047,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfig {
 	ConfidenceThreshold: *f64,
-	ContextFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings,
-	DialogflowQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource,
+	ContextFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings,
+	DialogflowQuerySource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource,
 	MaxResults: *f64,
-	Sections: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSections,
+	Sections: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSections,
 }
 ```
 
@@ -2977,7 +3080,7 @@ ConfidenceThreshold *f64
 
 Confidence threshold of query result. This feature is only supported for types: ARTICLE_SUGGESTION, FAQ, SMART_REPLY, SMART_COMPOSE, KNOWLEDGE_SEARCH, KNOWLEDGE_ASSIST, ENTITY_EXTRACTION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#confidence_threshold GoogleDialogflowConversationProfile#confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#confidence_threshold GoogleDialogflowConversationProfile#confidence_threshold}
 
 ---
 
@@ -2991,7 +3094,7 @@ ContextFilterSettings GoogleDialogflowConversationProfileHumanAgentAssistantConf
 
 context_filter_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#context_filter_settings GoogleDialogflowConversationProfile#context_filter_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#context_filter_settings GoogleDialogflowConversationProfile#context_filter_settings}
 
 ---
 
@@ -3005,7 +3108,7 @@ DialogflowQuerySource GoogleDialogflowConversationProfileHumanAgentAssistantConf
 
 dialogflow_query_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#dialogflow_query_source GoogleDialogflowConversationProfile#dialogflow_query_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#dialogflow_query_source GoogleDialogflowConversationProfile#dialogflow_query_source}
 
 ---
 
@@ -3019,7 +3122,7 @@ MaxResults *f64
 
 Maximum number of results to return.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#max_results GoogleDialogflowConversationProfile#max_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#max_results GoogleDialogflowConversationProfile#max_results}
 
 ---
 
@@ -3033,7 +3136,7 @@ Sections GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentS
 
 sections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#sections GoogleDialogflowConversationProfile#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#sections GoogleDialogflowConversationProfile#sections}
 
 ---
 
@@ -3042,7 +3145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettings {
 	DropHandoffMessages: interface{},
@@ -3071,7 +3174,7 @@ DropHandoffMessages interface{}
 
 If set to true, the last message from virtual agent (hand off message) and the message before it (trigger message of hand off) are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_handoff_messages GoogleDialogflowConversationProfile#drop_handoff_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_handoff_messages GoogleDialogflowConversationProfile#drop_handoff_messages}
 
 ---
 
@@ -3085,7 +3188,7 @@ DropIvrMessages interface{}
 
 If set to true, all messages from ivr stage are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_ivr_messages GoogleDialogflowConversationProfile#drop_ivr_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_ivr_messages GoogleDialogflowConversationProfile#drop_ivr_messages}
 
 ---
 
@@ -3099,7 +3202,7 @@ DropVirtualAgentMessages interface{}
 
 If set to true, all messages from virtual agent are dropped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#drop_virtual_agent_messages GoogleDialogflowConversationProfile#drop_virtual_agent_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#drop_virtual_agent_messages GoogleDialogflowConversationProfile#drop_virtual_agent_messages}
 
 ---
 
@@ -3108,11 +3211,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySource {
 	Agent: *string,
-	HumanAgentSideConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig,
+	HumanAgentSideConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig,
 }
 ```
 
@@ -3137,7 +3240,7 @@ he name of a Dialogflow virtual agent used for end user side intent detection an
 
 Format: projects/<Project ID>/locations/<Location ID>/agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
 
 ---
 
@@ -3151,7 +3254,7 @@ HumanAgentSideConfig GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 
 human_agent_side_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#human_agent_side_config GoogleDialogflowConversationProfile#human_agent_side_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#human_agent_side_config GoogleDialogflowConversationProfile#human_agent_side_config}
 
 ---
 
@@ -3160,7 +3263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfig {
 	Agent: *string,
@@ -3187,7 +3290,7 @@ The name of a dialogflow virtual agent used for intent detection and suggestion 
 
 Format: projects/<Project ID>/locations/<Location ID>/agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#agent GoogleDialogflowConversationProfile#agent}
 
 ---
 
@@ -3196,7 +3299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSections {
 	SectionTypes: *[]*string,
@@ -3223,7 +3326,7 @@ The selected sections chosen to return when requesting a summary of a conversati
 
 Possible values: ["SECTION_TYPE_UNSPECIFIED", "SITUATION", "ACTION", "RESOLUTION", "REASON_FOR_CANCELLATION", "CUSTOMER_SATISFACTION", "ENTITIES"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#section_types GoogleDialogflowConversationProfile#section_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#section_types GoogleDialogflowConversationProfile#section_types}
 
 ---
 
@@ -3232,7 +3335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeature.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeature {
 	Type: *string,
@@ -3257,7 +3360,7 @@ Type *string
 
 Type of Human Agent Assistant API feature to request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#type GoogleDialogflowConversationProfile#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#type GoogleDialogflowConversationProfile#type}
 
 ---
 
@@ -3266,7 +3369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettings {
 	NoSmallTalk: interface{},
@@ -3293,7 +3396,7 @@ NoSmallTalk interface{}
 
 Do not trigger if last utterance is small talk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#no_small_talk GoogleDialogflowConversationProfile#no_small_talk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#no_small_talk GoogleDialogflowConversationProfile#no_small_talk}
 
 ---
 
@@ -3307,7 +3410,7 @@ OnlyEndUser interface{}
 
 Only trigger suggestion if participant role of last utterance is END_USER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#only_end_user GoogleDialogflowConversationProfile#only_end_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#only_end_user GoogleDialogflowConversationProfile#only_end_user}
 
 ---
 
@@ -3316,7 +3419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfig {
 	EnableEntityExtraction: interface{},
@@ -3343,7 +3446,7 @@ EnableEntityExtraction interface{}
 
 Enable entity extraction in conversation messages on agent assist stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_entity_extraction GoogleDialogflowConversationProfile#enable_entity_extraction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_entity_extraction GoogleDialogflowConversationProfile#enable_entity_extraction}
 
 ---
 
@@ -3359,7 +3462,7 @@ Enable sentiment analysis in conversation messages on agent assist stage.
 
 Sentiment analysis inspects user input and identifies the prevailing subjective opinion, especially to determine a user's attitude as positive, negative, or neutral.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_sentiment_analysis GoogleDialogflowConversationProfile#enable_sentiment_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_sentiment_analysis GoogleDialogflowConversationProfile#enable_sentiment_analysis}
 
 ---
 
@@ -3368,7 +3471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfig {
 	MessageFormat: *string,
@@ -3395,7 +3498,7 @@ MessageFormat *string
 
 Format of the message Possible values: ["MESSAGE_FORMAT_UNSPECIFIED", "PROTO", "JSON"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
 
 ---
 
@@ -3409,7 +3512,7 @@ Topic *string
 
 Name of the Pub/Sub topic to publish conversation events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
 
 ---
 
@@ -3418,10 +3521,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentHandoffConfig {
-	LivePersonConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfig,
+	LivePersonConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfig,
 }
 ```
 
@@ -3443,7 +3546,7 @@ LivePersonConfig GoogleDialogflowConversationProfileHumanAgentHandoffConfigLiveP
 
 live_person_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#live_person_config GoogleDialogflowConversationProfile#live_person_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#live_person_config GoogleDialogflowConversationProfile#live_person_config}
 
 ---
 
@@ -3452,7 +3555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfig {
 	AccountNumber: *string,
@@ -3477,7 +3580,7 @@ AccountNumber *string
 
 Account number of the LivePerson account to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#account_number GoogleDialogflowConversationProfile#account_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#account_number GoogleDialogflowConversationProfile#account_number}
 
 ---
 
@@ -3486,7 +3589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileLoggingConfig {
 	EnableStackdriverLogging: interface{},
@@ -3511,7 +3614,7 @@ EnableStackdriverLogging interface{}
 
 Whether to log conversation events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_stackdriver_logging GoogleDialogflowConversationProfile#enable_stackdriver_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_stackdriver_logging GoogleDialogflowConversationProfile#enable_stackdriver_logging}
 
 ---
 
@@ -3520,7 +3623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfig {
 	MessageFormat: *string,
@@ -3547,7 +3650,7 @@ MessageFormat *string
 
 Format of the message Possible values: ["MESSAGE_FORMAT_UNSPECIFIED", "PROTO", "JSON"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
 
 ---
 
@@ -3561,7 +3664,61 @@ Topic *string
 
 Name of the Pub/Sub topic to publish conversation events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
+
+---
+
+### GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig <a name="GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
+
+&googledialogflowconversationprofile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig {
+	MessageFormat: *string,
+	Topic: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig.property.messageFormat">MessageFormat</a></code> | <code>*string</code> | Format of message. Possible values: ["MESSAGE_FORMAT_UNSPECIFIED", "PROTO", "JSON"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig.property.topic">Topic</a></code> | <code>*string</code> | Name of the Pub/Sub topic to publish conversation events like CONVERSATION_STARTED as serialized ConversationEvent protos. |
+
+---
+
+##### `MessageFormat`<sup>Optional</sup> <a name="MessageFormat" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig.property.messageFormat"></a>
+
+```go
+MessageFormat *string
+```
+
+- *Type:* *string
+
+Format of message. Possible values: ["MESSAGE_FORMAT_UNSPECIFIED", "PROTO", "JSON"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
+
+---
+
+##### `Topic`<sup>Optional</sup> <a name="Topic" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig.property.topic"></a>
+
+```go
+Topic *string
+```
+
+- *Type:* *string
+
+Name of the Pub/Sub topic to publish conversation events like CONVERSATION_STARTED as serialized ConversationEvent protos.
+
+For telephony integration to receive notification, make sure either this topic is in the same project as the conversation or you grant service-<Conversation Project Number>@gcp-sa-dialogflow.iam.gserviceaccount.com the Dialogflow Service Agent role in the topic project.
+For chat integration to receive notification, make sure API caller has been granted the Dialogflow Service Agent role for the topic.
+Format: projects/<Project ID>/locations/<Location ID>/topics/<Topic ID>.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
 
 ---
 
@@ -3570,7 +3727,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileNotificationConfig {
 	MessageFormat: *string,
@@ -3597,7 +3754,7 @@ MessageFormat *string
 
 Format of the message Possible values: ["MESSAGE_FORMAT_UNSPECIFIED", "PROTO", "JSON"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#message_format GoogleDialogflowConversationProfile#message_format}
 
 ---
 
@@ -3611,7 +3768,7 @@ Topic *string
 
 Name of the Pub/Sub topic to publish conversation events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#topic GoogleDialogflowConversationProfile#topic}
 
 ---
 
@@ -3620,7 +3777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileSttConfig {
 	AudioEncoding: *string,
@@ -3657,7 +3814,7 @@ AudioEncoding *string
 
 Audio encoding of the audio content to process. Possible values: ["AUDIO_ENCODING_UNSPECIFIED", "AUDIO_ENCODING_LINEAR_16", "AUDIO_ENCODING_FLAC", "AUDIO_ENCODING_MULAW", "AUDIO_ENCODING_AMR", "AUDIO_ENCODING_AMR_WB", "AUDIO_ENCODING_OGG_OPUS", "AUDIOENCODING_SPEEX_WITH_HEADER_BYTE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#audio_encoding GoogleDialogflowConversationProfile#audio_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#audio_encoding GoogleDialogflowConversationProfile#audio_encoding}
 
 ---
 
@@ -3671,7 +3828,7 @@ EnableWordInfo interface{}
 
 If true, Dialogflow returns SpeechWordInfo in StreamingRecognitionResult with information about the recognized speech words.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#enable_word_info GoogleDialogflowConversationProfile#enable_word_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#enable_word_info GoogleDialogflowConversationProfile#enable_word_info}
 
 ---
 
@@ -3685,7 +3842,7 @@ LanguageCode *string
 
 The language of the supplied audio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#language_code GoogleDialogflowConversationProfile#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#language_code GoogleDialogflowConversationProfile#language_code}
 
 ---
 
@@ -3699,7 +3856,7 @@ Model *string
 
 Which Speech model to select. Leave this field unspecified to use Agent Speech settings for model selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#model GoogleDialogflowConversationProfile#model}
 
 ---
 
@@ -3713,7 +3870,7 @@ SampleRateHertz *f64
 
 Sample rate (in Hertz) of the audio content sent in the query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#sample_rate_hertz GoogleDialogflowConversationProfile#sample_rate_hertz}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#sample_rate_hertz GoogleDialogflowConversationProfile#sample_rate_hertz}
 
 ---
 
@@ -3727,7 +3884,7 @@ SpeechModelVariant *string
 
 The speech model used in speech to text. Possible values: ["SPEECH_MODEL_VARIANT_UNSPECIFIED", "USE_BEST_AVAILABLE", "USE_STANDARD", "USE_ENHANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#speech_model_variant GoogleDialogflowConversationProfile#speech_model_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#speech_model_variant GoogleDialogflowConversationProfile#speech_model_variant}
 
 ---
 
@@ -3741,7 +3898,7 @@ UseTimeoutBasedEndpointing interface{}
 
 Use timeout based endpointing, interpreting endpointer sensitivy as seconds of timeout value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#use_timeout_based_endpointing GoogleDialogflowConversationProfile#use_timeout_based_endpointing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#use_timeout_based_endpointing GoogleDialogflowConversationProfile#use_timeout_based_endpointing}
 
 ---
 
@@ -3750,7 +3907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileTimeouts {
 	Create: *string,
@@ -3763,9 +3920,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#create GoogleDialogflowConversationProfile#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#delete GoogleDialogflowConversationProfile#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#update GoogleDialogflowConversationProfile#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#create GoogleDialogflowConversationProfile#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#delete GoogleDialogflowConversationProfile#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#update GoogleDialogflowConversationProfile#update}. |
 
 ---
 
@@ -3777,7 +3934,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#create GoogleDialogflowConversationProfile#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#create GoogleDialogflowConversationProfile#create}.
 
 ---
 
@@ -3789,7 +3946,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#delete GoogleDialogflowConversationProfile#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#delete GoogleDialogflowConversationProfile#delete}.
 
 ---
 
@@ -3801,7 +3958,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#update GoogleDialogflowConversationProfile#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#update GoogleDialogflowConversationProfile#update}.
 
 ---
 
@@ -3810,13 +3967,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileTtsConfig {
 	EffectsProfileId: *[]*string,
 	Pitch: *f64,
 	SpeakingRate: *f64,
-	Voice: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfigVoice,
+	Voice: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfigVoice,
 	VolumeGainDb: *f64,
 }
 ```
@@ -3845,7 +4002,7 @@ An identifier which selects 'audio effects' profiles that are applied on (post s
 
 Effects are applied on top of each other in the order they are given.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#effects_profile_id GoogleDialogflowConversationProfile#effects_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#effects_profile_id GoogleDialogflowConversationProfile#effects_profile_id}
 
 ---
 
@@ -3859,7 +4016,7 @@ Pitch *f64
 
 Speaking pitch, in the range [-20.0, 20.0]. 20 means increase 20 semitones from the original pitch. -20 means decrease 20 semitones from the original pitch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#pitch GoogleDialogflowConversationProfile#pitch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#pitch GoogleDialogflowConversationProfile#pitch}
 
 ---
 
@@ -3873,7 +4030,7 @@ SpeakingRate *f64
 
 Speaking rate/speed, in the range [0.25, 4.0].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#speaking_rate GoogleDialogflowConversationProfile#speaking_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#speaking_rate GoogleDialogflowConversationProfile#speaking_rate}
 
 ---
 
@@ -3887,7 +4044,7 @@ Voice GoogleDialogflowConversationProfileTtsConfigVoice
 
 voice block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#voice GoogleDialogflowConversationProfile#voice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#voice GoogleDialogflowConversationProfile#voice}
 
 ---
 
@@ -3901,7 +4058,7 @@ VolumeGainDb *f64
 
 Volume gain (in dB) of the normal native volume supported by the specific voice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#volume_gain_db GoogleDialogflowConversationProfile#volume_gain_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#volume_gain_db GoogleDialogflowConversationProfile#volume_gain_db}
 
 ---
 
@@ -3910,7 +4067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfigVoice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 &googledialogflowconversationprofile.GoogleDialogflowConversationProfileTtsConfigVoice {
 	Name: *string,
@@ -3937,7 +4094,7 @@ Name *string
 
 The name of the voice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#name GoogleDialogflowConversationProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#name GoogleDialogflowConversationProfile#name}
 
 ---
 
@@ -3951,7 +4108,7 @@ SsmlGender *string
 
 The preferred gender of the voice. Possible values: ["SSML_VOICE_GENDER_UNSPECIFIED", "SSML_VOICE_GENDER_MALE", "SSML_VOICE_GENDER_FEMALE", "SSML_VOICE_GENDER_NEUTRAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile#ssml_gender GoogleDialogflowConversationProfile#ssml_gender}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile#ssml_gender GoogleDialogflowConversationProfile#ssml_gender}
 
 ---
 
@@ -3962,7 +4119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference
 ```
@@ -4262,7 +4419,7 @@ func InternalValue() GoogleDialogflowConversationProfileAutomatedAgentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationModelConfigOutputReference
 ```
@@ -4569,7 +4726,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference
 ```
@@ -4847,7 +5004,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsList
 ```
@@ -5007,7 +5164,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsOutputReference
 ```
@@ -5629,7 +5786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference
 ```
@@ -5965,7 +6122,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference
 ```
@@ -6243,7 +6400,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference
 ```
@@ -6556,7 +6713,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigDocumentQuerySourceOutputReference
 ```
@@ -6827,7 +6984,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigKnowledgeBaseQuerySourceOutputReference
 ```
@@ -7098,7 +7255,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigOutputReference
 ```
@@ -7615,7 +7772,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference
 ```
@@ -7893,7 +8050,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference
 ```
@@ -8171,7 +8328,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference
 ```
@@ -8478,7 +8635,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigEndUserSuggestionConfigOutputReference
 ```
@@ -8856,7 +9013,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationModelConfigOutputReference
 ```
@@ -9163,7 +9320,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsConversationProcessConfigOutputReference
 ```
@@ -9441,7 +9598,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsList
 ```
@@ -9601,7 +9758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsOutputReference
 ```
@@ -10223,7 +10380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigContextFilterSettingsOutputReference
 ```
@@ -10559,7 +10716,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceHumanAgentSideConfigOutputReference
 ```
@@ -10837,7 +10994,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigDialogflowQuerySourceOutputReference
 ```
@@ -11150,7 +11307,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigOutputReference
 ```
@@ -11583,7 +11740,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsQueryConfigSectionsOutputReference
 ```
@@ -11861,7 +12018,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionFeatureOutputReference
 ```
@@ -12139,7 +12296,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigFeatureConfigsSuggestionTriggerSettingsOutputReference
 ```
@@ -12446,7 +12603,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigHumanAgentSuggestionConfigOutputReference
 ```
@@ -12824,7 +12981,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigMessageAnalysisConfigOutputReference
 ```
@@ -13131,7 +13288,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigNotificationConfigOutputReference
 ```
@@ -13438,7 +13595,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentAssistantConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentAssistantConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentAssistantConfigOutputReference
 ```
@@ -13855,7 +14012,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentAssistantConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentHandoffConfigLivePersonConfigOutputReference
 ```
@@ -14126,7 +14283,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentHandoffConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileHumanAgentHandoffConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileHumanAgentHandoffConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileHumanAgentHandoffConfigOutputReference
 ```
@@ -14417,7 +14574,7 @@ func InternalValue() GoogleDialogflowConversationProfileHumanAgentHandoffConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileLoggingConfigOutputReference
 ```
@@ -14695,7 +14852,7 @@ func InternalValue() GoogleDialogflowConversationProfileLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference
 ```
@@ -14997,12 +15154,319 @@ func InternalValue() GoogleDialogflowConversationProfileNewMessageEventNotificat
 ---
 
 
+### GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference <a name="GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
+
+googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resetMessageFormat">ResetMessageFormat</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resetTopic">ResetTopic</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetMessageFormat` <a name="ResetMessageFormat" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resetMessageFormat"></a>
+
+```go
+func ResetMessageFormat()
+```
+
+##### `ResetTopic` <a name="ResetTopic" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.resetTopic"></a>
+
+```go
+func ResetTopic()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.messageFormatInput">MessageFormatInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.topicInput">TopicInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.messageFormat">MessageFormat</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.topic">Topic</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MessageFormatInput`<sup>Optional</sup> <a name="MessageFormatInput" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.messageFormatInput"></a>
+
+```go
+func MessageFormatInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TopicInput`<sup>Optional</sup> <a name="TopicInput" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.topicInput"></a>
+
+```go
+func TopicInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MessageFormat`<sup>Required</sup> <a name="MessageFormat" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.messageFormat"></a>
+
+```go
+func MessageFormat() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Topic`<sup>Required</sup> <a name="Topic" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.topic"></a>
+
+```go
+func Topic() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig">GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig</a>
+
+---
+
+
 ### GoogleDialogflowConversationProfileNotificationConfigOutputReference <a name="GoogleDialogflowConversationProfileNotificationConfigOutputReference" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileNotificationConfigOutputReference
 ```
@@ -15309,7 +15773,7 @@ func InternalValue() GoogleDialogflowConversationProfileNotificationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSttConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileSttConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileSttConfigOutputReference
 ```
@@ -15761,7 +16225,7 @@ func InternalValue() GoogleDialogflowConversationProfileSttConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileTimeoutsOutputReference
 ```
@@ -16097,7 +16561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileTtsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileTtsConfigOutputReference
 ```
@@ -16504,7 +16968,7 @@ func InternalValue() GoogleDialogflowConversationProfileTtsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileTtsConfigVoiceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile"
 
 googledialogflowconversationprofile.NewGoogleDialogflowConversationProfileTtsConfigVoiceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDialogflowConversationProfileTtsConfigVoiceOutputReference
 ```

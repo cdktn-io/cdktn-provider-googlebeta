@@ -4,12 +4,12 @@
 
 ### GoogleGkeHubScopeIamMember <a name="GoogleGkeHubScopeIamMember" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member google_gke_hub_scope_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member google_gke_hub_scope_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.NewGoogleGkeHubScopeIamMember(scope Construct, id *string, config GoogleGkeHubScopeIamMemberConfig) GoogleGkeHubScopeIamMember
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.GoogleGkeHubScopeIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleGkeHubScopeIamMember
 
 The id of the existing GoogleGkeHubScopeIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 &googlegkehubscopeiammember.GoogleGkeHubScopeIamMemberCondition {
 	Expression: *string,
@@ -879,9 +879,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#expression GoogleGkeHubScopeIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#title GoogleGkeHubScopeIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#description GoogleGkeHubScopeIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#expression GoogleGkeHubScopeIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#title GoogleGkeHubScopeIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#description GoogleGkeHubScopeIamMember#description}. |
 
 ---
 
@@ -893,7 +893,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#expression GoogleGkeHubScopeIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#expression GoogleGkeHubScopeIamMember#expression}.
 
 ---
 
@@ -905,7 +905,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#title GoogleGkeHubScopeIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#title GoogleGkeHubScopeIamMember#title}.
 
 ---
 
@@ -917,7 +917,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#description GoogleGkeHubScopeIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#description GoogleGkeHubScopeIamMember#description}.
 
 ---
 
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 &googlegkehubscopeiammember.GoogleGkeHubScopeIamMemberConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 	Member: *string,
 	Role: *string,
 	ScopeId: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -956,12 +956,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegk
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#member GoogleGkeHubScopeIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#role GoogleGkeHubScopeIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.scopeId">ScopeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#scope_id GoogleGkeHubScopeIamMember#scope_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#member GoogleGkeHubScopeIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#role GoogleGkeHubScopeIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.scopeId">ScopeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#scope_id GoogleGkeHubScopeIamMember#scope_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberCondition">GoogleGkeHubScopeIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#id GoogleGkeHubScopeIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#project GoogleGkeHubScopeIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#id GoogleGkeHubScopeIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#project GoogleGkeHubScopeIamMember#project}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#member GoogleGkeHubScopeIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#member GoogleGkeHubScopeIamMember#member}.
 
 ---
 
@@ -1055,7 +1055,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#role GoogleGkeHubScopeIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#role GoogleGkeHubScopeIamMember#role}.
 
 ---
 
@@ -1067,7 +1067,7 @@ ScopeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#scope_id GoogleGkeHubScopeIamMember#scope_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#scope_id GoogleGkeHubScopeIamMember#scope_id}.
 
 ---
 
@@ -1081,7 +1081,7 @@ Condition GoogleGkeHubScopeIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#condition GoogleGkeHubScopeIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#condition GoogleGkeHubScopeIamMember#condition}
 
 ---
 
@@ -1093,7 +1093,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#id GoogleGkeHubScopeIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#id GoogleGkeHubScopeIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1108,7 +1108,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_scope_iam_member#project GoogleGkeHubScopeIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_scope_iam_member#project GoogleGkeHubScopeIamMember#project}.
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeIamMember.GoogleGkeHubScopeIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubscopeiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubscopeiammember"
 
 googlegkehubscopeiammember.NewGoogleGkeHubScopeIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeHubScopeIamMemberConditionOutputReference
 ```

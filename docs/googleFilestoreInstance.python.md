@@ -4,7 +4,7 @@
 
 ### GoogleFilestoreInstance <a name="GoogleFilestoreInstance" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance google_filestore_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance google_filestore_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer"></a>
 
@@ -28,6 +28,7 @@ googleFilestoreInstance.GoogleFilestoreInstance(
   deletion_protection_enabled: bool | IResolvable = None,
   deletion_protection_reason: str = None,
   description: str = None,
+  desired_replica_state: str = None,
   directory_services: GoogleFilestoreInstanceDirectoryServices = None,
   id: str = None,
   initial_replication: GoogleFilestoreInstanceInitialReplication = None,
@@ -61,14 +62,15 @@ googleFilestoreInstance.GoogleFilestoreInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates whether the instance is protected against deletion. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.deletionProtectionReason">deletion_protection_reason</a></code> | <code>str</code> | The reason for enabling deletion protection. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.description">description</a></code> | <code>str</code> | A description of the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.desiredReplicaState">desired_replica_state</a></code> | <code>str</code> | The desired_replica_state field controls the state of a replica. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.directoryServices">directory_services</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices">GoogleFilestoreInstanceDirectoryServices</a></code> | directory_services block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.initialReplication">initial_replication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication">GoogleFilestoreInstanceInitialReplication</a></code> | initial_replication block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.kmsKeyName">kms_key_name</a></code> | <code>str</code> | KMS key name used for data encryption. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.location">location</a></code> | <code>str</code> | The name of the location of the instance. This can be a region for ENTERPRISE tier instances. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.performanceConfig">performance_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig">GoogleFilestoreInstancePerformanceConfig</a></code> | performance_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.protocol">protocol</a></code> | <code>str</code> | Either NFSv3, for using NFS version 3 as file sharing protocol, or NFSv4.1, for using NFS version 4.1 as file sharing protocol. NFSv4.1 can be used with HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE. The default is NFSv3. Default value: "NFS_V3" Possible values: ["NFS_V3", "NFS_V4_1"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts">GoogleFilestoreInstanceTimeouts</a></code> | timeouts block. |
@@ -142,7 +144,7 @@ Must be unique amongst siblings in the same scope
 
 file_shares block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#file_shares GoogleFilestoreInstance#file_shares}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#file_shares GoogleFilestoreInstance#file_shares}
 
 ---
 
@@ -152,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
 
 ---
 
@@ -162,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#networks GoogleFilestoreInstance#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#networks GoogleFilestoreInstance#networks}
 
 ---
 
@@ -172,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The service tier of the instance. Possible values include: STANDARD, PREMIUM, BASIC_HDD, BASIC_SSD, HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#tier GoogleFilestoreInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#tier GoogleFilestoreInstance#tier}
 
 ---
 
@@ -182,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the instance is protected against deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#deletion_protection_enabled GoogleFilestoreInstance#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#deletion_protection_enabled GoogleFilestoreInstance#deletion_protection_enabled}
 
 ---
 
@@ -192,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The reason for enabling deletion protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#deletion_protection_reason GoogleFilestoreInstance#deletion_protection_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#deletion_protection_reason GoogleFilestoreInstance#deletion_protection_reason}
 
 ---
 
@@ -202,7 +204,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#description GoogleFilestoreInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#description GoogleFilestoreInstance#description}
+
+---
+
+##### `desired_replica_state`<sup>Optional</sup> <a name="desired_replica_state" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.Initializer.parameter.desiredReplicaState"></a>
+
+- *Type:* str
+
+The desired_replica_state field controls the state of a replica.
+
+Terraform will attempt to make the actual state of the replica match the desired state. Default value: "READY" Possible values: ["PAUSED", "READY"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#desired_replica_state GoogleFilestoreInstance#desired_replica_state}
 
 ---
 
@@ -212,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 directory_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#directory_services GoogleFilestoreInstance#directory_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#directory_services GoogleFilestoreInstance#directory_services}
 
 ---
 
@@ -220,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -233,7 +247,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 initial_replication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#initial_replication GoogleFilestoreInstance#initial_replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#initial_replication GoogleFilestoreInstance#initial_replication}
 
 ---
 
@@ -243,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 KMS key name used for data encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#kms_key_name GoogleFilestoreInstance#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#kms_key_name GoogleFilestoreInstance#kms_key_name}
 
 ---
 
@@ -256,7 +270,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#labels GoogleFilestoreInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#labels GoogleFilestoreInstance#labels}
 
 ---
 
@@ -266,7 +280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the location of the instance. This can be a region for ENTERPRISE tier instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#location GoogleFilestoreInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#location GoogleFilestoreInstance#location}
 
 ---
 
@@ -276,7 +290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#performance_config GoogleFilestoreInstance#performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#performance_config GoogleFilestoreInstance#performance_config}
 
 ---
 
@@ -284,7 +298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}.
 
 ---
 
@@ -294,7 +308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Either NFSv3, for using NFS version 3 as file sharing protocol, or NFSv4.1, for using NFS version 4.1 as file sharing protocol. NFSv4.1 can be used with HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE. The default is NFSv3. Default value: "NFS_V3" Possible values: ["NFS_V3", "NFS_V4_1"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#protocol GoogleFilestoreInstance#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#protocol GoogleFilestoreInstance#protocol}
 
 ---
 
@@ -314,7 +328,7 @@ at create time and modifying this field after creation
 will trigger recreation. To apply tags to an existing
 resource, see the 'google_tags_tag_value' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#tags GoogleFilestoreInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#tags GoogleFilestoreInstance#tags}
 
 ---
 
@@ -324,7 +338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#timeouts GoogleFilestoreInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#timeouts GoogleFilestoreInstance#timeouts}
 
 ---
 
@@ -334,7 +348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Filestore zone of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#zone GoogleFilestoreInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#zone GoogleFilestoreInstance#zone}
 
 ---
 
@@ -375,6 +389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDeletionProtectionEnabled">reset_deletion_protection_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDeletionProtectionReason">reset_deletion_protection_reason</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDesiredReplicaState">reset_desired_replica_state</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDirectoryServices">reset_directory_services</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetInitialReplication">reset_initial_replication</a></code> | *No description.* |
@@ -752,7 +767,7 @@ def put_directory_services(
 
 ldap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#ldap GoogleFilestoreInstance#ldap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#ldap GoogleFilestoreInstance#ldap}
 
 ---
 
@@ -763,7 +778,8 @@ def put_file_shares(
   capacity_gb: typing.Union[int, float],
   name: str,
   nfs_export_options: IResolvable | typing.List[GoogleFilestoreInstanceFileSharesNfsExportOptions] = None,
-  source_backup: str = None
+  source_backup: str = None,
+  source_backupdr_backup: str = None
 ) -> None
 ```
 
@@ -776,7 +792,7 @@ File share capacity in GiB.
 This must be at least 1024 GiB
 for the standard tier, or 2560 GiB for the premium tier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#capacity_gb GoogleFilestoreInstance#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#capacity_gb GoogleFilestoreInstance#capacity_gb}
 
 ---
 
@@ -786,7 +802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the fileshare (16 characters or less).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
 
 ---
 
@@ -796,7 +812,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 nfs_export_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#nfs_export_options GoogleFilestoreInstance#nfs_export_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#nfs_export_options GoogleFilestoreInstance#nfs_export_options}
 
 ---
 
@@ -806,7 +822,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the backup, in the format projects/{projectId}/locations/{locationId}/backups/{backupId}, that this file share has been restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#source_backup GoogleFilestoreInstance#source_backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#source_backup GoogleFilestoreInstance#source_backup}
+
+---
+
+###### `source_backupdr_backup`<sup>Optional</sup> <a name="source_backupdr_backup" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.putFileShares.parameter.sourceBackupdrBackup"></a>
+
+- *Type:* str
+
+The resource name of the BackupDR backup, in the format 'projects/{project_id}/locations/{location_id}/backupVaults/{backupvault_id}/dataSources/{datasource_id}/backups/{backup_id}', that this file share has been restored from.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#source_backupdr_backup GoogleFilestoreInstance#source_backupdr_backup}
 
 ---
 
@@ -825,7 +851,7 @@ def put_initial_replication(
 
 replicas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#replicas GoogleFilestoreInstance#replicas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#replicas GoogleFilestoreInstance#replicas}
 
 ---
 
@@ -835,7 +861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The replication role. Default value: "STANDBY" Possible values: ["ROLE_UNSPECIFIED", "ACTIVE", "STANDBY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#role GoogleFilestoreInstance#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#role GoogleFilestoreInstance#role}
 
 ---
 
@@ -868,7 +894,7 @@ def put_performance_config(
 
 fixed_iops block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#fixed_iops GoogleFilestoreInstance#fixed_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#fixed_iops GoogleFilestoreInstance#fixed_iops}
 
 ---
 
@@ -878,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 iops_per_tb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#iops_per_tb GoogleFilestoreInstance#iops_per_tb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#iops_per_tb GoogleFilestoreInstance#iops_per_tb}
 
 ---
 
@@ -896,7 +922,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}.
 
 ---
 
@@ -904,7 +930,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}.
 
 ---
 
@@ -912,7 +938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}.
 
 ---
 
@@ -932,6 +958,12 @@ def reset_deletion_protection_reason() -> None
 
 ```python
 def reset_description() -> None
+```
+
+##### `reset_desired_replica_state` <a name="reset_desired_replica_state" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDesiredReplicaState"></a>
+
+```python
+def reset_desired_replica_state() -> None
 ```
 
 ##### `reset_directory_services` <a name="reset_directory_services" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.resetDirectoryServices"></a>
@@ -1120,7 +1152,7 @@ The construct id used in the generated config for the GoogleFilestoreInstance to
 
 The id of the existing GoogleFilestoreInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1164,6 +1196,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.deletionProtectionEnabledInput">deletion_protection_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.deletionProtectionReasonInput">deletion_protection_reason_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.desiredReplicaStateInput">desired_replica_state_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.directoryServicesInput">directory_services_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices">GoogleFilestoreInstanceDirectoryServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.fileSharesInput">file_shares_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares">GoogleFilestoreInstanceFileShares</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -1183,6 +1216,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.deletionProtectionReason">deletion_protection_reason</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.desiredReplicaState">desired_replica_state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.kmsKeyName">kms_key_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -1478,6 +1512,16 @@ description_input: str
 
 ---
 
+##### `desired_replica_state_input`<sup>Optional</sup> <a name="desired_replica_state_input" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.desiredReplicaStateInput"></a>
+
+```python
+desired_replica_state_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `directory_services_input`<sup>Optional</sup> <a name="directory_services_input" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.directoryServicesInput"></a>
 
 ```python
@@ -1668,6 +1712,16 @@ description: str
 
 ---
 
+##### `desired_replica_state`<sup>Required</sup> <a name="desired_replica_state" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.desiredReplicaState"></a>
+
+```python
+desired_replica_state: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance.property.id"></a>
 
 ```python
@@ -1810,6 +1864,7 @@ googleFilestoreInstance.GoogleFilestoreInstanceConfig(
   deletion_protection_enabled: bool | IResolvable = None,
   deletion_protection_reason: str = None,
   description: str = None,
+  desired_replica_state: str = None,
   directory_services: GoogleFilestoreInstanceDirectoryServices = None,
   id: str = None,
   initial_replication: GoogleFilestoreInstanceInitialReplication = None,
@@ -1843,14 +1898,15 @@ googleFilestoreInstance.GoogleFilestoreInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates whether the instance is protected against deletion. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.deletionProtectionReason">deletion_protection_reason</a></code> | <code>str</code> | The reason for enabling deletion protection. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.description">description</a></code> | <code>str</code> | A description of the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.desiredReplicaState">desired_replica_state</a></code> | <code>str</code> | The desired_replica_state field controls the state of a replica. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.directoryServices">directory_services</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices">GoogleFilestoreInstanceDirectoryServices</a></code> | directory_services block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.initialReplication">initial_replication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication">GoogleFilestoreInstanceInitialReplication</a></code> | initial_replication block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.kmsKeyName">kms_key_name</a></code> | <code>str</code> | KMS key name used for data encryption. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.location">location</a></code> | <code>str</code> | The name of the location of the instance. This can be a region for ENTERPRISE tier instances. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.performanceConfig">performance_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig">GoogleFilestoreInstancePerformanceConfig</a></code> | performance_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.protocol">protocol</a></code> | <code>str</code> | Either NFSv3, for using NFS version 3 as file sharing protocol, or NFSv4.1, for using NFS version 4.1 as file sharing protocol. NFSv4.1 can be used with HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE. The default is NFSv3. Default value: "NFS_V3" Possible values: ["NFS_V3", "NFS_V4_1"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts">GoogleFilestoreInstanceTimeouts</a></code> | timeouts block. |
@@ -1938,7 +1994,7 @@ file_shares: GoogleFilestoreInstanceFileShares
 
 file_shares block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#file_shares GoogleFilestoreInstance#file_shares}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#file_shares GoogleFilestoreInstance#file_shares}
 
 ---
 
@@ -1952,7 +2008,7 @@ name: str
 
 The resource name of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
 
 ---
 
@@ -1966,7 +2022,7 @@ networks: IResolvable | typing.List[GoogleFilestoreInstanceNetworks]
 
 networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#networks GoogleFilestoreInstance#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#networks GoogleFilestoreInstance#networks}
 
 ---
 
@@ -1980,7 +2036,7 @@ tier: str
 
 The service tier of the instance. Possible values include: STANDARD, PREMIUM, BASIC_HDD, BASIC_SSD, HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#tier GoogleFilestoreInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#tier GoogleFilestoreInstance#tier}
 
 ---
 
@@ -1994,7 +2050,7 @@ deletion_protection_enabled: bool | IResolvable
 
 Indicates whether the instance is protected against deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#deletion_protection_enabled GoogleFilestoreInstance#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#deletion_protection_enabled GoogleFilestoreInstance#deletion_protection_enabled}
 
 ---
 
@@ -2008,7 +2064,7 @@ deletion_protection_reason: str
 
 The reason for enabling deletion protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#deletion_protection_reason GoogleFilestoreInstance#deletion_protection_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#deletion_protection_reason GoogleFilestoreInstance#deletion_protection_reason}
 
 ---
 
@@ -2022,7 +2078,23 @@ description: str
 
 A description of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#description GoogleFilestoreInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#description GoogleFilestoreInstance#description}
+
+---
+
+##### `desired_replica_state`<sup>Optional</sup> <a name="desired_replica_state" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig.property.desiredReplicaState"></a>
+
+```python
+desired_replica_state: str
+```
+
+- *Type:* str
+
+The desired_replica_state field controls the state of a replica.
+
+Terraform will attempt to make the actual state of the replica match the desired state. Default value: "READY" Possible values: ["PAUSED", "READY"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#desired_replica_state GoogleFilestoreInstance#desired_replica_state}
 
 ---
 
@@ -2036,7 +2108,7 @@ directory_services: GoogleFilestoreInstanceDirectoryServices
 
 directory_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#directory_services GoogleFilestoreInstance#directory_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#directory_services GoogleFilestoreInstance#directory_services}
 
 ---
 
@@ -2048,7 +2120,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#id GoogleFilestoreInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2065,7 +2137,7 @@ initial_replication: GoogleFilestoreInstanceInitialReplication
 
 initial_replication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#initial_replication GoogleFilestoreInstance#initial_replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#initial_replication GoogleFilestoreInstance#initial_replication}
 
 ---
 
@@ -2079,7 +2151,7 @@ kms_key_name: str
 
 KMS key name used for data encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#kms_key_name GoogleFilestoreInstance#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#kms_key_name GoogleFilestoreInstance#kms_key_name}
 
 ---
 
@@ -2096,7 +2168,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#labels GoogleFilestoreInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#labels GoogleFilestoreInstance#labels}
 
 ---
 
@@ -2110,7 +2182,7 @@ location: str
 
 The name of the location of the instance. This can be a region for ENTERPRISE tier instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#location GoogleFilestoreInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#location GoogleFilestoreInstance#location}
 
 ---
 
@@ -2124,7 +2196,7 @@ performance_config: GoogleFilestoreInstancePerformanceConfig
 
 performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#performance_config GoogleFilestoreInstance#performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#performance_config GoogleFilestoreInstance#performance_config}
 
 ---
 
@@ -2136,7 +2208,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#project GoogleFilestoreInstance#project}.
 
 ---
 
@@ -2150,7 +2222,7 @@ protocol: str
 
 Either NFSv3, for using NFS version 3 as file sharing protocol, or NFSv4.1, for using NFS version 4.1 as file sharing protocol. NFSv4.1 can be used with HIGH_SCALE_SSD, ZONAL, REGIONAL and ENTERPRISE. The default is NFSv3. Default value: "NFS_V3" Possible values: ["NFS_V3", "NFS_V4_1"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#protocol GoogleFilestoreInstance#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#protocol GoogleFilestoreInstance#protocol}
 
 ---
 
@@ -2174,7 +2246,7 @@ at create time and modifying this field after creation
 will trigger recreation. To apply tags to an existing
 resource, see the 'google_tags_tag_value' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#tags GoogleFilestoreInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#tags GoogleFilestoreInstance#tags}
 
 ---
 
@@ -2188,7 +2260,7 @@ timeouts: GoogleFilestoreInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#timeouts GoogleFilestoreInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#timeouts GoogleFilestoreInstance#timeouts}
 
 ---
 
@@ -2202,7 +2274,7 @@ zone: str
 
 The name of the Filestore zone of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#zone GoogleFilestoreInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#zone GoogleFilestoreInstance#zone}
 
 ---
 
@@ -2236,7 +2308,7 @@ ldap: GoogleFilestoreInstanceDirectoryServicesLdap
 
 ldap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#ldap GoogleFilestoreInstance#ldap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#ldap GoogleFilestoreInstance#ldap}
 
 ---
 
@@ -2276,7 +2348,7 @@ domain: str
 
 The LDAP domain name in the format of 'my-domain.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#domain GoogleFilestoreInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#domain GoogleFilestoreInstance#domain}
 
 ---
 
@@ -2297,7 +2369,7 @@ The LDAP servers names can come with two formats:
    All servers names must be in the same format: either all DNS names or all
    IP addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#servers GoogleFilestoreInstance#servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#servers GoogleFilestoreInstance#servers}
 
 ---
 
@@ -2315,7 +2387,7 @@ This parameter is a hint
 to allow faster lookup in the LDAP namespace. In case that this parameter
 is not provided, Filestore instance will query the whole LDAP namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#groups_ou GoogleFilestoreInstance#groups_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#groups_ou GoogleFilestoreInstance#groups_ou}
 
 ---
 
@@ -2333,7 +2405,7 @@ This parameter is a hint
 to allow faster lookup in the LDAP namespace. In case that this parameter
 is not provided, Filestore instance will query the whole LDAP namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#users_ou GoogleFilestoreInstance#users_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#users_ou GoogleFilestoreInstance#users_ou}
 
 ---
 
@@ -2370,7 +2442,8 @@ googleFilestoreInstance.GoogleFilestoreInstanceFileShares(
   capacity_gb: typing.Union[int, float],
   name: str,
   nfs_export_options: IResolvable | typing.List[GoogleFilestoreInstanceFileSharesNfsExportOptions] = None,
-  source_backup: str = None
+  source_backup: str = None,
+  source_backupdr_backup: str = None
 )
 ```
 
@@ -2382,6 +2455,7 @@ googleFilestoreInstance.GoogleFilestoreInstanceFileShares(
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.property.name">name</a></code> | <code>str</code> | The name of the fileshare (16 characters or less). |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.property.nfsExportOptions">nfs_export_options</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptions">GoogleFilestoreInstanceFileSharesNfsExportOptions</a>]</code> | nfs_export_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.property.sourceBackup">source_backup</a></code> | <code>str</code> | The resource name of the backup, in the format projects/{projectId}/locations/{locationId}/backups/{backupId}, that this file share has been restored from. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.property.sourceBackupdrBackup">source_backupdr_backup</a></code> | <code>str</code> | The resource name of the BackupDR backup, in the format 'projects/{project_id}/locations/{location_id}/backupVaults/{backupvault_id}/dataSources/{datasource_id}/backups/{backup_id}', that this file share has been restored from. |
 
 ---
 
@@ -2398,7 +2472,7 @@ File share capacity in GiB.
 This must be at least 1024 GiB
 for the standard tier, or 2560 GiB for the premium tier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#capacity_gb GoogleFilestoreInstance#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#capacity_gb GoogleFilestoreInstance#capacity_gb}
 
 ---
 
@@ -2412,7 +2486,7 @@ name: str
 
 The name of the fileshare (16 characters or less).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#name GoogleFilestoreInstance#name}
 
 ---
 
@@ -2426,7 +2500,7 @@ nfs_export_options: IResolvable | typing.List[GoogleFilestoreInstanceFileSharesN
 
 nfs_export_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#nfs_export_options GoogleFilestoreInstance#nfs_export_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#nfs_export_options GoogleFilestoreInstance#nfs_export_options}
 
 ---
 
@@ -2440,7 +2514,21 @@ source_backup: str
 
 The resource name of the backup, in the format projects/{projectId}/locations/{locationId}/backups/{backupId}, that this file share has been restored from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#source_backup GoogleFilestoreInstance#source_backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#source_backup GoogleFilestoreInstance#source_backup}
+
+---
+
+##### `source_backupdr_backup`<sup>Optional</sup> <a name="source_backupdr_backup" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares.property.sourceBackupdrBackup"></a>
+
+```python
+source_backupdr_backup: str
+```
+
+- *Type:* str
+
+The resource name of the BackupDR backup, in the format 'projects/{project_id}/locations/{location_id}/backupVaults/{backupvault_id}/dataSources/{datasource_id}/backups/{backup_id}', that this file share has been restored from.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#source_backupdr_backup GoogleFilestoreInstance#source_backupdr_backup}
 
 ---
 
@@ -2486,7 +2574,7 @@ Either READ_ONLY, for allowing only read requests on the exported directory, or 
 
 The default is READ_WRITE. Default value: "READ_WRITE" Possible values: ["READ_ONLY", "READ_WRITE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#access_mode GoogleFilestoreInstance#access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#access_mode GoogleFilestoreInstance#access_mode}
 
 ---
 
@@ -2503,7 +2591,7 @@ An integer representing the anonymous group id with a default value of 65534.
 Anon_gid may only be set with squashMode of ROOT_SQUASH. An error will be returned
 if this field is specified for other squashMode settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#anon_gid GoogleFilestoreInstance#anon_gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#anon_gid GoogleFilestoreInstance#anon_gid}
 
 ---
 
@@ -2520,7 +2608,7 @@ An integer representing the anonymous user id with a default value of 65534.
 Anon_uid may only be set with squashMode of ROOT_SQUASH. An error will be returned
 if this field is specified for other squashMode settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#anon_uid GoogleFilestoreInstance#anon_uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#anon_uid GoogleFilestoreInstance#anon_uid}
 
 ---
 
@@ -2537,7 +2625,7 @@ List of either IPv4 addresses, or ranges in CIDR notation which may mount the fi
 Overlapping IP ranges are not allowed, both within and across NfsExportOptions. An error will be returned.
 The limit is 64 IP ranges/addresses for each FileShareConfig among all NfsExportOptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#ip_ranges GoogleFilestoreInstance#ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#ip_ranges GoogleFilestoreInstance#ip_ranges}
 
 ---
 
@@ -2551,7 +2639,7 @@ network: str
 
 The source VPC network for 'ip_ranges'. Required for instances using Private Service Connect, optional otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#network GoogleFilestoreInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#network GoogleFilestoreInstance#network}
 
 ---
 
@@ -2567,7 +2655,7 @@ Either NO_ROOT_SQUASH, for allowing root access on the exported directory, or RO
 
 The default is NO_ROOT_SQUASH. Default value: "NO_ROOT_SQUASH" Possible values: ["NO_ROOT_SQUASH", "ROOT_SQUASH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#squash_mode GoogleFilestoreInstance#squash_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#squash_mode GoogleFilestoreInstance#squash_mode}
 
 ---
 
@@ -2603,7 +2691,7 @@ replicas: IResolvable | typing.List[GoogleFilestoreInstanceInitialReplicationRep
 
 replicas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#replicas GoogleFilestoreInstance#replicas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#replicas GoogleFilestoreInstance#replicas}
 
 ---
 
@@ -2617,7 +2705,7 @@ role: str
 
 The replication role. Default value: "STANDBY" Possible values: ["ROLE_UNSPECIFIED", "ACTIVE", "STANDBY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#role GoogleFilestoreInstance#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#role GoogleFilestoreInstance#role}
 
 ---
 
@@ -2651,7 +2739,7 @@ peer_instance: str
 
 The peer instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#peer_instance GoogleFilestoreInstance#peer_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#peer_instance GoogleFilestoreInstance#peer_instance}
 
 ---
 
@@ -2693,7 +2781,7 @@ modes: typing.List[str]
 
 IP versions for which the instance has IP addresses assigned. Possible values: ["ADDRESS_MODE_UNSPECIFIED", "MODE_IPV4", "MODE_IPV6"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#modes GoogleFilestoreInstance#modes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#modes GoogleFilestoreInstance#modes}
 
 ---
 
@@ -2707,7 +2795,7 @@ network: str
 
 The name of the GCE VPC network to which the instance is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#network GoogleFilestoreInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#network GoogleFilestoreInstance#network}
 
 ---
 
@@ -2724,7 +2812,7 @@ The network connect mode of the Filestore instance.
 If not provided, the connect mode defaults to
 DIRECT_PEERING. Default value: "DIRECT_PEERING" Possible values: ["DIRECT_PEERING", "PRIVATE_SERVICE_ACCESS", "PRIVATE_SERVICE_CONNECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#connect_mode GoogleFilestoreInstance#connect_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#connect_mode GoogleFilestoreInstance#connect_mode}
 
 ---
 
@@ -2738,7 +2826,7 @@ psc_config: GoogleFilestoreInstanceNetworksPscConfig
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#psc_config GoogleFilestoreInstance#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#psc_config GoogleFilestoreInstance#psc_config}
 
 ---
 
@@ -2752,7 +2840,7 @@ reserved_ip_range: str
 
 A /29 CIDR block that identifies the range of IP addresses reserved for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#reserved_ip_range GoogleFilestoreInstance#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#reserved_ip_range GoogleFilestoreInstance#reserved_ip_range}
 
 ---
 
@@ -2790,7 +2878,7 @@ This is optional, and only relevant in case the network
 is a shared VPC. If this is not specified, the endpoint would be set up
 in the VPC host project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#endpoint_project GoogleFilestoreInstance#endpoint_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#endpoint_project GoogleFilestoreInstance#endpoint_project}
 
 ---
 
@@ -2826,7 +2914,7 @@ fixed_iops: GoogleFilestoreInstancePerformanceConfigFixedIops
 
 fixed_iops block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#fixed_iops GoogleFilestoreInstance#fixed_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#fixed_iops GoogleFilestoreInstance#fixed_iops}
 
 ---
 
@@ -2840,7 +2928,7 @@ iops_per_tb: GoogleFilestoreInstancePerformanceConfigIopsPerTb
 
 iops_per_tb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#iops_per_tb GoogleFilestoreInstance#iops_per_tb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#iops_per_tb GoogleFilestoreInstance#iops_per_tb}
 
 ---
 
@@ -2874,7 +2962,7 @@ max_iops: typing.Union[int, float]
 
 The number of IOPS to provision for the instance. max_iops must be in multiple of 1000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#max_iops GoogleFilestoreInstance#max_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#max_iops GoogleFilestoreInstance#max_iops}
 
 ---
 
@@ -2912,7 +3000,7 @@ The instance max IOPS
 will be changed dynamically based on the instance
 capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#max_iops_per_tb GoogleFilestoreInstance#max_iops_per_tb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#max_iops_per_tb GoogleFilestoreInstance#max_iops_per_tb}
 
 ---
 
@@ -2934,9 +3022,9 @@ googleFilestoreInstance.GoogleFilestoreInstanceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}. |
 
 ---
 
@@ -2948,7 +3036,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#create GoogleFilestoreInstance#create}.
 
 ---
 
@@ -2960,7 +3048,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#delete GoogleFilestoreInstance#delete}.
 
 ---
 
@@ -2972,7 +3060,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#update GoogleFilestoreInstance#update}.
 
 ---
 
@@ -3601,7 +3689,7 @@ def put_ldap(
 
 The LDAP domain name in the format of 'my-domain.com'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#domain GoogleFilestoreInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#domain GoogleFilestoreInstance#domain}
 
 ---
 
@@ -3618,7 +3706,7 @@ The LDAP servers names can come with two formats:
    All servers names must be in the same format: either all DNS names or all
    IP addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#servers GoogleFilestoreInstance#servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#servers GoogleFilestoreInstance#servers}
 
 ---
 
@@ -3632,7 +3720,7 @@ This parameter is a hint
 to allow faster lookup in the LDAP namespace. In case that this parameter
 is not provided, Filestore instance will query the whole LDAP namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#groups_ou GoogleFilestoreInstance#groups_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#groups_ou GoogleFilestoreInstance#groups_ou}
 
 ---
 
@@ -3646,7 +3734,7 @@ This parameter is a hint
 to allow faster lookup in the LDAP namespace. In case that this parameter
 is not provided, Filestore instance will query the whole LDAP namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#users_ou GoogleFilestoreInstance#users_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#users_ou GoogleFilestoreInstance#users_ou}
 
 ---
 
@@ -5390,6 +5478,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.putNfsExportOptions">put_nfs_export_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.resetNfsExportOptions">reset_nfs_export_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.resetSourceBackup">reset_source_backup</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.resetSourceBackupdrBackup">reset_source_backupdr_backup</a></code> | *No description.* |
 
 ---
 
@@ -5591,6 +5680,12 @@ def reset_nfs_export_options() -> None
 def reset_source_backup() -> None
 ```
 
+##### `reset_source_backupdr_backup` <a name="reset_source_backupdr_backup" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.resetSourceBackupdrBackup"></a>
+
+```python
+def reset_source_backupdr_backup() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5602,10 +5697,12 @@ def reset_source_backup() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.capacityGbInput">capacity_gb_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.nfsExportOptionsInput">nfs_export_options_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptions">GoogleFilestoreInstanceFileSharesNfsExportOptions</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackupInput">source_backupdr_backup_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupInput">source_backup_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.capacityGb">capacity_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackup">source_backup</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackup">source_backupdr_backup</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares">GoogleFilestoreInstanceFileShares</a></code> | *No description.* |
 
 ---
@@ -5674,6 +5771,16 @@ nfs_export_options_input: IResolvable | typing.List[GoogleFilestoreInstanceFileS
 
 ---
 
+##### `source_backupdr_backup_input`<sup>Optional</sup> <a name="source_backupdr_backup_input" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackupInput"></a>
+
+```python
+source_backupdr_backup_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `source_backup_input`<sup>Optional</sup> <a name="source_backup_input" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupInput"></a>
 
 ```python
@@ -5708,6 +5815,16 @@ name: str
 
 ```python
 source_backup: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_backupdr_backup`<sup>Required</sup> <a name="source_backupdr_backup" id="@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference.property.sourceBackupdrBackup"></a>
+
+```python
+source_backupdr_backup: str
 ```
 
 - *Type:* str
@@ -6998,7 +7115,7 @@ This is optional, and only relevant in case the network
 is a shared VPC. If this is not specified, the endpoint would be set up
 in the VPC host project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#endpoint_project GoogleFilestoreInstance#endpoint_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#endpoint_project GoogleFilestoreInstance#endpoint_project}
 
 ---
 
@@ -8342,7 +8459,7 @@ def put_fixed_iops(
 
 The number of IOPS to provision for the instance. max_iops must be in multiple of 1000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#max_iops GoogleFilestoreInstance#max_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#max_iops GoogleFilestoreInstance#max_iops}
 
 ---
 
@@ -8364,7 +8481,7 @@ The instance max IOPS
 will be changed dynamically based on the instance
 capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#max_iops_per_tb GoogleFilestoreInstance#max_iops_per_tb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance#max_iops_per_tb GoogleFilestoreInstance#max_iops_per_tb}
 
 ---
 

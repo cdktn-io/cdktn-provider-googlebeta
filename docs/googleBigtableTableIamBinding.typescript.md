@@ -4,7 +4,7 @@
 
 ### GoogleBigtableTableIamBinding <a name="GoogleBigtableTableIamBinding" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding google_bigtable_table_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding google_bigtable_table_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.Initializer"></a>
 
@@ -77,8 +77,6 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.putCondition">putCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetCondition">resetCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetInstance">resetInstance</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetInstanceName">resetInstanceName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetProject">resetProject</a></code> | *No description.* |
 
 ---
@@ -416,18 +414,6 @@ public resetCondition(): void
 public resetId(): void
 ```
 
-##### `resetInstance` <a name="resetInstance" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetInstance"></a>
-
-```typescript
-public resetInstance(): void
-```
-
-##### `resetInstanceName` <a name="resetInstanceName" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetInstanceName"></a>
-
-```typescript
-public resetInstanceName(): void
-```
-
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.resetProject"></a>
 
 ```typescript
@@ -537,7 +523,7 @@ The construct id used in the generated config for the GoogleBigtableTableIamBind
 
 The id of the existing GoogleBigtableTableIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -571,14 +557,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.etag">etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition">GoogleBigtableTableIamBindingCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instanceInput">instanceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instanceNameInput">instanceNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.membersInput">membersInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.tableInput">tableInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instance">instance</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instanceName">instanceName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.members">members</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.project">project</a></code> | <code>string</code> | *No description.* |
@@ -769,16 +753,6 @@ public readonly idInput: string;
 
 ---
 
-##### `instanceInput`<sup>Optional</sup> <a name="instanceInput" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instanceInput"></a>
-
-```typescript
-public readonly instanceInput: string;
-```
-
-- *Type:* string
-
----
-
 ##### `instanceNameInput`<sup>Optional</sup> <a name="instanceNameInput" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instanceNameInput"></a>
 
 ```typescript
@@ -833,16 +807,6 @@ public readonly tableInput: string;
 
 ```typescript
 public readonly id: string;
-```
-
-- *Type:* string
-
----
-
-##### `instance`<sup>Required</sup> <a name="instance" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding.property.instance"></a>
-
-```typescript
-public readonly instance: string;
 ```
 
 - *Type:* string
@@ -933,9 +897,9 @@ const googleBigtableTableIamBindingCondition: googleBigtableTableIamBinding.Goog
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#expression GoogleBigtableTableIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#title GoogleBigtableTableIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#description GoogleBigtableTableIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#expression GoogleBigtableTableIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#title GoogleBigtableTableIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#description GoogleBigtableTableIamBinding#description}. |
 
 ---
 
@@ -947,7 +911,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#expression GoogleBigtableTableIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#expression GoogleBigtableTableIamBinding#expression}.
 
 ---
 
@@ -959,7 +923,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#title GoogleBigtableTableIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#title GoogleBigtableTableIamBinding#title}.
 
 ---
 
@@ -971,7 +935,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#description GoogleBigtableTableIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#description GoogleBigtableTableIamBinding#description}.
 
 ---
 
@@ -996,14 +960,13 @@ const googleBigtableTableIamBindingConfig: googleBigtableTableIamBinding.GoogleB
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#members GoogleBigtableTableIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#role GoogleBigtableTableIamBinding#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.table">table</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#table GoogleBigtableTableIamBinding#table}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instanceName">instanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#instance_name GoogleBigtableTableIamBinding#instance_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#members GoogleBigtableTableIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#role GoogleBigtableTableIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.table">table</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#table GoogleBigtableTableIamBinding#table}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition">GoogleBigtableTableIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#id GoogleBigtableTableIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instance">instance</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#instance GoogleBigtableTableIamBinding#instance}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instanceName">instanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#instance_name GoogleBigtableTableIamBinding#instance_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#project GoogleBigtableTableIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#id GoogleBigtableTableIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#project GoogleBigtableTableIamBinding#project}. |
 
 ---
 
@@ -1077,6 +1040,18 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
+##### `instanceName`<sup>Required</sup> <a name="instanceName" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instanceName"></a>
+
+```typescript
+public readonly instanceName: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#instance_name GoogleBigtableTableIamBinding#instance_name}.
+
+---
+
 ##### `members`<sup>Required</sup> <a name="members" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.members"></a>
 
 ```typescript
@@ -1085,7 +1060,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#members GoogleBigtableTableIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#members GoogleBigtableTableIamBinding#members}.
 
 ---
 
@@ -1097,7 +1072,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#role GoogleBigtableTableIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#role GoogleBigtableTableIamBinding#role}.
 
 ---
 
@@ -1109,7 +1084,7 @@ public readonly table: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#table GoogleBigtableTableIamBinding#table}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#table GoogleBigtableTableIamBinding#table}.
 
 ---
 
@@ -1123,7 +1098,7 @@ public readonly condition: GoogleBigtableTableIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#condition GoogleBigtableTableIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#condition GoogleBigtableTableIamBinding#condition}
 
 ---
 
@@ -1135,34 +1110,10 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#id GoogleBigtableTableIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#id GoogleBigtableTableIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-
----
-
-##### `instance`<sup>Optional</sup> <a name="instance" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instance"></a>
-
-```typescript
-public readonly instance: string;
-```
-
-- *Type:* string
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#instance GoogleBigtableTableIamBinding#instance}.
-
----
-
-##### `instanceName`<sup>Optional</sup> <a name="instanceName" id="@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig.property.instanceName"></a>
-
-```typescript
-public readonly instanceName: string;
-```
-
-- *Type:* string
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#instance_name GoogleBigtableTableIamBinding#instance_name}.
 
 ---
 
@@ -1174,7 +1125,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_binding#project GoogleBigtableTableIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_binding#project GoogleBigtableTableIamBinding#project}.
 
 ---
 

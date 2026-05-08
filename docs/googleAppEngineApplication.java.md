@@ -4,7 +4,7 @@
 
 ### GoogleAppEngineApplication <a name="GoogleAppEngineApplication" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application google_app_engine_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application google_app_engine_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer"></a>
 
@@ -27,6 +27,7 @@ GoogleAppEngineApplication.Builder.create(Construct scope, java.lang.String id)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .servingStatus(java.lang.String)
+//  .sslPolicy(java.lang.String)
 //  .timeouts(GoogleAppEngineApplicationTimeouts)
     .build();
 ```
@@ -44,12 +45,13 @@ GoogleAppEngineApplication.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.locationId">locationId</a></code> | <code>java.lang.String</code> | The location to serve the app from. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.authDomain">authDomain</a></code> | <code>java.lang.String</code> | The domain to authenticate users with when using App Engine's User API. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.databaseType">databaseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.databaseType">databaseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.featureSettings">featureSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings">GoogleAppEngineApplicationFeatureSettings</a></code> | feature_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap">GoogleAppEngineApplicationIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The project ID to create the application under. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.servingStatus">servingStatus</a></code> | <code>java.lang.String</code> | The serving status of the app. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.sslPolicy">sslPolicy</a></code> | <code>java.lang.String</code> | The SSL policy that will be applied to the application. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts">GoogleAppEngineApplicationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The location to serve the app from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The domain to authenticate users with when using App Engine's User API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
 
 ---
 
@@ -138,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
 
 ---
 
@@ -148,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 feature_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
 
 ---
 
@@ -158,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
 
 ---
 
@@ -166,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -179,7 +181,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The project ID to create the application under.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
 
 ---
 
@@ -189,7 +191,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The serving status of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
+
+---
+
+##### `sslPolicy`<sup>Optional</sup> <a name="sslPolicy" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.Initializer.parameter.sslPolicy"></a>
+
+- *Type:* java.lang.String
+
+The SSL policy that will be applied to the application.
+
+If set to Modern it will restrict traffic with TLS \u003c 1.2 and allow only Modern Ciphers suite
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#ssl_policy GoogleAppEngineApplication#ssl_policy}
 
 ---
 
@@ -199,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
 
 ---
 
@@ -241,6 +255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetServingStatus">resetServingStatus</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetSslPolicy">resetSslPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
@@ -634,6 +649,12 @@ public void resetProject()
 public void resetServingStatus()
 ```
 
+##### `resetSslPolicy` <a name="resetSslPolicy" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetSslPolicy"></a>
+
+```java
+public void resetSslPolicy()
+```
+
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.resetTimeouts"></a>
 
 ```java
@@ -743,7 +764,7 @@ The construct id used in the generated config for the GoogleAppEngineApplication
 
 The id of the existing GoogleAppEngineApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,6 +812,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.locationIdInput">locationIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.servingStatusInput">servingStatusInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.sslPolicyInput">sslPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts">GoogleAppEngineApplicationTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.authDomain">authDomain</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.databaseType">databaseType</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -798,6 +820,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.locationId">locationId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.servingStatus">servingStatus</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.sslPolicy">sslPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
 
@@ -1123,6 +1146,16 @@ public java.lang.String getServingStatusInput();
 
 ---
 
+##### `sslPolicyInput`<sup>Optional</sup> <a name="sslPolicyInput" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.sslPolicyInput"></a>
+
+```java
+public java.lang.String getSslPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.timeoutsInput"></a>
 
 ```java
@@ -1193,6 +1226,16 @@ public java.lang.String getServingStatus();
 
 ---
 
+##### `sslPolicy`<sup>Required</sup> <a name="sslPolicy" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication.property.sslPolicy"></a>
+
+```java
+public java.lang.String getSslPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -1236,6 +1279,7 @@ GoogleAppEngineApplicationConfig.builder()
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .servingStatus(java.lang.String)
+//  .sslPolicy(java.lang.String)
 //  .timeouts(GoogleAppEngineApplicationTimeouts)
     .build();
 ```
@@ -1253,12 +1297,13 @@ GoogleAppEngineApplicationConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.locationId">locationId</a></code> | <code>java.lang.String</code> | The location to serve the app from. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.authDomain">authDomain</a></code> | <code>java.lang.String</code> | The domain to authenticate users with when using App Engine's User API. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.databaseType">databaseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.databaseType">databaseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.featureSettings">featureSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings">GoogleAppEngineApplicationFeatureSettings</a></code> | feature_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.iap">iap</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap">GoogleAppEngineApplicationIap</a></code> | iap block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.project">project</a></code> | <code>java.lang.String</code> | The project ID to create the application under. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.servingStatus">servingStatus</a></code> | <code>java.lang.String</code> | The serving status of the app. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.sslPolicy">sslPolicy</a></code> | <code>java.lang.String</code> | The SSL policy that will be applied to the application. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts">GoogleAppEngineApplicationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1343,7 +1388,7 @@ public java.lang.String getLocationId();
 
 The location to serve the app from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#location_id GoogleAppEngineApplication#location_id}
 
 ---
 
@@ -1357,7 +1402,7 @@ public java.lang.String getAuthDomain();
 
 The domain to authenticate users with when using App Engine's User API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#auth_domain GoogleAppEngineApplication#auth_domain}
 
 ---
 
@@ -1369,7 +1414,7 @@ public java.lang.String getDatabaseType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#database_type GoogleAppEngineApplication#database_type}.
 
 ---
 
@@ -1383,7 +1428,7 @@ public GoogleAppEngineApplicationFeatureSettings getFeatureSettings();
 
 feature_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#feature_settings GoogleAppEngineApplication#feature_settings}
 
 ---
 
@@ -1397,7 +1442,7 @@ public GoogleAppEngineApplicationIap getIap();
 
 iap block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#iap GoogleAppEngineApplication#iap}
 
 ---
 
@@ -1409,7 +1454,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#id GoogleAppEngineApplication#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1426,7 +1471,7 @@ public java.lang.String getProject();
 
 The project ID to create the application under.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#project GoogleAppEngineApplication#project}
 
 ---
 
@@ -1440,7 +1485,23 @@ public java.lang.String getServingStatus();
 
 The serving status of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#serving_status GoogleAppEngineApplication#serving_status}
+
+---
+
+##### `sslPolicy`<sup>Optional</sup> <a name="sslPolicy" id="@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig.property.sslPolicy"></a>
+
+```java
+public java.lang.String getSslPolicy();
+```
+
+- *Type:* java.lang.String
+
+The SSL policy that will be applied to the application.
+
+If set to Modern it will restrict traffic with TLS \u003c 1.2 and allow only Modern Ciphers suite
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#ssl_policy GoogleAppEngineApplication#ssl_policy}
 
 ---
 
@@ -1454,7 +1515,7 @@ public GoogleAppEngineApplicationTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#timeouts GoogleAppEngineApplication#timeouts}
 
 ---
 
@@ -1474,7 +1535,7 @@ GoogleAppEngineApplicationFeatureSettings.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings.property.splitHealthChecks">splitHealthChecks</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings.property.splitHealthChecks">splitHealthChecks</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}. |
 
 ---
 
@@ -1486,7 +1547,7 @@ public java.lang.Boolean|IResolvable getSplitHealthChecks();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#split_health_checks GoogleAppEngineApplication#split_health_checks}.
 
 ---
 
@@ -1524,7 +1585,7 @@ public java.lang.String getOauth2ClientId();
 
 OAuth2 client ID to use for the authentication flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#oauth2_client_id GoogleAppEngineApplication#oauth2_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#oauth2_client_id GoogleAppEngineApplication#oauth2_client_id}
 
 ---
 
@@ -1540,7 +1601,7 @@ OAuth2 client secret to use for the authentication flow.
 
 The SHA-256 hash of the value is returned in the oauth2ClientSecretSha256 field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#oauth2_client_secret GoogleAppEngineApplication#oauth2_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#oauth2_client_secret GoogleAppEngineApplication#oauth2_client_secret}
 
 ---
 
@@ -1554,7 +1615,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Adapted for use with the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#enabled GoogleAppEngineApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#enabled GoogleAppEngineApplication#enabled}
 
 ---
 
@@ -1575,8 +1636,8 @@ GoogleAppEngineApplicationTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}. |
 
 ---
 
@@ -1588,7 +1649,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#create GoogleAppEngineApplication#create}.
 
 ---
 
@@ -1600,7 +1661,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_app_engine_application#update GoogleAppEngineApplication#update}.
 
 ---
 

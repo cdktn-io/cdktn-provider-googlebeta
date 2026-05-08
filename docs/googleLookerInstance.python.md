@@ -4,7 +4,7 @@
 
 ### GoogleLookerInstance <a name="GoogleLookerInstance" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance google_looker_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance google_looker_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer"></a>
 
@@ -25,13 +25,17 @@ googleLookerInstance.GoogleLookerInstance(
   oauth_config: GoogleLookerInstanceOauthConfig,
   admin_settings: GoogleLookerInstanceAdminSettings = None,
   consumer_network: str = None,
+  controlled_egress_config: GoogleLookerInstanceControlledEgressConfig = None,
+  controlled_egress_enabled: bool | IResolvable = None,
   custom_domain: GoogleLookerInstanceCustomDomain = None,
   deletion_policy: str = None,
   deny_maintenance_period: GoogleLookerInstanceDenyMaintenancePeriod = None,
   encryption_config: GoogleLookerInstanceEncryptionConfig = None,
   fips_enabled: bool | IResolvable = None,
+  gemini_enabled: bool | IResolvable = None,
   id: str = None,
   maintenance_window: GoogleLookerInstanceMaintenanceWindow = None,
+  periodic_export_config: GoogleLookerInstancePeriodicExportConfig = None,
   platform_edition: str = None,
   private_ip_enabled: bool | IResolvable = None,
   project: str = None,
@@ -60,16 +64,20 @@ googleLookerInstance.GoogleLookerInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.oauthConfig">oauth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfig">GoogleLookerInstanceOauthConfig</a></code> | oauth_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.adminSettings">admin_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceAdminSettings">GoogleLookerInstanceAdminSettings</a></code> | admin_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.consumerNetwork">consumer_network</a></code> | <code>str</code> | Network name in the consumer project in the format of: projects/{project}/global/networks/{network} Note that the consumer network may be in a different GCP project than the consumer project that is hosting the Looker Instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.controlledEgressConfig">controlled_egress_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a></code> | controlled_egress_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.controlledEgressEnabled">controlled_egress_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether controlled egress is enabled on the Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.customDomain">custom_domain</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceCustomDomain">GoogleLookerInstanceCustomDomain</a></code> | custom_domain block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Policy to determine if the cluster should be deleted forcefully. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.denyMaintenancePeriod">deny_maintenance_period</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceDenyMaintenancePeriod">GoogleLookerInstanceDenyMaintenancePeriod</a></code> | deny_maintenance_period block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceEncryptionConfig">GoogleLookerInstanceEncryptionConfig</a></code> | encryption_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.fipsEnabled">fips_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | FIPS 140-2 Encryption enablement for Looker (Google Cloud Core). |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.geminiEnabled">gemini_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Gemini enablement for Looker (Google Cloud Core). |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.maintenanceWindow">maintenance_window</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceMaintenanceWindow">GoogleLookerInstanceMaintenanceWindow</a></code> | maintenance_window block. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.periodicExportConfig">periodic_export_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a></code> | periodic_export_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.platformEdition">platform_edition</a></code> | <code>str</code> | Platform editions for a Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.privateIpEnabled">private_ip_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether private IP is enabled on the Looker instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePscConfig">GoogleLookerInstancePscConfig</a></code> | psc_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.pscEnabled">psc_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Public Service Connect (PSC) is enabled on the Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.publicIpEnabled">public_ip_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether public IP is enabled on the Looker instance. |
@@ -146,7 +154,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
 
 ---
 
@@ -156,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
 
 ---
 
@@ -166,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 admin_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
 
 ---
 
@@ -176,7 +184,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Network name in the consumer project in the format of: projects/{project}/global/networks/{network} Note that the consumer network may be in a different GCP project than the consumer project that is hosting the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
+
+---
+
+##### `controlled_egress_config`<sup>Optional</sup> <a name="controlled_egress_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.controlledEgressConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a>
+
+controlled_egress_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#controlled_egress_config GoogleLookerInstance#controlled_egress_config}
+
+---
+
+##### `controlled_egress_enabled`<sup>Optional</sup> <a name="controlled_egress_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.controlledEgressEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether controlled egress is enabled on the Looker instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#controlled_egress_enabled GoogleLookerInstance#controlled_egress_enabled}
 
 ---
 
@@ -186,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_domain block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
 
 ---
 
@@ -200,7 +228,7 @@ If setting deletion_policy = "FORCE", the Looker instance will be deleted regard
 of its nested resources. If set to "DEFAULT", Looker instances that still have
 nested resources will return an error. Possible values: DEFAULT, FORCE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
 
 ---
 
@@ -210,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 deny_maintenance_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
 
 ---
 
@@ -220,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
 
 ---
 
@@ -230,7 +258,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 FIPS 140-2 Encryption enablement for Looker (Google Cloud Core).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
+
+---
+
+##### `gemini_enabled`<sup>Optional</sup> <a name="gemini_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.geminiEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Gemini enablement for Looker (Google Cloud Core).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#gemini_enabled GoogleLookerInstance#gemini_enabled}
 
 ---
 
@@ -238,7 +276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -251,7 +289,17 @@ If you experience problems setting this value it might not be settable. Please t
 
 maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
+
+---
+
+##### `periodic_export_config`<sup>Optional</sup> <a name="periodic_export_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.Initializer.parameter.periodicExportConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a>
+
+periodic_export_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#periodic_export_config GoogleLookerInstance#periodic_export_config}
 
 ---
 
@@ -275,7 +323,7 @@ Each edition maps to a set of instance features, like its size. Must be one of t
 * LOOKER_CORE_TRIAL_ENTERPRISE: An enterprise trial edition of Looker (Google Cloud core) product.
 * LOOKER_CORE_TRIAL_EMBED: An embed trial edition of Looker (Google Cloud core) product. Default value: "LOOKER_CORE_TRIAL" Possible values: ["LOOKER_CORE_TRIAL", "LOOKER_CORE_STANDARD", "LOOKER_CORE_STANDARD_ANNUAL", "LOOKER_CORE_ENTERPRISE_ANNUAL", "LOOKER_CORE_EMBED_ANNUAL", "LOOKER_CORE_NONPROD_STANDARD_ANNUAL", "LOOKER_CORE_NONPROD_ENTERPRISE_ANNUAL", "LOOKER_CORE_NONPROD_EMBED_ANNUAL", "LOOKER_CORE_TRIAL_STANDARD", "LOOKER_CORE_TRIAL_ENTERPRISE", "LOOKER_CORE_TRIAL_EMBED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
 
 ---
 
@@ -285,7 +333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether private IP is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
 
 ---
 
@@ -293,7 +341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}.
 
 ---
 
@@ -303,7 +351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
 
 ---
 
@@ -313,7 +361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether Public Service Connect (PSC) is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
 
 ---
 
@@ -323,7 +371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether public IP is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
 
 ---
 
@@ -333,7 +381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Looker region of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
 
 ---
 
@@ -345,7 +393,7 @@ Name of a reserved IP address range within the consumer network, to be used for 
 
 User may or may not specify this in a request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
 
 ---
 
@@ -355,7 +403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
 
 ---
 
@@ -365,7 +413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 user_metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
 
 ---
 
@@ -398,23 +446,29 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putAdminSettings">put_admin_settings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putControlledEgressConfig">put_controlled_egress_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putCustomDomain">put_custom_domain</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putDenyMaintenancePeriod">put_deny_maintenance_period</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putEncryptionConfig">put_encryption_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putMaintenanceWindow">put_maintenance_window</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putOauthConfig">put_oauth_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPeriodicExportConfig">put_periodic_export_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPscConfig">put_psc_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putUserMetadata">put_user_metadata</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetAdminSettings">reset_admin_settings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetConsumerNetwork">reset_consumer_network</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetControlledEgressConfig">reset_controlled_egress_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetControlledEgressEnabled">reset_controlled_egress_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetCustomDomain">reset_custom_domain</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetDenyMaintenancePeriod">reset_deny_maintenance_period</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetEncryptionConfig">reset_encryption_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetFipsEnabled">reset_fips_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetGeminiEnabled">reset_gemini_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetMaintenanceWindow">reset_maintenance_window</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetPeriodicExportConfig">reset_periodic_export_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetPlatformEdition">reset_platform_edition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetPrivateIpEnabled">reset_private_ip_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetProject">reset_project</a></code> | *No description.* |
@@ -795,7 +849,36 @@ Updating this list will restart the instance. Updating the allowed email domains
 means the value provided will be considered as the entire list and not an amendment to the
 existing list of allowed email domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
+
+---
+
+##### `put_controlled_egress_config` <a name="put_controlled_egress_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putControlledEgressConfig"></a>
+
+```python
+def put_controlled_egress_config(
+  egress_fqdns: typing.List[str] = None,
+  marketplace_enabled: bool | IResolvable = None
+) -> None
+```
+
+###### `egress_fqdns`<sup>Optional</sup> <a name="egress_fqdns" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putControlledEgressConfig.parameter.egressFqdns"></a>
+
+- *Type:* typing.List[str]
+
+List of fully qualified domain names to be added to the allowlist for outbound traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#egress_fqdns GoogleLookerInstance#egress_fqdns}
+
+---
+
+###### `marketplace_enabled`<sup>Optional</sup> <a name="marketplace_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putControlledEgressConfig.parameter.marketplaceEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the Looker Marketplace is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#marketplace_enabled GoogleLookerInstance#marketplace_enabled}
 
 ---
 
@@ -813,7 +896,7 @@ def put_custom_domain(
 
 Domain name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
 
 ---
 
@@ -833,7 +916,7 @@ def put_deny_maintenance_period(
 
 end_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
 
 ---
 
@@ -843,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 start_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
 
 ---
 
@@ -853,7 +936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
 
 ---
 
@@ -871,7 +954,7 @@ def put_encryption_config(
 
 Name of the customer managed encryption key (CMEK) in KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
 
 ---
 
@@ -898,7 +981,7 @@ Required. Day of the week for this MaintenanceWindow (in UTC).
 * SATURDAY: Saturday
 * SUNDAY: Sunday Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
 
 ---
 
@@ -908,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
 
 ---
 
@@ -927,7 +1010,7 @@ def put_oauth_config(
 
 The client ID for the Oauth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
 
 ---
 
@@ -937,7 +1020,47 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The client secret for the Oauth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
+
+---
+
+##### `put_periodic_export_config` <a name="put_periodic_export_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPeriodicExportConfig"></a>
+
+```python
+def put_periodic_export_config(
+  gcs_uri: str,
+  kms_key: str,
+  start_time: GoogleLookerInstancePeriodicExportConfigStartTime
+) -> None
+```
+
+###### `gcs_uri`<sup>Required</sup> <a name="gcs_uri" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPeriodicExportConfig.parameter.gcsUri"></a>
+
+- *Type:* str
+
+Cloud Storage bucket URI for periodic export. Format: gs://{bucket_name}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#gcs_uri GoogleLookerInstance#gcs_uri}
+
+---
+
+###### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPeriodicExportConfig.parameter.kmsKey"></a>
+
+- *Type:* str
+
+Name of the CMEK key in KMS. Format: projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#kms_key GoogleLookerInstance#kms_key}
+
+---
+
+###### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.putPeriodicExportConfig.parameter.startTime"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a>
+
+start_time block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
 
 ---
 
@@ -956,7 +1079,7 @@ def put_psc_config(
 
 List of VPCs that are allowed ingress into the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
 
 ---
 
@@ -966,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 service_attachments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
 
 ---
 
@@ -984,7 +1107,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}.
 
 ---
 
@@ -992,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}.
 
 ---
 
@@ -1000,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}.
 
 ---
 
@@ -1020,7 +1143,7 @@ def put_user_metadata(
 
 Number of additional Developer Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
 
 ---
 
@@ -1030,7 +1153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of additional Standard Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
 
 ---
 
@@ -1040,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of additional Viewer Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
 
 ---
 
@@ -1054,6 +1177,18 @@ def reset_admin_settings() -> None
 
 ```python
 def reset_consumer_network() -> None
+```
+
+##### `reset_controlled_egress_config` <a name="reset_controlled_egress_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetControlledEgressConfig"></a>
+
+```python
+def reset_controlled_egress_config() -> None
+```
+
+##### `reset_controlled_egress_enabled` <a name="reset_controlled_egress_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetControlledEgressEnabled"></a>
+
+```python
+def reset_controlled_egress_enabled() -> None
 ```
 
 ##### `reset_custom_domain` <a name="reset_custom_domain" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetCustomDomain"></a>
@@ -1086,6 +1221,12 @@ def reset_encryption_config() -> None
 def reset_fips_enabled() -> None
 ```
 
+##### `reset_gemini_enabled` <a name="reset_gemini_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetGeminiEnabled"></a>
+
+```python
+def reset_gemini_enabled() -> None
+```
+
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetId"></a>
 
 ```python
@@ -1096,6 +1237,12 @@ def reset_id() -> None
 
 ```python
 def reset_maintenance_window() -> None
+```
+
+##### `reset_periodic_export_config` <a name="reset_periodic_export_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetPeriodicExportConfig"></a>
+
+```python
+def reset_periodic_export_config() -> None
 ```
 
 ##### `reset_platform_edition` <a name="reset_platform_edition" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.resetPlatformEdition"></a>
@@ -1272,7 +1419,7 @@ The construct id used in the generated config for the GoogleLookerInstance to im
 
 The id of the existing GoogleLookerInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1303,6 +1450,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.adminSettings">admin_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceAdminSettingsOutputReference">GoogleLookerInstanceAdminSettingsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressConfig">controlled_egress_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference">GoogleLookerInstanceControlledEgressConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.customDomain">custom_domain</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceCustomDomainOutputReference">GoogleLookerInstanceCustomDomainOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.denyMaintenancePeriod">deny_maintenance_period</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceDenyMaintenancePeriodOutputReference">GoogleLookerInstanceDenyMaintenancePeriodOutputReference</a></code> | *No description.* |
@@ -1314,21 +1462,26 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.lookerVersion">looker_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.maintenanceWindow">maintenance_window</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceMaintenanceWindowOutputReference">GoogleLookerInstanceMaintenanceWindowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.oauthConfig">oauth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfigOutputReference">GoogleLookerInstanceOauthConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.periodicExportConfig">periodic_export_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference">GoogleLookerInstancePeriodicExportConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePscConfigOutputReference">GoogleLookerInstancePscConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeoutsOutputReference">GoogleLookerInstanceTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.userMetadata">user_metadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceUserMetadataOutputReference">GoogleLookerInstanceUserMetadataOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.adminSettingsInput">admin_settings_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceAdminSettings">GoogleLookerInstanceAdminSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.consumerNetworkInput">consumer_network_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressConfigInput">controlled_egress_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressEnabledInput">controlled_egress_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.customDomainInput">custom_domain_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceCustomDomain">GoogleLookerInstanceCustomDomain</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.denyMaintenancePeriodInput">deny_maintenance_period_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceDenyMaintenancePeriod">GoogleLookerInstanceDenyMaintenancePeriod</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.encryptionConfigInput">encryption_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceEncryptionConfig">GoogleLookerInstanceEncryptionConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.fipsEnabledInput">fips_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.geminiEnabledInput">gemini_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.maintenanceWindowInput">maintenance_window_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceMaintenanceWindow">GoogleLookerInstanceMaintenanceWindow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.oauthConfigInput">oauth_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfig">GoogleLookerInstanceOauthConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.periodicExportConfigInput">periodic_export_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.platformEditionInput">platform_edition_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.privateIpEnabledInput">private_ip_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
@@ -1340,8 +1493,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts">GoogleLookerInstanceTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.userMetadataInput">user_metadata_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceUserMetadata">GoogleLookerInstanceUserMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.consumerNetwork">consumer_network</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressEnabled">controlled_egress_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.fipsEnabled">fips_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.geminiEnabled">gemini_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.platformEdition">platform_edition</a></code> | <code>str</code> | *No description.* |
@@ -1506,6 +1661,16 @@ admin_settings: GoogleLookerInstanceAdminSettingsOutputReference
 
 ---
 
+##### `controlled_egress_config`<sup>Required</sup> <a name="controlled_egress_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressConfig"></a>
+
+```python
+controlled_egress_config: GoogleLookerInstanceControlledEgressConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference">GoogleLookerInstanceControlledEgressConfigOutputReference</a>
+
+---
+
 ##### `create_time`<sup>Required</sup> <a name="create_time" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.createTime"></a>
 
 ```python
@@ -1616,6 +1781,16 @@ oauth_config: GoogleLookerInstanceOauthConfigOutputReference
 
 ---
 
+##### `periodic_export_config`<sup>Required</sup> <a name="periodic_export_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.periodicExportConfig"></a>
+
+```python
+periodic_export_config: GoogleLookerInstancePeriodicExportConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference">GoogleLookerInstancePeriodicExportConfigOutputReference</a>
+
+---
+
 ##### `psc_config`<sup>Required</sup> <a name="psc_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.pscConfig"></a>
 
 ```python
@@ -1676,6 +1851,26 @@ consumer_network_input: str
 
 ---
 
+##### `controlled_egress_config_input`<sup>Optional</sup> <a name="controlled_egress_config_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressConfigInput"></a>
+
+```python
+controlled_egress_config_input: GoogleLookerInstanceControlledEgressConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a>
+
+---
+
+##### `controlled_egress_enabled_input`<sup>Optional</sup> <a name="controlled_egress_enabled_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressEnabledInput"></a>
+
+```python
+controlled_egress_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `custom_domain_input`<sup>Optional</sup> <a name="custom_domain_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.customDomainInput"></a>
 
 ```python
@@ -1726,6 +1921,16 @@ fips_enabled_input: bool | IResolvable
 
 ---
 
+##### `gemini_enabled_input`<sup>Optional</sup> <a name="gemini_enabled_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.geminiEnabledInput"></a>
+
+```python
+gemini_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.idInput"></a>
 
 ```python
@@ -1763,6 +1968,16 @@ oauth_config_input: GoogleLookerInstanceOauthConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfig">GoogleLookerInstanceOauthConfig</a>
+
+---
+
+##### `periodic_export_config_input`<sup>Optional</sup> <a name="periodic_export_config_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.periodicExportConfigInput"></a>
+
+```python
+periodic_export_config_input: GoogleLookerInstancePeriodicExportConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a>
 
 ---
 
@@ -1876,6 +2091,16 @@ consumer_network: str
 
 ---
 
+##### `controlled_egress_enabled`<sup>Required</sup> <a name="controlled_egress_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.controlledEgressEnabled"></a>
+
+```python
+controlled_egress_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.deletionPolicy"></a>
 
 ```python
@@ -1890,6 +2115,16 @@ deletion_policy: str
 
 ```python
 fips_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `gemini_enabled`<sup>Required</sup> <a name="gemini_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstance.property.geminiEnabled"></a>
+
+```python
+gemini_enabled: bool | IResolvable
 ```
 
 - *Type:* bool | cdktn.IResolvable
@@ -2041,7 +2276,7 @@ Updating this list will restart the instance. Updating the allowed email domains
 means the value provided will be considered as the entire list and not an amendment to the
 existing list of allowed email domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
 
 ---
 
@@ -2064,13 +2299,17 @@ googleLookerInstance.GoogleLookerInstanceConfig(
   oauth_config: GoogleLookerInstanceOauthConfig,
   admin_settings: GoogleLookerInstanceAdminSettings = None,
   consumer_network: str = None,
+  controlled_egress_config: GoogleLookerInstanceControlledEgressConfig = None,
+  controlled_egress_enabled: bool | IResolvable = None,
   custom_domain: GoogleLookerInstanceCustomDomain = None,
   deletion_policy: str = None,
   deny_maintenance_period: GoogleLookerInstanceDenyMaintenancePeriod = None,
   encryption_config: GoogleLookerInstanceEncryptionConfig = None,
   fips_enabled: bool | IResolvable = None,
+  gemini_enabled: bool | IResolvable = None,
   id: str = None,
   maintenance_window: GoogleLookerInstanceMaintenanceWindow = None,
+  periodic_export_config: GoogleLookerInstancePeriodicExportConfig = None,
   platform_edition: str = None,
   private_ip_enabled: bool | IResolvable = None,
   project: str = None,
@@ -2099,16 +2338,20 @@ googleLookerInstance.GoogleLookerInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.oauthConfig">oauth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfig">GoogleLookerInstanceOauthConfig</a></code> | oauth_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.adminSettings">admin_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceAdminSettings">GoogleLookerInstanceAdminSettings</a></code> | admin_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.consumerNetwork">consumer_network</a></code> | <code>str</code> | Network name in the consumer project in the format of: projects/{project}/global/networks/{network} Note that the consumer network may be in a different GCP project than the consumer project that is hosting the Looker Instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.controlledEgressConfig">controlled_egress_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a></code> | controlled_egress_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.controlledEgressEnabled">controlled_egress_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether controlled egress is enabled on the Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.customDomain">custom_domain</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceCustomDomain">GoogleLookerInstanceCustomDomain</a></code> | custom_domain block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Policy to determine if the cluster should be deleted forcefully. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.denyMaintenancePeriod">deny_maintenance_period</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceDenyMaintenancePeriod">GoogleLookerInstanceDenyMaintenancePeriod</a></code> | deny_maintenance_period block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceEncryptionConfig">GoogleLookerInstanceEncryptionConfig</a></code> | encryption_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.fipsEnabled">fips_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | FIPS 140-2 Encryption enablement for Looker (Google Cloud Core). |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.geminiEnabled">gemini_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Gemini enablement for Looker (Google Cloud Core). |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.maintenanceWindow">maintenance_window</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceMaintenanceWindow">GoogleLookerInstanceMaintenanceWindow</a></code> | maintenance_window block. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.periodicExportConfig">periodic_export_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a></code> | periodic_export_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.platformEdition">platform_edition</a></code> | <code>str</code> | Platform editions for a Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.privateIpEnabled">private_ip_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether private IP is enabled on the Looker instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.pscConfig">psc_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePscConfig">GoogleLookerInstancePscConfig</a></code> | psc_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.pscEnabled">psc_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Public Service Connect (PSC) is enabled on the Looker instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.publicIpEnabled">public_ip_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether public IP is enabled on the Looker instance. |
@@ -2199,7 +2442,7 @@ name: str
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
 
 ---
 
@@ -2213,7 +2456,7 @@ oauth_config: GoogleLookerInstanceOauthConfig
 
 oauth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
 
 ---
 
@@ -2227,7 +2470,7 @@ admin_settings: GoogleLookerInstanceAdminSettings
 
 admin_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
 
 ---
 
@@ -2241,7 +2484,35 @@ consumer_network: str
 
 Network name in the consumer project in the format of: projects/{project}/global/networks/{network} Note that the consumer network may be in a different GCP project than the consumer project that is hosting the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
+
+---
+
+##### `controlled_egress_config`<sup>Optional</sup> <a name="controlled_egress_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.controlledEgressConfig"></a>
+
+```python
+controlled_egress_config: GoogleLookerInstanceControlledEgressConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a>
+
+controlled_egress_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#controlled_egress_config GoogleLookerInstance#controlled_egress_config}
+
+---
+
+##### `controlled_egress_enabled`<sup>Optional</sup> <a name="controlled_egress_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.controlledEgressEnabled"></a>
+
+```python
+controlled_egress_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether controlled egress is enabled on the Looker instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#controlled_egress_enabled GoogleLookerInstance#controlled_egress_enabled}
 
 ---
 
@@ -2255,7 +2526,7 @@ custom_domain: GoogleLookerInstanceCustomDomain
 
 custom_domain block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
 
 ---
 
@@ -2273,7 +2544,7 @@ If setting deletion_policy = "FORCE", the Looker instance will be deleted regard
 of its nested resources. If set to "DEFAULT", Looker instances that still have
 nested resources will return an error. Possible values: DEFAULT, FORCE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
 
 ---
 
@@ -2287,7 +2558,7 @@ deny_maintenance_period: GoogleLookerInstanceDenyMaintenancePeriod
 
 deny_maintenance_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
 
 ---
 
@@ -2301,7 +2572,7 @@ encryption_config: GoogleLookerInstanceEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
 
 ---
 
@@ -2315,7 +2586,21 @@ fips_enabled: bool | IResolvable
 
 FIPS 140-2 Encryption enablement for Looker (Google Cloud Core).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
+
+---
+
+##### `gemini_enabled`<sup>Optional</sup> <a name="gemini_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.geminiEnabled"></a>
+
+```python
+gemini_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Gemini enablement for Looker (Google Cloud Core).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#gemini_enabled GoogleLookerInstance#gemini_enabled}
 
 ---
 
@@ -2327,7 +2612,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2344,7 +2629,21 @@ maintenance_window: GoogleLookerInstanceMaintenanceWindow
 
 maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
+
+---
+
+##### `periodic_export_config`<sup>Optional</sup> <a name="periodic_export_config" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceConfig.property.periodicExportConfig"></a>
+
+```python
+periodic_export_config: GoogleLookerInstancePeriodicExportConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a>
+
+periodic_export_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#periodic_export_config GoogleLookerInstance#periodic_export_config}
 
 ---
 
@@ -2372,7 +2671,7 @@ Each edition maps to a set of instance features, like its size. Must be one of t
 * LOOKER_CORE_TRIAL_ENTERPRISE: An enterprise trial edition of Looker (Google Cloud core) product.
 * LOOKER_CORE_TRIAL_EMBED: An embed trial edition of Looker (Google Cloud core) product. Default value: "LOOKER_CORE_TRIAL" Possible values: ["LOOKER_CORE_TRIAL", "LOOKER_CORE_STANDARD", "LOOKER_CORE_STANDARD_ANNUAL", "LOOKER_CORE_ENTERPRISE_ANNUAL", "LOOKER_CORE_EMBED_ANNUAL", "LOOKER_CORE_NONPROD_STANDARD_ANNUAL", "LOOKER_CORE_NONPROD_ENTERPRISE_ANNUAL", "LOOKER_CORE_NONPROD_EMBED_ANNUAL", "LOOKER_CORE_TRIAL_STANDARD", "LOOKER_CORE_TRIAL_ENTERPRISE", "LOOKER_CORE_TRIAL_EMBED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
 
 ---
 
@@ -2386,7 +2685,7 @@ private_ip_enabled: bool | IResolvable
 
 Whether private IP is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
 
 ---
 
@@ -2398,7 +2697,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}.
 
 ---
 
@@ -2412,7 +2711,7 @@ psc_config: GoogleLookerInstancePscConfig
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
 
 ---
 
@@ -2426,7 +2725,7 @@ psc_enabled: bool | IResolvable
 
 Whether Public Service Connect (PSC) is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
 
 ---
 
@@ -2440,7 +2739,7 @@ public_ip_enabled: bool | IResolvable
 
 Whether public IP is enabled on the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
 
 ---
 
@@ -2454,7 +2753,7 @@ region: str
 
 The name of the Looker region of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
 
 ---
 
@@ -2470,7 +2769,7 @@ Name of a reserved IP address range within the consumer network, to be used for 
 
 User may or may not specify this in a request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
 
 ---
 
@@ -2484,7 +2783,7 @@ timeouts: GoogleLookerInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
 
 ---
 
@@ -2498,7 +2797,57 @@ user_metadata: GoogleLookerInstanceUserMetadata
 
 user_metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
+
+---
+
+### GoogleLookerInstanceControlledEgressConfig <a name="GoogleLookerInstanceControlledEgressConfig" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstanceControlledEgressConfig(
+  egress_fqdns: typing.List[str] = None,
+  marketplace_enabled: bool | IResolvable = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig.property.egressFqdns">egress_fqdns</a></code> | <code>typing.List[str]</code> | List of fully qualified domain names to be added to the allowlist for outbound traffic. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig.property.marketplaceEnabled">marketplace_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the Looker Marketplace is enabled. |
+
+---
+
+##### `egress_fqdns`<sup>Optional</sup> <a name="egress_fqdns" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig.property.egressFqdns"></a>
+
+```python
+egress_fqdns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+List of fully qualified domain names to be added to the allowlist for outbound traffic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#egress_fqdns GoogleLookerInstance#egress_fqdns}
+
+---
+
+##### `marketplace_enabled`<sup>Optional</sup> <a name="marketplace_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig.property.marketplaceEnabled"></a>
+
+```python
+marketplace_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the Looker Marketplace is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#marketplace_enabled GoogleLookerInstance#marketplace_enabled}
 
 ---
 
@@ -2532,7 +2881,7 @@ domain: str
 
 Domain name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
 
 ---
 
@@ -2570,7 +2919,7 @@ end_date: GoogleLookerInstanceDenyMaintenancePeriodEndDate
 
 end_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
 
 ---
 
@@ -2584,7 +2933,7 @@ start_date: GoogleLookerInstanceDenyMaintenancePeriodStartDate
 
 start_date block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
 
 ---
 
@@ -2598,7 +2947,7 @@ time: GoogleLookerInstanceDenyMaintenancePeriodTime
 
 time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
 
 ---
 
@@ -2639,7 +2988,7 @@ Day of a month.
 Must be from 1 to 31 and valid for the year and month, or 0
 to specify a year by itself or a year and month where the day isn't significant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
 
 ---
 
@@ -2656,7 +3005,7 @@ Month of a year.
 Must be from 1 to 12, or 0 to specify a year without a
 month and day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
 
 ---
 
@@ -2670,7 +3019,7 @@ year: typing.Union[int, float]
 
 Year of the date. Must be from 1 to 9999, or 0 to specify a date without a year.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
 
 ---
 
@@ -2711,7 +3060,7 @@ Day of a month.
 Must be from 1 to 31 and valid for the year and month, or 0
 to specify a year by itself or a year and month where the day isn't significant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
 
 ---
 
@@ -2728,7 +3077,7 @@ Month of a year.
 Must be from 1 to 12, or 0 to specify a year without a
 month and day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
 
 ---
 
@@ -2742,7 +3091,7 @@ year: typing.Union[int, float]
 
 Year of the date. Must be from 1 to 9999, or 0 to specify a date without a year.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
 
 ---
 
@@ -2782,7 +3131,7 @@ hours: typing.Union[int, float]
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
 
 ---
 
@@ -2796,7 +3145,7 @@ minutes: typing.Union[int, float]
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
 
 ---
 
@@ -2810,7 +3159,7 @@ nanos: typing.Union[int, float]
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
 
 ---
 
@@ -2824,7 +3173,7 @@ seconds: typing.Union[int, float]
 
 Seconds of minutes of the time. Must normally be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
 
 ---
 
@@ -2858,7 +3207,7 @@ kms_key_name: str
 
 Name of the customer managed encryption key (CMEK) in KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
 
 ---
 
@@ -2902,7 +3251,7 @@ Required. Day of the week for this MaintenanceWindow (in UTC).
 * SATURDAY: Saturday
 * SUNDAY: Sunday Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
 
 ---
 
@@ -2916,7 +3265,7 @@ start_time: GoogleLookerInstanceMaintenanceWindowStartTime
 
 start_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
 
 ---
 
@@ -2956,7 +3305,7 @@ hours: typing.Union[int, float]
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
 
 ---
 
@@ -2970,7 +3319,7 @@ minutes: typing.Union[int, float]
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
 
 ---
 
@@ -2984,7 +3333,7 @@ nanos: typing.Union[int, float]
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
 
 ---
 
@@ -2998,7 +3347,7 @@ seconds: typing.Union[int, float]
 
 Seconds of minutes of the time. Must normally be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
 
 ---
 
@@ -3034,7 +3383,7 @@ client_id: str
 
 The client ID for the Oauth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
 
 ---
 
@@ -3048,7 +3397,155 @@ client_secret: str
 
 The client secret for the Oauth config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
+
+---
+
+### GoogleLookerInstancePeriodicExportConfig <a name="GoogleLookerInstancePeriodicExportConfig" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstancePeriodicExportConfig(
+  gcs_uri: str,
+  kms_key: str,
+  start_time: GoogleLookerInstancePeriodicExportConfigStartTime
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.gcsUri">gcs_uri</a></code> | <code>str</code> | Cloud Storage bucket URI for periodic export. Format: gs://{bucket_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.kmsKey">kms_key</a></code> | <code>str</code> | Name of the CMEK key in KMS. Format: projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.startTime">start_time</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a></code> | start_time block. |
+
+---
+
+##### `gcs_uri`<sup>Required</sup> <a name="gcs_uri" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.gcsUri"></a>
+
+```python
+gcs_uri: str
+```
+
+- *Type:* str
+
+Cloud Storage bucket URI for periodic export. Format: gs://{bucket_name}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#gcs_uri GoogleLookerInstance#gcs_uri}
+
+---
+
+##### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+Name of the CMEK key in KMS. Format: projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#kms_key GoogleLookerInstance#kms_key}
+
+---
+
+##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig.property.startTime"></a>
+
+```python
+start_time: GoogleLookerInstancePeriodicExportConfigStartTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a>
+
+start_time block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
+
+---
+
+### GoogleLookerInstancePeriodicExportConfigStartTime <a name="GoogleLookerInstancePeriodicExportConfigStartTime" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime(
+  hours: typing.Union[int, float] = None,
+  minutes: typing.Union[int, float] = None,
+  nanos: typing.Union[int, float] = None,
+  seconds: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.hours">hours</a></code> | <code>typing.Union[int, float]</code> | Hours of day in 24 hour format. Should be from 0 to 23. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.minutes">minutes</a></code> | <code>typing.Union[int, float]</code> | Minutes of hour of day. Must be from 0 to 59. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.nanos">nanos</a></code> | <code>typing.Union[int, float]</code> | Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.seconds">seconds</a></code> | <code>typing.Union[int, float]</code> | Seconds of minutes of the time. Must normally be from 0 to 59. |
+
+---
+
+##### `hours`<sup>Optional</sup> <a name="hours" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.hours"></a>
+
+```python
+hours: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Hours of day in 24 hour format. Should be from 0 to 23.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+
+---
+
+##### `minutes`<sup>Optional</sup> <a name="minutes" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.minutes"></a>
+
+```python
+minutes: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Minutes of hour of day. Must be from 0 to 59.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+
+---
+
+##### `nanos`<sup>Optional</sup> <a name="nanos" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.nanos"></a>
+
+```python
+nanos: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+
+---
+
+##### `seconds`<sup>Optional</sup> <a name="seconds" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime.property.seconds"></a>
+
+```python
+seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Seconds of minutes of the time. Must normally be from 0 to 59.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
 
 ---
 
@@ -3084,7 +3581,7 @@ allowed_vpcs: typing.List[str]
 
 List of VPCs that are allowed ingress into the Looker instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
 
 ---
 
@@ -3098,7 +3595,7 @@ service_attachments: IResolvable | typing.List[GoogleLookerInstancePscConfigServ
 
 service_attachments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
 
 ---
 
@@ -3134,7 +3631,7 @@ local_fqdn: str
 
 Fully qualified domain name that will be used in the private DNS record created for the service attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#local_fqdn GoogleLookerInstance#local_fqdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#local_fqdn GoogleLookerInstance#local_fqdn}
 
 ---
 
@@ -3148,7 +3645,7 @@ target_service_attachment_uri: str
 
 URI of the service attachment to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#target_service_attachment_uri GoogleLookerInstance#target_service_attachment_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#target_service_attachment_uri GoogleLookerInstance#target_service_attachment_uri}
 
 ---
 
@@ -3170,9 +3667,9 @@ googleLookerInstance.GoogleLookerInstanceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}. |
 
 ---
 
@@ -3184,7 +3681,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}.
 
 ---
 
@@ -3196,7 +3693,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}.
 
 ---
 
@@ -3208,7 +3705,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}.
 
 ---
 
@@ -3246,7 +3743,7 @@ additional_developer_user_count: typing.Union[int, float]
 
 Number of additional Developer Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
 
 ---
 
@@ -3260,7 +3757,7 @@ additional_standard_user_count: typing.Union[int, float]
 
 Number of additional Standard Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
 
 ---
 
@@ -3274,7 +3771,7 @@ additional_viewer_user_count: typing.Union[int, float]
 
 Number of additional Viewer Users to allocate to the Looker Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
 
 ---
 
@@ -3579,6 +4076,338 @@ internal_value: GoogleLookerInstanceAdminSettings
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceAdminSettings">GoogleLookerInstanceAdminSettings</a>
+
+---
+
+
+### GoogleLookerInstanceControlledEgressConfigOutputReference <a name="GoogleLookerInstanceControlledEgressConfigOutputReference" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resetEgressFqdns">reset_egress_fqdns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resetMarketplaceEnabled">reset_marketplace_enabled</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_egress_fqdns` <a name="reset_egress_fqdns" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resetEgressFqdns"></a>
+
+```python
+def reset_egress_fqdns() -> None
+```
+
+##### `reset_marketplace_enabled` <a name="reset_marketplace_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.resetMarketplaceEnabled"></a>
+
+```python
+def reset_marketplace_enabled() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.egressFqdnsInput">egress_fqdns_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.marketplaceEnabledInput">marketplace_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.egressFqdns">egress_fqdns</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.marketplaceEnabled">marketplace_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `egress_fqdns_input`<sup>Optional</sup> <a name="egress_fqdns_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.egressFqdnsInput"></a>
+
+```python
+egress_fqdns_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `marketplace_enabled_input`<sup>Optional</sup> <a name="marketplace_enabled_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.marketplaceEnabledInput"></a>
+
+```python
+marketplace_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `egress_fqdns`<sup>Required</sup> <a name="egress_fqdns" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.egressFqdns"></a>
+
+```python
+egress_fqdns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `marketplace_enabled`<sup>Required</sup> <a name="marketplace_enabled" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.marketplaceEnabled"></a>
+
+```python
+marketplace_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleLookerInstanceControlledEgressConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceControlledEgressConfig">GoogleLookerInstanceControlledEgressConfig</a>
 
 ---
 
@@ -4508,7 +5337,7 @@ Day of a month.
 Must be from 1 to 31 and valid for the year and month, or 0
 to specify a year by itself or a year and month where the day isn't significant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
 
 ---
 
@@ -4521,7 +5350,7 @@ Month of a year.
 Must be from 1 to 12, or 0 to specify a year without a
 month and day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
 
 ---
 
@@ -4531,7 +5360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Year of the date. Must be from 1 to 9999, or 0 to specify a date without a year.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
 
 ---
 
@@ -4554,7 +5383,7 @@ Day of a month.
 Must be from 1 to 31 and valid for the year and month, or 0
 to specify a year by itself or a year and month where the day isn't significant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
 
 ---
 
@@ -4567,7 +5396,7 @@ Month of a year.
 Must be from 1 to 12, or 0 to specify a year without a
 month and day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
 
 ---
 
@@ -4577,7 +5406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Year of the date. Must be from 1 to 9999, or 0 to specify a date without a year.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
 
 ---
 
@@ -4598,7 +5427,7 @@ def put_time(
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
 
 ---
 
@@ -4608,7 +5437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
 
 ---
 
@@ -4618,7 +5447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
 
 ---
 
@@ -4628,7 +5457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Seconds of minutes of the time. Must normally be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
 
 ---
 
@@ -6066,7 +6895,7 @@ def put_start_time(
 
 Hours of day in 24 hour format. Should be from 0 to 23.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
 
 ---
 
@@ -6076,7 +6905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minutes of hour of day. Must be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
 
 ---
 
@@ -6086,7 +6915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
 
 ---
 
@@ -6096,7 +6925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Seconds of minutes of the time. Must normally be from 0 to 59.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
 
 ---
 
@@ -6894,6 +7723,788 @@ internal_value: GoogleLookerInstanceOauthConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstanceOauthConfig">GoogleLookerInstanceOauthConfig</a>
+
+---
+
+
+### GoogleLookerInstancePeriodicExportConfigOutputReference <a name="GoogleLookerInstancePeriodicExportConfigOutputReference" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime">put_start_time</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_start_time` <a name="put_start_time" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime"></a>
+
+```python
+def put_start_time(
+  hours: typing.Union[int, float] = None,
+  minutes: typing.Union[int, float] = None,
+  nanos: typing.Union[int, float] = None,
+  seconds: typing.Union[int, float] = None
+) -> None
+```
+
+###### `hours`<sup>Optional</sup> <a name="hours" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime.parameter.hours"></a>
+
+- *Type:* typing.Union[int, float]
+
+Hours of day in 24 hour format. Should be from 0 to 23.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+
+---
+
+###### `minutes`<sup>Optional</sup> <a name="minutes" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime.parameter.minutes"></a>
+
+- *Type:* typing.Union[int, float]
+
+Minutes of hour of day. Must be from 0 to 59.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+
+---
+
+###### `nanos`<sup>Optional</sup> <a name="nanos" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime.parameter.nanos"></a>
+
+- *Type:* typing.Union[int, float]
+
+Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+
+---
+
+###### `seconds`<sup>Optional</sup> <a name="seconds" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.putStartTime.parameter.seconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+Seconds of minutes of the time. Must normally be from 0 to 59.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.startTime">start_time</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference">GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.gcsUriInput">gcs_uri_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.kmsKeyInput">kms_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.startTimeInput">start_time_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.gcsUri">gcs_uri</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.kmsKey">kms_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.startTime"></a>
+
+```python
+start_time: GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference">GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference</a>
+
+---
+
+##### `gcs_uri_input`<sup>Optional</sup> <a name="gcs_uri_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.gcsUriInput"></a>
+
+```python
+gcs_uri_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_input`<sup>Optional</sup> <a name="kms_key_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.kmsKeyInput"></a>
+
+```python
+kms_key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `start_time_input`<sup>Optional</sup> <a name="start_time_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.startTimeInput"></a>
+
+```python
+start_time_input: GoogleLookerInstancePeriodicExportConfigStartTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a>
+
+---
+
+##### `gcs_uri`<sup>Required</sup> <a name="gcs_uri" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.gcsUri"></a>
+
+```python
+gcs_uri: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleLookerInstancePeriodicExportConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfig">GoogleLookerInstancePeriodicExportConfig</a>
+
+---
+
+
+### GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference <a name="GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_looker_instance
+
+googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetHours">reset_hours</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetMinutes">reset_minutes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetNanos">reset_nanos</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetSeconds">reset_seconds</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_hours` <a name="reset_hours" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetHours"></a>
+
+```python
+def reset_hours() -> None
+```
+
+##### `reset_minutes` <a name="reset_minutes" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetMinutes"></a>
+
+```python
+def reset_minutes() -> None
+```
+
+##### `reset_nanos` <a name="reset_nanos" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetNanos"></a>
+
+```python
+def reset_nanos() -> None
+```
+
+##### `reset_seconds` <a name="reset_seconds" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.resetSeconds"></a>
+
+```python
+def reset_seconds() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.hoursInput">hours_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.minutesInput">minutes_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.nanosInput">nanos_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.secondsInput">seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.hours">hours</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.minutes">minutes</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.nanos">nanos</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.seconds">seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `hours_input`<sup>Optional</sup> <a name="hours_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.hoursInput"></a>
+
+```python
+hours_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `minutes_input`<sup>Optional</sup> <a name="minutes_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.minutesInput"></a>
+
+```python
+minutes_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `nanos_input`<sup>Optional</sup> <a name="nanos_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.nanosInput"></a>
+
+```python
+nanos_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `seconds_input`<sup>Optional</sup> <a name="seconds_input" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.secondsInput"></a>
+
+```python
+seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `hours`<sup>Required</sup> <a name="hours" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.hours"></a>
+
+```python
+hours: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `minutes`<sup>Required</sup> <a name="minutes" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.minutes"></a>
+
+```python
+minutes: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `nanos`<sup>Required</sup> <a name="nanos" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.nanos"></a>
+
+```python
+nanos: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `seconds`<sup>Required</sup> <a name="seconds" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.seconds"></a>
+
+```python
+seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleLookerInstancePeriodicExportConfigStartTime
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleLookerInstance.GoogleLookerInstancePeriodicExportConfigStartTime">GoogleLookerInstancePeriodicExportConfigStartTime</a>
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleTagsTagValueIamPolicy <a name="GoogleTagsTagValueIamPolicy" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy google_tags_tag_value_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy google_tags_tag_value_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 googletagstagvalueiampolicy.NewGoogleTagsTagValueIamPolicy(scope Construct, id *string, config GoogleTagsTagValueIamPolicyConfig) GoogleTagsTagValueIamPolicy
 ```
@@ -407,7 +407,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the GoogleTagsTagValueIamPolic
 
 The id of the existing GoogleTagsTagValueIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletagstagvalueiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagvalueiampolicy"
 
 &googletagstagvalueiampolicy.GoogleTagsTagValueIamPolicyConfig {
 	Connection: interface{},
@@ -800,9 +800,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleta
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#policy_data GoogleTagsTagValueIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.tagValue">TagValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#tag_value GoogleTagsTagValueIamPolicy#tag_value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#id GoogleTagsTagValueIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#policy_data GoogleTagsTagValueIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.tagValue">TagValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#tag_value GoogleTagsTagValueIamPolicy#tag_value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagValueIamPolicy.GoogleTagsTagValueIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#id GoogleTagsTagValueIamPolicy#id}. |
 
 ---
 
@@ -884,7 +884,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#policy_data GoogleTagsTagValueIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#policy_data GoogleTagsTagValueIamPolicy#policy_data}.
 
 ---
 
@@ -896,7 +896,7 @@ TagValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#tag_value GoogleTagsTagValueIamPolicy#tag_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#tag_value GoogleTagsTagValueIamPolicy#tag_value}.
 
 ---
 
@@ -908,7 +908,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tags_tag_value_iam_policy#id GoogleTagsTagValueIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tags_tag_value_iam_policy#id GoogleTagsTagValueIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

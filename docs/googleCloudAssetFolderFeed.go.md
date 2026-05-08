@@ -4,12 +4,12 @@
 
 ### GoogleCloudAssetFolderFeed <a name="GoogleCloudAssetFolderFeed" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.NewGoogleCloudAssetFolderFeed(scope Construct, id *string, config GoogleCloudAssetFolderFeedConfig) GoogleCloudAssetFolderFeed
 ```
@@ -481,7 +481,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeed.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.GoogleCloudAssetFolderFeed_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the GoogleCloudAssetFolderFeed
 
 The id of the existing GoogleCloudAssetFolderFeed that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1012,7 +1012,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 &googlecloudassetfolderfeed.GoogleCloudAssetFolderFeedCondition {
 	Expression: *string,
@@ -1043,7 +1043,7 @@ Expression *string
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#expression GoogleCloudAssetFolderFeed#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#expression GoogleCloudAssetFolderFeed#expression}
 
 ---
 
@@ -1060,7 +1060,7 @@ Description of the expression.
 This is a longer text which describes the expression,
 e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#description GoogleCloudAssetFolderFeed#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#description GoogleCloudAssetFolderFeed#description}
 
 ---
 
@@ -1074,7 +1074,7 @@ Location *string
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#location GoogleCloudAssetFolderFeed#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#location GoogleCloudAssetFolderFeed#location}
 
 ---
 
@@ -1088,7 +1088,7 @@ Title *string
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#title GoogleCloudAssetFolderFeed#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#title GoogleCloudAssetFolderFeed#title}
 
 ---
 
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 &googlecloudassetfolderfeed.GoogleCloudAssetFolderFeedConfig {
 	Connection: interface{},
@@ -1109,14 +1109,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 	Provisioners: *[]interface{},
 	BillingProject: *string,
 	FeedId: *string,
-	FeedOutputConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfig,
+	FeedOutputConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfig,
 	Folder: *string,
 	AssetNames: *[]*string,
 	AssetTypes: *[]*string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedCondition,
 	ContentType: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts,
 }
 ```
 
@@ -1139,7 +1139,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.assetTypes">AssetTypes</a></code> | <code>*[]*string</code> | A list of types of the assets to receive updates. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedCondition">GoogleCloudAssetFolderFeedCondition</a></code> | condition block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.contentType">ContentType</a></code> | <code>*string</code> | Asset content type. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#id GoogleCloudAssetFolderFeed#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#id GoogleCloudAssetFolderFeed#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts">GoogleCloudAssetFolderFeedTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1227,7 +1227,7 @@ The project whose identity will be used when sending messages to the destination
 It also specifies the project for API
 enablement check, quota, and billing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#billing_project GoogleCloudAssetFolderFeed#billing_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#billing_project GoogleCloudAssetFolderFeed#billing_project}
 
 ---
 
@@ -1241,7 +1241,7 @@ FeedId *string
 
 This is the client-assigned asset feed identifier and it needs to be unique under a specific parent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#feed_id GoogleCloudAssetFolderFeed#feed_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#feed_id GoogleCloudAssetFolderFeed#feed_id}
 
 ---
 
@@ -1255,7 +1255,7 @@ FeedOutputConfig GoogleCloudAssetFolderFeedFeedOutputConfig
 
 feed_output_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#feed_output_config GoogleCloudAssetFolderFeed#feed_output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#feed_output_config GoogleCloudAssetFolderFeed#feed_output_config}
 
 ---
 
@@ -1269,7 +1269,7 @@ Folder *string
 
 The folder this feed should be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#folder GoogleCloudAssetFolderFeed#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#folder GoogleCloudAssetFolderFeed#folder}
 
 ---
 
@@ -1288,7 +1288,7 @@ assetNames and assetTypes. Only asset updates matching specified assetNames and 
 exported to the feed. For example: //compute.googleapis.com/projects/my_project_123/zones/zone1/instances/instance1.
 See https://cloud.google.com/apis/design/resourceNames#fullResourceName for more info.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#asset_names GoogleCloudAssetFolderFeed#asset_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#asset_names GoogleCloudAssetFolderFeed#asset_names}
 
 ---
 
@@ -1308,7 +1308,7 @@ the feed. For example: "compute.googleapis.com/Disk"
 See https://cloud.google.com/asset-inventory/docs/supported-asset-types for a list of all
 supported asset types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#asset_types GoogleCloudAssetFolderFeed#asset_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#asset_types GoogleCloudAssetFolderFeed#asset_types}
 
 ---
 
@@ -1322,7 +1322,7 @@ Condition GoogleCloudAssetFolderFeedCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#condition GoogleCloudAssetFolderFeed#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#condition GoogleCloudAssetFolderFeed#condition}
 
 ---
 
@@ -1338,7 +1338,7 @@ Asset content type.
 
 If not specified, no content but the asset name and type will be returned. Possible values: ["CONTENT_TYPE_UNSPECIFIED", "RESOURCE", "IAM_POLICY", "ORG_POLICY", "OS_INVENTORY", "ACCESS_POLICY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#content_type GoogleCloudAssetFolderFeed#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#content_type GoogleCloudAssetFolderFeed#content_type}
 
 ---
 
@@ -1350,7 +1350,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#id GoogleCloudAssetFolderFeed#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#id GoogleCloudAssetFolderFeed#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1367,7 +1367,7 @@ Timeouts GoogleCloudAssetFolderFeedTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#timeouts GoogleCloudAssetFolderFeed#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#timeouts GoogleCloudAssetFolderFeed#timeouts}
 
 ---
 
@@ -1376,10 +1376,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 &googlecloudassetfolderfeed.GoogleCloudAssetFolderFeedFeedOutputConfig {
-	PubsubDestination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination,
+	PubsubDestination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination,
 }
 ```
 
@@ -1401,7 +1401,7 @@ PubsubDestination GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination
 
 pubsub_destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#pubsub_destination GoogleCloudAssetFolderFeed#pubsub_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#pubsub_destination GoogleCloudAssetFolderFeed#pubsub_destination}
 
 ---
 
@@ -1410,7 +1410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 &googlecloudassetfolderfeed.GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination {
 	Topic: *string,
@@ -1435,7 +1435,7 @@ Topic *string
 
 Destination on Cloud Pubsub topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#topic GoogleCloudAssetFolderFeed#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#topic GoogleCloudAssetFolderFeed#topic}
 
 ---
 
@@ -1444,7 +1444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 &googlecloudassetfolderfeed.GoogleCloudAssetFolderFeedTimeouts {
 	Create: *string,
@@ -1457,9 +1457,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#create GoogleCloudAssetFolderFeed#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#delete GoogleCloudAssetFolderFeed#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#update GoogleCloudAssetFolderFeed#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#create GoogleCloudAssetFolderFeed#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#delete GoogleCloudAssetFolderFeed#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#update GoogleCloudAssetFolderFeed#update}. |
 
 ---
 
@@ -1471,7 +1471,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#create GoogleCloudAssetFolderFeed#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#create GoogleCloudAssetFolderFeed#create}.
 
 ---
 
@@ -1483,7 +1483,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#delete GoogleCloudAssetFolderFeed#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#delete GoogleCloudAssetFolderFeed#delete}.
 
 ---
 
@@ -1495,7 +1495,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_folder_feed#update GoogleCloudAssetFolderFeed#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_asset_folder_feed#update GoogleCloudAssetFolderFeed#update}.
 
 ---
 
@@ -1506,7 +1506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.NewGoogleCloudAssetFolderFeedConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudAssetFolderFeedConditionOutputReference
 ```
@@ -1864,7 +1864,7 @@ func InternalValue() GoogleCloudAssetFolderFeedCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.NewGoogleCloudAssetFolderFeedFeedOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudAssetFolderFeedFeedOutputConfigOutputReference
 ```
@@ -2148,7 +2148,7 @@ func InternalValue() GoogleCloudAssetFolderFeedFeedOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.NewGoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestinationOutputReference
 ```
@@ -2419,7 +2419,7 @@ func InternalValue() GoogleCloudAssetFolderFeedFeedOutputConfigPubsubDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudAssetFolderFeed.GoogleCloudAssetFolderFeedTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudassetfolderfeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudassetfolderfeed"
 
 googlecloudassetfolderfeed.NewGoogleCloudAssetFolderFeedTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudAssetFolderFeedTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleSecretManagerRegionalSecretIamPolicy <a name="GoogleSecretManagerRegionalSecretIamPolicy" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy google_secret_manager_regional_secret_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy google_secret_manager_regional_secret_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 googlesecretmanagerregionalsecretiampolicy.NewGoogleSecretManagerRegionalSecretIamPolicy(scope Construct, id *string, config GoogleSecretManagerRegionalSecretIamPolicyConfig) GoogleSecretManagerRegionalSecretIamPolicy
 ```
@@ -421,7 +421,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamP
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamP
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleSecretManagerRegiona
 
 The id of the existing GoogleSecretManagerRegionalSecretIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretiampolicy"
 
 &googlesecretmanagerregionalsecretiampolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig {
 	Connection: interface{},
@@ -860,11 +860,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#policy_data GoogleSecretManagerRegionalSecretIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.secretId">SecretId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#secret_id GoogleSecretManagerRegionalSecretIamPolicy#secret_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#id GoogleSecretManagerRegionalSecretIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#location GoogleSecretManagerRegionalSecretIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#project GoogleSecretManagerRegionalSecretIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#policy_data GoogleSecretManagerRegionalSecretIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.secretId">SecretId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#secret_id GoogleSecretManagerRegionalSecretIamPolicy#secret_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#id GoogleSecretManagerRegionalSecretIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#location GoogleSecretManagerRegionalSecretIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerRegionalSecretIamPolicy.GoogleSecretManagerRegionalSecretIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#project GoogleSecretManagerRegionalSecretIamPolicy#project}. |
 
 ---
 
@@ -946,7 +946,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#policy_data GoogleSecretManagerRegionalSecretIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#policy_data GoogleSecretManagerRegionalSecretIamPolicy#policy_data}.
 
 ---
 
@@ -958,7 +958,7 @@ SecretId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#secret_id GoogleSecretManagerRegionalSecretIamPolicy#secret_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#secret_id GoogleSecretManagerRegionalSecretIamPolicy#secret_id}.
 
 ---
 
@@ -970,7 +970,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#id GoogleSecretManagerRegionalSecretIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#id GoogleSecretManagerRegionalSecretIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#location GoogleSecretManagerRegionalSecretIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#location GoogleSecretManagerRegionalSecretIamPolicy#location}.
 
 ---
 
@@ -997,7 +997,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_iam_policy#project GoogleSecretManagerRegionalSecretIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_iam_policy#project GoogleSecretManagerRegionalSecretIamPolicy#project}.
 
 ---
 

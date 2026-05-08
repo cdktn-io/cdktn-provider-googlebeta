@@ -4,12 +4,12 @@
 
 ### GoogleChronicleDataAccessScope <a name="GoogleChronicleDataAccessScope" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScope(scope Construct, id *string, config GoogleChronicleDataAccessScopeConfig) GoogleChronicleDataAccessScope
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.GoogleChronicleDataAccessScope_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.GoogleChronicleDataAccessScope_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlechronicledataaccessscope.GoogleChronicleDataAccessScope_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.GoogleChronicleDataAccessScope_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlechronicledataaccessscope.GoogleChronicleDataAccessScope_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.GoogleChronicleDataAccessScope_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleChronicleDataAccessS
 
 The id of the existing GoogleChronicleDataAccessScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1063,12 +1063,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeAllowedDataAccessLabels {
 	AssetNamespace: *string,
 	DataAccessLabel: *string,
-	IngestionLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabel,
+	IngestionLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabel,
 	LogType: *string,
 }
 ```
@@ -1094,7 +1094,7 @@ AssetNamespace *string
 
 The asset namespace configured in the forwarder of the customer's events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#asset_namespace GoogleChronicleDataAccessScope#asset_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#asset_namespace GoogleChronicleDataAccessScope#asset_namespace}
 
 ---
 
@@ -1108,7 +1108,7 @@ DataAccessLabel *string
 
 The name of the data access label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#data_access_label GoogleChronicleDataAccessScope#data_access_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#data_access_label GoogleChronicleDataAccessScope#data_access_label}
 
 ---
 
@@ -1122,7 +1122,7 @@ IngestionLabel GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLab
 
 ingestion_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label GoogleChronicleDataAccessScope#ingestion_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label GoogleChronicleDataAccessScope#ingestion_label}
 
 ---
 
@@ -1136,7 +1136,7 @@ LogType *string
 
 The name of the log type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#log_type GoogleChronicleDataAccessScope#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#log_type GoogleChronicleDataAccessScope#log_type}
 
 ---
 
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabel {
 	IngestionLabelKey: *string,
@@ -1172,7 +1172,7 @@ IngestionLabelKey *string
 
 Required. The key of the ingestion label. Always required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_key GoogleChronicleDataAccessScope#ingestion_label_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_key GoogleChronicleDataAccessScope#ingestion_label_key}
 
 ---
 
@@ -1190,7 +1190,7 @@ The value of the ingestion label. Optional. An object
 with no provided value and some key provided would match
 against the given key and ANY value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_value GoogleChronicleDataAccessScope#ingestion_label_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_value GoogleChronicleDataAccessScope#ingestion_label_value}
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeConfig {
 	Connection: interface{},
@@ -1218,7 +1218,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlech
 	Description: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts,
 }
 ```
 
@@ -1240,8 +1240,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlech
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.allowedDataAccessLabels">AllowedDataAccessLabels</a></code> | <code>interface{}</code> | allowed_data_access_labels block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.deniedDataAccessLabels">DeniedDataAccessLabels</a></code> | <code>interface{}</code> | denied_data_access_labels block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.description">Description</a></code> | <code>*string</code> | Optional. A description of the data access scope for a human reader. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#id GoogleChronicleDataAccessScope#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#project GoogleChronicleDataAccessScope#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#id GoogleChronicleDataAccessScope#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#project GoogleChronicleDataAccessScope#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts">GoogleChronicleDataAccessScopeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1330,7 +1330,7 @@ The user provided scope id which will become the last part of the name
 of the scope resource.
 Needs to be compliant with https://google.aip.dev/122
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#data_access_scope_id GoogleChronicleDataAccessScope#data_access_scope_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#data_access_scope_id GoogleChronicleDataAccessScope#data_access_scope_id}
 
 ---
 
@@ -1344,7 +1344,7 @@ Instance *string
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#instance GoogleChronicleDataAccessScope#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#instance GoogleChronicleDataAccessScope#instance}
 
 ---
 
@@ -1360,7 +1360,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#location GoogleChronicleDataAccessScope#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#location GoogleChronicleDataAccessScope#location}
 
 ---
 
@@ -1383,7 +1383,7 @@ A customer with scope with denied labels A and B and allow_all will be able
 to see all data except data labeled with A and data labeled with B and data
 with labels A and B.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#allow_all GoogleChronicleDataAccessScope#allow_all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#allow_all GoogleChronicleDataAccessScope#allow_all}
 
 ---
 
@@ -1397,7 +1397,7 @@ AllowedDataAccessLabels interface{}
 
 allowed_data_access_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#allowed_data_access_labels GoogleChronicleDataAccessScope#allowed_data_access_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#allowed_data_access_labels GoogleChronicleDataAccessScope#allowed_data_access_labels}
 
 ---
 
@@ -1411,7 +1411,7 @@ DeniedDataAccessLabels interface{}
 
 denied_data_access_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#denied_data_access_labels GoogleChronicleDataAccessScope#denied_data_access_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#denied_data_access_labels GoogleChronicleDataAccessScope#denied_data_access_labels}
 
 ---
 
@@ -1425,7 +1425,7 @@ Description *string
 
 Optional. A description of the data access scope for a human reader.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#description GoogleChronicleDataAccessScope#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#description GoogleChronicleDataAccessScope#description}
 
 ---
 
@@ -1437,7 +1437,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#id GoogleChronicleDataAccessScope#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#id GoogleChronicleDataAccessScope#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1452,7 +1452,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#project GoogleChronicleDataAccessScope#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#project GoogleChronicleDataAccessScope#project}.
 
 ---
 
@@ -1466,7 +1466,7 @@ Timeouts GoogleChronicleDataAccessScopeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#timeouts GoogleChronicleDataAccessScope#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#timeouts GoogleChronicleDataAccessScope#timeouts}
 
 ---
 
@@ -1475,12 +1475,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeDeniedDataAccessLabels {
 	AssetNamespace: *string,
 	DataAccessLabel: *string,
-	IngestionLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabel,
+	IngestionLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabel,
 	LogType: *string,
 }
 ```
@@ -1506,7 +1506,7 @@ AssetNamespace *string
 
 The asset namespace configured in the forwarder of the customer's events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#asset_namespace GoogleChronicleDataAccessScope#asset_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#asset_namespace GoogleChronicleDataAccessScope#asset_namespace}
 
 ---
 
@@ -1520,7 +1520,7 @@ DataAccessLabel *string
 
 The name of the data access label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#data_access_label GoogleChronicleDataAccessScope#data_access_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#data_access_label GoogleChronicleDataAccessScope#data_access_label}
 
 ---
 
@@ -1534,7 +1534,7 @@ IngestionLabel GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabe
 
 ingestion_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label GoogleChronicleDataAccessScope#ingestion_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label GoogleChronicleDataAccessScope#ingestion_label}
 
 ---
 
@@ -1548,7 +1548,7 @@ LogType *string
 
 The name of the log type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#log_type GoogleChronicleDataAccessScope#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#log_type GoogleChronicleDataAccessScope#log_type}
 
 ---
 
@@ -1557,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabel {
 	IngestionLabelKey: *string,
@@ -1584,7 +1584,7 @@ IngestionLabelKey *string
 
 Required. The key of the ingestion label. Always required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_key GoogleChronicleDataAccessScope#ingestion_label_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_key GoogleChronicleDataAccessScope#ingestion_label_key}
 
 ---
 
@@ -1602,7 +1602,7 @@ The value of the ingestion label. Optional. An object
 with no provided value and some key provided would match
 against the given key and ANY value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_value GoogleChronicleDataAccessScope#ingestion_label_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#ingestion_label_value GoogleChronicleDataAccessScope#ingestion_label_value}
 
 ---
 
@@ -1611,7 +1611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 &googlechronicledataaccessscope.GoogleChronicleDataAccessScopeTimeouts {
 	Create: *string,
@@ -1624,9 +1624,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlech
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#create GoogleChronicleDataAccessScope#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#delete GoogleChronicleDataAccessScope#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#update GoogleChronicleDataAccessScope#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#create GoogleChronicleDataAccessScope#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#delete GoogleChronicleDataAccessScope#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#update GoogleChronicleDataAccessScope#update}. |
 
 ---
 
@@ -1638,7 +1638,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#create GoogleChronicleDataAccessScope#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#create GoogleChronicleDataAccessScope#create}.
 
 ---
 
@@ -1650,7 +1650,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#delete GoogleChronicleDataAccessScope#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#delete GoogleChronicleDataAccessScope#delete}.
 
 ---
 
@@ -1662,7 +1662,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope#update GoogleChronicleDataAccessScope#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope#update GoogleChronicleDataAccessScope#update}.
 
 ---
 
@@ -1673,7 +1673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference
 ```
@@ -1973,7 +1973,7 @@ func InternalValue() GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeAllowedDataAccessLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDataAccessScopeAllowedDataAccessLabelsList
 ```
@@ -2133,7 +2133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeAllowedDataAccessLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeAllowedDataAccessLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDataAccessScopeAllowedDataAccessLabelsOutputReference
 ```
@@ -2540,7 +2540,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngestionLabelOutputReference
 ```
@@ -2840,7 +2840,7 @@ func InternalValue() GoogleChronicleDataAccessScopeDeniedDataAccessLabelsIngesti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeDeniedDataAccessLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDataAccessScopeDeniedDataAccessLabelsList
 ```
@@ -3000,7 +3000,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDataAccessScopeDeniedDataAccessLabelsOutputReference
 ```
@@ -3407,7 +3407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScopeTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope"
 
 googlechronicledataaccessscope.NewGoogleChronicleDataAccessScopeTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataAccessScopeTimeoutsOutputReference
 ```

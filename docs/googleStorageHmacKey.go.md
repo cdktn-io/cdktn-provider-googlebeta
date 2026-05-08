@@ -4,12 +4,12 @@
 
 ### GoogleStorageHmacKey <a name="GoogleStorageHmacKey" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key google_storage_hmac_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key google_storage_hmac_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.NewGoogleStorageHmacKey(scope Construct, id *string, config GoogleStorageHmacKeyConfig) GoogleStorageHmacKey
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.GoogleStorageHmacKey_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.GoogleStorageHmacKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlestoragehmackey.GoogleStorageHmacKey_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.GoogleStorageHmacKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlestoragehmackey.GoogleStorageHmacKey_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.GoogleStorageHmacKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleStorageHmacKey to im
 
 The id of the existing GoogleStorageHmacKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 &googlestoragehmackey.GoogleStorageHmacKeyConfig {
 	Connection: interface{},
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 	Id: *string,
 	Project: *string,
 	State: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts,
 }
 ```
 
@@ -914,8 +914,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>*string</code> | The email address of the key's associated service account. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.state">State</a></code> | <code>*string</code> | The state of the key. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts">GoogleStorageHmacKeyTimeouts</a></code> | timeouts block. |
 
@@ -1001,7 +1001,7 @@ ServiceAccountEmail *string
 
 The email address of the key's associated service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#service_account_email GoogleStorageHmacKey#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#service_account_email GoogleStorageHmacKey#service_account_email}
 
 ---
 
@@ -1013,7 +1013,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1028,7 +1028,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}.
 
 ---
 
@@ -1044,7 +1044,7 @@ The state of the key.
 
 Can be set to one of ACTIVE, INACTIVE. Default value: "ACTIVE" Possible values: ["ACTIVE", "INACTIVE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#state GoogleStorageHmacKey#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#state GoogleStorageHmacKey#state}
 
 ---
 
@@ -1058,7 +1058,7 @@ Timeouts GoogleStorageHmacKeyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#timeouts GoogleStorageHmacKey#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#timeouts GoogleStorageHmacKey#timeouts}
 
 ---
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 &googlestoragehmackey.GoogleStorageHmacKeyTimeouts {
 	Create: *string,
@@ -1080,9 +1080,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}. |
 
 ---
 
@@ -1094,7 +1094,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}.
 
 ---
 
@@ -1106,7 +1106,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}.
 
 ---
 
@@ -1118,7 +1118,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}.
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragehmackey"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragehmackey"
 
 googlestoragehmackey.NewGoogleStorageHmacKeyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageHmacKeyTimeoutsOutputReference
 ```

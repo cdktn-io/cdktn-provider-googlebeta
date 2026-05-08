@@ -4,7 +4,7 @@
 
 ### GoogleSqlDatabaseInstance <a name="GoogleSqlDatabaseInstance" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer"></a>
 
@@ -22,15 +22,18 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstance(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   database_version: str,
+  backupdr_backup: str = None,
   clone: GoogleSqlDatabaseInstanceClone = None,
   deletion_protection: bool | IResolvable = None,
   encryption_key_name: str = None,
+  final_backup_description: str = None,
   id: str = None,
   instance_type: str = None,
   maintenance_version: str = None,
   master_instance_name: str = None,
   name: str = None,
   node_count: typing.Union[int, float] = None,
+  point_in_time_restore_context: GoogleSqlDatabaseInstancePointInTimeRestoreContext = None,
   project: str = None,
   region: str = None,
   replica_configuration: GoogleSqlDatabaseInstanceReplicaConfiguration = None,
@@ -38,6 +41,8 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstance(
   replication_cluster: GoogleSqlDatabaseInstanceReplicationCluster = None,
   restore_backup_context: GoogleSqlDatabaseInstanceRestoreBackupContext = None,
   root_password: str = None,
+  root_password_wo: str = None,
+  root_password_wo_version: str = None,
   settings: GoogleSqlDatabaseInstanceSettings = None,
   timeouts: GoogleSqlDatabaseInstanceTimeouts = None
 )
@@ -54,16 +59,19 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.databaseVersion">database_version</a></code> | <code>str</code> | The MySQL, PostgreSQL or SQL Server (beta) version to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.databaseVersion">database_version</a></code> | <code>str</code> | The MySQL, PostgreSQL or SQL Server version to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.backupdrBackup">backupdr_backup</a></code> | <code>str</code> | The name of the BackupDR backup to restore from. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.clone">clone</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone">GoogleSqlDatabaseInstanceClone</a></code> | clone block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Used to block Terraform from deleting a SQL Instance. Defaults to true. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.encryptionKeyName">encryption_key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.encryptionKeyName">encryption_key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.finalBackupDescription">final_backup_description</a></code> | <code>str</code> | The description of final backup if instance enable create final backup during instance deletion. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.instanceType">instance_type</a></code> | <code>str</code> | The type of the instance. See https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1/instances#SqlInstanceType for supported values. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.maintenanceVersion">maintenance_version</a></code> | <code>str</code> | Maintenance version. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.masterInstanceName">master_instance_name</a></code> | <code>str</code> | The name of the instance that will act as the master in the replication setup. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.nodeCount">node_count</a></code> | <code>typing.Union[int, float]</code> | For a read pool instance, the number of nodes in the read pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.pointInTimeRestoreContext">point_in_time_restore_context</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a></code> | point_in_time_restore_context block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.region">region</a></code> | <code>str</code> | The region the instance will sit in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.replicaConfiguration">replica_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicaConfiguration">GoogleSqlDatabaseInstanceReplicaConfiguration</a></code> | replica_configuration block. |
@@ -71,6 +79,8 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.replicationCluster">replication_cluster</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationCluster">GoogleSqlDatabaseInstanceReplicationCluster</a></code> | replication_cluster block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.restoreBackupContext">restore_backup_context</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceRestoreBackupContext">GoogleSqlDatabaseInstanceRestoreBackupContext</a></code> | restore_backup_context block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.rootPassword">root_password</a></code> | <code>str</code> | Initial root password. Required for MS SQL Server. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.rootPasswordWo">root_password_wo</a></code> | <code>str</code> | Initial root password. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.rootPasswordWoVersion">root_password_wo_version</a></code> | <code>str</code> | Triggers update of root_password_wo write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments). |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.settings">settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings">GoogleSqlDatabaseInstanceSettings</a></code> | settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts">GoogleSqlDatabaseInstanceTimeouts</a></code> | timeouts block. |
 
@@ -140,11 +150,21 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-The MySQL, PostgreSQL or SQL Server (beta) version to use.
+The MySQL, PostgreSQL or SQL Server version to use.
 
-Supported values include MYSQL_5_6, MYSQL_5_7, MYSQL_8_0, MYSQL_8_4, POSTGRES_9_6, POSTGRES_10, POSTGRES_11, POSTGRES_12, POSTGRES_13, POSTGRES_14, POSTGRES_15, POSTGRES_16, POSTGRES_17, SQLSERVER_2017_STANDARD, SQLSERVER_2017_ENTERPRISE, SQLSERVER_2017_EXPRESS, SQLSERVER_2017_WEB. Database Version Policies includes an up-to-date reference of supported versions.
+Supported values include MYSQL_5_6, MYSQL_5_7, MYSQL_8_0, MYSQL_8_4, POSTGRES_9_6, POSTGRES_10, POSTGRES_11, POSTGRES_12, POSTGRES_13, POSTGRES_14, POSTGRES_15, POSTGRES_16, POSTGRES_17, POSTGRES_18, SQLSERVER_2022_STANDARD, SQLSERVER_2022_ENTERPRISE, SQLSERVER_2022_EXPRESS, SQLSERVER_2022_WEB, SQLSERVER_2025_STANDARD, SQLSERVER_2025_ENTERPRISE, SQLSERVER_2025_EXPRESS, SQLSERVER_2025_WEB. Database Version Policies includes an up-to-date reference of supported versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_version GoogleSqlDatabaseInstance#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_version GoogleSqlDatabaseInstance#database_version}
+
+---
+
+##### `backupdr_backup`<sup>Optional</sup> <a name="backupdr_backup" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.backupdrBackup"></a>
+
+- *Type:* str
+
+The name of the BackupDR backup to restore from.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backupdr_backup GoogleSqlDatabaseInstance#backupdr_backup}
 
 ---
 
@@ -154,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 clone block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#clone GoogleSqlDatabaseInstance#clone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#clone GoogleSqlDatabaseInstance#clone}
 
 ---
 
@@ -164,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Used to block Terraform from deleting a SQL Instance. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection GoogleSqlDatabaseInstance#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deletion_protection GoogleSqlDatabaseInstance#deletion_protection}
 
 ---
 
@@ -172,7 +192,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}.
+
+---
+
+##### `final_backup_description`<sup>Optional</sup> <a name="final_backup_description" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.finalBackupDescription"></a>
+
+- *Type:* str
+
+The description of final backup if instance enable create final backup during instance deletion.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#final_backup_description GoogleSqlDatabaseInstance#final_backup_description}
 
 ---
 
@@ -180,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +223,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The type of the instance. See https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1/instances#SqlInstanceType for supported values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#instance_type GoogleSqlDatabaseInstance#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#instance_type GoogleSqlDatabaseInstance#instance_type}
 
 ---
 
@@ -203,7 +233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maintenance version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#maintenance_version GoogleSqlDatabaseInstance#maintenance_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#maintenance_version GoogleSqlDatabaseInstance#maintenance_version}
 
 ---
 
@@ -215,7 +245,7 @@ The name of the instance that will act as the master in the replication setup.
 
 Note, this requires the master to have binary_log_enabled set, as well as existing backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#master_instance_name GoogleSqlDatabaseInstance#master_instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#master_instance_name GoogleSqlDatabaseInstance#master_instance_name}
 
 ---
 
@@ -227,7 +257,7 @@ The name of the instance.
 
 If the name is left blank, Terraform will randomly generate one when the instance is first created. This is done because after a name is used, it cannot be reused for up to one week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
 
 ---
 
@@ -237,7 +267,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For a read pool instance, the number of nodes in the read pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#node_count GoogleSqlDatabaseInstance#node_count}
+For read pools with auto scaling enabled, this field is read only.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#node_count GoogleSqlDatabaseInstance#node_count}
+
+---
+
+##### `point_in_time_restore_context`<sup>Optional</sup> <a name="point_in_time_restore_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.pointInTimeRestoreContext"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a>
+
+point_in_time_restore_context block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time_restore_context GoogleSqlDatabaseInstance#point_in_time_restore_context}
 
 ---
 
@@ -249,7 +291,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
 
 ---
 
@@ -261,7 +303,7 @@ The region the instance will sit in.
 
 Note, Cloud SQL is not available in all regions. A valid region must be provided to use this resource. If a region is not provided in the resource definition, the provider region will be used instead, but this will be an apply-time error for instances if the provider region is not supported with Cloud SQL. If you choose not to provide the region argument for this resource, make sure you understand this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
 
 ---
 
@@ -271,7 +313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 replica_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replica_configuration GoogleSqlDatabaseInstance#replica_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replica_configuration GoogleSqlDatabaseInstance#replica_configuration}
 
 ---
 
@@ -281,7 +323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The replicas of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replica_names GoogleSqlDatabaseInstance#replica_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replica_names GoogleSqlDatabaseInstance#replica_names}
 
 ---
 
@@ -291,7 +333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 replication_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replication_cluster GoogleSqlDatabaseInstance#replication_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replication_cluster GoogleSqlDatabaseInstance#replication_cluster}
 
 ---
 
@@ -301,7 +343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 restore_backup_context block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#restore_backup_context GoogleSqlDatabaseInstance#restore_backup_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#restore_backup_context GoogleSqlDatabaseInstance#restore_backup_context}
 
 ---
 
@@ -311,7 +353,30 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Initial root password. Required for MS SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#root_password GoogleSqlDatabaseInstance#root_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password GoogleSqlDatabaseInstance#root_password}
+
+---
+
+##### `root_password_wo`<sup>Optional</sup> <a name="root_password_wo" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.rootPasswordWo"></a>
+
+- *Type:* str
+
+Initial root password.
+
+Required for MS SQL Server.
+Note: This property is write-only and will not be read from the API. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password_wo GoogleSqlDatabaseInstance#root_password_wo}
+
+---
+
+##### `root_password_wo_version`<sup>Optional</sup> <a name="root_password_wo_version" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.Initializer.parameter.rootPasswordWoVersion"></a>
+
+- *Type:* str
+
+Triggers update of root_password_wo write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password_wo_version GoogleSqlDatabaseInstance#root_password_wo_version}
 
 ---
 
@@ -321,7 +386,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#settings GoogleSqlDatabaseInstance#settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#settings GoogleSqlDatabaseInstance#settings}
 
 ---
 
@@ -331,7 +396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#timeouts GoogleSqlDatabaseInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#timeouts GoogleSqlDatabaseInstance#timeouts}
 
 ---
 
@@ -364,20 +429,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putClone">put_clone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext">put_point_in_time_restore_context</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putReplicaConfiguration">put_replica_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putReplicationCluster">put_replication_cluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putRestoreBackupContext">put_restore_backup_context</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings">put_settings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetBackupdrBackup">reset_backupdr_backup</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetClone">reset_clone</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetDeletionProtection">reset_deletion_protection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetEncryptionKeyName">reset_encryption_key_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetFinalBackupDescription">reset_final_backup_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetInstanceType">reset_instance_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetMaintenanceVersion">reset_maintenance_version</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetMasterInstanceName">reset_master_instance_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetName">reset_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetNodeCount">reset_node_count</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetPointInTimeRestoreContext">reset_point_in_time_restore_context</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRegion">reset_region</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetReplicaConfiguration">reset_replica_configuration</a></code> | *No description.* |
@@ -385,6 +454,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetReplicationCluster">reset_replication_cluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRestoreBackupContext">reset_restore_backup_context</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRootPassword">reset_root_password</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRootPasswordWo">reset_root_password_wo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRootPasswordWoVersion">reset_root_password_wo_version</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetSettings">reset_settings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
@@ -746,7 +817,9 @@ def put_clone(
   allocated_ip_range: str = None,
   database_names: typing.List[str] = None,
   point_in_time: str = None,
-  preferred_zone: str = None
+  preferred_zone: str = None,
+  source_instance_deletion_time: str = None,
+  source_project: str = None
 ) -> None
 ```
 
@@ -756,7 +829,7 @@ def put_clone(
 
 The name of the instance from which the point in time should be restored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#source_instance_name GoogleSqlDatabaseInstance#source_instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_instance_name GoogleSqlDatabaseInstance#source_instance_name}
 
 ---
 
@@ -768,7 +841,7 @@ The name of the allocated ip range for the private ip CloudSQL instance.
 
 For example: "google-managed-services-default". If set, the cloned instance ip will be created in the allocated range. The range name must comply with [RFC 1035](https://tools.ietf.org/html/rfc1035). Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
 
 ---
 
@@ -780,7 +853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Clone all databases if empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_names GoogleSqlDatabaseInstance#database_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_names GoogleSqlDatabaseInstance#database_names}
 
 ---
 
@@ -790,7 +863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The timestamp of the point in time that should be restored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
 
 ---
 
@@ -802,7 +875,104 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If no zone is specified, clone to the same zone as the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+
+---
+
+###### `source_instance_deletion_time`<sup>Optional</sup> <a name="source_instance_deletion_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putClone.parameter.sourceInstanceDeletionTime"></a>
+
+- *Type:* str
+
+The timestamp of when the source instance was deleted for a clone from a deleted instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_instance_deletion_time GoogleSqlDatabaseInstance#source_instance_deletion_time}
+
+---
+
+###### `source_project`<sup>Optional</sup> <a name="source_project" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putClone.parameter.sourceProject"></a>
+
+- *Type:* str
+
+The project ID of the source project.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_project GoogleSqlDatabaseInstance#source_project}
+
+---
+
+##### `put_point_in_time_restore_context` <a name="put_point_in_time_restore_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext"></a>
+
+```python
+def put_point_in_time_restore_context(
+  datasource: str,
+  allocated_ip_range: str = None,
+  point_in_time: str = None,
+  preferred_zone: str = None,
+  region: str = None,
+  target_instance: str = None
+) -> None
+```
+
+###### `datasource`<sup>Required</sup> <a name="datasource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.datasource"></a>
+
+- *Type:* str
+
+The Google Cloud Backup and Disaster Recovery Datasource URI. For example: "projects/my-project/locations/us-central1/datasources/my-datasource".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#datasource GoogleSqlDatabaseInstance#datasource}
+
+---
+
+###### `allocated_ip_range`<sup>Optional</sup> <a name="allocated_ip_range" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.allocatedIpRange"></a>
+
+- *Type:* str
+
+The name of the allocated IP range for the internal IP Cloud SQL instance.
+
+For example: "google-managed-services-default". If you set this, then Cloud SQL creates the IP address for the cloned instance in the allocated range. This range must comply with [RFC 1035](https://tools.ietf.org/html/rfc1035) standards. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+
+---
+
+###### `point_in_time`<sup>Optional</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.pointInTime"></a>
+
+- *Type:* str
+
+The date and time to which you want to restore the instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
+
+---
+
+###### `preferred_zone`<sup>Optional</sup> <a name="preferred_zone" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.preferredZone"></a>
+
+- *Type:* str
+
+Point-in-time recovery of an instance to the specified zone.
+
+If no zone is specified, then clone to the same primary zone as the source instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+
+---
+
+###### `region`<sup>Optional</sup> <a name="region" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.region"></a>
+
+- *Type:* str
+
+The region of the target instance to restore to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
+
+---
+
+###### `target_instance`<sup>Optional</sup> <a name="target_instance" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putPointInTimeRestoreContext.parameter.targetInstance"></a>
+
+- *Type:* str
+
+The name of the target instance to restore to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#target_instance GoogleSqlDatabaseInstance#target_instance}
 
 ---
 
@@ -831,7 +1001,7 @@ def put_replica_configuration(
 
 PEM representation of the trusted CA's x509 certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ca_certificate GoogleSqlDatabaseInstance#ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ca_certificate GoogleSqlDatabaseInstance#ca_certificate}
 
 ---
 
@@ -843,7 +1013,7 @@ Specifies if a SQL Server replica is a cascadable replica.
 
 A cascadable replica is a SQL Server cross region replica that supports replica(s) under it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#cascadable_replica GoogleSqlDatabaseInstance#cascadable_replica}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#cascadable_replica GoogleSqlDatabaseInstance#cascadable_replica}
 
 ---
 
@@ -853,7 +1023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PEM representation of the replica's x509 certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#client_certificate GoogleSqlDatabaseInstance#client_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#client_certificate GoogleSqlDatabaseInstance#client_certificate}
 
 ---
 
@@ -863,7 +1033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PEM representation of the replica's private key. The corresponding public key in encoded in the client_certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#client_key GoogleSqlDatabaseInstance#client_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#client_key GoogleSqlDatabaseInstance#client_key}
 
 ---
 
@@ -873,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of seconds between connect retries. MySQL's default is 60 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connect_retry_interval GoogleSqlDatabaseInstance#connect_retry_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connect_retry_interval GoogleSqlDatabaseInstance#connect_retry_interval}
 
 ---
 
@@ -883,7 +1053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Path to a SQL file in Google Cloud Storage from which replica instances are created. Format is gs://bucket/filename.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#dump_file_path GoogleSqlDatabaseInstance#dump_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#dump_file_path GoogleSqlDatabaseInstance#dump_file_path}
 
 ---
 
@@ -895,7 +1065,7 @@ Specifies if the replica is the failover target.
 
 If the field is set to true the replica will be designated as a failover replica. If the master instance fails, the replica instance will be promoted as the new master instance. Not supported for Postgres
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#failover_target GoogleSqlDatabaseInstance#failover_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#failover_target GoogleSqlDatabaseInstance#failover_target}
 
 ---
 
@@ -905,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time in ms between replication heartbeats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#master_heartbeat_period GoogleSqlDatabaseInstance#master_heartbeat_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#master_heartbeat_period GoogleSqlDatabaseInstance#master_heartbeat_period}
 
 ---
 
@@ -915,7 +1085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Password for the replication connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password GoogleSqlDatabaseInstance#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password GoogleSqlDatabaseInstance#password}
 
 ---
 
@@ -925,7 +1095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Permissible ciphers for use in SSL encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ssl_cipher GoogleSqlDatabaseInstance#ssl_cipher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ssl_cipher GoogleSqlDatabaseInstance#ssl_cipher}
 
 ---
 
@@ -935,7 +1105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Username for replication connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#username GoogleSqlDatabaseInstance#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#username GoogleSqlDatabaseInstance#username}
 
 ---
 
@@ -945,7 +1115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if the master's common name value is checked during the SSL handshake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#verify_server_certificate GoogleSqlDatabaseInstance#verify_server_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#verify_server_certificate GoogleSqlDatabaseInstance#verify_server_certificate}
 
 ---
 
@@ -966,7 +1136,7 @@ If the instance is a primary instance, then this field identifies the disaster r
 
 The standard format of this field is "your-project:your-instance". You can also set this field to "your-instance", but cloud SQL backend will convert it to the aforementioned standard format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#failover_dr_replica_name GoogleSqlDatabaseInstance#failover_dr_replica_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#failover_dr_replica_name GoogleSqlDatabaseInstance#failover_dr_replica_name}
 
 ---
 
@@ -978,7 +1148,7 @@ If set, this field indicates this instance has a private service access (PSA) DN
 
 If this instance is the primary, then the DNS endpoint points to this instance. After a switchover or replica failover operation, this DNS endpoint points to the promoted instance. This is a read-only field, returned to the user as information. This field can exist even if a standalone instance doesn't have a DR replica yet or the DR replica is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psa_write_endpoint GoogleSqlDatabaseInstance#psa_write_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psa_write_endpoint GoogleSqlDatabaseInstance#psa_write_endpoint}
 
 ---
 
@@ -998,7 +1168,7 @@ def put_restore_backup_context(
 
 The ID of the backup run to restore from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_run_id GoogleSqlDatabaseInstance#backup_run_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_run_id GoogleSqlDatabaseInstance#backup_run_id}
 
 ---
 
@@ -1008,7 +1178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the instance that the backup was taken from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#instance_id GoogleSqlDatabaseInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#instance_id GoogleSqlDatabaseInstance#instance_id}
 
 ---
 
@@ -1018,7 +1188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full project ID of the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
 
 ---
 
@@ -1030,11 +1200,13 @@ def put_settings(
   activation_policy: str = None,
   active_directory_config: GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig = None,
   advanced_machine_features: GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures = None,
+  auto_upgrade_enabled: bool | IResolvable = None,
   availability_type: str = None,
   backup_configuration: GoogleSqlDatabaseInstanceSettingsBackupConfiguration = None,
   collation: str = None,
   connection_pool_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig] = None,
   connector_enforcement: str = None,
+  data_api_access: str = None,
   database_flags: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsDatabaseFlags] = None,
   data_cache_config: GoogleSqlDatabaseInstanceSettingsDataCacheConfig = None,
   data_disk_provisioned_iops: typing.Union[int, float] = None,
@@ -1048,12 +1220,15 @@ def put_settings(
   edition: str = None,
   enable_dataplex_integration: bool | IResolvable = None,
   enable_google_ml_integration: bool | IResolvable = None,
+  entraid_config: GoogleSqlDatabaseInstanceSettingsEntraidConfig = None,
+  final_backup_config: GoogleSqlDatabaseInstanceSettingsFinalBackupConfig = None,
   insights_config: GoogleSqlDatabaseInstanceSettingsInsightsConfig = None,
   ip_configuration: GoogleSqlDatabaseInstanceSettingsIpConfiguration = None,
   location_preference: GoogleSqlDatabaseInstanceSettingsLocationPreference = None,
   maintenance_window: GoogleSqlDatabaseInstanceSettingsMaintenanceWindow = None,
   password_validation_policy: GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy = None,
   pricing_plan: str = None,
+  read_pool_auto_scale_config: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig = None,
   retain_backups_on_delete: bool | IResolvable = None,
   sql_server_audit_config: GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig = None,
   time_zone: str = None,
@@ -1069,7 +1244,7 @@ The machine type to use.
 
 See tiers for more details and supported versions. Postgres supports only shared-core machine types, and custom machine types such as db-custom-2-13312. See the Custom Machine Type Documentation to learn about specifying custom machine types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#tier GoogleSqlDatabaseInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#tier GoogleSqlDatabaseInstance#tier}
 
 ---
 
@@ -1079,7 +1254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This specifies when the instance should be active. Can be either ALWAYS, NEVER or ON_DEMAND.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#activation_policy GoogleSqlDatabaseInstance#activation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#activation_policy GoogleSqlDatabaseInstance#activation_policy}
 
 ---
 
@@ -1089,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 active_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#active_directory_config GoogleSqlDatabaseInstance#active_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#active_directory_config GoogleSqlDatabaseInstance#active_directory_config}
 
 ---
 
@@ -1099,7 +1274,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#advanced_machine_features GoogleSqlDatabaseInstance#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#advanced_machine_features GoogleSqlDatabaseInstance#advanced_machine_features}
+
+---
+
+###### `auto_upgrade_enabled`<sup>Optional</sup> <a name="auto_upgrade_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings.parameter.autoUpgradeEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Enables Automatic Version Upgrade feature. Can be used with MySQL only.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#auto_upgrade_enabled GoogleSqlDatabaseInstance#auto_upgrade_enabled}
 
 ---
 
@@ -1117,7 +1302,7 @@ is set to true. Defaults to ZONAL.
 For read pool instances, this field is read-only. The availability type is changed by specifying
 the number of nodes (node_count).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#availability_type GoogleSqlDatabaseInstance#availability_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#availability_type GoogleSqlDatabaseInstance#availability_type}
 
 ---
 
@@ -1127,7 +1312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 backup_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_configuration GoogleSqlDatabaseInstance#backup_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_configuration GoogleSqlDatabaseInstance#backup_configuration}
 
 ---
 
@@ -1137,7 +1322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of server instance collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#collation GoogleSqlDatabaseInstance#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#collation GoogleSqlDatabaseInstance#collation}
 
 ---
 
@@ -1147,7 +1332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 connection_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connection_pool_config GoogleSqlDatabaseInstance#connection_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connection_pool_config GoogleSqlDatabaseInstance#connection_pool_config}
 
 ---
 
@@ -1159,7 +1344,17 @@ Enables the enforcement of Cloud SQL Auth Proxy or Cloud SQL connectors for all 
 
 If enabled, all the direct connections are rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connector_enforcement GoogleSqlDatabaseInstance#connector_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connector_enforcement GoogleSqlDatabaseInstance#connector_enforcement}
+
+---
+
+###### `data_api_access`<sup>Optional</sup> <a name="data_api_access" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings.parameter.dataApiAccess"></a>
+
+- *Type:* str
+
+Allows using ExecuteSql API to connect to the instance. Disallowed when unspecified.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_api_access GoogleSqlDatabaseInstance#data_api_access}
 
 ---
 
@@ -1169,7 +1364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 database_flags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_flags GoogleSqlDatabaseInstance#database_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_flags GoogleSqlDatabaseInstance#database_flags}
 
 ---
 
@@ -1179,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 data_cache_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_cache_config GoogleSqlDatabaseInstance#data_cache_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_cache_config GoogleSqlDatabaseInstance#data_cache_config}
 
 ---
 
@@ -1191,7 +1386,7 @@ Provisioned number of I/O operations per second for the data disk.
 
 This field is only used for HYPERDISK_BALANCED disk types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_disk_provisioned_iops GoogleSqlDatabaseInstance#data_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_disk_provisioned_iops GoogleSqlDatabaseInstance#data_disk_provisioned_iops}
 
 ---
 
@@ -1203,7 +1398,7 @@ Provisioned throughput measured in MiB per second for the data disk.
 
 This field is only used for HYPERDISK_BALANCED disk types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_disk_provisioned_throughput GoogleSqlDatabaseInstance#data_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_disk_provisioned_throughput GoogleSqlDatabaseInstance#data_disk_provisioned_throughput}
 
 ---
 
@@ -1213,7 +1408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration to protect against accidental instance deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection_enabled GoogleSqlDatabaseInstance#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deletion_protection_enabled GoogleSqlDatabaseInstance#deletion_protection_enabled}
 
 ---
 
@@ -1223,7 +1418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 deny_maintenance_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deny_maintenance_period GoogleSqlDatabaseInstance#deny_maintenance_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deny_maintenance_period GoogleSqlDatabaseInstance#deny_maintenance_period}
 
 ---
 
@@ -1233,7 +1428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables auto-resizing of the storage size. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_autoresize GoogleSqlDatabaseInstance#disk_autoresize}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_autoresize GoogleSqlDatabaseInstance#disk_autoresize}
 
 ---
 
@@ -1245,7 +1440,7 @@ The maximum size, in GB, to which storage capacity can be automatically increase
 
 The default value is 0, which specifies that there is no limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_autoresize_limit GoogleSqlDatabaseInstance#disk_autoresize_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_autoresize_limit GoogleSqlDatabaseInstance#disk_autoresize_limit}
 
 ---
 
@@ -1257,7 +1452,7 @@ The size of data disk, in GB.
 
 Size of a running instance cannot be reduced but can be increased. The minimum value is 10GB for PD_SSD, PD_HDD and 20GB for HYPERDISK_BALANCED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_size GoogleSqlDatabaseInstance#disk_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_size GoogleSqlDatabaseInstance#disk_size}
 
 ---
 
@@ -1267,7 +1462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of supported data disk is tier dependent and can be PD_SSD or PD_HDD or HYPERDISK_BALANCED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_type GoogleSqlDatabaseInstance#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_type GoogleSqlDatabaseInstance#disk_type}
 
 ---
 
@@ -1277,7 +1472,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The edition of the instance, can be ENTERPRISE or ENTERPRISE_PLUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#edition GoogleSqlDatabaseInstance#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#edition GoogleSqlDatabaseInstance#edition}
 
 ---
 
@@ -1287,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables Dataplex Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_dataplex_integration GoogleSqlDatabaseInstance#enable_dataplex_integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_dataplex_integration GoogleSqlDatabaseInstance#enable_dataplex_integration}
 
 ---
 
@@ -1297,7 +1492,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables Vertex AI Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_google_ml_integration GoogleSqlDatabaseInstance#enable_google_ml_integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_google_ml_integration GoogleSqlDatabaseInstance#enable_google_ml_integration}
+
+---
+
+###### `entraid_config`<sup>Optional</sup> <a name="entraid_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings.parameter.entraidConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a>
+
+entraid_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#entraid_config GoogleSqlDatabaseInstance#entraid_config}
+
+---
+
+###### `final_backup_config`<sup>Optional</sup> <a name="final_backup_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings.parameter.finalBackupConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a>
+
+final_backup_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#final_backup_config GoogleSqlDatabaseInstance#final_backup_config}
 
 ---
 
@@ -1307,7 +1522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 insights_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#insights_config GoogleSqlDatabaseInstance#insights_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#insights_config GoogleSqlDatabaseInstance#insights_config}
 
 ---
 
@@ -1317,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ip_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ip_configuration GoogleSqlDatabaseInstance#ip_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ip_configuration GoogleSqlDatabaseInstance#ip_configuration}
 
 ---
 
@@ -1327,7 +1542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 location_preference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#location_preference GoogleSqlDatabaseInstance#location_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#location_preference GoogleSqlDatabaseInstance#location_preference}
 
 ---
 
@@ -1337,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#maintenance_window GoogleSqlDatabaseInstance#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#maintenance_window GoogleSqlDatabaseInstance#maintenance_window}
 
 ---
 
@@ -1347,7 +1562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 password_validation_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password_validation_policy GoogleSqlDatabaseInstance#password_validation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password_validation_policy GoogleSqlDatabaseInstance#password_validation_policy}
 
 ---
 
@@ -1357,7 +1572,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Pricing plan for this instance, can only be PER_USE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#pricing_plan GoogleSqlDatabaseInstance#pricing_plan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#pricing_plan GoogleSqlDatabaseInstance#pricing_plan}
+
+---
+
+###### `read_pool_auto_scale_config`<sup>Optional</sup> <a name="read_pool_auto_scale_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.putSettings.parameter.readPoolAutoScaleConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a>
+
+read_pool_auto_scale_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#read_pool_auto_scale_config GoogleSqlDatabaseInstance#read_pool_auto_scale_config}
 
 ---
 
@@ -1369,7 +1594,7 @@ When this parameter is set to true, Cloud SQL retains backups of the instance ev
 
 The ON_DEMAND backup will be retained until customer deletes the backup or the project. The AUTOMATED backup will be retained based on the backups retention setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retain_backups_on_delete GoogleSqlDatabaseInstance#retain_backups_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retain_backups_on_delete GoogleSqlDatabaseInstance#retain_backups_on_delete}
 
 ---
 
@@ -1379,7 +1604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 sql_server_audit_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#sql_server_audit_config GoogleSqlDatabaseInstance#sql_server_audit_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#sql_server_audit_config GoogleSqlDatabaseInstance#sql_server_audit_config}
 
 ---
 
@@ -1389,7 +1614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The time_zone to be used by the database engine (supported only for SQL Server), in SQL Server timezone format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#time_zone GoogleSqlDatabaseInstance#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#time_zone GoogleSqlDatabaseInstance#time_zone}
 
 ---
 
@@ -1399,7 +1624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A set of key/value user label pairs to assign to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#user_labels GoogleSqlDatabaseInstance#user_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#user_labels GoogleSqlDatabaseInstance#user_labels}
 
 ---
 
@@ -1417,7 +1642,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}.
 
 ---
 
@@ -1425,7 +1650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}.
 
 ---
 
@@ -1433,9 +1658,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}.
 
 ---
+
+##### `reset_backupdr_backup` <a name="reset_backupdr_backup" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetBackupdrBackup"></a>
+
+```python
+def reset_backupdr_backup() -> None
+```
 
 ##### `reset_clone` <a name="reset_clone" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetClone"></a>
 
@@ -1453,6 +1684,12 @@ def reset_deletion_protection() -> None
 
 ```python
 def reset_encryption_key_name() -> None
+```
+
+##### `reset_final_backup_description` <a name="reset_final_backup_description" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetFinalBackupDescription"></a>
+
+```python
+def reset_final_backup_description() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetId"></a>
@@ -1489,6 +1726,12 @@ def reset_name() -> None
 
 ```python
 def reset_node_count() -> None
+```
+
+##### `reset_point_in_time_restore_context` <a name="reset_point_in_time_restore_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetPointInTimeRestoreContext"></a>
+
+```python
+def reset_point_in_time_restore_context() -> None
 ```
 
 ##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetProject"></a>
@@ -1531,6 +1774,18 @@ def reset_restore_backup_context() -> None
 
 ```python
 def reset_root_password() -> None
+```
+
+##### `reset_root_password_wo` <a name="reset_root_password_wo" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRootPasswordWo"></a>
+
+```python
+def reset_root_password_wo() -> None
+```
+
+##### `reset_root_password_wo_version` <a name="reset_root_password_wo_version" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetRootPasswordWoVersion"></a>
+
+```python
+def reset_root_password_wo_version() -> None
 ```
 
 ##### `reset_settings` <a name="reset_settings" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.resetSettings"></a>
@@ -1659,7 +1914,7 @@ The construct id used in the generated config for the GoogleSqlDatabaseInstance 
 
 The id of the existing GoogleSqlDatabaseInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1696,6 +1951,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.dnsNames">dns_names</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceDnsNamesList">GoogleSqlDatabaseInstanceDnsNamesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.firstIpAddress">first_ip_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.ipAddress">ip_address</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceIpAddressList">GoogleSqlDatabaseInstanceIpAddressList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.pointInTimeRestoreContext">point_in_time_restore_context</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference">GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.pscServiceAttachmentLink">psc_service_attachment_link</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.publicIpAddress">public_ip_address</a></code> | <code>str</code> | *No description.* |
@@ -1707,16 +1963,19 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.serviceAccountEmailAddress">service_account_email_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.settings">settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference">GoogleSqlDatabaseInstanceSettingsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeoutsOutputReference">GoogleSqlDatabaseInstanceTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.backupdrBackupInput">backupdr_backup_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.cloneInput">clone_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone">GoogleSqlDatabaseInstanceClone</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.databaseVersionInput">database_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.deletionProtectionInput">deletion_protection_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.encryptionKeyNameInput">encryption_key_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.finalBackupDescriptionInput">final_backup_description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.instanceTypeInput">instance_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.maintenanceVersionInput">maintenance_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.masterInstanceNameInput">master_instance_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.nodeCountInput">node_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.pointInTimeRestoreContextInput">point_in_time_restore_context_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.regionInput">region_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.replicaConfigurationInput">replica_configuration_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicaConfiguration">GoogleSqlDatabaseInstanceReplicaConfiguration</a></code> | *No description.* |
@@ -1724,11 +1983,15 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.replicationClusterInput">replication_cluster_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationCluster">GoogleSqlDatabaseInstanceReplicationCluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.restoreBackupContextInput">restore_backup_context_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceRestoreBackupContext">GoogleSqlDatabaseInstanceRestoreBackupContext</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordInput">root_password_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoInput">root_password_wo_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoVersionInput">root_password_wo_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.settingsInput">settings_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings">GoogleSqlDatabaseInstanceSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts">GoogleSqlDatabaseInstanceTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.backupdrBackup">backupdr_backup</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.databaseVersion">database_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.encryptionKeyName">encryption_key_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.finalBackupDescription">final_backup_description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.instanceType">instance_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.maintenanceVersion">maintenance_version</a></code> | <code>str</code> | *No description.* |
@@ -1739,6 +2002,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.region">region</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.replicaNames">replica_names</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPassword">root_password</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWo">root_password_wo</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoVersion">root_password_wo_version</a></code> | <code>str</code> | *No description.* |
 
 ---
 
@@ -1954,6 +2219,16 @@ ip_address: GoogleSqlDatabaseInstanceIpAddressList
 
 ---
 
+##### `point_in_time_restore_context`<sup>Required</sup> <a name="point_in_time_restore_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.pointInTimeRestoreContext"></a>
+
+```python
+point_in_time_restore_context: GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference">GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference</a>
+
+---
+
 ##### `private_ip_address`<sup>Required</sup> <a name="private_ip_address" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.privateIpAddress"></a>
 
 ```python
@@ -2064,6 +2339,16 @@ timeouts: GoogleSqlDatabaseInstanceTimeoutsOutputReference
 
 ---
 
+##### `backupdr_backup_input`<sup>Optional</sup> <a name="backupdr_backup_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.backupdrBackupInput"></a>
+
+```python
+backupdr_backup_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `clone_input`<sup>Optional</sup> <a name="clone_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.cloneInput"></a>
 
 ```python
@@ -2098,6 +2383,16 @@ deletion_protection_input: bool | IResolvable
 
 ```python
 encryption_key_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `final_backup_description_input`<sup>Optional</sup> <a name="final_backup_description_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.finalBackupDescriptionInput"></a>
+
+```python
+final_backup_description_input: str
 ```
 
 - *Type:* str
@@ -2161,6 +2456,16 @@ node_count_input: typing.Union[int, float]
 ```
 
 - *Type:* typing.Union[int, float]
+
+---
+
+##### `point_in_time_restore_context_input`<sup>Optional</sup> <a name="point_in_time_restore_context_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.pointInTimeRestoreContextInput"></a>
+
+```python
+point_in_time_restore_context_input: GoogleSqlDatabaseInstancePointInTimeRestoreContext
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a>
 
 ---
 
@@ -2234,6 +2539,26 @@ root_password_input: str
 
 ---
 
+##### `root_password_wo_input`<sup>Optional</sup> <a name="root_password_wo_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoInput"></a>
+
+```python
+root_password_wo_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `root_password_wo_version_input`<sup>Optional</sup> <a name="root_password_wo_version_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoVersionInput"></a>
+
+```python
+root_password_wo_version_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `settings_input`<sup>Optional</sup> <a name="settings_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.settingsInput"></a>
 
 ```python
@@ -2251,6 +2576,16 @@ timeouts_input: IResolvable | GoogleSqlDatabaseInstanceTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts">GoogleSqlDatabaseInstanceTimeouts</a>
+
+---
+
+##### `backupdr_backup`<sup>Required</sup> <a name="backupdr_backup" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.backupdrBackup"></a>
+
+```python
+backupdr_backup: str
+```
+
+- *Type:* str
 
 ---
 
@@ -2278,6 +2613,16 @@ deletion_protection: bool | IResolvable
 
 ```python
 encryption_key_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `final_backup_description`<sup>Required</sup> <a name="final_backup_description" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.finalBackupDescription"></a>
+
+```python
+final_backup_description: str
 ```
 
 - *Type:* str
@@ -2384,6 +2729,26 @@ root_password: str
 
 ---
 
+##### `root_password_wo`<sup>Required</sup> <a name="root_password_wo" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWo"></a>
+
+```python
+root_password_wo: str
+```
+
+- *Type:* str
+
+---
+
+##### `root_password_wo_version`<sup>Required</sup> <a name="root_password_wo_version" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance.property.rootPasswordWoVersion"></a>
+
+```python
+root_password_wo_version: str
+```
+
+- *Type:* str
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -2416,7 +2781,9 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone(
   allocated_ip_range: str = None,
   database_names: typing.List[str] = None,
   point_in_time: str = None,
-  preferred_zone: str = None
+  preferred_zone: str = None,
+  source_instance_deletion_time: str = None,
+  source_project: str = None
 )
 ```
 
@@ -2429,6 +2796,8 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.databaseNames">database_names</a></code> | <code>typing.List[str]</code> | (SQL Server only, use with point_in_time) clone only the specified databases from the source instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.pointInTime">point_in_time</a></code> | <code>str</code> | The timestamp of the point in time that should be restored. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.preferredZone">preferred_zone</a></code> | <code>str</code> | (Point-in-time recovery for PostgreSQL only) Clone to an instance in the specified zone. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.sourceInstanceDeletionTime">source_instance_deletion_time</a></code> | <code>str</code> | The timestamp of when the source instance was deleted for a clone from a deleted instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.sourceProject">source_project</a></code> | <code>str</code> | The project ID of the source project. |
 
 ---
 
@@ -2442,7 +2811,7 @@ source_instance_name: str
 
 The name of the instance from which the point in time should be restored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#source_instance_name GoogleSqlDatabaseInstance#source_instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_instance_name GoogleSqlDatabaseInstance#source_instance_name}
 
 ---
 
@@ -2458,7 +2827,7 @@ The name of the allocated ip range for the private ip CloudSQL instance.
 
 For example: "google-managed-services-default". If set, the cloned instance ip will be created in the allocated range. The range name must comply with [RFC 1035](https://tools.ietf.org/html/rfc1035). Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
 
 ---
 
@@ -2474,7 +2843,7 @@ database_names: typing.List[str]
 
 Clone all databases if empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_names GoogleSqlDatabaseInstance#database_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_names GoogleSqlDatabaseInstance#database_names}
 
 ---
 
@@ -2488,7 +2857,7 @@ point_in_time: str
 
 The timestamp of the point in time that should be restored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
 
 ---
 
@@ -2504,7 +2873,35 @@ preferred_zone: str
 
 If no zone is specified, clone to the same zone as the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+
+---
+
+##### `source_instance_deletion_time`<sup>Optional</sup> <a name="source_instance_deletion_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.sourceInstanceDeletionTime"></a>
+
+```python
+source_instance_deletion_time: str
+```
+
+- *Type:* str
+
+The timestamp of when the source instance was deleted for a clone from a deleted instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_instance_deletion_time GoogleSqlDatabaseInstance#source_instance_deletion_time}
+
+---
+
+##### `source_project`<sup>Optional</sup> <a name="source_project" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone.property.sourceProject"></a>
+
+```python
+source_project: str
+```
+
+- *Type:* str
+
+The project ID of the source project.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#source_project GoogleSqlDatabaseInstance#source_project}
 
 ---
 
@@ -2524,15 +2921,18 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   database_version: str,
+  backupdr_backup: str = None,
   clone: GoogleSqlDatabaseInstanceClone = None,
   deletion_protection: bool | IResolvable = None,
   encryption_key_name: str = None,
+  final_backup_description: str = None,
   id: str = None,
   instance_type: str = None,
   maintenance_version: str = None,
   master_instance_name: str = None,
   name: str = None,
   node_count: typing.Union[int, float] = None,
+  point_in_time_restore_context: GoogleSqlDatabaseInstancePointInTimeRestoreContext = None,
   project: str = None,
   region: str = None,
   replica_configuration: GoogleSqlDatabaseInstanceReplicaConfiguration = None,
@@ -2540,6 +2940,8 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig(
   replication_cluster: GoogleSqlDatabaseInstanceReplicationCluster = None,
   restore_backup_context: GoogleSqlDatabaseInstanceRestoreBackupContext = None,
   root_password: str = None,
+  root_password_wo: str = None,
+  root_password_wo_version: str = None,
   settings: GoogleSqlDatabaseInstanceSettings = None,
   timeouts: GoogleSqlDatabaseInstanceTimeouts = None
 )
@@ -2556,16 +2958,19 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.databaseVersion">database_version</a></code> | <code>str</code> | The MySQL, PostgreSQL or SQL Server (beta) version to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.databaseVersion">database_version</a></code> | <code>str</code> | The MySQL, PostgreSQL or SQL Server version to use. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.backupdrBackup">backupdr_backup</a></code> | <code>str</code> | The name of the BackupDR backup to restore from. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.clone">clone</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone">GoogleSqlDatabaseInstanceClone</a></code> | clone block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Used to block Terraform from deleting a SQL Instance. Defaults to true. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.encryptionKeyName">encryption_key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.encryptionKeyName">encryption_key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.finalBackupDescription">final_backup_description</a></code> | <code>str</code> | The description of final backup if instance enable create final backup during instance deletion. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.instanceType">instance_type</a></code> | <code>str</code> | The type of the instance. See https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1/instances#SqlInstanceType for supported values. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.maintenanceVersion">maintenance_version</a></code> | <code>str</code> | Maintenance version. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.masterInstanceName">master_instance_name</a></code> | <code>str</code> | The name of the instance that will act as the master in the replication setup. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.name">name</a></code> | <code>str</code> | The name of the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.nodeCount">node_count</a></code> | <code>typing.Union[int, float]</code> | For a read pool instance, the number of nodes in the read pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.pointInTimeRestoreContext">point_in_time_restore_context</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a></code> | point_in_time_restore_context block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.project">project</a></code> | <code>str</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.region">region</a></code> | <code>str</code> | The region the instance will sit in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.replicaConfiguration">replica_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicaConfiguration">GoogleSqlDatabaseInstanceReplicaConfiguration</a></code> | replica_configuration block. |
@@ -2573,6 +2978,8 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.replicationCluster">replication_cluster</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationCluster">GoogleSqlDatabaseInstanceReplicationCluster</a></code> | replication_cluster block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.restoreBackupContext">restore_backup_context</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceRestoreBackupContext">GoogleSqlDatabaseInstanceRestoreBackupContext</a></code> | restore_backup_context block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.rootPassword">root_password</a></code> | <code>str</code> | Initial root password. Required for MS SQL Server. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.rootPasswordWo">root_password_wo</a></code> | <code>str</code> | Initial root password. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.rootPasswordWoVersion">root_password_wo_version</a></code> | <code>str</code> | Triggers update of root_password_wo write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments). |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.settings">settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings">GoogleSqlDatabaseInstanceSettings</a></code> | settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts">GoogleSqlDatabaseInstanceTimeouts</a></code> | timeouts block. |
 
@@ -2656,11 +3063,25 @@ database_version: str
 
 - *Type:* str
 
-The MySQL, PostgreSQL or SQL Server (beta) version to use.
+The MySQL, PostgreSQL or SQL Server version to use.
 
-Supported values include MYSQL_5_6, MYSQL_5_7, MYSQL_8_0, MYSQL_8_4, POSTGRES_9_6, POSTGRES_10, POSTGRES_11, POSTGRES_12, POSTGRES_13, POSTGRES_14, POSTGRES_15, POSTGRES_16, POSTGRES_17, SQLSERVER_2017_STANDARD, SQLSERVER_2017_ENTERPRISE, SQLSERVER_2017_EXPRESS, SQLSERVER_2017_WEB. Database Version Policies includes an up-to-date reference of supported versions.
+Supported values include MYSQL_5_6, MYSQL_5_7, MYSQL_8_0, MYSQL_8_4, POSTGRES_9_6, POSTGRES_10, POSTGRES_11, POSTGRES_12, POSTGRES_13, POSTGRES_14, POSTGRES_15, POSTGRES_16, POSTGRES_17, POSTGRES_18, SQLSERVER_2022_STANDARD, SQLSERVER_2022_ENTERPRISE, SQLSERVER_2022_EXPRESS, SQLSERVER_2022_WEB, SQLSERVER_2025_STANDARD, SQLSERVER_2025_ENTERPRISE, SQLSERVER_2025_EXPRESS, SQLSERVER_2025_WEB. Database Version Policies includes an up-to-date reference of supported versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_version GoogleSqlDatabaseInstance#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_version GoogleSqlDatabaseInstance#database_version}
+
+---
+
+##### `backupdr_backup`<sup>Optional</sup> <a name="backupdr_backup" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.backupdrBackup"></a>
+
+```python
+backupdr_backup: str
+```
+
+- *Type:* str
+
+The name of the BackupDR backup to restore from.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backupdr_backup GoogleSqlDatabaseInstance#backupdr_backup}
 
 ---
 
@@ -2674,7 +3095,7 @@ clone: GoogleSqlDatabaseInstanceClone
 
 clone block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#clone GoogleSqlDatabaseInstance#clone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#clone GoogleSqlDatabaseInstance#clone}
 
 ---
 
@@ -2688,7 +3109,7 @@ deletion_protection: bool | IResolvable
 
 Used to block Terraform from deleting a SQL Instance. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection GoogleSqlDatabaseInstance#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deletion_protection GoogleSqlDatabaseInstance#deletion_protection}
 
 ---
 
@@ -2700,7 +3121,21 @@ encryption_key_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#encryption_key_name GoogleSqlDatabaseInstance#encryption_key_name}.
+
+---
+
+##### `final_backup_description`<sup>Optional</sup> <a name="final_backup_description" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.finalBackupDescription"></a>
+
+```python
+final_backup_description: str
+```
+
+- *Type:* str
+
+The description of final backup if instance enable create final backup during instance deletion.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#final_backup_description GoogleSqlDatabaseInstance#final_backup_description}
 
 ---
 
@@ -2712,7 +3147,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#id GoogleSqlDatabaseInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2729,7 +3164,7 @@ instance_type: str
 
 The type of the instance. See https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1/instances#SqlInstanceType for supported values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#instance_type GoogleSqlDatabaseInstance#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#instance_type GoogleSqlDatabaseInstance#instance_type}
 
 ---
 
@@ -2743,7 +3178,7 @@ maintenance_version: str
 
 Maintenance version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#maintenance_version GoogleSqlDatabaseInstance#maintenance_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#maintenance_version GoogleSqlDatabaseInstance#maintenance_version}
 
 ---
 
@@ -2759,7 +3194,7 @@ The name of the instance that will act as the master in the replication setup.
 
 Note, this requires the master to have binary_log_enabled set, as well as existing backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#master_instance_name GoogleSqlDatabaseInstance#master_instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#master_instance_name GoogleSqlDatabaseInstance#master_instance_name}
 
 ---
 
@@ -2775,7 +3210,7 @@ The name of the instance.
 
 If the name is left blank, Terraform will randomly generate one when the instance is first created. This is done because after a name is used, it cannot be reused for up to one week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
 
 ---
 
@@ -2789,7 +3224,23 @@ node_count: typing.Union[int, float]
 
 For a read pool instance, the number of nodes in the read pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#node_count GoogleSqlDatabaseInstance#node_count}
+For read pools with auto scaling enabled, this field is read only.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#node_count GoogleSqlDatabaseInstance#node_count}
+
+---
+
+##### `point_in_time_restore_context`<sup>Optional</sup> <a name="point_in_time_restore_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.pointInTimeRestoreContext"></a>
+
+```python
+point_in_time_restore_context: GoogleSqlDatabaseInstancePointInTimeRestoreContext
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a>
+
+point_in_time_restore_context block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time_restore_context GoogleSqlDatabaseInstance#point_in_time_restore_context}
 
 ---
 
@@ -2805,7 +3256,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
 
 ---
 
@@ -2821,7 +3272,7 @@ The region the instance will sit in.
 
 Note, Cloud SQL is not available in all regions. A valid region must be provided to use this resource. If a region is not provided in the resource definition, the provider region will be used instead, but this will be an apply-time error for instances if the provider region is not supported with Cloud SQL. If you choose not to provide the region argument for this resource, make sure you understand this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
 
 ---
 
@@ -2835,7 +3286,7 @@ replica_configuration: GoogleSqlDatabaseInstanceReplicaConfiguration
 
 replica_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replica_configuration GoogleSqlDatabaseInstance#replica_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replica_configuration GoogleSqlDatabaseInstance#replica_configuration}
 
 ---
 
@@ -2849,7 +3300,7 @@ replica_names: typing.List[str]
 
 The replicas of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replica_names GoogleSqlDatabaseInstance#replica_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replica_names GoogleSqlDatabaseInstance#replica_names}
 
 ---
 
@@ -2863,7 +3314,7 @@ replication_cluster: GoogleSqlDatabaseInstanceReplicationCluster
 
 replication_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#replication_cluster GoogleSqlDatabaseInstance#replication_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#replication_cluster GoogleSqlDatabaseInstance#replication_cluster}
 
 ---
 
@@ -2877,7 +3328,7 @@ restore_backup_context: GoogleSqlDatabaseInstanceRestoreBackupContext
 
 restore_backup_context block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#restore_backup_context GoogleSqlDatabaseInstance#restore_backup_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#restore_backup_context GoogleSqlDatabaseInstance#restore_backup_context}
 
 ---
 
@@ -2891,7 +3342,38 @@ root_password: str
 
 Initial root password. Required for MS SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#root_password GoogleSqlDatabaseInstance#root_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password GoogleSqlDatabaseInstance#root_password}
+
+---
+
+##### `root_password_wo`<sup>Optional</sup> <a name="root_password_wo" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.rootPasswordWo"></a>
+
+```python
+root_password_wo: str
+```
+
+- *Type:* str
+
+Initial root password.
+
+Required for MS SQL Server.
+Note: This property is write-only and will not be read from the API. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password_wo GoogleSqlDatabaseInstance#root_password_wo}
+
+---
+
+##### `root_password_wo_version`<sup>Optional</sup> <a name="root_password_wo_version" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceConfig.property.rootPasswordWoVersion"></a>
+
+```python
+root_password_wo_version: str
+```
+
+- *Type:* str
+
+Triggers update of root_password_wo write-only. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#root_password_wo_version GoogleSqlDatabaseInstance#root_password_wo_version}
 
 ---
 
@@ -2905,7 +3387,7 @@ settings: GoogleSqlDatabaseInstanceSettings
 
 settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#settings GoogleSqlDatabaseInstance#settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#settings GoogleSqlDatabaseInstance#settings}
 
 ---
 
@@ -2919,7 +3401,7 @@ timeouts: GoogleSqlDatabaseInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#timeouts GoogleSqlDatabaseInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#timeouts GoogleSqlDatabaseInstance#timeouts}
 
 ---
 
@@ -2944,6 +3426,124 @@ from cdktn_provider_google_beta import google_sql_database_instance
 googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceIpAddress()
 ```
 
+
+### GoogleSqlDatabaseInstancePointInTimeRestoreContext <a name="GoogleSqlDatabaseInstancePointInTimeRestoreContext" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext(
+  datasource: str,
+  allocated_ip_range: str = None,
+  point_in_time: str = None,
+  preferred_zone: str = None,
+  region: str = None,
+  target_instance: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.datasource">datasource</a></code> | <code>str</code> | The Google Cloud Backup and Disaster Recovery Datasource URI. For example: "projects/my-project/locations/us-central1/datasources/my-datasource". |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.allocatedIpRange">allocated_ip_range</a></code> | <code>str</code> | The name of the allocated IP range for the internal IP Cloud SQL instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.pointInTime">point_in_time</a></code> | <code>str</code> | The date and time to which you want to restore the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.preferredZone">preferred_zone</a></code> | <code>str</code> | Point-in-time recovery of an instance to the specified zone. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.region">region</a></code> | <code>str</code> | The region of the target instance to restore to. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.targetInstance">target_instance</a></code> | <code>str</code> | The name of the target instance to restore to. |
+
+---
+
+##### `datasource`<sup>Required</sup> <a name="datasource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.datasource"></a>
+
+```python
+datasource: str
+```
+
+- *Type:* str
+
+The Google Cloud Backup and Disaster Recovery Datasource URI. For example: "projects/my-project/locations/us-central1/datasources/my-datasource".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#datasource GoogleSqlDatabaseInstance#datasource}
+
+---
+
+##### `allocated_ip_range`<sup>Optional</sup> <a name="allocated_ip_range" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.allocatedIpRange"></a>
+
+```python
+allocated_ip_range: str
+```
+
+- *Type:* str
+
+The name of the allocated IP range for the internal IP Cloud SQL instance.
+
+For example: "google-managed-services-default". If you set this, then Cloud SQL creates the IP address for the cloned instance in the allocated range. This range must comply with [RFC 1035](https://tools.ietf.org/html/rfc1035) standards. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+
+---
+
+##### `point_in_time`<sup>Optional</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.pointInTime"></a>
+
+```python
+point_in_time: str
+```
+
+- *Type:* str
+
+The date and time to which you want to restore the instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time GoogleSqlDatabaseInstance#point_in_time}
+
+---
+
+##### `preferred_zone`<sup>Optional</sup> <a name="preferred_zone" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.preferredZone"></a>
+
+```python
+preferred_zone: str
+```
+
+- *Type:* str
+
+Point-in-time recovery of an instance to the specified zone.
+
+If no zone is specified, then clone to the same primary zone as the source instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#preferred_zone GoogleSqlDatabaseInstance#preferred_zone}
+
+---
+
+##### `region`<sup>Optional</sup> <a name="region" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.region"></a>
+
+```python
+region: str
+```
+
+- *Type:* str
+
+The region of the target instance to restore to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#region GoogleSqlDatabaseInstance#region}
+
+---
+
+##### `target_instance`<sup>Optional</sup> <a name="target_instance" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext.property.targetInstance"></a>
+
+```python
+target_instance: str
+```
+
+- *Type:* str
+
+The name of the target instance to restore to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#target_instance GoogleSqlDatabaseInstance#target_instance}
+
+---
 
 ### GoogleSqlDatabaseInstanceReplicaConfiguration <a name="GoogleSqlDatabaseInstanceReplicaConfiguration" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicaConfiguration"></a>
 
@@ -2997,7 +3597,7 @@ ca_certificate: str
 
 PEM representation of the trusted CA's x509 certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ca_certificate GoogleSqlDatabaseInstance#ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ca_certificate GoogleSqlDatabaseInstance#ca_certificate}
 
 ---
 
@@ -3013,7 +3613,7 @@ Specifies if a SQL Server replica is a cascadable replica.
 
 A cascadable replica is a SQL Server cross region replica that supports replica(s) under it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#cascadable_replica GoogleSqlDatabaseInstance#cascadable_replica}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#cascadable_replica GoogleSqlDatabaseInstance#cascadable_replica}
 
 ---
 
@@ -3027,7 +3627,7 @@ client_certificate: str
 
 PEM representation of the replica's x509 certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#client_certificate GoogleSqlDatabaseInstance#client_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#client_certificate GoogleSqlDatabaseInstance#client_certificate}
 
 ---
 
@@ -3041,7 +3641,7 @@ client_key: str
 
 PEM representation of the replica's private key. The corresponding public key in encoded in the client_certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#client_key GoogleSqlDatabaseInstance#client_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#client_key GoogleSqlDatabaseInstance#client_key}
 
 ---
 
@@ -3055,7 +3655,7 @@ connect_retry_interval: typing.Union[int, float]
 
 The number of seconds between connect retries. MySQL's default is 60 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connect_retry_interval GoogleSqlDatabaseInstance#connect_retry_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connect_retry_interval GoogleSqlDatabaseInstance#connect_retry_interval}
 
 ---
 
@@ -3069,7 +3669,7 @@ dump_file_path: str
 
 Path to a SQL file in Google Cloud Storage from which replica instances are created. Format is gs://bucket/filename.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#dump_file_path GoogleSqlDatabaseInstance#dump_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#dump_file_path GoogleSqlDatabaseInstance#dump_file_path}
 
 ---
 
@@ -3085,7 +3685,7 @@ Specifies if the replica is the failover target.
 
 If the field is set to true the replica will be designated as a failover replica. If the master instance fails, the replica instance will be promoted as the new master instance. Not supported for Postgres
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#failover_target GoogleSqlDatabaseInstance#failover_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#failover_target GoogleSqlDatabaseInstance#failover_target}
 
 ---
 
@@ -3099,7 +3699,7 @@ master_heartbeat_period: typing.Union[int, float]
 
 Time in ms between replication heartbeats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#master_heartbeat_period GoogleSqlDatabaseInstance#master_heartbeat_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#master_heartbeat_period GoogleSqlDatabaseInstance#master_heartbeat_period}
 
 ---
 
@@ -3113,7 +3713,7 @@ password: str
 
 Password for the replication connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password GoogleSqlDatabaseInstance#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password GoogleSqlDatabaseInstance#password}
 
 ---
 
@@ -3127,7 +3727,7 @@ ssl_cipher: str
 
 Permissible ciphers for use in SSL encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ssl_cipher GoogleSqlDatabaseInstance#ssl_cipher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ssl_cipher GoogleSqlDatabaseInstance#ssl_cipher}
 
 ---
 
@@ -3141,7 +3741,7 @@ username: str
 
 Username for replication connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#username GoogleSqlDatabaseInstance#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#username GoogleSqlDatabaseInstance#username}
 
 ---
 
@@ -3155,7 +3755,7 @@ verify_server_certificate: bool | IResolvable
 
 True if the master's common name value is checked during the SSL handshake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#verify_server_certificate GoogleSqlDatabaseInstance#verify_server_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#verify_server_certificate GoogleSqlDatabaseInstance#verify_server_certificate}
 
 ---
 
@@ -3193,7 +3793,7 @@ If the instance is a primary instance, then this field identifies the disaster r
 
 The standard format of this field is "your-project:your-instance". You can also set this field to "your-instance", but cloud SQL backend will convert it to the aforementioned standard format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#failover_dr_replica_name GoogleSqlDatabaseInstance#failover_dr_replica_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#failover_dr_replica_name GoogleSqlDatabaseInstance#failover_dr_replica_name}
 
 ---
 
@@ -3209,7 +3809,7 @@ If set, this field indicates this instance has a private service access (PSA) DN
 
 If this instance is the primary, then the DNS endpoint points to this instance. After a switchover or replica failover operation, this DNS endpoint points to the promoted instance. This is a read-only field, returned to the user as information. This field can exist even if a standalone instance doesn't have a DR replica yet or the DR replica is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psa_write_endpoint GoogleSqlDatabaseInstance#psa_write_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psa_write_endpoint GoogleSqlDatabaseInstance#psa_write_endpoint}
 
 ---
 
@@ -3247,7 +3847,7 @@ backup_run_id: typing.Union[int, float]
 
 The ID of the backup run to restore from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_run_id GoogleSqlDatabaseInstance#backup_run_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_run_id GoogleSqlDatabaseInstance#backup_run_id}
 
 ---
 
@@ -3261,7 +3861,7 @@ instance_id: str
 
 The ID of the instance that the backup was taken from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#instance_id GoogleSqlDatabaseInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#instance_id GoogleSqlDatabaseInstance#instance_id}
 
 ---
 
@@ -3275,7 +3875,7 @@ project: str
 
 The full project ID of the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#project GoogleSqlDatabaseInstance#project}
 
 ---
 
@@ -3302,11 +3902,13 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings(
   activation_policy: str = None,
   active_directory_config: GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig = None,
   advanced_machine_features: GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures = None,
+  auto_upgrade_enabled: bool | IResolvable = None,
   availability_type: str = None,
   backup_configuration: GoogleSqlDatabaseInstanceSettingsBackupConfiguration = None,
   collation: str = None,
   connection_pool_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig] = None,
   connector_enforcement: str = None,
+  data_api_access: str = None,
   database_flags: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsDatabaseFlags] = None,
   data_cache_config: GoogleSqlDatabaseInstanceSettingsDataCacheConfig = None,
   data_disk_provisioned_iops: typing.Union[int, float] = None,
@@ -3320,12 +3922,15 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings(
   edition: str = None,
   enable_dataplex_integration: bool | IResolvable = None,
   enable_google_ml_integration: bool | IResolvable = None,
+  entraid_config: GoogleSqlDatabaseInstanceSettingsEntraidConfig = None,
+  final_backup_config: GoogleSqlDatabaseInstanceSettingsFinalBackupConfig = None,
   insights_config: GoogleSqlDatabaseInstanceSettingsInsightsConfig = None,
   ip_configuration: GoogleSqlDatabaseInstanceSettingsIpConfiguration = None,
   location_preference: GoogleSqlDatabaseInstanceSettingsLocationPreference = None,
   maintenance_window: GoogleSqlDatabaseInstanceSettingsMaintenanceWindow = None,
   password_validation_policy: GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy = None,
   pricing_plan: str = None,
+  read_pool_auto_scale_config: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig = None,
   retain_backups_on_delete: bool | IResolvable = None,
   sql_server_audit_config: GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig = None,
   time_zone: str = None,
@@ -3341,11 +3946,13 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.activationPolicy">activation_policy</a></code> | <code>str</code> | This specifies when the instance should be active. Can be either ALWAYS, NEVER or ON_DEMAND. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.activeDirectoryConfig">active_directory_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig">GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig</a></code> | active_directory_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.advancedMachineFeatures">advanced_machine_features</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures">GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures</a></code> | advanced_machine_features block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.autoUpgradeEnabled">auto_upgrade_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Enables Automatic Version Upgrade feature. Can be used with MySQL only. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.availabilityType">availability_type</a></code> | <code>str</code> | The availability type of the Cloud SQL instance, high availability (REGIONAL) or single zone (ZONAL). |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.backupConfiguration">backup_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfiguration">GoogleSqlDatabaseInstanceSettingsBackupConfiguration</a></code> | backup_configuration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.collation">collation</a></code> | <code>str</code> | The name of server instance collation. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.connectionPoolConfig">connection_pool_config</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig">GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig</a>]</code> | connection_pool_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.connectorEnforcement">connector_enforcement</a></code> | <code>str</code> | Enables the enforcement of Cloud SQL Auth Proxy or Cloud SQL connectors for all the connections. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.dataApiAccess">data_api_access</a></code> | <code>str</code> | Allows using ExecuteSql API to connect to the instance. Disallowed when unspecified. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.databaseFlags">database_flags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDatabaseFlags">GoogleSqlDatabaseInstanceSettingsDatabaseFlags</a>]</code> | database_flags block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.dataCacheConfig">data_cache_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDataCacheConfig">GoogleSqlDatabaseInstanceSettingsDataCacheConfig</a></code> | data_cache_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.dataDiskProvisionedIops">data_disk_provisioned_iops</a></code> | <code>typing.Union[int, float]</code> | Provisioned number of I/O operations per second for the data disk. |
@@ -3359,12 +3966,15 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.edition">edition</a></code> | <code>str</code> | The edition of the instance, can be ENTERPRISE or ENTERPRISE_PLUS. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.enableDataplexIntegration">enable_dataplex_integration</a></code> | <code>bool \| cdktn.IResolvable</code> | Enables Dataplex Integration. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.enableGoogleMlIntegration">enable_google_ml_integration</a></code> | <code>bool \| cdktn.IResolvable</code> | Enables Vertex AI Integration. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.entraidConfig">entraid_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a></code> | entraid_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.finalBackupConfig">final_backup_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a></code> | final_backup_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.insightsConfig">insights_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig">GoogleSqlDatabaseInstanceSettingsInsightsConfig</a></code> | insights_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.ipConfiguration">ip_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration">GoogleSqlDatabaseInstanceSettingsIpConfiguration</a></code> | ip_configuration block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.locationPreference">location_preference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsLocationPreference">GoogleSqlDatabaseInstanceSettingsLocationPreference</a></code> | location_preference block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.maintenanceWindow">maintenance_window</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsMaintenanceWindow">GoogleSqlDatabaseInstanceSettingsMaintenanceWindow</a></code> | maintenance_window block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.passwordValidationPolicy">password_validation_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy">GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy</a></code> | password_validation_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.pricingPlan">pricing_plan</a></code> | <code>str</code> | Pricing plan for this instance, can only be PER_USE. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.readPoolAutoScaleConfig">read_pool_auto_scale_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a></code> | read_pool_auto_scale_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.retainBackupsOnDelete">retain_backups_on_delete</a></code> | <code>bool \| cdktn.IResolvable</code> | When this parameter is set to true, Cloud SQL retains backups of the instance even after the instance is deleted. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.sqlServerAuditConfig">sql_server_audit_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig">GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig</a></code> | sql_server_audit_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.timeZone">time_zone</a></code> | <code>str</code> | The time_zone to be used by the database engine (supported only for SQL Server), in SQL Server timezone format. |
@@ -3384,7 +3994,7 @@ The machine type to use.
 
 See tiers for more details and supported versions. Postgres supports only shared-core machine types, and custom machine types such as db-custom-2-13312. See the Custom Machine Type Documentation to learn about specifying custom machine types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#tier GoogleSqlDatabaseInstance#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#tier GoogleSqlDatabaseInstance#tier}
 
 ---
 
@@ -3398,7 +4008,7 @@ activation_policy: str
 
 This specifies when the instance should be active. Can be either ALWAYS, NEVER or ON_DEMAND.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#activation_policy GoogleSqlDatabaseInstance#activation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#activation_policy GoogleSqlDatabaseInstance#activation_policy}
 
 ---
 
@@ -3412,7 +4022,7 @@ active_directory_config: GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig
 
 active_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#active_directory_config GoogleSqlDatabaseInstance#active_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#active_directory_config GoogleSqlDatabaseInstance#active_directory_config}
 
 ---
 
@@ -3426,7 +4036,21 @@ advanced_machine_features: GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatu
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#advanced_machine_features GoogleSqlDatabaseInstance#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#advanced_machine_features GoogleSqlDatabaseInstance#advanced_machine_features}
+
+---
+
+##### `auto_upgrade_enabled`<sup>Optional</sup> <a name="auto_upgrade_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.autoUpgradeEnabled"></a>
+
+```python
+auto_upgrade_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Enables Automatic Version Upgrade feature. Can be used with MySQL only.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#auto_upgrade_enabled GoogleSqlDatabaseInstance#auto_upgrade_enabled}
 
 ---
 
@@ -3448,7 +4072,7 @@ is set to true. Defaults to ZONAL.
 For read pool instances, this field is read-only. The availability type is changed by specifying
 the number of nodes (node_count).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#availability_type GoogleSqlDatabaseInstance#availability_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#availability_type GoogleSqlDatabaseInstance#availability_type}
 
 ---
 
@@ -3462,7 +4086,7 @@ backup_configuration: GoogleSqlDatabaseInstanceSettingsBackupConfiguration
 
 backup_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_configuration GoogleSqlDatabaseInstance#backup_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_configuration GoogleSqlDatabaseInstance#backup_configuration}
 
 ---
 
@@ -3476,7 +4100,7 @@ collation: str
 
 The name of server instance collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#collation GoogleSqlDatabaseInstance#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#collation GoogleSqlDatabaseInstance#collation}
 
 ---
 
@@ -3490,7 +4114,7 @@ connection_pool_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSetti
 
 connection_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connection_pool_config GoogleSqlDatabaseInstance#connection_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connection_pool_config GoogleSqlDatabaseInstance#connection_pool_config}
 
 ---
 
@@ -3506,7 +4130,21 @@ Enables the enforcement of Cloud SQL Auth Proxy or Cloud SQL connectors for all 
 
 If enabled, all the direct connections are rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connector_enforcement GoogleSqlDatabaseInstance#connector_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connector_enforcement GoogleSqlDatabaseInstance#connector_enforcement}
+
+---
+
+##### `data_api_access`<sup>Optional</sup> <a name="data_api_access" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.dataApiAccess"></a>
+
+```python
+data_api_access: str
+```
+
+- *Type:* str
+
+Allows using ExecuteSql API to connect to the instance. Disallowed when unspecified.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_api_access GoogleSqlDatabaseInstance#data_api_access}
 
 ---
 
@@ -3520,7 +4158,7 @@ database_flags: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsDatab
 
 database_flags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#database_flags GoogleSqlDatabaseInstance#database_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#database_flags GoogleSqlDatabaseInstance#database_flags}
 
 ---
 
@@ -3534,7 +4172,7 @@ data_cache_config: GoogleSqlDatabaseInstanceSettingsDataCacheConfig
 
 data_cache_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_cache_config GoogleSqlDatabaseInstance#data_cache_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_cache_config GoogleSqlDatabaseInstance#data_cache_config}
 
 ---
 
@@ -3550,7 +4188,7 @@ Provisioned number of I/O operations per second for the data disk.
 
 This field is only used for HYPERDISK_BALANCED disk types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_disk_provisioned_iops GoogleSqlDatabaseInstance#data_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_disk_provisioned_iops GoogleSqlDatabaseInstance#data_disk_provisioned_iops}
 
 ---
 
@@ -3566,7 +4204,7 @@ Provisioned throughput measured in MiB per second for the data disk.
 
 This field is only used for HYPERDISK_BALANCED disk types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_disk_provisioned_throughput GoogleSqlDatabaseInstance#data_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_disk_provisioned_throughput GoogleSqlDatabaseInstance#data_disk_provisioned_throughput}
 
 ---
 
@@ -3580,7 +4218,7 @@ deletion_protection_enabled: bool | IResolvable
 
 Configuration to protect against accidental instance deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deletion_protection_enabled GoogleSqlDatabaseInstance#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deletion_protection_enabled GoogleSqlDatabaseInstance#deletion_protection_enabled}
 
 ---
 
@@ -3594,7 +4232,7 @@ deny_maintenance_period: GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriod
 
 deny_maintenance_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#deny_maintenance_period GoogleSqlDatabaseInstance#deny_maintenance_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#deny_maintenance_period GoogleSqlDatabaseInstance#deny_maintenance_period}
 
 ---
 
@@ -3608,7 +4246,7 @@ disk_autoresize: bool | IResolvable
 
 Enables auto-resizing of the storage size. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_autoresize GoogleSqlDatabaseInstance#disk_autoresize}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_autoresize GoogleSqlDatabaseInstance#disk_autoresize}
 
 ---
 
@@ -3624,7 +4262,7 @@ The maximum size, in GB, to which storage capacity can be automatically increase
 
 The default value is 0, which specifies that there is no limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_autoresize_limit GoogleSqlDatabaseInstance#disk_autoresize_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_autoresize_limit GoogleSqlDatabaseInstance#disk_autoresize_limit}
 
 ---
 
@@ -3640,7 +4278,7 @@ The size of data disk, in GB.
 
 Size of a running instance cannot be reduced but can be increased. The minimum value is 10GB for PD_SSD, PD_HDD and 20GB for HYPERDISK_BALANCED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_size GoogleSqlDatabaseInstance#disk_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_size GoogleSqlDatabaseInstance#disk_size}
 
 ---
 
@@ -3654,7 +4292,7 @@ disk_type: str
 
 The type of supported data disk is tier dependent and can be PD_SSD or PD_HDD or HYPERDISK_BALANCED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disk_type GoogleSqlDatabaseInstance#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disk_type GoogleSqlDatabaseInstance#disk_type}
 
 ---
 
@@ -3668,7 +4306,7 @@ edition: str
 
 The edition of the instance, can be ENTERPRISE or ENTERPRISE_PLUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#edition GoogleSqlDatabaseInstance#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#edition GoogleSqlDatabaseInstance#edition}
 
 ---
 
@@ -3682,7 +4320,7 @@ enable_dataplex_integration: bool | IResolvable
 
 Enables Dataplex Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_dataplex_integration GoogleSqlDatabaseInstance#enable_dataplex_integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_dataplex_integration GoogleSqlDatabaseInstance#enable_dataplex_integration}
 
 ---
 
@@ -3696,7 +4334,35 @@ enable_google_ml_integration: bool | IResolvable
 
 Enables Vertex AI Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_google_ml_integration GoogleSqlDatabaseInstance#enable_google_ml_integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_google_ml_integration GoogleSqlDatabaseInstance#enable_google_ml_integration}
+
+---
+
+##### `entraid_config`<sup>Optional</sup> <a name="entraid_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.entraidConfig"></a>
+
+```python
+entraid_config: GoogleSqlDatabaseInstanceSettingsEntraidConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a>
+
+entraid_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#entraid_config GoogleSqlDatabaseInstance#entraid_config}
+
+---
+
+##### `final_backup_config`<sup>Optional</sup> <a name="final_backup_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.finalBackupConfig"></a>
+
+```python
+final_backup_config: GoogleSqlDatabaseInstanceSettingsFinalBackupConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a>
+
+final_backup_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#final_backup_config GoogleSqlDatabaseInstance#final_backup_config}
 
 ---
 
@@ -3710,7 +4376,7 @@ insights_config: GoogleSqlDatabaseInstanceSettingsInsightsConfig
 
 insights_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#insights_config GoogleSqlDatabaseInstance#insights_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#insights_config GoogleSqlDatabaseInstance#insights_config}
 
 ---
 
@@ -3724,7 +4390,7 @@ ip_configuration: GoogleSqlDatabaseInstanceSettingsIpConfiguration
 
 ip_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ip_configuration GoogleSqlDatabaseInstance#ip_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ip_configuration GoogleSqlDatabaseInstance#ip_configuration}
 
 ---
 
@@ -3738,7 +4404,7 @@ location_preference: GoogleSqlDatabaseInstanceSettingsLocationPreference
 
 location_preference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#location_preference GoogleSqlDatabaseInstance#location_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#location_preference GoogleSqlDatabaseInstance#location_preference}
 
 ---
 
@@ -3752,7 +4418,7 @@ maintenance_window: GoogleSqlDatabaseInstanceSettingsMaintenanceWindow
 
 maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#maintenance_window GoogleSqlDatabaseInstance#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#maintenance_window GoogleSqlDatabaseInstance#maintenance_window}
 
 ---
 
@@ -3766,7 +4432,7 @@ password_validation_policy: GoogleSqlDatabaseInstanceSettingsPasswordValidationP
 
 password_validation_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password_validation_policy GoogleSqlDatabaseInstance#password_validation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password_validation_policy GoogleSqlDatabaseInstance#password_validation_policy}
 
 ---
 
@@ -3780,7 +4446,21 @@ pricing_plan: str
 
 Pricing plan for this instance, can only be PER_USE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#pricing_plan GoogleSqlDatabaseInstance#pricing_plan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#pricing_plan GoogleSqlDatabaseInstance#pricing_plan}
+
+---
+
+##### `read_pool_auto_scale_config`<sup>Optional</sup> <a name="read_pool_auto_scale_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettings.property.readPoolAutoScaleConfig"></a>
+
+```python
+read_pool_auto_scale_config: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a>
+
+read_pool_auto_scale_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#read_pool_auto_scale_config GoogleSqlDatabaseInstance#read_pool_auto_scale_config}
 
 ---
 
@@ -3796,7 +4476,7 @@ When this parameter is set to true, Cloud SQL retains backups of the instance ev
 
 The ON_DEMAND backup will be retained until customer deletes the backup or the project. The AUTOMATED backup will be retained based on the backups retention setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retain_backups_on_delete GoogleSqlDatabaseInstance#retain_backups_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retain_backups_on_delete GoogleSqlDatabaseInstance#retain_backups_on_delete}
 
 ---
 
@@ -3810,7 +4490,7 @@ sql_server_audit_config: GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig
 
 sql_server_audit_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#sql_server_audit_config GoogleSqlDatabaseInstance#sql_server_audit_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#sql_server_audit_config GoogleSqlDatabaseInstance#sql_server_audit_config}
 
 ---
 
@@ -3824,7 +4504,7 @@ time_zone: str
 
 The time_zone to be used by the database engine (supported only for SQL Server), in SQL Server timezone format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#time_zone GoogleSqlDatabaseInstance#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#time_zone GoogleSqlDatabaseInstance#time_zone}
 
 ---
 
@@ -3838,7 +4518,7 @@ user_labels: typing.Mapping[str]
 
 A set of key/value user label pairs to assign to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#user_labels GoogleSqlDatabaseInstance#user_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#user_labels GoogleSqlDatabaseInstance#user_labels}
 
 ---
 
@@ -3872,7 +4552,7 @@ domain: str
 
 Domain name of the Active Directory for SQL Server (e.g., mydomain.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#domain GoogleSqlDatabaseInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#domain GoogleSqlDatabaseInstance#domain}
 
 ---
 
@@ -3906,7 +4586,7 @@ threads_per_core: typing.Union[int, float]
 
 The number of threads per physical core. Can be 1 or 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#threads_per_core GoogleSqlDatabaseInstance#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#threads_per_core GoogleSqlDatabaseInstance#threads_per_core}
 
 ---
 
@@ -3952,7 +4632,7 @@ backup_retention_settings: GoogleSqlDatabaseInstanceSettingsBackupConfigurationB
 
 backup_retention_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_retention_settings GoogleSqlDatabaseInstance#backup_retention_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_retention_settings GoogleSqlDatabaseInstance#backup_retention_settings}
 
 ---
 
@@ -3968,7 +4648,7 @@ True if binary logging is enabled.
 
 If settings.backup_configuration.enabled is false, this must be as well. Can only be used with MySQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#binary_log_enabled GoogleSqlDatabaseInstance#binary_log_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#binary_log_enabled GoogleSqlDatabaseInstance#binary_log_enabled}
 
 ---
 
@@ -3982,7 +4662,7 @@ enabled: bool | IResolvable
 
 True if backup configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
 
 ---
 
@@ -3996,7 +4676,7 @@ location: str
 
 Location of the backup configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#location GoogleSqlDatabaseInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#location GoogleSqlDatabaseInstance#location}
 
 ---
 
@@ -4010,7 +4690,7 @@ point_in_time_recovery_enabled: bool | IResolvable
 
 True if Point-in-time recovery is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#point_in_time_recovery_enabled GoogleSqlDatabaseInstance#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time_recovery_enabled GoogleSqlDatabaseInstance#point_in_time_recovery_enabled}
 
 ---
 
@@ -4024,7 +4704,7 @@ start_time: str
 
 HH:MM format time indicating when backup configuration starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#start_time GoogleSqlDatabaseInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#start_time GoogleSqlDatabaseInstance#start_time}
 
 ---
 
@@ -4040,7 +4720,7 @@ The number of days of transaction logs we retain for point in time restore, from
 
 (For PostgreSQL Enterprise Plus instances, from 1 to 35.)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#transaction_log_retention_days GoogleSqlDatabaseInstance#transaction_log_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#transaction_log_retention_days GoogleSqlDatabaseInstance#transaction_log_retention_days}
 
 ---
 
@@ -4076,7 +4756,7 @@ retained_backups: typing.Union[int, float]
 
 Number of backups to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retained_backups GoogleSqlDatabaseInstance#retained_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retained_backups GoogleSqlDatabaseInstance#retained_backups}
 
 ---
 
@@ -4090,7 +4770,7 @@ retention_unit: str
 
 The unit that 'retainedBackups' represents. Defaults to COUNT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retention_unit GoogleSqlDatabaseInstance#retention_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_unit GoogleSqlDatabaseInstance#retention_unit}
 
 ---
 
@@ -4126,7 +4806,7 @@ connection_pooling_enabled: bool | IResolvable
 
 Whether Managed Connection Pool is enabled for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#connection_pooling_enabled GoogleSqlDatabaseInstance#connection_pooling_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#connection_pooling_enabled GoogleSqlDatabaseInstance#connection_pooling_enabled}
 
 ---
 
@@ -4140,7 +4820,7 @@ flags: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsConnectionPool
 
 flags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#flags GoogleSqlDatabaseInstance#flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#flags GoogleSqlDatabaseInstance#flags}
 
 ---
 
@@ -4176,7 +4856,7 @@ name: str
 
 Name of the flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
 
 ---
 
@@ -4190,7 +4870,7 @@ value: str
 
 Value of the flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}
 
 ---
 
@@ -4226,7 +4906,7 @@ name: str
 
 Name of the flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}
 
 ---
 
@@ -4240,7 +4920,7 @@ value: str
 
 Value of the flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}
 
 ---
 
@@ -4274,7 +4954,7 @@ data_cache_enabled: bool | IResolvable
 
 Whether data cache is enabled for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_cache_enabled GoogleSqlDatabaseInstance#data_cache_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_cache_enabled GoogleSqlDatabaseInstance#data_cache_enabled}
 
 ---
 
@@ -4314,7 +4994,7 @@ End date before which maintenance will not take place.
 
 The date is in format yyyy-mm-dd i.e., 2020-11-01, or mm-dd, i.e., 11-01
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#end_date GoogleSqlDatabaseInstance#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#end_date GoogleSqlDatabaseInstance#end_date}
 
 ---
 
@@ -4330,7 +5010,7 @@ Start date after which maintenance will not take place.
 
 The date is in format yyyy-mm-dd i.e., 2020-11-01, or mm-dd, i.e., 11-01
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#start_date GoogleSqlDatabaseInstance#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#start_date GoogleSqlDatabaseInstance#start_date}
 
 ---
 
@@ -4346,7 +5026,109 @@ Time in UTC when the "deny maintenance period" starts on start_date and ends on 
 
 The time is in format: HH:mm:SS, i.e., 00:00:00
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#time GoogleSqlDatabaseInstance#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#time GoogleSqlDatabaseInstance#time}
+
+---
+
+### GoogleSqlDatabaseInstanceSettingsEntraidConfig <a name="GoogleSqlDatabaseInstanceSettingsEntraidConfig" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig(
+  application_id: str = None,
+  tenant_id: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig.property.applicationId">application_id</a></code> | <code>str</code> | The application ID for the Entra ID configuration. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig.property.tenantId">tenant_id</a></code> | <code>str</code> | The tenant ID for the Entra ID configuration. |
+
+---
+
+##### `application_id`<sup>Optional</sup> <a name="application_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig.property.applicationId"></a>
+
+```python
+application_id: str
+```
+
+- *Type:* str
+
+The application ID for the Entra ID configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#application_id GoogleSqlDatabaseInstance#application_id}
+
+---
+
+##### `tenant_id`<sup>Optional</sup> <a name="tenant_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig.property.tenantId"></a>
+
+```python
+tenant_id: str
+```
+
+- *Type:* str
+
+The tenant ID for the Entra ID configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#tenant_id GoogleSqlDatabaseInstance#tenant_id}
+
+---
+
+### GoogleSqlDatabaseInstanceSettingsFinalBackupConfig <a name="GoogleSqlDatabaseInstanceSettingsFinalBackupConfig" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig(
+  enabled: bool | IResolvable = None,
+  retention_days: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | When this parameter is set to true, the final backup is enabled for the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig.property.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | The number of days to retain the final backup after the instance deletion. |
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+When this parameter is set to true, the final backup is enabled for the instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+
+---
+
+##### `retention_days`<sup>Optional</sup> <a name="retention_days" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig.property.retentionDays"></a>
+
+```python
+retention_days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The number of days to retain the final backup after the instance deletion.
+
+The valid range is between 1 and 365. For instances managed by BackupDR, the valid range is between 1 day and 99 years. The final backup will be purged at (time_of_instance_deletion + retention_days).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_days GoogleSqlDatabaseInstance#retention_days}
 
 ---
 
@@ -4358,6 +5140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_sql_database_instance
 
 googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig(
+  enhanced_query_insights_enabled: bool | IResolvable = None,
   query_insights_enabled: bool | IResolvable = None,
   query_plans_per_minute: typing.Union[int, float] = None,
   query_string_length: typing.Union[int, float] = None,
@@ -4370,11 +5153,26 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.enhancedQueryInsightsEnabled">enhanced_query_insights_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | True if Enhanced Query Insights feature is enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.queryInsightsEnabled">query_insights_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | True if Query Insights feature is enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.queryPlansPerMinute">query_plans_per_minute</a></code> | <code>typing.Union[int, float]</code> | Number of query execution plans captured by Insights per minute for all queries combined. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.queryStringLength">query_string_length</a></code> | <code>typing.Union[int, float]</code> | Maximum query length stored in bytes. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.recordApplicationTags">record_application_tags</a></code> | <code>bool \| cdktn.IResolvable</code> | True if Query Insights will record application tags from query when enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.recordClientAddress">record_client_address</a></code> | <code>bool \| cdktn.IResolvable</code> | True if Query Insights will record client address when enabled. |
+
+---
+
+##### `enhanced_query_insights_enabled`<sup>Optional</sup> <a name="enhanced_query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig.property.enhancedQueryInsightsEnabled"></a>
+
+```python
+enhanced_query_insights_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+True if Enhanced Query Insights feature is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enhanced_query_insights_enabled GoogleSqlDatabaseInstance#enhanced_query_insights_enabled}
 
 ---
 
@@ -4388,7 +5186,7 @@ query_insights_enabled: bool | IResolvable
 
 True if Query Insights feature is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_insights_enabled GoogleSqlDatabaseInstance#query_insights_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_insights_enabled GoogleSqlDatabaseInstance#query_insights_enabled}
 
 ---
 
@@ -4404,7 +5202,7 @@ Number of query execution plans captured by Insights per minute for all queries 
 
 Between 0 and 20. Default to 5. For Enterprise Plus instances, from 0 to 200.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_plans_per_minute GoogleSqlDatabaseInstance#query_plans_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_plans_per_minute GoogleSqlDatabaseInstance#query_plans_per_minute}
 
 ---
 
@@ -4418,9 +5216,9 @@ query_string_length: typing.Union[int, float]
 
 Maximum query length stored in bytes.
 
-Between 256 and 4500. Default to 1024. For Enterprise Plus instances, from 1 to 1048576.
+Between 256 and 4500. Default to 1024. For Enterprise Plus instances, from 1024 to 100000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_string_length GoogleSqlDatabaseInstance#query_string_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_string_length GoogleSqlDatabaseInstance#query_string_length}
 
 ---
 
@@ -4434,7 +5232,7 @@ record_application_tags: bool | IResolvable
 
 True if Query Insights will record application tags from query when enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_application_tags GoogleSqlDatabaseInstance#record_application_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#record_application_tags GoogleSqlDatabaseInstance#record_application_tags}
 
 ---
 
@@ -4448,7 +5246,7 @@ record_client_address: bool | IResolvable
 
 True if Query Insights will record client address when enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_client_address GoogleSqlDatabaseInstance#record_client_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#record_client_address GoogleSqlDatabaseInstance#record_client_address}
 
 ---
 
@@ -4469,6 +5267,7 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration(
   psc_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig] = None,
   server_ca_mode: str = None,
   server_ca_pool: str = None,
+  server_certificate_rotation_mode: str = None,
   ssl_mode: str = None
 )
 ```
@@ -4486,6 +5285,7 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration(
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.pscConfig">psc_config</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig">GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig</a>]</code> | psc_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.serverCaMode">server_ca_mode</a></code> | <code>str</code> | Specify how the server certificate's Certificate Authority is hosted. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.serverCaPool">server_ca_pool</a></code> | <code>str</code> | The resource name of the server CA pool for an instance with "CUSTOMER_MANAGED_CAS_CA" as the "server_ca_mode". |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.serverCertificateRotationMode">server_certificate_rotation_mode</a></code> | <code>str</code> | Settings for how the server certificate gets rotated. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.sslMode">ssl_mode</a></code> | <code>str</code> | Specify how SSL connection should be enforced in DB connections. |
 
 ---
@@ -4502,7 +5302,7 @@ The name of the allocated ip range for the private ip CloudSQL instance.
 
 For example: "google-managed-services-default". If set, the instance ip will be created in the allocated range. The range name must comply with RFC 1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
 
 ---
 
@@ -4516,7 +5316,7 @@ authorized_networks: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettings
 
 authorized_networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#authorized_networks GoogleSqlDatabaseInstance#authorized_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#authorized_networks GoogleSqlDatabaseInstance#authorized_networks}
 
 ---
 
@@ -4530,7 +5330,7 @@ custom_subject_alternative_names: typing.List[str]
 
 The custom subject alternative names for an instance with "CUSTOMER_MANAGED_CAS_CA" as the "server_ca_mode".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#custom_subject_alternative_names GoogleSqlDatabaseInstance#custom_subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#custom_subject_alternative_names GoogleSqlDatabaseInstance#custom_subject_alternative_names}
 
 ---
 
@@ -4546,7 +5346,7 @@ Whether Google Cloud services such as BigQuery are allowed to access data in thi
 
 SQLSERVER database type is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_private_path_for_google_cloud_services GoogleSqlDatabaseInstance#enable_private_path_for_google_cloud_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_private_path_for_google_cloud_services GoogleSqlDatabaseInstance#enable_private_path_for_google_cloud_services}
 
 ---
 
@@ -4562,7 +5362,7 @@ Whether this Cloud SQL instance should be assigned a public IPV4 address.
 
 At least ipv4_enabled must be enabled or a private_network must be configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ipv4_enabled GoogleSqlDatabaseInstance#ipv4_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ipv4_enabled GoogleSqlDatabaseInstance#ipv4_enabled}
 
 ---
 
@@ -4578,7 +5378,7 @@ The VPC network from which the Cloud SQL instance is accessible for private IP.
 
 For example, projects/myProject/global/networks/default. Specifying a network enables private IP. At least ipv4_enabled must be enabled or a private_network must be configured. This setting can be updated, but it cannot be removed after it is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#private_network GoogleSqlDatabaseInstance#private_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#private_network GoogleSqlDatabaseInstance#private_network}
 
 ---
 
@@ -4592,7 +5392,7 @@ psc_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsIpConfigu
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_config GoogleSqlDatabaseInstance#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psc_config GoogleSqlDatabaseInstance#psc_config}
 
 ---
 
@@ -4606,7 +5406,7 @@ server_ca_mode: str
 
 Specify how the server certificate's Certificate Authority is hosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#server_ca_mode GoogleSqlDatabaseInstance#server_ca_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_ca_mode GoogleSqlDatabaseInstance#server_ca_mode}
 
 ---
 
@@ -4620,7 +5420,21 @@ server_ca_pool: str
 
 The resource name of the server CA pool for an instance with "CUSTOMER_MANAGED_CAS_CA" as the "server_ca_mode".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#server_ca_pool GoogleSqlDatabaseInstance#server_ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_ca_pool GoogleSqlDatabaseInstance#server_ca_pool}
+
+---
+
+##### `server_certificate_rotation_mode`<sup>Optional</sup> <a name="server_certificate_rotation_mode" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration.property.serverCertificateRotationMode"></a>
+
+```python
+server_certificate_rotation_mode: str
+```
+
+- *Type:* str
+
+Settings for how the server certificate gets rotated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_certificate_rotation_mode GoogleSqlDatabaseInstance#server_certificate_rotation_mode}
 
 ---
 
@@ -4634,7 +5448,7 @@ ssl_mode: str
 
 Specify how SSL connection should be enforced in DB connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ssl_mode GoogleSqlDatabaseInstance#ssl_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ssl_mode GoogleSqlDatabaseInstance#ssl_mode}
 
 ---
 
@@ -4656,9 +5470,9 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.expirationTime">expiration_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#expiration_time GoogleSqlDatabaseInstance#expiration_time}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.expirationTime">expiration_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#expiration_time GoogleSqlDatabaseInstance#expiration_time}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationAuthorizedNetworks.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}. |
 
 ---
 
@@ -4670,7 +5484,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#value GoogleSqlDatabaseInstance#value}.
 
 ---
 
@@ -4682,7 +5496,7 @@ expiration_time: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#expiration_time GoogleSqlDatabaseInstance#expiration_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#expiration_time GoogleSqlDatabaseInstance#expiration_time}.
 
 ---
 
@@ -4694,7 +5508,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#name GoogleSqlDatabaseInstance#name}.
 
 ---
 
@@ -4736,7 +5550,7 @@ List of consumer projects that are allow-listed for PSC connections to this inst
 
 This instance can be connected to with PSC from any network in these projects. Each consumer project in this list may be represented by a project number (numeric) or by a project id (alphanumeric).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#allowed_consumer_projects GoogleSqlDatabaseInstance#allowed_consumer_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allowed_consumer_projects GoogleSqlDatabaseInstance#allowed_consumer_projects}
 
 ---
 
@@ -4752,7 +5566,7 @@ Name of network attachment resource used to authorize a producer service to conn
 
 For example: "projects/myProject/regions/myRegion/networkAttachments/myNetworkAttachment". This is required to enable outbound connection on a PSC instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#network_attachment_uri GoogleSqlDatabaseInstance#network_attachment_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#network_attachment_uri GoogleSqlDatabaseInstance#network_attachment_uri}
 
 ---
 
@@ -4766,7 +5580,7 @@ psc_auto_connections: IResolvable | typing.List[GoogleSqlDatabaseInstanceSetting
 
 psc_auto_connections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_auto_connections GoogleSqlDatabaseInstance#psc_auto_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psc_auto_connections GoogleSqlDatabaseInstance#psc_auto_connections}
 
 ---
 
@@ -4780,7 +5594,7 @@ psc_enabled: bool | IResolvable
 
 Whether PSC connectivity is enabled for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_enabled GoogleSqlDatabaseInstance#psc_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psc_enabled GoogleSqlDatabaseInstance#psc_enabled}
 
 ---
 
@@ -4818,7 +5632,7 @@ The consumer network of this consumer endpoint.
 
 This must be a resource path that includes both the host project and the network name. The consumer host project of this network might be different from the consumer service project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#consumer_network GoogleSqlDatabaseInstance#consumer_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#consumer_network GoogleSqlDatabaseInstance#consumer_network}
 
 ---
 
@@ -4832,7 +5646,7 @@ consumer_service_project_id: str
 
 The project ID of consumer service project of this consumer endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#consumer_service_project_id GoogleSqlDatabaseInstance#consumer_service_project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#consumer_service_project_id GoogleSqlDatabaseInstance#consumer_service_project_id}
 
 ---
 
@@ -4870,7 +5684,7 @@ follow_gae_application: str
 
 A Google App Engine application whose zone to remain in. Must be in the same region as this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#follow_gae_application GoogleSqlDatabaseInstance#follow_gae_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#follow_gae_application GoogleSqlDatabaseInstance#follow_gae_application}
 
 ---
 
@@ -4884,7 +5698,7 @@ secondary_zone: str
 
 The preferred Compute Engine zone for the secondary/failover.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#secondary_zone GoogleSqlDatabaseInstance#secondary_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#secondary_zone GoogleSqlDatabaseInstance#secondary_zone}
 
 ---
 
@@ -4898,7 +5712,7 @@ zone: str
 
 The preferred compute engine zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#zone GoogleSqlDatabaseInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#zone GoogleSqlDatabaseInstance#zone}
 
 ---
 
@@ -4936,7 +5750,7 @@ day: typing.Union[int, float]
 
 Day of week (1-7), starting on Monday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#day GoogleSqlDatabaseInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#day GoogleSqlDatabaseInstance#day}
 
 ---
 
@@ -4950,7 +5764,7 @@ hour: typing.Union[int, float]
 
 Hour of day (0-23), ignored if day not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#hour GoogleSqlDatabaseInstance#hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#hour GoogleSqlDatabaseInstance#hour}
 
 ---
 
@@ -4964,7 +5778,7 @@ update_track: str
 
 Receive updates after one week (canary) or after two weeks (stable) or after five weeks (week5) of notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#update_track GoogleSqlDatabaseInstance#update_track}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#update_track GoogleSqlDatabaseInstance#update_track}
 
 ---
 
@@ -5008,7 +5822,7 @@ enable_password_policy: bool | IResolvable
 
 Whether the password policy is enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_password_policy GoogleSqlDatabaseInstance#enable_password_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_password_policy GoogleSqlDatabaseInstance#enable_password_policy}
 
 ---
 
@@ -5022,7 +5836,7 @@ complexity: str
 
 Password complexity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#complexity GoogleSqlDatabaseInstance#complexity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#complexity GoogleSqlDatabaseInstance#complexity}
 
 ---
 
@@ -5036,7 +5850,7 @@ disallow_username_substring: bool | IResolvable
 
 Disallow username as a part of the password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disallow_username_substring GoogleSqlDatabaseInstance#disallow_username_substring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disallow_username_substring GoogleSqlDatabaseInstance#disallow_username_substring}
 
 ---
 
@@ -5050,7 +5864,7 @@ min_length: typing.Union[int, float]
 
 Minimum number of characters allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#min_length GoogleSqlDatabaseInstance#min_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#min_length GoogleSqlDatabaseInstance#min_length}
 
 ---
 
@@ -5064,7 +5878,7 @@ password_change_interval: str
 
 Minimum interval after which the password can be changed. This flag is only supported for PostgresSQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password_change_interval GoogleSqlDatabaseInstance#password_change_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password_change_interval GoogleSqlDatabaseInstance#password_change_interval}
 
 ---
 
@@ -5078,7 +5892,191 @@ reuse_interval: typing.Union[int, float]
 
 Number of previous passwords that cannot be reused.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#reuse_interval GoogleSqlDatabaseInstance#reuse_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#reuse_interval GoogleSqlDatabaseInstance#reuse_interval}
+
+---
+
+### GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig <a name="GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig(
+  disable_scale_in: bool | IResolvable = None,
+  enabled: bool | IResolvable = None,
+  max_node_count: typing.Union[int, float] = None,
+  min_node_count: typing.Union[int, float] = None,
+  scale_in_cooldown_seconds: typing.Union[int, float] = None,
+  scale_out_cooldown_seconds: typing.Union[int, float] = None,
+  target_metrics: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.disableScaleIn">disable_scale_in</a></code> | <code>bool \| cdktn.IResolvable</code> | True if auto scale in is disabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | True if Read Pool Auto Scale is enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.maxNodeCount">max_node_count</a></code> | <code>typing.Union[int, float]</code> | Maximum number of nodes in the read pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.minNodeCount">min_node_count</a></code> | <code>typing.Union[int, float]</code> | Minimum number of nodes in the read pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.scaleInCooldownSeconds">scale_in_cooldown_seconds</a></code> | <code>typing.Union[int, float]</code> | The cooldown period for scale in operations. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.scaleOutCooldownSeconds">scale_out_cooldown_seconds</a></code> | <code>typing.Union[int, float]</code> | The cooldown period for scale out operations. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.targetMetrics">target_metrics</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]</code> | target_metrics block. |
+
+---
+
+##### `disable_scale_in`<sup>Optional</sup> <a name="disable_scale_in" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.disableScaleIn"></a>
+
+```python
+disable_scale_in: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+True if auto scale in is disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disable_scale_in GoogleSqlDatabaseInstance#disable_scale_in}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+True if Read Pool Auto Scale is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+
+---
+
+##### `max_node_count`<sup>Optional</sup> <a name="max_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.maxNodeCount"></a>
+
+```python
+max_node_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Maximum number of nodes in the read pool.
+
+If set to lower than current node count, node count will be updated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#max_node_count GoogleSqlDatabaseInstance#max_node_count}
+
+---
+
+##### `min_node_count`<sup>Optional</sup> <a name="min_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.minNodeCount"></a>
+
+```python
+min_node_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Minimum number of nodes in the read pool.
+
+If set to higher than current node count, node count will be updated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#min_node_count GoogleSqlDatabaseInstance#min_node_count}
+
+---
+
+##### `scale_in_cooldown_seconds`<sup>Optional</sup> <a name="scale_in_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.scaleInCooldownSeconds"></a>
+
+```python
+scale_in_cooldown_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The cooldown period for scale in operations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#scale_in_cooldown_seconds GoogleSqlDatabaseInstance#scale_in_cooldown_seconds}
+
+---
+
+##### `scale_out_cooldown_seconds`<sup>Optional</sup> <a name="scale_out_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.scaleOutCooldownSeconds"></a>
+
+```python
+scale_out_cooldown_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The cooldown period for scale out operations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#scale_out_cooldown_seconds GoogleSqlDatabaseInstance#scale_out_cooldown_seconds}
+
+---
+
+##### `target_metrics`<sup>Optional</sup> <a name="target_metrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig.property.targetMetrics"></a>
+
+```python
+target_metrics: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]
+
+target_metrics block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#target_metrics GoogleSqlDatabaseInstance#target_metrics}
+
+---
+
+### GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics <a name="GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics(
+  metric: str = None,
+  target_value: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics.property.metric">metric</a></code> | <code>str</code> | Metric name for Read Pool Auto Scale. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics.property.targetValue">target_value</a></code> | <code>typing.Union[int, float]</code> | Target value for Read Pool Auto Scale. |
+
+---
+
+##### `metric`<sup>Optional</sup> <a name="metric" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics.property.metric"></a>
+
+```python
+metric: str
+```
+
+- *Type:* str
+
+Metric name for Read Pool Auto Scale.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#metric GoogleSqlDatabaseInstance#metric}
+
+---
+
+##### `target_value`<sup>Optional</sup> <a name="target_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics.property.targetValue"></a>
+
+```python
+target_value: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Target value for Read Pool Auto Scale.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#target_value GoogleSqlDatabaseInstance#target_value}
 
 ---
 
@@ -5116,7 +6114,7 @@ bucket: str
 
 The name of the destination bucket (e.g., gs://mybucket).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#bucket GoogleSqlDatabaseInstance#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#bucket GoogleSqlDatabaseInstance#bucket}
 
 ---
 
@@ -5132,7 +6130,7 @@ How long to keep generated audit files.
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s"..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retention_interval GoogleSqlDatabaseInstance#retention_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_interval GoogleSqlDatabaseInstance#retention_interval}
 
 ---
 
@@ -5148,7 +6146,7 @@ How often to upload generated audit files.
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#upload_interval GoogleSqlDatabaseInstance#upload_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#upload_interval GoogleSqlDatabaseInstance#upload_interval}
 
 ---
 
@@ -5170,9 +6168,9 @@ googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}. |
 
 ---
 
@@ -5184,7 +6182,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#create GoogleSqlDatabaseInstance#create}.
 
 ---
 
@@ -5196,7 +6194,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#delete GoogleSqlDatabaseInstance#delete}.
 
 ---
 
@@ -5208,7 +6206,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#update GoogleSqlDatabaseInstance#update}.
 
 ---
 
@@ -5271,6 +6269,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetDatabaseNames">reset_database_names</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetPointInTime">reset_point_in_time</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetPreferredZone">reset_preferred_zone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetSourceInstanceDeletionTime">reset_source_instance_deletion_time</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetSourceProject">reset_source_project</a></code> | *No description.* |
 
 ---
 
@@ -5470,6 +6470,18 @@ def reset_point_in_time() -> None
 def reset_preferred_zone() -> None
 ```
 
+##### `reset_source_instance_deletion_time` <a name="reset_source_instance_deletion_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetSourceInstanceDeletionTime"></a>
+
+```python
+def reset_source_instance_deletion_time() -> None
+```
+
+##### `reset_source_project` <a name="reset_source_project" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.resetSourceProject"></a>
+
+```python
+def reset_source_project() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5481,12 +6493,16 @@ def reset_preferred_zone() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.databaseNamesInput">database_names_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.pointInTimeInput">point_in_time_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.preferredZoneInput">preferred_zone_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceDeletionTimeInput">source_instance_deletion_time_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceNameInput">source_instance_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceProjectInput">source_project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.allocatedIpRange">allocated_ip_range</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.databaseNames">database_names</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.pointInTime">point_in_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.preferredZone">preferred_zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceDeletionTime">source_instance_deletion_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceName">source_instance_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceProject">source_project</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceClone">GoogleSqlDatabaseInstanceClone</a></code> | *No description.* |
 
 ---
@@ -5555,10 +6571,30 @@ preferred_zone_input: str
 
 ---
 
+##### `source_instance_deletion_time_input`<sup>Optional</sup> <a name="source_instance_deletion_time_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceDeletionTimeInput"></a>
+
+```python
+source_instance_deletion_time_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `source_instance_name_input`<sup>Optional</sup> <a name="source_instance_name_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceNameInput"></a>
 
 ```python
 source_instance_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_project_input`<sup>Optional</sup> <a name="source_project_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceProjectInput"></a>
+
+```python
+source_project_input: str
 ```
 
 - *Type:* str
@@ -5605,10 +6641,30 @@ preferred_zone: str
 
 ---
 
+##### `source_instance_deletion_time`<sup>Required</sup> <a name="source_instance_deletion_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceDeletionTime"></a>
+
+```python
+source_instance_deletion_time: str
+```
+
+- *Type:* str
+
+---
+
 ##### `source_instance_name`<sup>Required</sup> <a name="source_instance_name" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceInstanceName"></a>
 
 ```python
 source_instance_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_project`<sup>Required</sup> <a name="source_project" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceCloneOutputReference.property.sourceProject"></a>
+
+```python
+source_project: str
 ```
 
 - *Type:* str
@@ -6594,6 +7650,447 @@ internal_value: GoogleSqlDatabaseInstanceIpAddress
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceIpAddress">GoogleSqlDatabaseInstanceIpAddress</a>
+
+---
+
+
+### GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference <a name="GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetAllocatedIpRange">reset_allocated_ip_range</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetPointInTime">reset_point_in_time</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetPreferredZone">reset_preferred_zone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetRegion">reset_region</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetTargetInstance">reset_target_instance</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_allocated_ip_range` <a name="reset_allocated_ip_range" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetAllocatedIpRange"></a>
+
+```python
+def reset_allocated_ip_range() -> None
+```
+
+##### `reset_point_in_time` <a name="reset_point_in_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetPointInTime"></a>
+
+```python
+def reset_point_in_time() -> None
+```
+
+##### `reset_preferred_zone` <a name="reset_preferred_zone" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetPreferredZone"></a>
+
+```python
+def reset_preferred_zone() -> None
+```
+
+##### `reset_region` <a name="reset_region" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetRegion"></a>
+
+```python
+def reset_region() -> None
+```
+
+##### `reset_target_instance` <a name="reset_target_instance" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.resetTargetInstance"></a>
+
+```python
+def reset_target_instance() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.allocatedIpRangeInput">allocated_ip_range_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.datasourceInput">datasource_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.pointInTimeInput">point_in_time_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.preferredZoneInput">preferred_zone_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.regionInput">region_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.targetInstanceInput">target_instance_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.allocatedIpRange">allocated_ip_range</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.datasource">datasource</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.pointInTime">point_in_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.preferredZone">preferred_zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.region">region</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.targetInstance">target_instance</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `allocated_ip_range_input`<sup>Optional</sup> <a name="allocated_ip_range_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.allocatedIpRangeInput"></a>
+
+```python
+allocated_ip_range_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `datasource_input`<sup>Optional</sup> <a name="datasource_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.datasourceInput"></a>
+
+```python
+datasource_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `point_in_time_input`<sup>Optional</sup> <a name="point_in_time_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.pointInTimeInput"></a>
+
+```python
+point_in_time_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `preferred_zone_input`<sup>Optional</sup> <a name="preferred_zone_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.preferredZoneInput"></a>
+
+```python
+preferred_zone_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `region_input`<sup>Optional</sup> <a name="region_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.regionInput"></a>
+
+```python
+region_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_instance_input`<sup>Optional</sup> <a name="target_instance_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.targetInstanceInput"></a>
+
+```python
+target_instance_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `allocated_ip_range`<sup>Required</sup> <a name="allocated_ip_range" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.allocatedIpRange"></a>
+
+```python
+allocated_ip_range: str
+```
+
+- *Type:* str
+
+---
+
+##### `datasource`<sup>Required</sup> <a name="datasource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.datasource"></a>
+
+```python
+datasource: str
+```
+
+- *Type:* str
+
+---
+
+##### `point_in_time`<sup>Required</sup> <a name="point_in_time" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.pointInTime"></a>
+
+```python
+point_in_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `preferred_zone`<sup>Required</sup> <a name="preferred_zone" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.preferredZone"></a>
+
+```python
+preferred_zone: str
+```
+
+- *Type:* str
+
+---
+
+##### `region`<sup>Required</sup> <a name="region" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.region"></a>
+
+```python
+region: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_instance`<sup>Required</sup> <a name="target_instance" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.targetInstance"></a>
+
+```python
+target_instance: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleSqlDatabaseInstancePointInTimeRestoreContext
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstancePointInTimeRestoreContext">GoogleSqlDatabaseInstancePointInTimeRestoreContext</a>
 
 ---
 
@@ -9600,7 +11097,7 @@ def put_backup_retention_settings(
 
 Number of backups to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retained_backups GoogleSqlDatabaseInstance#retained_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retained_backups GoogleSqlDatabaseInstance#retained_backups}
 
 ---
 
@@ -9610,7 +11107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unit that 'retainedBackups' represents. Defaults to COUNT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retention_unit GoogleSqlDatabaseInstance#retention_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_unit GoogleSqlDatabaseInstance#retention_unit}
 
 ---
 
@@ -9664,6 +11161,7 @@ def reset_transaction_log_retention_days() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.backupRetentionSettings">backup_retention_settings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference">GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.backupTier">backup_tier</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.backupRetentionSettingsInput">backup_retention_settings_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings">GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.binaryLogEnabledInput">binary_log_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -9712,6 +11210,16 @@ backup_retention_settings: GoogleSqlDatabaseInstanceSettingsBackupConfigurationB
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference">GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference</a>
+
+---
+
+##### `backup_tier`<sup>Required</sup> <a name="backup_tier" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference.property.backupTier"></a>
+
+```python
+backup_tier: str
+```
+
+- *Type:* str
 
 ---
 
@@ -12052,6 +13560,670 @@ internal_value: GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriod
 ---
 
 
+### GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference <a name="GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resetApplicationId">reset_application_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resetTenantId">reset_tenant_id</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_application_id` <a name="reset_application_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resetApplicationId"></a>
+
+```python
+def reset_application_id() -> None
+```
+
+##### `reset_tenant_id` <a name="reset_tenant_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.resetTenantId"></a>
+
+```python
+def reset_tenant_id() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.applicationIdInput">application_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.tenantIdInput">tenant_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.applicationId">application_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.tenantId">tenant_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `application_id_input`<sup>Optional</sup> <a name="application_id_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.applicationIdInput"></a>
+
+```python
+application_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tenant_id_input`<sup>Optional</sup> <a name="tenant_id_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.tenantIdInput"></a>
+
+```python
+tenant_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `application_id`<sup>Required</sup> <a name="application_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.applicationId"></a>
+
+```python
+application_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `tenant_id`<sup>Required</sup> <a name="tenant_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.tenantId"></a>
+
+```python
+tenant_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleSqlDatabaseInstanceSettingsEntraidConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a>
+
+---
+
+
+### GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference <a name="GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resetEnabled">reset_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resetRetentionDays">reset_retention_days</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_enabled` <a name="reset_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resetEnabled"></a>
+
+```python
+def reset_enabled() -> None
+```
+
+##### `reset_retention_days` <a name="reset_retention_days" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.resetRetentionDays"></a>
+
+```python
+def reset_retention_days() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.retentionDaysInput">retention_days_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.enabledInput"></a>
+
+```python
+enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `retention_days_input`<sup>Optional</sup> <a name="retention_days_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.retentionDaysInput"></a>
+
+```python
+retention_days_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `retention_days`<sup>Required</sup> <a name="retention_days" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.retentionDays"></a>
+
+```python
+retention_days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleSqlDatabaseInstanceSettingsFinalBackupConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a>
+
+---
+
+
 ### GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference <a name="GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.Initializer"></a>
@@ -12105,6 +14277,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetEnhancedQueryInsightsEnabled">reset_enhanced_query_insights_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetQueryInsightsEnabled">reset_query_insights_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetQueryPlansPerMinute">reset_query_plans_per_minute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetQueryStringLength">reset_query_string_length</a></code> | *No description.* |
@@ -12285,6 +14458,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_enhanced_query_insights_enabled` <a name="reset_enhanced_query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetEnhancedQueryInsightsEnabled"></a>
+
+```python
+def reset_enhanced_query_insights_enabled() -> None
+```
+
 ##### `reset_query_insights_enabled` <a name="reset_query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.resetQueryInsightsEnabled"></a>
 
 ```python
@@ -12322,11 +14501,13 @@ def reset_record_client_address() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.enhancedQueryInsightsEnabledInput">enhanced_query_insights_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryInsightsEnabledInput">query_insights_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryPlansPerMinuteInput">query_plans_per_minute_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryStringLengthInput">query_string_length_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.recordApplicationTagsInput">record_application_tags_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.recordClientAddressInput">record_client_address_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.enhancedQueryInsightsEnabled">enhanced_query_insights_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryInsightsEnabled">query_insights_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryPlansPerMinute">query_plans_per_minute</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.queryStringLength">query_string_length</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -12357,6 +14538,16 @@ fqn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `enhanced_query_insights_enabled_input`<sup>Optional</sup> <a name="enhanced_query_insights_enabled_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.enhancedQueryInsightsEnabledInput"></a>
+
+```python
+enhanced_query_insights_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -12404,6 +14595,16 @@ record_application_tags_input: bool | IResolvable
 
 ```python
 record_client_address_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enhanced_query_insights_enabled`<sup>Required</sup> <a name="enhanced_query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference.property.enhancedQueryInsightsEnabled"></a>
+
+```python
+enhanced_query_insights_enabled: bool | IResolvable
 ```
 
 - *Type:* bool | cdktn.IResolvable
@@ -13079,6 +15280,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetPscConfig">reset_psc_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetServerCaMode">reset_server_ca_mode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetServerCaPool">reset_server_ca_pool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetServerCertificateRotationMode">reset_server_certificate_rotation_mode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetSslMode">reset_ssl_mode</a></code> | *No description.* |
 
 ---
@@ -13337,6 +15539,12 @@ def reset_server_ca_mode() -> None
 def reset_server_ca_pool() -> None
 ```
 
+##### `reset_server_certificate_rotation_mode` <a name="reset_server_certificate_rotation_mode" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetServerCertificateRotationMode"></a>
+
+```python
+def reset_server_certificate_rotation_mode() -> None
+```
+
 ##### `reset_ssl_mode` <a name="reset_ssl_mode" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.resetSslMode"></a>
 
 ```python
@@ -13361,6 +15569,7 @@ def reset_ssl_mode() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.pscConfigInput">psc_config_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig">GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCaModeInput">server_ca_mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCaPoolInput">server_ca_pool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCertificateRotationModeInput">server_certificate_rotation_mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.sslModeInput">ssl_mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.allocatedIpRange">allocated_ip_range</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.customSubjectAlternativeNames">custom_subject_alternative_names</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -13369,6 +15578,7 @@ def reset_ssl_mode() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.privateNetwork">private_network</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCaMode">server_ca_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCaPool">server_ca_pool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCertificateRotationMode">server_certificate_rotation_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.sslMode">ssl_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration">GoogleSqlDatabaseInstanceSettingsIpConfiguration</a></code> | *No description.* |
 
@@ -13508,6 +15718,16 @@ server_ca_pool_input: str
 
 ---
 
+##### `server_certificate_rotation_mode_input`<sup>Optional</sup> <a name="server_certificate_rotation_mode_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCertificateRotationModeInput"></a>
+
+```python
+server_certificate_rotation_mode_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `ssl_mode_input`<sup>Optional</sup> <a name="ssl_mode_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.sslModeInput"></a>
 
 ```python
@@ -13582,6 +15802,16 @@ server_ca_mode: str
 
 ```python
 server_ca_pool: str
+```
+
+- *Type:* str
+
+---
+
+##### `server_certificate_rotation_mode`<sup>Required</sup> <a name="server_certificate_rotation_mode" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference.property.serverCertificateRotationMode"></a>
+
+```python
+server_certificate_rotation_mode: str
 ```
 
 - *Type:* str
@@ -14636,6 +16866,9 @@ def reset_consumer_service_project_id() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetworkStatus">consumer_network_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.ipAddress">ip_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.status">status</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetworkInput">consumer_network_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerServiceProjectIdInput">consumer_service_project_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetwork">consumer_network</a></code> | <code>str</code> | *No description.* |
@@ -14662,6 +16895,36 @@ If this returns an empty array the stack will not be attached.
 
 ```python
 fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `consumer_network_status`<sup>Required</sup> <a name="consumer_network_status" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetworkStatus"></a>
+
+```python
+consumer_network_status: str
+```
+
+- *Type:* str
+
+---
+
+##### `ip_address`<sup>Required</sup> <a name="ip_address" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.ipAddress"></a>
+
+```python
+ip_address: str
+```
+
+- *Type:* str
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.status"></a>
+
+```python
+status: str
 ```
 
 - *Type:* str
@@ -15501,20 +17764,25 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putDatabaseFlags">put_database_flags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putDataCacheConfig">put_data_cache_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putDenyMaintenancePeriod">put_deny_maintenance_period</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putEntraidConfig">put_entraid_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putFinalBackupConfig">put_final_backup_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putInsightsConfig">put_insights_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putIpConfiguration">put_ip_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putLocationPreference">put_location_preference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putMaintenanceWindow">put_maintenance_window</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putPasswordValidationPolicy">put_password_validation_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig">put_read_pool_auto_scale_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putSqlServerAuditConfig">put_sql_server_audit_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetActivationPolicy">reset_activation_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetActiveDirectoryConfig">reset_active_directory_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetAdvancedMachineFeatures">reset_advanced_machine_features</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetAutoUpgradeEnabled">reset_auto_upgrade_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetAvailabilityType">reset_availability_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetBackupConfiguration">reset_backup_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetCollation">reset_collation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetConnectionPoolConfig">reset_connection_pool_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetConnectorEnforcement">reset_connector_enforcement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDataApiAccess">reset_data_api_access</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDatabaseFlags">reset_database_flags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDataCacheConfig">reset_data_cache_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDataDiskProvisionedIops">reset_data_disk_provisioned_iops</a></code> | *No description.* |
@@ -15528,12 +17796,15 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetEdition">reset_edition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetEnableDataplexIntegration">reset_enable_dataplex_integration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetEnableGoogleMlIntegration">reset_enable_google_ml_integration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetEntraidConfig">reset_entraid_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetFinalBackupConfig">reset_final_backup_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetInsightsConfig">reset_insights_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetIpConfiguration">reset_ip_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetLocationPreference">reset_location_preference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetMaintenanceWindow">reset_maintenance_window</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetPasswordValidationPolicy">reset_password_validation_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetPricingPlan">reset_pricing_plan</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetReadPoolAutoScaleConfig">reset_read_pool_auto_scale_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetRetainBackupsOnDelete">reset_retain_backups_on_delete</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetSqlServerAuditConfig">reset_sql_server_audit_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetTimeZone">reset_time_zone</a></code> | *No description.* |
@@ -15727,7 +17998,7 @@ def put_active_directory_config(
 
 Domain name of the Active Directory for SQL Server (e.g., mydomain.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#domain GoogleSqlDatabaseInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#domain GoogleSqlDatabaseInstance#domain}
 
 ---
 
@@ -15745,7 +18016,7 @@ def put_advanced_machine_features(
 
 The number of threads per physical core. Can be 1 or 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#threads_per_core GoogleSqlDatabaseInstance#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#threads_per_core GoogleSqlDatabaseInstance#threads_per_core}
 
 ---
 
@@ -15769,7 +18040,7 @@ def put_backup_configuration(
 
 backup_retention_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#backup_retention_settings GoogleSqlDatabaseInstance#backup_retention_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#backup_retention_settings GoogleSqlDatabaseInstance#backup_retention_settings}
 
 ---
 
@@ -15781,7 +18052,7 @@ True if binary logging is enabled.
 
 If settings.backup_configuration.enabled is false, this must be as well. Can only be used with MySQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#binary_log_enabled GoogleSqlDatabaseInstance#binary_log_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#binary_log_enabled GoogleSqlDatabaseInstance#binary_log_enabled}
 
 ---
 
@@ -15791,7 +18062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if backup configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
 
 ---
 
@@ -15801,7 +18072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Location of the backup configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#location GoogleSqlDatabaseInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#location GoogleSqlDatabaseInstance#location}
 
 ---
 
@@ -15811,7 +18082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if Point-in-time recovery is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#point_in_time_recovery_enabled GoogleSqlDatabaseInstance#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#point_in_time_recovery_enabled GoogleSqlDatabaseInstance#point_in_time_recovery_enabled}
 
 ---
 
@@ -15821,7 +18092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 HH:MM format time indicating when backup configuration starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#start_time GoogleSqlDatabaseInstance#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#start_time GoogleSqlDatabaseInstance#start_time}
 
 ---
 
@@ -15833,7 +18104,7 @@ The number of days of transaction logs we retain for point in time restore, from
 
 (For PostgreSQL Enterprise Plus instances, from 1 to 35.)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#transaction_log_retention_days GoogleSqlDatabaseInstance#transaction_log_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#transaction_log_retention_days GoogleSqlDatabaseInstance#transaction_log_retention_days}
 
 ---
 
@@ -15879,7 +18150,7 @@ def put_data_cache_config(
 
 Whether data cache is enabled for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#data_cache_enabled GoogleSqlDatabaseInstance#data_cache_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#data_cache_enabled GoogleSqlDatabaseInstance#data_cache_enabled}
 
 ---
 
@@ -15901,7 +18172,7 @@ End date before which maintenance will not take place.
 
 The date is in format yyyy-mm-dd i.e., 2020-11-01, or mm-dd, i.e., 11-01
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#end_date GoogleSqlDatabaseInstance#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#end_date GoogleSqlDatabaseInstance#end_date}
 
 ---
 
@@ -15913,7 +18184,7 @@ Start date after which maintenance will not take place.
 
 The date is in format yyyy-mm-dd i.e., 2020-11-01, or mm-dd, i.e., 11-01
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#start_date GoogleSqlDatabaseInstance#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#start_date GoogleSqlDatabaseInstance#start_date}
 
 ---
 
@@ -15925,7 +18196,67 @@ Time in UTC when the "deny maintenance period" starts on start_date and ends on 
 
 The time is in format: HH:mm:SS, i.e., 00:00:00
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#time GoogleSqlDatabaseInstance#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#time GoogleSqlDatabaseInstance#time}
+
+---
+
+##### `put_entraid_config` <a name="put_entraid_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putEntraidConfig"></a>
+
+```python
+def put_entraid_config(
+  application_id: str = None,
+  tenant_id: str = None
+) -> None
+```
+
+###### `application_id`<sup>Optional</sup> <a name="application_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putEntraidConfig.parameter.applicationId"></a>
+
+- *Type:* str
+
+The application ID for the Entra ID configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#application_id GoogleSqlDatabaseInstance#application_id}
+
+---
+
+###### `tenant_id`<sup>Optional</sup> <a name="tenant_id" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putEntraidConfig.parameter.tenantId"></a>
+
+- *Type:* str
+
+The tenant ID for the Entra ID configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#tenant_id GoogleSqlDatabaseInstance#tenant_id}
+
+---
+
+##### `put_final_backup_config` <a name="put_final_backup_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putFinalBackupConfig"></a>
+
+```python
+def put_final_backup_config(
+  enabled: bool | IResolvable = None,
+  retention_days: typing.Union[int, float] = None
+) -> None
+```
+
+###### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putFinalBackupConfig.parameter.enabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+When this parameter is set to true, the final backup is enabled for the instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+
+---
+
+###### `retention_days`<sup>Optional</sup> <a name="retention_days" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putFinalBackupConfig.parameter.retentionDays"></a>
+
+- *Type:* typing.Union[int, float]
+
+The number of days to retain the final backup after the instance deletion.
+
+The valid range is between 1 and 365. For instances managed by BackupDR, the valid range is between 1 day and 99 years. The final backup will be purged at (time_of_instance_deletion + retention_days).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_days GoogleSqlDatabaseInstance#retention_days}
 
 ---
 
@@ -15933,6 +18264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def put_insights_config(
+  enhanced_query_insights_enabled: bool | IResolvable = None,
   query_insights_enabled: bool | IResolvable = None,
   query_plans_per_minute: typing.Union[int, float] = None,
   query_string_length: typing.Union[int, float] = None,
@@ -15941,13 +18273,23 @@ def put_insights_config(
 ) -> None
 ```
 
+###### `enhanced_query_insights_enabled`<sup>Optional</sup> <a name="enhanced_query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putInsightsConfig.parameter.enhancedQueryInsightsEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+True if Enhanced Query Insights feature is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enhanced_query_insights_enabled GoogleSqlDatabaseInstance#enhanced_query_insights_enabled}
+
+---
+
 ###### `query_insights_enabled`<sup>Optional</sup> <a name="query_insights_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putInsightsConfig.parameter.queryInsightsEnabled"></a>
 
 - *Type:* bool | cdktn.IResolvable
 
 True if Query Insights feature is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_insights_enabled GoogleSqlDatabaseInstance#query_insights_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_insights_enabled GoogleSqlDatabaseInstance#query_insights_enabled}
 
 ---
 
@@ -15959,7 +18301,7 @@ Number of query execution plans captured by Insights per minute for all queries 
 
 Between 0 and 20. Default to 5. For Enterprise Plus instances, from 0 to 200.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_plans_per_minute GoogleSqlDatabaseInstance#query_plans_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_plans_per_minute GoogleSqlDatabaseInstance#query_plans_per_minute}
 
 ---
 
@@ -15969,9 +18311,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum query length stored in bytes.
 
-Between 256 and 4500. Default to 1024. For Enterprise Plus instances, from 1 to 1048576.
+Between 256 and 4500. Default to 1024. For Enterprise Plus instances, from 1024 to 100000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#query_string_length GoogleSqlDatabaseInstance#query_string_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#query_string_length GoogleSqlDatabaseInstance#query_string_length}
 
 ---
 
@@ -15981,7 +18323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if Query Insights will record application tags from query when enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_application_tags GoogleSqlDatabaseInstance#record_application_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#record_application_tags GoogleSqlDatabaseInstance#record_application_tags}
 
 ---
 
@@ -15991,7 +18333,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 True if Query Insights will record client address when enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#record_client_address GoogleSqlDatabaseInstance#record_client_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#record_client_address GoogleSqlDatabaseInstance#record_client_address}
 
 ---
 
@@ -16008,6 +18350,7 @@ def put_ip_configuration(
   psc_config: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfig] = None,
   server_ca_mode: str = None,
   server_ca_pool: str = None,
+  server_certificate_rotation_mode: str = None,
   ssl_mode: str = None
 ) -> None
 ```
@@ -16020,7 +18363,7 @@ The name of the allocated ip range for the private ip CloudSQL instance.
 
 For example: "google-managed-services-default". If set, the instance ip will be created in the allocated range. The range name must comply with RFC 1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#allocated_ip_range GoogleSqlDatabaseInstance#allocated_ip_range}
 
 ---
 
@@ -16030,7 +18373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 authorized_networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#authorized_networks GoogleSqlDatabaseInstance#authorized_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#authorized_networks GoogleSqlDatabaseInstance#authorized_networks}
 
 ---
 
@@ -16040,7 +18383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The custom subject alternative names for an instance with "CUSTOMER_MANAGED_CAS_CA" as the "server_ca_mode".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#custom_subject_alternative_names GoogleSqlDatabaseInstance#custom_subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#custom_subject_alternative_names GoogleSqlDatabaseInstance#custom_subject_alternative_names}
 
 ---
 
@@ -16052,7 +18395,7 @@ Whether Google Cloud services such as BigQuery are allowed to access data in thi
 
 SQLSERVER database type is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_private_path_for_google_cloud_services GoogleSqlDatabaseInstance#enable_private_path_for_google_cloud_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_private_path_for_google_cloud_services GoogleSqlDatabaseInstance#enable_private_path_for_google_cloud_services}
 
 ---
 
@@ -16064,7 +18407,7 @@ Whether this Cloud SQL instance should be assigned a public IPV4 address.
 
 At least ipv4_enabled must be enabled or a private_network must be configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ipv4_enabled GoogleSqlDatabaseInstance#ipv4_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ipv4_enabled GoogleSqlDatabaseInstance#ipv4_enabled}
 
 ---
 
@@ -16076,7 +18419,7 @@ The VPC network from which the Cloud SQL instance is accessible for private IP.
 
 For example, projects/myProject/global/networks/default. Specifying a network enables private IP. At least ipv4_enabled must be enabled or a private_network must be configured. This setting can be updated, but it cannot be removed after it is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#private_network GoogleSqlDatabaseInstance#private_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#private_network GoogleSqlDatabaseInstance#private_network}
 
 ---
 
@@ -16086,7 +18429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#psc_config GoogleSqlDatabaseInstance#psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#psc_config GoogleSqlDatabaseInstance#psc_config}
 
 ---
 
@@ -16096,7 +18439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specify how the server certificate's Certificate Authority is hosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#server_ca_mode GoogleSqlDatabaseInstance#server_ca_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_ca_mode GoogleSqlDatabaseInstance#server_ca_mode}
 
 ---
 
@@ -16106,7 +18449,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the server CA pool for an instance with "CUSTOMER_MANAGED_CAS_CA" as the "server_ca_mode".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#server_ca_pool GoogleSqlDatabaseInstance#server_ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_ca_pool GoogleSqlDatabaseInstance#server_ca_pool}
+
+---
+
+###### `server_certificate_rotation_mode`<sup>Optional</sup> <a name="server_certificate_rotation_mode" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putIpConfiguration.parameter.serverCertificateRotationMode"></a>
+
+- *Type:* str
+
+Settings for how the server certificate gets rotated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#server_certificate_rotation_mode GoogleSqlDatabaseInstance#server_certificate_rotation_mode}
 
 ---
 
@@ -16116,7 +18469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specify how SSL connection should be enforced in DB connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#ssl_mode GoogleSqlDatabaseInstance#ssl_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#ssl_mode GoogleSqlDatabaseInstance#ssl_mode}
 
 ---
 
@@ -16136,7 +18489,7 @@ def put_location_preference(
 
 A Google App Engine application whose zone to remain in. Must be in the same region as this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#follow_gae_application GoogleSqlDatabaseInstance#follow_gae_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#follow_gae_application GoogleSqlDatabaseInstance#follow_gae_application}
 
 ---
 
@@ -16146,7 +18499,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The preferred Compute Engine zone for the secondary/failover.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#secondary_zone GoogleSqlDatabaseInstance#secondary_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#secondary_zone GoogleSqlDatabaseInstance#secondary_zone}
 
 ---
 
@@ -16156,7 +18509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The preferred compute engine zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#zone GoogleSqlDatabaseInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#zone GoogleSqlDatabaseInstance#zone}
 
 ---
 
@@ -16176,7 +18529,7 @@ def put_maintenance_window(
 
 Day of week (1-7), starting on Monday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#day GoogleSqlDatabaseInstance#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#day GoogleSqlDatabaseInstance#day}
 
 ---
 
@@ -16186,7 +18539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Hour of day (0-23), ignored if day not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#hour GoogleSqlDatabaseInstance#hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#hour GoogleSqlDatabaseInstance#hour}
 
 ---
 
@@ -16196,7 +18549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Receive updates after one week (canary) or after two weeks (stable) or after five weeks (week5) of notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#update_track GoogleSqlDatabaseInstance#update_track}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#update_track GoogleSqlDatabaseInstance#update_track}
 
 ---
 
@@ -16219,7 +18572,7 @@ def put_password_validation_policy(
 
 Whether the password policy is enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#enable_password_policy GoogleSqlDatabaseInstance#enable_password_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enable_password_policy GoogleSqlDatabaseInstance#enable_password_policy}
 
 ---
 
@@ -16229,7 +18582,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Password complexity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#complexity GoogleSqlDatabaseInstance#complexity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#complexity GoogleSqlDatabaseInstance#complexity}
 
 ---
 
@@ -16239,7 +18592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Disallow username as a part of the password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#disallow_username_substring GoogleSqlDatabaseInstance#disallow_username_substring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disallow_username_substring GoogleSqlDatabaseInstance#disallow_username_substring}
 
 ---
 
@@ -16249,7 +18602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of characters allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#min_length GoogleSqlDatabaseInstance#min_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#min_length GoogleSqlDatabaseInstance#min_length}
 
 ---
 
@@ -16259,7 +18612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum interval after which the password can be changed. This flag is only supported for PostgresSQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#password_change_interval GoogleSqlDatabaseInstance#password_change_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#password_change_interval GoogleSqlDatabaseInstance#password_change_interval}
 
 ---
 
@@ -16269,7 +18622,95 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of previous passwords that cannot be reused.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#reuse_interval GoogleSqlDatabaseInstance#reuse_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#reuse_interval GoogleSqlDatabaseInstance#reuse_interval}
+
+---
+
+##### `put_read_pool_auto_scale_config` <a name="put_read_pool_auto_scale_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig"></a>
+
+```python
+def put_read_pool_auto_scale_config(
+  disable_scale_in: bool | IResolvable = None,
+  enabled: bool | IResolvable = None,
+  max_node_count: typing.Union[int, float] = None,
+  min_node_count: typing.Union[int, float] = None,
+  scale_in_cooldown_seconds: typing.Union[int, float] = None,
+  scale_out_cooldown_seconds: typing.Union[int, float] = None,
+  target_metrics: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics] = None
+) -> None
+```
+
+###### `disable_scale_in`<sup>Optional</sup> <a name="disable_scale_in" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.disableScaleIn"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+True if auto scale in is disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#disable_scale_in GoogleSqlDatabaseInstance#disable_scale_in}
+
+---
+
+###### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.enabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+True if Read Pool Auto Scale is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#enabled GoogleSqlDatabaseInstance#enabled}
+
+---
+
+###### `max_node_count`<sup>Optional</sup> <a name="max_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.maxNodeCount"></a>
+
+- *Type:* typing.Union[int, float]
+
+Maximum number of nodes in the read pool.
+
+If set to lower than current node count, node count will be updated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#max_node_count GoogleSqlDatabaseInstance#max_node_count}
+
+---
+
+###### `min_node_count`<sup>Optional</sup> <a name="min_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.minNodeCount"></a>
+
+- *Type:* typing.Union[int, float]
+
+Minimum number of nodes in the read pool.
+
+If set to higher than current node count, node count will be updated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#min_node_count GoogleSqlDatabaseInstance#min_node_count}
+
+---
+
+###### `scale_in_cooldown_seconds`<sup>Optional</sup> <a name="scale_in_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.scaleInCooldownSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The cooldown period for scale in operations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#scale_in_cooldown_seconds GoogleSqlDatabaseInstance#scale_in_cooldown_seconds}
+
+---
+
+###### `scale_out_cooldown_seconds`<sup>Optional</sup> <a name="scale_out_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.scaleOutCooldownSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The cooldown period for scale out operations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#scale_out_cooldown_seconds GoogleSqlDatabaseInstance#scale_out_cooldown_seconds}
+
+---
+
+###### `target_metrics`<sup>Optional</sup> <a name="target_metrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.putReadPoolAutoScaleConfig.parameter.targetMetrics"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]
+
+target_metrics block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#target_metrics GoogleSqlDatabaseInstance#target_metrics}
 
 ---
 
@@ -16289,7 +18730,7 @@ def put_sql_server_audit_config(
 
 The name of the destination bucket (e.g., gs://mybucket).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#bucket GoogleSqlDatabaseInstance#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#bucket GoogleSqlDatabaseInstance#bucket}
 
 ---
 
@@ -16301,7 +18742,7 @@ How long to keep generated audit files.
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s"..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#retention_interval GoogleSqlDatabaseInstance#retention_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#retention_interval GoogleSqlDatabaseInstance#retention_interval}
 
 ---
 
@@ -16313,7 +18754,7 @@ How often to upload generated audit files.
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance#upload_interval GoogleSqlDatabaseInstance#upload_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance#upload_interval GoogleSqlDatabaseInstance#upload_interval}
 
 ---
 
@@ -16333,6 +18774,12 @@ def reset_active_directory_config() -> None
 
 ```python
 def reset_advanced_machine_features() -> None
+```
+
+##### `reset_auto_upgrade_enabled` <a name="reset_auto_upgrade_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetAutoUpgradeEnabled"></a>
+
+```python
+def reset_auto_upgrade_enabled() -> None
 ```
 
 ##### `reset_availability_type` <a name="reset_availability_type" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetAvailabilityType"></a>
@@ -16363,6 +18810,12 @@ def reset_connection_pool_config() -> None
 
 ```python
 def reset_connector_enforcement() -> None
+```
+
+##### `reset_data_api_access` <a name="reset_data_api_access" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDataApiAccess"></a>
+
+```python
+def reset_data_api_access() -> None
 ```
 
 ##### `reset_database_flags` <a name="reset_database_flags" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetDatabaseFlags"></a>
@@ -16443,6 +18896,18 @@ def reset_enable_dataplex_integration() -> None
 def reset_enable_google_ml_integration() -> None
 ```
 
+##### `reset_entraid_config` <a name="reset_entraid_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetEntraidConfig"></a>
+
+```python
+def reset_entraid_config() -> None
+```
+
+##### `reset_final_backup_config` <a name="reset_final_backup_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetFinalBackupConfig"></a>
+
+```python
+def reset_final_backup_config() -> None
+```
+
 ##### `reset_insights_config` <a name="reset_insights_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetInsightsConfig"></a>
 
 ```python
@@ -16477,6 +18942,12 @@ def reset_password_validation_policy() -> None
 
 ```python
 def reset_pricing_plan() -> None
+```
+
+##### `reset_read_pool_auto_scale_config` <a name="reset_read_pool_auto_scale_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetReadPoolAutoScaleConfig"></a>
+
+```python
+def reset_read_pool_auto_scale_config() -> None
 ```
 
 ##### `reset_retain_backups_on_delete` <a name="reset_retain_backups_on_delete" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.resetRetainBackupsOnDelete"></a>
@@ -16518,21 +18989,26 @@ def reset_user_labels() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataCacheConfig">data_cache_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference">GoogleSqlDatabaseInstanceSettingsDataCacheConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.denyMaintenancePeriod">deny_maintenance_period</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference">GoogleSqlDatabaseInstanceSettingsDenyMaintenancePeriodOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.effectiveAvailabilityType">effective_availability_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.entraidConfig">entraid_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference">GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.finalBackupConfig">final_backup_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference">GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.insightsConfig">insights_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference">GoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.ipConfiguration">ip_configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference">GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.locationPreference">location_preference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference">GoogleSqlDatabaseInstanceSettingsLocationPreferenceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.maintenanceWindow">maintenance_window</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference">GoogleSqlDatabaseInstanceSettingsMaintenanceWindowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.passwordValidationPolicy">password_validation_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference">GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.readPoolAutoScaleConfig">read_pool_auto_scale_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.sqlServerAuditConfig">sql_server_audit_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference">GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.version">version</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.activationPolicyInput">activation_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.activeDirectoryConfigInput">active_directory_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig">GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.advancedMachineFeaturesInput">advanced_machine_features_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures">GoogleSqlDatabaseInstanceSettingsAdvancedMachineFeatures</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.autoUpgradeEnabledInput">auto_upgrade_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.availabilityTypeInput">availability_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.backupConfigurationInput">backup_configuration_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsBackupConfiguration">GoogleSqlDatabaseInstanceSettingsBackupConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.collationInput">collation_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.connectionPoolConfigInput">connection_pool_config_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig">GoogleSqlDatabaseInstanceSettingsConnectionPoolConfig</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.connectorEnforcementInput">connector_enforcement_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataApiAccessInput">data_api_access_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.databaseFlagsInput">database_flags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDatabaseFlags">GoogleSqlDatabaseInstanceSettingsDatabaseFlags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataCacheConfigInput">data_cache_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsDataCacheConfig">GoogleSqlDatabaseInstanceSettingsDataCacheConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataDiskProvisionedIopsInput">data_disk_provisioned_iops_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -16546,21 +19022,26 @@ def reset_user_labels() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.editionInput">edition_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.enableDataplexIntegrationInput">enable_dataplex_integration_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.enableGoogleMlIntegrationInput">enable_google_ml_integration_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.entraidConfigInput">entraid_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.finalBackupConfigInput">final_backup_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.insightsConfigInput">insights_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsInsightsConfig">GoogleSqlDatabaseInstanceSettingsInsightsConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.ipConfigurationInput">ip_configuration_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsIpConfiguration">GoogleSqlDatabaseInstanceSettingsIpConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.locationPreferenceInput">location_preference_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsLocationPreference">GoogleSqlDatabaseInstanceSettingsLocationPreference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.maintenanceWindowInput">maintenance_window_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsMaintenanceWindow">GoogleSqlDatabaseInstanceSettingsMaintenanceWindow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.passwordValidationPolicyInput">password_validation_policy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy">GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.pricingPlanInput">pricing_plan_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.readPoolAutoScaleConfigInput">read_pool_auto_scale_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.retainBackupsOnDeleteInput">retain_backups_on_delete_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.sqlServerAuditConfigInput">sql_server_audit_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig">GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.tierInput">tier_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.timeZoneInput">time_zone_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.userLabelsInput">user_labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.activationPolicy">activation_policy</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.autoUpgradeEnabled">auto_upgrade_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.availabilityType">availability_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.collation">collation</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.connectorEnforcement">connector_enforcement</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataApiAccess">data_api_access</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataDiskProvisionedIops">data_disk_provisioned_iops</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataDiskProvisionedThroughput">data_disk_provisioned_throughput</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -16684,6 +19165,26 @@ effective_availability_type: str
 
 ---
 
+##### `entraid_config`<sup>Required</sup> <a name="entraid_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.entraidConfig"></a>
+
+```python
+entraid_config: GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference">GoogleSqlDatabaseInstanceSettingsEntraidConfigOutputReference</a>
+
+---
+
+##### `final_backup_config`<sup>Required</sup> <a name="final_backup_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.finalBackupConfig"></a>
+
+```python
+final_backup_config: GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference">GoogleSqlDatabaseInstanceSettingsFinalBackupConfigOutputReference</a>
+
+---
+
 ##### `insights_config`<sup>Required</sup> <a name="insights_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.insightsConfig"></a>
 
 ```python
@@ -16731,6 +19232,16 @@ password_validation_policy: GoogleSqlDatabaseInstanceSettingsPasswordValidationP
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference">GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference</a>
+
+---
+
+##### `read_pool_auto_scale_config`<sup>Required</sup> <a name="read_pool_auto_scale_config" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.readPoolAutoScaleConfig"></a>
+
+```python
+read_pool_auto_scale_config: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference</a>
 
 ---
 
@@ -16784,6 +19295,16 @@ advanced_machine_features_input: GoogleSqlDatabaseInstanceSettingsAdvancedMachin
 
 ---
 
+##### `auto_upgrade_enabled_input`<sup>Optional</sup> <a name="auto_upgrade_enabled_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.autoUpgradeEnabledInput"></a>
+
+```python
+auto_upgrade_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `availability_type_input`<sup>Optional</sup> <a name="availability_type_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.availabilityTypeInput"></a>
 
 ```python
@@ -16828,6 +19349,16 @@ connection_pool_config_input: IResolvable | typing.List[GoogleSqlDatabaseInstanc
 
 ```python
 connector_enforcement_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_api_access_input`<sup>Optional</sup> <a name="data_api_access_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataApiAccessInput"></a>
+
+```python
+data_api_access_input: str
 ```
 
 - *Type:* str
@@ -16964,6 +19495,26 @@ enable_google_ml_integration_input: bool | IResolvable
 
 ---
 
+##### `entraid_config_input`<sup>Optional</sup> <a name="entraid_config_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.entraidConfigInput"></a>
+
+```python
+entraid_config_input: GoogleSqlDatabaseInstanceSettingsEntraidConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsEntraidConfig">GoogleSqlDatabaseInstanceSettingsEntraidConfig</a>
+
+---
+
+##### `final_backup_config_input`<sup>Optional</sup> <a name="final_backup_config_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.finalBackupConfigInput"></a>
+
+```python
+final_backup_config_input: GoogleSqlDatabaseInstanceSettingsFinalBackupConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsFinalBackupConfig">GoogleSqlDatabaseInstanceSettingsFinalBackupConfig</a>
+
+---
+
 ##### `insights_config_input`<sup>Optional</sup> <a name="insights_config_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.insightsConfigInput"></a>
 
 ```python
@@ -17021,6 +19572,16 @@ pricing_plan_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `read_pool_auto_scale_config_input`<sup>Optional</sup> <a name="read_pool_auto_scale_config_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.readPoolAutoScaleConfigInput"></a>
+
+```python
+read_pool_auto_scale_config_input: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a>
 
 ---
 
@@ -17084,6 +19645,16 @@ activation_policy: str
 
 ---
 
+##### `auto_upgrade_enabled`<sup>Required</sup> <a name="auto_upgrade_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.autoUpgradeEnabled"></a>
+
+```python
+auto_upgrade_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
 ##### `availability_type`<sup>Required</sup> <a name="availability_type" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.availabilityType"></a>
 
 ```python
@@ -17108,6 +19679,16 @@ collation: str
 
 ```python
 connector_enforcement: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_api_access`<sup>Required</sup> <a name="data_api_access" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsOutputReference.property.dataApiAccess"></a>
+
+```python
+data_api_access: str
 ```
 
 - *Type:* str
@@ -17712,6 +20293,1020 @@ internal_value: GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy">GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy</a>
+
+---
+
+
+### GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference <a name="GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.putTargetMetrics">put_target_metrics</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetDisableScaleIn">reset_disable_scale_in</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetEnabled">reset_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetMaxNodeCount">reset_max_node_count</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetMinNodeCount">reset_min_node_count</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetScaleInCooldownSeconds">reset_scale_in_cooldown_seconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetScaleOutCooldownSeconds">reset_scale_out_cooldown_seconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetTargetMetrics">reset_target_metrics</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_target_metrics` <a name="put_target_metrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.putTargetMetrics"></a>
+
+```python
+def put_target_metrics(
+  value: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.putTargetMetrics.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]
+
+---
+
+##### `reset_disable_scale_in` <a name="reset_disable_scale_in" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetDisableScaleIn"></a>
+
+```python
+def reset_disable_scale_in() -> None
+```
+
+##### `reset_enabled` <a name="reset_enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetEnabled"></a>
+
+```python
+def reset_enabled() -> None
+```
+
+##### `reset_max_node_count` <a name="reset_max_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetMaxNodeCount"></a>
+
+```python
+def reset_max_node_count() -> None
+```
+
+##### `reset_min_node_count` <a name="reset_min_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetMinNodeCount"></a>
+
+```python
+def reset_min_node_count() -> None
+```
+
+##### `reset_scale_in_cooldown_seconds` <a name="reset_scale_in_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetScaleInCooldownSeconds"></a>
+
+```python
+def reset_scale_in_cooldown_seconds() -> None
+```
+
+##### `reset_scale_out_cooldown_seconds` <a name="reset_scale_out_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetScaleOutCooldownSeconds"></a>
+
+```python
+def reset_scale_out_cooldown_seconds() -> None
+```
+
+##### `reset_target_metrics` <a name="reset_target_metrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.resetTargetMetrics"></a>
+
+```python
+def reset_target_metrics() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.targetMetrics">target_metrics</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.disableScaleInInput">disable_scale_in_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.maxNodeCountInput">max_node_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.minNodeCountInput">min_node_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleInCooldownSecondsInput">scale_in_cooldown_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleOutCooldownSecondsInput">scale_out_cooldown_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.targetMetricsInput">target_metrics_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.disableScaleIn">disable_scale_in</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.maxNodeCount">max_node_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.minNodeCount">min_node_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleInCooldownSeconds">scale_in_cooldown_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleOutCooldownSeconds">scale_out_cooldown_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_metrics`<sup>Required</sup> <a name="target_metrics" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.targetMetrics"></a>
+
+```python
+target_metrics: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList</a>
+
+---
+
+##### `disable_scale_in_input`<sup>Optional</sup> <a name="disable_scale_in_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.disableScaleInInput"></a>
+
+```python
+disable_scale_in_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.enabledInput"></a>
+
+```python
+enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `max_node_count_input`<sup>Optional</sup> <a name="max_node_count_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.maxNodeCountInput"></a>
+
+```python
+max_node_count_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `min_node_count_input`<sup>Optional</sup> <a name="min_node_count_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.minNodeCountInput"></a>
+
+```python
+min_node_count_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `scale_in_cooldown_seconds_input`<sup>Optional</sup> <a name="scale_in_cooldown_seconds_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleInCooldownSecondsInput"></a>
+
+```python
+scale_in_cooldown_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `scale_out_cooldown_seconds_input`<sup>Optional</sup> <a name="scale_out_cooldown_seconds_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleOutCooldownSecondsInput"></a>
+
+```python
+scale_out_cooldown_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `target_metrics_input`<sup>Optional</sup> <a name="target_metrics_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.targetMetricsInput"></a>
+
+```python
+target_metrics_input: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]
+
+---
+
+##### `disable_scale_in`<sup>Required</sup> <a name="disable_scale_in" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.disableScaleIn"></a>
+
+```python
+disable_scale_in: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `max_node_count`<sup>Required</sup> <a name="max_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.maxNodeCount"></a>
+
+```python
+max_node_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `min_node_count`<sup>Required</sup> <a name="min_node_count" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.minNodeCount"></a>
+
+```python
+min_node_count: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `scale_in_cooldown_seconds`<sup>Required</sup> <a name="scale_in_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleInCooldownSeconds"></a>
+
+```python
+scale_in_cooldown_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `scale_out_cooldown_seconds`<sup>Required</sup> <a name="scale_out_cooldown_seconds" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.scaleOutCooldownSeconds"></a>
+
+```python
+scale_out_cooldown_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig</a>
+
+---
+
+
+### GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList <a name="GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>]
+
+---
+
+
+### GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference <a name="GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_sql_database_instance
+
+googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resetMetric">reset_metric</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resetTargetValue">reset_target_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_metric` <a name="reset_metric" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resetMetric"></a>
+
+```python
+def reset_metric() -> None
+```
+
+##### `reset_target_value` <a name="reset_target_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.resetTargetValue"></a>
+
+```python
+def reset_target_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.metricInput">metric_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.targetValueInput">target_value_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.metric">metric</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.targetValue">target_value</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_input`<sup>Optional</sup> <a name="metric_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.metricInput"></a>
+
+```python
+metric_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_value_input`<sup>Optional</sup> <a name="target_value_input" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.targetValueInput"></a>
+
+```python
+target_value_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `metric`<sup>Required</sup> <a name="metric" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.metric"></a>
+
+```python
+metric: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_value`<sup>Required</sup> <a name="target_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.targetValue"></a>
+
+```python
+target_value: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetricsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics">GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigTargetMetrics</a>
 
 ---
 

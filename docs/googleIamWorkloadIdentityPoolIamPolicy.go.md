@@ -4,12 +4,12 @@
 
 ### GoogleIamWorkloadIdentityPoolIamPolicy <a name="GoogleIamWorkloadIdentityPoolIamPolicy" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy google_iam_workload_identity_pool_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.NewGoogleIamWorkloadIdentityPoolIamPolicy(scope Construct, id *string, config GoogleIamWorkloadIdentityPoolIamPolicyConfig) GoogleIamWorkloadIdentityPoolIamPolicy
 ```
@@ -414,7 +414,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the GoogleIamWorkloadIdentityP
 
 The id of the existing GoogleIamWorkloadIdentityPoolIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypooliampolicy"
 
 &googleiamworkloadidentitypooliampolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig {
 	Connection: interface{},
@@ -830,10 +830,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#policy_data GoogleIamWorkloadIdentityPoolIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.workloadIdentityPoolId">WorkloadIdentityPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamPolicy#workload_identity_pool_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#id GoogleIamWorkloadIdentityPoolIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#project GoogleIamWorkloadIdentityPoolIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#policy_data GoogleIamWorkloadIdentityPoolIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.workloadIdentityPoolId">WorkloadIdentityPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamPolicy#workload_identity_pool_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#id GoogleIamWorkloadIdentityPoolIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamPolicy.GoogleIamWorkloadIdentityPoolIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#project GoogleIamWorkloadIdentityPoolIamPolicy#project}. |
 
 ---
 
@@ -915,7 +915,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#policy_data GoogleIamWorkloadIdentityPoolIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#policy_data GoogleIamWorkloadIdentityPoolIamPolicy#policy_data}.
 
 ---
 
@@ -927,7 +927,7 @@ WorkloadIdentityPoolId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamPolicy#workload_identity_pool_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamPolicy#workload_identity_pool_id}.
 
 ---
 
@@ -939,7 +939,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#id GoogleIamWorkloadIdentityPoolIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#id GoogleIamWorkloadIdentityPoolIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -954,7 +954,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_policy#project GoogleIamWorkloadIdentityPoolIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_iam_policy#project GoogleIamWorkloadIdentityPoolIamPolicy#project}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### GoogleCloudRunService <a name="GoogleCloudRunService" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service google_cloud_run_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service google_cloud_run_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunService(scope Construct, id *string, config GoogleCloudRunServiceConfig) GoogleCloudRunService
 ```
@@ -501,7 +501,7 @@ func ResetTraffic()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.GoogleCloudRunService_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.GoogleCloudRunService_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlecloudrunservice.GoogleCloudRunService_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.GoogleCloudRunService_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlecloudrunservice.GoogleCloudRunService_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.GoogleCloudRunService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the GoogleCloudRunService to i
 
 The id of the existing GoogleCloudRunService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceConfig {
 	Connection: interface{},
@@ -1013,10 +1013,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 	Name: *string,
 	AutogenerateRevisionName: interface{},
 	Id: *string,
-	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceMetadata,
+	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceMetadata,
 	Project: *string,
-	Template: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplate,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTimeouts,
+	Template: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplate,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTimeouts,
 	Traffic: interface{},
 }
 ```
@@ -1035,9 +1035,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.location">Location</a></code> | <code>*string</code> | The location of the cloud run instance. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.name">Name</a></code> | <code>*string</code> | Name must be unique within a Google Cloud project and region. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.autogenerateRevisionName">AutogenerateRevisionName</a></code> | <code>interface{}</code> | If set to 'true', the revision name (template.metadata.name) will be omitted and autogenerated by Cloud Run. This cannot be set to 'true' while 'template.metadata.name' is also set. (For legacy support, if 'template.metadata.name' is unset in state while this field is set to false, the revision name will still autogenerate.). |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.metadata">Metadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceMetadata">GoogleCloudRunServiceMetadata</a></code> | metadata block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.template">Template</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplate">GoogleCloudRunServiceTemplate</a></code> | template block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts">GoogleCloudRunServiceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceConfig.property.traffic">Traffic</a></code> | <code>interface{}</code> | traffic block. |
@@ -1124,7 +1124,7 @@ Location *string
 
 The location of the cloud run instance. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
 
 ---
 
@@ -1142,7 +1142,7 @@ Is required when creating resources. Name is primarily intended
 for creation idempotence and configuration definition. Cannot be updated.
 More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -1156,7 +1156,7 @@ AutogenerateRevisionName interface{}
 
 If set to 'true', the revision name (template.metadata.name) will be omitted and autogenerated by Cloud Run. This cannot be set to 'true' while 'template.metadata.name' is also set. (For legacy support, if 'template.metadata.name' is unset in state while this field is set to false, the revision name will still autogenerate.).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
 
 ---
 
@@ -1168,7 +1168,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1185,7 +1185,7 @@ Metadata GoogleCloudRunServiceMetadata
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
 
 ---
 
@@ -1197,7 +1197,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}.
 
 ---
 
@@ -1211,7 +1211,7 @@ Template GoogleCloudRunServiceTemplate
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
 
 ---
 
@@ -1225,7 +1225,7 @@ Timeouts GoogleCloudRunServiceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
 
 ---
 
@@ -1239,7 +1239,7 @@ Traffic interface{}
 
 traffic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
 
 ---
 
@@ -1248,7 +1248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceMetadata {
 	Annotations: *map[string]*string,
@@ -1303,7 +1303,7 @@ keys to configure features on a Service:
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
 
 ---
 
@@ -1323,7 +1323,7 @@ and routes.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
 
 ---
 
@@ -1337,7 +1337,7 @@ Namespace *string
 
 In Cloud Run the namespace must be equal to either the project ID or project number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
 
 ---
 
@@ -1346,7 +1346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceStatus {
 
@@ -1359,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceStatusConditions {
 
@@ -1372,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusTraffic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceStatusTraffic {
 
@@ -1385,11 +1385,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplate {
-	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateMetadata,
-	Spec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpec,
+	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateMetadata,
+	Spec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpec,
 }
 ```
 
@@ -1412,7 +1412,7 @@ Metadata GoogleCloudRunServiceTemplateMetadata
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
 
 ---
 
@@ -1426,7 +1426,7 @@ Spec GoogleCloudRunServiceTemplateSpec
 
 spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateMetadata {
 	Annotations: *map[string]*string,
@@ -1509,8 +1509,9 @@ keys to configure features on a Revision template:
   See https://cloud.google.com/sdk/gcloud/reference/run/deploy#--vpc-egress.
 * 'run.googleapis.com/gpu-zonal-redundancy-disabled' sets
   [GPU zonal redundancy](https://cloud.google.com/run/docs/configuring/services/gpu-zonal-redundancy) for the Revision.
+* 'run.googleapis.com/health-check-disabled' disabled health checking containers during deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
 
 ---
 
@@ -1524,7 +1525,7 @@ Labels *map[string]*string
 
 Map of string keys and values that can be used to organize and categorize (scope and select) objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
 
 ---
 
@@ -1541,7 +1542,7 @@ Name must be unique within a Google Cloud project and region.
 Is required when creating resources. Name is primarily intended
 for creation idempotence and configuration definition. Cannot be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -1557,7 +1558,7 @@ In Cloud Run the namespace must be equal to either the project ID or project num
 
 It will default to the resource's project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
 
 ---
 
@@ -1566,7 +1567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpec {
 	ContainerConcurrency: *f64,
@@ -1604,7 +1605,7 @@ ContainerConcurrency specifies the maximum allowed in-flight (concurrent) reques
 If not specified or 0, defaults to 80 when
 requested CPU >= 1 and defaults to 1 when requested CPU < 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
 
 ---
 
@@ -1618,7 +1619,7 @@ Containers interface{}
 
 containers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
 
 ---
 
@@ -1636,7 +1637,7 @@ Use the following node selector keys to configure features on a Revision:
 
 * 'run.googleapis.com/accelerator' sets the [type of GPU](https://cloud.google.com/run/docs/configuring/services/gpu) required by the Revision to run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
 
 ---
 
@@ -1654,7 +1655,7 @@ The service account represents the identity of the running revision,
 and determines what permissions the revision has. If not provided, the revision
 will use the project's default service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
 
 ---
 
@@ -1668,7 +1669,7 @@ TimeoutSeconds *f64
 
 TimeoutSeconds holds the max duration the instance is allowed for responding to a request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
 
 ---
 
@@ -1682,7 +1683,7 @@ Volumes interface{}
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
 
 ---
 
@@ -1691,7 +1692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainers {
 	Image: *string,
@@ -1699,11 +1700,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 	Command: *[]*string,
 	Env: interface{},
 	EnvFrom: interface{},
-	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe,
+	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe,
 	Name: *string,
 	Ports: interface{},
-	Resources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResources,
-	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbe,
+	ReadinessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe,
+	Resources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResources,
+	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbe,
 	VolumeMounts: interface{},
 	WorkingDir: *string,
 }
@@ -1721,6 +1723,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.livenessProbe">LivenessProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe">GoogleCloudRunServiceTemplateSpecContainersLivenessProbe</a></code> | liveness_probe block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.name">Name</a></code> | <code>*string</code> | Name of the container. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.ports">Ports</a></code> | <code>interface{}</code> | ports block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.readinessProbe">ReadinessProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a></code> | readiness_probe block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.resources">Resources</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResources">GoogleCloudRunServiceTemplateSpecContainersResources</a></code> | resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.startupProbe">StartupProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbe">GoogleCloudRunServiceTemplateSpecContainersStartupProbe</a></code> | startup_probe block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.volumeMounts">VolumeMounts</a></code> | <code>interface{}</code> | volume_mounts block. |
@@ -1738,7 +1741,7 @@ Image *string
 
 Docker image name. This is most often a reference to a container located in the container registry, such as gcr.io/cloudrun/hello.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
 
 ---
 
@@ -1752,7 +1755,7 @@ Args *[]*string
 
 Arguments to the entrypoint. The docker image's CMD is used if this is not provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
 
 ---
 
@@ -1766,7 +1769,7 @@ Command *[]*string
 
 Entrypoint array. Not executed within a shell. The docker image's ENTRYPOINT is used if this is not provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
 
 ---
 
@@ -1780,7 +1783,7 @@ Env interface{}
 
 env block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
 
 ---
 
@@ -1794,7 +1797,7 @@ EnvFrom interface{}
 
 env_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
 
 ---
 
@@ -1808,7 +1811,7 @@ LivenessProbe GoogleCloudRunServiceTemplateSpecContainersLivenessProbe
 
 liveness_probe block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
 
 ---
 
@@ -1822,7 +1825,7 @@ Name *string
 
 Name of the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -1836,7 +1839,21 @@ Ports interface{}
 
 ports block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
+
+---
+
+##### `ReadinessProbe`<sup>Optional</sup> <a name="ReadinessProbe" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainers.property.readinessProbe"></a>
+
+```go
+ReadinessProbe GoogleCloudRunServiceTemplateSpecContainersReadinessProbe
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a>
+
+readiness_probe block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#readiness_probe GoogleCloudRunService#readiness_probe}
 
 ---
 
@@ -1850,7 +1867,7 @@ Resources GoogleCloudRunServiceTemplateSpecContainersResources
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
 
 ---
 
@@ -1864,7 +1881,7 @@ StartupProbe GoogleCloudRunServiceTemplateSpecContainersStartupProbe
 
 startup_probe block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
 
 ---
 
@@ -1878,7 +1895,7 @@ VolumeMounts interface{}
 
 volume_mounts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
 
 ---
 
@@ -1892,7 +1909,7 @@ WorkingDir *string
 
 Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
 
 ---
 
@@ -1901,12 +1918,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnv {
 	Name: *string,
 	Value: *string,
-	ValueFrom: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom,
+	ValueFrom: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom,
 }
 ```
 
@@ -1930,7 +1947,7 @@ Name *string
 
 Name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -1944,7 +1961,7 @@ Value *string
 
 Defaults to "".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
 
 ---
 
@@ -1958,7 +1975,7 @@ ValueFrom GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom
 
 value_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
 
 ---
 
@@ -1967,12 +1984,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvFrom {
-	ConfigMapRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef,
+	ConfigMapRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef,
 	Prefix: *string,
-	SecretRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef,
+	SecretRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef,
 }
 ```
 
@@ -1996,7 +2013,7 @@ ConfigMapRef GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef
 
 config_map_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
 
 ---
 
@@ -2010,7 +2027,7 @@ Prefix *string
 
 An optional identifier to prepend to each key in the ConfigMap.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
 
 ---
 
@@ -2024,7 +2041,7 @@ SecretRef GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef
 
 secret_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
 
 ---
 
@@ -2033,10 +2050,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef {
-	LocalObjectReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference,
+	LocalObjectReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference,
 	Optional: interface{},
 }
 ```
@@ -2060,7 +2077,7 @@ LocalObjectReference GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMap
 
 local_object_reference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
 
 ---
 
@@ -2074,7 +2091,7 @@ Optional interface{}
 
 Specify whether the ConfigMap must be defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
 
 ---
 
@@ -2083,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference {
 	Name: *string,
@@ -2108,7 +2125,7 @@ Name *string
 
 Name of the referent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -2117,10 +2134,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef {
-	LocalObjectReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference,
+	LocalObjectReference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference,
 	Optional: interface{},
 }
 ```
@@ -2144,7 +2161,7 @@ LocalObjectReference GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef
 
 local_object_reference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
 
 ---
 
@@ -2158,7 +2175,7 @@ Optional interface{}
 
 Specify whether the Secret must be defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
 
 ---
 
@@ -2167,7 +2184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference {
 	Name: *string,
@@ -2192,7 +2209,7 @@ Name *string
 
 Name of the referent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -2201,10 +2218,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom {
-	SecretKeyRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef,
+	SecretKeyRef: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef,
 }
 ```
 
@@ -2226,7 +2243,7 @@ SecretKeyRef GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef
 
 secret_key_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
 
 ---
 
@@ -2235,7 +2252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef {
 	Key: *string,
@@ -2262,7 +2279,7 @@ Key *string
 
 A Cloud Secret Manager secret version. Must be 'latest' for the latest version or an integer for a specific version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
 
 ---
 
@@ -2283,7 +2300,7 @@ An alias definition has the form:
 If multiple alias definitions are needed, they must be separated by commas.
 The alias definitions must be set on the run.googleapis.com/secrets annotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -2292,12 +2309,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
 	TimeoutSeconds: *f64,
@@ -2327,7 +2344,7 @@ FailureThreshold *f64
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
 
 ---
 
@@ -2341,7 +2358,7 @@ Grpc GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
 
 ---
 
@@ -2355,7 +2372,7 @@ HttpGet GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
 
 ---
 
@@ -2371,7 +2388,7 @@ Number of seconds after the container has started before the probe is initiated.
 
 Defaults to 0 seconds. Minimum value is 0. Maximum value is 3600.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
 
 ---
 
@@ -2385,7 +2402,7 @@ PeriodSeconds *f64
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value is 3600.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
 
 ---
 
@@ -2402,7 +2419,7 @@ Number of seconds after which the probe times out.
 Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
 Must be smaller than period_seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
 
 ---
 
@@ -2411,7 +2428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
 	Port: *f64,
@@ -2441,7 +2458,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -2455,7 +2472,7 @@ Service *string
 
 The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
 
 ---
 
@@ -2464,7 +2481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet {
 	HttpHeaders: interface{},
@@ -2493,7 +2510,7 @@ HttpHeaders interface{}
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
 
 ---
 
@@ -2507,7 +2524,7 @@ Path *string
 
 Path to access on the HTTP server. If set, it should not be empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
 
 ---
 
@@ -2524,7 +2541,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -2533,7 +2550,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders {
 	Name: *string,
@@ -2560,7 +2577,7 @@ Name *string
 
 The header field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -2574,7 +2591,7 @@ Value *string
 
 The header field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
 
 ---
 
@@ -2583,7 +2600,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersPorts {
 	ContainerPort: *f64,
@@ -2614,7 +2631,7 @@ Port number the container listens on.
 
 This must be a valid port number (between 1 and 65535). Defaults to "8080".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
 
 ---
 
@@ -2630,7 +2647,7 @@ If specified, used to specify which protocol to use.
 
 Allowed values are "http1" (HTTP/1) and "h2c" (HTTP/2 end-to-end). Defaults to "http1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -2644,7 +2661,227 @@ Protocol *string
 
 Protocol for port. Must be "TCP". Defaults to "TCP".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
+
+---
+
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbe <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbe" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+&googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe {
+	FailureThreshold: *f64,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet,
+	PeriodSeconds: *f64,
+	SuccessThreshold: *f64,
+	TimeoutSeconds: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.failureThreshold">FailureThreshold</a></code> | <code>*f64</code> | Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.grpc">Grpc</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a></code> | grpc block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.httpGet">HttpGet</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a></code> | http_get block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.periodSeconds">PeriodSeconds</a></code> | <code>*f64</code> | How often (in seconds) to perform the probe. Default to 10 seconds. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.successThreshold">SuccessThreshold</a></code> | <code>*f64</code> | Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 2. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.timeoutSeconds">TimeoutSeconds</a></code> | <code>*f64</code> | Number of seconds after which the probe times out. Defaults to 1 second. Must be smaller than period_seconds. |
+
+---
+
+##### `FailureThreshold`<sup>Optional</sup> <a name="FailureThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.failureThreshold"></a>
+
+```go
+FailureThreshold *f64
+```
+
+- *Type:* *f64
+
+Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+
+---
+
+##### `Grpc`<sup>Optional</sup> <a name="Grpc" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.grpc"></a>
+
+```go
+Grpc GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a>
+
+grpc block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+
+---
+
+##### `HttpGet`<sup>Optional</sup> <a name="HttpGet" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.httpGet"></a>
+
+```go
+HttpGet GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a>
+
+http_get block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+
+---
+
+##### `PeriodSeconds`<sup>Optional</sup> <a name="PeriodSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.periodSeconds"></a>
+
+```go
+PeriodSeconds *f64
+```
+
+- *Type:* *f64
+
+How often (in seconds) to perform the probe. Default to 10 seconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+
+---
+
+##### `SuccessThreshold`<sup>Optional</sup> <a name="SuccessThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.successThreshold"></a>
+
+```go
+SuccessThreshold *f64
+```
+
+- *Type:* *f64
+
+Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 2.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#success_threshold GoogleCloudRunService#success_threshold}
+
+---
+
+##### `TimeoutSeconds`<sup>Optional</sup> <a name="TimeoutSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe.property.timeoutSeconds"></a>
+
+```go
+TimeoutSeconds *f64
+```
+
+- *Type:* *f64
+
+Number of seconds after which the probe times out. Defaults to 1 second. Must be smaller than period_seconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+
+---
+
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+&googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc {
+	Port: *f64,
+	Service: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc.property.port">Port</a></code> | <code>*f64</code> | Port number to access on the container. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc.property.service">Service</a></code> | <code>*string</code> | The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC. |
+
+---
+
+##### `Port`<sup>Optional</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc.property.port"></a>
+
+```go
+Port *f64
+```
+
+- *Type:* *f64
+
+Port number to access on the container.
+
+Number must be in the range 1 to 65535.
+If not specified, defaults to the same value as container.ports[0].containerPort.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+
+---
+
+##### `Service`<sup>Optional</sup> <a name="Service" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc.property.service"></a>
+
+```go
+Service *string
+```
+
+- *Type:* *string
+
+The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+
+---
+
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+&googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet {
+	Path: *string,
+	Port: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet.property.path">Path</a></code> | <code>*string</code> | Path to access on the HTTP server. If set, it should not be empty string. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet.property.port">Port</a></code> | <code>*f64</code> | Port number to access on the container. |
+
+---
+
+##### `Path`<sup>Optional</sup> <a name="Path" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet.property.path"></a>
+
+```go
+Path *string
+```
+
+- *Type:* *string
+
+Path to access on the HTTP server. If set, it should not be empty string.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+
+---
+
+##### `Port`<sup>Optional</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet.property.port"></a>
+
+```go
+Port *f64
+```
+
+- *Type:* *f64
+
+Port number to access on the container.
+
+Number must be in the range 1 to 65535.
+If not specified, defaults to the same value as container.ports[0].containerPort.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -2653,7 +2890,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersResources {
 	Limits: *map[string]*string,
@@ -2680,10 +2917,15 @@ Limits *map[string]*string
 
 Limits describes the maximum amount of compute resources allowed.
 
-The values of the map is string form of the 'quantity' k8s type:
-https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
+CPU Limit details:
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
+* For fractional CPU values (e.g. '0.5', '0.75', min '0.08') are also supported.
+* CPU allocation must comply with memory limits and concurrency rules described in:
+  https://cloud.google.com/run/docs/configuring/services/cpu
+  The values of the map is string form of the 'quantity' k8s type:
+  https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
 
 ---
 
@@ -2702,7 +2944,7 @@ explicitly specified, otherwise to an implementation-defined value.
 The values of the map is string form of the 'quantity' k8s type:
 https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
 
 ---
 
@@ -2711,15 +2953,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -2748,7 +2990,7 @@ FailureThreshold *f64
 
 Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
 
 ---
 
@@ -2762,7 +3004,7 @@ Grpc GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc
 
 grpc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
 
 ---
 
@@ -2776,7 +3018,7 @@ HttpGet GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet
 
 http_get block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
 
 ---
 
@@ -2792,7 +3034,7 @@ Number of seconds after the container has started before the probe is initiated.
 
 Defaults to 0 seconds. Minimum value is 0. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
 
 ---
 
@@ -2806,7 +3048,7 @@ PeriodSeconds *f64
 
 How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value is 240.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
 
 ---
 
@@ -2820,7 +3062,7 @@ TcpSocket GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket
 
 tcp_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
 
 ---
 
@@ -2837,7 +3079,7 @@ Number of seconds after which the probe times out.
 Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
 Must be smaller than periodSeconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
 
 ---
 
@@ -2846,7 +3088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
 	Port: *f64,
@@ -2876,7 +3118,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -2890,7 +3132,7 @@ Service *string
 
 The name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
 
 ---
 
@@ -2899,7 +3141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet {
 	HttpHeaders: interface{},
@@ -2928,7 +3170,7 @@ HttpHeaders interface{}
 
 http_headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
 
 ---
 
@@ -2942,7 +3184,7 @@ Path *string
 
 Path to access on the HTTP server. If set, it should not be empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
 
 ---
 
@@ -2959,7 +3201,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -2968,7 +3210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders {
 	Name: *string,
@@ -2995,7 +3237,7 @@ Name *string
 
 The header field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -3009,7 +3251,7 @@ Value *string
 
 The header field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
 
 ---
 
@@ -3018,7 +3260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket {
 	Port: *f64,
@@ -3046,7 +3288,7 @@ Port number to access on the container.
 Number must be in the range 1 to 65535.
 If not specified, defaults to the same value as container.ports[0].containerPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
 
 ---
 
@@ -3055,11 +3297,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts {
 	MountPath: *string,
 	Name: *string,
+	SubPath: *string,
 }
 ```
 
@@ -3069,6 +3312,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts.property.mountPath">MountPath</a></code> | <code>*string</code> | Path within the container at which the volume should be mounted.  Must not contain ':'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts.property.name">Name</a></code> | <code>*string</code> | This must match the Name of a Volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts.property.subPath">SubPath</a></code> | <code>*string</code> | Path within the volume from which the container's volume should be mounted. |
 
 ---
 
@@ -3082,7 +3326,7 @@ MountPath *string
 
 Path within the container at which the volume should be mounted.  Must not contain ':'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
 
 ---
 
@@ -3096,7 +3340,21 @@ Name *string
 
 This must match the Name of a Volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+
+---
+
+##### `SubPath`<sup>Optional</sup> <a name="SubPath" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMounts.property.subPath"></a>
+
+```go
+SubPath *string
+```
+
+- *Type:* *string
+
+Path within the volume from which the container's volume should be mounted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#sub_path GoogleCloudRunService#sub_path}
 
 ---
 
@@ -3105,14 +3363,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumes {
 	Name: *string,
-	Csi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesCsi,
-	EmptyDir: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesEmptyDir,
-	Nfs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesNfs,
-	Secret: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecret,
+	Csi: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesCsi,
+	EmptyDir: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesEmptyDir,
+	Nfs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesNfs,
+	Secret: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecret,
 }
 ```
 
@@ -3138,7 +3396,7 @@ Name *string
 
 Volume's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
 
 ---
 
@@ -3152,7 +3410,7 @@ Csi GoogleCloudRunServiceTemplateSpecVolumesCsi
 
 csi block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
 
 ---
 
@@ -3166,7 +3424,7 @@ EmptyDir GoogleCloudRunServiceTemplateSpecVolumesEmptyDir
 
 empty_dir block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
 
 ---
 
@@ -3180,7 +3438,7 @@ Nfs GoogleCloudRunServiceTemplateSpecVolumesNfs
 
 nfs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
 
 ---
 
@@ -3194,7 +3452,7 @@ Secret GoogleCloudRunServiceTemplateSpecVolumesSecret
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
 
 ---
 
@@ -3203,7 +3461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesCsi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumesCsi {
 	Driver: *string,
@@ -3237,7 +3495,7 @@ Cloud Run supports the following values:
 * gcsfuse.run.googleapis.com: Mount a Google Cloud Storage bucket using GCSFuse. This driver requires the
   run.googleapis.com/execution-environment annotation to be unset or set to "gen2"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
 
 ---
 
@@ -3251,7 +3509,7 @@ ReadOnly interface{}
 
 If true, all mounts created from this volume will be read-only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
 
 ---
 
@@ -3271,7 +3529,7 @@ The following options are supported for available drivers:
 
   * bucketName: The name of the Cloud Storage Bucket that backs this volume. The Cloud Run Service identity must have access to this bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
 
 ---
 
@@ -3280,7 +3538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesEmptyDir.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumesEmptyDir {
 	Medium: *string,
@@ -3309,7 +3567,7 @@ The medium on which the data is stored.
 
 The default is "" which means to use the node's default medium. Must be an empty string (default) or Memory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
 
 ---
 
@@ -3325,7 +3583,7 @@ Limit on the storage usable by this EmptyDir volume.
 
 The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
 
 ---
 
@@ -3334,7 +3592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesNfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumesNfs {
 	Path: *string,
@@ -3363,7 +3621,7 @@ Path *string
 
 Path exported by the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
 
 ---
 
@@ -3377,7 +3635,7 @@ Server *string
 
 IP address or hostname of the NFS server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
 
 ---
 
@@ -3391,7 +3649,7 @@ ReadOnly interface{}
 
 If true, mount the NFS volume as read only in all mounts. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
 
 ---
 
@@ -3400,7 +3658,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumesSecret {
 	SecretName: *string,
@@ -3439,7 +3697,7 @@ commas.
 The alias definitions must be set on the run.googleapis.com/secrets
 annotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
 
 ---
 
@@ -3458,7 +3716,7 @@ and 0777. Defaults to 0644. Directories within the path are not affected by
 this setting. This might be in conflict with other options that affect the
 file mode, like fsGroup, and the result can be other mode bits set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
 
 ---
 
@@ -3472,7 +3730,7 @@ Items interface{}
 
 items block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
 
 ---
 
@@ -3481,7 +3739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecretItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
 	Key: *string,
@@ -3510,7 +3768,7 @@ Key *string
 
 The Cloud Secret Manager secret version. Can be 'latest' for the latest value or an integer for a specific version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
 
 ---
 
@@ -3528,7 +3786,7 @@ May not be an absolute path.
 May not contain the path element '..'.
 May not start with the string '..'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
 
 ---
 
@@ -3547,7 +3805,7 @@ not specified, the volume defaultMode will be used. This might be in
 conflict with other options that affect the file mode, like fsGroup, and
 the result can be other mode bits set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
 
 ---
 
@@ -3556,7 +3814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTimeouts {
 	Create: *string,
@@ -3569,9 +3827,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}. |
 
 ---
 
@@ -3583,7 +3841,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}.
 
 ---
 
@@ -3595,7 +3853,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}.
 
 ---
 
@@ -3607,7 +3865,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}.
 
 ---
 
@@ -3616,7 +3874,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTraffic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 &googlecloudrunservice.GoogleCloudRunServiceTraffic {
 	Percent: *f64,
@@ -3647,7 +3905,7 @@ Percent *f64
 
 Percent specifies percent of the traffic to this Revision or Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
 
 ---
 
@@ -3665,7 +3923,7 @@ When
 provided LatestRevision must be true if RevisionName is empty; it must be
 false when RevisionName is non-empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
 
 ---
 
@@ -3679,7 +3937,7 @@ RevisionName *string
 
 RevisionName of a specific revision to which to send this portion of traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
 
 ---
 
@@ -3693,7 +3951,7 @@ Tag *string
 
 Tag is optionally used to expose a dedicated url for referencing this target exclusively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
 
 ---
 
@@ -3704,7 +3962,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceMetadataOutputReference
 ```
@@ -4117,7 +4375,7 @@ func InternalValue() GoogleCloudRunServiceMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceStatusConditionsList
 ```
@@ -4266,7 +4524,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceStatusConditionsOutputReference
 ```
@@ -4577,7 +4835,7 @@ func InternalValue() GoogleCloudRunServiceStatusConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceStatusList
 ```
@@ -4726,7 +4984,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceStatusOutputReference
 ```
@@ -5059,7 +5317,7 @@ func InternalValue() GoogleCloudRunServiceStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusTrafficList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusTrafficList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceStatusTrafficList
 ```
@@ -5208,7 +5466,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceStatusTrafficOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceStatusTrafficOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceStatusTrafficOutputReference
 ```
@@ -5530,7 +5788,7 @@ func InternalValue() GoogleCloudRunServiceStatusTraffic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateMetadataOutputReference
 ```
@@ -5939,7 +6197,7 @@ func InternalValue() GoogleCloudRunServiceTemplateMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateOutputReference
 ```
@@ -6272,7 +6530,7 @@ func InternalValue() GoogleCloudRunServiceTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceOutputReference
 ```
@@ -6543,7 +6801,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMap
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference
 ```
@@ -6863,7 +7121,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMap
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersEnvFromList
 ```
@@ -7023,7 +7281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersEnvFromOutputReference
 ```
@@ -7403,7 +7661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceOutputReference
 ```
@@ -7674,7 +7932,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefOutputReference
 ```
@@ -7994,7 +8252,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersEnvList
 ```
@@ -8154,7 +8412,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersEnvOutputReference
 ```
@@ -8521,7 +8779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvValueFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvValueFromOutputReference
 ```
@@ -8805,7 +9063,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefOutputReference
 ```
@@ -9098,7 +9356,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersList
 ```
@@ -9258,7 +9516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcOutputReference
 ```
@@ -9565,7 +9823,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersList
 ```
@@ -9725,7 +9983,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersOutputReference
 ```
@@ -10043,7 +10301,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetOutputReference
 ```
@@ -10392,7 +10650,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHtt
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference
 ```
@@ -10841,7 +11099,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersLivenessProbe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersOutputReference
 ```
@@ -10908,6 +11166,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putEnvFrom">PutEnvFrom</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putLivenessProbe">PutLivenessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putPorts">PutPorts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putReadinessProbe">PutReadinessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putResources">PutResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putStartupProbe">PutStartupProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putVolumeMounts">PutVolumeMounts</a></code> | *No description.* |
@@ -10918,6 +11177,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetLivenessProbe">ResetLivenessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetName">ResetName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetPorts">ResetPorts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetReadinessProbe">ResetReadinessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetResources">ResetResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetStartupProbe">ResetStartupProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetVolumeMounts">ResetVolumeMounts</a></code> | *No description.* |
@@ -11123,6 +11383,18 @@ func PutPorts(value interface{})
 
 ---
 
+##### `PutReadinessProbe` <a name="PutReadinessProbe" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putReadinessProbe"></a>
+
+```go
+func PutReadinessProbe(value GoogleCloudRunServiceTemplateSpecContainersReadinessProbe)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putReadinessProbe.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a>
+
+---
+
 ##### `PutResources` <a name="PutResources" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.putResources"></a>
 
 ```go
@@ -11201,6 +11473,12 @@ func ResetName()
 func ResetPorts()
 ```
 
+##### `ResetReadinessProbe` <a name="ResetReadinessProbe" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetReadinessProbe"></a>
+
+```go
+func ResetReadinessProbe()
+```
+
 ##### `ResetResources` <a name="ResetResources" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.resetResources"></a>
 
 ```go
@@ -11236,6 +11514,7 @@ func ResetWorkingDir()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.envFrom">EnvFrom</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersEnvFromList">GoogleCloudRunServiceTemplateSpecContainersEnvFromList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.livenessProbe">LivenessProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference">GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.ports">Ports</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersPortsList">GoogleCloudRunServiceTemplateSpecContainersPortsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.readinessProbe">ReadinessProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.resources">Resources</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference">GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.startupProbe">StartupProbe</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference">GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.volumeMounts">VolumeMounts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsList">GoogleCloudRunServiceTemplateSpecContainersVolumeMountsList</a></code> | *No description.* |
@@ -11247,6 +11526,7 @@ func ResetWorkingDir()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.livenessProbeInput">LivenessProbeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersLivenessProbe">GoogleCloudRunServiceTemplateSpecContainersLivenessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.portsInput">PortsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.readinessProbeInput">ReadinessProbeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.resourcesInput">ResourcesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResources">GoogleCloudRunServiceTemplateSpecContainersResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.startupProbeInput">StartupProbeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbe">GoogleCloudRunServiceTemplateSpecContainersStartupProbe</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.volumeMountsInput">VolumeMountsInput</a></code> | <code>interface{}</code> | *No description.* |
@@ -11321,6 +11601,16 @@ func Ports() GoogleCloudRunServiceTemplateSpecContainersPortsList
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersPortsList">GoogleCloudRunServiceTemplateSpecContainersPortsList</a>
+
+---
+
+##### `ReadinessProbe`<sup>Required</sup> <a name="ReadinessProbe" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.readinessProbe"></a>
+
+```go
+func ReadinessProbe() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference</a>
 
 ---
 
@@ -11434,6 +11724,16 @@ func PortsInput() interface{}
 
 ---
 
+##### `ReadinessProbeInput`<sup>Optional</sup> <a name="ReadinessProbeInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.readinessProbeInput"></a>
+
+```go
+func ReadinessProbeInput() GoogleCloudRunServiceTemplateSpecContainersReadinessProbe
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a>
+
+---
+
 ##### `ResourcesInput`<sup>Optional</sup> <a name="ResourcesInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersOutputReference.property.resourcesInput"></a>
 
 ```go
@@ -11540,7 +11840,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersPortsList
 ```
@@ -11700,7 +12000,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersPortsOutputReference
 ```
@@ -12049,12 +12349,1075 @@ func InternalValue() interface{}
 ---
 
 
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resetPort">ResetPort</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resetService">ResetService</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetPort` <a name="ResetPort" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resetPort"></a>
+
+```go
+func ResetPort()
+```
+
+##### `ResetService` <a name="ResetService" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.resetService"></a>
+
+```go
+func ResetService()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.portInput">PortInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.serviceInput">ServiceInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.port">Port</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.service">Service</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PortInput`<sup>Optional</sup> <a name="PortInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.portInput"></a>
+
+```go
+func PortInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `ServiceInput`<sup>Optional</sup> <a name="ServiceInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.serviceInput"></a>
+
+```go
+func ServiceInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Port`<sup>Required</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.port"></a>
+
+```go
+func Port() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Service`<sup>Required</sup> <a name="Service" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.service"></a>
+
+```go
+func Service() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a>
+
+---
+
+
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resetPath">ResetPath</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resetPort">ResetPort</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetPath` <a name="ResetPath" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resetPath"></a>
+
+```go
+func ResetPath()
+```
+
+##### `ResetPort` <a name="ResetPort" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.resetPort"></a>
+
+```go
+func ResetPort()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.pathInput">PathInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.portInput">PortInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.path">Path</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.port">Port</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PathInput`<sup>Optional</sup> <a name="PathInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.pathInput"></a>
+
+```go
+func PathInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PortInput`<sup>Optional</sup> <a name="PortInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.portInput"></a>
+
+```go
+func PortInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Path`<sup>Required</sup> <a name="Path" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.path"></a>
+
+```go
+func Path() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Port`<sup>Required</sup> <a name="Port" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.port"></a>
+
+```go
+func Port() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a>
+
+---
+
+
+### GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference <a name="GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
+
+googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putGrpc">PutGrpc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putHttpGet">PutHttpGet</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetFailureThreshold">ResetFailureThreshold</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetGrpc">ResetGrpc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetHttpGet">ResetHttpGet</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetPeriodSeconds">ResetPeriodSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetSuccessThreshold">ResetSuccessThreshold</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetTimeoutSeconds">ResetTimeoutSeconds</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutGrpc` <a name="PutGrpc" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putGrpc"></a>
+
+```go
+func PutGrpc(value GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putGrpc.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a>
+
+---
+
+##### `PutHttpGet` <a name="PutHttpGet" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putHttpGet"></a>
+
+```go
+func PutHttpGet(value GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.putHttpGet.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a>
+
+---
+
+##### `ResetFailureThreshold` <a name="ResetFailureThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetFailureThreshold"></a>
+
+```go
+func ResetFailureThreshold()
+```
+
+##### `ResetGrpc` <a name="ResetGrpc" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetGrpc"></a>
+
+```go
+func ResetGrpc()
+```
+
+##### `ResetHttpGet` <a name="ResetHttpGet" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetHttpGet"></a>
+
+```go
+func ResetHttpGet()
+```
+
+##### `ResetPeriodSeconds` <a name="ResetPeriodSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetPeriodSeconds"></a>
+
+```go
+func ResetPeriodSeconds()
+```
+
+##### `ResetSuccessThreshold` <a name="ResetSuccessThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetSuccessThreshold"></a>
+
+```go
+func ResetSuccessThreshold()
+```
+
+##### `ResetTimeoutSeconds` <a name="ResetTimeoutSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.resetTimeoutSeconds"></a>
+
+```go
+func ResetTimeoutSeconds()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.grpc">Grpc</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.httpGet">HttpGet</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.failureThresholdInput">FailureThresholdInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.grpcInput">GrpcInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.httpGetInput">HttpGetInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.periodSecondsInput">PeriodSecondsInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.successThresholdInput">SuccessThresholdInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.timeoutSecondsInput">TimeoutSecondsInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.failureThreshold">FailureThreshold</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.periodSeconds">PeriodSeconds</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.successThreshold">SuccessThreshold</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.timeoutSeconds">TimeoutSeconds</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Grpc`<sup>Required</sup> <a name="Grpc" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.grpc"></a>
+
+```go
+func Grpc() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference</a>
+
+---
+
+##### `HttpGet`<sup>Required</sup> <a name="HttpGet" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.httpGet"></a>
+
+```go
+func HttpGet() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference</a>
+
+---
+
+##### `FailureThresholdInput`<sup>Optional</sup> <a name="FailureThresholdInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.failureThresholdInput"></a>
+
+```go
+func FailureThresholdInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `GrpcInput`<sup>Optional</sup> <a name="GrpcInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.grpcInput"></a>
+
+```go
+func GrpcInput() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc</a>
+
+---
+
+##### `HttpGetInput`<sup>Optional</sup> <a name="HttpGetInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.httpGetInput"></a>
+
+```go
+func HttpGetInput() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet">GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet</a>
+
+---
+
+##### `PeriodSecondsInput`<sup>Optional</sup> <a name="PeriodSecondsInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.periodSecondsInput"></a>
+
+```go
+func PeriodSecondsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `SuccessThresholdInput`<sup>Optional</sup> <a name="SuccessThresholdInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.successThresholdInput"></a>
+
+```go
+func SuccessThresholdInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `TimeoutSecondsInput`<sup>Optional</sup> <a name="TimeoutSecondsInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.timeoutSecondsInput"></a>
+
+```go
+func TimeoutSecondsInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `FailureThreshold`<sup>Required</sup> <a name="FailureThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.failureThreshold"></a>
+
+```go
+func FailureThreshold() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `PeriodSeconds`<sup>Required</sup> <a name="PeriodSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.periodSeconds"></a>
+
+```go
+func PeriodSeconds() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `SuccessThreshold`<sup>Required</sup> <a name="SuccessThreshold" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.successThreshold"></a>
+
+```go
+func SuccessThreshold() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `TimeoutSeconds`<sup>Required</sup> <a name="TimeoutSeconds" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.timeoutSeconds"></a>
+
+```go
+func TimeoutSeconds() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleCloudRunServiceTemplateSpecContainersReadinessProbe
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersReadinessProbe">GoogleCloudRunServiceTemplateSpecContainersReadinessProbe</a>
+
+---
+
+
 ### GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference <a name="GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference
 ```
@@ -12361,7 +13724,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpcOutputReference
 ```
@@ -12668,7 +14031,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList
 ```
@@ -12828,7 +14191,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersOutputReference
 ```
@@ -13146,7 +14509,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetOutputReference
 ```
@@ -13495,7 +14858,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference
 ```
@@ -13986,7 +15349,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersStartupProbe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketOutputReference
 ```
@@ -14264,7 +15627,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersVolumeMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecContainersVolumeMountsList
 ```
@@ -14424,7 +15787,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference
 ```
@@ -14487,6 +15850,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.resetSubPath">ResetSubPath</a></code> | *No description.* |
 
 ---
 
@@ -14640,6 +16004,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetSubPath` <a name="ResetSubPath" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.resetSubPath"></a>
+
+```go
+func ResetSubPath()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -14649,8 +16019,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.mountPathInput">MountPathInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.subPathInput">SubPathInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.mountPath">MountPath</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.subPath">SubPath</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
@@ -14699,6 +16071,16 @@ func NameInput() *string
 
 ---
 
+##### `SubPathInput`<sup>Optional</sup> <a name="SubPathInput" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.subPathInput"></a>
+
+```go
+func SubPathInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `MountPath`<sup>Required</sup> <a name="MountPath" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.mountPath"></a>
 
 ```go
@@ -14713,6 +16095,16 @@ func MountPath() *string
 
 ```go
 func Name() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SubPath`<sup>Required</sup> <a name="SubPath" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecContainersVolumeMountsOutputReference.property.subPath"></a>
+
+```go
+func SubPath() *string
 ```
 
 - *Type:* *string
@@ -14735,7 +16127,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecOutputReference
 ```
@@ -15195,7 +16587,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesCsiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesCsiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecVolumesCsiOutputReference
 ```
@@ -15524,7 +16916,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecVolumesCsi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesEmptyDirOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesEmptyDirOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecVolumesEmptyDirOutputReference
 ```
@@ -15831,7 +17223,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecVolumesEmptyDir
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecVolumesList
 ```
@@ -15991,7 +17383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesNfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecVolumesNfsOutputReference
 ```
@@ -16313,7 +17705,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecVolumesNfs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecVolumesOutputReference
 ```
@@ -16770,7 +18162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecretItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesSecretItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTemplateSpecVolumesSecretItemsList
 ```
@@ -16930,7 +18322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecretItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesSecretItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTemplateSpecVolumesSecretItemsOutputReference
 ```
@@ -17270,7 +18662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference
 ```
@@ -17612,7 +19004,7 @@ func InternalValue() GoogleCloudRunServiceTemplateSpecVolumesSecret
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudRunServiceTimeoutsOutputReference
 ```
@@ -17948,7 +19340,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTrafficList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTrafficList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudRunServiceTrafficList
 ```
@@ -18108,7 +19500,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTrafficOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice"
 
 googlecloudrunservice.NewGoogleCloudRunServiceTrafficOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudRunServiceTrafficOutputReference
 ```
